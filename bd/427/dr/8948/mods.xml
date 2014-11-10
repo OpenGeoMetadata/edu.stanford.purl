@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Counties: Russian River Watershed, California, 1990</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>Circuit Rider Productions</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>Circuit Rider Productions</publisher>
+    <place>
+      <placeTerm type="text">Windsor, California, US</placeTerm>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2002</dateIssued>
+    <dateValid encoding="w3cdtf">1990</dateValid>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <extent>0.342</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject>
+    <cartographics>
+      <scale>1:100000</scale>
+      <projection>EPSG::26910</projection>
+      <coordinates>(W 124°1ʹ24ʺ--W 122°2ʹ20ʺ/N 40°21ʺ--N 38°6ʹ28ʺ)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This polygon dataset contains county boundaries and features (usually shorelines). The county outlines were digitized from 1:100,000 scale mylar USGS quad sheets.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">Users can draw this layer instead of using the tile boundary (which is also a county line). Users can display shorelines or legal county lines or both by employing the BAY and DISPLAY items.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">Circuit Rider Productions and National Oceanic and Atmospheric Administration (2002). Counties: Russian River Watershed, California, 1990. Circuit Rider Productions. Available at: http://purl.stanford.edu/bd427dr8948</note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Counties</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Administrative and political divisions</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5397100/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Sonoma County (Calif.)</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5364466/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Lake County (Calif.)</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5372163/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Mendocino County (Calif.)</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5376101/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Napa County (Calif.)</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5389382/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Russian River Watershed (Calif.)</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">1990</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="inlandWaters">Inland Waters</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/bd427dr8948</url>
+  </location>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:bd427dr8948</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/bd427dr8948">
+        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type>Dataset#Polygon</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:26910">
+            <gml:lowerCorner>-124.02328 38.107701</gml:lowerCorner>
+            <gml:upperCorner>-122.038936 40.005839</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5397100/about.rdf" dc:language="eng" dc:title="Sonoma County (Calif.)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5364466/about.rdf" dc:language="eng" dc:title="Lake County (Calif.)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5372163/about.rdf" dc:language="eng" dc:title="Mendocino County (Calif.)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5376101/about.rdf" dc:language="eng" dc:title="Napa County (Calif.)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5389382/about.rdf" dc:language="eng" dc:title="Russian River Watershed (Calif.)"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+</mods>

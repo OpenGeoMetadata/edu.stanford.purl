@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Roads: Southern Province, Zambia, 1985-2014</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>Provincial Centre for Geographic Information Services (Zambia)</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>Provincial Centre for Geographic Information Services (Zambia)</publisher>
+    <place>
+      <placeTerm type="text">Livingstone, ZM</placeTerm>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+    <dateValid encoding="w3cdtf" point="start">1985</dateValid>
+    <dateValid encoding="w3cdtf" point="end">2014</dateValid>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::20935</projection>
+      <coordinates>(E 24°14ʹ13ʺ--E 28°56ʹ/S 15°16ʹ17ʺ--S 18°15ʺ)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This line shapefile shows all of the roads in the Southern Province of Zambia for 1985-2014. These data were digitized from 1:250,000 scale topographic maps. This layer is part of a collection of GIS data relating to Zambia including boundary files, rivers, roads, schools, utilities, protected areas and vegetation.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">This layer is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">Zambia Provincial Centre for Geographic Information Services. (2014) Roads: Southern Province, Zambia, 1985-2014. PCGIS. Available at: http://purl.stanford.edu/fd344qt7928</note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Roads</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/896972/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Southern Province (Zambia)</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf" point="start">1985</temporal>
+    <temporal encoding="w3cdtf" point="end">2014</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="transportation">Transportation</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/fd344qt7928</url>
+  </location>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:fd344qt7928</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/fd344qt7928">
+        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type>Dataset#LineString</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:20935">
+            <gml:lowerCorner>24.236815 -18.004193</gml:lowerCorner>
+            <gml:upperCorner>28.933452 -15.271499</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="http://sws.geonames.org/896972/about.rdf" dc:language="eng" dc:title="Southern Province (Zambia)"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+</mods>

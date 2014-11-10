@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Protected Areas: Zambia, 1985-2014</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>Provincial Centre for Geographic Information Services (Zambia)</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>Provincial Centre for Geographic Information Services (Zambia)</publisher>
+    <place>
+      <placeTerm type="text">Livingstone, ZM</placeTerm>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+    <dateValid encoding="w3cdtf" point="start">1985</dateValid>
+    <dateValid encoding="w3cdtf" point="end">2014</dateValid>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>World Geodetic System (WGS84)</projection>
+      <coordinates>(E 17°20ʹ44ʺ--E 33°24ʹ22ʺ/S 10°11ʹ22ʺ--S 23°19ʹ21ʺ)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile shows the boundaries of protected lands in Zambia for 1985-2014. These data were digitized from 1:50,000 scale topographic maps and Earthsat imagery. This layer is part of a collection of GIS data relating to Zambia including boundary files, rivers, roads, schools, utilities, protected areas and vegetation.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">This layer is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">Zambia Provincial Centre for Geographic Information Services. (2014) Protected Areas: Zambia, 1985-2014. PCGIS. Available at: http://purl.stanford.edu/fy412br4706</note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Protected areas</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/895949/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Zambia</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf" point="start">1985</temporal>
+    <temporal encoding="w3cdtf" point="end">2014</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="environment">Environment</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/fy412br4706</url>
+  </location>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:fy412br4706</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/fy412br4706">
+        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type>Dataset#Polygon</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>17.345521 -23.32263</gml:lowerCorner>
+            <gml:upperCorner>33.40601 -10.18951</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="http://sws.geonames.org/895949/about.rdf" dc:language="eng" dc:title="Zambia"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+</mods>

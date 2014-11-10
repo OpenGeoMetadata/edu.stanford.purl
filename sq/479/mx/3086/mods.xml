@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Offshore Platforms in the Gulf of Mexico, 2011</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>Minerals Management Service</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>Hart Energy Publishing</publisher>
+    <place>
+      <placeTerm type="text">San Diego, California, US</placeTerm>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2008</dateIssued>
+    <dateValid encoding="w3cdtf">2011</dateValid>
+    <edition>1007 Update</edition>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <extent>0.186 MB</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>North American Datum (NAD83)</projection>
+      <coordinates>(W 97°6ʹ49ʺ--W 87°45ʹ27ʺ/N 30°11ʹ43ʺ--N 26°2ʹ10ʺ)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This point shapefile shows the location of platforms in Gulf Of Mexico. All platforms existing in the database are included.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">This layer is intended to assist users in locating and analyzing information on offshore platforms in the Gulf of Mexico and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">Minerals Management Service. (2012) Offshore Block Groups in the Gulf of Mexico, 2011. Hart Energy Publishing. Available at: http://purl.stanford.edu/sq479mx3086</note>
+  <note displayLabel="Supplemental information">This release is intended to replace all previous datasets.</note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Drilling Platforms</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/3523271/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Mexico, Gulf of</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">2011</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="utilitiesCommunication">Utilities and Communication</topic>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI=""/>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="inlandWaters">Inland Waters</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/sq479mx3086</url>
+  </location>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:sq479mx3086</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/sq479mx3086">
+        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type>Dataset#Point</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4269">
+            <gml:lowerCorner>-97.113524 26.036053</gml:lowerCorner>
+            <gml:upperCorner>-87.75762 30.195178</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="http://sws.geonames.org/3523271/about.rdf" dc:language="eng" dc:title="Mexico, Gulf of"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+</mods>

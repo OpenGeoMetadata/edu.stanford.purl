@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Land Use and Landcover: Riparian Zone of Russian River Tributaries, Mendocino County, California, 1992</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>Circuit Rider Productions</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>Circuit Rider Productions</publisher>
+    <place>
+      <placeTerm type="text">Windsor, California, US</placeTerm>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2002</dateIssued>
+    <dateValid encoding="w3cdtf">1992</dateValid>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <extent>0.41</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::26910</projection>
+      <coordinates>(W 123°17ʹ52ʺ--W 123°1ʹ47ʺ/N 39°20ʹ49ʺ--N 38°51ʹ8ʺ)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile shows the 1992 land use/land cover of the riparian zone of the Russian River tributaries in Mendocino County, California. The polygons were digitized from 1:6,000-scale aerial photo enlargements. This work is a result of the Upper Russian River Aggregate Resources Management Plan. Feature boundaries were interpreted from aerial photos and were registered to a digital map based on USGS 1:1000,000-scale DLGs using the projective transformation routine in AutoCAD Release 12.0. Manual digitizing was done on a 24" x 36" CalComp Drawing Board II digitizing tablet. ArcView 3.1 was used to convert the AutoCAD drawings to GIS coverages by creating topology and links to the attribute data. </abstract>
+  <abstract displayLabel="Purpose" lang="eng">This layer can be used for land use analysis and planning in the Russian River region of California.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">Circuit Rider Productions and National Oceanic and Atmospheric Administration (2002). Land Use and Landcover: Riparian Zone of Russian River Tributaries, Mendocino County, California, 1992. Circuit Rider Productions. Available at: http://purl.stanford.edu/cc432ww3963</note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Land use</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Land cover</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Vegetation boundaries</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5397100/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Sonoma County (Calif.)</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5372163/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Mendocino County (Calif.)</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5389382/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Russian River Watershed (Calif.)</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">1992</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="inlandWaters">Inland Waters</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/cc432ww3963</url>
+  </location>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:cc432ww3963</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/cc432ww3963">
+        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type>Dataset#Polygon</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:26910">
+            <gml:lowerCorner>-123.297786 38.85233</gml:lowerCorner>
+            <gml:upperCorner>-123.02967 39.347025</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5397100/about.rdf" dc:language="eng" dc:title="Sonoma County (Calif.)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5372163/about.rdf" dc:language="eng" dc:title="Mendocino County (Calif.)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5389382/about.rdf" dc:language="eng" dc:title="Russian River Watershed (Calif.)"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+</mods>

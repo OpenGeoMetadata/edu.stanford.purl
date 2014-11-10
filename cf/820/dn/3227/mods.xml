@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Lakes: Paktīkā Province, Afghanistan, 2005</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>Afghanistan Information Management Service</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>Afghanistan Information Management Service</publisher>
+    <place>
+      <placeTerm type="text">Kabul, Kabul, AF</placeTerm>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2005</dateIssued>
+    <dateValid encoding="w3cdtf">2005</dateValid>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>::</projection>
+      <coordinates>(E 65°37ʹ22ʺ--E 65°43ʹ39ʺ/N 31°38ʹ19ʺ--N 31°36ʹ28ʺ)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile shows the lakes of the Paktīkā Province in Afghanistan for 2005. This layer is part of the Topographic Maps of Afghanistan and Kabul dataset which contains shapefiles relating to district and provincial boundaries, land use, transportation, buildings and structures, rivers, settlements and other specific city data.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">Afghanistan Information Management Service (2005). Lakes: Paktīkā Province, Afghanistan, 2005. Afghanistan Information Management Service. Available at: http://purl.stanford.edu/cf820dn3227</note>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/1131256/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Paktīkā (Afghanistan)</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">2005</temporal>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/cf820dn3227</url>
+  </location>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:cf820dn3227</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/cf820dn3227">
+        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type>Dataset#Polygon</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName=":">
+            <gml:lowerCorner>65.622688 31.60771</gml:lowerCorner>
+            <gml:upperCorner>65.727419 31.63859</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="http://sws.geonames.org/1131256/about.rdf" dc:language="eng" dc:title="Paktīkā (Afghanistan)"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+</mods>

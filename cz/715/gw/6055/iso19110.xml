@@ -1,0 +1,744 @@
+<gfc:FC_FeatureCatalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.isotc211.org/2005/gfc" xsi:schemaLocation="http://www.isotc211.org/2005/gfc http://www.isotc211.org/2005/gfc/gfc.xsd" uuid="4f7e1ea8-cb33-4633-92fa-c3ae8b5a7ff5">
+  <gmx:name>
+    <gco:CharacterString>Feature Catalog for California Salmonid Habitat Inventory: Russian River Basin, California, 1996-2002</gco:CharacterString>
+  </gmx:name>
+  <gmx:scope>
+    <gco:CharacterString>Salmonid; Restoration monitoring (Ecology)</gco:CharacterString>
+  </gmx:scope>
+  <gmx:versionNumber gco:nilReason="unknown"/>
+  <gmx:versionDate>
+    <gco:Date>2002</gco:Date>
+  </gmx:versionDate>
+  <gmx:language>
+    <gco:CharacterString>eng; US</gco:CharacterString>
+  </gmx:language>
+  <gmx:characterSet>
+    <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115"/>
+  </gmx:characterSet>
+  <gfc:producer>
+    <gmd:CI_ResponsibleParty>
+      <gmd:organisationName>
+        <gco:CharacterString>Circuit Rider Productions</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="006"/>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gfc:producer>
+  <gfc:featureType>
+    <gfc:FC_FeatureType>
+      <gfc:typeName>
+        <gco:LocalName>rr_habitat</gco:LocalName>
+      </gfc:typeName>
+      <gfc:definition/>
+      <gfc:isAbstract>
+        <gco:Boolean>false</gco:Boolean>
+      </gfc:isAbstract>
+      <gfc:featureCatalogue uuidref="4f7e1ea8-cb33-4633-92fa-c3ae8b5a7ff5"/>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>FID</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Internal feature number.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Esri</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>Esri</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>OID</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>Shape</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Feature geometry.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Esri</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>Esri</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Geometry</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>FNODE_</gco:LocalName>
+          </gfc:memberName>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>TNODE_</gco:LocalName>
+          </gfc:memberName>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>LPOLY_</gco:LocalName>
+          </gfc:memberName>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>RPOLY_</gco:LocalName>
+          </gfc:memberName>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>LENGTH</gco:LocalName>
+          </gfc:memberName>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>RRHABITAT_</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Unique Identifier</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>RRHABITAT1</gco:LocalName>
+          </gfc:memberName>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>STREAM</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The Stream Name as it appears exactly on the USGS 7.5 minute topo. This includes upper/lower case and commas. If there is no name on topo enter the acepted name locally.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>PNMCD</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The PNMCD of the confluence arc of the stream surveyed from the US EPA reach file, only if available.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>DATE</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Enter numeric month/day/year, stream was surveyed. Example: 10/20/94</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Date</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>CHANNLTYPE</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The channel type from the completed Stream Channel Type Worksheet,
+p III-26. Enter letter then number, using capital letters, with no
+dash to separate.
+Example:
+A1
+
+Stream Channel Types
+
+A1 General Description: Steep, narrow, cascading, step-pool streams;
+high energy/debris transport associated with depositional soils;
+very stable bedrock channel.
+Entrenchment: Entrenched &lt; 1.4
+Water Slope/Gradient: 4-10%
+Dominant Substrate Particle Size: Predominantly bedrock.
+Width/Depth Ratio: &lt; 12
+Sinuosity: &lt; 1.2
+
+A2 General Description: Steep, narrow, cascading, step-pool streams;
+high energy/debris transport associated with depositional soils;
+boulder channel.
+Entrenchment: Entrenched &lt; 1.4
+Water Slope/Gradient: 4-10%
+Dominant Substrate: Predominantly boulders.
+Width/Depth Ratio: &lt; 12
+Sinuosity: &lt; 1.2
+
+A3 General Description: Steep, narrow, cascading, step-pool streams;
+high energy/debris transport associated with depositional soils;
+cobble channel.
+Entrenchment: Entrenched &lt; 1.4
+Water Slope/Gradient: 4-10%
+Dominant Substrate: Predominantly cobble.
+Width/Depth Ratio: &lt; 12
+Sinuosity: &lt; 1.2
+
+A4 General Description: Steep, narrow, cascading, step-pool streams;
+high energy/debris transport associated with depositional soils;
+gravel channel.
+Entrenchment: Entrenched &lt; 1.4
+Water Slope/Gradient: 4-10%
+Dominant Substrate: Predominantly gravel.
+Width/Depth Ratio: &lt; 12
+Sinuosity: &lt; 1.2
+
+A5 General Description: Steep, narrow, cascading, step-pool streams;
+high energy/debris transport associated with depositional soils;
+sand channel.
+Entrenchment: Entrenched &lt; 1.4
+Water Slope/Gradient: 4-10%
+Dominant Substrate: Predominantly sand.
+Width/Depth Ratio: &lt; 12
+Sinuosity: &lt; 1.2
+
+A6 General Description: Steep, narrow, cascading, step-pool streams;
+high energy/debris transport associated with depositional soils;
+silt/clay channel.
+Entrenchment: Entrenched &lt; 1.4
+Water Slope/Gradient: 4-10%
+Dominant Substrate: Predominantly silt/clay.
+Width/Depth Ratio: &lt; 12
+Sinuosity: &lt; 1.2
+
+B1 General Description: Moderately entrenched, moderate gradient,
+riffle dominated channel, with infrequently spaced pools; very
+stable plan and profile; stable banks; bedrock channel.
+Entrenchment: Moderately entrenched 1.4 - 2.2
+Water Slope/Gradient: 2-4%
+Dominant Substrate: Predominantly bedrock.
+Width/Depth Ratio: &gt; 12
+Sinuosity: &gt; 1.2
+
+B2 General Description: Moderately entrenched, moderate gradient,
+riffle dominated channel, with infrequently spaced pools; very
+stable banks; boulder channel.
+Entrenchment: Moderately entrenched 1.4 - 2.2
+Water Slope/Gradient: 2-4%
+Dominant Substrate: Predominantly boulders.
+Width/Depth Ratio: &gt; 12
+Sinuosity: &gt; 1.2
+
+B3 General Description: Moderately entrenched, moderate gradient,
+riffle dominated channel, with infrequently spaced pools; very
+very stable plan and profile; stable banks; cobble channel.
+Entrenchment: Moderately entrenched 1.4 - 2.2
+Water Slope/Gradient: 2-4%
+Dominant Substrate: Predominantly cobble.
+Width/Depth Ratio: &gt; 12
+Sinuosity: &gt; 1.2
+
+B4 General Description: Moderately entrenched, moderate gradient,
+riffle dominated channel, with infrequently spaced pools; very
+stable plan and profile; stable banks; gravel channel.
+Entrenchment: Moderately entrenched 1.4 - 2.2
+Water Slope/Gradient: 2-4%
+Dominant Substrate: Predominantly gravel.
+Width/Depth Ratio: &gt; 12
+Sinuosity: &gt; 1.2
+
+B5 General Description: Moderately entrenched, moderate gradient,
+riffle dominated channel, with infrequently spaced pools; very
+stable plan and profile; stable banks; sand channel.
+Entrenchment: Moderately entrenched 1.4 - 2.2
+Water Slope/Gradient: 2-4%
+Dominant Substrate: Predominantly sand.
+Width/Depth Ratio: &gt; 12
+Sinuosity: &gt; 1.2
+
+B6 General Description: Moderately entrenched, moderate gradient,
+riffle dominated channel, with infrequently spaced pools; very
+stable plan and profile; stable banks; silt/clay channel.
+Entrenchment: Moderately entrenched 1.4 - 2.2
+Water Slope/Gradient: 2-4%
+Dominant Substrate: Predominantly silt/clay.
+Width/Depth Ratio: &gt; 12
+Sinuosity: &gt; 1.2
+
+C1 General Description: Low gradient, meandering, point-bar, riffle/pool,
+alluvial channels with broad, well defined floodplain; bedrock channel.
+Entrenchment: Slightly entrenched &gt; 2.2
+Water Slope/Gradient: &lt; 2%
+Dominant Substrate: Predominantly bedrock.
+Width/Depth Ratio: &gt; 12
+Sinuosity: &gt; 1.4
+
+C2 General Description: Low gradient, meandering, point-bar, riffle/pool,
+alluvial channels with broad, well defined floodplain; boulder channel.
+Entrenchment: Slightly entrenched &gt; 2.2
+Water Slope/Gradient: &lt; 2%
+Dominant Substrate: Predominantly boulder.
+Width/Depth Ratio: &gt; 12
+Sinuosity: &gt; 1.4
+
+C3 General Description: Low gradient, meandering, point-bar, riffle/pool,
+alluvial channels with broad, well defined floodplain; cobble channel.
+Entrenchment: Slightly entrenched &gt; 2.2
+Water Slope/Gradient: &lt; 2%
+Dominant Substrate: Predominantly cobble.
+Width/Depth Ratio: &gt; 12
+Sinuosity: &gt; 1.4
+
+C4 General Description: Low gradient, meandering, point-bar, riffle/pool,
+alluvial channels with broad, well defined floodplain; gravel channel.
+Entrenchment: Slightly entrenched &gt; 2.2
+Water Slope/Gradient: &lt; 2%
+Dominant Substrate: Predominantly gravel.
+Width/Depth Ratio: &gt; 12
+Sinuosity: &gt; 1.4
+
+C5 General Description: Low gradient, meandering, point-bar, riffle/pool,
+alluvial channels with broad, well defined floodplain; sand channel.
+Entrenchment: Slightly entrenched &gt; 2.2
+Water Slope/Gradient: &lt; 2%
+Dominant Substrate: Predominantly sand.
+Width/Depth Ratio: &gt; 12
+Sinuosity: &gt; 1.4
+
+C6 General Description: Low gradient, meandering, point-bar, riffle/pool,
+alluvial channels with broad, well defined floodplain; silt/clay channel.
+Entrenchment: Slightly entrenched &gt; 2.2
+Water Slope/Gradient: &lt; 2%
+Dominant Substrate: Predominantly silt/clay.
+Width/Depth Ratio: &gt; 12
+Sinuosity: &gt; 1.4
+
+D3 General Description: Multiple channels with longitudinal and
+transverse bars; very wide channel with eroding banks; cobble channel.
+Entrenchment: No entrenchment.
+Water Slope/Gradient: &lt; 2%
+Dominant Substrate: Predominantly cobble.
+Width/Depth Ratio: &gt; 40
+Sinuosity: &lt; 1.1
+
+D4 General Description: Multiple channels with longitudinal and
+transverse bars; very wide channel with eroding banks; gravel channel.
+Entrenchment: No entrenchment.
+Water Slope/Gradient: &lt; 2%
+Dominant Substrate: Predominantly gravel.
+Width/Depth Ratio: &gt; 40
+Sinuosity: &lt; 1.1
+
+D5 General Description: Multiple channels with longitudinal and
+transverse bars; very wide channel with eroding banks; sand channel.
+Entrenchment: No entrenchment.
+Water Slope/Gradient: &lt; 2%
+Dominant Substrate: Predominantly sand.
+Width/Depth Ratio: &gt; 40
+Sinuosity: &lt; 1.1
+
+D6 General Description: Braided channel with longitudinal and
+transverse bars; very wide channel with eroding banks; silt/clay channel.
+Entrenchment: No entrenchment.
+Water Slope/Gradient: &lt; 2%
+Dominant Substrate: Predominantly silt/clay.
+Width/Depth Ratio: &gt; 40
+Sinuosity: &lt; 1.1
+
+DA4 General Description: Multiple channels, narrow and deep with
+expansize well vegetatedfloodplain and associated wetlands; very
+gentle relief with highly variable sinuosities; stable stream
+gravel channel.
+Entrenchment: Low to zero entrenchment &gt; 2.2
+Water Slope/Gradient: &lt; 0.5%
+Dominant Substrate: Predominantly gravel.
+Width/Depth Ratio: &lt; 40
+Sinuosity: 1.1 - 1.6
+
+DA5 General Description: Multiple channels, narrow and deep with
+expansive well vegetated floodplain and associated wetlands; very
+gentle relief with highly variable sinuosities; stable stream
+banks; sand channel.
+Entrenchment: Low to zero entrenchment &gt; 2.2
+Water Slope/Gradient: &lt; 0.5%
+Dominant Substrate: Predominantly sand.
+Width/Depth Ratio: &lt; 40
+Sinuosity: 1.1 - 1.6
+
+DA6 General Description: Multiple channels, narrow and deep with
+expansive well vegetated floodplain and associated wetlands; very
+gentle relief with highly variable sinuosities; stable stream
+banks; silt/clay channel.
+Entrenchment: Low to zero entrenchment &gt; 2.2
+Water Slope/Gradient: &lt; 0.5%
+Dominant Substrate: Predominantly silt/clay.
+Width/Depth Ratio: &lt; 40
+Sinuosity: 1.1 - 1.6
+
+E3 General Description: Low gradient, meandering riffle/pool stream
+with low width/depth ratio and little deposition; very efficient
+and stable; high meander width ratio; cobble channel.
+Entrenchment: Slight entrenchment &gt; 2.2
+Water Slope/Gradient: &lt; 2%
+Dominant Substrate: Predominantly cobbles.
+Width/Depth Ratio: &lt; 12
+Sinuosity: &gt; 1.5
+
+E4 General Description: Low gradient, meandering riffle/pool stream
+with low width/depth ratio and little deposition; very efficient
+and stable; high meander width ratio; gravel channel.
+Entrenchment: Slight entrenchment &gt; 2.2
+Water Slope/Gradient: &lt; 2%
+Dominant Substrate: Predominantly gravel.
+Width/Depth Ratio: &lt; 12
+Sinuosity: &gt; 1.5
+
+E5 General Description: Low gradient, meandering riffle/pool stream
+with low width/depth ratio and little deposition; very efficient
+and stable; high meander width ratio; sand channel.
+Entrenchment: Slight entrenchment &gt; 2.2
+Water Slope/Gradient: &lt; 2%
+Dominant Substrate: Predominantly sand.
+Width/Depth Ratio: &lt; 12
+Sinuosity: &gt; 1.5
+
+E6 General Description: Low gradient, meandering riffle/pool stream
+with low width/depth ratio and little deposition; very efficient
+and stable; high meander width ratio; silt/clay channel.
+Entrenchment: Slight entrenchment &gt; 2.2
+Water Slope/Gradient: &lt; 2%
+Dominant Substrate: Predominantly silt/clay.
+Width/Depth Ratio: &lt; 12
+Sinuosity: &gt; 1.5
+
+F1 General Description: Entrenched meandering riffle/pool channel
+on low gradients with high width/depth ratio; very stable if
+bedrock controlled channel.
+Entrenchment: Well entrenched &lt; 1.4
+Water Slope/Gradient: &lt; 2%
+Dominant Substrate: Predominantly bedrock.
+Width/Depth Ratio: &gt; 12
+Sinuosity: &gt; 1.4
+
+F2 General Description: Entrenched meandering riffle/pool channel
+on low gradients with high width/depth ratio; boulder channel.
+Entrenchment: Well entrenched &lt; 1.4
+Water Slope/Gradient: &lt; 2%
+Dominant Substrate: Predominantly boulders.
+Width/Depth Ratio: &gt; 12
+Sinuosity: &gt; 1.4
+
+F3 General Description: Entrenched meandering riffle/pool channel
+on low gradients with high width/depth ratio; cobble channel.
+Entrenchment: Well entrenched &lt; 1.4
+Water Slope/Gradient: &lt; 2%
+Dominant Substrate: Predominantly cobble.
+Width/Depth Ratio: &gt; 12
+Sinuosity: &gt; 1.4
+
+F4 General Description: Entrenched meandering riffle/pool channel
+on low gradients with high width/depth ratio; gravel channel.
+Entrenchment: Well entrenched &lt; 1.4
+Water Slope/Gradient: &lt; 2%
+Dominant Substrate: Predominantly gravel.
+Width/Depth Ratio: &gt; 12
+Sinuosity: &gt; 1.4
+
+F5 General Description: Entrenched meandering riffle/pool channel
+on low gradients with high width/depth ratio; sand channel.
+Entrenchment: Well entrenched &lt; 1.4
+Water Slope/Gradient: &lt; 2%
+Dominant Substrate: Predominantly sand.
+Width/Depth Ratio: &gt; 12
+Sinuosity: &gt; 1.4
+
+F6 General Description: Entrenched meandering riffle/pool channel
+on low gradients with high width/depth ratio; silt/clay channel.
+Entrenchment: Well entrenched &lt; 1.4
+Water Slope/Gradient: &lt; 2%
+Dominant Substrate: Predominantly silt/clay.
+Width/Depth Ratio: &gt; 12
+Sinuosity: &gt; 1.4
+
+G1 General Description: Entrenched "gully" step-pool and low width/depth
+ratio on moderate gradient; stable if in a bedrock controlled channel.
+Entrenchment: Well entrenched &lt; 1.4
+Water Slope/Gradient: 2-4%
+Dominant Substrate: Predominantly bedrock.
+Width/Depth Ratio: &lt; 12
+Sinuosity: &gt; 1.2
+
+G2 General Description: Entrenched "gully" step-pool and low width/depth
+ratio on moderate gradient.
+Entrenchment: Well entrenched &lt; 1.4
+Water Slope/Gradient: 2-4%
+Dominant Substrate: Predominantly boulders.
+Width/Depth Ratio: &lt; 12
+Sinuosity: &gt; 1.2
+
+G3 General Description: Entrenched "gully" step-pool and low width/depth
+ratio on moderate gradient.
+Entrenchment: Well entrenched &lt; 1.4
+Water Slope/Gradient: 2-4%
+Dominant Substrate: Predominantly cobble.
+Width/Depth Ratio: &lt; 12
+Sinuosity: &gt; 1.2
+
+G4 General Description: Entrenched "gully" step-pool and low width/depth
+ratio on moderate gradient.
+Entrenchment: Well entrenched &lt; 1.4
+Water Slope/Gradient: 2-4%
+Dominant Substrate: Predominantly gravel.
+Width/Depth Ratio: &lt; 12
+Sinuosity: &gt; 1.2
+
+G5 General Description: Entrenched "gully" step-pool and low width/depth
+ratio on moderate gradient.
+Entrenchment: Well entrenched &lt; 1.4
+Water Slope/Gradient: 2-4%
+Dominant Substrate: Predominantly sand.
+Width/Depth Ratio: &lt; 12
+Sinuosity: &gt; 1.2
+
+G6 General Description: Entrenched "gully" step-pool and low width/depth
+ratio on moderate gradient.
+Entrenchment: Well entrenched &lt; 1.4
+Water Slope/Gradient: 2-4%
+Dominant Substrate: Predominantly silt/clay.
+Width/Depth Ratio: &lt; 12
+Sinuosity: &gt; 1.2
+
+REACH
+-----
+Reach number is the unique number associated with a change in channel types.
+For instance, a stream with 3 different channtypes will have REACH values
+of 1, 2, and 3 for each channel type respectively.
+Enter the reach number. DO NOT enter a leading 0 for values 1 - 9.
+
+TIME
+----
+The military time of survey of each habitat unit.
+Example:
+0900
+
+WATER
+-----
+The numeric value of temperature in Fahrenheit degrees.
+Example:
+62
+
+AIR
+---
+The numeric value of temperature in Fahrenheit degrees.
+Example:
+62
+
+HABUNITNUM
+----------
+The incremental number describing each habitat unit. THERE IS ONE RECORD
+PER HABITAT UNIT.
+Example:
+16
+
+HABTYPE
+-------
+The numeric value of the habitat type as they appear on p III-29,30.
+Example:
+6.0
+
+The number is the [**] are the values entered in this field.
+The numbers in the {**} curly braces are the numbers listed in
+the Pacific Southwest Region Habitat Typing Field Guide USDA-USFS.
+
+This Value
+1. RIFFLE ***
+Low Gradient Riffle: (LGR) [1.1] {1}
+High Gradient Riffle: (HGR) [1.2] {2}
+
+2. CASCADE
+Cascade: (CAS) [2.1] {3}
+Bedrock Sheet: (BRS) [2.2] {24}
+
+3. FLATWATER
+Pocket Water: (POW) [3.1] {21}
+Glide: (GLD) [3.2] {14}
+Run: (RUN) [3.3] {15}
+Step Run: (SRN) [3.4] {16}
+Edgewater: (EDW) [3.5] {18}
+
+4. MAIN CHANNEL POOL
+Trench Pool: (TRP) [4.1] {8}
+Mid-Channel Pool: (MCP) [4.2] {17}
+Channel Confluence Pool: (CCP) [4.3] {19}
+Step Pool: (STP) [4.4] {23}
+
+5. SCOUR POOL
+Corner Pool: (CRP) [5.1] {22}
+L. Scour Pool - Log Enhanced: (LSL) [5.2] {10}
+L. Scour Pool - Root Wad Enhanced: (LSR) [5.3] {11}
+L. Scour Pool - Bedrock Formed: (LSBk) [5.4] {12}
+L. Scour Pool - Boulder Formed: (LSBo) [5.5] {20}
+Plunge Pool: (PLP) [5.6] {9}
+
+6. BACKWATER POOLS
+Secondary Channel Pool: (SCP) [6.1] {4}
+Backwater Pool - Boulder Formed: (BPB) [6.2] {5}
+Backwater Pool - Root Wad Formed: (BPR) [6.3] {6}
+Backwater Pool - Log Formed: (BPL) [6.4] {7}
+Dammed Pool: (DPL) [6.5} {13}</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+    </gfc:FC_FeatureType>
+  </gfc:featureType>
+</gfc:FC_FeatureCatalogue>

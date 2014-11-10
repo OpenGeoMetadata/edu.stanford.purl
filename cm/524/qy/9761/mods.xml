@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Roads TIGER/Line: Russian River Watershed, California, 2000</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>Circuit Rider Productions</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>Circuit Rider Productions</publisher>
+    <place>
+      <placeTerm type="text">Windsor, California, US</placeTerm>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2002</dateIssued>
+    <dateValid encoding="w3cdtf">2000</dateValid>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <extent>3.571</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::26910</projection>
+      <coordinates>(W 123°23ʹ14ʺ--W 122°31ʹ59ʺ/N 39°23ʹ39ʺ--N 38°17ʹ58ʺ)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This line shapefile represents roads within the Russian River Watershed boundaries, extracted from the 2000 TIGER/Line file. The Census 2000 TIGER/Line files are an extract of selected geographic and cartographic information from the Census TIGER data base. </abstract>
+  <abstract displayLabel="Purpose" lang="eng">TIGER/Line file of roads within the Russian River region of California. In order for others to use the information in the Census TIGER data base in a geographic information system (GIS) or for other geographic applications, the Census Bureau releases to the public extracts of the data base in the form of TIGER/Line files.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">Circuit Rider Productions and National Oceanic and Atmospheric Administration (2002). Roads TIGER/Line: Russian River Watershed, California, 2000. Circuit Rider Productions. Available at: http://purl.stanford.edu/cm524qy9761</note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Roads</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5397100/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Sonoma County (Calif.)</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5372163/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Mendocino County (Calif.)</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5389382/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Russian River Watershed (Calif.)</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">2000</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="environment">Environment</topic>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="planningCadastre">Planning and Cadastral</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/cm524qy9761</url>
+  </location>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:cm524qy9761</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/cm524qy9761">
+        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type>Dataset#LineString</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:26910">
+            <gml:lowerCorner>-123.387284 38.299371</gml:lowerCorner>
+            <gml:upperCorner>-122.532983 39.39416</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5397100/about.rdf" dc:language="eng" dc:title="Sonoma County (Calif.)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5372163/about.rdf" dc:language="eng" dc:title="Mendocino County (Calif.)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5389382/about.rdf" dc:language="eng" dc:title="Russian River Watershed (Calif.)"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+</mods>

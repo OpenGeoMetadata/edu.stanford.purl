@@ -28,10 +28,10 @@
     <form>Raster Dataset</form>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <subject>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
     <cartographics>
       <scale>Scale not given.</scale>
-      <projection>World Geodetic System (WGS84)</projection>
+      <projection>EPSG::4326</projection>
       <coordinates>(W 122°30ʹ12ʺ--W 121°54ʹ46ʺ/N 36°26ʹ55ʺ--N 35°58ʹ37ʺ)</coordinates>
     </cartographics>
   </subject>
@@ -95,7 +95,7 @@ Landslides are prominent along the Sur Canyon, with well-defined slumps and flow
         <gml:boundedBy>
           <gml:Envelope gml:srsName="EPSG:4326">
             <gml:lowerCorner>-122.50336 35.977001</gml:lowerCorner>
-            <gml:upperCorner>-121.912701 36.448527</gml:upperCorner>
+            <gml:upperCorner>-121.9127009 36.4485274</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
         <dc:coverage rdf:resource="http://sws.geonames.org/5374363/about.rdf" dc:language="eng" dc:title="Monterey Bay (Calif.)"/>

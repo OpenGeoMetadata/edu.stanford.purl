@@ -30,10 +30,10 @@
     <extent>23.345</extent>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <subject>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
     <cartographics>
       <scale>1:5000</scale>
-      <projection>ESRI::4326</projection>
+      <projection>EPSG::4326</projection>
       <coordinates>(E 68°52ʹ31ʺ--E 69°30ʹ28ʺ/N 34°40ʹ37ʺ--N 34°15ʹ47ʺ)</coordinates>
     </cartographics>
   </subject>
@@ -70,7 +70,7 @@
         <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
         <dc:type>Dataset#LineString</dc:type>
         <gml:boundedBy>
-          <gml:Envelope gml:srsName="ESRI:4326">
+          <gml:Envelope gml:srsName="EPSG:4326">
             <gml:lowerCorner>68.875231 34.263173</gml:lowerCorner>
             <gml:upperCorner>69.507862 34.676994</gml:upperCorner>
           </gml:Envelope>

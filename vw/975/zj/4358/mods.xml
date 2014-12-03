@@ -49,7 +49,7 @@
     <geographic lang="eng" valueURI="http://sws.geonames.org/5372163/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Mendocino County (Calif.)</geographic>
   </subject>
   <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5389382/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Russian River Watershed (Calif.)</geographic>
+    <geographic lang="eng">Russian River Watershed (Calif.)</geographic>
   </subject>
   <subject>
     <temporal encoding="w3cdtf">1992</temporal>
@@ -74,15 +74,15 @@
         <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
         <dc:type>Dataset#Polygon</dc:type>
         <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:26910">
-            <gml:lowerCorner>-123.387866 38.298024</gml:lowerCorner>
-            <gml:upperCorner>-122.522658 39.399217</gml:upperCorner>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>-123.387626 38.298673</gml:lowerCorner>
+            <gml:upperCorner>-122.528843 39.399103</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
         <dc:coverage rdf:resource="http://sws.geonames.org/5397100/about.rdf" dc:language="eng" dc:title="Sonoma County (Calif.)"/>
         <dc:coverage rdf:resource="http://sws.geonames.org/5372163/about.rdf" dc:language="eng" dc:title="Mendocino County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5389382/about.rdf" dc:language="eng" dc:title="Russian River Watershed (Calif.)"/>
+        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Russian River Watershed (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-</mods>
+<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 123°23ʹ15ʺ--W 122°31ʹ44ʺ/N 39°23ʹ57ʺ--N 38°17ʹ55ʺ</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>

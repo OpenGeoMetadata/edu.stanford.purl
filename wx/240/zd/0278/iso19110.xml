@@ -1,9 +1,9 @@
-<gfc:FC_FeatureCatalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.isotc211.org/2005/gfc" xsi:schemaLocation="http://www.isotc211.org/2005/gfc http://www.isotc211.org/2005/gfc/gfc.xsd" uuid="&#10;&#9;&#9;&#9;&#9;&#9;1039cc97-d241-4740-8149-f6746531012a&#10;&#9;&#9;&#9;&#9;">
+<gfc:FC_FeatureCatalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.isotc211.org/2005/gfc" xsi:schemaLocation="http://www.isotc211.org/2005/gfc http://www.isotc211.org/2005/gfc/gfc.xsd" uuid="&#10;&#9;&#9;&#9;&#9;&#9;          a9960ef5-253b-46f3-ae9e-47ad7f8cd7ff&#10;&#9;&#9;&#9;&#9;        ">
   <gmx:name>
-    <gco:CharacterString>Feature Catalog for Settlements: F&#x101;ry&#x101;b Province, Afghanistan, 2005</gco:CharacterString>
+    <gco:CharacterString>Feature Catalog for Roads: F&#x101;ry&#x101;b Province, Afghanistan, 2005</gco:CharacterString>
   </gmx:name>
   <gmx:scope>
-    <gco:CharacterString>Human settlements</gco:CharacterString>
+    <gco:CharacterString>Roads</gco:CharacterString>
   </gmx:scope>
   <gmx:versionNumber gco:nilReason="unknown"/>
   <gmx:versionDate>
@@ -28,13 +28,13 @@
   <gfc:featureType>
     <gfc:FC_FeatureType>
       <gfc:typeName>
-        <gco:LocalName>faryab_settlements</gco:LocalName>
+        <gco:LocalName>faryab_roads_all</gco:LocalName>
       </gfc:typeName>
       <gfc:definition/>
       <gfc:isAbstract>
         <gco:Boolean>false</gco:Boolean>
       </gfc:isAbstract>
-      <gfc:featureCatalogue uuidref="&#10;&#9;&#9;&#9;&#9;&#9;1039cc97-d241-4740-8149-f6746531012a&#10;&#9;&#9;&#9;&#9;"/>
+      <gfc:featureCatalogue uuidref="&#10;&#9;&#9;&#9;&#9;&#9;          a9960ef5-253b-46f3-ae9e-47ad7f8cd7ff&#10;&#9;&#9;&#9;&#9;        "/>
       <gfc:carrierOfCharacteristics>
         <gfc:FC_FeatureAttribute>
           <gfc:memberName>
@@ -126,22 +126,7 @@
       <gfc:carrierOfCharacteristics>
         <gfc:FC_FeatureAttribute>
           <gfc:memberName>
-            <gco:LocalName>P_CODE</gco:LocalName>
-          </gfc:memberName>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>Double</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
-            <gco:LocalName>NAME</gco:LocalName>
+            <gco:LocalName>ID_</gco:LocalName>
           </gfc:memberName>
           <gfc:cardinality gco:nilReason="unknown"/>
           <gfc:valueType>
@@ -156,82 +141,7 @@
       <gfc:carrierOfCharacteristics>
         <gfc:FC_FeatureAttribute>
           <gfc:memberName>
-            <gco:LocalName>LONG</gco:LocalName>
-          </gfc:memberName>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>Double</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
-            <gco:LocalName>LAT</gco:LocalName>
-          </gfc:memberName>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>Double</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
-            <gco:LocalName>PROV29ID</gco:LocalName>
-          </gfc:memberName>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>Double</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
-            <gco:LocalName>DIST29ID</gco:LocalName>
-          </gfc:memberName>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>Double</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
-            <gco:LocalName>Z9_CLASSES</gco:LocalName>
-          </gfc:memberName>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>Double</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
-            <gco:LocalName>Z9_PROVINC</gco:LocalName>
+            <gco:LocalName>NAME1_</gco:LocalName>
           </gfc:memberName>
           <gfc:cardinality gco:nilReason="unknown"/>
           <gfc:valueType>
@@ -246,7 +156,7 @@
       <gfc:carrierOfCharacteristics>
         <gfc:FC_FeatureAttribute>
           <gfc:memberName>
-            <gco:LocalName>Z9_DISTRIC</gco:LocalName>
+            <gco:LocalName>NAME2_</gco:LocalName>
           </gfc:memberName>
           <gfc:cardinality gco:nilReason="unknown"/>
           <gfc:valueType>
@@ -261,13 +171,13 @@
       <gfc:carrierOfCharacteristics>
         <gfc:FC_FeatureAttribute>
           <gfc:memberName>
-            <gco:LocalName>Z2_PROVINC</gco:LocalName>
+            <gco:LocalName>PARTS_</gco:LocalName>
           </gfc:memberName>
           <gfc:cardinality gco:nilReason="unknown"/>
           <gfc:valueType>
             <gco:TypeName>
               <gco:aName>
-                <gco:CharacterString>String</gco:CharacterString>
+                <gco:CharacterString>SmallInteger</gco:CharacterString>
               </gco:aName>
             </gco:TypeName>
           </gfc:valueType>
@@ -276,13 +186,43 @@
       <gfc:carrierOfCharacteristics>
         <gfc:FC_FeatureAttribute>
           <gfc:memberName>
-            <gco:LocalName>Z2_DISTRIC</gco:LocalName>
+            <gco:LocalName>POINTS_</gco:LocalName>
           </gfc:memberName>
           <gfc:cardinality gco:nilReason="unknown"/>
           <gfc:valueType>
             <gco:TypeName>
               <gco:aName>
-                <gco:CharacterString>String</gco:CharacterString>
+                <gco:CharacterString>Integer</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>LENGTH_</gco:LocalName>
+          </gfc:memberName>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>CLASS</gco:LocalName>
+          </gfc:memberName>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>SmallInteger</gco:CharacterString>
               </gco:aName>
             </gco:TypeName>
           </gfc:valueType>

@@ -1,6 +1,6 @@
 <MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <fileIdentifier>
-    <gco:CharacterString>edu.stanford.purl:bf655ff0070</gco:CharacterString>
+    <gco:CharacterString>edu.stanford.purl:cs347ff4064</gco:CharacterString>
   </fileIdentifier>
   <language>
     <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
@@ -79,7 +79,7 @@
     <gco:CharacterString>2007</gco:CharacterString>
   </metadataStandardVersion>
   <dataSetURI>
-    <gco:CharacterString>http://purl.stanford.edu/bf655ff0070</gco:CharacterString>
+    <gco:CharacterString>http://purl.stanford.edu/cs347ff4064</gco:CharacterString>
   </dataSetURI>
   <spatialRepresentationInfo>
     <MD_VectorSpatialRepresentation>
@@ -98,12 +98,29 @@
       </geometricObjects>
     </MD_VectorSpatialRepresentation>
   </spatialRepresentationInfo>
+  <referenceSystemInfo>
+    <MD_ReferenceSystem>
+      <referenceSystemIdentifier>
+        <RS_Identifier>
+          <code>
+            <gco:CharacterString>4326</gco:CharacterString>
+          </code>
+          <codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </codeSpace>
+          <version>
+            <gco:CharacterString>7.9.4</gco:CharacterString>
+          </version>
+        </RS_Identifier>
+      </referenceSystemIdentifier>
+    </MD_ReferenceSystem>
+  </referenceSystemInfo>
   <identificationInfo>
     <MD_DataIdentification>
       <citation>
         <CI_Citation>
           <title>
-            <gco:CharacterString>Provincial Boundary (Line): Baghl&#x101;n  Province, Afghanistan, 2005</gco:CharacterString>
+            <gco:CharacterString>Provincial Boundary (Polygon): Baghl&#x101;n Province, Afghanistan, 2005</gco:CharacterString>
           </title>
           <date>
             <CI_Date>
@@ -118,7 +135,7 @@
           <identifier>
             <MD_Identifier>
               <code>
-                <gco:CharacterString>http://purl.stanford.edu/bf655ff0070</gco:CharacterString>
+                <gco:CharacterString>http://purl.stanford.edu/cs347ff4064</gco:CharacterString>
               </code>
             </MD_Identifier>
           </identifier>
@@ -211,13 +228,13 @@
         </CI_Citation>
       </citation>
       <abstract>
-        <gco:CharacterString>This line dataset shows the provincial boundary of the Baghl&#x101;n Province in Afghanistan for 2005. This layer is part of the Topographic Maps of Afghanistan and Kabul dataset which contains shapefiles relating to district and provincial boundaries, land use, transportation, buildings and structures, rivers, settlements and other specific city data.</gco:CharacterString>
+        <gco:CharacterString>This polygon shapefile shows the provincial boundary of the Baghl&#x101;n Province in Afghanistan for 2005. This layer is part of the Topographic Maps of Afghanistan and Kabul dataset which contains shapefiles relating to district and provincial boundaries, land use, transportation, buildings and structures, rivers, settlements and other specific city data.</gco:CharacterString>
       </abstract>
       <purpose>
         <gco:CharacterString>This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</gco:CharacterString>
       </purpose>
       <credit>
-        <gco:CharacterString>Afghanistan Information Management Service (2005). Provincial Boundary (Line): Baghl&#x101;n  Province, Afghanistan, 2005. Afghanistan Information Management Service.</gco:CharacterString>
+        <gco:CharacterString>Afghanistan Information Management Service (2005). Provincial Boundary (Polygon): Baghl&#x101;n Province, Afghanistan, 2005. Afghanistan Information Management Service.</gco:CharacterString>
       </credit>
       <status>
         <MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="ISOTC211/19115">completed</MD_ProgressCode>
@@ -508,7 +525,7 @@
           <temporalElement>
             <EX_TemporalExtent>
               <extent>
-                <gml:TimePeriod gml:id="idm5920">
+                <gml:TimePeriod gml:id="idm6000">
                   <gml:beginPosition>2005-01-01T00:00:00</gml:beginPosition>
                   <gml:endPosition>2005-07-31T00:00:00</gml:endPosition>
                 </gml:TimePeriod>
@@ -556,7 +573,7 @@
       <featureCatalogueCitation>
         <CI_Citation>
           <title>
-            <gco:CharacterString>Feature Catalog for Provincial Boundary (Line): Baghl&#x101;n  Province, Afghanistan, 2005</gco:CharacterString>
+            <gco:CharacterString>Feature Catalog for Provincial Boundary (Polygon): Baghl&#x101;n Province, Afghanistan, 2005</gco:CharacterString>
           </title>
           <date>
             <CI_Date>
@@ -571,7 +588,7 @@
           <identifier>
             <MD_Identifier>
               <code>
-                <gco:CharacterString>6fe77d78-b904-4c99-81fd-2571020b822f</gco:CharacterString>
+                <gco:CharacterString>0fc96e14-2019-4b86-8afd-75b17ba04843</gco:CharacterString>
               </code>
             </MD_Identifier>
           </identifier>
@@ -690,13 +707,13 @@
           <onLine>
             <CI_OnlineResource>
               <linkage>
-                <URL>http://purl.stanford.edu/bf655ff0070</URL>
+                <URL>http://purl.stanford.edu/cs347ff4064</URL>
               </linkage>
               <protocol>
                 <gco:CharacterString>http</gco:CharacterString>
               </protocol>
               <name>
-                <gco:CharacterString>baghlan_line.shp</gco:CharacterString>
+                <gco:CharacterString>baghlan_prov.shp</gco:CharacterString>
               </name>
               <function>
                 <CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download" codeSpace="ISOTC211/19115">download</CI_OnLineFunctionCode>

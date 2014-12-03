@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
-    <title>Provincial Boundary (Line): Baghlān  Province, Afghanistan, 2005</title>
+    <title>Provincial Boundary (Polygon): Baghlān Province, Afghanistan, 2005</title>
   </titleInfo>
   <name type="corporate">
     <namePart>Afghanistan Information Management Service</namePart>
@@ -29,21 +29,21 @@
     <extent>0.007</extent>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <subject>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
     <cartographics>
       <scale>Scale not given.</scale>
-      <projection>::</projection>
+      <projection>EPSG::4326</projection>
       <coordinates>(E 65°37ʹ22ʺ--E 65°43ʹ39ʺ/N 31°38ʹ19ʺ--N 31°36ʹ28ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This line dataset shows the provincial boundary of the Baghlān Province in Afghanistan for 2005. This layer is part of the Topographic Maps of Afghanistan and Kabul dataset which contains shapefiles relating to district and provincial boundaries, land use, transportation, buildings and structures, rivers, settlements and other specific city data.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile shows the provincial boundary of the Baghlān Province in Afghanistan for 2005. This layer is part of the Topographic Maps of Afghanistan and Kabul dataset which contains shapefiles relating to district and provincial boundaries, land use, transportation, buildings and structures, rivers, settlements and other specific city data.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">Afghanistan Information Management Service (2005). Provincial Boundary (Line): Baghlān  Province, Afghanistan, 2005. Afghanistan Information Management Service. Available at: http://purl.stanford.edu/bf655ff0070</note>
+  <note displayLabel="Preferred citation" lang="eng">Afghanistan Information Management Service (2005). Provincial Boundary (Polygon): Baghlān Province, Afghanistan, 2005. Afghanistan Information Management Service. Available at: http://purl.stanford.edu/cs347ff4064</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Administrative and political divisions</topic>
   </subject>
   <subject>
-    <geographic lang="eng">Baghlān (Afghanistan : Province)</geographic>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/114753/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Baghlān (Afghanistan : Province)</geographic>
   </subject>
   <subject>
     <temporal encoding="w3cdtf">2005</temporal>
@@ -52,11 +52,11 @@
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
   </subject>
   <location>
-    <url>http://purl.stanford.edu/bf655ff0070</url>
+    <url>http://purl.stanford.edu/cs347ff4064</url>
   </location>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:bf655ff0070</recordIdentifier>
+    <recordIdentifier>edu.stanford.purl:cs347ff4064</recordIdentifier>
     <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
     <languageOfCataloging>
       <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
@@ -64,16 +64,16 @@
   </recordInfo>
   <extension displayLabel="geo">
     <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="http://purl.stanford.edu/bf655ff0070">
+      <rdf:Description rdf:about="http://purl.stanford.edu/cs347ff4064">
         <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
-        <dc:type>Dataset#LineString</dc:type>
+        <dc:type>Dataset#Polygon</dc:type>
         <gml:boundedBy>
-          <gml:Envelope gml:srsName=":">
-            <gml:lowerCorner>65.622688 31.60771</gml:lowerCorner>
-            <gml:upperCorner>65.727419 31.63859</gml:upperCorner>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>67.283188 34.879677</gml:lowerCorner>
+            <gml:upperCorner>69.978249 36.575298</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Baghlān (Afghanistan : Province)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/114753/about.rdf" dc:language="eng" dc:title="Baghlān (Afghanistan : Province)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>

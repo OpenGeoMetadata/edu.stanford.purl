@@ -67,7 +67,7 @@
     </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-    <gco:Date>2014-03-01</gco:Date>
+    <gco:Date>2014-10-08</gco:Date>
   </dateStamp>
   <metadataStandardName>
     <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -106,7 +106,7 @@
             <gco:CharacterString>EPSG</gco:CharacterString>
           </codeSpace>
           <version>
-            <gco:CharacterString>7.11.2</gco:CharacterString>
+            <gco:CharacterString>7.9.4</gco:CharacterString>
           </version>
         </RS_Identifier>
       </referenceSystemIdentifier>
@@ -225,7 +225,7 @@
         </CI_Citation>
       </citation>
       <abstract>
-        <gco:CharacterString>This point shapefile shows the locations of international organizations such as diplomatic missions, United Nations Organizations and International Government Organizations in the city of Kabul, Afghanistan in 2004 and 2005. These data are mapped at 1:5,000 scale from the one meter IKONOS satellite imagery. This layer is part of the Topographic Maps of Afghanistan and Kabul dataset which contains shapefiles relating to district and provincial boundaries, land use, transportation, buildings and structures, rivers, settlements and other specific city data.</gco:CharacterString>
+        <gco:CharacterString>This point dataset shows the locations of international organizations such as diplomatic missions, United Nations Organizations and International Government Organizations in the city of Kabul, Afghanistan in 2004 and 2005. These data are mapped at 1:5,000 scale from the one meter IKONOS satellite imagery. This layer is part of the Topographic Maps of Afghanistan and Kabul dataset which contains shapefiles relating to district and provincial boundaries, land use, transportation, buildings and structures, rivers, settlements and other specific city data.</gco:CharacterString>
       </abstract>
       <purpose>
         <gco:CharacterString>This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</gco:CharacterString>
@@ -336,10 +336,13 @@
       <descriptiveKeywords>
         <MD_Keywords>
           <keyword>
+            <gco:CharacterString>International agencies</gco:CharacterString>
+          </keyword>
+          <keyword>
             <gco:CharacterString>Embassies</gco:CharacterString>
           </keyword>
           <keyword>
-            <gco:CharacterString>International agencies</gco:CharacterString>
+            <gco:CharacterString>United Nations</gco:CharacterString>
           </keyword>
           <type>
             <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
@@ -493,6 +496,9 @@ Users must assume responsibility in determining the usability of this data for t
           <associationType>
             <DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="largerWorkCitation" codeSpace="ISOTC211/19115">largerWorkCitation</DS_AssociationTypeCode>
           </associationType>
+          <initiativeType>
+            <DS_InitiativeTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="collection" codeSpace="ISOTC211/19115">collection</DS_InitiativeTypeCode>
+          </initiativeType>
         </MD_AggregateInformation>
       </aggregationInfo>
       <spatialRepresentationType>
@@ -529,7 +535,7 @@ Users must assume responsibility in determining the usability of this data for t
           <temporalElement>
             <EX_TemporalExtent>
               <extent>
-                <gml:TimePeriod gml:id="idm5538720">
+                <gml:TimePeriod gml:id="idp43632">
                   <gml:beginPosition>2004-01-01T00:00:00</gml:beginPosition>
                   <gml:endPosition>2005-12-31T00:00:00</gml:endPosition>
                 </gml:TimePeriod>
@@ -589,6 +595,13 @@ Users must assume responsibility in determining the usability of this data for t
               </dateType>
             </CI_Date>
           </date>
+          <identifier>
+            <MD_Identifier>
+              <code>
+                <gco:CharacterString>65c70e64-c5ab-4e58-ab80-b01cb8b291a1</gco:CharacterString>
+              </code>
+            </MD_Identifier>
+          </identifier>
           <citedResponsibleParty>
             <CI_ResponsibleParty>
               <organisationName>

@@ -28,10 +28,10 @@
     <form>Raster Dataset</form>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <subject>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
     <cartographics>
       <scale>Scale not given.</scale>
-      <projection>World Geodetic System (WGS84)</projection>
+      <projection>EPSG::4326</projection>
       <coordinates>(W 121°54ʹ46ʺ--W 121°31ʹ1ʺ/N 36°15ʹ4ʺ--N 35°34ʹ4ʺ)</coordinates>
     </cartographics>
   </subject>
@@ -80,8 +80,8 @@ A levied channel with associated overbank deposits and abandoned channel scars b
         <dc:type>Dataset#Raster</dc:type>
         <gml:boundedBy>
           <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-121.91282 35.567691</gml:lowerCorner>
-            <gml:upperCorner>-121.516909 36.251084</gml:upperCorner>
+            <gml:lowerCorner>-121.91282 35.5676915</gml:lowerCorner>
+            <gml:upperCorner>-121.5169094 36.2510838</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
         <dc:coverage rdf:resource="http://sws.geonames.org/5374363/about.rdf" dc:language="eng" dc:title="Monterey Bay (Calif.)"/>

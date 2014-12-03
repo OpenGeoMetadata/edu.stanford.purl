@@ -50,7 +50,7 @@
     <geographic lang="eng" valueURI="http://sws.geonames.org/5372163/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Mendocino County (Calif.)</geographic>
   </subject>
   <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5389382/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Russian River Watershed (Calif.)</geographic>
+    <geographic lang="eng">Russian River Watershed (Calif.)</geographic>
   </subject>
   <subject>
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="environment">Environment</topic>
@@ -75,15 +75,15 @@
         <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
         <dc:type>Dataset#LineString</dc:type>
         <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:26910">
-            <gml:lowerCorner>-124.766067 33.767965</gml:lowerCorner>
-            <gml:upperCorner>-112.202514 49.061152</gml:upperCorner>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>-124.741815 33.99681</gml:lowerCorner>
+            <gml:upperCorner>-112.994403 49.000341</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
         <dc:coverage rdf:resource="http://sws.geonames.org/5397100/about.rdf" dc:language="eng" dc:title="Sonoma County (Calif.)"/>
         <dc:coverage rdf:resource="http://sws.geonames.org/5372163/about.rdf" dc:language="eng" dc:title="Mendocino County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5389382/about.rdf" dc:language="eng" dc:title="Russian River Watershed (Calif.)"/>
+        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Russian River Watershed (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-</mods>
+<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124°44ʹ31ʺ--W 112°59ʹ40ʺ/N 49°1ʺ--N 33°59ʹ49ʺ</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>

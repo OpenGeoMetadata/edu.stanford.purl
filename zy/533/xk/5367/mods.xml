@@ -29,10 +29,10 @@
     <extent>0.058</extent>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <subject>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
     <cartographics>
       <scale>1:750000</scale>
-      <projection>World Geodetic System (WGS84)</projection>
+      <projection>EPSG::4326</projection>
       <coordinates>(W 122°18ʹ51ʺ--W 121°30ʹ6ʺ/N 37°6ʹ1ʺ--N 36°30ʹ6ʺ)</coordinates>
     </cartographics>
   </subject>
@@ -52,7 +52,7 @@ For strict accuracy and hard-copy production requiring feature, grid, and/or ima
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Seismology</topic>
   </subject>
   <subject>
-    <geographic lang="eng">Monterey Bay (California)</geographic>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5374363/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Monterey Bay (Calif.)</geographic>
   </subject>
   <subject>
     <temporal encoding="w3cdtf">1994</temporal>
@@ -82,7 +82,7 @@ For strict accuracy and hard-copy production requiring feature, grid, and/or ima
             <gml:upperCorner>-121.50154 37.100257</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Monterey Bay (California)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5374363/about.rdf" dc:language="eng" dc:title="Monterey Bay (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>

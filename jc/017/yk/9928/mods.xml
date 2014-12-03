@@ -29,10 +29,10 @@
     <extent>2.468</extent>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <subject>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
     <cartographics>
       <scale>1:200000</scale>
-      <projection>World Geodetic System (WGS84)</projection>
+      <projection>EPSG::4326</projection>
       <coordinates>(E 74°5ʹ14ʺ--E 78°35ʹ19ʺ/N 18°28ʹ26ʺ--N 11°35ʹ35ʺ)</coordinates>
     </cartographics>
   </subject>
@@ -58,7 +58,7 @@
     <geographic lang="eng" valueURI="http://sws.geonames.org/1267701/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Karnataka (India)</geographic>
   </subject>
   <subject>
-    <geographic lang="eng">Bangalore (India)</geographic>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/1277333/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Bangalore (India)</geographic>
   </subject>
   <subject>
     <geographic lang="eng" valueURI="http://sws.geonames.org/1276510/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Bellary (India : District)</geographic>
@@ -67,7 +67,7 @@
     <geographic lang="eng" valueURI="http://sws.geonames.org/1269873/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Hunsur (India : Taluk)</geographic>
   </subject>
   <subject>
-    <geographic lang="eng">Hubli (India)</geographic>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/1269920/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Hubli (India)</geographic>
   </subject>
   <subject>
     <geographic lang="eng" valueURI="http://sws.geonames.org/1272797/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Dhārwār (India : District)</geographic>
@@ -113,10 +113,10 @@
           </gml:Envelope>
         </gml:boundedBy>
         <dc:coverage rdf:resource="http://sws.geonames.org/1267701/about.rdf" dc:language="eng" dc:title="Karnataka (India)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Bangalore (India)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/1277333/about.rdf" dc:language="eng" dc:title="Bangalore (India)"/>
         <dc:coverage rdf:resource="http://sws.geonames.org/1276510/about.rdf" dc:language="eng" dc:title="Bellary (India : District)"/>
         <dc:coverage rdf:resource="http://sws.geonames.org/1269873/about.rdf" dc:language="eng" dc:title="Hunsur (India : Taluk)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Hubli (India)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/1269920/about.rdf" dc:language="eng" dc:title="Hubli (India)"/>
         <dc:coverage rdf:resource="http://sws.geonames.org/1272797/about.rdf" dc:language="eng" dc:title="Dhārwār (India : District)"/>
         <dc:coverage rdf:resource="http://sws.geonames.org/1268434/about.rdf" dc:language="eng" dc:title="Kalghatgi (India)"/>
         <dc:coverage rdf:resource="http://sws.geonames.org/1263780/about.rdf" dc:language="eng" dc:title="Mangalore (India)"/>
@@ -124,4 +124,8 @@
       </rdf:Description>
     </rdf:RDF>
   </extension>
-</mods>
+<subject>
+          <geographic authority="lcnaf" valueURI="lcnaf">Bangalore (India) </geographic>
+        </subject><subject>
+          <geographic authority="lcnaf" valueURI="lcnaf">Hubli (India) </geographic>
+        </subject></mods>

@@ -30,10 +30,10 @@
     <extent>8.404999999999999</extent>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <subject>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
     <cartographics>
       <scale>Scale not given.</scale>
-      <projection>World Geodetic System (WGS84)</projection>
+      <projection>EPSG::4326</projection>
       <coordinates>(W 180°--E 180°/N 90°--S 90°)</coordinates>
     </cartographics>
   </subject>
@@ -87,8 +87,8 @@ aprmax, maymax, junmax, julmax, augmax, sepmax, octmax, novmax, decmax
         <dc:type>Dataset#Polygon</dc:type>
         <gml:boundedBy>
           <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-180 -90</gml:lowerCorner>
-            <gml:upperCorner>180 90</gml:upperCorner>
+            <gml:lowerCorner>-180.0 -90.0</gml:lowerCorner>
+            <gml:upperCorner>180.0 90.0</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
         <dc:coverage rdf:resource="http://sws.geonames.org/6295630/about.rdf" dc:language="eng" dc:title="Earth"/>

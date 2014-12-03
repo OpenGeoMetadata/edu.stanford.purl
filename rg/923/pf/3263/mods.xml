@@ -30,10 +30,10 @@
     <extent>0.001</extent>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <subject>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
     <cartographics>
       <scale>1:5000</scale>
-      <projection>World Geodetic System (WGS84)</projection>
+      <projection>EPSG::4326</projection>
       <coordinates>(E 69°7ʹ49ʺ--E 69°12ʹ12ʺ/N 34°32ʹ18ʺ--N 34°28ʹ32ʺ)</coordinates>
     </cartographics>
   </subject>
@@ -79,7 +79,7 @@
         <dc:type>Dataset#Point</dc:type>
         <gml:boundedBy>
           <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>69.130179 34.475595</gml:lowerCorner>
+            <gml:lowerCorner>0.0 0.0</gml:lowerCorner>
             <gml:upperCorner>69.20327 34.538403</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>

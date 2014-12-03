@@ -82,9 +82,9 @@ projection coordinate system. The DEM data for 7.5-minute units correspond to th
         <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
         <dc:type>Dataset#LineString</dc:type>
         <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:26910">
-            <gml:lowerCorner>-123.387612 38.302329</gml:lowerCorner>
-            <gml:upperCorner>-122.523422 39.398515</gml:upperCorner>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>-123.387366 38.302994</gml:lowerCorner>
+            <gml:upperCorner>-122.52958 39.398403</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
         <dc:coverage rdf:resource="http://sws.geonames.org/5397100/about.rdf" dc:language="eng" dc:title="Sonoma County (Calif.)"/>
@@ -92,4 +92,4 @@ projection coordinate system. The DEM data for 7.5-minute units correspond to th
       </rdf:Description>
     </rdf:RDF>
   </extension>
-</mods>
+<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 123°23ʹ15ʺ--W 122°31ʹ46ʺ/N 39°23ʹ54ʺ--N 38°18ʹ11ʺ</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>

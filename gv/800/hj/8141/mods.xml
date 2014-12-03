@@ -26,10 +26,10 @@
     <extent>3.635 MB</extent>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <subject>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
     <cartographics>
       <scale>1:200000</scale>
-      <projection>World Geodetic System (WGS84)</projection>
+      <projection>EPSG::4326</projection>
       <coordinates>(E 83°19ʹ33ʺ--E 88°17ʹ36ʺ/N 27°31ʹ8ʺ--N 24°17ʹ7ʺ)</coordinates>
     </cartographics>
   </subject>
@@ -64,7 +64,7 @@
     <geographic lang="eng" valueURI="http://sws.geonames.org/1257248/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Saran (India)</geographic>
   </subject>
   <subject>
-    <geographic lang="eng">Sīwan (India)</geographic>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/1255927/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Sīwan (India)</geographic>
   </subject>
   <subject>
     <geographic lang="eng" valueURI="http://sws.geonames.org/1262081/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Nalanda (India : District)</geographic>
@@ -125,7 +125,7 @@
         <dc:coverage rdf:resource="http://sws.geonames.org/1260091/about.rdf" dc:language="eng" dc:title="Patna (India : District)"/>
         <dc:coverage rdf:resource="http://sws.geonames.org/1274353/about.rdf" dc:language="eng" dc:title="Chhapra (India)"/>
         <dc:coverage rdf:resource="http://sws.geonames.org/1257248/about.rdf" dc:language="eng" dc:title="Saran (India)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Sīwan (India)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/1255927/about.rdf" dc:language="eng" dc:title="Sīwan (India)"/>
         <dc:coverage rdf:resource="http://sws.geonames.org/1262081/about.rdf" dc:language="eng" dc:title="Nalanda (India : District)"/>
         <dc:coverage rdf:resource="http://sws.geonames.org/1260208/about.rdf" dc:language="eng" dc:title="Pashchim Champāran (India)"/>
         <dc:coverage rdf:resource="http://sws.geonames.org/1276301/about.rdf" dc:language="eng" dc:title="Bhāgalpur (India : District)"/>
@@ -137,4 +137,6 @@
       </rdf:Description>
     </rdf:RDF>
   </extension>
-</mods>
+<subject>
+          <geographic authority="lcnaf" valueURI="lcnaf">Siwān (Saran, India)</geographic>
+        </subject></mods>

@@ -29,10 +29,10 @@
     <extent>20.303</extent>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <subject>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
     <cartographics>
       <scale>1:200000</scale>
-      <projection>World Geodetic System (WGS84)</projection>
+      <projection>EPSG::4326</projection>
       <coordinates>(E 74°5ʹ14ʺ--E 78°35ʹ19ʺ/N 18°28ʹ26ʺ--N 11°35ʹ35ʺ)</coordinates>
     </cartographics>
   </subject>
@@ -85,7 +85,7 @@
     <geographic lang="eng" valueURI="http://sws.geonames.org/1262322/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Mysore (India : District)</geographic>
   </subject>
   <subject>
-    <geographic lang="eng">Bangalore (India)</geographic>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/1277333/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Bangalore (India)</geographic>
   </subject>
   <subject>
     <temporal encoding="w3cdtf">2001</temporal>
@@ -125,8 +125,10 @@
         <dc:coverage rdf:resource="http://sws.geonames.org/1263415/about.rdf" dc:language="eng" dc:title="Maski (India)"/>
         <dc:coverage rdf:resource="http://sws.geonames.org/1264120/about.rdf" dc:language="eng" dc:title="Malebennūr (India)"/>
         <dc:coverage rdf:resource="http://sws.geonames.org/1262322/about.rdf" dc:language="eng" dc:title="Mysore (India : District)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Bangalore (India)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/1277333/about.rdf" dc:language="eng" dc:title="Bangalore (India)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-</mods>
+<subject>
+          <geographic authority="lcnaf" valueURI="lcnaf">Bangalore (India) </geographic>
+        </subject></mods>

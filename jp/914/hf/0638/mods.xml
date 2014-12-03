@@ -29,10 +29,10 @@
     <form>Shapefile</form>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <subject>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
     <cartographics>
       <scale>Scale not given.</scale>
-      <projection>World Geodetic System (WGS84)</projection>
+      <projection>EPSG::4326</projection>
       <coordinates>(E 22°3ʹ19ʺ--E 33°39ʹ42ʺ/S 8°34ʹ48ʺ--S 17°50ʹ35ʺ)</coordinates>
     </cartographics>
   </subject>
@@ -71,7 +71,7 @@
         <gml:boundedBy>
           <gml:Envelope gml:srsName="EPSG:4326">
             <gml:lowerCorner>22.055161 -17.842984</gml:lowerCorner>
-            <gml:upperCorner>33.661655 -8.579981999999999</gml:upperCorner>
+            <gml:upperCorner>33.661655 -8.579982</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
         <dc:coverage rdf:resource="http://sws.geonames.org/895949/about.rdf" dc:language="eng" dc:title="Zambia"/>

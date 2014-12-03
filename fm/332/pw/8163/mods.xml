@@ -28,10 +28,10 @@
     <form>Raster Dataset</form>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <subject>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
     <cartographics>
       <scale>Scale not given.</scale>
-      <projection>World Geodetic System (WGS84)</projection>
+      <projection>EPSG::4326</projection>
       <coordinates>(W 122°56ʹ57ʺ--W 122°30ʹ12ʺ/N 37°4ʹ7ʺ--N 36°46ʹ5ʺ)</coordinates>
     </cartographics>
   </subject>
@@ -80,8 +80,8 @@ Many of the gullies are similar to groundwater morphology described on land (Jon
         <dc:type>Dataset#Raster</dc:type>
         <gml:boundedBy>
           <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-122.9493 36.76801</gml:lowerCorner>
-            <gml:upperCorner>-122.503346 37.068492</gml:upperCorner>
+            <gml:lowerCorner>-122.9493 36.7680098</gml:lowerCorner>
+            <gml:upperCorner>-122.5033459 37.0684922</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
         <dc:coverage rdf:resource="http://sws.geonames.org/5374363/about.rdf" dc:language="eng" dc:title="Monterey Bay (Calif.)"/>

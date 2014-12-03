@@ -33,7 +33,7 @@
   <subject>
     <cartographics>
       <scale>Scale not given.</scale>
-      <projection>North American Datum (NAD83)</projection>
+      <projection>EPSG::4269</projection>
       <coordinates>(W 164°11ʹ47ʺ--W 44°5ʹ48ʺ/N 77°36ʹ51ʺ--N 16°42ʹ33ʺ)</coordinates>
     </cartographics>
   </subject>
@@ -73,7 +73,7 @@
         <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
         <dc:type>Dataset#Polygon</dc:type>
         <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:4269">
+          <gml:Envelope gml:srsName="EPSG:4326">
             <gml:lowerCorner>-164.196401 16.709076</gml:lowerCorner>
             <gml:upperCorner>-44.096585 77.614132</gml:upperCorner>
           </gml:Envelope>
@@ -82,4 +82,4 @@
       </rdf:Description>
     </rdf:RDF>
   </extension>
-</mods>
+<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 164°11ʹ47ʺ--W 44°5ʹ48ʺ/N 77°36ʹ51ʺ--N 16°42ʹ33ʺ</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>

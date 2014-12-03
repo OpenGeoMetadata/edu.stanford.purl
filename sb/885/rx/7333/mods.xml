@@ -28,10 +28,10 @@
     <form>Shapefile</form>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <subject>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
     <cartographics>
       <scale>Scale not given.</scale>
-      <projection>::</projection>
+      <projection>EPSG::4326</projection>
       <coordinates>(E 65°37ʹ22ʺ--E 65°43ʹ39ʺ/N 31°38ʹ19ʺ--N 31°36ʹ28ʺ)</coordinates>
     </cartographics>
   </subject>
@@ -67,9 +67,9 @@
         <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
         <dc:type>Dataset#Polygon</dc:type>
         <gml:boundedBy>
-          <gml:Envelope gml:srsName=":">
-            <gml:lowerCorner>65.622688 31.60771</gml:lowerCorner>
-            <gml:upperCorner>65.727419 31.63859</gml:upperCorner>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>69.334489 37.132903</gml:lowerCorner>
+            <gml:upperCorner>69.649746 37.50033</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
         <dc:coverage rdf:resource="http://sws.geonames.org/1123230/about.rdf" dc:language="eng" dc:title="Takhār (Afghanistan)"/>

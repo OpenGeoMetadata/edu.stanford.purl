@@ -28,10 +28,10 @@
     <form>GeoTIFF</form>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <subject>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
     <cartographics>
       <scale>Scale not given.</scale>
-      <projection>World Geodetic System (WGS84)</projection>
+      <projection>EPSG::4326</projection>
       <coordinates>(W 122°13ʹ59ʺ--W 122°7ʹ59ʺ/N 36°49ʹ30ʺ--N 36°46ʹ26ʺ)</coordinates>
     </cartographics>
   </subject>
@@ -50,10 +50,10 @@ NOTE: To most easily use the grid data, the ArcView Spatial Analyst extension sh
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Sidescan sonar</topic>
   </subject>
   <subject>
-    <geographic lang="eng">Monterey Bay (California)</geographic>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5374363/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Monterey Bay (Calif.)</geographic>
   </subject>
   <subject>
-    <geographic lang="eng">Monterey Canyon (California)</geographic>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/4020248/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Monterey Canyon (Calif.)</geographic>
   </subject>
   <subject>
     <temporal encoding="w3cdtf">1997</temporal>
@@ -82,12 +82,12 @@ NOTE: To most easily use the grid data, the ArcView Spatial Analyst extension sh
         <dc:type>Dataset#Raster</dc:type>
         <gml:boundedBy>
           <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-122.233 36.774</gml:lowerCorner>
-            <gml:upperCorner>-122.133 36.825</gml:upperCorner>
+            <gml:lowerCorner>-122.2331727 36.7746206</gml:lowerCorner>
+            <gml:upperCorner>-122.1333755 36.825325</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Monterey Bay (California)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Monterey Canyon (California)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5374363/about.rdf" dc:language="eng" dc:title="Monterey Bay (Calif.)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/4020248/about.rdf" dc:language="eng" dc:title="Monterey Canyon (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>

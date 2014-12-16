@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Watersheds of the Pacific Salmon Conservation Assessment Study Area, 1950-2005</title>
@@ -48,13 +48,13 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4267</projection>
-      <coordinates>(W 180&#xB0;--E 180&#xB0;/N 73&#xB0;59&#x2B9;27&#x2BA;--N 24&#xB0;13&#x2B9;53&#x2BA;)</coordinates>
+      <coordinates>(W 180°--E 180°/N 73°59ʹ27ʺ--N 24°13ʹ53ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon dataset shows the watershed features of the Pacific Salmon Conservation Assessment study (PSCA) area. These data include catchments of the Northern Pacific across Canada, China, Japan, Russia, and the United States. Catchments with high conservation value ranged from California to northern Russia and included catchments in regions that are strongly affected by human development (e.g., Puget Sound).The PSCA study area data is derived from the HYDRO1K Drainage Basins dataset which is based on a one-kilometer resolution Digital Elevation Model (DEM). Modifications were made to the original HYDRO 1k dataset to create the watersheds feature class. These derived data were used to identify catchments with high conservation value for six species of Pacific salmon (Oncorhynchus spp.) Chinook, Chum, Pink, Steelhead, Sockeye, and Coho. Data sources ranging from 1950-2005, including published literature and agency reports were consulted in order to create these data. </abstract>
   <abstract displayLabel="Purpose" lang="eng">This shapefile can be used for georeferencing the Abundance and Run-timing databases that comprise part of the Pacific Salmon Conservation Assessment database. To use link the CatchmentID in the database to NLEVEL5 in this shapefile.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Pinsky, M.L., Springmeyer, D.B., Goslin, M.N., Augerot, X (2009). Watersheds of the Pacific Salmon Conservation Assessment Study Area, 1950-2005. </note>
-  <note displayLabel="Supplemental information">Based upon expert opinion and validation with the literature, the PSCA database accurately represents broad, range-wide patterns of salmon abundance and diversity.  Much of the data, particularly in the Russian Far East, is based upon modeling.  Refer to Pinsky et al (2009) for a complete summary of methods and data quality. The PSCA database provides a consistent format for comparing salmon watersheds across the range of wild Pacific salmon. The database offers a geo-referenced watershed dataset and twenty tables that all join on a common primary key attribute. The tables include information on abundance, distribution, diversity, run-timings, land cover/land-use, dams, hatcheries, data sources, drainages, administrative categories, and ESU&#x2019;s. The goal of developing the database was to support a WSC assessment to prioritize salmon watersheds across the North Pacific, but the compilation of information at the scale can support a large variety of applications.</note>
+  <note displayLabel="Supplemental information">Based upon expert opinion and validation with the literature, the PSCA database accurately represents broad, range-wide patterns of salmon abundance and diversity.  Much of the data, particularly in the Russian Far East, is based upon modeling.  Refer to Pinsky et al (2009) for a complete summary of methods and data quality. The PSCA database provides a consistent format for comparing salmon watersheds across the range of wild Pacific salmon. The database offers a geo-referenced watershed dataset and twenty tables that all join on a common primary key attribute. The tables include information on abundance, distribution, diversity, run-timings, land cover/land-use, dams, hatcheries, data sources, drainages, administrative categories, and ESU’s. The goal of developing the database was to support a WSC assessment to prioritize salmon watersheds across the North Pacific, but the compilation of information at the scale can support a large variety of applications.</note>
   <relatedItem type="host">
     <titleInfo>
       <title>Data Supplement for "Range-wide selection of catchments for Pacific salmon conservation"</title>
@@ -84,7 +84,7 @@ Data Supplement for "Range-wide selection of catchments for Pacific salmon conse
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Ocean</topic>
   </subject>
   <subject>
-    <geographic lang="eng">North Pacific Ocean</geographic>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/4030875/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">North Pacific Ocean</geographic>
   </subject>
   <subject>
     <temporal encoding="w3cdtf" point="start">1950</temporal>
@@ -114,12 +114,12 @@ Data Supplement for "Range-wide selection of catchments for Pacific salmon conse
         <dc:type>Dataset#Polygon</dc:type>
         <gml:boundedBy>
           <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-180 24.23126</gml:lowerCorner>
-            <gml:upperCorner>180 73.990866</gml:upperCorner>
+            <gml:lowerCorner>-180.0 24.23126</gml:lowerCorner>
+            <gml:upperCorner>180.0 73.990866</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="North Pacific Ocean"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/4030875/about.rdf" dc:language="eng" dc:title="North Pacific Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-</mods>
+<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 180°--E 180°/N 73°59ʹ27ʺ--N 24°13ʹ53ʺ</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>

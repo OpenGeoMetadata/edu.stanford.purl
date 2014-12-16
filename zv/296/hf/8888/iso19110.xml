@@ -1,6 +1,6 @@
-<gfc:FC_FeatureCatalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.isotc211.org/2005/gfc" xsi:schemaLocation="http://www.isotc211.org/2005/gfc http://www.isotc211.org/2005/gfc/gfc.xsd" uuid="8180922b-e7d6-4551-925e-343faf6c9012">
+<gfc:FC_FeatureCatalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.isotc211.org/2005/gfc" xsi:schemaLocation="http://www.isotc211.org/2005/gfc http://www.isotc211.org/2005/gfc/gfc.xsd" uuid="ccf38f5b-5948-407d-9b9d-31419bddd201">
   <gmx:name>
-    <gco:CharacterString>Feature Catalog for Air Monitoring Stations: California, 2002-2004</gco:CharacterString>
+    <gco:CharacterString>Feature Catalog for Air Monitoring Stations: California, 2001-2003</gco:CharacterString>
   </gmx:name>
   <gmx:scope>
     <gco:CharacterString>Air quality monitoring stations; Air quality management</gco:CharacterString>
@@ -28,13 +28,13 @@
   <gfc:featureType>
     <gfc:FC_FeatureType>
       <gfc:typeName>
-        <gco:LocalName>airmonitoringstations</gco:LocalName>
+        <gco:LocalName>AirMonitoringStations</gco:LocalName>
       </gfc:typeName>
       <gfc:definition/>
       <gfc:isAbstract>
         <gco:Boolean>false</gco:Boolean>
       </gfc:isAbstract>
-      <gfc:featureCatalogue uuidref="8180922b-e7d6-4551-925e-343faf6c9012"/>
+      <gfc:featureCatalogue uuidref="ccf38f5b-5948-407d-9b9d-31419bddd201"/>
       <gfc:carrierOfCharacteristics>
         <gfc:FC_FeatureAttribute>
           <gfc:memberName>
@@ -126,28 +126,13 @@
       <gfc:carrierOfCharacteristics>
         <gfc:FC_FeatureAttribute>
           <gfc:memberName>
-            <gco:LocalName>ADAMSITEID</gco:LocalName>
+            <gco:LocalName>SITEVALUE</gco:LocalName>
           </gfc:memberName>
           <gfc:cardinality gco:nilReason="unknown"/>
           <gfc:valueType>
             <gco:TypeName>
               <gco:aName>
                 <gco:CharacterString>SmallInteger</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
-            <gco:LocalName>AIRSSITEID</gco:LocalName>
-          </gfc:memberName>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>String</gco:CharacterString>
               </gco:aName>
             </gco:TypeName>
           </gfc:valueType>
@@ -171,7 +156,7 @@
       <gfc:carrierOfCharacteristics>
         <gfc:FC_FeatureAttribute>
           <gfc:memberName>
-            <gco:LocalName>SITEADDRES</gco:LocalName>
+            <gco:LocalName>ABNAME</gco:LocalName>
           </gfc:memberName>
           <gfc:cardinality gco:nilReason="unknown"/>
           <gfc:valueType>
@@ -186,7 +171,7 @@
       <gfc:carrierOfCharacteristics>
         <gfc:FC_FeatureAttribute>
           <gfc:memberName>
-            <gco:LocalName>ZIPCODE</gco:LocalName>
+            <gco:LocalName>CNTYNAME</gco:LocalName>
           </gfc:memberName>
           <gfc:cardinality gco:nilReason="unknown"/>
           <gfc:valueType>
@@ -201,37 +186,7 @@
       <gfc:carrierOfCharacteristics>
         <gfc:FC_FeatureAttribute>
           <gfc:memberName>
-            <gco:LocalName>AIRBASIN</gco:LocalName>
-          </gfc:memberName>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>String</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
-            <gco:LocalName>COUNTY</gco:LocalName>
-          </gfc:memberName>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>String</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
-            <gco:LocalName>AIRDISTRIC</gco:LocalName>
+            <gco:LocalName>DISTRICT</gco:LocalName>
           </gfc:memberName>
           <gfc:cardinality gco:nilReason="unknown"/>
           <gfc:valueType>

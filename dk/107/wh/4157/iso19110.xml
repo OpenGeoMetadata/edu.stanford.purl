@@ -1,0 +1,1061 @@
+<gfc:FC_FeatureCatalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.isotc211.org/2005/gfc" xsi:schemaLocation="http://www.isotc211.org/2005/gfc http://www.isotc211.org/2005/gfc/gfc.xsd" uuid="a90a2ceb-e41d-4f7c-b27c-3e6288df4491">
+  <gmx:name>
+    <gco:CharacterString>Feature catalog for United States National Atlas Public Land Survey, 1972-2002</gco:CharacterString>
+  </gmx:name>
+  <gmx:scope>
+    <gco:CharacterString>Land use surveys; Public lands; Indian reservations; Military reservations; Land grants</gco:CharacterString>
+  </gmx:scope>
+  <gmx:versionNumber gco:nilReason="unknown"/>
+  <gmx:versionDate>
+    <gco:Date>2014</gco:Date>
+  </gmx:versionDate>
+  <gmx:language>
+    <gco:CharacterString>eng; US</gco:CharacterString>
+  </gmx:language>
+  <gmx:characterSet>
+    <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115"/>
+  </gmx:characterSet>
+  <gfc:producer>
+    <gmd:CI_ResponsibleParty>
+      <gmd:organisationName>
+        <gco:CharacterString>Esri</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="006"/>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gfc:producer>
+  <gfc:featureType>
+    <gfc:FC_FeatureType>
+      <gfc:typeName>
+        <gco:LocalName>publdsur</gco:LocalName>
+      </gfc:typeName>
+      <gfc:definition>
+        <gco:CharacterString>The polygons represent the Public Land Survey which is a rectangular system of surveys devised to subdivide public domain lands within United States; in addition are donation land claims, Indian lands, land grants, civil colonies, military reservations, overlapping land grants, private surveys, unsurveyed areas, and areas not part of the Public Land Survey System within United States.</gco:CharacterString>
+      </gfc:definition>
+      <gfc:isAbstract>
+        <gco:Boolean>false</gco:Boolean>
+      </gfc:isAbstract>
+      <gfc:featureCatalogue uuidref="a90a2ceb-e41d-4f7c-b27c-3e6288df4491"/>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>FID</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Internal feature number.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Esri</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>Esri</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>OID</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>Shape</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Feature geometry.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Esri</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>Esri</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Geometry</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>FEATURE1</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The primary survey area type.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>National Atlas of the United States and the United States Geological Survey</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>National Atlas of the United States and the United States Geological Survey</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>Donation Land Claims</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>An area that was allocated to a settler under the Donation Act of September 27, 1850 to preserve the rights of pre-statehood settlers claimed prior to the regular division of townships and ranges.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>U.S. Geological Survey </gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>U.S. Geological Survey </gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>Indian Lands</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>Land granted to native Americans and excluded from the public domain.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>U.S. Geological Survey </gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>U.S. Geological Survey </gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>Land Grants, Civil Colonies</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>An area of land to which title was conferred by a predecessor government and confirmed by the U.S. Government after the territory in which it is situated was acquired by the United States.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>U.S. Geological Survey </gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>U.S. Geological Survey </gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>Military Reservation</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>A military or lighthouse reservation that limits the public lands.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>U.S. Geological Survey </gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>U.S. Geological Survey </gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>Not Part of Public Land Surveys System</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>An area that is outside of the Public Land Survey System.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>U.S. Geological Survey </gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>U.S. Geological Survey </gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>Overlapping Land Grants</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>An area of land to which more than one title was conferred by a predecessor government and confirmed by the U.S. Government after the territory in which it is situated was acquired by the United States. These areas are the result of survey error or disputed claims.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>U.S. Geological Survey </gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>U.S. Geological Survey </gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>Private Survey</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>An area of private surveys of public domain lands.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>U.S. Geological Survey </gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>U.S. Geological Survey </gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>Public Survey</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>An area of land subdivided by the Public Land Survey System (PLSS), which was originally created on public domain lands and the rules for its use were defined by the authority of the U.S. Government. The PLSS has since been extended, following similar rules, into non- public domain areas.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>U.S. Geological Survey </gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>U.S. Geological Survey </gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>Unsurveyed Area</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>An area that is part of the public domain but which has not been subdivided.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>U.S. Geological Survey </gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>U.S. Geological Survey </gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>Water</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>Areas of navigable streams and meanderable lakes which are excluded from the Public Land Survey System.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>U.S. Geological Survey</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>U.S. Geological Survey</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>FEATURE2</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The township and range designation for the area.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>National Atlas of the United States and the United States Geological Survey</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>National Atlas of the United States and the United States Geological Survey</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>FEATURE3</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The secondary survey area type.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>National Atlas of the United States and the United States Geological Survey</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>National Atlas of the United States and the United States Geological Survey</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>Land Grants, Civil Colonies</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>An area of land to which title was conferred by a predecessor government and confirmed by the U.S. Government after the territory in which it is situated was acquired by the United States.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>U.S. Geological Survey</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>U.S. Geological Survey</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>Overlapping Land Grants</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>An area of land to which more than one title was conferred by a predecessor government and confirmed by the U.S. Government after the territory in which it is situated was acquired by the United States. These areas are the result of survey error or disputed claims.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>U.S. Geological Survey</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>U.S. Geological Survey</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>NAME1</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The primary name of the survey area. This is the principal meridian, Ohio base, or land grant name.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>National Atlas of the United States and the United States Geological Survey</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>National Atlas of the United States and the United States Geological Survey</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>NAME2</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The secondary name of the survey area. This is an additional land grant name.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>National Atlas of the United States and the United States Geological Survey</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>National Atlas of the United States and the United States Geological Survey</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>STATE</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The two-letter abbreviation for each state in which the survey area is located.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Department of Commerce, National Institute of Standards and Technology</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>Department of Commerce, National Institute of Standards and Technology</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>TOWNSHIP</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The abbreviated township designation for the area.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Esri</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>Esri</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>RANGE</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The abbreviated range designation for the area.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Esri</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>Esri</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>TWNRNG</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The abbreviated township and range designation for the area.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Esri</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>Esri</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>SQMI</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The area of the survey area in square miles.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Esri</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>Esri</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>Shape_Leng</gco:LocalName>
+          </gfc:memberName>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>Shape_Area</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Area of feature in internal units squared.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Esri</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>Esri</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+    </gfc:FC_FeatureType>
+  </gfc:featureType>
+</gfc:FC_FeatureCatalogue>

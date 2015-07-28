@@ -1,0 +1,2053 @@
+<gfc:FC_FeatureCatalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.isotc211.org/2005/gfc" xsi:schemaLocation="http://www.isotc211.org/2005/gfc http://www.isotc211.org/2005/gfc/gfc.xsd" uuid="def8fc70-4cdf-40c1-8b3e-7e3f2671907f">
+  <gmx:name>
+    <gco:CharacterString>Feature catalog for United States Airports, 1991-2014</gco:CharacterString>
+  </gmx:name>
+  <gmx:scope>
+    <gco:CharacterString>Airports; Airport control towers; Runways (Aeronautics)</gco:CharacterString>
+  </gmx:scope>
+  <gmx:versionNumber gco:nilReason="unknown"/>
+  <gmx:versionDate>
+    <gco:Date>2014</gco:Date>
+  </gmx:versionDate>
+  <gmx:language>
+    <gco:CharacterString>eng; US</gco:CharacterString>
+  </gmx:language>
+  <gmx:characterSet>
+    <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115"/>
+  </gmx:characterSet>
+  <gfc:producer>
+    <gmd:CI_ResponsibleParty>
+      <gmd:organisationName>
+        <gco:CharacterString>Esri</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="006"/>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gfc:producer>
+  <gfc:featureType>
+    <gfc:FC_FeatureType>
+      <gfc:typeName>
+        <gco:LocalName>airportp</gco:LocalName>
+      </gfc:typeName>
+      <gfc:definition>
+        <gco:CharacterString>The polygons represent the airport grounds and airport runways within the United States.</gco:CharacterString>
+      </gfc:definition>
+      <gfc:isAbstract>
+        <gco:Boolean>false</gco:Boolean>
+      </gfc:isAbstract>
+      <gfc:featureCatalogue uuidref="def8fc70-4cdf-40c1-8b3e-7e3f2671907f"/>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>FID</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Internal feature number.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Esri</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>Esri</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>OID</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>Shape</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Feature geometry.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Esri</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>Esri</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Geometry</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>NAME</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The official name of the airport.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>FCC</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The Feature Classification Code of the airport/runway.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Department of Commerce, Census Bureau</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>Department of Commerce, Census Bureau</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>FEATTYPE</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The feature type description of the airport/runway.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>MNFC</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The MultiNet feature code of the airport/runway.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Integer</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>LOC_ID</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The three- or four-character identifier code of the airport.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Federal Aviation Administration</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>Federal Aviation Administration</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>USE</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The identification of the use of the airport/runway.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>National Flight Data Center (NFDC)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>National Flight Data Center (NFDC)</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>PU</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>Public use.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>National Flight Data Center (NFDC)</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>National Flight Data Center (NFDC)</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>PR</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>Private use.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>National Flight Data Center (NFDC)</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>National Flight Data Center (NFDC)</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>OWNERNAME</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The owner name of the airport/runway.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>National Flight Data Center (NFDC)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>National Flight Data Center (NFDC)</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>ELEVATION</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The elevation in feet above sea level of the airport/runway.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>National Flight Data Center (NFDC)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>National Flight Data Center (NFDC)</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Integer</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>-999</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>Unknown.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>Esri</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>Esri</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>CONGES_LEV</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The congestion level of the airport.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>National Plan of Integrated Airport Systems (NPIAS)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>National Plan of Integrated Airport Systems (NPIAS)</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>S</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>Severe.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>National Plan of Integrated Airport Systems (NPIAS)</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>National Plan of Integrated Airport Systems (NPIAS)</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>M</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>Moderate.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>National Plan of Integrated Airport Systems (NPIAS)</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>National Plan of Integrated Airport Systems (NPIAS)</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>U</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>Uncongested.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>National Plan of Integrated Airport Systems (NPIAS)</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>National Plan of Integrated Airport Systems (NPIAS)</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>O</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>Entry missing.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>National Plan of Integrated Airport Systems (NPIAS)</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>National Plan of Integrated Airport Systems (NPIAS)</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>blank</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>Unknown.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>Esri</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>Esri</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>SERV_LEV</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The service level of the airport.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>National Plan of Integrated Airport Systems (NPIAS)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>National Plan of Integrated Airport Systems (NPIAS)</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>PR</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>Primary commercial service airport.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>National Plan of Integrated Airport Systems (NPIAS)</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>National Plan of Integrated Airport Systems (NPIAS)</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>CM</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>Commercial service other than primary airport.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>National Plan of Integrated Airport Systems (NPIAS)</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>National Plan of Integrated Airport Systems (NPIAS)</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>CR</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>Commercial service airport that also serves as a reliever airport.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>National Plan of Integrated Airport Systems (NPIAS)</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>National Plan of Integrated Airport Systems (NPIAS)</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>GA</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>General aviation airport.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>National Plan of Integrated Airport Systems (NPIAS)</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>National Plan of Integrated Airport Systems (NPIAS)</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>RL</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>General aviation airport that serves as a reliever airport or heliport.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>National Plan of Integrated Airport Systems (NPIAS)</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>National Plan of Integrated Airport Systems (NPIAS)</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>GP</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>General aviation airport that meets the criteria for a primary airport (PR), but has been declared ineligible to be a primary airport.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>National Plan of Integrated Airport Systems (NPIAS)</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>National Plan of Integrated Airport Systems (NPIAS)</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>GC</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>General aviation airport that meets the criteria for a commercial service other than a primary airport (CM), but has been declared ineligible to be a commercial airport.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>National Plan of Integrated Airport Systems (NPIAS)</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>National Plan of Integrated Airport Systems (NPIAS)</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>blank</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>Unknown.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>Esri</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>Esri</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>LRGCERTENP</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The total domestic and foreign enplanements on large certificated U.S. air carriers during calendar year 1992.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Integer</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>COMM_ENP</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The total enplanements by small certificated air carriers during calendar year 1992 operating scheduled service.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Integer</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>AIRTAXIENP</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The total enplanements on air taxis during calendar year 1992.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Integer</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>FOREIGNENP</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The total enplanements by foreign carriers during calendar year 1992.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Integer</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>INTRANENP</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The 1992 total passengers onboard international flights that transit the airport for purposes other than boarding and de-boarding passengers.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Integer</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>HUB_SIZE</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The hub size of the airport based on percent of national enplanements.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Air Carrier Activity Information System (ACAIS)</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>Air Carrier Activity Information System (ACAIS)</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>L</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>Large.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>Air Carrier Activity Information System (ACAIS)</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>Air Carrier Activity Information System (ACAIS)</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>M</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>Medium.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>Air Carrier Activity Information System (ACAIS)</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>Air Carrier Activity Information System (ACAIS)</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>S</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>Small.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>Air Carrier Activity Information System (ACAIS)</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>Air Carrier Activity Information System (ACAIS)</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>N</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>Non-hub.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>Air Carrier Activity Information System (ACAIS)</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>Air Carrier Activity Information System (ACAIS)</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>G</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>General aviation.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>Air Carrier Activity Information System (ACAIS)</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>Air Carrier Activity Information System (ACAIS)</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>blank</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>Unknown.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>Esri</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>Esri</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>TOWER_TYPE</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The tower type code of the airport.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Esri</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>Esri</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>0</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>No tower.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>1</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>Terminal Radar Approach Control Facility (TRACON), Radar Approach Control Facility (RAPCON), Combined Center and Radar Approach Control Facility (CERAP).</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>2</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>Radar tower.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>3</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>Limited radar tower.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>4</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>Non-radar tower.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>5</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>Visual Flight Rule (VFR) tower.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>6</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>Non-Federal Aviation Administration (FAA) facility.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>7</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>Contract tower.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>TomTom North America, Inc.</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>blank</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>Unknown.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>Esri</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>Esri</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>Shape_Leng</gco:LocalName>
+          </gfc:memberName>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>Shape_Area</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Area of feature in internal units squared.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Esri</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>Esri</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+    </gfc:FC_FeatureType>
+  </gfc:featureType>
+</gfc:FC_FeatureCatalogue>

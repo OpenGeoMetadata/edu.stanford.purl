@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Governorate Boundaries, Egypt, 2006</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>Egypt. Jiha&#x304;z al-Markazi&#x304; lil-Ta&#x2BB;bi&#x2BC;ah al-&#x2BB;A&#x304;mmah wa-al-Ih&#x323;s&#x323;a&#x304;&#x2BC;</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>Egypt. Jiha&#x304;z al-Markazi&#x304; lil-Ta&#x2BB;bi&#x2BC;ah al-&#x2BB;A&#x304;mmah wa-al-Ih&#x323;s&#x323;a&#x304;&#x2BC;</publisher>
+    <place>
+      <placeTerm type="text">Cairo, EG</placeTerm>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+    <dateValid encoding="w3cdtf">2006</dateValid>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <extent>4.675</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::32636</projection>
+      <coordinates>(E 24&#xB0;17&#x2B9;15&#x2BA;--E 37&#xB0;15&#x2B9;40&#x2BA;/N 31&#xB0;54&#x2B9;48&#x2BA;--N 21&#xB0;45&#x2B9;30&#x2BA;)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the governorate boundaries of Egypt for 2006. Egypt is divided into 27 governorates for administrative purposes. Governorates are the top tier of the country's five-tier jurisdiction hierarchy. A governorate is administered by a governor, who is appointed by the President of Egypt and serves at the president's discretion. Most governorates have a population density of more than one thousand per km&#xB2;, while the three largest have a population density of less than two per km&#xB2;. These data are part of a collection of boundary data for Egypt published by the Central Agency for Public Mobilization And Statistics.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">Central Agency for Public Mobilization And Statistics. (2015) Governorate Boundaries, Egypt, 2006. CAPMAS. Available at: http://purl.stanford.edu/wh765mk1189.</note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Administrative and political divisions</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/357994/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Egypt</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">2006</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/wh765mk1189</url>
+  </location>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:wh765mk1189</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/wh765mk1189">
+        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type>Dataset#Polygon</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>24.692906 21.941342</gml:lowerCorner>
+            <gml:upperCorner>36.907099 31.670021</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="http://sws.geonames.org/357994/about.rdf" dc:language="eng" dc:title="Egypt"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 24&#xB0;41&#x2B9;34&#x2BA;--E 36&#xB0;54&#x2B9;26&#x2BA;/N 31&#xB0;40&#x2B9;12&#x2BA;--N 21&#xB0;56&#x2B9;29&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>

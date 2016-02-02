@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Ocean Depths: California Coast, 2000</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>California. Department of Fish and Game. Marine Resources Region</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <name type="corporate">
+    <namePart>Pacific Fishery Management Council (U.S.)</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <name type="corporate">
+    <namePart>United States. National Marine Fisheries Service</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <name type="corporate">
+    <namePart>United States. National Oceanic and Atmospheric Administration</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>California. Department of Fish and Game. Marine Resources Region</publisher>
+    <place>
+      <placeTerm type="text">Monterey, CA, US</placeTerm>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2000</dateIssued>
+    <dateValid encoding="w3cdtf">2000</dateValid>
+    <edition>First</edition>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <extent>0.081</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>Custom projection</projection>
+      <coordinates>(W 126&#xB0;31&#x2BA;--W 116&#xB0;40&#x2B9;3&#x2BA;/N 42&#xB0;17&#x2B9;33&#x2BA;--N 32&#xB0;2&#x2B9;51&#x2BA;)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This point shapefile depicts ocean depths gridded on a 5-minute latitude/longitude interval. This coverage was created from data extracted from the National Oceanic and Atmospheric Administration (NOAA) National Geophysical Data Center (NGDC) "TerrainBase" dataset. The TerrainBase global digital terrain model contains a complete matrix of land elevation and ocean depth values for the entire world. NGDC/World Data Center-A developed the model using the best public domain data available at the time of publication.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">The intended use of this coverage is as a companion dataset to the Department of Fish and Wildlife "Trawl Logbook Catch Grid," developed by the Pacific Fishery Management Council, the States of Washington, Oregon and California, and the National Marine Fisheries Service (see coverage "caltrawl" in Resource Details Supplemental Information). The coarse resolution of the estimated depths facilitates rapid display on microcomputer and comparative analysis of trawl block data. These data are not suitable for inshore habitat analysis nor for navigation purposes.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">California Department of Fish and Wildlife. (2000). Ocean Depths: California Coast, 2000. Marine Region GIS Lab. Available at: http://purl.stanford.edu/gc081vs0264.</note>
+  <note displayLabel="Supplemental information">Converted to California Teale Albers NAD83 by the California Department of Fish and Game --BEGIN ORIGINAL METADATA - THIS INFORMATION MAY NOT BE CURRENT-- Identification_Information: Citation: Citation_Information: Originator: National Oceanic and Atmospheric Administration Originator: California Department of Fish and Game Publication_Date: 199707 Title: NOAA 5-minute Gridded Sea Floor Elevations Geospatial_Data_Presentation_Form: vector digital data Online_Linkage: \\Molib01\GIS_Library\Elevation\Water\Points\calbath5 Description: Abstract: Calbath5 is a point dataset of ocean depths gridded on a 5-minute latitude/longitude interval. This dataset was created from data extracted from the NOAA National Geophysical Data Center (NGDC) "TerrainBase" dataset. The TerrainBase global digital terrain model contains a complete matrix of land elevation and ocean depth values for the entire world. Purpose: Assess California coastwide ocean depths. Supplemental_Information: Converted to California Teale Albers NAD83 by the California Department of Fish and Game -- BEGIN ORIGINAL METADATA - THIS INFORMATION MAY NOT BE CURRENT -- DEPARTMENT OF FISH AND GAME -- GIS METADATA NOAA 5-minute Gridded Sea Floor Elevations COVERAGE NAME: calbath5 COVERAGE PATH: dfghost /tsb/dfgbase/gislib METADATA FILE: calbath5.txt METADATA DATE: July 11, 1997 ------------------------- COVERAGE DESCRIPTION: Calbath5 is a point coverage of ocean depths gridded on a 5-minute latitude/longitude interval. This coverage was created from data extracted from the NOAA National Geophysical Data Center (NGDC) "TerrainBase" dataset. The TerrainBase global digital terrain model contains a complete matrix of land elevation and ocean depth values for the entire world. NGDC/WDC-A developed the model using the best public domain data available at the time of publication. The intended use of calbath5 is as a companion dataset to the Department of Fish and Game "Trawl logbook catch grid", developed by the Pacific Fishery Management Council, the States of Washington, Oregon, and California, and the National Marine Fisheries Service (see coverage "caltrawl"). The coarse resolution of the estimated depths facilitates rapid display on microcomputer and comparative analysis of trawl block data. This coverage is not suitable for inshore habitat analysis nor for navigation. PROCESSING STEPS 1. Internet accessed NOAA/NGDC site: http://www.ngdc.noaa.gov/mgg/global/seltopo.html 2. Entered min/max decimal degree lat/long values for coverage caltrawl, plus a 0.1 degree buffer. 3. Selected output options: TerrainBase, ascii,lon/lat/datavalue, comma-delimited, Least Sig.Byte 1st. 4. In ARCVIEW, added comma-delimited table and created a new event theme. 5. Converted event theme to shapefile. 6. Extracted points within extent of coverage "caltrawl", plus manually extended buffer. Re-converted to a new shapefile. 7. Edited attributes, added meters, feet, fathom units. Constants: 1 meter = 3.2808 feet; 1 fathom = 6 feet. 8. Removed grid anomolies where offshore values had non-negative data values, i.e. where ocean points had elevations greater than zero. 9. Ran spatial join, adding item BLOCK10_ID from coverage "caltrawl". 10.In ARC/INFO ran shapearc to convert shapefile to a coverage. 11.Reprojected decimal degree coverage to Teale albers, using default datum. (NOAA/NGDC datum unknown) VITAL STATISTICS: Standard Teale Parameters? [x] YES; [ ] NO Datum: NAD 27 Projection: Albers Units: Meters 1st Std. Parallel: 34 00 00 (34.0 degrees N) 2nd Std. Parallel: 40 30 00 (40.5 degrees N) Longitude of Origin: -120 00 00 (120.0 degrees W) Latitude of Origin: 00 00 00 (0.0 degrees N) False Easting (X shift): 0 False Northing (Y shift): -4,000,000 Source: U.S. DOC NOAA/National Geophysical Data Center URL http://www.ngdc.noaa.gov/mgg/global/seltopo.html Source Media: digital file Source Projection: unprojected, geographic latitude/longitude Source Units: decimal degrees, elevations in meters Source Scale: various Capture Method: event theme created from NOAA data Conversion Software: [ ] PC-ARC/INFO; [x] Workstation ARC/INFO [x] ARCVIEW Version: 7.x (HP-UX 10.x); ARCVIEW 3.0 Data Structure: vector ARC/INFO Coverage Type: point ARC/INFO Precision: single ARC/INFO Tolerances: fuzzy= 112.354m; dangle= 1.0 m Number of Features: points: 3036 File Size: appx. 760K, uncompressed arc export file: calbath5.e00 Data Updated: 1997.07.11 DATA DICTIONARY: Structure for CALBATH5.PAT COL ITEM NAME WIDTH TYPE N.DEC DESCRIPTION 1 AREA 4 F 3 ARC/INFO default 5 PERIMETER 4 F 3 ARC/INFO default 9 CALBATH5# 4 B - ARC/INFO default 13 CALBATH5-ID 4 B - ARC/INFO default 17 LON 4 F 2 Longitude, decimal degrees 21 LAT 4 F 2 Latitude, decimal degrees 25 DATAVALUE 4 B - Original NOAA value, depth in meters 29 METERS 4 B - Absolute value of DATAVALUE 33 FEET 8 F 0 Depth in feet 41 FATHOMS 4 B - Depth in fathoms 45 BLOCK10_ID 6 I - DFG Trawl Block Identifier Description of item (field) values: BLOCK10-ID ---- ID corresponding to the block number appearing in the "Washington-Oregon-California Trawl Logbook". Due to misalignment of grids, instances of BLOCK10-ID in this coverage are only appoximate. DATA QUALITY ASSESSMENT: A term to describe the type of height values represented in the model (such as mean, mode, point, etc.) cannot be assigned to the TerrainBase model since it is comprised of a variety of source data. The type of terrain height represented by these source data sets varies from one model to the next. For example, the FNOC model has modal heights, while the USA model uses point heights, and the Europe model has mean heights. Consequently, it is not possible to assign a single term to represent all of the height values given in the TerrainBase model. To satisfy interested users, however, a term that can be used which is common to all of the source data is best estimate of height. That is, the data represent the best estimate of height for each 5-minute cell. Although such a term has minimal scientific value, it does emphasize the fact that the data only represent reasonable estimates of the height of the terrain (NOAA/NGDC 1997). METADATA CONTACT: =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= Paul Veisze, Spatial Data Coordinator California Department of Fish and Game Technical Services Branch -- GIS Unit 1730 I Street, Sacramento, CA 95814 Phone: 916-323-1667 \ Fax: 916-323-1431 ^---\-&gt; Email: pveisze@dfg.ca.gov \ http://www.dfg.ca.gov =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= RESPONSIBILITY FOR DATA ACCURACY AND UPDATES: Topography/TerrainBase Technical data contact: Paula Dunbar, pdunbar@ngdc.noaa.gov. NOAA/NGDC Mail Code E/GC3, 325 Broadway Boulder, CO USA 80303. phone 303-497-3930, fax 303-497-6513 -- end of file calbath5.txt -- -- END ORIGINAL METADATA -- Time_Period_of_Content: Time_Period_Information: Single_Date/Time: Calendar_Date: 199707 Currentness_Reference: publication date Status: Progress: Complete Maintenance_and_Update_Frequency: None planned Spatial_Domain: Bounding_Coordinates: West_Bounding_Coordinate: -126.008643 East_Bounding_Coordinate: -116.667519 North_Bounding_Coordinate: 42.292535 South_Bounding_Coordinate: 32.047396 Keywords: Theme: Theme_Keyword_Thesaurus: none Theme_Keyword: elevation Theme_Keyword: oceans Theme_Keyword: bathymetry Place: Place_Keyword_Thesaurus: none Place_Keyword: California Access_Constraints: none Use_Constraints: none Native_Data_Set_Environment: Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 3; ESRI ArcCatalog 8.3.0.800 Spatial_Data_Organization_Information: Direct_Spatial_Reference_Method: Vector Point_and_Vector_Object_Information: SDTS_Terms_Description: SDTS_Point_and_Vector_Object_Type: Entity point Point_and_Vector_Object_Count: 3036 SDTS_Terms_Description: SDTS_Point_and_Vector_Object_Type: Point Point_and_Vector_Object_Count: 4 Spatial_Reference_Information: Horizontal_Coordinate_System_Definition: Planar: Map_Projection: Map_Projection_Name: Albers Conical Equal Area Albers_Conical_Equal_Area: Standard_Parallel: 34.000000 Standard_Parallel: 40.500000 Longitude_of_Central_Meridian: -120.000000 Latitude_of_Projection_Origin: 0.000000 False_Easting: 0.000000 False_Northing: -4000000.000000 Planar_Coordinate_Information: Planar_Coordinate_Encoding_Method: coordinate pair Coordinate_Representation: Abscissa_Resolution: 0.002048 Ordinate_Resolution: 0.002048 Planar_Distance_Units: meters Geodetic_Model: Horizontal_Datum_Name: North American Datum of 1983 Ellipsoid_Name: Geodetic Reference System 80 Semi-major_Axis: 6378137.000000 Denominator_of_Flattening_Ratio: 298.257222 Entity_and_Attribute_Information: Detailed_Description: Entity_Type: Entity_Type_Label: calbath5.pat Attribute: Attribute_Label: FID Attribute_Definition: Internal feature number. Attribute_Definition_Source: ESRI Attribute_Domain_Values: Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated. Attribute: Attribute_Label: Shape Attribute_Definition: Feature geometry. Attribute_Definition_Source: ESRI Attribute_Domain_Values: Unrepresentable_Domain: Coordinates defining the features. Attribute: Attribute_Label: AREA Attribute_Definition: Area of feature in internal units squared. Attribute_Definition_Source: ESRI Attribute_Domain_Values: Unrepresentable_Domain: Area is always zero for point coverages. Values are automatically generated. Attribute: Attribute_Label: PERIMETER Attribute_Definition: Perimeter of feature in internal units. Attribute_Definition_Source: ESRI Attribute_Domain_Values: Unrepresentable_Domain: Perimeter is always zero for point coverages. Values are automatically generated. Attribute: Attribute_Label: CALBATH5# Attribute_Definition: Internal feature number. Attribute_Definition_Source: ESRI Attribute_Domain_Values: Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated. Attribute: Attribute_Label: CALBATH5-ID Attribute_Definition: User-defined feature number. Attribute_Definition_Source: ESRI Attribute: Attribute_Label: LON Attribute: Attribute_Label: LAT Attribute: Attribute_Label: DATAVALUE Attribute: Attribute_Label: METERS Attribute: Attribute_Label: FEET Attribute: Attribute_Label: FATHOMS Attribute: Attribute_Label: BLOCK10_ID Distribution_Information: Resource_Description: Downloadable Data Standard_Order_Process: Digital_Form: Digital_Transfer_Information: Transfer_Size: 0.396 Metadata_Reference_Information: Metadata_Date: 20030929 Metadata_Contact: Contact_Information: Contact_Organization_Primary: Contact_Organization: California Department of Fish and Game Contact_Person: GIS Service Center Contact_Address: Contact_Electronic_Mail_Address: geodata@dfg.ca.gov Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata Metadata_Standard_Version: FGDC-STD-001-1998 Metadata_Time_Convention: local time Metadata_Extensions: Online_Linkage: http://www.esri.com/metadata/esriprof80.html Profile_Name: ESRI Metadata Profile --END ORIGINAL METADATA--</note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Coasts</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Continental shelf</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Contours (Cartography)</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Digital elevation models</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Remote sensing</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Bathymetric maps</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/3687919/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">California</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/8411083/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Pacific Ocean</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">2000</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="elevation">Elevation</topic>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="oceans">Oceans</topic>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="location">Location</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/gc081vs0264</url>
+  </location>
+  <accessCondition type="useAndReproduction">No restrictions on access or use. Please cite the authors when possible.</accessCondition>
+  <accessCondition type="useAndReproduction">No restrictions on access or use. Please cite the authors when possible.</accessCondition>
+  <accessCondition type="useAndReproduction">No restrictions on access or use. Please cite the authors when possible.</accessCondition>
+  <accessCondition type="useAndReproduction">No restrictions on access or use. Please cite the authors when possible.</accessCondition>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:gc081vs0264</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/gc081vs0264">
+        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type>Dataset#Point</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>-125.831235 32.170051</gml:lowerCorner>
+            <gml:upperCorner>-117.08086 42.169838</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 125&#xB0;49&#x2B9;52&#x2BA;--W 117&#xB0;4&#x2B9;51&#x2BA;/N 42&#xB0;10&#x2B9;11&#x2BA;--N 32&#xB0;10&#x2B9;12&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>

@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>ZIP Code Boundaries, United States (Q3 2010)</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>TTG, Inc.</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>TTG, Inc.</publisher>
+    <place>
+      <placeTerm type="text">Bedford, MA, </placeTerm>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+    <dateValid encoding="w3cdtf">2010</dateValid>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <extent>41.325</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>(W 178&#xB0;13&#x2B9;31&#x2BA;--W 64&#xB0;41&#x2B9;22&#x2BA;/N 71&#xB0;20&#x2B9;3&#x2BA;--N 17&#xB0;41&#x2B9;54&#x2BA;)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains zip code boundaries for the United States. Data are valid from July to September, 2010. Attributes included in the data are location, area/perimeter, county names, FIPS and USPS codes, and alternate names. These data are updated quarterly using the latest feeds from the U.S. Postal Service with additional sources being used to cross-check the data.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">This layer provides zip code data for view and analysis in GIS and interactive web mapping applications.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">TTG, Inc. (2010). ZIP Code Boundaries, United States (Q3 2010). TTG, Inc. Available at: http://purl.stanford.edu/vp607wp8375</note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Zip codes</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/6252001/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">United States</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">2010</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/vp607wp8375</url>
+  </location>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:vp607wp8375</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/vp607wp8375">
+        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type>Dataset#Polygon</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>-178.2253 17.6982</gml:lowerCorner>
+            <gml:upperCorner>-64.68955 71.3342</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/about.rdf" dc:language="eng" dc:title="United States"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+</mods>

@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Bathymetric Digital Elevation Model  (200 meters): California Coast, 2002</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>National Ocean Service Hydrographic Surveys</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart>Richardson, Andy</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <name type="corporate">
+    <namePart>Coastal and Marine Geology Program (Geological Survey)</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart>Wong-Coppin, Virginia</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <name type="corporate">
+    <namePart>California. Department of Fish and Game. Marine Resources Region</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>California. Department of Fish and Game. Marine Resources Region</publisher>
+    <place>
+      <placeTerm type="text">Monterey, CA, US</placeTerm>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2003</dateIssued>
+    <dateValid encoding="w3cdtf">2002</dateValid>
+    <edition>Second</edition>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Arc/Info Binary Grid</form>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>Custom projection</projection>
+      <coordinates>(W 129&#xB0;46&#x2B9;26&#x2BA;--W 116&#xB0;16&#x2B9;/N 42&#xB0;35&#x2B9;14&#x2BA;--N 31&#xB0;18&#x2B9;50&#x2BA;)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This raster dataset is a mosaic resampled to 200 meter horizontal resolution for areas of sparse data occurrence. Vertical units are fathoms (integer). The tiled 25 meter base DEMs are intermediate products used to generate the 25-200 meter zonal DEMs. These 25, 50, 100 and 200 meter "zones" were defined by plotting the source data on paper, visually identifying and hand drafting zone boundaries based on data density, then capturing the boundaries in digital format. The tiled 5-200 meter zonal DEMs are simply the coast-wide zonal DEMs (or individual 5 meter zonal DEMs) clipped to a 7500 meter buffered tile extent and stored in the tile directory. This makes it easy to find DEMs of all available resolutions for a single tile. Tile directories store only those resolutions that cover the tile.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">A single coast-wide Digital Elevation Model (DEM) was envisioned as the product of the California Department of Fish and Game bathymetry development project, but it quickly became evident that the source data necessitated multiple datasets, including: 1) Coast-wide 25, 50, 100 and 200 meter zonal DEMs; 2) 5 meter zonal DEMs for localities supported by high-density source data; 3) Tiled 5, 25, 50, 100 and 200 meter zonal DEMs; and 4) Tiled 25 meter base DEMs. The grid is a resampled compilation of these datasets (available upon request). The bathymetry development project covered most of the 200 nautical mile Exclusive Economic Zone (EEZ) off the coast of California. The actual extent of data is slightly beyond this zone in some areas to account for the 100 km. tiles used to process source data (some tiles extend beyond the EEZ boundary by as much as almost a tile width, or less than 100 km.). To the east, the coverage includes many major inlets along the coast. The tiles also extend north and south of California by less than one tile height. These data are not suitable for navigation purposes.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">California Department of Fish and Wildlife, 2003. Bathymetric Digital Elevation Model  (200 meters): California Coast, 2002. Marine Region GIS Lab. Available at: http://purl.stanford.edu/ns150wp8904.</note>
+  <note displayLabel="Supplemental information">--BEGIN ORIGINAL METADATA - THIS INFORMATION MAY NOT BE CURRENT-- California Department of Fish and Game BATHYMETRY PROJECT Second Edition This document provides an overall description of the California Department of Fish and Game (DFG) bathymetry development project, including source datasets, processes used, and resulting products. The bathymetry data are not suitable for navigation. DFG makes no warranty as to the suitability of the bathymetry data, and any project-related datasets, for any purpose. In addition to this readme file, other documentation files (text, XML, etc.) may accompany datasets related to this project. ACKNOWLEDGEMENTS The bathymetry processing methods and documentation were originally developed by the State of California Stephen P. Teale Data Center, GIS Solutions Group (Teale) under DFG direction. Key Teale staff involved in the project included Andy Richardson and Virginia Wong-Coppin. REVISIONS A second edition of the bathymetry data was completed by DFG in August 2002. The second edition data were processed using ARC/INFO GIS software in a Windows 2000 operating system environment and included the following enhancements: - Correction or exclusion of over 1700 miscoded and suspicious Hydrographic Surveys used in the bathymetry development process. - Replacement of older U.S. Geological Survey 7.5-minute terrestrial elevation data with the newer/higher-quality National Elevation Dataset (NED) for use in nearshore bathymetry interpolation. - Minor adjustments to some of the ARC/INFO software ARC Macro Language (AML) scripts and resolution zone boundaries used to process the bathymetry data. GEOGRAPHIC AREA Bathymetry was developed to cover most of the 200 nautical mile Exclusive Economic Zone (EEZ) off the coast of California. The actual extent of data is slightly beyond this zone in some areas to account for the 100 kilometer tiles used to process source data (some tiles extend beyond the EEZ boundary by as much as almost a tile width, or less than 100 KM). To the east, the coverage includes many major inlets along the coast. The tiles also extend north and south of California by less than 1 tile height. VITAL STATISTICS Data Format: ESRI grid (DEMs) Horizontal Datum: NAD27 (spheroid: Clarke 1866) Projection: Albers conic equal area Units: Meters Z-Units (depth values): Decimeters (land coded as zero) 1st Std. Parallel: 34 00 00 (34.0 degrees N) 2nd Std. Parallel: 40 30 00 (40.5 degrees N) Longitude of Origin: -120 00 00 (120.0 degrees W) Latitude of Origin: 00 00 00 (0.0 degrees) False Easting: 0 False Northing: -4000000 RESULTING PRODUCTS Initially a single coastwide Digital Elevation Model (DEM) was evisioned to be the product resulting from this project. Upon commencing the project it became evident that due to the nature of the source data multiple datasets were appropriate. These include: 1. Coastwide 25, 50, 100, and 200 meter zonal DEMs 2. 5 meter zonal DEMs for localities supported by high-density source data 3. Tiled 5, 25, 50, 100, and 200 meter zonal DEMs 4. Tiled 25 meter base DEMs The coastwide 25-200 meter zonal DEMs are based on the fact that there is a wide variation in the density of the source data. Where data were dense, a 25 meter zonal DEM was generated. Where data were sparse, a 200 meter zonal DEM was generated. The 50 and 100 meter zonal DEMs represent intermediate densities. Though "coastwide", data in these DEMs do not overlap, however together they cover the entire study area. These 25, 50, 100, and 200 meter "zones" were defined by plotting the source data on paper, visually identifying and hand drafting zone boundaries based on data density, then capturing the boundaries in digital format. The 5 meter zonal DEMs correspond to areas where source data are particularly dense. These areas were identified by visually scanning the source data on-screen, and "heads up" digitizing the boundaries. These DEMs differ from the 25-200 meter zonal DEMs in that they were processed using different tolerances and that they were not merged into a single coastwide zonal DEM (due to resolution / storage constraints). These DEMs are available named by geographic localities or as tiled data. The tiled 5-200 meter zonal DEMs are simply the coastwide zonal DEMs (or individual 5 meter zonal DEMs) clipped to a 7500 meter buffered tile extent and stored in the tile directory. This makes it easy for a user to find DEMs of all available resolutions for a single tile. Tile directories store only those resolutions that cover the tile. The tiled 25 meter base DEMs are intermediate products used to generate the 25-200 meter zonal DEMs. These have proven useful as a source for generating contours and depth range polygons. They are also useful for visualizing and analyzing small geographic areas, though the user must understand that the source data do not necessarily support 25 meter resolution. These DEMs are tile-wide in extent, and are available clipped to the tile boundary (dembase) and buffered 7500 meters beyond the tile (dembaseb). An available georeferenced map image (bathy_map.jpg with bathy_map.jgw world file) shows spatial distribution, tile numbers, and resolution zones of the DEM data. SOURCE DATA Four sources of depth/elevation data were used to create the bathymetric DEMs: 1. Hydrographic Survey Data version 4.0, National Ocean Service (NOS), National Oceanic and Atmospheric Administration, U.S. Department of Commerce. Dataset name = hydsura (ESRI coverage format). 2. U.S. Geological Survey bathymetric contours for the California EEZ - 100m contours from 200m to maximum depth. Dataset name = eezbata (ESRI coverage format). 3. 30 meter terrestrial DEM based on the National Elevation Dataset (NED), U.S. Geological Survey, U.S. Department of the Interior. Dataset name = dema (ESRI grid format). 4. 1:24,000-scale State of California Coastline, State Lands Commission, State of California. Dataset name = rawclipa (ESRI coverage format). The NOS Hydrographic Surveys were the primary nearshore depth data used to create the bathymetric DEMs. These data represent multiple historical ship transects and were imported to ARC/INFO as a set of over 6 million points. Sampling density is quite variable, as close as a few meters in inland bays and as far apart as hundreds or thousands of meters away from the coast. The Hydrographic Surveys were processed as-is and not filtered to model a particular range of dates. The U.S. Geological Survey bathymetric contours were provided by the U. S. Geological Survey Coastal and Marine Geology Team. The original dataset known as "eezbatcall" was reprojected by DFG to the California (Teale) Albers projection. The coverage provided contours from 200 meters to maximum depth for the California EEZ area. The contours were digitized from various small-scale (approximately 1:1,000,000) U.S. Geological Survey maps. The 30 meter terrestrial DEM was used to allow continuous gridding along the coast. Though there is no land area included in the resulting products, the bathymetry gridding process requires sampling data beyond the edge of the resulting grid to smoothly interpolate depth/elevation along the edge. The NED terrestrial DEM data were distributed by the U.S. Geological Survey then processed and re-distributed by Teale. The 1:24,000 coastline was used to define land and water areas and as source depth points of "0". This results in a well-defined coastline in the bathymetric DEMs. The original State Lands Commission coastline coverage was modified by Teale for project purposes. PROCESSING DATA In addition to the source depth/elevation data, a number of datasets were used to control processing. These include: 1. TILE100KM 2. RES_ZONES 3. RAWCLIPA 4. M5_ZONES TILE100KM is a set of 100 kilometer square (10,000 square kilometers) tiles used to split the entire EEZ into 75 managable processing areas. Many of the resulting datasets are also stored by these tiles. RES_ZONES are zones corresponding to the density of source data that were used to determine the resolution of the resulting zonal DEMs (5, 25, 50, 100, and 200 meters). RAWCLIPA contains a set of polygons that define which areas are water and which areas are land. This dataset serves two functions in the gridding process. Coastlines are extracted, converted to a set of points with a depth value of "0", merged with the Hydrographic Surveys, U.S. Geological Survey bathymetric contours, terrestrial DEMs, and gridded. When gridding is complete, land polygons are pulled from this dataset and used to blank out the resulting DEM. M5_ZONES are areas where the Hydrographic Surveys support 5 meter gridding. The final products include a single 5 meter zonal DEM for each polygon in this dataset. PROCESSING METHODOLOGY The primary engine behind the gridding process is the ARC/INFO TOPOGRID tool. TOPOGRID uses an iterative finite difference interpolation technique that is essentially a discretized thin plate spline technology. It is based upon the ANUDEM program developed my Michael Hutchinson. The online help for TOPOGRID contains the following references: Hutchinson, M.F. 1988. Calculation of hydrologically sound digital elevation models. Third International Symposium on Spatial Data Handling, Sydney. Columbus, Ohio: International Geographic Union. Hutchinson, M.F. 1989. A new procedure for gridding elevation and stream line data with automatic removal of spurious pits. Journal of Hydrology: 106, 211-232. Hutchinson, M.F. and Dowling, T.I. 1991. A continental hydrological assessment of a new grid-based digital elevation model of Australia. Hydrological Processes 5: 45-58. Hutchinson, M.F. 1993. Development of a continent-wide DEM with applications to terrain and climate analysis. In: M.F. Goodchild et al (eds), Environmental Modeling with GIS. New York, Oxford University Press: 392-399. Wahba, G. 1990. Spline models for Observational data. CBMS-NSF Regional Conference Series in Applied Mathematics, Philadelphia: Soc. Ind. Appl. Maths. The following TOPOGRID parameters were used to create the 25-200 meter DEMs: DATATYPE SPOT ENFORCE OFF ITERATIONS 30 TOLERANCES 2.5 1.5 10 XYZLIMITS %LIMITS% (%LIMITS% = bounding box of buffered tile) The following TOPOGRID parameters were used to create the 5 meter DEMs: BOUNDARY XXZONE (XXZONE is the 5 meter zone polygon) DATATYPE SPOT ENFORCE OFF ITERATIONS 30 TOLERANCES 2.5 1.5 2.5 XYZLIMITS %LIMITS% (%LIMITS% is 50 meters beyond the 5 meter zone polygon bounding box) The processing logic applied to each of the 75 tiles to create the 25-200 meter DEMs was: - Receive the tile number to process - Create a results directory corresponding to the tile number - Extract the tile from TILE100KM - Buffer the tile 10 KM - Using the buffered tile, clip out: - RES_ZONES - RAWCLIPA (land water polygons) - Hydrographic Surveys - Coastlines (from RAWCLIPA) - Convert to points - Terrestrial DEM (if tile covers land area) - Convert to points - U. S. Geological Survey bathymetric contours (if tile covers 200 meter zone) - Merge all point coverages - Run TOPOGRID to create 25 meter DEM covering buffered tile area - Blank out land areas - Clip to 7500 meters beyond tile boundary; store in tile directory - Clip to tile boundary; store in tile directory - For each resolution zone covered by the tile: - Clip out area from buffered DEM - Resample to appropriate resolution for zone (using bilinear interpolation) - Blank out land areas - Store in tile directory The process used to create the 5 meter DEMs is: - For each polygon in M5_ZONES: - Create a coverage containing a single rectangle polygon 50 meters (10 5 meter cells) larger than the zone polygon - Using the rectangle, clip out: - RAWCLIPA (land water polygons) - Hydrographic Surveys - Coastlines (from RAWCLIPA) - Convert to points - Terrestrial DEM (if tile covers land area) - Convert to points - Merge the resulting point coverages - Run TOPOGRID to create 5 meter DEM covering the rectangle - Blank out land areas - Clip to extent of the zone polygon After the original tiled 25 meter base DEMs were created by Teale, shaded reliefs were generated and visually inspected. Miscoded points that resulted in spurious pits or spikes were identified and coded as such. After all errors were corrected for a tile, the DEMs for the tile were re-created and re-inspected. DIRECTORY STRUCTURE The following outline illustrates the directory structure used to process the bathymetry data. When fully populated, the TILEx directories are quite large (several gigabytes). - BATHYMETRY - AMLS (ARC/INFO AML data processing scripts) - DATA (source and processing data) - PROCESS (bathymetry processed here) - RESULTS (contains various results directories) - METER5 (5 meter zonal DEMs, named by localities) - OTHER (empty) - STATE (25, 50, 100, 200 meter coastwide zonal DEMs) - TILES (contains tile1-tile75 directories) - TILEx (contains tiled and base DEMs) - DEMBASE (25 meter base DEM clipped to tile) - DEMBASEB (25 meter base DEM buffered 7500 meters beyond tile) - DEM5 (5 meter zonal DEM buffered 7500 meters beyond tile) - DEM25 (25 meter zonal DEM buffered 7500 meters beyond tile) - DEM50 (50 meter zonal DEM buffered 7500 meters beyond tile) - DEM100 (100 meter zonal DEM buffered 7500 meters beyond tile) - DEM200 (200 meter zonal DEM buffered 7500 meters beyond tile) DATA QUALITY ASSESSMENT The following are subjective comments regarding the data. Because the bathymetry data were generated from a variety of sources at varying scales, overall accuracy is difficult to assess. The data have not been thoroughly reviewed. Depth values should be corroborated with other sources. Some "artifacts" are present in the data, and may be especially noticeable along resolution zone and tile boundaries where differing data sources may not have provided a smooth interpolation transition. Additional errors may be present. Source Hydrographic Survey data originated from many historical surveys and thus do not necessarily represent current hydrologic conditions. For accuracy assessments of Hydrographic Survey data, please reference the documentation for that product. DEM depth values are of particular questionable quality in the following areas. Other problem areas may exist. - Nearshore areas north of Mack Pt. (southern Oregon). Source terrestrial elevation data was missing for this area but depth values were still interpolated to the shoreline. - Nearshore, Gulf of the Farallones area, south of Stormy Stack and north of Muir Beach out to about -25 meters depth. Source depth data was missing for this area but depth values were still interpolated to the shoreline. - Nearshore areas south of the California border out to -200 meters depth. Source depth and terrestrial elevation data were missing for this area but depth values were still interpolated to the shoreline. - Any depth values outside of the gridding resolution zones. Cross-reference the "tile100km" and "res_zones" coverages used in data processing to determine areas within tiled DEMs that are outside the resolution zones. The georeferenced map image (bathy_map.jpg with bathy_map.jgw world file) can also be used for this purpose. - San Diego Bay. Source data were missing for portions of the bay but depth values were still interpolated. ACCESS LIMITATIONS None. Acknowledgement of the Bathymetry Project in products derived from the data is appreciated. DATA CONTACT Will Patterson California Department of Fish and Game Information Technology Branch GIS Service Center Sacramento, CA Voice: (916) 323-1484 Fax: (916) 323-1431 Email: wpatters@dfg.ca.gov Readme Version 2002.08.23 --END ORIGINAL METADATA--</note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Coasts</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Continental shelf</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Digital elevation models</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Contours (Cartography)</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Remote sensing</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Bathymetric maps</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Economic zones (Law of the sea)</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/3687919/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">California</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/8411083/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Pacific Ocean</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">2003</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="elevation">Elevation</topic>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="oceans">Oceans</topic>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="imageryBaseMapsEarthCover">Imagery and Base Maps</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/ns150wp8904</url>
+  </location>
+  <accessCondition type="useAndReproduction">No restrictions on access or use. Please cite the authors when possible.</accessCondition>
+  <accessCondition type="useAndReproduction">No restrictions on access or use. Please cite the authors when possible.</accessCondition>
+  <accessCondition type="useAndReproduction">No restrictions on access or use. Please cite the authors when possible.</accessCondition>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:ns150wp8904</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/ns150wp8904">
+        <dc:format>application/x-ogc-aig; format=ArcGRID</dc:format>
+        <dc:type>Dataset#Raster</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>-129.7738047 31.3130232</gml:lowerCorner>
+            <gml:upperCorner>-116.2659289 42.5872331</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 129&#xB0;46&#x2B9;26&#x2BA;--W 116&#xB0;15&#x2B9;57&#x2BA;/N 42&#xB0;35&#x2B9;14&#x2BA;--N 31&#xB0;18&#x2B9;47&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>

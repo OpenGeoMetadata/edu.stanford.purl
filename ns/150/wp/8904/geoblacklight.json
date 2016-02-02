@@ -1,0 +1,51 @@
+{
+  "uuid": "http://purl.stanford.edu/ns150wp8904",
+  "dc_identifier_s": "http://purl.stanford.edu/ns150wp8904",
+  "dc_title_s": "Bathymetric Digital Elevation Model  (200 meters): California Coast, 2002",
+  "dc_description_s": "This raster dataset is a mosaic resampled to 200 meter horizontal resolution for areas of sparse data occurrence. Vertical units are fathoms (integer). The tiled 25 meter base DEMs are intermediate products used to generate the 25-200 meter zonal DEMs. These 25, 50, 100 and 200 meter \"zones\" were defined by plotting the source data on paper, visually identifying and hand drafting zone boundaries based on data density, then capturing the boundaries in digital format. The tiled 5-200 meter zonal DEMs are simply the coast-wide zonal DEMs (or individual 5 meter zonal DEMs) clipped to a 7500 meter buffered tile extent and stored in the tile directory. This makes it easy to find DEMs of all available resolutions for a single tile. Tile directories store only those resolutions that cover the tile.A single coast-wide Digital Elevation Model (DEM) was envisioned as the product of the California Department of Fish and Game bathymetry development project, but it quickly became evident that the source data necessitated multiple datasets, including: 1) Coast-wide 25, 50, 100 and 200 meter zonal DEMs; 2) 5 meter zonal DEMs for localities supported by high-density source data; 3) Tiled 5, 25, 50, 100 and 200 meter zonal DEMs; and 4) Tiled 25 meter base DEMs. The grid is a resampled compilation of these datasets (available upon request). The bathymetry development project covered most of the 200 nautical mile Exclusive Economic Zone (EEZ) off the coast of California. The actual extent of data is slightly beyond this zone in some areas to account for the 100 km. tiles used to process source data (some tiles extend beyond the EEZ boundary by as much as almost a tile width, or less than 100 km.). To the east, the coverage includes many major inlets along the coast. The tiles also extend north and south of California by less than one tile height. These data are not suitable for navigation purposes.",
+  "dc_rights_s": "Public",
+  "dct_provenance_s": "Stanford",
+  "dct_references_s": "{\"http://schema.org/url\":\"http://purl.stanford.edu/ns150wp8904\",\"http://schema.org/downloadUrl\":\"http://stacks.stanford.edu/file/druid:ns150wp8904/data.zip\",\"http://www.loc.gov/mods/v3\":\"http://purl.stanford.edu/ns150wp8904.mods\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"http://opengeometadata.stanford.edu/metadata/edu.stanford.purl/druid:ns150wp8904/iso19139.xml\",\"http://www.w3.org/1999/xhtml\":\"http://opengeometadata.stanford.edu/metadata/edu.stanford.purl/druid:ns150wp8904/default.html\",\"http://www.opengis.net/def/serviceType/ogc/wcs\":\"https://geowebservices.stanford.edu/geoserver/wcs\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices.stanford.edu/geoserver/wms\"}",
+  "layer_id_s": "druid:ns150wp8904",
+  "layer_slug_s": "stanford-ns150wp8904",
+  "layer_geom_type_s": "Raster",
+  "layer_modified_dt": "2015-10-07T22:52:39Z",
+  "dc_format_s": "ArcGRID",
+  "dc_language_s": "English",
+  "dc_type_s": "Dataset",
+  "dc_publisher_s": "California. Department of Fish and Game. Marine Resources Region",
+  "dc_creator_sm": [
+    "National Ocean Service Hydrographic Surveys",
+    "Richardson, Andy",
+    "Coastal and Marine Geology Program (Geological Survey)",
+    "Wong-Coppin, Virginia",
+    "California. Department of Fish and Game. Marine Resources Region"
+  ],
+  "dc_subject_sm": [
+    "Coasts",
+    "Continental shelf",
+    "Digital elevation models",
+    "Contours (Cartography)",
+    "Remote sensing",
+    "Bathymetric maps",
+    "Economic zones (Law of the sea)",
+    "Elevation",
+    "Oceans",
+    "Imagery and Base Maps"
+  ],
+  "dct_issued_s": "2003",
+  "dct_temporal_sm": "2003",
+  "dct_spatial_sm": [
+    "California",
+    "Pacific Ocean"
+  ],
+  "dc_relation_sm": [
+    "http://sws.geonames.org/3687919/",
+    "http://sws.geonames.org/8411083/"
+  ],
+  "georss_box_s": "31.3130232 -129.7738047 42.5872331 -116.2659289",
+  "georss_polygon_s": "31.3130232 -129.7738047 42.5872331 -129.7738047 42.5872331 -116.2659289 31.3130232 -116.2659289 31.3130232 -129.7738047",
+  "solr_geom": "ENVELOPE(-129.7738047, -116.2659289, 42.5872331, 31.3130232)",
+  "solr_year_i": 2003,
+  "stanford_rights_metadata_s": "<?xml version=\"1.0\"?>\n<rightsMetadata>\n  <access type=\"discover\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <access type=\"read\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <use>\n    <human type=\"useAndReproduction\">This item is in the public domain.  There are no restrictions on use.</human>\n    <human type=\"creativeCommons\"/>\n    <machine type=\"creativeCommons\"/>\n  </use>\n  <copyright>\n    <human>This work is in the Public Domain, meaning that it is not subject to copyright.</human>\n  </copyright>\n</rightsMetadata>\n"
+}

@@ -1,0 +1,1028 @@
+<gfc:FC_FeatureCatalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.isotc211.org/2005/gfc" xsi:schemaLocation="http://www.isotc211.org/2005/gfc http://www.isotc211.org/2005/gfc/gfc.xsd" uuid="&#10;               eaad497f-32d2-490b-995a-9038050755d9&#10;            ">
+  <gmx:name>
+    <gco:CharacterString>Feature catalog for Environmental Sensitivity Index Data for Northern California Coast, 2005</gco:CharacterString>
+  </gmx:name>
+  <gmx:scope>
+    <gco:CharacterString>Coasts; Oil spills; Environmental impact analysis</gco:CharacterString>
+  </gmx:scope>
+  <gmx:versionNumber gco:nilReason="unknown"/>
+  <gmx:versionDate>
+    <gco:Date>2005</gco:Date>
+  </gmx:versionDate>
+  <gmx:language>
+    <gco:CharacterString>eng; US</gco:CharacterString>
+  </gmx:language>
+  <gmx:characterSet>
+    <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115"/>
+  </gmx:characterSet>
+  <gfc:featureType>
+    <gfc:FC_FeatureType>
+      <gfc:typeName>
+        <gco:LocalName>HAB_CA_ShoreTypes</gco:LocalName>
+      </gfc:typeName>
+      <gfc:definition/>
+      <gfc:isAbstract>
+        <gco:Boolean>false</gco:Boolean>
+      </gfc:isAbstract>
+      <gfc:featureCatalogue uuidref="&#10;               eaad497f-32d2-490b-995a-9038050755d9&#10;            "/>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>ESI</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Raw ESI Class</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>NOAA ESI</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NOAA ESI</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>OID</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>LINE</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Type of shoreline</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>NOAA ESI</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NOAA ESI</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>SOURCE_ID</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Internal feature number.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Esri</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>Esri</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>ENVIR</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Sensitivity</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>NOAA ESI</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NOAA ESI</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>MOSTSENSIT</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Most sensitive ESI type present</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>NOAA ESI</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NOAA ESI</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>SOURCETHM</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Internal feature number.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Esri</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>Esri</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>SHORE_CODE</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Code to track shoretypes</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>ESI</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>ESI</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>STYPE1</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Most landward ESI type</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>NOAA ESI</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NOAA ESI</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>STYPE2</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Middle ESI type</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>NOAA ESI</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NOAA ESI</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>STYPE3</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Most seaward ESI type</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>NOAA ESI</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NOAA ESI</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>S1NAME</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Most landward ESI name</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>NOAA ESI</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NOAA ESI</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>shape_Leng</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Internal feature number.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Esri</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>Esri</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>S2NAME</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Middle ESI name</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>NOAA ESI</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NOAA ESI</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>S3NAME</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Most seaward ESI name</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>NOAA ESI</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NOAA ESI</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>SHAPE</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Feature geometry.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>ESRI</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>ESRI</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>MapClass</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Simple class used for cartography - value for maps in Regional Profile</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>CDFG</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>CDFG</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>GlobalID</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Internal feature number.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>ESRI</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>ESRI</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>OBJECTID</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Internal feature number.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>ESRI</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>ESRI</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>SOURCE</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Source year of ESI dataset</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>NOAA ESI</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>NOAA ESI</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>ESI_DESCR</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Descriptor of ESI shore type</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>ESI</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>ESI</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>TNC_D4</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>TNC descriptor of shoretype cross-walked from NOAA ESI types</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>The Nature Conservancy</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>The Nature Conservancy</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Geometry</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>Shape</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Feature geometry.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>ESRI</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>ESRI</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>ESILGEN_</gco:LocalName>
+          </gfc:memberName>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>ESILGEN_ID</gco:LocalName>
+          </gfc:memberName>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+    </gfc:FC_FeatureType>
+  </gfc:featureType>
+</gfc:FC_FeatureCatalogue>

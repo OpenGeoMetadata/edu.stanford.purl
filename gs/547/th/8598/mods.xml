@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Freight Terminal Facilities: United States, 2011</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>United States. Bureau of Transportation Statistics</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>United States. Bureau of Transportation Statistics</publisher>
+    <place>
+      <placeTerm type="text">Washington, DC, US</placeTerm>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+    <dateValid encoding="w3cdtf">2011</dateValid>
+    <edition>facility v. 1</edition>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <extent>0.088</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>(W 165&#xB0;26&#x2B9;10&#x2BA;--W 66&#xB0;7&#x2BA;/N 64&#xB0;48&#x2B9;26&#x2BA;--N 18&#xB0;26&#x2B9;20&#x2BA;)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">The point shapefile depicts intermodal terminal facilities where freight can be transferred between modes of transportation. The associated public database consists of four tables. One of the tables as a spatial table: Facility. The three other tables consist of attribute data for the database: Commodity, Directionality and Shipment. This database was based on the requirements from the Commodity Flow Survey and with the different modes of the United States Department of Transportation (DOT), supervised by the DOT Office of the Assistant Secretary for Research and Technology Bureau of Transportation Statistics. The database will extend its design to support all of the modes within the DOT and in reference to modes involved with Intermodal transfer. This layer is part of the 2014 National Transportation Atlas Database.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">The National Transportation Atlas Databases 2014 (NTAD2014) is a set of nationwide geographic datasets of transportation facilities, transportation networks, associated infrastructure, and other political and administrative entities. These datasets include spatial information for transportation modal networks and intermodal terminals, as well as the re&#xAC;lated attribute information for these features. This data supports research, analysis, and decision-making across all transportation modes. It is most useful at the national level, but has major applications at regional, state and local scales throughout the transportation community. The data used to compile NTAD2014 was provided by our partners within the United States Department of Transportation (USDOT) and by other agencies throughout the United States Federal Government. These contributors are the actual data stewards and are ultimately responsible for the maintenance and accuracy of their data.</abstract>
+  <note displayLabel="Attribute accuracy report" lang="eng">GDT98Streets: - The original digital source of line segment, such as a Census Bureau 1980 GBF/DIME File or a USGS 1:100,000 scale DLG-3. - Scale 1: 24,000 - For line segments that originated with the USGS DLG-3 files, the FCC is based on the USGS classification code in the DLG-3 file. For line segments that originated with the 1980 GBF / DIME Files, the FCC is based on the NS code and other feature identification content of the GBF/DIME -File. - Latitude/longitude Data: except for DIME format (ASCII) boundary files, all latitude and longitude coordinates are signed and have six decimal places. Northern latitude is positive (0 degrees to 90 degrees), southern latitude is negative (0 degrees to -90 degrees). West longitude are negative (0 degrees to -180 degrees), and longitude are positive (0 degrees to 180 degrees) - DIME format boundary file coordinates are expressed as all positive values with six implied decimal places. Any longitude west of 180 degrees is expressed in increasing, rather than decreasing values. Projection using latitude/longitude coordinate values with an implied 6 decimal places All coordinates are based on the 1983 North American Datum (NAD83). - As new streets are reported, they are added daily by digital map technicians (DMTs) working in teams assigned to specific geographic areas covering the entire nation. As DMTs work through their particular regions, they concentrate on areas that contain the largest numbers of missing addresses, usually newly developed areas. They apply address ranges to unaddressed street segments, digitized new streets, correct inaccurate segment shapes, and add exits and turn or one-way restrictions. Each addition is verified with current maps and other data. - ARC/INFO format products are available in double precision. Precision refers to the number of bits (single - 32bits, double - 64 bits) used to store coordinate data. Coverages in double precision are slightly more accurate, but larger than those in single precision. For more detailed information please see Geographic Data Technology Inc. 1(800) 331.7881 or email to info@gdt1.com</note>
+  <note displayLabel="Preferred citation" lang="eng">United States. Department of Transportation. Research and Innovative Technology Administration. (2014).2011). Freight Terminal Facilities: United States, 2011. National Transportation Atlas Database 2014. Available at: http://purl.stanford.edu/gs547th8598.</note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Airport terminals</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Railroad terminals</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Marine terminals</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Trucking</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Freight and freightage</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/6252001/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">United States</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/4138106/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Washington (D.C.)</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">2011</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="transportation">Transportation</topic>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="location">Location</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/gs547th8598</url>
+  </location>
+  <accessCondition type="useAndReproduction">This item is in the public domain.</accessCondition>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:gs547th8598</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/gs547th8598">
+        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type>Dataset#Point</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>-165.43611 18.439</gml:lowerCorner>
+            <gml:upperCorner>-66.002 64.80709</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/4138106/" dc:language="eng" dc:title="Washington (D.C.)"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+</mods>

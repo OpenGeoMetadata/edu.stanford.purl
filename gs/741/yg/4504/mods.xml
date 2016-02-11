@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Urbanized Areas, California, 2000</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>California. Metropolitan Transportation Commission</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>California. Metropolitan Transportation Commission</publisher>
+    <place>
+      <placeTerm type="text">Oakland, California, US</placeTerm>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2002</dateIssued>
+    <dateValid encoding="w3cdtf">2000</dateValid>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <extent>2.566</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>Custom projection</projection>
+      <coordinates>(W 124&#xB0;15&#x2B9;32&#x2BA;--W 113&#xB0;34&#x2B9;52&#x2BA;/N 41&#xB0;52&#x2B9;29&#x2BA;--N 32&#xB0;24&#x2B9;17&#x2BA;)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the urbanized areas of California. These data were derived from the TIGER/2000 Urbanized Areas (UA) dataset of the 2000 Census. The Census Bureau defines UAs as an area consisting of a central place(s) and adjacent urban fringe that together have a minimum residential population of at least 50,000 people and generally an overall population density of at least 1,000 people per square mile of land area. The Census Bureau uses published criteria to determine the qualification and boundaries of UAs.The U.S. Census Bureau classifies as urban all territory, population, and housing units located within urbanized areas (UAs). It delineates UA boundaries to encompass densely settled territory, which generally consists of: A cluster of one or more block groups or census blocks each of which has a population density of at least 1,000 people per square mile at the time and, Surrounding block groups and census blocks each of which has a population density of at least 500 people per square mile at the time and, Less densely settled blocks that form enclaves or indentations, or are used to connect discontiguous areas with qualifying densities. This layer is part of the Bay Area Metropolitan Transportation Commission (MTC) GIS Maps and Data collection.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">California, Metropolitan Transportation Commission. (2002). Urbanized Areas, California, 2000. California. MTC. Available at: http://purl.stanford.edu/gs741yg4504.</note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Metropolitan areas</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/3687919/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">California</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">2000</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/gs741yg4504</url>
+  </location>
+  <accessCondition type="useAndReproduction">No restrictions on access or use.</accessCondition>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:gs741yg4504</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/gs741yg4504">
+        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type>Dataset#Polygon</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>-124.257188 32.541414</gml:lowerCorner>
+            <gml:upperCorner>-114.532006 41.869046</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;15&#x2B9;26&#x2BA;--W 114&#xB0;31&#x2B9;55&#x2BA;/N 41&#xB0;52&#x2B9;9&#x2BA;--N 32&#xB0;32&#x2B9;29&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>

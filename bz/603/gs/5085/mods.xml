@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>San Joaquin Kit Fox Range, Monterey County, California, 2015</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>Monterey County (Calif.)</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>Monterey County (Calif.)</publisher>
+    <place>
+      <placeTerm type="text">Monterey, California, US</placeTerm>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <extent>0.01</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>(W 121&#xB0;20&#x2B9;58&#x2BA;--W 120&#xB0;42&#x2B9;57&#x2BA;/N 36&#xB0;26&#x2B9;27&#x2BA;--N 35&#xB0;47&#x2B9;28&#x2BA;)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the habitat boundaries of the San Joaquin Kit Fox within Monterey County, California. The San Joaquin kit fox is the smallest member of the dog family in North America. Historically, this kit fox was widely distributed throughout grassland, scrubland, and wetland communities in the San Joaquin Valley and adjacent low foothills, but agricultural, urban, and industrial development in the Valley &#x2014; including oil and gas development &#x2014; has led to extensive and continuing loss of native habitat, the primary threat to kit foxes. Today, much of the kit fox&#x2019;s remaining habitat is extremely fragmented, movement corridors are degraded or blocked, and only a few large areas of native grasslands remain on the San Joaquin Valley&#x2019;s perimeter.This layer is part of a collection of GIS data for Monterey County in California.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">Monterey County, California. (2015). San Joaquin Kit Fox Range, Monterey County, California, 2015. Monterey County, Ca. Available at: http://purl.stanford.edu/bz603gs5085.</note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">San Joaquin kit fox</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Biogeography</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng">Monterey County (Calif.)</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">2015</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="biota">Biology and Ecology</topic>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/bz603gs5085</url>
+  </location>
+  <accessCondition type="useAndReproduction">No restrictions on access or use.</accessCondition>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:bz603gs5085</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/bz603gs5085">
+        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type>Dataset#Polygon</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>-121.349514 35.791088</gml:lowerCorner>
+            <gml:upperCorner>-120.715925 36.440859</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Monterey County (Calif.)"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+</mods>

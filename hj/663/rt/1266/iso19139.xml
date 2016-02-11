@@ -64,7 +64,7 @@
     </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-    <gco:Date>2015-07-02</gco:Date>
+    <gco:Date>2015-10-30</gco:Date>
   </dateStamp>
   <metadataStandardName>
     <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -116,27 +116,27 @@
         <gco:Boolean>false</gco:Boolean>
       </checkPointAvailability>
       <cornerPoints>
-        <gml:Point gml:id="idp130336">
+        <gml:Point gml:id="idp157024">
           <gml:pos>-1806464.975560 -4418264.628221</gml:pos>
         </gml:Point>
       </cornerPoints>
       <cornerPoints>
-        <gml:Point gml:id="idp130960">
+        <gml:Point gml:id="idp158032">
           <gml:pos>-1806464.975560 414471.516209</gml:pos>
         </gml:Point>
       </cornerPoints>
       <cornerPoints>
-        <gml:Point gml:id="idp131584">
+        <gml:Point gml:id="idp159040">
           <gml:pos>4193222.910120 414471.516209</gml:pos>
         </gml:Point>
       </cornerPoints>
       <cornerPoints>
-        <gml:Point gml:id="idp132208">
+        <gml:Point gml:id="idp160048">
           <gml:pos>4193222.910120 -4418264.628221</gml:pos>
         </gml:Point>
       </cornerPoints>
       <centerPoint>
-        <gml:Point gml:id="idp132832">
+        <gml:Point gml:id="idp161056">
           <gml:pos>1193378.967280 -2001896.556006</gml:pos>
         </gml:Point>
       </centerPoint>
@@ -282,7 +282,7 @@
         </CI_Citation>
       </citation>
       <abstract>
-        <gco:CharacterString>This raster layer is a georeferenced image of an historic regional map of Southern Africa originally created by J.F. Colton in 1855. All map collar and inset information is also available as part of the raster image, including any inset maps, profiles, statistical tables, directories, text, illustrations, or other information associated with the principal map. This map was scanned and georeferenced by the Stanford University Geospatial Center using a Sinusoidal projection. This map is part of a selection of digitally scanned and georeferenced historic maps of Africa from the Oscar I. Norwich Collection at Stanford University.</gco:CharacterString>
+        <gco:CharacterString>This layer is a georeferenced raster image of an historic regional map of Southern Africa originally created by J.F. Colton in 1855. All map collar and inset information is also available as part of the raster image, including any inset maps, profiles, statistical tables, directories, text, illustrations, or other information associated with the principal map. This map was georeferenced by the Stanford University Geospatial Center using a Sinusoidal projection. This map is part of a selection of digitally scanned and georeferenced historic maps of Africa from the Oscar I. Norwich Collection at Stanford University.</gco:CharacterString>
       </abstract>
       <purpose>
         <gco:CharacterString>This historic paper map provides an historical perspective of the cultural and physical landscape during this time period. The wide range of information provided on these maps make them useful in the study of historic geography. As this map has been georeferenced, it also can be used as a background layer in conjunction with other GIS data.
@@ -439,16 +439,6 @@
       <descriptiveKeywords>
         <MD_Keywords>
           <keyword>
-            <gco:CharacterString>1855</gco:CharacterString>
-          </keyword>
-          <type>
-            <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="temporal" codeSpace="ISOTC211/19115">temporal</MD_KeywordTypeCode>
-          </type>
-        </MD_Keywords>
-      </descriptiveKeywords>
-      <descriptiveKeywords>
-        <MD_Keywords>
-          <keyword>
             <gco:CharacterString>Historical geography</gco:CharacterString>
           </keyword>
           <keyword>
@@ -456,6 +446,9 @@
           </keyword>
           <keyword>
             <gco:CharacterString>Bodies of water</gco:CharacterString>
+          </keyword>
+          <keyword>
+            <gco:CharacterString>Maps</gco:CharacterString>
           </keyword>
           <type>
             <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
@@ -685,7 +678,7 @@
         <MD_TopicCategoryCode>imageryBaseMapsEarthCover</MD_TopicCategoryCode>
       </topicCategory>
       <environmentDescription>
-        <gco:CharacterString>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</gco:CharacterString>
+        <gco:CharacterString>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.1.4959</gco:CharacterString>
       </environmentDescription>
       <extent>
         <EX_Extent>
@@ -718,9 +711,9 @@
           <temporalElement>
             <EX_TemporalExtent>
               <extent>
-                <gml:TimePeriod gml:id="idm6384">
-                  <gml:beginPosition>0000-01-01T00:00:00</gml:beginPosition>
-                  <gml:endPosition>0000-12-31T00:00:00</gml:endPosition>
+                <gml:TimePeriod gml:id="idm39904">
+                  <gml:beginPosition>1855-01-01T00:00:00</gml:beginPosition>
+                  <gml:endPosition>1855-12-31T00:00:00</gml:endPosition>
                 </gml:TimePeriod>
               </extent>
             </EX_TemporalExtent>
@@ -728,8 +721,7 @@
         </EX_Extent>
       </extent>
       <supplementalInformation>
-        <gco:CharacterString>The Oscar I. Norwich Collection consists of 316 maps published from the 15th to the early 20th century. A guide to this collection can be accessed here: http://www.oac.cdlib.org/findaid/ark:/13030/kt787007h3/. 
-        More information on this collection can be accessed here mapsofafrica.stanford.edu.</gco:CharacterString>
+        <gco:CharacterString>The Oscar I. Norwich Collection consists of over 300 maps published from the 15th to the early 20th century. More information about this collection can be accessed here: http://purl.stanford.edu/qb438pg7646. For more information about Stanford's Maps of Africa Collection, see here: https://exhibits.stanford.edu/maps-of-africa/default-exhibit.</gco:CharacterString>
       </supplementalInformation>
     </MD_DataIdentification>
   </identificationInfo>
@@ -751,7 +743,7 @@
             <gco:Real>51</gco:Real>
           </minValue>
           <units>
-            <gml:UnitDefinition gml:id="idp141008">
+            <gml:UnitDefinition gml:id="idp173328">
               <gml:identifier codeSpace="GML_UomSymbol">Unified Code of Units of Measure</gml:identifier>
             </gml:UnitDefinition>
           </units>
@@ -982,7 +974,7 @@
           <source>
             <LI_Source>
               <description>
-                <gco:CharacterString>Digitized map. Original TIFF image (AM_0151.tif)</gco:CharacterString>
+                <gco:CharacterString>Digitized map.</gco:CharacterString>
               </description>
               <sourceCitation>
                 <CI_Citation>
@@ -990,7 +982,7 @@
                     <gco:CharacterString>Colton's Africa : southern sheet</gco:CharacterString>
                   </title>
                   <alternateTitle>
-                    <gco:CharacterString>AM_0151_G2.tif</gco:CharacterString>
+                    <gco:CharacterString>AM_0151.tif</gco:CharacterString>
                   </alternateTitle>
                   <date gco:nilReason="missing"/>
                   <identifier>

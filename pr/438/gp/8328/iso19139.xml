@@ -64,7 +64,7 @@
     </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-    <gco:Date>2015-07-02</gco:Date>
+    <gco:Date>2015-10-20</gco:Date>
   </dateStamp>
   <metadataStandardName>
     <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -116,27 +116,27 @@
         <gco:Boolean>false</gco:Boolean>
       </checkPointAvailability>
       <cornerPoints>
-        <gml:Point gml:id="idp101200">
+        <gml:Point gml:id="idp129680">
           <gml:pos>-1339986.028522 -906222.460163</gml:pos>
         </gml:Point>
       </cornerPoints>
       <cornerPoints>
-        <gml:Point gml:id="idp101824">
+        <gml:Point gml:id="idp130688">
           <gml:pos>-1339986.028522 1061714.200240</gml:pos>
         </gml:Point>
       </cornerPoints>
       <cornerPoints>
-        <gml:Point gml:id="idp102448">
+        <gml:Point gml:id="idp131696">
           <gml:pos>1000185.368283 1061714.200240</gml:pos>
         </gml:Point>
       </cornerPoints>
       <cornerPoints>
-        <gml:Point gml:id="idp103072">
+        <gml:Point gml:id="idp132704">
           <gml:pos>1000185.368283 -906222.460163</gml:pos>
         </gml:Point>
       </cornerPoints>
       <centerPoint>
-        <gml:Point gml:id="idp103696">
+        <gml:Point gml:id="idp133712">
           <gml:pos>-169900.330119 77745.870039</gml:pos>
         </gml:Point>
       </centerPoint>
@@ -255,7 +255,7 @@
         </CI_Citation>
       </citation>
       <abstract>
-        <gco:CharacterString>This raster layer is a georeferenced image of an historic regional map of Nothern Africa from 1840. The original map was engraved by J. &amp;amp; C. Walker and published by Society for the Diffusion of Useful Knowledge. All map collar and inset information is also available as part of the raster image, including any inset maps, profiles, statistical tables, directories, text, illustrations, or other information associated with the principal map. This map was scanned and georeferenced by the Stanford University Geospatial Center using a Transverse Mercator projection. This map is part of a selection of digitally scanned and georeferenced historic maps of Africa from the Oscar I. Norwich Collection at Stanford University.</gco:CharacterString>
+        <gco:CharacterString>This layer is a georeferenced raster image of an historic regional map of Nothern Africa from 1840. The original map was engraved by J. &amp;amp; C. Walker and published by Society for the Diffusion of Useful Knowledge. All map collar and inset information is also available as part of the raster image, including any inset maps, profiles, statistical tables, directories, text, illustrations, or other information associated with the principal map. This map was scanned and georeferenced by the Stanford University Geospatial Center using a Transverse Mercator projection. This map is part of a selection of digitally scanned and georeferenced historic maps of Africa from the Oscar I. Norwich Collection at Stanford University.</gco:CharacterString>
       </abstract>
       <purpose>
         <gco:CharacterString>This historic paper map provides an historical perspective of the cultural and physical landscape during this time period. The wide range of information provided on these maps make them useful in the study of historic geography. As this map has been georeferenced, it also can be used as a background layer in conjunction with other GIS data.</gco:CharacterString>
@@ -363,16 +363,6 @@
       <descriptiveKeywords>
         <MD_Keywords>
           <keyword>
-            <gco:CharacterString>1840</gco:CharacterString>
-          </keyword>
-          <type>
-            <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="temporal" codeSpace="ISOTC211/19115">temporal</MD_KeywordTypeCode>
-          </type>
-        </MD_Keywords>
-      </descriptiveKeywords>
-      <descriptiveKeywords>
-        <MD_Keywords>
-          <keyword>
             <gco:CharacterString>Bodies of water</gco:CharacterString>
           </keyword>
           <keyword>
@@ -380,6 +370,9 @@
           </keyword>
           <keyword>
             <gco:CharacterString>Historical geography</gco:CharacterString>
+          </keyword>
+          <keyword>
+            <gco:CharacterString>Maps</gco:CharacterString>
           </keyword>
           <type>
             <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
@@ -476,7 +469,7 @@
         <MD_TopicCategoryCode>imageryBaseMapsEarthCover</MD_TopicCategoryCode>
       </topicCategory>
       <environmentDescription>
-        <gco:CharacterString>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</gco:CharacterString>
+        <gco:CharacterString>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.1.4959</gco:CharacterString>
       </environmentDescription>
       <extent>
         <EX_Extent>
@@ -509,7 +502,7 @@
           <temporalElement>
             <EX_TemporalExtent>
               <extent>
-                <gml:TimePeriod gml:id="idp1680">
+                <gml:TimePeriod gml:id="idp86336">
                   <gml:beginPosition>1840-01-01T00:00:00</gml:beginPosition>
                   <gml:endPosition>1840-12-31T00:00:00</gml:endPosition>
                 </gml:TimePeriod>
@@ -538,7 +531,7 @@
             <gco:Real>45</gco:Real>
           </minValue>
           <units>
-            <gml:UnitDefinition gml:id="idp110880">
+            <gml:UnitDefinition gml:id="idp144736">
               <gml:identifier codeSpace="GML_UomSymbol">Unified Code of Units of Measure</gml:identifier>
             </gml:UnitDefinition>
           </units>
@@ -643,13 +636,16 @@
           <source>
             <LI_Source>
               <description>
-                <gco:CharacterString>Digitized map (Original TIFF Image: 0357.tif)</gco:CharacterString>
+                <gco:CharacterString>Digitized map.</gco:CharacterString>
               </description>
               <sourceCitation>
                 <CI_Citation>
                   <title>
                     <gco:CharacterString>Ancient Africa or Libya, Part I (western section)</gco:CharacterString>
                   </title>
+                  <alternateTitle>
+                    <gco:CharacterString>AM_0357.tif</gco:CharacterString>
+                  </alternateTitle>
                   <date gco:nilReason="missing"/>
                   <identifier>
                     <MD_Identifier>

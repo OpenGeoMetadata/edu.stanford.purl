@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Census Blocks, 2000 - San Francisco Bay Area, California</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>California. Metropolitan Transportation Commission</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <name type="corporate">
+    <namePart>U.S. Department of Commerce, Bureau of the Census, Geography Division</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>California. Metropolitan Transportation Commission</publisher>
+    <place>
+      <placeTerm type="text">Oakland, California, US</placeTerm>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2002</dateIssued>
+    <dateValid encoding="w3cdtf">2000</dateValid>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <extent>22.055</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>Custom projection</projection>
+      <coordinates>(W 123&#xB0;32&#x2B9;8&#x2BA;--W 121&#xB0;9&#x2B9;55&#x2BA;/N 38&#xB0;51&#x2B9;57&#x2BA;--N 36&#xB0;53&#x2B9;21&#x2BA;)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">The polygons in this data layer represent U.S. Census Blocks for the San Francisco Bay Area in California. These data have been clipped to the shoreline for cartographic representation. Census blocks are statistical areas bounded on all sides by visible features such as streets, roads, streams, and railroad tracks, and by invisible boundaries such as city, town, township, and county limits, and short imaginary extensions of streets and roads. Generally census blocks are small in area; for example, a block in a city bounded by streets. However, census blocks in remote areas may be large and irregular and contain hundreds of square miles. All territory in the United States, Puerto Rico, and the Island Areas have block numbers. Blocks are composed of one or more GT-polygons; that is, several GT-polygons can share the same block number. Census 2000 Block Numbers. Census 2000 tabulation blocks are numbered uniquely within each state/county/census tract with a four-digit census block number. The U.S. Census Bureau created the tabulation block numbers immediately before beginning its Census 2000 data tabulation process, thereby eliminating block suffixes. The first digit of the tabulation block number identifies the block group. For the 1990 census, the U.S. Census Bureau assigned a unique 1990 block number with a suffix of "Z" to identify crews-of-vessels population. For Census 2000, crews-of-vessels population is assigned to the land block identified by the U.S. Census Bureau as associated with the home port of the vessel. Water Blocks. The U.S. Census Bureau introduced a different method for identifying the water areas of census blocks for Census 2000. For the 1990 census, water was not uniquely identified within a census block; instead, all water area internal to a block group was given a single block number ending in "99" (for example, in block group 1, all water was identified as block 199). A suffix was added to each 1990 water block number where the block existed in more than one tabulation entity within its block group. For Census 2000, water area located completely within the boundary of a single land block has the same block number as that land block. Water area that touches more than one land block is assigned a unique block number not associated with any adjacent land block. The U.S. Census Bureau assigned water block numbers beginning with the block group number followed by "999 " and preceding in descending order. For example, in block group 3, the block numbers assigned to water areas that border multiple land blocks are 3999, 3998, 3997, and so forth. Because some land blocks include water (ponds and small lakes), no conclusions about whether or not a block is all land or all water can be made by looking at the Census 2000 block numbers. Data users must use the WATER field on Record Type S to determine if the GT-polygon is land or water. The WATER field has two values, 0 for land or 1 for water. This layer is part of the Bay Area Metropolitan Transportation Commission (MTC) GIS Maps and Data collection.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">California, Metropolitan Transportation Commission. (2002). Census Blocks, 2000 - San Francisco Bay Area, California. MTC. Available at: http://purl.stanford.edu/ts501wk9853.</note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Census</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Population</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Demography</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng">San Francisco Bay Area (Calif.)</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5391959/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">San Francisco (Calif.)</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5339268/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Contra Costa County (Calif.)</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5376101/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Napa County (Calif.)</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5392427/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">San Mateo County (Calif.)</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5392427/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">San Mateo County (Calif.)</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5396987/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Solano County (Calif.)</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5397100/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Sonoma County (Calif.)</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5370468/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Marin County (Calif.)</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5322745/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Alameda County (Calif.)</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">2000</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="society">Society</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/ts501wk9853</url>
+  </location>
+  <accessCondition type="useAndReproduction">No restrictions on access or use.</accessCondition>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:ts501wk9853</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/ts501wk9853">
+        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type>Dataset#Polygon</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>-123.534791 36.894108</gml:lowerCorner>
+            <gml:upperCorner>-121.209216 38.864144</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="" dc:language="eng" dc:title="San Francisco Bay Area (Calif.)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5391959/" dc:language="eng" dc:title="San Francisco (Calif.)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5339268/" dc:language="eng" dc:title="Contra Costa County (Calif.)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5376101/" dc:language="eng" dc:title="Napa County (Calif.)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5392427/" dc:language="eng" dc:title="San Mateo County (Calif.)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5392427/" dc:language="eng" dc:title="San Mateo County (Calif.)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5396987/" dc:language="eng" dc:title="Solano County (Calif.)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5397100/" dc:language="eng" dc:title="Sonoma County (Calif.)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5370468/" dc:language="eng" dc:title="Marin County (Calif.)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5322745/" dc:language="eng" dc:title="Alameda County (Calif.)"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 123&#xB0;32&#x2B9;5&#x2BA;--W 121&#xB0;12&#x2B9;33&#x2BA;/N 38&#xB0;51&#x2B9;51&#x2BA;--N 36&#xB0;53&#x2B9;39&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>

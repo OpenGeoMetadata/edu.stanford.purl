@@ -1,0 +1,1718 @@
+<gfc:FC_FeatureCatalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.isotc211.org/2005/gfc" xsi:schemaLocation="http://www.isotc211.org/2005/gfc http://www.isotc211.org/2005/gfc/gfc.xsd" uuid="c8ea7f83-3e88-4b37-aa4b-5ddee685f1a0">
+  <gmx:name>
+    <gco:CharacterString>Feature catalog for Streamflow Gaging Stations of the United States, 2013</gco:CharacterString>
+  </gmx:name>
+  <gmx:scope>
+    <gco:CharacterString>Stream-gaging stations; Stream measurements; Streamflow; Drainage</gco:CharacterString>
+  </gmx:scope>
+  <gmx:versionNumber gco:nilReason="unknown"/>
+  <gmx:versionDate>
+    <gco:Date>2014</gco:Date>
+  </gmx:versionDate>
+  <gmx:language>
+    <gco:CharacterString>eng; US</gco:CharacterString>
+  </gmx:language>
+  <gmx:characterSet>
+    <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115"/>
+  </gmx:characterSet>
+  <gfc:featureType>
+    <gfc:FC_FeatureType>
+      <gfc:typeName>
+        <gco:LocalName>gages_x010g</gco:LocalName>
+      </gfc:typeName>
+      <gfc:definition>
+        <gco:CharacterString>
+A gage used to measure the height (stage) and volume of flow at a point location on a water 
+feature. 
+</gco:CharacterString>
+      </gfc:definition>
+      <gfc:isAbstract>
+        <gco:Boolean>false</gco:Boolean>
+      </gfc:isAbstract>
+      <gfc:featureCatalogue uuidref="c8ea7f83-3e88-4b37-aa4b-5ddee685f1a0"/>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>FID</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Internal feature number.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Esri</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>Esri</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>OID</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>Shape</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The representation of the entity in the data.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Geometry</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>Point M</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>
+A point is a 0-dimensional element.  A point M is a point feature that can store a distance 
+measurement (M) value along an associated line feature. 
+</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>ESRI</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>ESRI</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>Gage_ID</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>A unique identifier for the feature.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Integer</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>Agency_CD</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>
+A code identifying the agency which reports data collected at the gage.  Agency codes are fixed 
+values assigned by the National Water Information System (NWIS). 
+</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>USGS</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>U.S. Geological Survey</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>National Water Information System</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>National Water Information System</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>Site_NO</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>
+The site number.  Each site in the USGS data base has a unique 8- to 15-digit identification 
+number.  Site numbers are assigned by the USGS.  The first two digits of the site number indicate 
+the major drainage basin in which the site is located; the additional digits identify the site 
+location within the stream network, and generally indicate the downstream order of the sites. 
+</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>Station_NM</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>
+The name associated with the streamflow gaging station.  The name is usually a brief phrase 
+describing the location of the gage, including the name of the water feature the gage is on and 
+landmarks nearby. 
+</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>Site_TP_CD</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The Site Type Code of the gage, which describes the hydrologic setting of the site.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>ES</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>
+The gage is located on an estuary.  An estuary is a partially enclosed coastal waterbody 
+where tidal movement and stream flow mix fresh and salt water. 
+</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>FA-DV</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>
+The gage is located at a facility where water is withdrawn or diverted from a stream or 
+waterbody.  Streamflow measurements at facility locations are expected to be strongly 
+influenced by current or previous human activity; diversion sites include points such as the 
+upstream end of a canal where it intersects a stream, the point where water is withdrawn from 
+a reservoir, and the point where water is pumped from a water body for use elsewhere. 
+</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>LK</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>
+The gage is located on a lake, reservoir, or other impoundment.  Lakes, reservoirs, and other 
+impoundments are standing bodies of water, deeper than wetlands, including expanded portions 
+of rivers, and may be natural or man-made. 
+</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>SP</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>
+The gage is located on a spring.  A spring is a place where there is a natural flow of 
+groundwater to the surface.  Springs may be perennial, intermittent, or ephemeral. 
+</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>ST</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>
+The gage is located on a stream.  A stream is a body of flowing water which follows a defined 
+channel.  The channel may be natural or may be partially artificial. 
+</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>ST-CA</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>
+The gage is located on a canal.   A canal is an artificial open waterway constructed to 
+transport water, to irrigate or drain land, to connect two or more bodies of water, or to 
+serve as a waterway for water craft; it is larger than a ditch. 
+</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>ST-DCH</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>
+The gage is located on a ditch.   A ditch is an artificial waterway dug in the ground, 
+constructed to transport water for drainage or irrigation.  It may be lined or unlined, and 
+is smaller than a canal. 
+</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>ST-TS</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>
+The gage is on a tidal stream.  The flow of a tidal stream is influenced by the tide, but the 
+water chemistry is not normally affected. 
+</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>WE</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>
+The gage is located in a wetland.  A wetland is a non-cultivated, vegetated area that is 
+inundated or saturated for a significant part of the year.  Wetlands may be natural or 
+artificially created; they include swamps, marshes, bogs, and similar areas, and may be 
+forested or unforested. 
+</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>ReachCode</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>
+A 14-digit, unique identifier for the reach where the gage is located.  A reach is a continuous 
+piece of surface water with similar hydrologic characteristics.  A reach may be composed of a 
+single feature, such as a lake or isolated stream, but reaches may also be composed of a number 
+of contiguous features.  The first eight digits of the code are the Watershed Boundary Dataset 
+Hydrologic Unit Code (HUC), which identifies the subbasin in which the water feature is located. 
+The next six digits are a randomly assigned, sequential number that is unique within the 
+subbasin.  Once assigned, a reach code is permanently associated with its reach. 
+ 
+The ReachCode links gages and other features to the 1:1,000,000-Scale Streams of the United 
+States, National Hydrography Dataset, National Hydrography Dataset Plus Version 1, National 
+Hydrography Dataset Plus Version 2, and other data sets that use reach codes.  No gage is 
+associated with more than one reach, however, there may be multiple gages on one reach. 
+</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>Stream_ID</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>
+The unique identifier of the stream segment where the gage is located.  The Stream_ID is taken 
+from  the National Atlas Streams 1:1M map layer.  No gage is associated with more than one 
+Stream_ID, however, there may be multiple gages with the same Stream_ID. 
+</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Integer</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>State</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>
+The 2-letter Federal Information Processing Series (FIPS) code for the State or State 
+equivalent in which the gage is located.  If the gage falls in two States, both codes are listed, 
+separated by a dash. 
+</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>State_FIPS</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>
+The 2-digit FIPS code for the State or State equivalent in which the gage is located.  If the 
+gage falls in two States, both codes are listed, separated by a dash. 
+</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>Region</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>
+The 2-digit Hydrologic Unit Code identifying the major river basin where the gage is located. 
+Leading zeroes are not shown. 
+</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>SmallInteger</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>HUC8</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The 8-digit Hydrologic Unit Code identifying the subbasin where the gage is located.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>Lat_NWIS</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The latitude of the gage as listed in the National Water Information System (NWIS).</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>Long_NWIS</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The longitude of the gage as listed in NWIS.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>Lat_1M</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>
+The latitude of the gage in this 1:1M National Atlas data.  The value may be 
+different from the NWIS latitude for one or more of the following reasons: the latitude was 
+calculated using ArcGIS; the gage was moved in order to snap it to a stream in the National Atlas 
+Streams 1:1M 2014 map layer; the stream the gage is associated with was generalized and moved for 
+cartographic reasons; or the gage was moved to a new location based on the station name and a 
+review of topographic maps and imagery. 
+</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>Long_1M</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>
+The longitude of the gage in this 1:1M National Atlas data.  The value may be 
+different from the NWIS longitude for one or more of the following reasons: the longitude was 
+calculated using ArcGIS; the gage was moved in order to snap it to a stream in the National Atlas 
+Streams 1:1M 2014 map layer; the stream the gage is associated with was generalized and moved for 
+cartographic reasons; or the gage was moved to a new location based on the station name and a 
+review of topographic maps and imagery. 
+</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>Source</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>The source from which the gage information was obtained.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>NHDPlusV1</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>The gage was obtained from NHDPlus V1 Gages.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>NHDPlusV2</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>The gage was obtained from NHDPlus V2 Gages.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>NWISWeb</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>The gage was retrieved from NWISWeb.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>Review</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>
+The entity that determined the stream reach on which the gage is located.  The reach and any 
+gages associated with the reach may have been moved for cartographic purposes after the review. 
+</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>NHDPlusV1</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>The gage location was reviewed during the creation of the NHDPlus V1 Gages.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>NHDPlusV2</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>The gage location was reviewed during the creation of the NHDPlus V2 Gages.</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>None</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>
+The gage came from either the NHDPlus Version 1 or version 2 sources but the location was not 
+reviewed during the creation of either of those data sets, nor during the creation of this 
+data set. 
+</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+          <gfc:listedValue>
+            <gfc:FC_ListedValue>
+              <gfc:label>
+                <gco:CharacterString>TXWSC</gco:CharacterString>
+              </gfc:label>
+              <gfc:definition>
+                <gco:CharacterString>
+The gage location was reviewed by geographers at the Texas Water Science Center.  This is 
+used for gages retrieved from NWIS Web.  It was also used for gages from one of the two 
+NHDPlus source data sets if the gage was moved to a new reach. 
+</gco:CharacterString>
+              </gfc:definition>
+              <gfc:definitionReference>
+                <gfc:FC_DefinitionReference>
+                  <gfc:definitionSource>
+                    <gfc:FC_DefinitionSource>
+                      <gfc:source>
+                        <gmd:CI_Citation>
+                          <gmd:title>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:title>
+                          <gmd:date gco:nilReason="unknown"/>
+                          <gmd:citedResponsibleParty>
+                            <gmd:CI_ResponsibleParty>
+                              <gmd:organisationName>
+                                <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                              </gmd:organisationName>
+                              <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                              </gmd:role>
+                            </gmd:CI_ResponsibleParty>
+                          </gmd:citedResponsibleParty>
+                        </gmd:CI_Citation>
+                      </gfc:source>
+                    </gfc:FC_DefinitionSource>
+                  </gfc:definitionSource>
+                </gfc:FC_DefinitionReference>
+              </gfc:definitionReference>
+            </gfc:FC_ListedValue>
+          </gfc:listedValue>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>Measure</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>
+The measure represents a gage's location on a reach in the National Atlas Streams 1:1M 2014. 
+Measures range from 0 to 100 and record the distance, as a percentage, from the downstream end of 
+a reach.  If a reach is composed of more than one stream segment, the measure is based on the 
+length of the entire group of segments that comprise the reach.  Measures are used in linear 
+referencing. 
+</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>NWISWeb</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>
+The URL for the gage's page in NWIS Web.  Detailed streamflow and other information for each gage 
+is provided in NWIS Web. 
+</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>National Atlas of the United States</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+    </gfc:FC_FeatureType>
+  </gfc:featureType>
+</gfc:FC_FeatureCatalogue>

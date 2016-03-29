@@ -64,7 +64,7 @@
     </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-    <gco:Date>2015-07-08</gco:Date>
+    <gco:Date>2016-02-22</gco:Date>
   </dateStamp>
   <metadataStandardName>
     <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -103,7 +103,7 @@
             <gco:CharacterString>EPSG</gco:CharacterString>
           </codeSpace>
           <version>
-            <gco:CharacterString>8.2.6</gco:CharacterString>
+            <gco:CharacterString>8.6.2</gco:CharacterString>
           </version>
         </RS_Identifier>
       </referenceSystemIdentifier>
@@ -189,7 +189,7 @@
         </CI_Citation>
       </citation>
       <abstract>
-        <gco:CharacterString>This point shapefile contains the WHAT? of Tajikistan. These are the level # administrative divisions (ADM#) of NAME.</gco:CharacterString>
+        <gco:CharacterString>This point shapefile represents cities and towns of the Tajik Soviet Socialist Republic (later: Tajikistan). Populations from the 1989 Soviet Census are included in this layer.</gco:CharacterString>
       </abstract>
       <purpose>
         <gco:CharacterString>This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</gco:CharacterString>
@@ -287,17 +287,13 @@
       <descriptiveKeywords>
         <MD_Keywords>
           <keyword>
-            <gco:CharacterString>2008</gco:CharacterString>
-          </keyword>
-          <type>
-            <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="temporal" codeSpace="ISOTC211/19115">temporal</MD_KeywordTypeCode>
-          </type>
-        </MD_Keywords>
-      </descriptiveKeywords>
-      <descriptiveKeywords>
-        <MD_Keywords>
-          <keyword>
             <gco:CharacterString>Administrative and political divisions</gco:CharacterString>
+          </keyword>
+          <keyword>
+            <gco:CharacterString>Cities and towns</gco:CharacterString>
+          </keyword>
+          <keyword>
+            <gco:CharacterString>Population</gco:CharacterString>
           </keyword>
           <type>
             <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
@@ -415,16 +411,6 @@
                   </role>
                 </CI_ResponsibleParty>
               </citedResponsibleParty>
-              <series>
-                <CI_Series>
-                  <name>
-                    <gco:CharacterString>Watersheds mapping series</gco:CharacterString>
-                  </name>
-                  <issueIdentification>
-                    <gco:CharacterString>map set 1</gco:CharacterString>
-                  </issueIdentification>
-                </CI_Series>
-              </series>
             </CI_Citation>
           </aggregateDataSetName>
           <associationType>
@@ -445,10 +431,13 @@
         <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
       </characterSet>
       <topicCategory>
-        <MD_TopicCategoryCode>boundaries</MD_TopicCategoryCode>
+        <MD_TopicCategoryCode>location</MD_TopicCategoryCode>
+      </topicCategory>
+      <topicCategory>
+        <MD_TopicCategoryCode>society</MD_TopicCategoryCode>
       </topicCategory>
       <environmentDescription>
-        <gco:CharacterString>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</gco:CharacterString>
+        <gco:CharacterString>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.1.4959</gco:CharacterString>
       </environmentDescription>
       <extent>
         <EX_Extent>
@@ -458,7 +447,7 @@
           <temporalElement>
             <EX_TemporalExtent>
               <extent>
-                <gml:TimeInstant gml:id="idm5580496">
+                <gml:TimeInstant gml:id="idm5581680">
                   <gml:timePosition>2008-06-01T00:00:00</gml:timePosition>
                 </gml:TimeInstant>
               </extent>

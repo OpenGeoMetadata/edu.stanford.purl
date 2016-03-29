@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Targeted Employment Areas, San Joaquin County, California, 2015</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>San Joaquin County (Calif.). Community Development Department</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>San Joaquin County (Calif.). Community Development Department</publisher>
+    <place>
+      <placeTerm type="text">Stockton, California, US</placeTerm>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <extent>0.117</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::2227</projection>
+      <coordinates>(W 121&#xB0;35&#x2B9;25&#x2BA;--W 120&#xB0;55&#x2B9;10&#x2BA;/N 38&#xB0;15&#x2B9;47&#x2BA;--N 37&#xB0;28&#x2B9;51&#x2BA;)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains targeted employment areas (TEAs) in San Joaquin County, California. TEAs are regions in the U.S. for which the threshold for investment for an investor to be eligible for the EB-5 visa is $500,000 (as opposed to the usual $1,000,000 threshold for the U.S. as a whole). There are two kinds of TEAs: high unemployment areas (defined as areas having unemployment more than 150% the national average calculated by the Bureau of Labor Statistics) and rural areas (defined as areas outside a Metropolitan Statistical Area). In California, the investor may petition the state government for designating a particular subdivision of the area as an area of high unemployment (over 150% the national average).[9] The California Department of Housing and Community Development provides a list of street ranges and census tracts for TEAs. This layer is part of a collection of GIS data for San Joaquin County in California.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">San Joaquin County (Calif.). Community Development Department. (2015). Targeted Employment Areas, San Joaquin County, California, 2015. San Joaquin County Community Development Department. Available at: http://purl.stanford.edu/kn213sm7141.</note>
+  <note displayLabel="Supplemental information">There is no centralized list of targeted employment areas, but stage agencies in various states maintain their own lists or criteria for identifying TEAs, as well as information on local unemployment rates that can be cited in applications. Various US states facilitate the process by allowing people to apply for certification for particular areas being designated as TEAs. USCIS defers to state determinations but periodically reviews the criteria used by states to confirm that they comply with its guidelines.</note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Employment</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Employment forecasting</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5392126/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">San Joaquin County (Calif.)</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">2015</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="economy">Economy</topic>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="society">Society</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/kn213sm7141</url>
+  </location>
+  <accessCondition type="useAndReproduction">No restrictions on access or use.</accessCondition>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:kn213sm7141</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/kn213sm7141">
+        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type>Dataset#Polygon</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>-121.587001 37.481783</gml:lowerCorner>
+            <gml:upperCorner>-120.920744 38.259834</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5392126/" dc:language="eng" dc:title="San Joaquin County (Calif.)"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 121&#xB0;35&#x2B9;13&#x2BA;--W 120&#xB0;55&#x2B9;15&#x2BA;/N 38&#xB0;15&#x2B9;35&#x2BA;--N 37&#xB0;28&#x2B9;54&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>

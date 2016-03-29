@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Color Hawaii Shaded Relief, 200-Meter Resolution, Albers projection</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>National Atlas of the United States</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>National Atlas of the United States</publisher>
+    <place>
+      <placeTerm type="text">Reston, Virginia, US</placeTerm>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2006</dateIssued>
+    <dateValid encoding="w3cdtf">2002</dateValid>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>GeoTIFF</form>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>Custom projection</projection>
+      <coordinates>(W 102&#xB0;59&#x2B9;27&#x2BA;--W 90&#xB0;44&#x2B9;23&#x2BA;/N 58&#xB0;31&#x2B9;39&#x2BA;--N 54&#xB0;32&#x2B9;21&#x2BA;)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">The color Hawaii shaded relief data were derived from National Elevation Dataset (NED) data, and show the terrain of Hawaii at a resolution of 200 meters. The NED is a raster product assembled by the U.S. Geological Survey, designed to provide national elevation data in a seamless form with a consistent datum, elevation unit, and projection. Data corrections made in the NED assembly process minimize artifacts, permit edge matching, and fill sliver areas of missing data. The National Atlas also includes a Lambert Azimuthal Equal Area projection shaded relief file; this file is the same data in an Albers projection. This layer is part of the 1997-2014 edition National Atlas of the United States.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">The color shaded relief images were developed to portray the terrain of the United States. They are intended for visual purposes only. The original National Elevation Dataset (NED) data must be used for conducting analysis and determining elevation values.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">National Atlas of the United States. (2006). Color Hawaii Shaded Relief, 200-Meter Resolution, Albers projection. National Atlas of the United States. Available at: http://purl.stanford.edu/fs846vx2304.</note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Altitudes</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Digital elevation models</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Topographic maps</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5855797/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Hawaii</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">2006</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="elevation">Elevation</topic>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="">Geoscientific Information</topic>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="imageryBaseMapsEarthCover">Imagery and Base Maps</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/fs846vx2304</url>
+  </location>
+  <accessCondition type="useAndReproduction">This item is in the public domain.</accessCondition>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:fs846vx2304</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/fs846vx2304">
+        <dc:format>image/tiff; format=GeoTIFF</dc:format>
+        <dc:type>Dataset#Raster</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>-102.99093 54.5385083</gml:lowerCorner>
+            <gml:upperCorner>-90.7402631 58.5273757</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5855797/" dc:language="eng" dc:title="Hawaii"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 102&#xB0;59&#x2B9;27&#x2BA;--W 90&#xB0;44&#x2B9;25&#x2BA;/N 58&#xB0;31&#x2B9;39&#x2BA;--N 54&#xB0;32&#x2B9;19&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>

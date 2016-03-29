@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>100-Meter Resolution Impervious Surface of Alaska, 2001</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>Geological Survey (U.S.)</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>Geological Survey (U.S.)</publisher>
+    <place>
+      <placeTerm type="text">Rolla, MO, US</placeTerm>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>GeoTIFF</form>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject>
+    <cartographics>
+      <scale>1:1000000</scale>
+      <projection>Custom projection</projection>
+      <coordinates>(W 180&#xB0;--E 180&#xB0;/N 71&#xB0;57&#x2B9;17&#x2BA;--N 43&#xB0;3&#x2B9;12&#x2BA;)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This raster layer is a georeferenced image containing impervious surface data for Alaska. Data are in an Albers Equal-Area Conic projection and have a resolution of 100 meters. The impervious surface data were derived from the 2001 National Land Cover Database (NLCD) Percent Developed Imperviousness data set, a product of the Multi-Resolution Land Characteristics Consortium (MRLC). The MRLC is a multi-agency cooperative effort to study land cover change. This layer is part of the 1997-2014 edition of the National Atlas of the United States.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">The 100-meter resolution impervious surface data were developed to portray impervious surfaces of the United States at 1:1,000,000 scale. They are intended primarily for visual purposes. The original NLCD data should be used for conducting scientific analysis.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">U.S. Geological Survey. (2013). 100-Meter Resolution Impervious Surface of Alaska, 2001. USGS. Available at: http://purl.stanford.edu/yp193qz6054.</note>
+  <note displayLabel="Supplemental information">NLCD data sets at 30-meter resolution may be downloaded from the MRLC Web site, http://www.mrlc.gov/nlcd01_data.php. Further information on NLCD, related data sets, and land cover research may be found at the online USGS Land Cover Institute http://landcover.usgs.gov/. Pixel values for impervious surface data and their corresponding RGB colors are listed in the color ramp (.clr) file that accompanies the data set. This table shows all impervious surface classes and the RGB color values used to represent them. &gt;Pixel value NLCD 2001 Impervious Surface classes R G B &gt;================================================================================== &gt;1 through 100 Percent impervious, 1% through 100% See .clr for RGB's &gt;101, 102, 103 Non-U.S. land 240 235 211 &gt;104 Background U.S. land 104 104 104 &gt;0 Ocean water 193 224 250 Pixel values 1 through 100 represent the percentage covered by impervious surface, such as pavement, as seen from above. Pixel value 101 represents land in Canada or the British Virgin Islands. Pixel value 102 represents land in Mexico or Russia. Pixel value 103 represents land in The Bahamas and Cuba in the southeastern part of the data set. Pixel value 104 represents U.S. land that does not have valid data values. There are no null values in the image. Included with the GeoTIFF are an auxiliary information file (.aux.xml), an image overview file (.ovr), a value attribute database file (.vat.dbf), a .tfw file (more information included below), a .prj file (more information included below), and an Adobe Color Table (.act) file. The contents of the associated world file (.tfw) are: &gt;100.0 &gt;0.0 &gt;0.0 &gt;-100.0 &gt;-3326950.0 &gt;2437950.0 The projection (.prj) file contains the following information: &gt; PROJCS["Albers_NAD83_Alaska", &gt;GEOGCS["GCS_North_American_1983", &gt;DATUM["D_North_American_1983", &gt;SPHEROID["GRS_1980",6378137.0,298.257222101]], &gt;PRIMEM["Greenwich",0.0], &gt;UNIT["Degree",0.0174532925199433]], &gt;PROJECTION["Albers"], &gt;PARAMETER["False_Easting",0.0], &gt;PARAMETER["False_Northing",0.0], &gt;PARAMETER["Central_Meridian",-154.0], &gt;PARAMETER["Standard_Parallel_1",55.0], &gt;PARAMETER["Standard_Parallel_2",65.0], &gt;PARAMETER["Latitude_Of_Origin",50.0], &gt;UNIT["Meter",1.0]] Data set extent in meters (Albers Equal-Area Conic projection) &gt;North 2438000 &gt;West -3327000 &gt;East 1654000 &gt;South 346000 There are no NULL or NODATA values in the GeoTIFF. Instead, all impervious surface values in oceans have been set to zero as part of the masking process. A copy of the land/water mask used in processing is available on request. Information about National Atlas Web services can be found on the Web Map and Web Feature Services page; see http://nationalatlas.gov/infodocs/webservices.html. ; {"gdaId" : 6152773}</note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Pavements</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Roads</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Sidewalks</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Building materials</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Concrete</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Land cover</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Land use</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Urbanization</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5879092/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Alaska</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">2001</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="imageryBaseMapsEarthCover">Imagery and Base Maps</topic>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="structure">Structure</topic>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="environment">Environment</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/yp193qz6054</url>
+  </location>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:yp193qz6054</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/yp193qz6054">
+        <dc:format>image/tiff; format=GeoTIFF</dc:format>
+        <dc:type>Dataset#Raster</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>-179.9999845 43.0532272</gml:lowerCorner>
+            <gml:upperCorner>179.9993566 71.9545187</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5879092/" dc:language="eng" dc:title="Alaska"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 180&#xB0;--E 179&#xB0;59&#x2B9;58&#x2BA;/N 71&#xB0;57&#x2B9;16&#x2BA;--N 43&#xB0;3&#x2B9;12&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>

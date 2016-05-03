@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>World Shoreline Boundary between Land and Ocean, 2014 (High-resolution)</title>
+  </titleInfo>
+  <name type="personal">
+    <namePart>Wessel, Paul</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <name type="personal">
+    <namePart>Smith, Walter H. F.</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>United States. National Geospatial-Intelligence Agency</publisher>
+    <place>
+      <placeTerm type="text">Springfield, Virginia, US</placeTerm>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+    <edition>2.3.3</edition>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <extent>32.547</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>(W 180&#xB0;--E 180&#xB0;/N 83&#xB0;38&#x2B9;--S 68&#xB0;55&#x2B9;28&#x2BA;)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents the boundary between land and ocean, excluding Antarctica, at high resolution. High-resolution represents an 80 percent reduction in size and quality from the full (original) resolution layer. The Global Self-consistent, Hierarchical, High-resolution Geography (GSHHG) Database is a high-resolution geography data set amalgamated from three data bases in the public domain. This layer is part of GSHHG Version 2.3.3. The World Vector Shorelines (WVS) is the basis for shorelines except for Antarctica while the CIA World Data Bank (WDBII) is the basis for lakes, although there are instances where differences in coastline representations necessitated adding WDBII islands to GSHHG. The WDBII source also provides all political borders and rivers. GSHHG data have undergone extensive processing and should be free of internal inconsistencies such as erratic points and crossing segments. Atlas of the Cryosphere (AC) provides the basis for Antarctica coastlines. The shorelines are constructed entirely from hierarchically arranged closed polygons. </abstract>
+  <abstract displayLabel="Purpose" lang="eng">These shoreline polygon data can be used to simplify data searches and data selections and to study the statistical characteristics of shorelines and land-masses.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">Wessel, P., and W. H. F. Smith (2014). World Shoreline Boundary between Land and Ocean, 2014 (High-resolution). (v. 2.3.3). United States. National Geospatial-Intelligence Agency. Available at http://purl.stanford.edu/ky855gy0473.</note>
+  <note displayLabel="Supplemental information">GSHHG used to be called GSHHS (Global Self-consistent, Hierarchical, High-resolution Shorelines) but since rivers and political boundaries were also included we changed it to GSHHG starting with version 2.2.1. 
+The addition of AC since 2.3.0 allows two choices for Antarctica coastlines: Ice-front or Grounding line. These are encoded as levels 5 and 6, respectively. </note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Shorelines</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng">Earth</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">2014</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="oceans">Oceans</topic>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/ky855gy0473</url>
+  </location>
+  <accessCondition type="useAndReproduction">Starting with version 2.2.2, GSHHG has been released under the GNU Lesser General Public License. (http://www.gnu.org/licenses/lgpl.html)</accessCondition>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:ky855gy0473</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/ky855gy0473">
+        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type>Dataset#Polygon</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>-180.0 -68.924526</gml:lowerCorner>
+            <gml:upperCorner>180.0 83.633389</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Earth"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+</mods>

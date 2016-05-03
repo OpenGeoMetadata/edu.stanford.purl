@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Hospital Heliports, California, 2015</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>California. Department of Transportation</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>California. Department of Transportation</publisher>
+    <place>
+      <placeTerm type="text">Sacramento, US</placeTerm>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <extent>0.007</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>(W 124&#xB0;8&#x2B9;36&#x2BA;--W 115&#xB0;33&#x2B9;11&#x2BA;/N 41&#xB0;19&#x2B9;7&#x2BA;--N 32&#xB0;45&#x2B9;4&#x2BA;)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This point shapefile contains the locations of hospital heliports in California as of 2015. Each location is supplied along with the links to the heliport info sheets that provide permitted approach paths and other information for all the permitted Hospital Heliports in California. The information will be helpful to emergency planners, helicopter operators, and other users. This layer is part of a collection of GIS data created by the California Department of Transportation (Caltrans).</abstract>
+  <abstract displayLabel="Purpose" lang="eng">This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">California Department of Transportation. (2015). Hospital Heliports, California, 2015. California Department of Transportation. Available at http://purl.stanford.edu/dj057mw1855.</note>
+  <note displayLabel="Supplemental information">Original data is based on hospital heliport permit safety inspections but coordinates have been modified using Google Earth/Maps aerial imagery background for Caltrans Earth applications.
+
+Additional information and heliport interactive map site can be found at the Caltrans Division of Aeronautics home page:  http://www.dot.ca.gov/hq/planning/aeronaut/index.html
+http://www.dot.ca.gov/hq/planning/aeronaut/dataplates.html
+
+More information can be found at Caltrans division of Aeronautics website at http://www.dot.ca.gov/hq/planning/aeronaut/index.htm,or visit Hospital Heliport Dataplates website at http://www.dot.ca.gov/hq/planning/aeronaut/helipads/dataplates/</note>
+  <note displayLabel="Use limitation">This data is provided as a service for planning purposes and not intended for design, navigation purposes or airspace consideration. Such needs should include discussions with the Federal Aviation Administration, Caltrans Division of Aeronautics, and the site management/owners.</note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Heliports</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Hospitals</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/3687919/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">California</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">2015</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="transportation">Transportation</topic>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="structure">Structure</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/dj057mw1855</url>
+  </location>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:dj057mw1855</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/dj057mw1855">
+        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type>Dataset#Point</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>-124.143264 32.75125</gml:lowerCorner>
+            <gml:upperCorner>-115.553097 41.318611</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+</mods>

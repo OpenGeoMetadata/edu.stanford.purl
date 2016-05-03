@@ -1,6 +1,120 @@
 <?xml version="1.0"?>
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd">
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>1990 Census Roads - San Francisco Bay Area, California</title>
   </titleInfo>
-</mods>
+  <name type="corporate">
+    <namePart>California. Metropolitan Transportation Commission</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>California. Metropolitan Transportation Commission</publisher>
+    <place>
+      <placeTerm type="text">Oakland, California, US</placeTerm>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2002</dateIssued>
+    <dateValid encoding="w3cdtf">1990</dateValid>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <extent>0.189</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>Custom projection</projection>
+      <coordinates>(W 123&#xB0;31&#x2B9;6&#x2BA;--W 121&#xB0;10&#x2B9;4&#x2BA;/N 38&#xB0;51&#x2B9;10&#x2BA;--N 36&#xB0;54&#x2B9;47&#x2BA;)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This line shapefile contains primary and secondary roads for the San Francosco Bay Area in California. Primary roads are generally divided, limited-access highways within the interstate highway system or under State management, and are distinguished by the presence of interchanges. These highways are accessible by ramps and may include some toll highways. The MAF/TIGER Feature Classification Code (MTFCC) is S1100 for primary roads. Secondary roads are main arteries, usually in the U.S. Highway, State Highway, and/or County Highway system. These roads have one or more lanes of traffic in each direction, may or may not be divided, and usually have at-grade intersections with many other roads and driveways. They usually have both a local name and a route number. This layer is part of the Bay Area Metropolitan Transportation Commission (MTC) GIS Maps and Data collection.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">California, Metropolitan Transportation Commission. (2002). 1990 Census Roads - San Francisco Bay Area, California. MTC. Available at: http://purl.stanford.edu/hp348jr8547</note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Roads</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Express highways</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng">San Francisco Bay Area (Calif.)</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5391959/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">San Francisco (Calif.)</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5339268/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Contra Costa County (Calif.)</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5376101/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Napa County (Calif.)</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5392427/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">San Mateo County (Calif.)</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5392427/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">San Mateo County (Calif.)</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5396987/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Solano County (Calif.)</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5397100/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Sonoma County (Calif.)</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5370468/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Marin County (Calif.)</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5322745/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Alameda County (Calif.)</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">1990</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="transportation">Transportation</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/hp348jr8547</url>
+  </location>
+  <accessCondition type="useAndReproduction">No restrictions on access or use.</accessCondition>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:hp348jr8547</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/hp348jr8547">
+        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type>Dataset#LineString</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>-123.517647 36.917503</gml:lowerCorner>
+            <gml:upperCorner>-121.211349 38.852901</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="" dc:language="eng" dc:title="San Francisco Bay Area (Calif.)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5391959/" dc:language="eng" dc:title="San Francisco (Calif.)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5339268/" dc:language="eng" dc:title="Contra Costa County (Calif.)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5376101/" dc:language="eng" dc:title="Napa County (Calif.)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5392427/" dc:language="eng" dc:title="San Mateo County (Calif.)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5392427/" dc:language="eng" dc:title="San Mateo County (Calif.)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5396987/" dc:language="eng" dc:title="Solano County (Calif.)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5397100/" dc:language="eng" dc:title="Sonoma County (Calif.)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5370468/" dc:language="eng" dc:title="Marin County (Calif.)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5322745/" dc:language="eng" dc:title="Alameda County (Calif.)"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 123&#xB0;31&#x2B9;4&#x2BA;--W 121&#xB0;12&#x2B9;41&#x2BA;/N 38&#xB0;51&#x2B9;10&#x2BA;--N 36&#xB0;55&#x2B9;3&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>

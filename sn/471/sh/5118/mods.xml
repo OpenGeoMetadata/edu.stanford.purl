@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Petroleum Refineries, United States, 2014</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>National Energy Information Center (U.S.)</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>National Energy Information Center (U.S.)</publisher>
+    <place>
+      <placeTerm type="text">Washington, D.C., US</placeTerm>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <extent>0.004</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>(W 158&#xB0;6&#x2B9;39&#x2BA;--W 74&#xB0;13&#x2B9;20&#x2BA;/N 70&#xB0;19&#x2B9;29&#x2BA;--N 21&#xB0;18&#x2B9;13&#x2BA;)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This point shapefile represents all operating petroleum refineries located in the United States, Puerto Rico, Guam, the U.S. Virgin Islands, and other U.S. Territories as of January 1, 2014. These data originate from the U.S. Energy Information Administration, Refinery Capacity Report, (EIA-820) Table 3, Capacity of Operable Petroleum Refineries by State. In addition to the sources listed, accuracy for the locations of facilities shown on the map was improved through the use of publicly available sites such as company websites and satellite images from public websites. This layer is part of a collection of GIS data produced by the U.S. National Energy Information Administration.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">National Energy Information Center (U.S.). (2015). Petroleum Refineries, United States, 2014. National Energy Information Center. Available at: http://purl.stanford.edu/sn471sh5118.</note>
+  <note displayLabel="Supplemental information">EIA-820 report: http://www.eia.gov/petroleum/refinerycapacity/table3.pdf.</note>
+  <note displayLabel="Use limitation">The U.S. Energy Information Administration shall not be held liable for improper or incorrect use of the data described and/or contained herein. These data and related graphics, if available, are not legal documents and are not intended to be used as such. The information contained in these data is dynamic and may change over time. The U.S. Energy Information Administration gives no warranty, expressed or implied, as to the accuracy, reliability, or completeness of these data.</note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Petroleum refineries</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/6252001/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">United States</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/4796775/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">United States Virgin Islands</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/4566966/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Puerto Rico</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/4043988/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Guam</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">2014</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="structure">Structure</topic>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="utilitiesCommunication">Utilities and Communication</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/sn471sh5118</url>
+  </location>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:sn471sh5118</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/sn471sh5118">
+        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type>Dataset#Point</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>-158.110927 21.303644</gml:lowerCorner>
+            <gml:upperCorner>-74.22235 70.324832</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/4796775/" dc:language="eng" dc:title="United States Virgin Islands"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/4566966/" dc:language="eng" dc:title="Puerto Rico"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/4043988/" dc:language="eng" dc:title="Guam"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+</mods>

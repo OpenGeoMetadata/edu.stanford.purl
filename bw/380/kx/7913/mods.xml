@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Fire Hazard Boundaries: San Mateo County, California, 2015</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>County of San Mateo Information Services Department</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>County of San Mateo Information Services Department</publisher>
+    <place>
+      <placeTerm type="text">Redwood City, California, US</placeTerm>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+    <dateValid encoding="w3cdtf">2015</dateValid>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <extent>4.516</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::2227</projection>
+      <coordinates>(W 122&#xB0;31&#x2B9;26&#x2BA;--W 122&#xB0;8&#x2B9;55&#x2BA;/N 37&#xB0;42&#x2B9;33&#x2BA;--N 37&#xB0;6&#x2B9;16&#x2BA;)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts fire hazard boundaries in the County of San Mateo, California. This dataset includes State Responsibility Areas (SRA) and Local Responsibility Areas (LRA) and hazard classifications. Classification of a zone as moderate, high or very high fire hazard is based on a combination of how a fire will behave and the probability of flames and embers threatening buildings. Each zone gets a score for flame length, embers, and the likelihood of the area burning. Scores are then averaged over the zone areas. Final zone class (moderate, high and very high) is based on the averaged scores for the zone. The California Department of Forestry and Fire Protection (CAL FIRE) has a legal responsibility to provide fire protection on all State Responsibility Area (SRA) lands, which are defined based on land ownership, population density and land use SRA designations undergo a thorough 5 year review cycle. The County of San Mateo, California holds authority over the LRA, which includes incorporated cities and cultivated agriculture lands. LRA fire protection is typically provided by city fire departments, fire protection districts, counties nd by CAL FIRE under contract to local government. This layer is part of a collection of GIS data for San Mateo County, California.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">This coverage can be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analyses of geospatial data.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">County of San Mateo Information Services Department. (2015). Fire Hazard Boundaries: San Mateo County, California, 2015. San Mateo County. Available at: http://purl.stanford.edu/bw380kx7913</note>
+  <note displayLabel="Supplemental information">More information can be found at: http://planning.smcgov.org/documents/san-mateo-county-hazards-california-state-fire-severity-zones.</note>
+  <note displayLabel="Use limitation">The County of San Mateo cannot vouch for the data or analyses derived from these data.</note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Government liability</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Fires and fire prevention</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Fire risk assessment</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Environmental impact analysis</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5392427/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">San Mateo County (Calif.)</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">2015</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="environment">Environment</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/bw380kx7913</url>
+  </location>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:bw380kx7913</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/bw380kx7913">
+        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type>Dataset#Polygon</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>-122.520807 37.107966</gml:lowerCorner>
+            <gml:upperCorner>-122.151207 37.704985</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5392427/" dc:language="eng" dc:title="San Mateo County (Calif.)"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;31&#x2B9;15&#x2BA;--W 122&#xB0;9&#x2B9;4&#x2BA;/N 37&#xB0;42&#x2B9;18&#x2BA;--N 37&#xB0;6&#x2B9;29&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>

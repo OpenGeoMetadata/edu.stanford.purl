@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Border Crossings, Syria, March 2014</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>United States. Department of State. Office of the Geographer</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>United States. Department of State. Humanitarian Information Unit</publisher>
+    <place>
+      <placeTerm type="text">Washington, DC, US</placeTerm>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <extent>0.001</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>(E 35&#xB0;51&#x2B9;9&#x2BA;--E 42&#xB0;20&#x2B9;59&#x2BA;/N 37&#xB0;18&#x2B9;31&#x2BA;--N 32&#xB0;31&#x2B9;1&#x2BA;)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This point shapefile contains verified data about the geographic location (point geometry) and name of border crossings for Syria. These data have been compiled by the U.S. Department of State, Humanitarian Information Unit (INR/GGI/HIU), Each attribute in the dataset is verified against multiple sources. Locations are only accurate down to the city level. The data contained herein is entirely unclassified and is current as of 12 March 2014. The data is updated as needed.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">This file is compiled by the U.S. Department of State, Humanitarian Information Unit (INR/GGI/HIU) and is used in the production of several Syria related maps including the unclassified "Syria: Numbers and Locations of Syrian Refugees" product.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">U.S. Department of State, Humanitarian Information Unit (INR/GGI/HIU). (2013) Border Crossings: Syria, March 2014. U.S. Department of State, Humanitarian Information Unit. Available at: http://purl.stanford.edu/mp665hn0245.</note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Border crossing</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Refugees</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng">Syria</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng">Iraq</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng">Turkey</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng">Jordan</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">2014</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="society">Society</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/mp665hn0245</url>
+  </location>
+  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:mp665hn0245</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/mp665hn0245">
+        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type>Dataset#Point</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>35.852549 32.516919</gml:lowerCorner>
+            <gml:upperCorner>42.349858 37.308672</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Syria"/>
+        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Iraq"/>
+        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Turkey"/>
+        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Jordan"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+</mods>

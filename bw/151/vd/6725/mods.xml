@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Registered Nurse Shortage Areas, California, 2005</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>California. Office of Statewide Health Planning and Development</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>California. Office of Statewide Health Planning and Development</publisher>
+    <place>
+      <placeTerm type="text">Sacramento, US</placeTerm>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2005</dateIssued>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <extent>2.193</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>Custom projection</projection>
+      <coordinates>(W 122&#xB0;48&#x2B9;49&#x2BA;--W 113&#xB0;40&#x2B9;6&#x2BA;/N 40&#xB0;9&#x2B9;37&#x2BA;--N 32&#xB0;25&#x2B9;25&#x2BA;)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains registered nursing shortage areas (RNSAs) in California for 2005. The Commission uses the RNSA as only one of many factors to determine Song-Brown funding for nursing education programs. The RNSA does not in itself determine funding or funding levels. The method for determining the RNSA is a function of the number of licensed nurses (supply) and patient volume (demand). The analysis performed uses annual data requested from the Board of Registered Nurses and patient count - hospital utilization data from OSHPD HIRC and compiled/analyzed on a county basis. Final designation is determined when a county (1) lacks a general acute care hospital (GAC) and a long-term care (LTC) facility and (2) is above the mean ratio of available nurses to patient volume. The ratio is the total number of bed days for GACs and LTC facilities multiplied by .08 and divided by the number of registered nurses (RNs) in the specific county. Three factors are used in defining nursing shortages: (1) California counties (as the geographic unit for analysis), (2) California registered nurse data of all active licenses by county from the Board of Registered Nursing (BRN), Department of Consumer Affairs , and (3) the patient day and census data from all LTCs and GACs from OSHPD. OSHPD maintains data on patient volume for GACs and LTCs. These data are maintained in the OSHPD Automated Licensing Information and Report Tracking System (ALIRTS) program. These locations employ nearly 70% of the total nursing workforce in California. No current data exist on patient volume for the other 30% of the workforce. OSHPD facility census data for year of evaluation were obtained by county. There are more licensed bed days in LTCs than GACs in California and LTCs only account for 5% of the registered nurse workforce. Therefore, a scale factor representing the percent of the nursing workforce at LTCs in this function was applied to ensure the census data were not skewed. A total census was created by summing the two numbers and a ratio was used of census divided by registered nurses for each of the 58 counties. Ratio Equation: SUM(CensusDaysGAC + [(PatientDaysLTC) * 0.08]) / RNCount. Where: CensusDaysGAC is the number of days a patient is occupying a bed in General Acute Care Hospitals in year of evaluation . PatientDaysLTC is the number of days a patient is occupying a bed in Long-Term Care Facilities in year of evaluation .RNCount is the number of licensed, active registered nurses per county in year of evaluation .This layer is part of the Healthcare Atlas of California</abstract>
+  <abstract displayLabel="Purpose" lang="eng">The Commission requires a quantitative, repeatable and meaningful way of ranking applications whose past graduates and training facilities operate in areas of unmet need (e.g. shortages). Determining nursing shortage areas is extremely different than determining physician shortage areas. Nurses are nearly entirely employed at licensed health facilities, while physicians have multiple practice locations in the field. Therefore, the Commission has adopted a California Registered Nurse Shortage Area (RNSA) as a function of (1) facilities at which nurses are predominantly employed (2) the volume of patients at these facilities and (3) available licensed nurses to work at these locations. This function provides an aggregate ratio of patient demand to nurse availability. For this designation, counties are used as the analytical unit.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">California Office of Statewide Health Planning and Development. (2005). Dental Health Professional Shortage Areas, California, 2005. California Office of Statewide Health Planning and Development. Available at: http://purl.stanford.edu/bw151vd6725.</note>
+  <note displayLabel="Supplemental information">This designation uses three factors in defining nursing shortage. (1) County boundaries (as the geographic unit for analysis), (2) The Board of Registered Nursing (BRN) licensee data and (3) the patient day or census data from all long term care facilities and general acute care hospitals . The BRN data, where each record is an individual licensed nurse, was summarized to obtain a count of Registered Nurses by county. 2006 California registered nurse data of all licensees were obtained from the Board of Registered Nursing (BRN) and geocoded. Next, licensee addresses were used to determine a specific location on commercial road data. This data was then summed by each county to obtain a count of nurses in each county. OSHPD maintains data on patient volume for general acute care (GAC) hospitals and skilled nursing facilities. These data are maintained in the OSHPD Automated Licensing Information and Report Tracking System (ALIRTS) program. These locations employ nearly 70% of the total nursing workforce in California. No current data exists on patient volume for the other 30% of the workforce. OSHPD facility census data, where each facility contained a census day total for 2005, was summarized to obtain a total census of long term care and hospitals (each) by county. There are significantly more (on average more than 2:1 more) license bed days in skilled nursing facilities than general acute care hospitals in California. Moreover, skilled nursing facilities only account for 5% of the registered nurse workforce . Therefore a scale factor representing the percent of the nursing workforce at skilled nursing facilities in this function was applied to ensure the census data were not skewed . We then created a total census by summing these two numbers. Finally, we created a ratio of census divided by registered nurses for each county. The formula for determining the ratio is: Equation 1 (BedDaysGAC + (BedDaysSNF * 0.8) ) / RNCount Where: BedDaysGAC is the 2005 patient bed days for General Acute Care Hospitals BedDaysSNF is the 2005 patient bed days for Skilled Nursing Facilities RNCount is the number of licensed nurses per county Discussion The Commission needs a rubric to assist in evaluating nursing education grant applications. In particular, it needs to determine the extent to which applicants have training sites, and past graduates practicing in shortage areas. This designation meets these needs. The shortage method adopted is quantitative, repeatable, reflects current science and meaningful. It is the responsibility of the Commission to ensure that the most critical areas are designated and therefore receive the most benefit of the Song-Brown program. The Commission feels that the most meaningful method of determining shortage should be a function of not only available nurses, but also volume of patients served. Unlike the other methods, this designation provides a meaningful indicator of workload (e.g. average facility census). This designation has two limitations. First, only about 70% of the nursing workforce is accounted for in this function. The remaining 30% of the workforce is employed at schools, home health agencies and other facilities, for which no ratio of average daily census or population served can readily be analyzed. Second, nurses and patients both travel outside county boundaries to give and receive care. Adopted Areas The Commission formally defines RNSAs as those areas (1) lacking any hospital AND long-term care facility and (2) above the mean ratio shown in Equation 1, where mean is the average of all counties in California. The Commission further proposes that this method be reviewed in one year and every 2 years thereafter to provide insight to the latest science and current literature affecting the nursing workforce. The Commission bases their decision on the following: (1) There is a shortage of nurses statewide. The enabling legislation finds "that nurses are in very short supply in California" , and the number of nurses per 100,000 in the state is significantly below the national number of nurses per 100,000 population. However, the majority of nurses are employed at hospitals and long term care facilities. Those regions with above average census to nurse populations are hit the hardest by this statewide shortage and therefore should be given priority. (2) In the proposed evaluation process, every applicant program and past graduate who falls into an area without any facilities (e.g. hospital or long-term care) is also deemed to be in a shortage area. (3) Research on nursing workforce shortage areas is currently being produced. No leading theory has been established to date, but a simple ratio like the one presented here is the most effective at a repeatable, quantitative, and meaningful designation. The Commission believes preparing the current method, without revisiting it for revision in the near future would hinder the scope of recommendations the Commission makes. The resulting shortage designation map is presented in Figure 2. This RNSA designates 31,311,830 people (84% of the 37,444,385) based on 2006 provisional Department of Finance population estimates. 27 of the 58 counties are listed as Registered Nurse Shortage Areas</note>
+  <note displayLabel="Use limitation">The State of California, the California Health and Human Services Agency and the Office of Statewide Health Planning and Development make no representations or warranties regarding the accuracy of data or maps. The user will not seek to hold the State, the Agency or the Office liable under any circumstances for any damages with respect to any claim by the user or any third party on account of or arising from the use of data or maps. The user will cite the California Health and Human Services Agency and/or the Office as the original source of the data, but will clearly denote cases where the original data have been updated, modified, or in any way altered from the original condition. There are no restrictions on distribution of the data by users</note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Nurses</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Health services accessibility</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Medically underserved areas</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/3687919/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">California</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">2005</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="health">Health</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/bw151vd6725</url>
+  </location>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:bw151vd6725</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/bw151vd6725">
+        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type>Dataset#Polygon</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>-122.785091 32.534157</gml:lowerCorner>
+            <gml:upperCorner>-114.131212 40.152033</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;47&#x2B9;6&#x2BA;--W 114&#xB0;7&#x2B9;52&#x2BA;/N 40&#xB0;9&#x2B9;7&#x2BA;--N 32&#xB0;32&#x2B9;3&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>

@@ -64,7 +64,7 @@
     </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-    <gco:Date>2014-04-18</gco:Date>
+    <gco:Date>2016-07-01</gco:Date>
   </dateStamp>
   <metadataStandardName>
     <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -103,7 +103,7 @@
             <gco:CharacterString>EPSG</gco:CharacterString>
           </codeSpace>
           <version>
-            <gco:CharacterString>7.9.4</gco:CharacterString>
+            <gco:CharacterString>8.6.2</gco:CharacterString>
           </version>
         </RS_Identifier>
       </referenceSystemIdentifier>
@@ -190,18 +190,18 @@
             <CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115">mapDigital</CI_PresentationFormCode>
           </presentationForm>
           <collectiveTitle>
-            <gco:CharacterString>Zambia GIS data, 1985-2014</gco:CharacterString>
+            <gco:CharacterString>Zambia GIS data</gco:CharacterString>
           </collectiveTitle>
         </CI_Citation>
       </citation>
       <abstract>
-        <gco:CharacterString>This polygon shapefile depicts the Ward and Constituancy boundaries in Zambia from 1991 to 2006. These data were digitized from source data acquired from Central Statistical Office of Zambia. This layer is part of a collection of GIS data relating to Zambia including boundary files, rivers, roads, schools, utilities, protected areas and vegetation.</gco:CharacterString>
+        <gco:CharacterString>This polygon dataset depicts the Ward and Constituancy boundaries in Zambia from 1991 to 2006. These data were digitized from source data acquired from Central Statistical Office of Zambia. This layer is part of a collection of GIS data relating to Zambia including boundary files, rivers, roads, schools, utilities, protected areas and vegetation.</gco:CharacterString>
       </abstract>
       <purpose>
         <gco:CharacterString>This layer is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</gco:CharacterString>
       </purpose>
       <credit>
-        <gco:CharacterString>Zambia Provincial Centre for Geographic Information Services. (2014) Ward and Constituency Boundaries: Zambia, 1991-2006. PCGIS.</gco:CharacterString>
+        <gco:CharacterString>Zambia Provincial Centre for Geographic Information Services. (2014) Ward and Constituency Boundaries: Zambia, 1991-2006. PCGIS. Available at:  http://purl.stanford.edu/rn812zx7730.</gco:CharacterString>
       </credit>
       <status>
         <MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="ISOTC211/19115">completed</MD_ProgressCode>
@@ -347,15 +347,12 @@
       </descriptiveKeywords>
       <resourceConstraints>
         <MD_LegalConstraints>
-          <useLimitation>
-            <gco:CharacterString>Access is granted to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Unauthorized distribution is prohibited.</gco:CharacterString>
-          </useLimitation>
-          <accessConstraints>
-            <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="restricted" codeSpace="ISOTC211/19115">restricted</MD_RestrictionCode>
-          </accessConstraints>
           <useConstraints>
-            <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="restricted" codeSpace="ISOTC211/19115">restricted</MD_RestrictionCode>
+            <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
           </useConstraints>
+          <otherConstraints>
+            <gco:CharacterString>This item is in the public domain. There are no restrictions on access or use.</gco:CharacterString>
+          </otherConstraints>
         </MD_LegalConstraints>
       </resourceConstraints>
       <aggregationInfo>
@@ -363,7 +360,7 @@
           <aggregateDataSetName>
             <CI_Citation>
               <title>
-                <gco:CharacterString>Zambia GIS data, 1985-2014</gco:CharacterString>
+                <gco:CharacterString>Zambia GIS data</gco:CharacterString>
               </title>
               <date>
                 <CI_Date>
@@ -458,7 +455,7 @@
         <MD_TopicCategoryCode>boundaries</MD_TopicCategoryCode>
       </topicCategory>
       <environmentDescription>
-        <gco:CharacterString>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.0.3035</gco:CharacterString>
+        <gco:CharacterString>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.1.4959</gco:CharacterString>
       </environmentDescription>
       <extent>
         <EX_Extent>
@@ -491,7 +488,7 @@
           <temporalElement>
             <EX_TemporalExtent>
               <extent>
-                <gml:TimePeriod gml:id="idp149472">
+                <gml:TimePeriod gml:id="idp105040">
                   <gml:beginPosition>1991-01-01T00:00:00</gml:beginPosition>
                   <gml:endPosition>2006-12-31T00:00:00</gml:endPosition>
                 </gml:TimePeriod>

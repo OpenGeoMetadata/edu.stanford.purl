@@ -1,0 +1,539 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Watershed Boundaries, California (10-digit HUC), 2012-2013</title>
+<link href="../main.css" rel="stylesheet" type="text/css"></link>
+<!--
+If you want to show polylines on a Google Map (like the rectangle used to
+outline the data set geographic coverage), you need to include the VML
+namespace in the html tag and the following CSS code in an XHTML compliant
+doctype to make everything work properly in IE:
+-->
+<style type="text/css">
+
+  v\:* {
+    behavior:url(#default#VML);
+  }
+
+  .callouthead {
+    font-size: 85%;
+    font-weight: bold;
+    color: #003366;
+    padding: 4px 4px 0 4px;
+    margin: 0;
+  }
+
+  .callouttext {
+    font-size: .88em;
+    font-weight: normal;
+    padding: 2px 4px 0 5px;
+    margin: 0;
+  }
+
+  .wrapline {
+    /* http://perishablepress.com/press/2010/06/01/wrapping-content/ */
+    white-space: pre;           /* CSS 2.0 */
+    white-space: pre-wrap;      /* CSS 2.1 */
+    white-space: pre-line;      /* CSS 3.0 */
+    white-space: -pre-wrap;     /* Opera 4-6 */
+    white-space: -o-pre-wrap;   /* Opera 7 */
+    white-space: -moz-pre-wrap; /* Mozilla */
+    white-space: -hp-pre-wrap;  /* HP Printers */
+    word-wrap: break-word;
+    width: 550px; 
+  }
+
+</style>
+</head>
+<body onLoad="loadGoogleMap( [  [ 42.420253, 32.299679, -113.761361, -124.535124 ]  ] )">
+<table width="99%" border="0" cellspacing="2" cellpadding="0"><tr><td valign="top"><table width="98%" border="0" align="center" cellpadding="2" cellspacing="8" style="margin-top: -20px;"><tr><td valign="top"><h2 style="margin-right: 185px; text-transform: none;">Watershed Boundaries, California (10-digit HUC), 2012-2013</h2><ul><li><a href="#Identification_Information">Identification Information</a></li><li><a href="#Data_Quality_Information">Data Quality Information</a></li><li><a href="#Spatial_Representation_Information">Spatial Representation Information</a></li><li><a href="#Content_Information">Content Information</a></li><li><a href="#Distribution_Information">Distribution Information</a></li><li><a href="#Metadata_Reference_Information">Metadata Reference Information</a></li></ul><hr xmlns="">
+<h3 xmlns="">
+<a name="Identification_Information"></a> Identification Information:</h3>
+<h4 xmlns="">Citation:</h4>
+<font xmlns="" color="#6e6e6e"><p><b><i>Citation Information:</i></b></p>
+<blockquote>
+<div style="margin-right: 185px;">
+<b>Title: </b>
+            Watershed Boundaries, California (10-digit HUC), 2012-2013
+          </div>
+<p><b>Date:</b></p>
+<blockquote>
+<b>Date: </b>January 18, 2013<br><b>Date Type: </b>
+                publication
+               (<a href="http://pacioos.org/metadata/gmxCodelists.html#CI_DateTypeCode">CI_DateTypeCode</a>)<br>
+</blockquote>
+<b>Edition: </b>
+            1
+          <br><b>Identifier:</b><br><blockquote>
+<b>Code: </b>
+                http://purl.stanford.edu/gg725wn2951
+              <br>
+</blockquote>
+<p><b>Responsible Party:</b></p>
+<blockquote><div style="color: #6e6e6e">
+<b>Organization Name: </b>
+                Wyoming Geographic Information Sciences Center
+              <br><b>Contact Role: </b>
+                originator
+               (<a href="http://pacioos.org/metadata/gmxCodelists.html#CI_RoleCode" target="_blank">CI_RoleCode</a>)<br>
+</div></blockquote>
+<p><b>Responsible Party:</b></p>
+<blockquote><div style="color: #6e6e6e">
+<b>Organization Name: </b>
+                Wyoming Geographic Information Sciences Center
+              <br><b>Contact: </b><blockquote>
+<p><b>Contact Address: </b></p>
+<blockquote>
+<b>City: </b>
+                        Laramie
+                      <br><b>Administrative Area: </b>
+                        WY
+                      <br><b>Country: </b>
+                        US
+                      <br>
+</blockquote>
+</blockquote>
+<b>Contact Role: </b>
+                publisher
+               (<a href="http://pacioos.org/metadata/gmxCodelists.html#CI_RoleCode" target="_blank">CI_RoleCode</a>)<br>
+</div></blockquote>
+<b>Presentation Form: </b>
+            mapDigital
+           (<a href="http://pacioos.org/metadata/gmxCodelists.html#CI_PresentationFormCode" target="_blank">CI_PresentationFormCode</a>)<br>
+</blockquote></font><h4 xmlns="">Abstract:</h4>
+<p xmlns="">This polygon shapefile contains the 5th level, 10 digit hydrologic unit code (HUC) watershed boundaries in California. This layer consists of georeferenced digital data and associated attributes created in accordance with the "USGS National Map Accuracy Standards and the NRCS Federal Standards for Delineation of Hydrologic Unit Boundaries, 10/01/04." These data were developed by digitizing watershed and subwatershed boundary lines using 1:24,000-scale digital raster graphics (DRG), high-resolution digital watershed datasets, a high-resolution National Hydrography Dataset (NHD) at 1:24,000-scale, and 1:250,000-scale draft hydrologic boundary lines. A 30-meter National Elevation Dataset (NED) was used to produce the 1:250,000-scale preliminary draft boundaries, as well as a hillshade layer for additional reference. Some draft catchments (watersheds/subwatersheds) were also created with Watershed Boundary Dataset tools (ArcHydro Tools, Version 9), using the NED for terrain analysis and the NHD for determining stream flow direction. Polygons are attributed with the following: hydrologic unit codes for 5th level watersheds; HU sizes (in acres); states containing the HUs; non-contributing areas; downsteam hydrologic units; 5th and 6th level names; type of HUs (standard, frontal, etc.); flow modifications; and Geographic Names Information System (GNIS) identification numbers. This layer is part of the Watershed Boundary Dataset (WBD): a complete 1:24,000 scale digital hydrologic unit (HU) boundary layer for the 4th level subbasin (8 digit), the 5th level watershed (10 digit), and the 6th level (12-digit) subwatershed for the state of California.</p>
+<h4 xmlns="">Purpose:</h4>
+<p xmlns="">
+        The watershed hydrologic unit boundaries provide a uniquely identified and uniform method of subdividing large drainage areas. This layer is intended to be used as a tool for water resource management and planning activities, particularly for site-specific and localized studies requiring a level of detail provided by large-scale map information. These data are part of a larger, seamless, nationally consistent geospatial database for the watershed boundary dataset.
+      </p>
+<h4 xmlns="">Credit:</h4>
+<p xmlns="">
+        Wyoming Geographic Information Sciences Center. (2013). Watershed Boundaries, California (10-digit HUC), 2000-2008. Wyoming Geographic Information Sciences Center. Available at: http://purl.stanford.edu/gg725wn2951.
+      </p>
+<h4 xmlns="" style="display: inline">Status:</h4>
+<p xmlns="" style="display: inline">
+        underDevelopment
+       (<a href="http://pacioos.org/metadata/gmxCodelists.html#MD_ProgressCode" target="_blank">MD_ProgressCode</a>)</p>
+<p xmlns=""></p>
+<h4 xmlns="">Point of Contact:</h4>
+<p xmlns=""><b><i>Responsible Party:</i></b></p>
+<blockquote xmlns=""><div style="color: #6e6e6e">
+<b>Individual Name: </b>
+            Paul Caffrey
+          <br><b>Organization Name: </b>
+            Wyoming Geographic Information Sciences Center
+          <br><b>Position Name: </b>
+            Education Coordinator
+          <br><b>Contact: </b><blockquote>
+<p><b>Contact Phone: </b></p>
+<blockquote>
+<b>Contact Voice Telephone: </b>
+                    (307) 766-2770
+                  <br>
+</blockquote>
+</blockquote>
+<blockquote>
+<p><b>Contact Address: </b></p>
+<blockquote>
+<b>Delivery Point: </b>
+                    P.O. Box 4008
+                  <br><b>City: </b>
+                    Laramie
+                  <br><b>Administrative Area: </b>
+                    WY
+                  <br><b>Postal Code: </b>
+                    82071-4008
+                  <br><b>Country: </b>
+                    US
+                  <br><b>Email: </b><a href="mailto:caffrey@uwyo.edu">
+                    caffrey@uwyo.edu
+                  </a><br>
+</blockquote>
+</blockquote>
+<b>Contact Role: </b>
+            pointOfContact
+           (<a href="http://pacioos.org/metadata/gmxCodelists.html#CI_RoleCode" target="_blank">CI_RoleCode</a>)<br>
+</div></blockquote>
+<h4 xmlns="">Maintenance Information:</h4>
+<p xmlns=""><b><i>Maintenance and Update Frequency: </i></b>
+            asNeeded
+           (<a href="http://pacioos.org/metadata/gmxCodelists.html#MD_MaintenanceFrequencyCode">MD_MaintenanceFrequencyCode</a>)</p>
+<h4 xmlns="">Descriptive Keywords:</h4>
+<font xmlns="" color="#6e6e6e"><p><b><i>Keywords:</i></b></p>
+<blockquote>
+<p><b>Keyword Type: </b>
+            place
+           (<a href="http://pacioos.org/metadata/gmxCodelists.html#MD_KeywordTypeCode">MD_KeywordTypeCode</a>)</p>
+<b>Keyword: </b>California<br><p><b>Keyword Thesaurus:</b></p>
+<blockquote>
+<p><b>Citation Information:</b></p>
+<blockquote>
+<b>Title: </b>
+                geonames
+              <br><b>Edition: </b>
+                3.1
+              <br><b>Identifier:</b><br><blockquote>
+<b>Code: </b>
+                    http://www.geonames.org/ontology#
+                  <br>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote></font><font xmlns="" color="#6e6e6e"><p><b><i>Keywords:</i></b></p>
+<blockquote>
+<p><b>Keyword Type: </b>
+            temporal
+           (<a href="http://pacioos.org/metadata/gmxCodelists.html#MD_KeywordTypeCode">MD_KeywordTypeCode</a>)</p>
+<b>Keyword: </b>2000-2008<br>
+</blockquote></font><font xmlns="" color="#6e6e6e"><p><b><i>Keywords:</i></b></p>
+<blockquote>
+<p><b>Keyword Type: </b>
+            theme
+           (<a href="http://pacioos.org/metadata/gmxCodelists.html#MD_KeywordTypeCode">MD_KeywordTypeCode</a>)</p>
+<b>Keyword: </b>Hydrology<br><b>Keyword: </b>Watersheds<br><p><b>Keyword Thesaurus:</b></p>
+<blockquote>
+<p><b>Citation Information:</b></p>
+<blockquote>
+<b>Title: </b>
+                lcsh
+              <br><b>Identifier:</b><br><blockquote>
+<b>Code: </b>
+                    http://id.loc.gov/authorities/subjects.html
+                  <br>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote></font><font xmlns="" color="#6e6e6e"><p><b><i>Keywords:</i></b></p>
+<blockquote>
+<b>Keyword: </b>Downloadable Data<br><p><b>Keyword Thesaurus: </b></p>
+</blockquote></font><h4 xmlns="">Aggregation Information:</h4>
+<p xmlns=""><b><i>Aggregate Dataset Name:</i></b></p>
+<font xmlns="" color="#6e6e6e"><blockquote>
+<p><b>Citation Information:</b></p>
+<blockquote>
+<b>Title: </b>
+                California Watershed Boundary Dataset
+              <br><p><b>Date:</b></p>
+<blockquote>
+<b>Date: </b>January 1, 2013<br><b>Date Type: </b>
+                    publication
+                   (<a href="http://pacioos.org/metadata/gmxCodelists.html#CI_DateTypeCode">CI_DateTypeCode</a>)<br>
+</blockquote>
+<b>Identifier:</b><br><blockquote>
+<b>Code: </b>
+                    http://purl.stanford.edu/kv947jv5051
+                  <br>
+</blockquote>
+<p><b>Responsible Party:</b></p>
+<blockquote><div style="color: #6e6e6e">
+<b>Organization Name: </b>
+                    Wyoming Geographic Information Sciences Center
+                  <br><b>Contact Role: </b>
+                    originator
+                   (<a href="http://pacioos.org/metadata/gmxCodelists.html#CI_RoleCode" target="_blank">CI_RoleCode</a>)<br>
+</div></blockquote>
+<p><b>Responsible Party:</b></p>
+<blockquote><div style="color: #6e6e6e">
+<b>Organization Name: </b>
+                    University of Wyoming
+                  <br><b>Contact: </b><blockquote>
+<p><b>Contact Address: </b></p>
+<blockquote>
+<b>City: </b>
+                            Laramie
+                          <br><b>Administrative Area: </b>
+                            Wyoming
+                          <br><b>Country: </b>
+                            US
+                          <br>
+</blockquote>
+</blockquote>
+<b>Contact Role: </b>
+                    publisher
+                   (<a href="http://pacioos.org/metadata/gmxCodelists.html#CI_RoleCode" target="_blank">CI_RoleCode</a>)<br>
+</div></blockquote>
+</blockquote>
+</blockquote></font><p xmlns=""><b><i>Association Type: </i></b>largerWorkCitation (<a href="http://pacioos.org/metadata/gmxCodelists.html#DS_AssociationTypeCode">DS_AssociationTypeCode</a>)</p>
+<p xmlns=""><b><i>Initiative Type: </i></b>collection (<a href="http://pacioos.org/metadata/gmxCodelists.html#DS_InitiativeTypeCode">DS_InitiativeTypeCode</a>)</p>
+<h4 xmlns="">Resource Constraints:</h4>
+<p xmlns=""><b><i>Legal Constraints:</i></b></p>
+<blockquote xmlns="">
+<p><b>Use Limitation:</b></p>
+<p>
+            The U.S. Department of Agriculture, Service Center Agencies should be acknowledged as the data source in products derived from these data.
+          </p>
+</blockquote>
+<h4 xmlns="" style="display: inline">Language:</h4>
+<p xmlns="" style="display: inline">
+        eng
+      </p>
+<p xmlns=""></p>
+<h4 xmlns="" style="display: inline">Character Set:</h4>
+<p xmlns="" style="display: inline">
+        utf8
+       (<a href="http://pacioos.org/metadata/gmxCodelists.html#MD_CharacterSetCode" target="_blank">MD_CharacterSetCode</a>)</p>
+<p xmlns=""></p>
+<h4 xmlns="">Topic Categories (<a href="http://pacioos.org/metadata/gmxCodelists.html#MD_TopicCategoryCode">MD_TopicCategoryCode</a>):</h4>
+<blockquote xmlns=""><font color="#6e6e6e"><b>Topic Category: </b>
+        inlandWaters
+      <br><b>Topic Category: </b>
+        planningCadastre
+      <br></font></blockquote>
+<h4 xmlns="">Extent Information:</h4>
+<font xmlns="" color="#6e6e6e"><p><b><i>Spatial Temporal Extent:</i></b></p>
+<blockquote>
+<p><b>Geographic Element:</b></p>
+<blockquote>
+<p><b>Bounding Coordinates:</b></p>
+<blockquote>
+<!-- Add Google Map here: --><div id="map" style="width: 260px; height: 260px"></div>
+<!-- Area to display current cursor lat/lon location: --><div id="message" class="SmallTextGray"> </div>
+<b>Westbound Longitude: </b>-124.53512°<br><b>Eastbound Longitude: </b>-113.76136°<br><b>Southbound Latitude: </b>32.29967°<br><b>Northbound Latitude: </b>42.42025°<br>
+</blockquote>
+</blockquote>
+</blockquote></font><h4 xmlns="">Extent Information:</h4>
+<font xmlns="" color="#6e6e6e"><p><b><i>Spatial Temporal Extent:</i></b></p>
+<blockquote>
+<p><b>Temporal Element:</b></p>
+<blockquote>
+<p><b>Time Period:</b></p>
+<blockquote></blockquote>
+</blockquote>
+</blockquote></font><h4 xmlns="">Supplemental Information:</h4>
+<p xmlns="">
+        The definition for a hydrologic unit according to the FGDC Proposal, Version 1.0 - Federal Standards For Delineation of 
+Hydrologic Unit Boundaries 3/01/02 states &#8220;A hydrologic unit is a drainage area delineated to nest in a multi-level, 
+hierarchical drainage system.  Its boundaries are defined by hydrographic and topographic criteria that delineate an 
+area of land upstream from a specific point on a river, stream or similar surface waters.  A hydrologic unit can accept 
+surface water directly from upstream drainage areas, and indirectly from associated surface areas such as remnant, 
+non-contributing, and diversions to form a drainage area with single or multiple outlet points. Hydrologic units are 
+only synonymous with classic watersheds when their boundaries include all the source area contributing surface water to a 
+single defined outlet point. &#8220;  
+
+      </p>
+<p xmlns=""><a href="javascript:void(0)" onClick="window.scrollTo( 0, 0 ); this.blur(); return false;">Back to Top</a></p>
+<hr xmlns="">
+<h3 xmlns="">
+<a name="Data_Quality_Information"></a>Data Quality Information:</h3>
+<h4 xmlns="">Lineage:</h4>
+<p xmlns=""><b><i>Process Step:</i></b></p>
+<p xmlns="">
+                1:24,000-scale delineation process:
+
+a) Using the 250k draft boundaries as reference, and the National Hydrography Dataset (NHD) and digital raster graphics (DRG) as a background, the 1:24,000-scale boundaries were digitized in ArcMap. Digitizing generally occurred while being zoomed in at anywhere from 1:5,000 - 1:12,000-scale; pour points were digitized at a zoom scale of approximately 1:1,000.  Existing line work (i.e. USFS) was inspected for accuracy and used where plausible.  As a guide for digitizing the watershed/sub watershed boundaries, the following general watershed boundary delineation rules were applied:
+        1) drawing boundaries perpendicular to contours wherever possible.
+
+        2) never crossing a water feature, drainages, or anywhere contours indicate the location of overland flow would go (except as a pour    
+            point/outlet).
+
+        3) when delineating along a ridge top, the boundary would be located closer to the side of the ridge with the steepest gradient.
+
+        4) pure or 'classic' (sub) watersheds were given high priority and cut out wherever possible, as long as they remained within size  
+            requirements  (It should be noted that while general rules of hydrology were used, the location of boundaries is still somewhat  
+            subjective as the 1:24,000-scale DRG does not always provide enough information for identifying the location of the boundaries; in 
+            such instances, additional data including 2005 NAIP color imagery and/or group consensus was used).
+
+        b) After editing for the polygon feature was complete, a line feature was generated from the finished polygons.
+
+        c) Once editing for both polygon and line features was completed, attributes required by the Federal Standards were added, both by 
+            automated attribution methods (with ArcHydro tools) and by manually entering them in the attribute tables (using the NHD and DRG 
+            as visual reference).
+
+        d)  NAIP imagery was used in the areas specified in the "Line source" field of the line feature's attribute table to improve accuracy of 
+             both pour points and the delineated boundaries in accordance with this more recent photography.  
+
+        e)  All 1:24,000-scale linework and attribution was reviewed internally and corrections were made accordingly.
+ 
+         f) 100% of the 1:24,000-scale linework was then reviewed internally by WyGISC, then again by Lorri Peltz-Lewis, Regional Geospatial 
+             Database Administrator U.S. Bureau of Reclamation, California, and Donna Knifong, GIS Specialist U.S. Geological Survey,  
+             California Water Science Center. A final external review was conducted by Kimberly Jones of the U.S. Geological Survey, Utah  
+             Water  Science Center. All comments for revision were collectively considered and corrections were then incorporated into the final  
+             California Watershed Boundary Dataset.
+              </p>
+<blockquote xmlns=""></blockquote>
+<p xmlns=""><b><i>Statement:</i></b></p>
+<p xmlns="">
+            Development of the Watershed Boundary Dataset started in the early 1990's and has progressed to the format and attribution that is now being distributed.  The delineation and attribution was done on a state basis using a variety of methods and source data.  Each state HU dataset has gone through an extensive quality review process to ensure accuracy and compliance to the Federal Standard for Delineation of Hydrologic Unit Boundaries (http://www.nrcs.usda.gov/wps/portal/nrcs/detail/national/water/watersheds/?cid=nrcs143_021630) before and during submittal to USDA-NRCS National Geospatial Management Center (NGMC).
+          </p>
+<p xmlns=""><a href="javascript:void(0)" onClick="window.scrollTo( 0, 0 ); this.blur(); return false;">Back to Top</a></p>
+<hr xmlns="">
+<h3 xmlns="">
+<a name="Content_Information"></a>Content Information:</h3>
+<h4 xmlns="">Feature Catalogue Description:</h4>
+<p xmlns=""><b><i>Included With Dataset?: </i></b>Yes</p>
+<p xmlns=""><b><i>Feature Catalogue Citation: </i></b><p><b>Citation Information:</b></p><blockquote>
+<b>Title: </b>
+            Feature Catalog for Watershed Boundaries, California (10-digit HUC), 2012-2013
+          <br><p><b>Date:</b></p>
+<blockquote>
+<b>Date: </b>December 1, 2008<br><b>Date Type: </b>
+                publication
+               (<a href="http://pacioos.org/metadata/gmxCodelists.html#CI_DateTypeCode">CI_DateTypeCode</a>)<br>
+</blockquote>
+<b>Identifier:</b><br><blockquote>
+<b>Code: </b>
+                24dbbd34-be20-458f-b84f-98f9f0a465b9
+              <br>
+</blockquote>
+<p><b>Responsible Party:</b></p>
+<blockquote><div style="color: #6e6e6e">
+<b>Organization Name: </b>
+                Wyoming Geographic Information Sciences Center
+              <br><b>Contact Role: </b>
+                originator
+               (<a href="http://pacioos.org/metadata/gmxCodelists.html#CI_RoleCode" target="_blank">CI_RoleCode</a>)<br>
+</div></blockquote>
+</blockquote></p>
+<p xmlns=""><a href="javascript:void(0)" onClick="window.scrollTo( 0, 0 ); this.blur(); return false;">Back to Top</a></p>
+<hr xmlns="">
+<h3 xmlns="">
+<a name="Distribution_Information"></a>Distribution Information:</h3>
+<h4 xmlns="">Distributor:</h4>
+<font xmlns="" color="#6e6e6e"><p><b><i>Distributor Contact:</i></b></p>
+<blockquote>
+<p><b>Responsible Party:</b></p>
+<blockquote><div style="color: #6e6e6e">
+<b>Organization Name: </b>
+                Stanford Geospatial Center
+              <br><b>Contact: </b><blockquote>
+<p><b>Contact Phone: </b></p>
+<blockquote>
+<b>Contact Voice Telephone: </b>
+                        650-723-2746
+                      <br>
+</blockquote>
+</blockquote>
+<blockquote>
+<p><b>Contact Address: </b></p>
+<blockquote>
+<b>Delivery Point: </b>
+                        Mitchell Bldg. 2nd floor
+                      <br><b>City: </b>
+                        Stanford
+                      <br><b>Administrative Area: </b>
+                        California
+                      <br><b>Postal Code: </b>
+                        94305
+                      <br><b>Country: </b>
+                        US
+                      <br><b>Email: </b><a href="mailto:brannerlibrary@stanford.edu">
+                        brannerlibrary@stanford.edu
+                      </a><br>
+</blockquote>
+</blockquote>
+<b>Contact Role: </b>
+                distributor
+               (<a href="http://pacioos.org/metadata/gmxCodelists.html#CI_RoleCode" target="_blank">CI_RoleCode</a>)<br>
+</div></blockquote>
+</blockquote></font><h4 xmlns="">Distribution Format:</h4>
+<font xmlns="" color="#6e6e6e"><p><b><i>Data File Format:</i></b></p>
+<blockquote>
+<b>Name: </b>
+            Shapefile
+          <br>
+</blockquote></font><h4 xmlns="">Digital Transfer Options:</h4>
+<p xmlns=""><b><i>Transfer Size:</i></b>
+            48.145
+           MB</p>
+<p xmlns=""><b><i>Online Transfer Options:</i></b></p>
+<blockquote xmlns="">
+<p><b>Online Resource:</b></p>
+<blockquote><blockquote>
+<p><b>Online Resource:</b></p>
+<blockquote>
+<span style="float: left; margin-right: 4px;"><b>Linkage: </b></span><a href="http://purl.stanford.edu/gg725wn2951"><div class="wrapline">http://purl.stanford.edu/gg725wn2951</div></a><b>Name: </b>
+                wbdhu10_a_ca.shp
+              <br><b>Function: </b>
+                download
+               (<a href="http://pacioos.org/metadata/gmxCodelists.html#CI_OnLineFunctionCode">CI_OnLineFunctionCode</a>)<br>
+</blockquote>
+</blockquote></blockquote>
+</blockquote>
+<p xmlns=""><a href="javascript:void(0)" onClick="window.scrollTo( 0, 0 ); this.blur(); return false;">Back to Top</a></p>
+<hr xmlns="">
+<h3 xmlns="">
+<a name="Metadata_Reference_Information"></a>Metadata Reference Information:</h3>
+<h4 xmlns="" style="display: inline">File Identifier:</h4>
+<p xmlns="" style="display: inline"><a href="http://pacioos.org/metadata/iso/http:.xml">http://pacioos.org/metadata/iso/http:.xml</a></p>
+<p xmlns=""></p>
+<h4 xmlns="" style="display: inline">Language:</h4>
+<p xmlns="" style="display: inline">
+    eng
+  </p>
+<p xmlns=""></p>
+<h4 xmlns="" style="display: inline">Character Set:</h4>
+<p xmlns="" style="display: inline">
+    utf8
+   (<a href="http://pacioos.org/metadata/gmxCodelists.html#MD_CharacterSetCode" target="_blank">MD_CharacterSetCode</a>)</p>
+<p xmlns=""></p>
+<h4 xmlns="" style="display: inline">Parent Identifier:</h4>
+<p xmlns="" style="display: inline">
+    http://purl.stanford.edu/kv947jv5051.mods
+  </p>
+<p xmlns=""></p>
+<h4 xmlns="" style="display: inline">Hierarchy Level:</h4>
+<p xmlns="" style="display: inline">
+    dataset
+   (<a href="http://pacioos.org/metadata/gmxCodelists.html#MD_ScopeCode" target="_blank">MD_ScopeCode</a>)</p>
+<p xmlns=""></p>
+<h4 xmlns="" style="display: inline">Hierarchy Level Name:</h4>
+<p xmlns="" style="display: inline">
+    dataset
+  </p>
+<p xmlns=""></p>
+<h4 xmlns="">Contact:</h4>
+<p xmlns=""><b><i>Responsible Party:</i></b></p>
+<blockquote xmlns=""><div style="color: #6e6e6e">
+<b>Organization Name: </b>
+        Stanford Geospatial Center
+      <br><b>Contact: </b><blockquote>
+<p><b>Contact Phone: </b></p>
+<blockquote>
+<b>Contact Voice Telephone: </b>
+                650-723-2746
+              <br>
+</blockquote>
+</blockquote>
+<blockquote>
+<p><b>Contact Address: </b></p>
+<blockquote>
+<b>Delivery Point: </b>
+                Mitchell Bldg. 2nd floor
+              <br><b>City: </b>
+                Stanford
+              <br><b>Administrative Area: </b>
+                California
+              <br><b>Postal Code: </b>
+                94305
+              <br><b>Country: </b>
+                US
+              <br><b>Email: </b><a href="mailto:brannerlibrary@stanford.edu">
+                brannerlibrary@stanford.edu
+              </a><br>
+</blockquote>
+</blockquote>
+<b>Contact Role: </b>
+        pointOfContact
+       (<a href="http://pacioos.org/metadata/gmxCodelists.html#CI_RoleCode" target="_blank">CI_RoleCode</a>)<br>
+</div></blockquote>
+<h4 xmlns="" style="display: inline">Date Stamp:</h4>
+<p xmlns="" style="display: inline">July 5, 2016</p>
+<p xmlns=""></p>
+<h4 xmlns="">Metadata Standard Name:</h4>
+<p xmlns="">
+    ISO 19139 Geographic Information - Metadata - Implementation Specification
+  </p>
+<h4 xmlns="">Metadata Standard Version:</h4>
+<p xmlns="">
+    2007
+  </p>
+<h4 xmlns="">Dataset URI:</h4>
+<p xmlns=""><a href="http://purl.stanford.edu/gg725wn2951%0A%20%20">
+    http://purl.stanford.edu/gg725wn2951
+  </a></p>
+<p xmlns=""><a href="javascript:void(0)" onClick="window.scrollTo( 0, 0 ); this.blur(); return false;">Back to Top</a></p></td></tr></table></td></tr></table><!-- END MAIN CONTENT -->
+<!-- footer include -->
+<!--#include virtual="/pacioos/ssi/pacioos_footer.ssi"-->
+<!-- end footer include -->
+</body>
+</html>

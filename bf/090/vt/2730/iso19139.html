@@ -1,0 +1,449 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Traffic Volume, California, 2011</title>
+<link href="../main.css" rel="stylesheet" type="text/css"></link>
+<!--
+If you want to show polylines on a Google Map (like the rectangle used to
+outline the data set geographic coverage), you need to include the VML
+namespace in the html tag and the following CSS code in an XHTML compliant
+doctype to make everything work properly in IE:
+-->
+<style type="text/css">
+
+  v\:* {
+    behavior:url(#default#VML);
+  }
+
+  .callouthead {
+    font-size: 85%;
+    font-weight: bold;
+    color: #003366;
+    padding: 4px 4px 0 4px;
+    margin: 0;
+  }
+
+  .callouttext {
+    font-size: .88em;
+    font-weight: normal;
+    padding: 2px 4px 0 5px;
+    margin: 0;
+  }
+
+  .wrapline {
+    /* http://perishablepress.com/press/2010/06/01/wrapping-content/ */
+    white-space: pre;           /* CSS 2.0 */
+    white-space: pre-wrap;      /* CSS 2.1 */
+    white-space: pre-line;      /* CSS 3.0 */
+    white-space: -pre-wrap;     /* Opera 4-6 */
+    white-space: -o-pre-wrap;   /* Opera 7 */
+    white-space: -moz-pre-wrap; /* Mozilla */
+    white-space: -hp-pre-wrap;  /* HP Printers */
+    word-wrap: break-word;
+    width: 550px; 
+  }
+
+</style>
+</head>
+<body onLoad="loadGoogleMap( [  [ 42.005468, 32.54435, -114.298927, -124.264859 ]  ] )">
+<table width="99%" border="0" cellspacing="2" cellpadding="0"><tr><td valign="top"><table width="98%" border="0" align="center" cellpadding="2" cellspacing="8" style="margin-top: -20px;"><tr><td valign="top"><h2 style="margin-right: 185px; text-transform: none;">Traffic Volume, California, 2011</h2><ul><li><a href="#Identification_Information">Identification Information</a></li><li><a href="#Spatial_Representation_Information">Spatial Representation Information</a></li><li><a href="#Content_Information">Content Information</a></li><li><a href="#Distribution_Information">Distribution Information</a></li><li><a href="#Metadata_Reference_Information">Metadata Reference Information</a></li></ul><hr xmlns="">
+<h3 xmlns="">
+<a name="Identification_Information"></a> Identification Information:</h3>
+<h4 xmlns="">Citation:</h4>
+<font xmlns="" color="#6e6e6e"><p><b><i>Citation Information:</i></b></p>
+<blockquote>
+<div style="margin-right: 185px;">
+<b>Title: </b>
+            Traffic Volume, California, 2011
+          </div>
+<p><b>Date:</b></p>
+<blockquote>
+<b>Date: </b>September 6, 2012<br><b>Date Type: </b>
+                publication
+               (<a href="http://pacioos.org/metadata/gmxCodelists.html#CI_DateTypeCode">CI_DateTypeCode</a>)<br>
+</blockquote>
+<b>Identifier:</b><br><blockquote>
+<b>Code: </b>
+                http://purl.stanford.edu/bf090vt2730
+              <br>
+</blockquote>
+<p><b>Responsible Party:</b></p>
+<blockquote><div style="color: #6e6e6e">
+<b>Organization Name: </b>
+                California. Department of Transportation
+              <br><b>Contact: </b><blockquote>
+<p><b>Contact Address: </b></p>
+<blockquote>
+<b>City: </b>
+                        Sacramento
+                      <br><b>Country: </b>
+                        US
+                      <br>
+</blockquote>
+</blockquote>
+<b>Contact Role: </b>
+                originator
+               (<a href="http://pacioos.org/metadata/gmxCodelists.html#CI_RoleCode" target="_blank">CI_RoleCode</a>)<br>
+</div></blockquote>
+<p><b>Responsible Party:</b></p>
+<blockquote><div style="color: #6e6e6e">
+<b>Organization Name: </b>
+                California. Department of Transportation
+              <br><b>Contact: </b><blockquote>
+<p><b>Contact Address: </b></p>
+<blockquote>
+<b>City: </b>
+                        Sacramento
+                      <br><b>Country: </b>
+                        US
+                      <br>
+</blockquote>
+</blockquote>
+<b>Contact Role: </b>
+                publisher
+               (<a href="http://pacioos.org/metadata/gmxCodelists.html#CI_RoleCode" target="_blank">CI_RoleCode</a>)<br>
+</div></blockquote>
+<b>Presentation Form: </b>
+            mapDigital
+           (<a href="http://pacioos.org/metadata/gmxCodelists.html#CI_PresentationFormCode" target="_blank">CI_PresentationFormCode</a>)<br>
+</blockquote></font><h4 xmlns="">Abstract:</h4>
+<p xmlns="">This point shapefile contains traffic volume (also known as traffic counts) on California's state highway network created from 2011 Average Annual Daily Traffic (AADT) counts (excel spreadsheet) maintained by Caltrans, Division of Traffic Operations. Annual average daily traffic is the total volume for the year divided by 365 days. The traffic count year is from October 1st through September 30th. Very few locations in California are actually counted continuously. Traffic counting is generally performed by electronic counting instruments moved from location throughout the State in a program of continuous traffic count sampling. The resulting counts are adjusted to an estimate of annual average daily traffic by compensating for seasonal influence, weekly variation and other variables which may be present. Annual ADT is necessary for presenting a statewide picture of traffic flow, evaluating traffic trends, computing accident rates, planning and designing highways and other purposes. This layer is part of a collection of GIS data created by the California Department of Transportation (Caltrans).</p>
+<h4 xmlns="">Purpose:</h4>
+<p xmlns="">
+        This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.
+      </p>
+<h4 xmlns="">Credit:</h4>
+<p xmlns="">
+        California Department of Transportation. (2012). Traffic Volume, California, 2011. California Department of Transportation. Available at http://purl.stanford.edu/bf090vt2730.
+      </p>
+<h4 xmlns="">Point of Contact:</h4>
+<p xmlns=""><b><i>Responsible Party:</i></b></p>
+<blockquote xmlns=""><div style="color: #6e6e6e">
+<b>Individual Name: </b>
+            Traffic Operations GIS Coordinator
+          <br><b>Organization Name: </b>
+            Caltrans, Division of Traffic Operations, Office of System Management Operations
+          <br><b>Position Name: </b>
+            Traffic Operations GIS Coordinator
+          <br><b>Contact: </b><blockquote>
+<p><b>Contact Phone: </b></p>
+<blockquote>
+<b>Contact Voice Telephone: </b>
+                    (916) 654-6112
+                  <br>
+</blockquote>
+</blockquote>
+<blockquote>
+<p><b>Contact Address: </b></p>
+<blockquote>
+<b>Delivery Point: </b>
+                    1120 N Street, MS-36
+                  <br><b>City: </b>
+                    Sacramento
+                  <br><b>Administrative Area: </b>
+                    CA
+                  <br><b>Postal Code: </b>
+                    94274-0001
+                  <br><b>Email: </b><a href="mailto:shiriedel.acayan@dot.ca.gov">
+                    shiriedel.acayan@dot.ca.gov
+                  </a><br>
+</blockquote>
+</blockquote>
+<b>Contact Role: </b>
+            pointOfContact
+           (<a href="http://pacioos.org/metadata/gmxCodelists.html#CI_RoleCode" target="_blank">CI_RoleCode</a>)<br>
+</div></blockquote>
+<h4 xmlns="">Descriptive Keywords:</h4>
+<font xmlns="" color="#6e6e6e"><p><b><i>Keywords:</i></b></p>
+<blockquote>
+<b>Keyword: </b>Downloadable Data<br><p><b>Keyword Thesaurus: </b></p>
+</blockquote></font><h4 xmlns="">Aggregation Information:</h4>
+<p xmlns=""><b><i>Aggregate Dataset Name:</i></b></p>
+<font xmlns="" color="#6e6e6e"><blockquote>
+<p><b>Citation Information:</b></p>
+<blockquote>
+<b>Title: </b>
+                California Department of Transportation Maps and GIS Data
+              <br><b>Identifier:</b><br><blockquote>
+<b>Code: </b>
+                    collPURL
+                  <br>
+</blockquote>
+</blockquote>
+</blockquote></font><p xmlns=""><b><i>Association Type: </i></b>largerWorkCitation (<a href="http://pacioos.org/metadata/gmxCodelists.html#DS_AssociationTypeCode">DS_AssociationTypeCode</a>)</p>
+<p xmlns=""><b><i>Initiative Type: </i></b>collection (<a href="http://pacioos.org/metadata/gmxCodelists.html#DS_InitiativeTypeCode">DS_InitiativeTypeCode</a>)</p>
+<h4 xmlns="">Aggregation Information:</h4>
+<p xmlns=""><b><i>Aggregate Dataset Name:</i></b></p>
+<font xmlns="" color="#6e6e6e"><blockquote>
+<p><b>Citation Information:</b></p>
+<blockquote>
+<b>Title: </b>
+                California Department of Transportation Maps and GIS Data
+              <br><b>Identifier:</b><br><blockquote>
+<b>Code: </b>
+                    collPURL
+                  <br>
+</blockquote>
+</blockquote>
+</blockquote></font><p xmlns=""><b><i>Association Type: </i></b>largerWorkCitation (<a href="http://pacioos.org/metadata/gmxCodelists.html#DS_AssociationTypeCode">DS_AssociationTypeCode</a>)</p>
+<p xmlns=""><b><i>Initiative Type: </i></b>collection (<a href="http://pacioos.org/metadata/gmxCodelists.html#DS_InitiativeTypeCode">DS_InitiativeTypeCode</a>)</p>
+<h4 xmlns="" style="display: inline">Language:</h4>
+<p xmlns="" style="display: inline">
+        eng
+      </p>
+<p xmlns=""></p>
+<h4 xmlns="" style="display: inline">Character Set:</h4>
+<p xmlns="" style="display: inline">
+        utf8
+       (<a href="http://pacioos.org/metadata/gmxCodelists.html#MD_CharacterSetCode" target="_blank">MD_CharacterSetCode</a>)</p>
+<p xmlns=""></p>
+<h4 xmlns="">Topic Categories (<a href="http://pacioos.org/metadata/gmxCodelists.html#MD_TopicCategoryCode">MD_TopicCategoryCode</a>):</h4>
+<blockquote xmlns=""><font color="#6e6e6e"><b>Topic Category: </b>
+        transportation
+      <br></font></blockquote>
+<h4 xmlns="">Extent Information:</h4>
+<font xmlns="" color="#6e6e6e"><p><b><i>Spatial Temporal Extent:</i></b></p>
+<blockquote>
+<p><b>Geographic Element:</b></p>
+<blockquote>
+<p><b>Bounding Coordinates:</b></p>
+<blockquote>
+<!-- Add Google Map here: --><div id="map" style="width: 260px; height: 260px"></div>
+<!-- Area to display current cursor lat/lon location: --><div id="message" class="SmallTextGray"> </div>
+<b>Westbound Longitude: </b>-124.26485°<br><b>Eastbound Longitude: </b>-114.29892°<br><b>Southbound Latitude: </b>32.54435°<br><b>Northbound Latitude: </b>42.00546°<br>
+</blockquote>
+</blockquote>
+</blockquote></font><h4 xmlns="">Extent Information:</h4>
+<font xmlns="" color="#6e6e6e"><p><b><i>Spatial Temporal Extent:</i></b></p>
+<blockquote>
+<p><b>Temporal Element:</b></p>
+<blockquote>
+<p><b>Time Period:</b></p>
+<blockquote></blockquote>
+</blockquote>
+</blockquote></font><h4 xmlns="">Supplemental Information:</h4>
+<p xmlns="">
+        The data list 2011 taffic volumes for all count locations on the California state highway system. Peak hours, peak month ADTs and annual ADTs are shown at each count location. Significant volume changes (breakpoints) in the traffic profile along each route are counted and identified by name and milepost value. In addition to the profile breakpoints, these files list county lines and well-known landmarks to aid in orientation. All traffic volume figures listed include traffic in both directions unless otherwise indicated. Reference link: http://www.dot.ca.gov/hq/traffops/saferesr/trafdata/index.htm
+      </p>
+<p xmlns=""><a href="javascript:void(0)" onClick="window.scrollTo( 0, 0 ); this.blur(); return false;">Back to Top</a></p>
+<hr xmlns="">
+<h3 xmlns="">
+<a name="Content_Information"></a>Content Information:</h3>
+<h4 xmlns="">Feature Catalogue Description:</h4>
+<p xmlns=""><b><i>Included With Dataset?: </i></b>Yes</p>
+<p xmlns=""><b><i>Feature Catalogue Citation: </i></b><p><b>Citation Information:</b></p><blockquote>
+<b>Title: </b>
+            Feature catalog for Traffic Volume, California, 2011
+          <br><b>Identifier:</b><br><blockquote>
+<b>Code: </b>
+                521a3dac-34e0-4b25-a7fe-150cf12933f9
+              <br>
+</blockquote>
+</blockquote></p>
+<p xmlns=""><a href="javascript:void(0)" onClick="window.scrollTo( 0, 0 ); this.blur(); return false;">Back to Top</a></p>
+<hr xmlns="">
+<h3 xmlns="">
+<a name="Content_Information"></a>Content Information:</h3>
+<h4 xmlns="">Feature Catalogue Description:</h4>
+<p xmlns=""><b><i>Included With Dataset?: </i></b>Yes</p>
+<p xmlns=""><b><i>Feature Catalogue Citation: </i></b><p><b>Citation Information:</b></p><blockquote>
+<b>Title: </b>
+            Feature catalog for Traffic Volume, California, 2011
+          <br><b>Identifier:</b><br><blockquote>
+<b>Code: </b>
+                uuid
+              <br>
+</blockquote>
+</blockquote></p>
+<p xmlns=""><a href="javascript:void(0)" onClick="window.scrollTo( 0, 0 ); this.blur(); return false;">Back to Top</a></p>
+<hr xmlns="">
+<h3 xmlns="">
+<a name="Distribution_Information"></a>Distribution Information:</h3>
+<h4 xmlns="">Distributor:</h4>
+<font xmlns="" color="#6e6e6e"><p><b><i>Distributor Contact:</i></b></p>
+<blockquote>
+<p><b>Responsible Party:</b></p>
+<blockquote><div style="color: #6e6e6e">
+<b>Organization Name: </b>
+                Stanford Geospatial Center
+              <br><b>Contact: </b><blockquote>
+<p><b>Contact Phone: </b></p>
+<blockquote>
+<b>Contact Voice Telephone: </b>
+                        650-723-2746
+                      <br>
+</blockquote>
+</blockquote>
+<blockquote>
+<p><b>Contact Address: </b></p>
+<blockquote>
+<b>Delivery Point: </b>
+                        Branner Earth Sciences Library
+                      <br><b>City: </b>
+                        Stanford
+                      <br><b>Administrative Area: </b>
+                        California
+                      <br><b>Postal Code: </b>
+                        94305
+                      <br><b>Country: </b>
+                        US
+                      <br><b>Email: </b><a href="mailto:brannerlibrary@stanford.edu">
+                        brannerlibrary@stanford.edu
+                      </a><br>
+</blockquote>
+</blockquote>
+<b>Contact Role: </b>
+                distributor
+               (<a href="http://pacioos.org/metadata/gmxCodelists.html#CI_RoleCode" target="_blank">CI_RoleCode</a>)<br>
+</div></blockquote>
+</blockquote></font><h4 xmlns="">Distribution Format:</h4>
+<font xmlns="" color="#6e6e6e"><p><b><i>Data File Format:</i></b></p>
+<blockquote>
+<b>Name: </b>
+            Shapefile
+          <br>
+</blockquote></font><h4 xmlns="">Digital Transfer Options:</h4>
+<p xmlns=""><b><i>Transfer Size:</i></b>
+            0.524
+           MB</p>
+<p xmlns=""><b><i>Online Transfer Options:</i></b></p>
+<blockquote xmlns="">
+<p><b>Online Resource:</b></p>
+<blockquote><blockquote>
+<p><b>Online Resource:</b></p>
+<blockquote>
+<span style="float: left; margin-right: 4px;"><b>Linkage: </b></span><a href="http://purl.stanford.edu/bf090vt2730"><div class="wrapline">http://purl.stanford.edu/bf090vt2730</div></a><b>Name: </b>
+                AADT2011b.shp
+              <br><b>Function: </b>
+                download
+               (<a href="http://pacioos.org/metadata/gmxCodelists.html#CI_OnLineFunctionCode">CI_OnLineFunctionCode</a>)<br>
+</blockquote>
+</blockquote></blockquote>
+</blockquote>
+<p xmlns=""><a href="javascript:void(0)" onClick="window.scrollTo( 0, 0 ); this.blur(); return false;">Back to Top</a></p>
+<hr xmlns="">
+<h3 xmlns="">
+<a name="Metadata_Reference_Information"></a>Metadata Reference Information:</h3>
+<h4 xmlns="" style="display: inline">File Identifier:</h4>
+<p xmlns="" style="display: inline"><a href="http://pacioos.org/metadata/iso/http:.xml">http://pacioos.org/metadata/iso/http:.xml</a></p>
+<p xmlns=""></p>
+<h4 xmlns="" style="display: inline">Language:</h4>
+<p xmlns="" style="display: inline">
+    eng
+  </p>
+<p xmlns=""></p>
+<h4 xmlns="" style="display: inline">Character Set:</h4>
+<p xmlns="" style="display: inline">
+    utf8
+   (<a href="http://pacioos.org/metadata/gmxCodelists.html#MD_CharacterSetCode" target="_blank">MD_CharacterSetCode</a>)</p>
+<p xmlns=""></p>
+<h4 xmlns="" style="display: inline">Parent Identifier:</h4>
+<p xmlns="" style="display: inline">
+    http://purl.stanford.edu/sb381ch4421.mods
+  </p>
+<p xmlns=""></p>
+<h4 xmlns="" style="display: inline">Hierarchy Level:</h4>
+<p xmlns="" style="display: inline">
+    dataset
+   (<a href="http://pacioos.org/metadata/gmxCodelists.html#MD_ScopeCode" target="_blank">MD_ScopeCode</a>)</p>
+<p xmlns=""></p>
+<h4 xmlns="" style="display: inline">Hierarchy Level Name:</h4>
+<p xmlns="" style="display: inline">
+    dataset
+  </p>
+<p xmlns=""></p>
+<h4 xmlns="">Contact:</h4>
+<p xmlns=""><b><i>Responsible Party:</i></b></p>
+<blockquote xmlns=""><div style="color: #6e6e6e">
+<b>Individual Name: </b>
+        Caltrans GIS data librarian
+      <br><b>Organization Name: </b>
+        California Department of Transportation, Division of TSI, Office of GIS
+      <br><b>Position Name: </b>
+        Caltrans GIS data librarian
+      <br><b>Contact: </b><blockquote>
+<p><b>Contact Phone: </b></p>
+<blockquote>
+<b>Contact Facsimile Telephone: </b>
+                (916) 654-6583
+              <br>
+</blockquote>
+</blockquote>
+<blockquote>
+<p><b>Contact Address: </b></p>
+<blockquote>
+<b>Delivery Point: </b>
+                P.O. Box 942874, MS #38
+              <br><b>City: </b>
+                Sacramento
+              <br><b>Administrative Area: </b>
+                CA
+              <br><b>Postal Code: </b>
+                94274-0001
+              <br><b>Country: </b>
+                US
+              <br><b>Email: </b><a href="mailto:ct_gis_data@dot.ca.gov">
+                ct_gis_data@dot.ca.gov
+              </a><br>
+</blockquote>
+</blockquote>
+<b>Contact Role: </b>
+        pointOfContact
+       (<a href="http://pacioos.org/metadata/gmxCodelists.html#CI_RoleCode" target="_blank">CI_RoleCode</a>)<br>
+</div></blockquote>
+<h4 xmlns="">Contact:</h4>
+<p xmlns=""><b><i>Responsible Party:</i></b></p>
+<blockquote xmlns=""><div style="color: #6e6e6e">
+<b>Organization Name: </b>
+        Stanford Geospatial Center
+      <br><b>Contact: </b><blockquote>
+<p><b>Contact Phone: </b></p>
+<blockquote>
+<b>Contact Voice Telephone: </b>
+                650-723-2746
+              <br>
+</blockquote>
+</blockquote>
+<blockquote>
+<p><b>Contact Address: </b></p>
+<blockquote>
+<b>Delivery Point: </b>
+                Mitchell Bldg. 2nd floor
+              <br><b>City: </b>
+                Stanford
+              <br><b>Administrative Area: </b>
+                California
+              <br><b>Postal Code: </b>
+                94305
+              <br><b>Country: </b>
+                US
+              <br><b>Email: </b><a href="mailto:brannerlibrary@stanford.edu">
+                brannerlibrary@stanford.edu
+              </a><br>
+</blockquote>
+</blockquote>
+<b>Contact Role: </b>
+        pointOfContact
+       (<a href="http://pacioos.org/metadata/gmxCodelists.html#CI_RoleCode" target="_blank">CI_RoleCode</a>)<br>
+</div></blockquote>
+<h4 xmlns="" style="display: inline">Date Stamp:</h4>
+<p xmlns="" style="display: inline">April 20, 2016</p>
+<p xmlns=""></p>
+<h4 xmlns="">Metadata Standard Name:</h4>
+<p xmlns="">
+    ISO 19139 Geographic Information - Metadata - Implementation Specification
+  </p>
+<h4 xmlns="">Metadata Standard Version:</h4>
+<p xmlns="">
+    2007
+  </p>
+<h4 xmlns="">Dataset URI:</h4>
+<p xmlns=""><a href="http://purl.stanford.edu/bf090vt2730%0A%20%20">
+    http://purl.stanford.edu/bf090vt2730
+  </a></p>
+<p xmlns=""><a href="javascript:void(0)" onClick="window.scrollTo( 0, 0 ); this.blur(); return false;">Back to Top</a></p></td></tr></table></td></tr></table><!-- END MAIN CONTENT -->
+<!-- footer include -->
+<!--#include virtual="/pacioos/ssi/pacioos_footer.ssi"-->
+<!-- end footer include -->
+</body>
+</html>

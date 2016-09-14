@@ -1,4 +1,5 @@
 {
+  "uuid": "http://purl.stanford.edu/rn596kz1069",
   "dc_identifier_s": "http://purl.stanford.edu/rn596kz1069",
   "dc_title_s": "Solar: Average Monthly and Annual Latitude Tilt Irradiance Data, One-Degree Resolution of the World from NASA/SSE, 1983-2005",
   "dc_description_s": "This polygon shapefile contains monthly and annual averages of solar Latitude Tilt Irradiance data (kWh/m^2/day) compiled by NASA and SSE. These data show monthly and annual averages starting from July 1983 until June 2005. Lat/Lon values indicate the lower left corner of a 1x1 degree region. Negative values are south and west; positive values are north and east. Boundaries of the -90/-180 region are -90 to -89 (south) and -180 to -179 (west). The last region, 89/180, is bounded by 89 to 90 (north) and 179 to 180 (east). The mid-point of the region is +0.5 added to the the Lat/Lon value. These data are regional averages; not point data.These data were created to provide investors and other stakeholders with reliable, verifiable and accessible information on the solar resource potential for the data domain. Flat-plate tilted at latitude (Tilt) products represent the solar resource available to a flat plate collector oriented due south at an angle from horizontal equal to the latitude of the collector location. This collector orientation is typical practice for PV system installation, although other orientations are also used.",
@@ -27,8 +28,10 @@
     "Earth",
     "Earth (Planet)"
   ],
+  "dc_relation_sm": "http://sws.geonames.org/6295630/about.rdf",
+  "georss_box_s": "-90 -180 90 180",
+  "georss_polygon_s": "-90 -180 90 -180 90 180 -90 180 -90 -180",
   "solr_geom": "ENVELOPE(-180, 180, 90, -90)",
   "solr_year_i": 1983,
-  "stanford_rights_metadata_s": "<?xml version=\"1.0\"?>\n<rightsMetadata>\n  <access type=\"discover\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <access type=\"read\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <use>\n    <human type=\"useAndReproduction\">This item is in the public domain.  There are no restrictions on use.</human>\n    <human type=\"creativeCommons\"/>\n    <machine type=\"creativeCommons\"/>\n  </use>\n  <copyright>\n    <human>This work is in the Public Domain, meaning that it is not subject to copyright.</human>\n  </copyright>\n</rightsMetadata>\n",
-  "geoblacklight_version": "1.0"
+  "stanford_rights_metadata_s": "<?xml version=\"1.0\"?>\n<rightsMetadata>\n  <access type=\"discover\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <access type=\"read\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <use>\n    <human type=\"useAndReproduction\">This item is in the public domain.  There are no restrictions on use.</human>\n    <human type=\"creativeCommons\"/>\n    <machine type=\"creativeCommons\"/>\n  </use>\n  <copyright>\n    <human>This work is in the Public Domain, meaning that it is not subject to copyright.</human>\n  </copyright>\n</rightsMetadata>\n"
 }

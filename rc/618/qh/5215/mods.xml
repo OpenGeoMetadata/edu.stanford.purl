@@ -32,13 +32,13 @@
   <subject>
     <cartographics>
       <scale>Scale not given.</scale>
-      <projection>ESRI::104000</projection>
+      <projection>Custom projection</projection>
       <coordinates>(E 39&#xB0;21&#x2B9;13&#x2BA;--E 40&#xB0;58&#x2B9;16&#x2BA;/S 2&#xB0;12&#x2B9;24&#x2BA;--S 4&#xB0;39&#x2B9;3&#x2BA;)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile depicts the capacity, or number of beds, for major tourist hotels on the eastern coast of Kenya. These data were caluclated by the International Livestock Research Institute based on data sources from the United National Environmental Programme and the Republic of Kenya.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This data was used in Map 6.4 and Map 6.5 in Nature's Benefits in Kenya: An Atlas of Ecosystems and Human Well-Being.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">International Livestock Research Institute. (2007). Bed Capacity for Major Tourist Hotels on the Eastern Coast of Kenya, 2003. World Resources Institute. Available at: http://purl.stanford.edu/rc618qh5215</note>
+  <note displayLabel="Preferred citation" lang="eng">International Livestock Research Institute. (2007). Bed Capacity for Major Tourist Hotels on the Eastern Coast of Kenya, 2003. World Resources Institute. Available at: http://purl.stanford.edu/rc618qh5215.</note>
   <note displayLabel="Use limitation">Data set is not for use in litigation. While efforts have been made to ensure that these data are accurate and reliable within the state of the art, WRI, cannot assume liability for any damages, or misrepresentations, caused by any inaccuracies in the data, or as a result of the data to be used on a particular system. WRI makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty.</note>
   <relatedItem type="isReferencedBy">
     <titleInfo>
@@ -62,16 +62,10 @@
     </originInfo>
   </relatedItem>
   <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">tourism</topic>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Hotels</topic>
   </subject>
   <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">economy</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">structure</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">accommodations</topic>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Tourism</topic>
   </subject>
   <subject>
     <geographic lang="eng" valueURI="http://sws.geonames.org/192950/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Kenya</geographic>
@@ -107,7 +101,7 @@
             <gml:upperCorner>40.971165 -2.206667</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/192950/about.rdf" dc:language="eng" dc:title="Kenya"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/192950/" dc:language="eng" dc:title="Kenya"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>

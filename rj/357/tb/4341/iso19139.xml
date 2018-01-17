@@ -64,7 +64,7 @@
     </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-    <gco:Date>2015-06-09</gco:Date>
+    <gco:Date>2017-01-13</gco:Date>
   </dateStamp>
   <metadataStandardName>
     <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -103,7 +103,7 @@
             <gco:CharacterString>EPSG</gco:CharacterString>
           </codeSpace>
           <version>
-            <gco:CharacterString>8.2.6</gco:CharacterString>
+            <gco:CharacterString>8.6.2</gco:CharacterString>
           </version>
         </RS_Identifier>
       </referenceSystemIdentifier>
@@ -266,10 +266,7 @@
       <descriptiveKeywords>
         <MD_Keywords>
           <keyword>
-            <gco:CharacterString>States</gco:CharacterString>
-          </keyword>
-          <keyword>
-            <gco:CharacterString>Provinces</gco:CharacterString>
+            <gco:CharacterString>Grids (Cartography)</gco:CharacterString>
           </keyword>
           <type>
             <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
@@ -386,8 +383,11 @@
       <characterSet>
         <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
       </characterSet>
+      <topicCategory>
+        <MD_TopicCategoryCode>location</MD_TopicCategoryCode>
+      </topicCategory>
       <environmentDescription>
-        <gco:CharacterString>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</gco:CharacterString>
+        <gco:CharacterString>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.1.4959</gco:CharacterString>
       </environmentDescription>
       <extent>
         <EX_Extent>
@@ -417,6 +417,16 @@
           <description>
             <gco:CharacterString>ground condition</gco:CharacterString>
           </description>
+          <temporalElement>
+            <EX_TemporalExtent>
+              <extent>
+                <gml:TimePeriod gml:id="idm5707632">
+                  <gml:beginPosition>2012-01-01T00:00:00</gml:beginPosition>
+                  <gml:endPosition>2012-12-31T00:00:00</gml:endPosition>
+                </gml:TimePeriod>
+              </extent>
+            </EX_TemporalExtent>
+          </temporalElement>
         </EX_Extent>
       </extent>
     </MD_DataIdentification>
@@ -435,8 +445,7 @@
       <featureCatalogueCitation>
         <CI_Citation>
           <title>
-            <gco:CharacterString>
-					Feature Catalog for World Administrative Level 1 Seams, 1:10 million (2012)</gco:CharacterString>
+            <gco:CharacterString>Feature Catalog for World Administrative Level 1 Seams, 1:10 million (2012)</gco:CharacterString>
           </title>
           <date>
             <CI_Date>

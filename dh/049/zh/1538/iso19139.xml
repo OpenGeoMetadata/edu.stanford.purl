@@ -70,7 +70,7 @@
     </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-    <gco:Date>2015-08-12</gco:Date>
+    <gco:Date>2017-01-13</gco:Date>
   </dateStamp>
   <metadataStandardName>
     <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -165,7 +165,7 @@
           <citedResponsibleParty>
             <CI_ResponsibleParty>
               <organisationName>
-                <gco:CharacterString>Geological Survey (U.S.) </gco:CharacterString>
+                <gco:CharacterString>Geological Survey (U.S.)</gco:CharacterString>
               </organisationName>
               <contactInfo>
                 <CI_Contact>
@@ -495,7 +495,7 @@
           <temporalElement>
             <EX_TemporalExtent>
               <extent>
-                <gml:TimeInstant gml:id="idp512144">
+                <gml:TimeInstant gml:id="idp313936">
                   <gml:timePosition>2005-12-01T00:00:00</gml:timePosition>
                 </gml:TimeInstant>
               </extent>
@@ -698,65 +698,6 @@
           <processStep>
             <LI_ProcessStep>
               <description>
-                <gco:CharacterString>The clear film was scanned and geo-referenced in ArcInfo. Lines were digitized, coverages were created for geologic units and faults, and the polygons and lines were attributed.</gco:CharacterString>
-              </description>
-              <dateTime>
-                <gco:DateTime>2000-01-01T00:00:00</gco:DateTime>
-              </dateTime>
-              <processor>
-                <CI_ResponsibleParty>
-                  <individualName>
-                    <gco:CharacterString>Charles A. Bush</gco:CharacterString>
-                  </individualName>
-                  <organisationName>
-                    <gco:CharacterString>U.S. Geological Survey</gco:CharacterString>
-                  </organisationName>
-                  <contactInfo>
-                    <CI_Contact>
-                      <phone>
-                        <CI_Telephone>
-                          <voice>
-                            <gco:CharacterString>303-236-4723</gco:CharacterString>
-                          </voice>
-                          <facsimile>
-                            <gco:CharacterString>303-236-0214</gco:CharacterString>
-                          </facsimile>
-                        </CI_Telephone>
-                      </phone>
-                      <address>
-                        <CI_Address>
-                          <deliveryPoint>
-                            <gco:CharacterString>Mail Stop 913, Box 25046, Denver Federal Center</gco:CharacterString>
-                          </deliveryPoint>
-                          <city>
-                            <gco:CharacterString>Lakewood</gco:CharacterString>
-                          </city>
-                          <administrativeArea>
-                            <gco:CharacterString>CO</gco:CharacterString>
-                          </administrativeArea>
-                          <postalCode>
-                            <gco:CharacterString>80225</gco:CharacterString>
-                          </postalCode>
-                          <country>
-                            <gco:CharacterString>US</gco:CharacterString>
-                          </country>
-                          <electronicMailAddress>
-                            <gco:CharacterString>cbush@usgs.gov</gco:CharacterString>
-                          </electronicMailAddress>
-                        </CI_Address>
-                      </address>
-                    </CI_Contact>
-                  </contactInfo>
-                  <role>
-                    <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115">processor</CI_RoleCode>
-                  </role>
-                </CI_ResponsibleParty>
-              </processor>
-            </LI_ProcessStep>
-          </processStep>
-          <processStep>
-            <LI_ProcessStep>
-              <description>
                 <gco:CharacterString>The geologic unit polygons (geol01m075) and faults (falt01l075) for Alaska, Hawaii, Puerto Rico and the U.S. Virgin Islands were created using the following procedures: Polygon and fault lines were compiled from several sources and simplified on scale-stable clear film at various scales.</gco:CharacterString>
               </description>
               <dateTime>
@@ -907,7 +848,66 @@
           <processStep>
             <LI_ProcessStep>
               <description>
-                <gco:CharacterString>The Streams and Waterbodies map layer was downloaded from the National Atlas. The layer was projected to match the polygon and line coverages created from the compiled scans. Data for the conterminous United States were deleted. Single-line streams were deleted from Alaska, Hawaii, Puerto Rico and the U.S. Virgin Islands. Remaining rivers, glaciers, and shorelines were added to the geologic unit coverage. Contacts were modified where they intersected with shorelines, and the new lines and polygons were attributed.</gco:CharacterString>
+                <gco:CharacterString>The clear film was scanned and geo-referenced in ArcInfo. Lines were digitized, coverages were created for geologic units and faults, and the polygons and lines were attributed.</gco:CharacterString>
+              </description>
+              <dateTime>
+                <gco:DateTime>2000-01-01T00:00:00</gco:DateTime>
+              </dateTime>
+              <processor>
+                <CI_ResponsibleParty>
+                  <individualName>
+                    <gco:CharacterString>Charles A. Bush</gco:CharacterString>
+                  </individualName>
+                  <organisationName>
+                    <gco:CharacterString>U.S. Geological Survey</gco:CharacterString>
+                  </organisationName>
+                  <contactInfo>
+                    <CI_Contact>
+                      <phone>
+                        <CI_Telephone>
+                          <voice>
+                            <gco:CharacterString>303-236-4723</gco:CharacterString>
+                          </voice>
+                          <facsimile>
+                            <gco:CharacterString>303-236-0214</gco:CharacterString>
+                          </facsimile>
+                        </CI_Telephone>
+                      </phone>
+                      <address>
+                        <CI_Address>
+                          <deliveryPoint>
+                            <gco:CharacterString>Mail Stop 913, Box 25046, Denver Federal Center</gco:CharacterString>
+                          </deliveryPoint>
+                          <city>
+                            <gco:CharacterString>Lakewood</gco:CharacterString>
+                          </city>
+                          <administrativeArea>
+                            <gco:CharacterString>CO</gco:CharacterString>
+                          </administrativeArea>
+                          <postalCode>
+                            <gco:CharacterString>80225</gco:CharacterString>
+                          </postalCode>
+                          <country>
+                            <gco:CharacterString>US</gco:CharacterString>
+                          </country>
+                          <electronicMailAddress>
+                            <gco:CharacterString>cbush@usgs.gov</gco:CharacterString>
+                          </electronicMailAddress>
+                        </CI_Address>
+                      </address>
+                    </CI_Contact>
+                  </contactInfo>
+                  <role>
+                    <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115">processor</CI_RoleCode>
+                  </role>
+                </CI_ResponsibleParty>
+              </processor>
+            </LI_ProcessStep>
+          </processStep>
+          <processStep>
+            <LI_ProcessStep>
+              <description>
+                <gco:CharacterString>Two coverages were created for display purposes. Fltg01l075 is the same as falt01l075, except decoration lines have been added. Gtxt01l075 contains arcs that represent text labels for the geologic unit polygons. These coverages were created by exporting the geologic unit and fault coverages to ASCII files which were then imported into the program GSMCAD, written by Van S. Williams, USGS. GSMCAD was used to export the files in Generate format and to create ArcInfo coverages with the decorated fault lines and the arcs for polygon labels. GSMCAD is available at no charge at &lt;http://geology.cr.usgs.gov/maps/software.html&gt;.</gco:CharacterString>
               </description>
               <dateTime>
                 <gco:DateTime>2001-01-01T00:00:00</gco:DateTime>
@@ -1025,7 +1025,7 @@
           <processStep>
             <LI_ProcessStep>
               <description>
-                <gco:CharacterString>Two coverages were created for display purposes. Fltg01l075 is the same as falt01l075, except decoration lines have been added. Gtxt01l075 contains arcs that represent text labels for the geologic unit polygons. These coverages were created by exporting the geologic unit and fault coverages to ASCII files which were then imported into the program GSMCAD, written by Van S. Williams, USGS. GSMCAD was used to export the files in Generate format and to create ArcInfo coverages with the decorated fault lines and the arcs for polygon labels. GSMCAD is available at no charge at &lt;http://geology.cr.usgs.gov/maps/software.html&gt;.</gco:CharacterString>
+                <gco:CharacterString>The Streams and Waterbodies map layer was downloaded from the National Atlas. The layer was projected to match the polygon and line coverages created from the compiled scans. Data for the conterminous United States were deleted. Single-line streams were deleted from Alaska, Hawaii, Puerto Rico and the U.S. Virgin Islands. Remaining rivers, glaciers, and shorelines were added to the geologic unit coverage. Contacts were modified where they intersected with shorelines, and the new lines and polygons were attributed.</gco:CharacterString>
               </description>
               <dateTime>
                 <gco:DateTime>2001-01-01T00:00:00</gco:DateTime>
@@ -1178,7 +1178,7 @@
                   <temporalElement>
                     <EX_TemporalExtent>
                       <extent>
-                        <gml:TimeInstant gml:id="idp554576">
+                        <gml:TimeInstant gml:id="idp339584">
                           <gml:timePosition>1990-01-01</gml:timePosition>
                         </gml:TimeInstant>
                       </extent>
@@ -1272,7 +1272,7 @@
                   <temporalElement>
                     <EX_TemporalExtent>
                       <extent>
-                        <gml:TimeInstant gml:id="idp568896">
+                        <gml:TimeInstant gml:id="idp346896">
                           <gml:timePosition>1989-01-01</gml:timePosition>
                         </gml:TimeInstant>
                       </extent>
@@ -1353,7 +1353,7 @@
                   <temporalElement>
                     <EX_TemporalExtent>
                       <extent>
-                        <gml:TimeInstant gml:id="idp580992">
+                        <gml:TimeInstant gml:id="idp352912">
                           <gml:timePosition>1999-01-01</gml:timePosition>
                         </gml:TimeInstant>
                       </extent>
@@ -1419,7 +1419,7 @@
                   <temporalElement>
                     <EX_TemporalExtent>
                       <extent>
-                        <gml:TimeInstant gml:id="idp592288">
+                        <gml:TimeInstant gml:id="idp358672">
                           <gml:timePosition>1946-01-01</gml:timePosition>
                         </gml:TimeInstant>
                       </extent>
@@ -1516,7 +1516,7 @@
                   <temporalElement>
                     <EX_TemporalExtent>
                       <extent>
-                        <gml:TimeInstant gml:id="idp609344">
+                        <gml:TimeInstant gml:id="idp367264">
                           <gml:timePosition>2004-01-01</gml:timePosition>
                         </gml:TimeInstant>
                       </extent>
@@ -1613,7 +1613,7 @@
                   <temporalElement>
                     <EX_TemporalExtent>
                       <extent>
-                        <gml:TimeInstant gml:id="idp625184">
+                        <gml:TimeInstant gml:id="idp375296">
                           <gml:timePosition>1994-01-01</gml:timePosition>
                         </gml:TimeInstant>
                       </extent>
@@ -1710,7 +1710,7 @@
                   <temporalElement>
                     <EX_TemporalExtent>
                       <extent>
-                        <gml:TimeInstant gml:id="idp641040">
+                        <gml:TimeInstant gml:id="idp383328">
                           <gml:timePosition>1988-01-01</gml:timePosition>
                         </gml:TimeInstant>
                       </extent>
@@ -1797,7 +1797,7 @@
                   <temporalElement>
                     <EX_TemporalExtent>
                       <extent>
-                        <gml:TimeInstant gml:id="idp655216">
+                        <gml:TimeInstant gml:id="idp390480">
                           <gml:timePosition>1991-01-01</gml:timePosition>
                         </gml:TimeInstant>
                       </extent>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Points of Interest: Oaxaca, Mexico, 2010</title>
@@ -29,16 +29,16 @@
     <extent>0.003</extent>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+  <subject>
     <cartographics>
       <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>(W 96°46ʹ49ʺ--W 96°42ʹ33ʺ/N 17°8ʹ40ʺ--N 17°2ʹ48ʺ)</coordinates>
+      <projection>Custom projection</projection>
+      <coordinates>(W 96&#xB0;46&#x2B9;49&#x2BA;--W 96&#xB0;42&#x2B9;33&#x2BA;/N 17&#xB0;8&#x2B9;40&#x2BA;--N 17&#xB0;2&#x2B9;48&#x2BA;)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile represents points of interest in Oaxaca (Mexico) that can include locations of police and fire stations, hospitals, educational institutions, libraries, historical sites, sports facilities, churches, and shopping.</abstract>
   <abstract displayLabel="Purpose" lang="eng">LeadDog Consulting (Originator and Publisher) has a Mexico-based data partner network for which they have access to GIS data sets to create city streets maps for Mexico, which may include streets, street names, street classifications, points of interests, landuse, water, neighborhood points, and railroads. These data are intended for geographic display and analysis at the city level. No responsibility is assumed by LeadDog Consulting. </abstract>
-  <note displayLabel="Preferred citation" lang="eng">Instituto Nacional de Estadística, Geografía e Informática (Mexico) and LeadDog Consulting. (2010). Points of Interest: Oaxaca, Mexico, 2010. LeadDog Consulting Available at: http://purl.stanford.edu/qv845zn1647</note>
+  <note displayLabel="Preferred citation" lang="eng">Instituto Nacional de Estad&#xED;stica, Geograf&#xED;a e Inform&#xE1;tica (Mexico) and LeadDog Consulting. (2010). Points of Interest: Oaxaca, Mexico, 2010. LeadDog Consulting. Available at: http://purl.stanford.edu/qv845zn1647.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Police stations</topic>
   </subject>
@@ -58,7 +58,7 @@
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Store location</topic>
   </subject>
   <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Unversities and colleges</topic>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Universities and colleges</topic>
   </subject>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Libraries</topic>
@@ -67,7 +67,7 @@
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Sports facilities</topic>
   </subject>
   <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/3522507/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Oaxaca de Juárez (Mexico)</geographic>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/3522507/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Oaxaca de Ju&#xE1;rez (Mexico)</geographic>
   </subject>
   <subject>
     <temporal encoding="w3cdtf">2010</temporal>
@@ -103,8 +103,8 @@
             <gml:upperCorner>-96.709056 17.144542</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3522507/about.rdf" dc:language="eng" dc:title="Oaxaca de Juárez (Mexico)"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/3522507/" dc:language="eng" dc:title="Oaxaca de Ju&#xE1;rez (Mexico)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-</mods>
+<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 96&#xB0;46&#x2B9;49&#x2BA;--W 96&#xB0;42&#x2B9;33&#x2BA;/N 17&#xB0;8&#x2B9;40&#x2BA;--N 17&#xB0;2&#x2B9;48&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>

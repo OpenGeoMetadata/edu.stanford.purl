@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>2-Meter Shaded Relief Multibeam Bathymetry Image (Grayscale): Asilomar, California, 2008</title>
@@ -31,22 +31,22 @@
   <subject>
     <cartographics>
       <scale>Scale not given.</scale>
-      <projection>EPSG::26910</projection>
-      <coordinates>(W 121°59ʹ33ʺ--W 121°55ʹ53ʺ/N 36°39ʹ55ʺ--N 36°36ʹ5ʺ)</coordinates>
+      <projection>Custom projection</projection>
+      <coordinates>(W 121&#xB0;59&#x2B9;33&#x2BA;--W 121&#xB0;55&#x2B9;53&#x2BA;/N 36&#xB0;39&#x2B9;55&#x2BA;--N 36&#xB0;36&#x2B9;5&#x2BA;)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This layer is sunshaded grayscale GeoTIFF that contains high-resolution bathymetric data collected from the Asilomar region of Monterey Bay, California. The survey for Asilomar was conducted on June 14, 2008. This layer was created as part of the California Seafloor Mapping Project.</abstract>
   <abstract displayLabel="Purpose" lang="eng">Marine data offered here represent the efforts of a comprehensive state waters mapping program for California launched by the California State Coastal Conservancy, Ocean Protection Council, Department of Fish and Game, and the NOAA National Marine Sanctuary Program. The ultimate goal is the creation of a high-resolution 1:24,000 scale geologic and habitat base map series covering all of California's 14,500 km2 state waters out to the 3 mile limit, and support of the state's Marine Life Protection Act Initiative (MLPA) goal to create a statewide network of Marine Protected Areas (MPAs). This statewide project requires, involves and leverages expertise from industry, resource management agencies and academia. The tiered mapping campaign involves the use of state-of-the-art sonar, LIDAR (aerial laser) and video seafloor mapping technologies; computer aided classification and visualization; expert geologic and habitat interpretations codified into strip maps spanning California's land/sea boundary; and the creation of an online, publicly accessible data repository for the dissemination of all mapping products.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">Seafloor Mapping Lab. (2010).  2-Meter Shaded Relief Multibeam Bathymetry Image (Grayscale): Asilomar, California, 2008. Seafloor Mapping Lab. Available at: http://purl.stanford.edu/xd973zn8378</note>
-  <note displayLabel="Supplemental information">MBES and side scan data for the South Monterey Bay region were acquired using a 200 KHz/ 400 KHz Reson 7125 sonar aboard the R/V VenTresca by the Seafloor Mapping Lab at California State University Monterey Bay. Prior to data collection, a series of planned survey lines were created using the survey navigation and planning software Hypack 2008 from Hypack, Inc. An Applanix POS/MV 320 v4 system was used to provide position and attitude data during data collection and accounted for vessel motion such as heave, pitch, and roll (position accuracy ± 2m, pitch, roll and heading accuracy ±0.02°, heave accuracy ± 5% or 5cm) with input from a Cnav® enabled NAVCON 2050 GPS. KGPS altitude data were used to account for tide cycle fluctuations and sound velocity profiles were collected with an Applied Microsystems SVPlus sound velocimeter. Data acquisition, post-processing, and final products derived from multibeam bathymetry data were handled by the Seafloor Mapping Lab at CSUMB.</note>
+  <note displayLabel="Preferred citation" lang="eng">Seafloor Mapping Lab. (2010).  2-Meter Shaded Relief Multibeam Bathymetry Image (Grayscale): Asilomar, California, 2008. Seafloor Mapping Lab. Available at: http://purl.stanford.edu/xd973zn8378.</note>
+  <note displayLabel="Supplemental information">MBES and side scan data for the South Monterey Bay region were acquired using a 200 KHz/ 400 KHz Reson 7125 sonar aboard the R/V VenTresca by the Seafloor Mapping Lab at California State University Monterey Bay. Prior to data collection, a series of planned survey lines were created using the survey navigation and planning software Hypack 2008 from Hypack, Inc. An Applanix POS/MV 320 v4 system was used to provide position and attitude data during data collection and accounted for vessel motion such as heave, pitch, and roll (position accuracy &#xB1; 2m, pitch, roll and heading accuracy &#xB1;0.02&#xB0;, heave accuracy &#xB1; 5% or 5cm) with input from a Cnav&#xAE; enabled NAVCON 2050 GPS. KGPS altitude data were used to account for tide cycle fluctuations and sound velocity profiles were collected with an Applied Microsystems SVPlus sound velocimeter. Data acquisition, post-processing, and final products derived from multibeam bathymetry data were handled by the Seafloor Mapping Lab at CSUMB.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Continental margins</topic>
   </subject>
   <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Mulitbeam mapping</topic>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Multibeam mapping</topic>
   </subject>
   <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5374363/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Monterey Bay (Calif.)</geographic>
+    <geographic lang="eng">Monterey Bay (California)</geographic>
   </subject>
   <subject>
     <temporal encoding="w3cdtf">2008</temporal>
@@ -79,8 +79,8 @@
             <gml:upperCorner>-121.9313518 36.6651518</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5374363/about.rdf" dc:language="eng" dc:title="Monterey Bay (Calif.)"/>
+        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Monterey Bay (California)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 121°59ʹ33ʺ--W 121°55ʹ53ʺ/N 36°39ʹ55ʺ--N 36°36ʹ5ʺ</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 121&#xB0;59&#x2B9;33&#x2BA;--W 121&#xB0;55&#x2B9;53&#x2BA;/N 36&#xB0;39&#x2B9;55&#x2BA;--N 36&#xB0;36&#x2B9;5&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>

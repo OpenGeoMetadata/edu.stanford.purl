@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
-    <title>Fault Lines, Alaska:  Generalized Geologic Map of Alaska, Hawaii, Puerto Rico, and the U.S. Virgin Islands, 2005</title>
+    <title>Fault Lines: Generalized Geologic Map of Alaska, Hawaii, Puerto Rico, and the U.S. Virgin Islands, 2005</title>
   </titleInfo>
   <name type="personal">
     <namePart>Reed, John Calvin, Jr. 1930-</namePart>
@@ -20,10 +20,11 @@
   <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
   <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
   <originInfo>
-    <publisher>Geological Survey (U.S.) </publisher>
+    <publisher>Geological Survey (U.S.)</publisher>
     <place>
       <placeTerm type="text">Denver, Colorado, US</placeTerm>
     </place>
+    <publisher>National Atlas of the United States</publisher>
     <dateIssued encoding="w3cdtf" keyDate="yes">2005</dateIssued>
     <dateValid encoding="w3cdtf">2005</dateValid>
     <edition>1.0</edition>
@@ -51,6 +52,15 @@
   </subject>
   <subject>
     <geographic lang="eng" valueURI="http://sws.geonames.org/5879092/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Alaska</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/5855797/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Hawaii</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/4566966/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Puerto Rico</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/4796775/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">United States Virgin Islands</geographic>
   </subject>
   <subject>
     <temporal encoding="w3cdtf">2005</temporal>
@@ -82,6 +92,9 @@
           </gml:Envelope>
         </gml:boundedBy>
         <dc:coverage rdf:resource="http://sws.geonames.org/5879092/" dc:language="eng" dc:title="Alaska"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5855797/" dc:language="eng" dc:title="Hawaii"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/4566966/" dc:language="eng" dc:title="Puerto Rico"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/4796775/" dc:language="eng" dc:title="United States Virgin Islands"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>

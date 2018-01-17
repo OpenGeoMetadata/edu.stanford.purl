@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Counties: California, 2010</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>Bay Area Open Space Council</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <name type="corporate">
+    <namePart>San Francisco Bay Area Upland Habitat Goals Project</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <name type="corporate">
+    <namePart>GreenInfo Network (Firm)</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <name type="corporate">
+    <namePart>San Francisco Bay Area Upland Habitat Goals Project</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>Bay Area Open Space Council</publisher>
+    <place>
+      <placeTerm type="text">Berkeley, California, </placeTerm>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <extent>5.382</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>Custom projection</projection>
+      <coordinates>(W 124&#xB0;26&#x2B9;39&#x2BA;--W 113&#xB0;11&#x2B9;27&#x2BA;/N 42&#xB0;2&#x2B9;3&#x2BA;--N 32&#xB0;22&#x2B9;17&#x2BA;)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts the nine counties of California. This data was derived from the United States Census Bureau Topologically Integrated Geographic Encoding and Referencing GIS database called TIGER/Line. This coverage is a common base layer used for reference, to identify what county data is within, as well as for cartographic purposes.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">This dataset was developed/compiled for use in the San Francisco Bay Area Upland Habitat Goals Project and contributed to the developement of the Conservation Lands Network.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">Bay Area Open Space Council, GreenInfo Network, Conservation Lands Network, and San Francisco Bay Area Upland Habitat Goals Project. (2011). Counties: California, 2010. Bay Area Open Space Council. Available at http://purl.stanford.edu/jm667wq2232.</note>
+  <note displayLabel="Use limitation">None, GNU General Public License (GPL), put in the url. in cased used incorrectly, make $ off it, limit liability. for use constraints</note>
+  <subject>
+    <topic lang="eng">Counties</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/3687919/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">California</geographic>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/jm667wq2232</url>
+  </location>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:jm667wq2232</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/jm667wq2232">
+        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type>Dataset#Polygon</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>-124.40969 32.534221</gml:lowerCorner>
+            <gml:upperCorner>-114.130785 42.009499</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;24&#x2B9;35&#x2BA;--W 114&#xB0;7&#x2B9;51&#x2BA;/N 42&#xB0;34&#x2BA;--N 32&#xB0;32&#x2B9;3&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>

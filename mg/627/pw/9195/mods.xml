@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Inaccurately Located Masonry Wall Remains, Paris, 1190-1678</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>Lallau, &#xC9;tienne</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>Analyse Diachronique de l'espace Urbain Parisien: Approche Geomatique</publisher>
+    <place>
+      <placeTerm type="text">Paris, FR</placeTerm>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">fre</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <extent>0.001</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject>
+    <cartographics>
+      <scale>1:500</scale>
+      <projection>EPSG::27591</projection>
+      <coordinates>(E 2&#xB0;20&#x2B9;19&#x2BA;--E 2&#xB0;22&#x2B9;14&#x2BA;/N 48&#xB0;52&#x2B9;9&#x2BA;--N 48&#xB0;50&#x2B9;41&#x2BA;)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This point shapefile contains imprecise locations of masonry wall remains in Paris based on archaeological references. The points contained in this layer lack the precise information to accurately locate them geographically. These point locations were gathered from archaeological documentation (textual descriptions), or from sources which could no be precisely geolocated. The work of gathering the archaeological information was directed by Etienne Lardkhan. (Univ. Paris-1, ed. D. Aina-Deroin and H. Noizet, 2007-2008).</abstract>
+  <abstract displayLabel="Purpose" lang="eng">The ALPAGE programme aims to provide collaborative tools for the Humanities and Social Sciences and for Information Communication Technology (ICT) allowing for the development of research about the Parisian urban area. This aim is achieved by means of a GIS that includes cadastral and historical layers.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">APUR &#xA9; ALPAGE: E. Lallau, 2010.</note>
+  <note displayLabel="Supplemental information">ISO 19139 XML Metadata (in French) and a full copy of the license (ODBL) are included with this layer.</note>
+  <note displayLabel="Use limitation">This data is a direct result of the work of the researchers from the ALPAGE consortium who released this data under an Open Data Commons Open Database Licence (ODbL). Therefore, use of this data by others must respect the legal requirements specific to this licence. All freely downloadable data contains the shapefiles, metadata file and licence files describing the users rights and responsibilities. All data produced within the consortium is published in this way with the exception of any ongoing work which is in process of academic evaluation (masters, doctoral thesis, habilitation to supervise research).</note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="fre">City walls</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="fre">Archaeology</topic>
+  </subject>
+  <subject>
+    <geographic lang="fre" valueURI="http://sws.geonames.org/2988507/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Paris (France)</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">1190-1678</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="structure">Structure</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/mg627pw9195</url>
+  </location>
+  <accessCondition type="useAndReproduction">This data is a direct result of the work of the researchers from the ALPAGE consortium who released this data under an Open Data Commons Open Database Licence (ODbL). Therefore, use of this data by others must respect the legal requirements specific to this licence. All freely downloadable data contains the shapefiles, metadata file and licence files describing the users rights and responsibilities. All data produced within the consortium is published in this way with the exception of any ongoing work which is in process of academic evaluation (masters, doctoral thesis, habilitation to supervise research).
+
+The copyright notice must adhere to the following format: 'Source of raster(s) or name of the vector layer(s) &#xA9; ALPAGE: the data authors first initial and full surname &#x2013;  initials of the author of the map and year it was produced'.</accessCondition>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:mg627pw9195</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/mg627pw9195">
+        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type>Dataset#Point</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>2.338512 48.844828</gml:lowerCorner>
+            <gml:upperCorner>2.370683 48.869248</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="http://sws.geonames.org/2988507/" dc:language="fre" dc:title="Paris (France)"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 2&#xB0;20&#x2B9;19&#x2BA;--E 2&#xB0;22&#x2B9;14&#x2BA;/N 48&#xB0;52&#x2B9;9&#x2BA;--N 48&#xB0;50&#x2B9;41&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>

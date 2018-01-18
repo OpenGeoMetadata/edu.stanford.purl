@@ -1,11 +1,10 @@
 {
-  "uuid": "http://purl.stanford.edu/vn042kj0390",
   "dc_identifier_s": "http://purl.stanford.edu/vn042kj0390",
   "dc_title_s": "Mean Current Velocity, Atlantic Coast, Massachusetts, 2009",
   "dc_description_s": "This raster layer contains the mean tidal current speed in the Massachusetts Ocean Partnership (MOP) planning area (and extended rectangular region ~ 6 nautical miles from the southern planning border) based on the M2 tidal component in the ADCIRC VDatum model. The tidal constituent model data is from the ADCIRC VDatum data described below. The data has been processed to estimate the mean tidal current speed on a 250 meter grid. The processing was done using Matlab with the tidal ellipse tool box written by Zhigang Xu (xuz@mar.dfo-mpo.gc.ca). The data from the ADCIRC tidal constituent model includes the phase and amplitude of each tidal constituent at 161,131 points in the Gulf of Maine. These harmonic constituents for the eastward and northward velocity are converted to elliptical major and minor axis velocities using the ellipse toolbox. The tidal velocity is estimated from the M2 tidal frequency which is the largest component of tidal variability. The data product is the mean M2 current speed over a tidal cycle. The ocean currents at any instant, will never appear as they do in the figure. This is an estimate of the mean speed that each location will experience over a tidal cycle. The estimated maximum is exported from Matlab and read into ArcGIS as a point file with location and speed data. The speed at each point in the 250 meter grid is taken from the nearest point in the triangular ADCIRC model grid nodes. This interpolation method proved to be the most efficient and reliable. Only tidal forcing mechanisms are considered in this model data. During storms the wind driven flow may far exceed the mean estimated here. About the VDatum Tidal constituent model, from VDatum and Strategies for National Coverage: \"The first stage of each project is to develop the tide model used to compute the tidal datums. For this, high-resolution coastline data and NOAA bathymetry in the area are processed in a quality-controlled manner. This information is used to construct a high-resolution unstructured grid for use by the tide model. The standard tide model used in VDatum applications is ADCIRC, and modeled tidal datums are compared with datums computed from observations obtained by NOAA's Center for Operational Oceanographic Products and Services (CO-OPS) for operating and historical tide stations. Model-data inconsistencies are adjusted using spatial interpolation techniques, and resultant tidal datums are provided to the VDatum software on a structured marine grid. NOAA's National Geodetic Survey (NGS) then uses these results to help compute the relationship between tidal datums and the North American Vertical Datum of 1988 (NAVD 88). NGS also provides the orthometric and ellipsoidal transformations used by the VDatum software.\" VDatum and Strategies for National Coverage Edward Myers, Kurt Hess, Zhizhang Yang, Jiangtao Xu, Adeline Wong, Dave Doyle, Jason Woolard, Stephen White, Bang Le, Stephen Gill, Gerald Hovis NOAA, National Ocean Service 1315 East-West Highway Silver Spring, MD 20910 USA For more information about the ADCIRC tidal model: http://www.adcirc.org/This data set was developed to aid in coastal development and navigation. The data provides an estimate of the mean currents experienced in the MOP planning area during a tidal cycle.",
   "dc_rights_s": "Public",
   "dct_provenance_s": "Stanford",
-  "dct_references_s": "{\"http://schema.org/url\":\"http://purl.stanford.edu/vn042kj0390\",\"http://schema.org/downloadUrl\":\"http://stacks.stanford.edu/file/druid:vn042kj0390/data.zip\",\"http://www.loc.gov/mods/v3\":\"http://purl.stanford.edu/vn042kj0390.mods\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"http://opengeometadata.stanford.edu/metadata/edu.stanford.purl/druid:vn042kj0390/iso19139.xml\",\"http://www.w3.org/1999/xhtml\":\"http://opengeometadata.stanford.edu/metadata/edu.stanford.purl/druid:vn042kj0390/default.html\",\"http://www.opengis.net/def/serviceType/ogc/wcs\":\"https://geowebservices.stanford.edu/geoserver/wcs\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices.stanford.edu/geoserver/wms\"}",
+  "dct_references_s": "{\"http://schema.org/url\":\"http://purl.stanford.edu/vn042kj0390\",\"http://schema.org/downloadUrl\":\"http://stacks.stanford.edu/file/druid:vn042kj0390/data.zip\",\"http://www.loc.gov/mods/v3\":\"http://purl.stanford.edu/vn042kj0390.mods\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"https://raw.githubusercontent.com/OpenGeoMetadata/edu.stanford.purl/master/vn/042/kj/0390/iso19139.xml\",\"http://www.opengis.net/def/serviceType/ogc/wcs\":\"https://geowebservices.stanford.edu/geoserver/wcs\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices.stanford.edu/geoserver/wms\"}",
   "layer_id_s": "druid:vn042kj0390",
   "layer_slug_s": "stanford-vn042kj0390",
   "layer_geom_type_s": "Raster",
@@ -25,19 +24,16 @@
     "Imagery and Base Maps"
   ],
   "dct_issued_s": "2009",
-  "dct_temporal_sm": "2009",
+  "dct_temporal_sm": [
+    "2009"
+  ],
   "dct_spatial_sm": [
     "Massachusetts",
     "Atlantic Ocean",
     "Atlantic Coast (New England)"
   ],
-  "dc_relation_sm": [
-    "http://sws.geonames.org/6254926/",
-    "http://sws.geonames.org/3373405/"
-  ],
-  "georss_box_s": "41.0283287 -71.3284016 42.8790316 -69.5194002",
-  "georss_polygon_s": "41.0283287 -71.3284016 42.8790316 -71.3284016 42.8790316 -69.5194002 41.0283287 -69.5194002 41.0283287 -71.3284016",
   "solr_geom": "ENVELOPE(-71.3284016, -69.5194002, 42.8790316, 41.0283287)",
   "solr_year_i": 2009,
-  "stanford_rights_metadata_s": "<?xml version=\"1.0\"?>\n<rightsMetadata>\n  <access type=\"discover\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <access type=\"read\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <use>\n    <human type=\"useAndReproduction\">This item is in the public domain.  There are no restrictions on use.</human>\n    <human type=\"creativeCommons\"/>\n    <machine type=\"creativeCommons\"/>\n  </use>\n  <copyright>\n    <human>This work is in the Public Domain, meaning that it is not subject to copyright.</human>\n  </copyright>\n</rightsMetadata>\n"
+  "stanford_rights_metadata_s": "<?xml version=\"1.0\"?>\n<rightsMetadata>\n  <access type=\"discover\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <access type=\"read\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <use>\n    <human type=\"useAndReproduction\">This item is in the public domain.  There are no restrictions on use.</human>\n    <human type=\"creativeCommons\"/>\n    <machine type=\"creativeCommons\"/>\n  </use>\n  <copyright>\n    <human>This work is in the Public Domain, meaning that it is not subject to copyright.</human>\n  </copyright>\n</rightsMetadata>\n",
+  "geoblacklight_version": "1.0"
 }

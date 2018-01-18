@@ -1,11 +1,10 @@
 {
-  "uuid": "http://purl.stanford.edu/rv407ym2175",
   "dc_identifier_s": "http://purl.stanford.edu/rv407ym2175",
   "dc_title_s": "Census Blocks, 2000 - San Francisco Bay Area, California",
   "dc_description_s": "This polygon shapefile represents U.S. Census Blocks for the San Francisco Bay Area of California as of the year 2000. Census blocks are statistical areas bounded on all sides by visible features such as streets, roads, streams, and railroad tracks, and by invisible boundaries such as city, town, township, and county limits, and short imaginary extensions of streets and roads. Generally census blocks are small in area; for example, a block in a city bounded by streets. However, census blocks in remote areas may be large and irregular and contain hundreds of square miles. All territory in the United States, Puerto Rico, and the Island Areas have block numbers. Blocks are composed of one or more GT-polygons; that is, several GT-polygons can share the same block number. Census 2000 Block Numbers. Census 2000 tabulation blocks are numbered uniquely within each state/county/census tract with a four-digit census block number. The U.S. Census Bureau created the tabulation block numbers immediately before beginning its Census 2000 data tabulation process, thereby eliminating block suffixes. The first digit of the tabulation block number identifies the block group. For the 1990 census, the U.S. Census Bureau assigned a unique 1990 block number with a suffix of \"Z\" to identify crews-of-vessels population. For Census 2000, crews-of-vessels population is assigned to the land block identified by the U.S. Census Bureau as associated with the home port of the vessel. Water Blocks. The U.S. Census Bureau introduced a different method for identifying the water areas of census blocks for Census 2000. For the 1990 census, water was not uniquely identified within a census block; instead, all water area internal to a block group was given a single block number ending in \"99\" (for example, in block group 1, all water was identified as block 199). A suffix was added to each 1990 water block number where the block existed in more than one tabulation entity within its block group. For Census 2000, water area located completely within the boundary of a single land block has the same block number as that land block. Water area that touches more than one land block is assigned a unique block number not associated with any adjacent land block. The U.S. Census Bureau assigned water block numbers beginning with the block group number followed by \"999 \" and preceding in descending order. For example, in block group 3, the block numbers assigned to water areas that border multiple land blocks are 3999, 3998, 3997, and so forth. Because some land blocks include water (ponds and small lakes), no conclusions about whether or not a block is all land or all water can be made by looking at the Census 2000 block numbers. Data users must use the WATER field on Record Type S to determine if the GT-polygon is land or water. The WATER field has two values, 0 for land or 1 for water. This layer is part of the Bay Area Metropolitan Transportation Commission (MTC) GIS Maps and Data collectionThis dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.",
   "dc_rights_s": "Public",
   "dct_provenance_s": "Stanford",
-  "dct_references_s": "{\"http://schema.org/url\":\"http://purl.stanford.edu/rv407ym2175\",\"http://schema.org/downloadUrl\":\"http://stacks.stanford.edu/file/druid:rv407ym2175/data.zip\",\"http://www.loc.gov/mods/v3\":\"http://purl.stanford.edu/rv407ym2175.mods\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"http://opengeometadata.stanford.edu/metadata/edu.stanford.purl/druid:rv407ym2175/iso19139.xml\",\"http://www.w3.org/1999/xhtml\":\"http://opengeometadata.stanford.edu/metadata/edu.stanford.purl/druid:rv407ym2175/default.html\",\"http://www.opengis.net/def/serviceType/ogc/wfs\":\"https://geowebservices.stanford.edu/geoserver/wfs\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices.stanford.edu/geoserver/wms\"}",
+  "dct_references_s": "{\"http://schema.org/url\":\"http://purl.stanford.edu/rv407ym2175\",\"http://schema.org/downloadUrl\":\"http://stacks.stanford.edu/file/druid:rv407ym2175/data.zip\",\"http://www.loc.gov/mods/v3\":\"http://purl.stanford.edu/rv407ym2175.mods\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"https://raw.githubusercontent.com/OpenGeoMetadata/edu.stanford.purl/master/rv/407/ym/2175/iso19139.xml\",\"http://www.opengis.net/def/serviceType/ogc/wfs\":\"https://geowebservices.stanford.edu/geoserver/wfs\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices.stanford.edu/geoserver/wms\"}",
   "layer_id_s": "druid:rv407ym2175",
   "layer_slug_s": "stanford-rv407ym2175",
   "layer_geom_type_s": "Polygon",
@@ -26,7 +25,9 @@
     "Society"
   ],
   "dct_issued_s": "2002",
-  "dct_temporal_sm": "2000",
+  "dct_temporal_sm": [
+    "2000"
+  ],
   "dct_spatial_sm": [
     "San Francisco Bay Area (Calif.)",
     "San Francisco (Calif.)",
@@ -39,20 +40,8 @@
     "Marin County (Calif.)",
     "Alameda County (Calif.)"
   ],
-  "dc_relation_sm": [
-    "http://sws.geonames.org/5391959/",
-    "http://sws.geonames.org/5339268/",
-    "http://sws.geonames.org/5376101/",
-    "http://sws.geonames.org/5392427/",
-    "http://sws.geonames.org/5392427/",
-    "http://sws.geonames.org/5396987/",
-    "http://sws.geonames.org/5397100/",
-    "http://sws.geonames.org/5370468/",
-    "http://sws.geonames.org/5322745/"
-  ],
-  "georss_box_s": "36.894108 -123.633621 38.864144 -121.209216",
-  "georss_polygon_s": "36.894108 -123.633621 38.864144 -123.633621 38.864144 -121.209216 36.894108 -121.209216 36.894108 -123.633621",
   "solr_geom": "ENVELOPE(-123.633621, -121.209216, 38.864144, 36.894108)",
   "solr_year_i": 2000,
-  "stanford_rights_metadata_s": "<?xml version=\"1.0\"?>\n<rightsMetadata>\n  <access type=\"discover\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <access type=\"read\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <use>\n    <human type=\"useAndReproduction\">This item is in the public domain.  There are no restrictions on use.</human>\n    <human type=\"creativeCommons\"/>\n    <machine type=\"creativeCommons\"/>\n  </use>\n  <copyright>\n    <human>This work is in the Public Domain, meaning that it is not subject to copyright.</human>\n  </copyright>\n</rightsMetadata>\n"
+  "stanford_rights_metadata_s": "<?xml version=\"1.0\"?>\n<rightsMetadata>\n  <access type=\"discover\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <access type=\"read\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <use>\n    <human type=\"useAndReproduction\">This item is in the public domain.  There are no restrictions on use.</human>\n    <human type=\"creativeCommons\"/>\n    <machine type=\"creativeCommons\"/>\n  </use>\n  <copyright>\n    <human>This work is in the Public Domain, meaning that it is not subject to copyright.</human>\n  </copyright>\n</rightsMetadata>\n",
+  "geoblacklight_version": "1.0"
 }

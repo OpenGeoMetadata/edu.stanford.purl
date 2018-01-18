@@ -1,11 +1,10 @@
 {
-  "uuid": "http://purl.stanford.edu/yy873td1773",
   "dc_identifier_s": "http://purl.stanford.edu/yy873td1773",
   "dc_title_s": "Mean Shear, Atlantic Coast, Massachusetts, 2009",
   "dc_description_s": "This raster layer contains the mean bottom shear stress based on mean tidal current speed in the Massachusetts Ocean Partnership (MOP) planning area (and extended rectangular region ~ 6 nautical miles from the southern planning border) which was calculated from the M2 tidal components in the ADCIRC VDatum model. The mean tidal depth-averaged velocity was then utilized to estimate mean bottom shear stress following the method described in Wilcock (1996, Water Resource Research). The grain size data from USGS USseabed program (http://coastalmap.marine.usgs.gov/regional/contusa/eastcoast/gome/capecod/data.html) were used for the bottom roughness data. The ocean currents, and thus bottom shear stress, at any instant, will never appear as they do in the figure. This is an estimate of the mean that each location will experience. The estimated mean is exported from Matlab and read into ArcGIS as a point file with location and bottom shear stress data. The value at each point in the 250 meter grid is taken from the nearest point in the triangular ADCIRC model grid nodes.This data set was developed to aid in coastal development and navigation. The data provides the mean bottom shear stress based on mean tidal currents experienced during a tidal cycle.",
   "dc_rights_s": "Public",
   "dct_provenance_s": "Stanford",
-  "dct_references_s": "{\"http://schema.org/url\":\"http://purl.stanford.edu/yy873td1773\",\"http://schema.org/downloadUrl\":\"http://stacks.stanford.edu/file/druid:yy873td1773/data.zip\",\"http://www.loc.gov/mods/v3\":\"http://purl.stanford.edu/yy873td1773.mods\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"http://opengeometadata.stanford.edu/metadata/edu.stanford.purl/druid:yy873td1773/iso19139.xml\",\"http://www.w3.org/1999/xhtml\":\"http://opengeometadata.stanford.edu/metadata/edu.stanford.purl/druid:yy873td1773/default.html\",\"http://www.opengis.net/def/serviceType/ogc/wcs\":\"https://geowebservices.stanford.edu/geoserver/wcs\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices.stanford.edu/geoserver/wms\"}",
+  "dct_references_s": "{\"http://schema.org/url\":\"http://purl.stanford.edu/yy873td1773\",\"http://schema.org/downloadUrl\":\"http://stacks.stanford.edu/file/druid:yy873td1773/data.zip\",\"http://www.loc.gov/mods/v3\":\"http://purl.stanford.edu/yy873td1773.mods\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"https://raw.githubusercontent.com/OpenGeoMetadata/edu.stanford.purl/master/yy/873/td/1773/iso19139.xml\",\"http://www.opengis.net/def/serviceType/ogc/wcs\":\"https://geowebservices.stanford.edu/geoserver/wcs\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices.stanford.edu/geoserver/wms\"}",
   "layer_id_s": "druid:yy873td1773",
   "layer_slug_s": "stanford-yy873td1773",
   "layer_geom_type_s": "Raster",
@@ -14,26 +13,25 @@
   "dc_language_s": "English",
   "dc_type_s": "Dataset",
   "dc_publisher_s": "Applied Science Associates",
-  "dc_creator_sm": "Applied Science Associates",
+  "dc_creator_sm": [
+    "Applied Science Associates"
+  ],
   "dc_subject_sm": [
     "Ocean bottom",
     "Tidal currents",
     "Oceans"
   ],
   "dct_issued_s": "2009",
-  "dct_temporal_sm": "2009",
+  "dct_temporal_sm": [
+    "2009"
+  ],
   "dct_spatial_sm": [
     "Massachusetts",
     "Atlantic Ocean",
     "Atlantic Coast (New England)"
   ],
-  "dc_relation_sm": [
-    "http://sws.geonames.org/6254926/",
-    "http://sws.geonames.org/3373405/"
-  ],
-  "georss_box_s": "41.0283287 -71.3284016 42.8790316 -69.5194002",
-  "georss_polygon_s": "41.0283287 -71.3284016 42.8790316 -71.3284016 42.8790316 -69.5194002 41.0283287 -69.5194002 41.0283287 -71.3284016",
   "solr_geom": "ENVELOPE(-71.3284016, -69.5194002, 42.8790316, 41.0283287)",
   "solr_year_i": 2009,
-  "stanford_rights_metadata_s": "<?xml version=\"1.0\"?>\n<rightsMetadata>\n  <access type=\"discover\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <access type=\"read\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <use>\n    <human type=\"useAndReproduction\">This item is in the public domain.  There are no restrictions on use.</human>\n    <human type=\"creativeCommons\"/>\n    <machine type=\"creativeCommons\"/>\n  </use>\n  <copyright>\n    <human>This work is in the Public Domain, meaning that it is not subject to copyright.</human>\n  </copyright>\n</rightsMetadata>\n"
+  "stanford_rights_metadata_s": "<?xml version=\"1.0\"?>\n<rightsMetadata>\n  <access type=\"discover\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <access type=\"read\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <use>\n    <human type=\"useAndReproduction\">This item is in the public domain.  There are no restrictions on use.</human>\n    <human type=\"creativeCommons\"/>\n    <machine type=\"creativeCommons\"/>\n  </use>\n  <copyright>\n    <human>This work is in the Public Domain, meaning that it is not subject to copyright.</human>\n  </copyright>\n</rightsMetadata>\n",
+  "geoblacklight_version": "1.0"
 }

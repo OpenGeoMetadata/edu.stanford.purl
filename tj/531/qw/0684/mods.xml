@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Marine Fish Weighted Persistence (Spring), 1970-2006</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>Nature Conservancy (U.S.)</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>Northeast Ocean Data</publisher>
+    <place>
+      <placeTerm type="text"/>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <extent>1.501</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4269</projection>
+      <coordinates>(W 77&#xB0;--W 64&#xB0;/N 46&#xB0;5&#x2BA;--N 34&#xB0;50&#x2B9;)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">Weighted persistence is reported for each ten-minute square (TMS) for each of 48 target species. Weighted persistence is a calculation where each decade is weighted by the average abundance of the species over the decades it was present. The calculation involves two variables, abundance and persistence. Abundance was measured in numbers of individuals of a given species caught per sampling tow. Persistence refers to the consistency with which a species was caught in the same 10-minute square over time. Because the abundance data was skewed toward low abundances with occasional very high abundances, data was transformed to a log scale and the mean log abundance was calculated for each decade based on all valid tows within each ten minute square. These decadal average scores were then averaged across all decades to obtain a grand average abundance. Only decades where the species was present was used in calculating the grand average abundance as the absent decades were already accounted for in the persistence metric. The grand average abundance for a species was then divided by the maximum value occurring in any TMS for that species in a season to create a metric of relative grand average abundance ranging between 0-1 for each season. Low abundance was then defined as 0-0.4999. High abundance was defined as 0.5000 - 0.9999. Only 10-minute squares where valid tows occurred in 3 or more of the focus decades (1970's, 1980s, 1990s, 2000's) were used for mapping in the NAM report and are provided in this table. The Weighted persistence values were lumped into 7 classes for reporting purposes: 0= No recorded abundance 1= 1 decade, any abundance 2= 2 decades, any abundance 3= 3 decades, low abundance 4= 3 decades, high abundance 5= 4 decades, low abundance 6= 4 decades, high abundance</abstract>
+  <abstract displayLabel="Purpose" lang="eng">The Weighted Persistence metric was  developed to address the following questions concerning the distribution of specific fish species relative to places in the North Atlantic Marine Ecoregion: Where in the ecoregion has the species been consistently found over time? (persistence) Where in the ecoregion is the species consistently found in high abundances? (persistence weighted by abundance)</abstract>
+  <note displayLabel="Preferred citation" lang="eng">The Nature Conservancy. (2011). Marine Fish Weighted Persistence (Spring), 1970-2006. Northeast Ocean Data. Available at: http://purl.stanford.edu/tj531qw0684.</note>
+  <note displayLabel="Use limitation">The Nature Conservancy (TNC) compiled this data set from publicly available data sources and this data is freely distributable without permission from this TNC resource office. This data set must be cited on all electronic and hard copy products using the language of the Data Set Credit. The Nature Conservancy shall not be held liable for improper or incorrect use of the data described and/or contained herein. Any sale, distribution, loan, or offering for use of these digital data, in whole or in part, is prohibited without the approval of the Nature Conservancy. The use of these data to produce other GIS products and services with the intent to sell for a profit is prohibited without the written consent of the Nature Conservancy. All parties receiving these data must be informed of these restrictions. The Nature Conservancy shall be acknowledged as data contributors to any reports or other products derived from these data.</note>
+  <subject>
+    <topic authority="lcsh" lang="eng">Biogeography</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" lang="eng">Fish populations</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" lang="eng">Marine habitats</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng">Northeastern States</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/3373405/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Atlantic Ocean</geographic>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="biota">Biology and Ecology</topic>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="environment">Environment</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/tj531qw0684</url>
+  </location>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:tj531qw0684</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/tj531qw0684">
+        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type>Dataset#Polygon</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>-77.0 34.833332</gml:lowerCorner>
+            <gml:upperCorner>-64.0 46.001389</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Northeastern States"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/3373405/" dc:language="eng" dc:title="Atlantic Ocean"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 77&#xB0;--W 64&#xB0;/N 46&#xB0;5&#x2BA;--N 34&#xB0;50&#x2B9;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>

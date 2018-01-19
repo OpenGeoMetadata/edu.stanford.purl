@@ -4,7 +4,7 @@
   "dc_description_s": "This polygon shapefile represents the boundary between lake islands and lakes at high resolution. Lake islands, or inland islands, are landmasses inside of lakes. High represents an 80 percent reduction in size and quality from the full (original) resolution layer. The Global Self-consistent, Hierarchical, High-resolution Geography (GSHHG) Database is a high-resolution geography data set amalgamated from three data bases in the public domain. This layer is part of GSHHG Version 2.3.3. The World Vector Shorelines (WVS) is the basis for shorelines except for Antarctica while the CIA World Data Bank (WDBII) is the basis for lakes, although there are instances where differences in coastline representations necessitated adding WDBII islands to GSHHG. The WDBII source also provides all political borders and rivers. GSHHG data have undergone extensive processing and should be free of internal inconsistencies such as erratic points and crossing segments. Atlas of the Cryosphere (AC) provides the basis for Antarctica coastlines. The shorelines are constructed entirely from hierarchically arranged closed polygons. These shoreline polygon data can be used to simplify data searches and data selections and to study the statistical characteristics of shorelines and land-masses.",
   "dc_rights_s": "Public",
   "dct_provenance_s": "Stanford",
-  "dct_references_s": "{\"http://schema.org/url\":\"http://purl.stanford.edu/ng167wv4209\",\"http://schema.org/downloadUrl\":\"http://stacks.stanford.edu/file/druid:ng167wv4209/data.zip\",\"http://www.loc.gov/mods/v3\":\"http://purl.stanford.edu/ng167wv4209.mods\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"http://opengeometadata.stanford.edu/metadata/edu.stanford.purl/druid:ng167wv4209/iso19139.xml\",\"http://www.w3.org/1999/xhtml\":\"http://opengeometadata.stanford.edu/metadata/edu.stanford.purl/druid:ng167wv4209/default.html\",\"http://www.opengis.net/def/serviceType/ogc/wfs\":\"https://geowebservices.stanford.edu/geoserver/wfs\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices.stanford.edu/geoserver/wms\"}",
+  "dct_references_s": "{\"http://schema.org/url\":\"http://purl.stanford.edu/ng167wv4209\",\"http://schema.org/downloadUrl\":\"http://stacks.stanford.edu/file/druid:ng167wv4209/data.zip\",\"http://www.loc.gov/mods/v3\":\"http://purl.stanford.edu/ng167wv4209.mods\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"https://raw.githubusercontent.com/OpenGeoMetadata/edu.stanford.purl/master/ng/167/wv/4209/iso19139.xml\",\"http://www.opengis.net/def/serviceType/ogc/wfs\":\"https://geowebservices.stanford.edu/geoserver/wfs\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices.stanford.edu/geoserver/wms\"}",
   "layer_id_s": "druid:ng167wv4209",
   "layer_slug_s": "stanford-ng167wv4209",
   "layer_geom_type_s": "Polygon",
@@ -25,8 +25,12 @@
     "Inland Waters"
   ],
   "dct_issued_s": "2014",
-  "dct_temporal_sm": "2014",
-  "dct_spatial_sm": "Earth",
+  "dct_temporal_sm": [
+    "2014"
+  ],
+  "dct_spatial_sm": [
+    "Earth"
+  ],
   "solr_geom": "ENVELOPE(-163.939444, 170.21, 74.883056, -48.800833)",
   "solr_year_i": 2014,
   "stanford_rights_metadata_s": "<?xml version=\"1.0\"?>\n<rightsMetadata>\n  <access type=\"discover\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <access type=\"read\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <use>\n    <human type=\"useAndReproduction\">This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. http://www.gnu.org/licenses.</human>\n  </use>\n  <copyright>\n    <human>Copyright resides with the originator.</human>\n  </copyright>\n</rightsMetadata>\n",

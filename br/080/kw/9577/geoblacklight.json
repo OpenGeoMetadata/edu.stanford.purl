@@ -4,7 +4,7 @@
   "dc_description_s": "This polygon shapefile represents medical service study areas (MSSA) in California for 2007. MSSAs are the defined geographic analysis unit for the Office of Statewide Health Planning and Development (OSHPD). MSSAs are a principal component for display of large data bases through OSHPD's and State of California's Geographic Information Systems. MSSAs have the potential for assisting in needs assessment, health planning, and health policy development. MSSA's are reproduced on the decadal census and the boundaries are formally approved by the Health Manpower Policy Commission. Moreover, the US Department of Health and Human Services, Health Resources Serviced Administration (HRSA) formally recognizes California MSSA's as the Rational Service Area (RSA) for medical service for California.The 2007 MSSA layer (developed during July 2009 - July 2010) is an update to the 2005 version and represents the boundaries constructed following the census. The MSSA layer is the unique MSSA boundaries composed of aggregated census tracts. This layer is created by dissolving all census tracts on a common MSSA Name/ID. MSSA's are maintained by OSHPD and used by multiple agencies to administer a variety of state and federal health-related programs. This layer is part of the Healthcare Atlas of California.The 2007 MSSA layer (developed during July 2009 - July 2010) was developed to update fields affected by population change, to update the practioner count and ratio fields, and to correct the poverty fields. The Claritas 2007 population data pertaining to total, group quarter, race, ethnicity, and age was used in the update. InfoUSA 2009 data was used for physician, dentist, and psych counts. Some geometry updates were also included in this version. In July of 2010 updates were made to the poverty data to correct a miscalculation of poverty percentages. Also \"2007\" was removed from field names.",
   "dc_rights_s": "Public",
   "dct_provenance_s": "Stanford",
-  "dct_references_s": "{\"http://schema.org/url\":\"http://purl.stanford.edu/br080kw9577\",\"http://schema.org/downloadUrl\":\"http://stacks.stanford.edu/file/druid:br080kw9577/data.zip\",\"http://www.loc.gov/mods/v3\":\"http://purl.stanford.edu/br080kw9577.mods\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"http://opengeometadata.stanford.edu/metadata/edu.stanford.purl/druid:br080kw9577/iso19139.xml\",\"http://www.w3.org/1999/xhtml\":\"http://opengeometadata.stanford.edu/metadata/edu.stanford.purl/druid:br080kw9577/default.html\",\"http://www.opengis.net/def/serviceType/ogc/wfs\":\"https://geowebservices.stanford.edu/geoserver/wfs\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices.stanford.edu/geoserver/wms\"}",
+  "dct_references_s": "{\"http://schema.org/url\":\"http://purl.stanford.edu/br080kw9577\",\"http://schema.org/downloadUrl\":\"http://stacks.stanford.edu/file/druid:br080kw9577/data.zip\",\"http://www.loc.gov/mods/v3\":\"http://purl.stanford.edu/br080kw9577.mods\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"https://raw.githubusercontent.com/OpenGeoMetadata/edu.stanford.purl/master/br/080/kw/9577/iso19139.xml\",\"http://www.opengis.net/def/serviceType/ogc/wfs\":\"https://geowebservices.stanford.edu/geoserver/wfs\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices.stanford.edu/geoserver/wms\"}",
   "layer_id_s": "druid:br080kw9577",
   "layer_slug_s": "stanford-br080kw9577",
   "layer_geom_type_s": "Polygon",
@@ -13,7 +13,9 @@
   "dc_language_s": "English",
   "dc_type_s": "Dataset",
   "dc_publisher_s": "California. Office of Statewide Health Planning and Development",
-  "dc_creator_sm": "California. Office of Statewide Health Planning and Development",
+  "dc_creator_sm": [
+    "California. Office of Statewide Health Planning and Development"
+  ],
   "dc_subject_sm": [
     "Medical care",
     "Health services accessibility",
@@ -22,8 +24,12 @@
     "Health"
   ],
   "dct_issued_s": "2007",
-  "dct_temporal_sm": "2007",
-  "dct_spatial_sm": "California",
+  "dct_temporal_sm": [
+    "2007"
+  ],
+  "dct_spatial_sm": [
+    "California"
+  ],
   "solr_geom": "ENVELOPE(-124.482003, -114.131212, 42.009519, 32.528832)",
   "solr_year_i": 2007,
   "stanford_rights_metadata_s": "<?xml version=\"1.0\"?>\n<rightsMetadata>\n  <access type=\"discover\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <access type=\"read\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <use>\n    <human type=\"useAndReproduction\">This item is in the public domain.  There are no restrictions on use.</human>\n    <human type=\"creativeCommons\"/>\n    <machine type=\"creativeCommons\"/>\n  </use>\n  <copyright>\n    <human>This work is in the Public Domain, meaning that it is not subject to copyright.</human>\n  </copyright>\n</rightsMetadata>\n",

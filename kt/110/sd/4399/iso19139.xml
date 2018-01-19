@@ -1,0 +1,784 @@
+<MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <fileIdentifier>
+    <gco:CharacterString>edu.stanford.purl:kt110sd4399</gco:CharacterString>
+  </fileIdentifier>
+  <language>
+    <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+  </language>
+  <characterSet>
+    <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+  </characterSet>
+  <parentIdentifier>
+    <gco:CharacterString>http://purl.stanford.edu/cz385jp1958.mods</gco:CharacterString>
+  </parentIdentifier>
+  <hierarchyLevel>
+    <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+  </hierarchyLevel>
+  <hierarchyLevelName>
+    <gco:CharacterString>dataset</gco:CharacterString>
+  </hierarchyLevelName>
+  <contact>
+    <CI_ResponsibleParty>
+      <individualName>
+        <gco:CharacterString>Brett Wyckoff, brett.wyckoff@water.ca.gov, 916-651-9283</gco:CharacterString>
+      </individualName>
+      <organisationName>
+        <gco:CharacterString>California Department of Water Resources - Division of Integrated Regional Water Management</gco:CharacterString>
+      </organisationName>
+      <contactInfo>
+        <CI_Contact>
+          <phone>
+            <CI_Telephone>
+              <voice>
+                <gco:CharacterString>(916) 651-9283</gco:CharacterString>
+              </voice>
+            </CI_Telephone>
+          </phone>
+          <address>
+            <CI_Address>
+              <deliveryPoint>
+                <gco:CharacterString>P.O. Box 942836</gco:CharacterString>
+              </deliveryPoint>
+              <city>
+                <gco:CharacterString>Sacramento</gco:CharacterString>
+              </city>
+              <administrativeArea>
+                <gco:CharacterString>CA</gco:CharacterString>
+              </administrativeArea>
+              <postalCode>
+                <gco:CharacterString>94236</gco:CharacterString>
+              </postalCode>
+              <electronicMailAddress>
+                <gco:CharacterString>brett.wyckoff@water.ca.gov</gco:CharacterString>
+              </electronicMailAddress>
+            </CI_Address>
+          </address>
+        </CI_Contact>
+      </contactInfo>
+      <role>
+        <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
+      </role>
+    </CI_ResponsibleParty>
+  </contact>
+  <dateStamp>
+    <gco:Date>2017-01-11</gco:Date>
+  </dateStamp>
+  <metadataStandardName>
+    <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+  </metadataStandardName>
+  <metadataStandardVersion>
+    <gco:CharacterString>2007</gco:CharacterString>
+  </metadataStandardVersion>
+  <dataSetURI>
+    <gco:CharacterString>http://purl.stanford.edu/kt110sd4399</gco:CharacterString>
+  </dataSetURI>
+  <spatialRepresentationInfo>
+    <MD_VectorSpatialRepresentation>
+      <topologyLevel>
+        <MD_TopologyLevelCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopologyLevelCode" codeListValue="geometryOnly" codeSpace="ISOTC211/19115">geometryOnly</MD_TopologyLevelCode>
+      </topologyLevel>
+      <geometricObjects>
+        <MD_GeometricObjects>
+          <geometricObjectType>
+            <MD_GeometricObjectTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="composite" codeSpace="ISOTC211/19115">composite</MD_GeometricObjectTypeCode>
+          </geometricObjectType>
+          <geometricObjectCount>
+            <gco:Integer>515</gco:Integer>
+          </geometricObjectCount>
+        </MD_GeometricObjects>
+      </geometricObjects>
+    </MD_VectorSpatialRepresentation>
+  </spatialRepresentationInfo>
+  <referenceSystemInfo>
+    <MD_ReferenceSystem>
+      <referenceSystemIdentifier>
+        <RS_Identifier>
+          <code>
+            <gco:CharacterString>3310</gco:CharacterString>
+          </code>
+          <codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </codeSpace>
+          <version>
+            <gco:CharacterString>8.6.2</gco:CharacterString>
+          </version>
+        </RS_Identifier>
+      </referenceSystemIdentifier>
+    </MD_ReferenceSystem>
+  </referenceSystemInfo>
+  <identificationInfo>
+    <MD_DataIdentification>
+      <citation>
+        <CI_Citation>
+          <title>
+            <gco:CharacterString>Bulletin 118 - Groundwater Basins and Subbasins, California, 2003</gco:CharacterString>
+          </title>
+          <date>
+            <CI_Date>
+              <date>
+                <gco:Date>2015-01-01</gco:Date>
+              </date>
+              <dateType>
+                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+              </dateType>
+            </CI_Date>
+          </date>
+          <identifier>
+            <MD_Identifier>
+              <code>
+                <gco:CharacterString>http://purl.stanford.edu/kt110sd4399</gco:CharacterString>
+              </code>
+            </MD_Identifier>
+          </identifier>
+          <citedResponsibleParty>
+            <CI_ResponsibleParty>
+              <organisationName>
+                <gco:CharacterString>California. Department of Water Resources</gco:CharacterString>
+              </organisationName>
+              <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+              </role>
+            </CI_ResponsibleParty>
+          </citedResponsibleParty>
+          <citedResponsibleParty>
+            <CI_ResponsibleParty>
+              <organisationName>
+                <gco:CharacterString>California. Department of Water Resources</gco:CharacterString>
+              </organisationName>
+              <contactInfo>
+                <CI_Contact>
+                  <phone>
+                    <CI_Telephone>
+                      <voice>
+                        <gco:CharacterString>(916) 653-5791</gco:CharacterString>
+                      </voice>
+                    </CI_Telephone>
+                  </phone>
+                  <address>
+                    <CI_Address>
+                      <deliveryPoint>
+                        <gco:CharacterString>P.O. Box 942836</gco:CharacterString>
+                      </deliveryPoint>
+                      <city>
+                        <gco:CharacterString>Sacramento</gco:CharacterString>
+                      </city>
+                      <administrativeArea>
+                        <gco:CharacterString>California</gco:CharacterString>
+                      </administrativeArea>
+                      <postalCode>
+                        <gco:CharacterString>94236</gco:CharacterString>
+                      </postalCode>
+                      <country>
+                        <gco:CharacterString>US</gco:CharacterString>
+                      </country>
+                    </CI_Address>
+                  </address>
+                </CI_Contact>
+              </contactInfo>
+              <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="ISOTC211/19115">publisher</CI_RoleCode>
+              </role>
+            </CI_ResponsibleParty>
+          </citedResponsibleParty>
+          <presentationForm>
+            <CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115">mapDigital</CI_PresentationFormCode>
+          </presentationForm>
+          <collectiveTitle>
+            <gco:CharacterString>Groundwater Information Center, California: GIS Maps and Data</gco:CharacterString>
+          </collectiveTitle>
+        </CI_Citation>
+      </citation>
+      <abstract>
+        <gco:CharacterString>The polygon shapefile contains the boundaries of 515 groundwater basins and subbasins as defined by the California Department of Water Resources (Bulletin 118, 2003). Groundwater basins are represented as polygon features and designated on the basis of geological and hydrological conditions - usually the occurrence of alluvial or unconsolidated deposits. When practical, large basins are also subdivided by political boundaries, as in the Central Valley. Basins are named and numbered per the convention of the Department of Water Resources. The associated data are considered DWR enterprise GIS data, which meet all appropriate requirements of the DWR GIS Spatial Data Standards. DWR makes no warranties or guarantees, either expressed or implied, as to the completeness, accuracy or correctness of the data, nor accepts or assumes any liability arising from or for any incorrect, incomplete or misleading subject data.</gco:CharacterString>
+      </abstract>
+      <purpose>
+        <gco:CharacterString>Bulletin 118 defines the recognized groundwater basins and subbasins throughout the State of California. The Bulletin 118 document provides information on these basins/subbasins and the nature and extent of groundwater occurrence and management within the State. The Bulletin 118 dataset makes the geographic locations and extent of the 515 basins/subbasins publically available, for use in external mapping/GIS applications.</gco:CharacterString>
+      </purpose>
+      <credit>
+        <gco:CharacterString>California Department of Water Resources. (2015). Bulletin 118 - Groundwater Basins and Subbasins, California, 2003. California Department of Water Resources. Available at: http://purl.stanford.edu/kt110sd4399.</gco:CharacterString>
+      </credit>
+      <status>
+        <MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="ISOTC211/19115">completed</MD_ProgressCode>
+      </status>
+      <pointOfContact>
+        <CI_ResponsibleParty>
+          <organisationName>
+            <gco:CharacterString>DWR - Division of Integrated Regional Water Management</gco:CharacterString>
+          </organisationName>
+          <contactInfo>
+            <CI_Contact>
+              <phone>
+                <CI_Telephone>
+                  <voice>
+                    <gco:CharacterString>(916) 653-5791</gco:CharacterString>
+                  </voice>
+                </CI_Telephone>
+              </phone>
+              <address>
+                <CI_Address>
+                  <deliveryPoint>
+                    <gco:CharacterString>1416 9th Street</gco:CharacterString>
+                  </deliveryPoint>
+                  <city>
+                    <gco:CharacterString>Sacramento</gco:CharacterString>
+                  </city>
+                  <administrativeArea>
+                    <gco:CharacterString>CA</gco:CharacterString>
+                  </administrativeArea>
+                  <postalCode>
+                    <gco:CharacterString>95814</gco:CharacterString>
+                  </postalCode>
+                  <electronicMailAddress>
+                    <gco:CharacterString>http://www.water.ca.gov/canav/comment.cfm</gco:CharacterString>
+                  </electronicMailAddress>
+                </CI_Address>
+              </address>
+            </CI_Contact>
+          </contactInfo>
+          <role>
+            <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
+          </role>
+        </CI_ResponsibleParty>
+      </pointOfContact>
+      <resourceMaintenance>
+        <MD_MaintenanceInformation>
+          <maintenanceAndUpdateFrequency>
+            <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="irregular" codeSpace="ISOTC211/19115">irregular</MD_MaintenanceFrequencyCode>
+          </maintenanceAndUpdateFrequency>
+        </MD_MaintenanceInformation>
+      </resourceMaintenance>
+      <graphicOverview>
+        <MD_BrowseGraphic>
+          <fileName>
+            <gco:CharacterString>https://dwrgis.water.ca.gov/documents/269784/23683f6d-56fa-413b-acce-869f2da19ec5</gco:CharacterString>
+          </fileName>
+          <fileDescription>
+            <gco:CharacterString>A series of yellow polygons depicting groundwater basins.</gco:CharacterString>
+          </fileDescription>
+          <fileType>
+            <gco:CharacterString>JPEG</gco:CharacterString>
+          </fileType>
+        </MD_BrowseGraphic>
+      </graphicOverview>
+      <descriptiveKeywords>
+        <MD_Keywords>
+          <keyword>
+            <gco:CharacterString>California</gco:CharacterString>
+          </keyword>
+          <type>
+            <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+          </type>
+          <thesaurusName>
+            <CI_Citation>
+              <title>
+                <gco:CharacterString>geonames</gco:CharacterString>
+              </title>
+              <date gco:nilReason="missing"/>
+            </CI_Citation>
+          </thesaurusName>
+        </MD_Keywords>
+      </descriptiveKeywords>
+      <descriptiveKeywords>
+        <MD_Keywords>
+          <keyword>
+            <gco:CharacterString>Groundwater</gco:CharacterString>
+          </keyword>
+          <keyword>
+            <gco:CharacterString>Basins (Geology)</gco:CharacterString>
+          </keyword>
+          <keyword>
+            <gco:CharacterString>Aquifers</gco:CharacterString>
+          </keyword>
+          <keyword>
+            <gco:CharacterString>Hydrogeology</gco:CharacterString>
+          </keyword>
+          <type>
+            <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+          </type>
+          <thesaurusName>
+            <CI_Citation>
+              <title>
+                <gco:CharacterString>lcsh</gco:CharacterString>
+              </title>
+              <date gco:nilReason="missing"/>
+              <identifier>
+                <MD_Identifier>
+                  <code>
+                    <gco:CharacterString>http://id.loc.gov/authorities/subjects.html</gco:CharacterString>
+                  </code>
+                </MD_Identifier>
+              </identifier>
+            </CI_Citation>
+          </thesaurusName>
+        </MD_Keywords>
+      </descriptiveKeywords>
+      <descriptiveKeywords>
+        <MD_Keywords>
+          <keyword>
+            <gco:CharacterString>Downloadable Data</gco:CharacterString>
+          </keyword>
+          <thesaurusName uuidref="723f6998-058e-11dc-8314-0800200c9a66"/>
+        </MD_Keywords>
+      </descriptiveKeywords>
+      <resourceConstraints>
+        <MD_LegalConstraints>
+          <useLimitation>
+            <gco:CharacterString>DWR Data Disclaimer: This dataset was developed by the State of California, Department of Water Resources, for uses beneficial to the State. The information is available upon request to interested members of the public. While the Department believes the information to be reliable and made efforts to assure its reliability at the time the information was compiled, the information is provided "as is". The Department is not responsible for the accuracy, completeness, quality or legal sufficiency of the information. Any expressed or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for purpose ARE SPECIFICALLY DISCLAIMED. Neither the Department nor the State of California shall be held liable for any direct, indirect, incidental, special, exemplary or consequential damages (including, but not limited to: procurement of substitute goods or services; loss of use, data or profits; or business interruption), however caused and on any theory of liability, whether in contract, strict liability or tort, arising in any way out of the use of this information. This disclaimer applies to use of the information alone and to its aggregate use with other information, data or programs. The information contained in each of the basin descriptions at this site was obtained from information on file in the offices of the Department of Water Resources and limited additional information. Recent studies may contain additional, more up-to-date information. To obtain the most up-to-date information about the basin you are interested in, please contact the local management agency listed near the end of the basin description. The State of California and the Department of Water Resources hereby specifically retain any intellectual property interest, including copyright, that they may hold in the information provided, whether the information is in the form of data, files, text images, photography or maps. The Department requests that persons receiving and using this information not make it available to others for their re-use. Instead, interested third parties should be encouraged to contact the Department for copies, in order to ensure that the information is obtained from the source that developed it, that can provide the greatest degree of reliability. Caution: It is possible to plot part or the entire map at a scale that exceeds the 1:250,000 resolution of the map. However, the groundwater basin data can be no more accurate than the 1:250,000 resolution base map on which it was plotted.</gco:CharacterString>
+          </useLimitation>
+        </MD_LegalConstraints>
+      </resourceConstraints>
+      <resourceConstraints>
+        <MD_SecurityConstraints>
+          <classification>
+            <MD_ClassificationCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ClassificationCode" codeListValue="unclassified" codeSpace="ISOTC211/19115">unclassified</MD_ClassificationCode>
+          </classification>
+          <classificationSystem>
+            <gco:CharacterString>none</gco:CharacterString>
+          </classificationSystem>
+          <handlingDescription>
+            <gco:CharacterString>This is unclassified, publicly available data.</gco:CharacterString>
+          </handlingDescription>
+        </MD_SecurityConstraints>
+      </resourceConstraints>
+      <aggregationInfo>
+        <MD_AggregateInformation>
+          <aggregateDataSetName>
+            <CI_Citation>
+              <title>
+                <gco:CharacterString>Groundwater Information Center, California: GIS Maps and Data</gco:CharacterString>
+              </title>
+              <date gco:nilReason="missing"/>
+              <identifier>
+                <MD_Identifier>
+                  <code>
+                    <gco:CharacterString>http://purl.stanford.edu/cz385jp1958</gco:CharacterString>
+                  </code>
+                </MD_Identifier>
+              </identifier>
+            </CI_Citation>
+          </aggregateDataSetName>
+          <associationType>
+            <DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="largerWorkCitation" codeSpace="ISOTC211/19115">largerWorkCitation</DS_AssociationTypeCode>
+          </associationType>
+          <initiativeType>
+            <DS_InitiativeTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="collection" codeSpace="ISOTC211/19115">collection</DS_InitiativeTypeCode>
+          </initiativeType>
+        </MD_AggregateInformation>
+      </aggregationInfo>
+      <spatialRepresentationType>
+        <MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" codeSpace="ISOTC211/19115">vector</MD_SpatialRepresentationTypeCode>
+      </spatialRepresentationType>
+      <language>
+        <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+      </language>
+      <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+      </characterSet>
+      <topicCategory>
+        <MD_TopicCategoryCode>geoscientificInformation</MD_TopicCategoryCode>
+      </topicCategory>
+      <topicCategory>
+        <MD_TopicCategoryCode>boundaries</MD_TopicCategoryCode>
+      </topicCategory>
+      <topicCategory>
+        <MD_TopicCategoryCode>inlandWaters</MD_TopicCategoryCode>
+      </topicCategory>
+      <environmentDescription>
+        <gco:CharacterString>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.1.4959</gco:CharacterString>
+      </environmentDescription>
+      <extent>
+        <EX_Extent>
+          <description>
+            <gco:CharacterString>ground condition</gco:CharacterString>
+          </description>
+          <temporalElement>
+            <EX_TemporalExtent>
+              <extent>
+                <gml:TimeInstant gml:id="idm6176">
+                  <gml:timePosition>2003-10-01T00:00:00</gml:timePosition>
+                </gml:TimeInstant>
+              </extent>
+            </EX_TemporalExtent>
+          </temporalElement>
+        </EX_Extent>
+      </extent>
+      <extent>
+        <EX_Extent>
+          <geographicElement>
+            <EX_GeographicBoundingBox>
+              <extentTypeCode>
+                <gco:Boolean>true</gco:Boolean>
+              </extentTypeCode>
+              <westBoundLongitude>
+                <gco:Decimal>-124.460099</gco:Decimal>
+              </westBoundLongitude>
+              <eastBoundLongitude>
+                <gco:Decimal>-113.601369</gco:Decimal>
+              </eastBoundLongitude>
+              <southBoundLatitude>
+                <gco:Decimal>32.427954</gco:Decimal>
+              </southBoundLatitude>
+              <northBoundLatitude>
+                <gco:Decimal>42.019109</gco:Decimal>
+              </northBoundLatitude>
+            </EX_GeographicBoundingBox>
+          </geographicElement>
+        </EX_Extent>
+      </extent>
+      <supplementalInformation>
+        <gco:CharacterString>Origination of Data - The basin boundaries for the groundwater basin map were primarily defined using geologic contacts and hydrogeologic divides. Specifically, the identification of the groundwater basins was initially based on the presence and areal extent of unconsolidated alluvial soils identified on 1:250,000 scale geologic maps provided by the California Department of Conservation, Division of Mines and Geology. The identified groundwater basin areas were then further evaluated through review of relevant geologic and hydrogeologic reports, well completion reports, court-determined adjudicated basin boundaries, and contact with local agencies to refine the basin boundaries. Date - The latest version of DWR&#x2019;s Bulletin 118 document is dated October, 2003, and is available at: http://www.water.ca.gov/groundwater/bulletin118/update2003.cfm The current dataset was updated at the time the latest Bulletin 118 document was produced, and is based on geological maps and other information available at that time. There have been minor corrections to the dataset since that time, as described in the data lineage. Additional Contacts - Contacts Statewide Data Steward: Brett Wyckoff Senior Engineering Geologist California Department of Water Resources Division of Integrated Regional Water Management (916) 651-9283 Brett.Wyckoff@water.ca.gov Region Office Data Sub-stewards: Northern Region Office Jonathan Mulder Engineering Geologist (530) 528-7423 Jonathan.Mulder@water.ca.gov North-Central Region Office Bill Brewster Engineering Geologist (916) 376-9622 Bill.Brewster@water.ca.gov South-Central Region Office Mike McKenzie Engineering Geologist (559) 230-3308 Charles.McKenzie@water.ca.gov Southern Region Office Matt Zimmerman Engineering Geologist (818) 500-1645 Matthew.Zimmerman@water.ca.gov Update Frequency: Changes to the dataset are made on an infrequent and irregular basis. Minor changes are occasionally made and will be documented in the metadata. Substantial changes, such as the extent of a basin boundary, must be completed as part of a public process, where the changes are proposed and public review and comment are welcomed before any changes are finalized.</gco:CharacterString>
+      </supplementalInformation>
+    </MD_DataIdentification>
+  </identificationInfo>
+  <contentInfo>
+    <MD_FeatureCatalogueDescription>
+      <complianceCode>
+        <gco:Boolean>false</gco:Boolean>
+      </complianceCode>
+      <language>
+        <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+      </language>
+      <includedWithDataset>
+        <gco:Boolean>true</gco:Boolean>
+      </includedWithDataset>
+      <featureCatalogueCitation>
+        <CI_Citation>
+          <title>
+            <gco:CharacterString>Feature catalog for Bulletin 118 - Groundwater Basins and Subbasins, California, 2003</gco:CharacterString>
+          </title>
+          <date gco:nilReason="missing"/>
+          <identifier>
+            <MD_Identifier>
+              <code>
+                <gco:CharacterString>e52f60c0-174e-4aeb-8578-d12c40cd3463</gco:CharacterString>
+              </code>
+            </MD_Identifier>
+          </identifier>
+        </CI_Citation>
+      </featureCatalogueCitation>
+    </MD_FeatureCatalogueDescription>
+  </contentInfo>
+  <distributionInfo>
+    <MD_Distribution>
+      <distributionFormat>
+        <MD_Format>
+          <name>
+            <gco:CharacterString>Shapefile</gco:CharacterString>
+          </name>
+          <version gco:nilReason="missing"/>
+        </MD_Format>
+      </distributionFormat>
+      <distributor>
+        <MD_Distributor>
+          <distributorContact>
+            <CI_ResponsibleParty>
+              <organisationName>
+                <gco:CharacterString>California Department of Water Resources</gco:CharacterString>
+              </organisationName>
+              <contactInfo>
+                <CI_Contact>
+                  <phone>
+                    <CI_Telephone>
+                      <voice>
+                        <gco:CharacterString>(916) 653-5791</gco:CharacterString>
+                      </voice>
+                    </CI_Telephone>
+                  </phone>
+                  <address>
+                    <CI_Address>
+                      <deliveryPoint>
+                        <gco:CharacterString>P.O. Box 942836</gco:CharacterString>
+                      </deliveryPoint>
+                      <city>
+                        <gco:CharacterString>Sacramento</gco:CharacterString>
+                      </city>
+                      <administrativeArea>
+                        <gco:CharacterString>CA</gco:CharacterString>
+                      </administrativeArea>
+                      <postalCode>
+                        <gco:CharacterString>95814</gco:CharacterString>
+                      </postalCode>
+                      <electronicMailAddress>
+                        <gco:CharacterString>http://water.ca.gov/canav/comment.cfm</gco:CharacterString>
+                      </electronicMailAddress>
+                    </CI_Address>
+                  </address>
+                </CI_Contact>
+              </contactInfo>
+              <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="ISOTC211/19115">distributor</CI_RoleCode>
+              </role>
+            </CI_ResponsibleParty>
+          </distributorContact>
+          <distributionOrderProcess>
+            <MD_StandardOrderProcess>
+              <fees>
+                <gco:CharacterString>none</gco:CharacterString>
+              </fees>
+            </MD_StandardOrderProcess>
+          </distributionOrderProcess>
+          <distributorFormat>
+            <MD_Format>
+              <name>
+                <gco:CharacterString>File Geodatabase Feature Class</gco:CharacterString>
+              </name>
+              <version>
+                <gco:CharacterString>v4_enterprise; 20140824</gco:CharacterString>
+              </version>
+            </MD_Format>
+          </distributorFormat>
+          <distributorTransferOptions>
+            <MD_DigitalTransferOptions>
+              <transferSize>
+                <gco:Real>4.873</gco:Real>
+              </transferSize>
+              <onLine>
+                <CI_OnlineResource>
+                  <linkage>
+                    <URL>http://gis.water.ca.gov/app/groundwater/</URL>
+                  </linkage>
+                </CI_OnlineResource>
+              </onLine>
+            </MD_DigitalTransferOptions>
+          </distributorTransferOptions>
+        </MD_Distributor>
+      </distributor>
+      <transferOptions>
+        <MD_DigitalTransferOptions>
+          <transferSize>
+            <gco:Real>4.857</gco:Real>
+          </transferSize>
+          <onLine>
+            <CI_OnlineResource>
+              <linkage>
+                <URL>http://purl.stanford.edu/kt110sd4399</URL>
+              </linkage>
+              <protocol>
+                <gco:CharacterString>http</gco:CharacterString>
+              </protocol>
+              <name>
+                <gco:CharacterString>Bulletin_118_Groundwater_Basins_2003</gco:CharacterString>
+              </name>
+            </CI_OnlineResource>
+          </onLine>
+        </MD_DigitalTransferOptions>
+      </transferOptions>
+    </MD_Distribution>
+  </distributionInfo>
+  <dataQualityInfo>
+    <DQ_DataQuality>
+      <scope>
+        <DQ_Scope>
+          <level>
+            <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+          </level>
+        </DQ_Scope>
+      </scope>
+      <report>
+        <DQ_ConceptualConsistency>
+          <measureDescription>
+            <gco:CharacterString>No contradictions currently appear.</gco:CharacterString>
+          </measureDescription>
+          <result gco:nilReason="missing"/>
+        </DQ_ConceptualConsistency>
+      </report>
+      <report>
+        <DQ_CompletenessOmission>
+          <measureDescription>
+            <gco:CharacterString>Dataset appears to have all features. Due to the nature of the subject matter, edge to edge coverage of California does not exist.</gco:CharacterString>
+          </measureDescription>
+          <result gco:nilReason="missing"/>
+        </DQ_CompletenessOmission>
+      </report>
+      <report>
+        <DQ_QuantitativeAttributeAccuracy>
+          <measureDescription>
+            <gco:CharacterString>Of 515 Features: All have Basin_Id, Basin_Subasin_ID, Basin_Name, BasinSubbasin_Type, GW_Budget_Type, Region_Office populated. Where BasinSubbasin_Type is 2, Subbasin_Name is populated. Date_Record_Last_Edited, Record_Edited_By, and Comments are populated with &lt;null&gt;.</gco:CharacterString>
+          </measureDescription>
+          <result gco:nilReason="missing"/>
+        </DQ_QuantitativeAttributeAccuracy>
+      </report>
+      <report>
+        <DQ_AbsoluteExternalPositionalAccuracy>
+          <measureDescription>
+            <gco:CharacterString>Established to be 16000 meters at three sigma.</gco:CharacterString>
+          </measureDescription>
+          <evaluationMethodDescription>
+            <gco:CharacterString>Horizontal positional accuracy was established by professional judgement. According to Bill Brewster, 100% of the linework is better than 10 mile accuracy. Some places are better than 10 mile accuracy.</gco:CharacterString>
+          </evaluationMethodDescription>
+          <result>
+            <DQ_QuantitativeResult>
+              <valueUnit gco:nilReason="missing"/>
+              <value>
+                <gco:Record>16000</gco:Record>
+              </value>
+            </DQ_QuantitativeResult>
+          </result>
+        </DQ_AbsoluteExternalPositionalAccuracy>
+      </report>
+      <lineage>
+        <LI_Lineage>
+          <processStep>
+            <LI_ProcessStep>
+              <description>
+                <gco:CharacterString>Metadata Update - December 09, 2010 B118_v3_BasinBoundaries_NAD83_unprojected file was developed from B118v3NAD27UTM10 (dated 15-September-2006) which had a UTM 10 NAD 27 projection. The new file projection is defined as Latitude/Longitude NAD 83 and was converted using ESRI's Project tool in a two step process. Set one changed the Datum from NAD27 to NAD 83. The second step was to re-project the file from Universal Transverse Mercator 10 to Lat/Long Geographic projection for the use of CASGEM.</gco:CharacterString>
+              </description>
+              <dateTime>
+                <gco:DateTime>2010-12-09T00:00:00</gco:DateTime>
+              </dateTime>
+              <processor>
+                <CI_ResponsibleParty>
+                  <individualName>
+                    <gco:CharacterString>Brett Wyckoff</gco:CharacterString>
+                  </individualName>
+                  <contactInfo>
+                    <CI_Contact>
+                      <phone>
+                        <CI_Telephone>
+                          <voice>
+                            <gco:CharacterString>(916) 651-9283</gco:CharacterString>
+                          </voice>
+                        </CI_Telephone>
+                      </phone>
+                      <address>
+                        <CI_Address>
+                          <deliveryPoint>
+                            <gco:CharacterString>901 P Street, Room 213B</gco:CharacterString>
+                          </deliveryPoint>
+                          <city>
+                            <gco:CharacterString>Sacramento</gco:CharacterString>
+                          </city>
+                          <administrativeArea>
+                            <gco:CharacterString>CA</gco:CharacterString>
+                          </administrativeArea>
+                          <postalCode>
+                            <gco:CharacterString>95814</gco:CharacterString>
+                          </postalCode>
+                          <electronicMailAddress>
+                            <gco:CharacterString>brett.wyckoff@water.ca.gov</gco:CharacterString>
+                          </electronicMailAddress>
+                        </CI_Address>
+                      </address>
+                    </CI_Contact>
+                  </contactInfo>
+                  <role>
+                    <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115">processor</CI_RoleCode>
+                  </role>
+                </CI_ResponsibleParty>
+              </processor>
+            </LI_ProcessStep>
+          </processStep>
+          <processStep>
+            <LI_ProcessStep>
+              <description>
+                <gco:CharacterString>Metadata Update &#x2013; June 20, 2012 The shapefile B118_BasinBoundaries_v4_1.shp replaces B118_v3_BasinBoundaries_NAD83_unprojected.shp. Changes in the update include restoration of the northern portion of the North Yuba subbasin which was inadvertently removed during the 2003 B-118 Update. Also, the DWR District field (DWR_DIST) in the feature attribute table has been replaced by Regional Office Field (Regional_O). Basin boundary features in previous versions that were comprised of multiple polygons are now represented by single multi-part polygons.</gco:CharacterString>
+              </description>
+              <dateTime>
+                <gco:DateTime>2014-06-20T00:00:00</gco:DateTime>
+              </dateTime>
+              <processor>
+                <CI_ResponsibleParty>
+                  <individualName>
+                    <gco:CharacterString>Brett Wyckoff</gco:CharacterString>
+                  </individualName>
+                  <contactInfo>
+                    <CI_Contact>
+                      <phone>
+                        <CI_Telephone>
+                          <voice>
+                            <gco:CharacterString>(916) 651-9283</gco:CharacterString>
+                          </voice>
+                        </CI_Telephone>
+                      </phone>
+                      <address>
+                        <CI_Address>
+                          <deliveryPoint>
+                            <gco:CharacterString>901 P Street, Room 213B</gco:CharacterString>
+                          </deliveryPoint>
+                          <city>
+                            <gco:CharacterString>Sacramento</gco:CharacterString>
+                          </city>
+                          <administrativeArea>
+                            <gco:CharacterString>CA</gco:CharacterString>
+                          </administrativeArea>
+                          <postalCode>
+                            <gco:CharacterString>95814</gco:CharacterString>
+                          </postalCode>
+                          <electronicMailAddress>
+                            <gco:CharacterString>Brett.Wyckoff@water.ca.gov</gco:CharacterString>
+                          </electronicMailAddress>
+                        </CI_Address>
+                      </address>
+                    </CI_Contact>
+                  </contactInfo>
+                  <role>
+                    <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor" codeSpace="ISOTC211/19115">processor</CI_RoleCode>
+                  </role>
+                </CI_ResponsibleParty>
+              </processor>
+            </LI_ProcessStep>
+          </processStep>
+          <source>
+            <LI_Source>
+              <description>
+                <gco:CharacterString>B118_v3_BasinBoundaries_NAD83_unprojected file was developed from B118v3NAD27UTM10 (dated 15-September-2006) which had a UTM 10 NAD 27 projection. The new file projection is defined as Latitude/Longitude NAD 83 and was converted using ESRI's Project tool in a two step process. Set one changed the Datum from NAD27 to NAD 83. The second step was to re-project the file from Universal Transverse Mercator 10 to Lat/Long Geographic projection for the use of CASGEM.</gco:CharacterString>
+              </description>
+              <sourceCitation>
+                <CI_Citation>
+                  <title>
+                    <gco:CharacterString>B118_v3_BasinBoundaries_NAD83_unprojected.shp</gco:CharacterString>
+                  </title>
+                  <alternateTitle>
+                    <gco:CharacterString>B118_v3_BasinBoundaries_NAD83_unprojected.shp</gco:CharacterString>
+                  </alternateTitle>
+                  <date>
+                    <CI_Date>
+                      <date>
+                        <gco:Date>2010-12-10</gco:Date>
+                      </date>
+                      <dateType>
+                        <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                      </dateType>
+                    </CI_Date>
+                  </date>
+                  <edition>
+                    <gco:CharacterString>3.0</gco:CharacterString>
+                  </edition>
+                  <citedResponsibleParty>
+                    <CI_ResponsibleParty>
+                      <organisationName>
+                        <gco:CharacterString>DWR - DIRWM - North Central Region Office</gco:CharacterString>
+                      </organisationName>
+                      <role>
+                        <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+                      </role>
+                    </CI_ResponsibleParty>
+                  </citedResponsibleParty>
+                  <otherCitationDetails>
+                    <gco:CharacterString>The shapefile B118_BasinBoundaries_v4_1.shp replaces B118_v3_BasinBoundaries_NAD83_unprojected.shp. Changes in the update include restoration of the northern portion of the North Yuba subbasin which was inadvertently removed during the 2003 B-118 Update. Also, the DWR District field (DWR_DIST) in the feature attribute table has been replaced by Regional Office Field (Regional_O). Basin boundary features in previous versions that were comprised of multiple polygons are now represented by single multi-part polygons.</gco:CharacterString>
+                  </otherCitationDetails>
+                </CI_Citation>
+              </sourceCitation>
+              <sourceExtent>
+                <EX_Extent>
+                  <description>
+                    <gco:CharacterString>publication date</gco:CharacterString>
+                  </description>
+                  <temporalElement>
+                    <EX_TemporalExtent>
+                      <extent>
+                        <gml:TimeInstant gml:id="idp316752">
+                          <gml:timePosition>2010-12-09</gml:timePosition>
+                        </gml:TimeInstant>
+                      </extent>
+                    </EX_TemporalExtent>
+                  </temporalElement>
+                </EX_Extent>
+              </sourceExtent>
+            </LI_Source>
+          </source>
+        </LI_Lineage>
+      </lineage>
+    </DQ_DataQuality>
+  </dataQualityInfo>
+</MD_Metadata>

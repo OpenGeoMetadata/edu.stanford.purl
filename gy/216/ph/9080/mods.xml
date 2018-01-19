@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Groundwater Elevation Change Color Ramp, California, Spring 2014 to Spring 2015</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>California. Department of Water Resources</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>California. Department of Water Resources</publisher>
+    <place>
+      <placeTerm type="text">Sacramento, California, US</placeTerm>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>GeoTIFF</form>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>Custom projection</projection>
+      <coordinates>(W 122&#xB0;29&#x2B9;52&#x2BA;--W 118&#xB0;37&#x2B9;36&#x2BA;/N 40&#xB0;38&#x2B9;3&#x2BA;--N 34&#xB0;58&#x2B9;47&#x2BA;)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This raster dataset (GeoTIFF) represents groundwater elevation in California using a color ramp. These data represent groundwater changes between spring 2014 and spring 2015. This layer is a smoothed approximation of the groundwater level 'surface' based on the measurement data. The measurement values may not exactly match the color ramp values because of the smoothing process.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">This layer is intended to be used as a compliment to data, reports, and other information provided by the California Groundwater Information Center.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">California Department of Water Resources. (2016). Groundwater Elevation Change Color Ramp, California, Spring 2014 to Spring 2015. California Department of Water Resources. Available at: http://purl.stanford.edu/gy216ph9080.</note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Hydrogeology</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Groundwater</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Basins (Geology)</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/3687919/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">California</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">2014-2015</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="inlandWaters">Inland Waters</topic>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="">Geoscientific Information</topic>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="elevation">Elevation</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/gy216ph9080</url>
+  </location>
+  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:gy216ph9080</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/gy216ph9080">
+        <dc:format>image/tiff; format=GeoTIFF</dc:format>
+        <dc:type>Dataset#Raster</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>-122.4977951 34.9797453</gml:lowerCorner>
+            <gml:upperCorner>-118.6266845 40.6340312</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;29&#x2B9;52&#x2BA;--W 118&#xB0;37&#x2B9;36&#x2BA;/N 40&#xB0;38&#x2B9;3&#x2BA;--N 34&#xB0;58&#x2B9;47&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>

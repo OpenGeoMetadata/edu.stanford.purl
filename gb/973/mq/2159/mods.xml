@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Recreational Fishing Effort, 2000-2009</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>Nature Conservancy (U.S.)</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <name type="corporate">
+    <namePart>United States. National Marine Fisheries Service</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>Northeast Ocean Data</publisher>
+    <place>
+      <placeTerm type="text"/>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <extent>0.59</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>Custom projection</projection>
+      <coordinates>(W 77&#xB0;9&#x2B9;2&#x2BA;--W 66&#xB0;39&#x2B9;24&#x2BA;/N 45&#xB0;28&#x2B9;25&#x2BA;--N 33&#xB0;55&#x2B9;3&#x2BA;)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This product was created by the Nature Conservancy based on data provided by the National Marine Fisheries Service. The number of trips information is based on vessel trip report records that have been aggregated by ten minute square and have been screened for confidentiality. The records to produce this dataset are for federally permitted party boats and charter boats only. Vessel trip reports are submitted to the National Marine Fisheries Service by federally permitted fishing vessels for all fishing trips. The screening process protects the identity of each individual permitted commercial fishing vessel. Approximately 70% to 80% of all recorded of trips between 2000 and 2009 are represented in this dataset at the ten-minute square resolution.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">The purpose of this data product to show the relative concentration of recreational fishing effort for each ten-minute square by federally permitted party and charter fishing vessels.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">The Nature Conservancy. (2011). Recreational Fishing Effort, 2000-2009. NOAA Marine Fisheries Service. Available at: http://purl.stanford.edu/gb973mq2159.</note>
+  <note displayLabel="Use limitation">These data and/or any products derived from them may only be distributed with prior written permission from The Nature Conservancy. This data set must be cited on all electronic and hard copy products using the language of the Data Set Credit. Use and analysis of the geographic data are limited by the scale at which the data was collected and mapped, and that, as a regional analysis, it is not intended for site level decisions. The Nature Conservancy shall not be held liable for improper or incorrect use of the data described and/or contained herein. Any sale, distribution, loan, or offering for use of these digital data, in whole or in part, is prohibited without the approval of the Nature Conservancy. The use of these data to produce other GIS products and services with the intent to sell for a profit is prohibited without the written consent of the Nature Conservancy. All parties receiving these data must be informed of these restrictions. The Nature Conservancy shall be acknowledged as data contributors to any reports or other products derived from these data.</note>
+  <subject>
+    <topic authority="lcsh" lang="eng">Fishing</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/3373405/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Atlantic Ocean</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng">Northeastern States</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">2000-2009</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="environment">Environment</topic>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="oceans">Oceans</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/gb973mq2159</url>
+  </location>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:gb973mq2159</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/gb973mq2159">
+        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type>Dataset#Polygon</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>-76.5 35.0</gml:lowerCorner>
+            <gml:upperCorner>-67.166664 44.334446</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="http://sws.geonames.org/3373405/" dc:language="eng" dc:title="Atlantic Ocean"/>
+        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Northeastern States"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 76&#xB0;30&#x2B9;--W 67&#xB0;10&#x2B9;/N 44&#xB0;20&#x2B9;4&#x2BA;--N 35&#xB0;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>

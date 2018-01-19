@@ -4,7 +4,7 @@
   "dc_description_s": "This raster layer is a 540 meter resolution grid map of the conterminous United States in GeoTIFF format, created from National Land Cover Data (NLCD). The NLCD data was reclassified into four categories: forest, other natural (e.g. grassland, wetland, etc.), human land use (e.g. agriculture, urban, etc.), and nodata (water, ice and snow, and bare rock/sand). A 9 x 9-pixel moving window was then used to generate forest edge measurements for every pixel, regardless of its class. Within each window, the edges of all forest pixels were examined to determine what type of land cover shared each edge. Three new grids were created, one for each edge type (forest-forest, forest-natural, and forest-human). The values in these grids were calculated as the number of edges with the appropriate type in the window divided by the total number of forest edges, regardless of neighbor. These grids represented forest connectivity (forest-forest edges), naturally caused forest fragmentation (forest-natural edges), and human caused forest fragmentation (forest- human edges). In the map, forest connectivity is displayed in green, natural fragmentation in blue, and human fragmentation in red. Yellow indicates areas that are an approximately equal mix of connected forest and human fragmentation, while cyan indicates areas that are an approximately equal mix of connected forest and natural fragmentation. Black represents areas with no forest in the 9 x 9-pixel window; white represents ignored or nodata areas, such as water, ice and snow, and bare rock/sand. This layer is part of the 1997-2014 edition of the National Atlas of the United States.Forest fragmentation has been studied extensively and can be quantified in several ways. This map layer is the first to identify sources of forest fragmentation, separating fragmentation into human and natural components. The data may be a useful tool for decision makers in identifying areas for protection or restoration. Areas displayed in yellow represent transition zones between connected forest and human-fragmented forest. Because human land uses tend to expand over time, these areas will be the most likely to experience further degradation. In time, the transition zones may become highly fragmented and new transitional areas will appear deeper in the intact forest. Consequently, the yellow areas in the map may represent excellent opportunities for protection or restoration. Protecting transitional and adjacent areas may limit further expansion or degradation of the transitional areas. Restoration efforts to eliminate or reduce fragmentation may produce larger patches of connected forest.",
   "dc_rights_s": "Public",
   "dct_provenance_s": "Stanford",
-  "dct_references_s": "{\"http://schema.org/url\":\"http://purl.stanford.edu/hf653vx2307\",\"http://schema.org/downloadUrl\":\"http://stacks.stanford.edu/file/druid:hf653vx2307/data.zip\",\"http://www.loc.gov/mods/v3\":\"http://purl.stanford.edu/hf653vx2307.mods\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"http://opengeometadata.stanford.edu/metadata/edu.stanford.purl/druid:hf653vx2307/iso19139.xml\",\"http://www.w3.org/1999/xhtml\":\"http://opengeometadata.stanford.edu/metadata/edu.stanford.purl/druid:hf653vx2307/default.html\",\"http://www.opengis.net/def/serviceType/ogc/wcs\":\"https://geowebservices.stanford.edu/geoserver/wcs\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices.stanford.edu/geoserver/wms\"}",
+  "dct_references_s": "{\"http://schema.org/url\":\"http://purl.stanford.edu/hf653vx2307\",\"http://schema.org/downloadUrl\":\"http://stacks.stanford.edu/file/druid:hf653vx2307/data.zip\",\"http://www.loc.gov/mods/v3\":\"http://purl.stanford.edu/hf653vx2307.mods\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"https://raw.githubusercontent.com/OpenGeoMetadata/edu.stanford.purl/master/hf/653/vx/2307/iso19139.xml\",\"http://www.opengis.net/def/serviceType/ogc/wcs\":\"https://geowebservices.stanford.edu/geoserver/wcs\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices.stanford.edu/geoserver/wms\"}",
   "layer_id_s": "druid:hf653vx2307",
   "layer_slug_s": "stanford-hf653vx2307",
   "layer_geom_type_s": "Raster",
@@ -13,7 +13,9 @@
   "dc_language_s": "English",
   "dc_type_s": "Dataset",
   "dc_publisher_s": "National Atlas of the United States",
-  "dc_creator_sm": "Wade, Tim",
+  "dc_creator_sm": [
+    "Wade, Tim"
+  ],
   "dc_subject_sm": [
     "Fragmented landscapes",
     "Landscape ecology",
@@ -24,7 +26,9 @@
     "Biology and Ecology"
   ],
   "dct_issued_s": "2004",
-  "dct_temporal_sm": "1992",
+  "dct_temporal_sm": [
+    "1992"
+  ],
   "dct_spatial_sm": [
     "United States",
     "Alaska",

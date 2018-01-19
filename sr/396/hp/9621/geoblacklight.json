@@ -4,7 +4,7 @@
   "dc_description_s": "This polygon shapefile contains the 4th level, 8-digit hydrologic unit code (HUC) sub-basin boundaries for California. A hydrologic unit is a drainage area delineated to nest in a multi-level, hierarchical drainage system. Its boundaries are defined by hydrographic and topographic criteria that delineate an area of land upstream from a specific point on a river, stream or similar surface waters. A hydrologic unit can accept surface water directly from upstream drainage areas, and indirectly from associated surface areas such as remnant, non-contributing, and diversions to form a drainage area with single or multiple outlet points. Hydrologic units are only synonymous with classic watersheds when their boundaries include all the source area contributing surface water to a single defined outlet point. The National Cartography and Geospatial Center (NRCS) modified the National WBD dataset with the intention of creating a seamless dataset for the entire country by all 6 levels. The data is delivered by sub-basin and includes data for HUC-8, HUC-10, and HUC-12. The deliverable includes attributes for hydrologic unit codes, hydrologic unit name, downstream hydrologic unit, man-made modifications to overland flow that alter the location of the HU boundary, and HU type for each hydrologic unit level 1-6. An acres field already exists for each subwatershed.This layer consists of georeferenced digital data and associated attributes created in accordance with the \"USGS National Map Accuracy Standards and the NRCS Federal Standards for Delineation of Hydrologic Unit Boundaries, 10/01/04.\" These data were developed by digitizing watershed and subwatershed boundary lines using 1:24,000-scale digital raster graphics (DRG), high-resolution digital watershed datasets, a high-resolution National Hydrography Dataset (NHD) at 1:24,000-scale, and 1:250,000-scale draft hydrologic boundary lines. A 30-meter National Elevation Dataset (NED) was used to produce the 1:250,000-scale preliminary draft boundaries, as well as a hillshade layer for additional reference. Some draft catchments (watersheds/subwatersheds) were also created with Watershed Boundary Dataset tools (ArcHydro Tools, Version 9), using the NED for terrain analysis and the NHD for determining stream flow direction. Polygons are attributed with the following: hydrologic unit codes for 6th level subwatersheds; HU sizes (in acres); states containing the HUs; non-contributing areas; and downsteam hydrologic units.The watershed and subwatershed hydrologic unit boundaries provide a uniquely identified and uniform method of subdividing large drainage areas. This dataset is intended to be used as a tool for water-resource management and planning activities, particularly for site-specific and localized studies requiring a level of detail provided by large-scale map information.",
   "dc_rights_s": "Public",
   "dct_provenance_s": "Stanford",
-  "dct_references_s": "{\"http://schema.org/url\":\"http://purl.stanford.edu/sr396hp9621\",\"http://schema.org/downloadUrl\":\"http://stacks.stanford.edu/file/druid:sr396hp9621/data.zip\",\"http://www.loc.gov/mods/v3\":\"http://purl.stanford.edu/sr396hp9621.mods\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"http://opengeometadata.stanford.edu/metadata/edu.stanford.purl/druid:sr396hp9621/iso19139.xml\",\"http://www.w3.org/1999/xhtml\":\"http://opengeometadata.stanford.edu/metadata/edu.stanford.purl/druid:sr396hp9621/default.html\",\"http://www.opengis.net/def/serviceType/ogc/wfs\":\"https://geowebservices.stanford.edu/geoserver/wfs\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices.stanford.edu/geoserver/wms\"}",
+  "dct_references_s": "{\"http://schema.org/url\":\"http://purl.stanford.edu/sr396hp9621\",\"http://schema.org/downloadUrl\":\"http://stacks.stanford.edu/file/druid:sr396hp9621/data.zip\",\"http://www.loc.gov/mods/v3\":\"http://purl.stanford.edu/sr396hp9621.mods\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"https://raw.githubusercontent.com/OpenGeoMetadata/edu.stanford.purl/master/sr/396/hp/9621/iso19139.xml\",\"http://www.opengis.net/def/serviceType/ogc/wfs\":\"https://geowebservices.stanford.edu/geoserver/wfs\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices.stanford.edu/geoserver/wms\"}",
   "layer_id_s": "druid:sr396hp9621",
   "layer_slug_s": "stanford-sr396hp9621",
   "layer_geom_type_s": "Polygon",
@@ -13,7 +13,9 @@
   "dc_language_s": "English",
   "dc_type_s": "Dataset",
   "dc_publisher_s": "Wyoming Geographic Information Sciences Center",
-  "dc_creator_sm": "Wyoming Geographic Information Sciences Center",
+  "dc_creator_sm": [
+    "Wyoming Geographic Information Sciences Center"
+  ],
   "dc_subject_sm": [
     "Hydrology",
     "Watersheds",
@@ -21,8 +23,12 @@
     "Planning and Cadastral"
   ],
   "dct_issued_s": "2013",
-  "dct_temporal_sm": "2012",
-  "dct_spatial_sm": "California",
+  "dct_temporal_sm": [
+    "2012"
+  ],
+  "dct_spatial_sm": [
+    "California"
+  ],
   "solr_geom": "ENVELOPE(-124.535124, -113.050843, 43.007975, 31.644098)",
   "solr_year_i": 2012,
   "stanford_rights_metadata_s": "<?xml version=\"1.0\"?>\n<rightsMetadata>\n  <access type=\"discover\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <access type=\"read\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <use>\n    <human type=\"useAndReproduction\">This item is in the public domain.  There are no restrictions on use.</human>\n    <human type=\"creativeCommons\"/>\n    <machine type=\"creativeCommons\"/>\n  </use>\n  <copyright>\n    <human>This work is in the Public Domain, meaning that it is not subject to copyright.</human>\n  </copyright>\n</rightsMetadata>\n",

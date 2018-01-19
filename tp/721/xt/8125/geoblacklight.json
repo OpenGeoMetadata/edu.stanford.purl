@@ -4,7 +4,7 @@
   "dc_description_s": "This polygon dataset represents county boundaries and population data in China from the 1990 Census. This layer also includes ethnographic information for the Chinese population. These data were primarily based on the \"The Administrative Maps of the People's Republic of China, published by China Map Press.This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.",
   "dc_rights_s": "Restricted",
   "dct_provenance_s": "Stanford",
-  "dct_references_s": "{\"http://schema.org/url\":\"http://purl.stanford.edu/tp721xt8125\",\"http://schema.org/downloadUrl\":\"http://stacks.stanford.edu/file/druid:tp721xt8125/data.zip\",\"http://www.loc.gov/mods/v3\":\"http://purl.stanford.edu/tp721xt8125.mods\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"http://opengeometadata.stanford.edu/metadata/edu.stanford.purl/druid:tp721xt8125/iso19139.xml\",\"http://www.w3.org/1999/xhtml\":\"http://opengeometadata.stanford.edu/metadata/edu.stanford.purl/druid:tp721xt8125/default.html\",\"http://www.opengis.net/def/serviceType/ogc/wfs\":\"https://geowebservices-restricted.stanford.edu/geoserver/wfs\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices-restricted.stanford.edu/geoserver/wms\"}",
+  "dct_references_s": "{\"http://schema.org/url\":\"http://purl.stanford.edu/tp721xt8125\",\"http://schema.org/downloadUrl\":\"http://stacks.stanford.edu/file/druid:tp721xt8125/data.zip\",\"http://www.loc.gov/mods/v3\":\"http://purl.stanford.edu/tp721xt8125.mods\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"https://raw.githubusercontent.com/OpenGeoMetadata/edu.stanford.purl/master/tp/721/xt/8125/iso19139.xml\",\"http://www.opengis.net/def/serviceType/ogc/wfs\":\"https://geowebservices-restricted.stanford.edu/geoserver/wfs\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices-restricted.stanford.edu/geoserver/wms\"}",
   "layer_id_s": "druid:tp721xt8125",
   "layer_slug_s": "stanford-tp721xt8125",
   "layer_geom_type_s": "Polygon",
@@ -36,8 +36,12 @@
     "Economy"
   ],
   "dct_issued_s": "2006",
-  "dct_temporal_sm": "1990",
-  "dct_spatial_sm": "China",
+  "dct_temporal_sm": [
+    "1990"
+  ],
+  "dct_spatial_sm": [
+    "China"
+  ],
   "solr_geom": "ENVELOPE(73.44696, 135.085831, 53.557926, 6.318641)",
   "solr_year_i": 1990,
   "stanford_rights_metadata_s": "<?xml version=\"1.0\"?>\n<rightsMetadata>\n  <access type=\"discover\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <access type=\"read\">\n    <machine>\n      <group>Stanford</group>\n    </machine>\n  </access>\n  <use>\n    <human type=\"useAndReproduction\">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. These data may not be reproduced or used for any purpose without permission. For more information please contact brannerlibrary@stanford.edu.</human>\n    <human type=\"creativeCommons\"/>\n    <machine type=\"creativeCommons\"/>\n  </use>\n  <copyright>\n    <human>Copyright ownership resides with the originator.</human>\n  </copyright>\n</rightsMetadata>\n",

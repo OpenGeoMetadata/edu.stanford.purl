@@ -1,6 +1,122 @@
 <?xml version="1.0"?>
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd">
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>North American Atlas - Bathymetry (Lines)</title>
   </titleInfo>
+  <name type="corporate">
+    <namePart>Instituto Nacional de Estad&#xED;stica, Geograf&#xED;a e Inform&#xE1;tica (Mexico)</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <name type="corporate">
+    <namePart>Canada Centre for Mapping</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <name type="corporate">
+    <namePart>Geological Survey (U.S.)</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>Canada Centre for Mapping</publisher>
+    <place>
+      <placeTerm type="text">Ottawa, CA</placeTerm>
+    </place>
+    <publisher>Instituto Nacional de Estad&#xED;stica, Geograf&#xED;a e Inform&#xE1;tica (Mexico)</publisher>
+    <place>
+      <placeTerm type="text">Aguascalientes, MX</placeTerm>
+    </place>
+    <publisher>Geological Survey (U.S.)</publisher>
+    <place>
+      <placeTerm type="text">Reston, Virginia, US</placeTerm>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
+    <dateValid encoding="w3cdtf">2004</dateValid>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <extent>5.224</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>1:10000000</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>(W 180&#xB0;--E 3&#xB0;16&#x2B9;26&#x2BA;/N 88&#xB0;9&#x2B9;40&#x2BA;--S 4&#xB0;56&#x2B9;39&#x2BA;)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This line shapefile shows bathymetric contours with depth in metres for ocean areas covered by the extent of the North American Atlas project. Isobaths (lines of equal depth) are provided for sea level (coastline, with depth = 1), 200, 500, and 2500 metres. Polygons bounded by these isobaths represent depth ranges of 0-200, 200-500, 500-2500, and greater than 2500 metres. This layer is part of the 1997-2014 edition of the National Atlas of the United States.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">The North American Atlas data are intended for geographic display and analysis at the national and continental level. </abstract>
+  <note displayLabel="Preferred citation" lang="eng">National Atlas of the United States. (2004). North American Atlas - Bathymetry (Lines). National Atlas of the United States. Available at: http://purl.stanford.edu/yk897vw1656.</note>
+  <note displayLabel="Preferred citation" lang="eng">National Atlas of the United States. (2004). North American Atlas - Bathymetry (Lines). National Atlas of the United States. Available at: http://purl.stanford.edu/yk897vw1656.</note>
+  <note displayLabel="Preferred citation" lang="eng">National Atlas of the United States. (2004). North American Atlas - Bathymetry (Lines). National Atlas of the United States. Available at: http://purl.stanford.edu/yk897vw1656.</note>
+  <note displayLabel="Supplemental information">The Commission for Environmental Cooperation (CEC) is an international organization created by Canada, Mexico, and the United States of America under the North American Agreement on Environmental Cooperation (NAAEC). The CEC was established to address regional environmental concerns, help prevent potential trade and environmental conflicts, and to promote the effective enforcement of environmental law. The Agreement complements the environmental provisions of the North American Free Trade Agreement (NAFTA). Further information on the CEC is available from http://www.cec.org/ or from &gt;Commission for Environmental Cooperation &gt;393, rue St-Jacques Ouest &gt;Bureau 200 &gt;Montr al (Qu bec) &gt;H2Y 1N9 Canada &gt; &gt;Telephone: 514 350 4300 &gt;Facsimile: 514 350 4314 &gt;Electronic mail: info@ccemtl.org &gt; All North American Atlas data sets are available in four data formats: Arc/INFO Export format (e00), ArcView Shapefile, Geography Markup Language (GML) and Spatial Data Transfer Standard (SDTS). Although these data are distributed in geographic coordinates, the North American Atlas Map uses a Lambert Azimuthal Equal Area projection. The following parameters were used for the map: &gt;Longitude_of_Projection_Center: -100.00 &gt;Latitude_of_Projection_Center: 45.00 &gt;False_Easting (metres): 0.0 &gt;False_Northing (metres): 0.0 &gt;Semi-major_Axis: 6370997.0 &gt;Denominator_of_Flattening_Ratio: 1.0 &gt;Ellipsoid_Name: Sphere &gt;Units: metres</note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Contours (Cartography)</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Bathymetric maps</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/3996063/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Mexico</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/6251999/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Canada</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/6252001/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">United States</geographic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/6255149/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">North America</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">2004</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="elevation">Elevation</topic>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="oceans">Oceans</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/yk897vw1656</url>
+  </location>
+  <accessCondition type="useAndReproduction">This item is in the public domain.</accessCondition>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:yk897vw1656</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/yk897vw1656">
+        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type>Dataset#LineString</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>-179.999993 -4.944152</gml:lowerCorner>
+            <gml:upperCorner>3.273918 88.161111</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="http://sws.geonames.org/3996063/" dc:language="eng" dc:title="Mexico"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/6251999/" dc:language="eng" dc:title="Canada"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/6255149/" dc:language="eng" dc:title="North America"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
 </mods>

@@ -1,6 +1,6 @@
 <MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <fileIdentifier>
-    <gco:CharacterString>edu.stanford.purl:bj158gm4479</gco:CharacterString>
+    <gco:CharacterString>edu.stanford.purl:yk932qx1621</gco:CharacterString>
   </fileIdentifier>
   <language>
     <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
@@ -9,7 +9,7 @@
     <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
   </characterSet>
   <parentIdentifier>
-    <gco:CharacterString>http://purl.stanford.edu/vc538rj6879.mods</gco:CharacterString>
+    <gco:CharacterString>http://purl.stanford.edu/tz390fn8810.mods</gco:CharacterString>
   </parentIdentifier>
   <hierarchyLevel>
     <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
@@ -34,10 +34,7 @@
           <address>
             <CI_Address>
               <deliveryPoint>
-                <gco:CharacterString>Branner Earth Sciences Library</gco:CharacterString>
-              </deliveryPoint>
-              <deliveryPoint>
-                <gco:CharacterString>Mitchell Building, 2nd Floor</gco:CharacterString>
+                <gco:CharacterString>Mitchell Bldg. 2nd floor</gco:CharacterString>
               </deliveryPoint>
               <deliveryPoint>
                 <gco:CharacterString>397 Panama Mall</gco:CharacterString>
@@ -51,6 +48,9 @@
               <postalCode>
                 <gco:CharacterString>94305</gco:CharacterString>
               </postalCode>
+              <country>
+                <gco:CharacterString>US</gco:CharacterString>
+              </country>
               <electronicMailAddress>
                 <gco:CharacterString>brannerlibrary@stanford.edu</gco:CharacterString>
               </electronicMailAddress>
@@ -64,7 +64,7 @@
     </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-    <gco:Date>2017-07-19</gco:Date>
+    <gco:Date>2017-12-18</gco:Date>
   </dateStamp>
   <metadataStandardName>
     <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -73,24 +73,77 @@
     <gco:CharacterString>2007</gco:CharacterString>
   </metadataStandardVersion>
   <dataSetURI>
-    <gco:CharacterString>http://purl.stanford.edu/bj158gm4479</gco:CharacterString>
+    <gco:CharacterString>http://purl.stanford.edu/yk932qx1621</gco:CharacterString>
   </dataSetURI>
   <spatialRepresentationInfo>
-    <MD_VectorSpatialRepresentation>
-      <topologyLevel>
-        <MD_TopologyLevelCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopologyLevelCode" codeListValue="geometryOnly" codeSpace="ISOTC211/19115">geometryOnly</MD_TopologyLevelCode>
-      </topologyLevel>
-      <geometricObjects>
-        <MD_GeometricObjects>
-          <geometricObjectType>
-            <MD_GeometricObjectTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="composite" codeSpace="ISOTC211/19115">composite</MD_GeometricObjectTypeCode>
-          </geometricObjectType>
-          <geometricObjectCount>
-            <gco:Integer>12</gco:Integer>
-          </geometricObjectCount>
-        </MD_GeometricObjects>
-      </geometricObjects>
-    </MD_VectorSpatialRepresentation>
+    <MD_Georectified>
+      <numberOfDimensions>
+        <gco:Integer>2</gco:Integer>
+      </numberOfDimensions>
+      <axisDimensionProperties>
+        <MD_Dimension>
+          <dimensionName>
+            <MD_DimensionNameTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="column" codeSpace="ISOTC211/19115">column</MD_DimensionNameTypeCode>
+          </dimensionName>
+          <dimensionSize>
+            <gco:Integer>4320</gco:Integer>
+          </dimensionSize>
+          <resolution>
+            <gco:Measure uom="deg">0.083333</gco:Measure>
+          </resolution>
+        </MD_Dimension>
+      </axisDimensionProperties>
+      <axisDimensionProperties>
+        <MD_Dimension>
+          <dimensionName>
+            <MD_DimensionNameTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="row" codeSpace="ISOTC211/19115">row</MD_DimensionNameTypeCode>
+          </dimensionName>
+          <dimensionSize>
+            <gco:Integer>2160</gco:Integer>
+          </dimensionSize>
+          <resolution>
+            <gco:Measure uom="deg">0.083333</gco:Measure>
+          </resolution>
+        </MD_Dimension>
+      </axisDimensionProperties>
+      <cellGeometry>
+        <MD_CellGeometryCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CellGeometryCode" codeListValue="area" codeSpace="ISOTC211/19115">area</MD_CellGeometryCode>
+      </cellGeometry>
+      <transformationParameterAvailability>
+        <gco:Boolean>true</gco:Boolean>
+      </transformationParameterAvailability>
+      <checkPointAvailability>
+        <gco:Boolean>false</gco:Boolean>
+      </checkPointAvailability>
+      <cornerPoints>
+        <gml:Point gml:id="idp36416">
+          <gml:pos>-180.000000 -90.000000</gml:pos>
+        </gml:Point>
+      </cornerPoints>
+      <cornerPoints>
+        <gml:Point gml:id="idp37040">
+          <gml:pos>-180.000000 90.000000</gml:pos>
+        </gml:Point>
+      </cornerPoints>
+      <cornerPoints>
+        <gml:Point gml:id="idp37664">
+          <gml:pos>180.000000 90.000000</gml:pos>
+        </gml:Point>
+      </cornerPoints>
+      <cornerPoints>
+        <gml:Point gml:id="idp38288">
+          <gml:pos>180.000000 -90.000000</gml:pos>
+        </gml:Point>
+      </cornerPoints>
+      <centerPoint>
+        <gml:Point gml:id="idp38912">
+          <gml:pos>-0.000000 -0.000000</gml:pos>
+        </gml:Point>
+      </centerPoint>
+      <pointInPixel>
+        <MD_PixelOrientationCode>center</MD_PixelOrientationCode>
+      </pointInPixel>
+    </MD_Georectified>
   </spatialRepresentationInfo>
   <referenceSystemInfo>
     <MD_ReferenceSystem>
@@ -103,7 +156,7 @@
             <gco:CharacterString>EPSG</gco:CharacterString>
           </codeSpace>
           <version>
-            <gco:CharacterString>8.6.2</gco:CharacterString>
+            <gco:CharacterString>6.14(3.0.1)</gco:CharacterString>
           </version>
         </RS_Identifier>
       </referenceSystemIdentifier>
@@ -114,12 +167,12 @@
       <citation>
         <CI_Citation>
           <title>
-            <gco:CharacterString>Arctic Ice Chart, October 11, 1971</gco:CharacterString>
+            <gco:CharacterString>Beets, Total Crop Production, 2000</gco:CharacterString>
           </title>
           <date>
             <CI_Date>
               <date>
-                <gco:Date>2003-01-01</gco:Date>
+                <gco:Date>2008-01-01</gco:Date>
               </date>
               <dateType>
                 <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
@@ -129,14 +182,14 @@
           <identifier>
             <MD_Identifier>
               <code>
-                <gco:CharacterString>http://purl.stanford.edu/bj158gm4479</gco:CharacterString>
+                <gco:CharacterString>http://purl.stanford.edu/yk932qx1621</gco:CharacterString>
               </code>
             </MD_Identifier>
           </identifier>
           <citedResponsibleParty>
             <CI_ResponsibleParty>
               <organisationName>
-                <gco:CharacterString>Arctic Climate System (ACSYS)</gco:CharacterString>
+                <gco:CharacterString>University of Minnesota. Institute on the Environment</gco:CharacterString>
               </organisationName>
               <role>
                 <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
@@ -146,8 +199,25 @@
           <citedResponsibleParty>
             <CI_ResponsibleParty>
               <organisationName>
-                <gco:CharacterString>Arctic Climate System (ACSYS)</gco:CharacterString>
+                <gco:CharacterString>University of Minnesota. Institute on the Environment</gco:CharacterString>
               </organisationName>
+              <contactInfo>
+                <CI_Contact>
+                  <address>
+                    <CI_Address>
+                      <city>
+                        <gco:CharacterString>St. Paul</gco:CharacterString>
+                      </city>
+                      <administrativeArea>
+                        <gco:CharacterString>MN</gco:CharacterString>
+                      </administrativeArea>
+                      <country>
+                        <gco:CharacterString>US</gco:CharacterString>
+                      </country>
+                    </CI_Address>
+                  </address>
+                </CI_Contact>
+              </contactInfo>
               <role>
                 <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher" codeSpace="ISOTC211/19115">publisher</CI_RoleCode>
               </role>
@@ -157,21 +227,21 @@
             <CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115">mapDigital</CI_PresentationFormCode>
           </presentationForm>
           <otherCitationDetails>
-            <gco:CharacterString>Retrieved from http://www.climate-cryosphere.org/resources/historical-ice-chart-archive/gis-data on Friday, February 26, 2016.</gco:CharacterString>
+            <gco:CharacterString>These data were retrieved from &lt;&lt;http://www.earthstat.org&gt;&gt; on December 1, 2017.</gco:CharacterString>
           </otherCitationDetails>
           <collectiveTitle>
-            <gco:CharacterString>ACSYS Historical Ice Chart Archive</gco:CharacterString>
+            <gco:CharacterString>EarthStat</gco:CharacterString>
           </collectiveTitle>
         </CI_Citation>
       </citation>
       <abstract>
-        <gco:CharacterString>This polygon shapefile contains ice observations in the Arctic region for October 11, 1971. This layer is part of the Arctic Climate System (ACSYS) Historical Ice Chart Archive. The earliest chart in the data set comes from 1553, when Sir Hugh Willoughby and Richard Chancellor, commanders of two expeditions sent out by the Company of Merchant Adventurers, recorded their observations of the ice edge. Early charts are irregular and infrequent, reflecting the remoteness and hostility of the region. The frequency of observations generally increases over time, as the economic and strategic importance of the Arctic grew, along with the ability to access, observe and record information on sea ice. The Norwegian Meteorological Institute in Troms&#xF8; used a combination of satellite imagery and in situ observations to produce daily digital charts each working day. These show not only the ice edge, but also detailed information on the range of sea ice concentrations and ice types. The Norwegian Meteorological Institute is continuing this series, and more recent charts may be obtained from this source.</gco:CharacterString>
+        <gco:CharacterString>This raster dataset represents total beet forage crop production in metric tons. Harvested area in hectares was multiplied by yield per hectare to create this data set.  Croplands cover ~15 million km2 of the planet and provide the bulk of the food and fiber essential to human well-being. Most global land cover datasets from satelites group croplands into just a few categories, thereby excluding information that is critical for answering key questions ranging from biodiversity conservation to food security to biogeochemical cycling. Information about agricultural land use practices like crop selection, yield, and fertilizer use is even more limited.Here we present land use data sets created by combining national, state, and county level census statistics with a recently updated global data set of croplands on a 5 minute by 5 minute (~10km x 10 km) latitude/longitude grid. Temporal resolution: Year 2000- based of average of census data between 1997-2003.</gco:CharacterString>
       </abstract>
       <purpose>
-        <gco:CharacterString>The ACSYS Historical Ice Chart Archive presents historical sea-ice observations in the Arctic region between 30&#xBA;W and 70&#xBA;E. The earliest chart dates from 1553, and the most recent from December 2002.</gco:CharacterString>
+        <gco:CharacterString>EarthStat.org serves geographic data sets with the purpose of solving the grand challenge of feeding a growing global population while reducing agriculture&#x2019;s impact on the environment. The data sets on EarthStat allow users to map the distribution of crops globally, analyze the impact of climate change on crop yields, understand the impacts of fertilizer and manure use and much more.</gco:CharacterString>
       </purpose>
       <credit>
-        <gco:CharacterString>ACSYS, 2003. ACSYS Historical Ice Chart Archive (1553-2002). IACPO Informal Report No. 8. Troms&#xF8;, Norway: Arctic Climate System Study</gco:CharacterString>
+        <gco:CharacterString>Monfreda, C., N. Ramankutty, and J.A. Foley (2008), Farming the planet 2. Geographic distribution of crop areas, yields, physiological types, and net primary production in the year 2000, Global Biogrochem. Cycles, 22, GB1022, doi: 10.1029/2007/GB002947.</gco:CharacterString>
       </credit>
       <status>
         <MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="ISOTC211/19115">completed</MD_ProgressCode>
@@ -179,14 +249,23 @@
       <pointOfContact>
         <CI_ResponsibleParty>
           <organisationName>
-            <gco:CharacterString>Norwegian Polar Institute</gco:CharacterString>
+            <gco:CharacterString>University of Minnesota. Institute on the Environment</gco:CharacterString>
           </organisationName>
           <contactInfo>
             <CI_Contact>
               <address>
                 <CI_Address>
+                  <city>
+                    <gco:CharacterString>St. Paul</gco:CharacterString>
+                  </city>
+                  <administrativeArea>
+                    <gco:CharacterString>MN</gco:CharacterString>
+                  </administrativeArea>
+                  <country>
+                    <gco:CharacterString>US</gco:CharacterString>
+                  </country>
                   <electronicMailAddress>
-                    <gco:CharacterString>info@climate-cryosphere.org</gco:CharacterString>
+                    <gco:CharacterString>earthstat.data@gmail.com</gco:CharacterString>
                   </electronicMailAddress>
                 </CI_Address>
               </address>
@@ -200,14 +279,14 @@
       <resourceMaintenance>
         <MD_MaintenanceInformation>
           <maintenanceAndUpdateFrequency>
-            <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded" codeSpace="ISOTC211/19115">asNeeded</MD_MaintenanceFrequencyCode>
+            <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="unknown" codeSpace="ISOTC211/19115">unknown</MD_MaintenanceFrequencyCode>
           </maintenanceAndUpdateFrequency>
         </MD_MaintenanceInformation>
       </resourceMaintenance>
       <descriptiveKeywords>
         <MD_Keywords>
           <keyword>
-            <gco:CharacterString>Arctic Ocean</gco:CharacterString>
+            <gco:CharacterString>Earth (Planet)</gco:CharacterString>
           </keyword>
           <type>
             <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
@@ -217,19 +296,7 @@
               <title>
                 <gco:CharacterString>geonames</gco:CharacterString>
               </title>
-              <date>
-                <CI_Date>
-                  <date>
-                    <gco:Date>2012-11-01</gco:Date>
-                  </date>
-                  <dateType>
-                    <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
-                  </dateType>
-                </CI_Date>
-              </date>
-              <edition>
-                <gco:CharacterString>3.1</gco:CharacterString>
-              </edition>
+              <date gco:nilReason="missing"/>
               <identifier>
                 <MD_Identifier>
                   <code>
@@ -244,7 +311,10 @@
       <descriptiveKeywords>
         <MD_Keywords>
           <keyword>
-            <gco:CharacterString>Sea ice</gco:CharacterString>
+            <gco:CharacterString>Beets</gco:CharacterString>
+          </keyword>
+          <keyword>
+            <gco:CharacterString>Crop yields</gco:CharacterString>
           </keyword>
           <type>
             <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
@@ -254,16 +324,7 @@
               <title>
                 <gco:CharacterString>lcsh</gco:CharacterString>
               </title>
-              <date>
-                <CI_Date>
-                  <date>
-                    <gco:Date>2011-04-26</gco:Date>
-                  </date>
-                  <dateType>
-                    <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
-                  </dateType>
-                </CI_Date>
-              </date>
+              <date gco:nilReason="missing"/>
               <identifier>
                 <MD_Identifier>
                   <code>
@@ -275,23 +336,13 @@
           </thesaurusName>
         </MD_Keywords>
       </descriptiveKeywords>
-      <descriptiveKeywords>
-        <MD_Keywords>
-          <keyword>
-            <gco:CharacterString>Downloadable Data</gco:CharacterString>
-          </keyword>
-          <thesaurusName uuidref="723f6998-058e-11dc-8314-0800200c9a66"/>
-        </MD_Keywords>
-      </descriptiveKeywords>
       <resourceConstraints>
         <MD_LegalConstraints>
           <useConstraints>
             <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="ISOTC211/19115">otherRestrictions</MD_RestrictionCode>
           </useConstraints>
           <otherConstraints>
-            <gco:CharacterString>If you use this data, please refer to it using this citation:
-
-ACSYS, 2003. ACSYS Historical Ice Chart Archive (1553-2002). IACPO Informal Report No. 8. Troms&#xF8;, Norway: Arctic Climate System Study.</gco:CharacterString>
+            <gco:CharacterString>Data may be freely downloaded for research, study, or teaching, but must be cited appropriately. Re-release of the data, or incorporation of the data into a commercial product, is allowed only with explicit permission. If you would like to request permission to use EarthStat datafor another purpose, please contact us at earthstat.data@gmail.com</gco:CharacterString>
           </otherConstraints>
         </MD_LegalConstraints>
       </resourceConstraints>
@@ -300,13 +351,13 @@ ACSYS, 2003. ACSYS Historical Ice Chart Archive (1553-2002). IACPO Informal Repo
           <aggregateDataSetName>
             <CI_Citation>
               <title>
-                <gco:CharacterString>ACSYS Historical Ice Chart Archive</gco:CharacterString>
+                <gco:CharacterString>EarthStat</gco:CharacterString>
               </title>
               <date gco:nilReason="missing"/>
               <identifier>
                 <MD_Identifier>
                   <code>
-                    <gco:CharacterString>http://purl.stanford.edu/vc538rj6879</gco:CharacterString>
+                    <gco:CharacterString>http://purl.stanford.edu/tz390fn8810</gco:CharacterString>
                   </code>
                 </MD_Identifier>
               </identifier>
@@ -321,19 +372,8 @@ ACSYS, 2003. ACSYS Historical Ice Chart Archive (1553-2002). IACPO Informal Repo
         </MD_AggregateInformation>
       </aggregationInfo>
       <spatialRepresentationType>
-        <MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" codeSpace="ISOTC211/19115">vector</MD_SpatialRepresentationTypeCode>
+        <MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid" codeSpace="ISOTC211/19115">grid</MD_SpatialRepresentationTypeCode>
       </spatialRepresentationType>
-      <spatialResolution>
-        <MD_Resolution>
-          <equivalentScale>
-            <MD_RepresentativeFraction>
-              <denominator>
-                <gco:Integer>24000</gco:Integer>
-              </denominator>
-            </MD_RepresentativeFraction>
-          </equivalentScale>
-        </MD_Resolution>
-      </spatialResolution>
       <language>
         <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
       </language>
@@ -341,13 +381,13 @@ ACSYS, 2003. ACSYS Historical Ice Chart Archive (1553-2002). IACPO Informal Repo
         <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
       </characterSet>
       <topicCategory>
-        <MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</MD_TopicCategoryCode>
+        <MD_TopicCategoryCode>imageryBaseMapsEarthCover</MD_TopicCategoryCode>
       </topicCategory>
       <topicCategory>
-        <MD_TopicCategoryCode>oceans</MD_TopicCategoryCode>
+        <MD_TopicCategoryCode>farming</MD_TopicCategoryCode>
       </topicCategory>
       <environmentDescription>
-        <gco:CharacterString>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.1.4959</gco:CharacterString>
+        <gco:CharacterString> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1.5686</gco:CharacterString>
       </environmentDescription>
       <extent>
         <EX_Extent>
@@ -357,9 +397,10 @@ ACSYS, 2003. ACSYS Historical Ice Chart Archive (1553-2002). IACPO Informal Repo
           <temporalElement>
             <EX_TemporalExtent>
               <extent>
-                <gml:TimeInstant gml:id="idm6080">
-                  <gml:timePosition>1971-10-11T00:00:00</gml:timePosition>
-                </gml:TimeInstant>
+                <gml:TimePeriod gml:id="idm5588784">
+                  <gml:beginPosition>2000-01-01T00:00:00</gml:beginPosition>
+                  <gml:endPosition>2000-12-31T00:00:00</gml:endPosition>
+                </gml:TimePeriod>
               </extent>
             </EX_TemporalExtent>
           </temporalElement>
@@ -373,70 +414,52 @@ ACSYS, 2003. ACSYS Historical Ice Chart Archive (1553-2002). IACPO Informal Repo
                 <gco:Boolean>true</gco:Boolean>
               </extentTypeCode>
               <westBoundLongitude>
-                <gco:Decimal>-30.000005</gco:Decimal>
+                <gco:Decimal>-180</gco:Decimal>
               </westBoundLongitude>
               <eastBoundLongitude>
-                <gco:Decimal>80.000003</gco:Decimal>
+                <gco:Decimal>180</gco:Decimal>
               </eastBoundLongitude>
               <southBoundLatitude>
-                <gco:Decimal>67.201157</gco:Decimal>
+                <gco:Decimal>-90</gco:Decimal>
               </southBoundLatitude>
               <northBoundLatitude>
-                <gco:Decimal>85.000001</gco:Decimal>
+                <gco:Decimal>90</gco:Decimal>
               </northBoundLatitude>
             </EX_GeographicBoundingBox>
           </geographicElement>
         </EX_Extent>
       </extent>
-      <supplementalInformation>
-        <gco:CharacterString>Vessels sailing to the Arctic to explore or to hunt whales and seals made early sea-ice observations. Over the centuries, technological advances and commercial opportunities in the Arctic led to more frequent and regular sea-ice observations, with associated increasing accuracy. As sailing ships gave way to steam powered vessels, and with the advent of aircraft and satellites, regular mapping of sea ice conditions became an organized activity. From 1967 onwards, hand drawn weekly charts were produced, showing not only an ice edge, but also concentrations of sea ice within the ice pack. Since July 1997, improved technology allowed daily production of digital sea ice maps on workdays.
-</gco:CharacterString>
-      </supplementalInformation>
     </MD_DataIdentification>
   </identificationInfo>
   <contentInfo>
-    <MD_FeatureCatalogueDescription>
-      <complianceCode>
-        <gco:Boolean>false</gco:Boolean>
-      </complianceCode>
-      <language>
-        <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
-      </language>
-      <includedWithDataset>
-        <gco:Boolean>true</gco:Boolean>
-      </includedWithDataset>
-      <featureCatalogueCitation>
-        <CI_Citation>
-          <title>
-            <gco:CharacterString>Feature catalog for Arctic Ice Chart, October 11, 1971</gco:CharacterString>
-          </title>
-          <date>
-            <CI_Date>
-              <date>
-                <gco:Date>2004-12-01</gco:Date>
-              </date>
-              <dateType>
-                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
-              </dateType>
-            </CI_Date>
-          </date>
-          <identifier>
-            <MD_Identifier>
-              <code>
-                <gco:CharacterString>Arctic Ice Chart, October 11, 1971</gco:CharacterString>
-              </code>
-            </MD_Identifier>
-          </identifier>
-        </CI_Citation>
-      </featureCatalogueCitation>
-    </MD_FeatureCatalogueDescription>
+    <MD_ImageDescription>
+      <attributeDescription gco:nilReason="missing"/>
+      <contentType>
+        <MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="image" codeSpace="ISOTC211/19115">image</MD_CoverageContentTypeCode>
+      </contentType>
+      <dimension>
+        <MD_Band>
+          <descriptor>
+            <gco:CharacterString>Band_1</gco:CharacterString>
+          </descriptor>
+          <units>
+            <gml:UnitDefinition gml:id="idp46096">
+              <gml:identifier codeSpace="GML_UomSymbol">Unified Code of Units of Measure</gml:identifier>
+            </gml:UnitDefinition>
+          </units>
+          <bitsPerValue>
+            <gco:Integer>32</gco:Integer>
+          </bitsPerValue>
+        </MD_Band>
+      </dimension>
+    </MD_ImageDescription>
   </contentInfo>
   <distributionInfo>
     <MD_Distribution>
       <distributionFormat>
         <MD_Format>
           <name>
-            <gco:CharacterString>Shapefile</gco:CharacterString>
+            <gco:CharacterString>GeoTIFF</gco:CharacterString>
           </name>
           <version gco:nilReason="missing"/>
         </MD_Format>
@@ -460,10 +483,7 @@ ACSYS, 2003. ACSYS Historical Ice Chart Archive (1553-2002). IACPO Informal Repo
                   <address>
                     <CI_Address>
                       <deliveryPoint>
-                        <gco:CharacterString>Branner Earth Sciences Library</gco:CharacterString>
-                      </deliveryPoint>
-                      <deliveryPoint>
-                        <gco:CharacterString>Mitchell Building, 2nd Floor</gco:CharacterString>
+                        <gco:CharacterString>Mitchell Bldg. 2nd floor</gco:CharacterString>
                       </deliveryPoint>
                       <deliveryPoint>
                         <gco:CharacterString>397 Panama Mall</gco:CharacterString>
@@ -477,6 +497,9 @@ ACSYS, 2003. ACSYS Historical Ice Chart Archive (1553-2002). IACPO Informal Repo
                       <postalCode>
                         <gco:CharacterString>94305</gco:CharacterString>
                       </postalCode>
+                      <country>
+                        <gco:CharacterString>US</gco:CharacterString>
+                      </country>
                       <electronicMailAddress>
                         <gco:CharacterString>brannerlibrary@stanford.edu</gco:CharacterString>
                       </electronicMailAddress>
@@ -493,19 +516,16 @@ ACSYS, 2003. ACSYS Historical Ice Chart Archive (1553-2002). IACPO Informal Repo
       </distributor>
       <transferOptions>
         <MD_DigitalTransferOptions>
-          <transferSize>
-            <gco:Real>0.25</gco:Real>
-          </transferSize>
           <onLine>
             <CI_OnlineResource>
               <linkage>
-                <URL>http://purl.stanford.edu/bj158gm4479</URL>
+                <URL>http://purl.stanford.edu/yk932qx1621</URL>
               </linkage>
               <protocol>
                 <gco:CharacterString>http</gco:CharacterString>
               </protocol>
               <name>
-                <gco:CharacterString>ice19711011.shp</gco:CharacterString>
+                <gco:CharacterString>beetfor_Production.tif</gco:CharacterString>
               </name>
             </CI_OnlineResource>
           </onLine>
@@ -513,15 +533,4 @@ ACSYS, 2003. ACSYS Historical Ice Chart Archive (1553-2002). IACPO Informal Repo
       </transferOptions>
     </MD_Distribution>
   </distributionInfo>
-  <dataQualityInfo>
-    <DQ_DataQuality>
-      <scope>
-        <DQ_Scope>
-          <level>
-            <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
-          </level>
-        </DQ_Scope>
-      </scope>
-    </DQ_DataQuality>
-  </dataQualityInfo>
 </MD_Metadata>

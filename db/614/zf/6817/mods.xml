@@ -52,7 +52,7 @@
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile represents airports in the United States, Puerto Rico, and U.S. Virgin Islands with airport passenger enplanements of 25 passengers or more per year. This layer is part of the 2014 ESRI Data and Maps collection for ArcGIS 10.2.</abstract>
   <abstract displayLabel="Purpose" lang="eng">U.S. National Atlas Airports provides information about the locations, names, location identifiers, and enplanements of airports for conducting geographic analysis on national and large regional scales.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">National Atlas of the United States, ESRI and U.S. Geological Survey. (2014). United States National Atlas Airports, 2010-2012. ESRI. Available at: http://purl.stanford.edu/db614zf6817</note>
+  <note displayLabel="Preferred citation" lang="eng">National Atlas of the United States, ESRI and U.S. Geological Survey. (2014). United States National Atlas Airports, 2010-2012. ESRI.</note>
   <subject>
     <topic authority="lcsh" lang="eng">Airports</topic>
   </subject>
@@ -72,8 +72,7 @@
     <geographic lang="eng" valueURI="http://sws.geonames.org/4566966/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Puerto Rico</geographic>
   </subject>
   <subject>
-    <temporal encoding="w3cdtf" point="start">2010</temporal>
-    <temporal encoding="w3cdtf" point="end">2012</temporal>
+    <temporal encoding="w3cdtf">2010-2012</temporal>
   </subject>
   <subject>
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="transportation">Transportation</topic>
@@ -133,9 +132,9 @@ In the event that the data vendor(s) has (have) granted the end user permission 
             <gml:upperCorner>-64.80172 71.285448</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/about.rdf" dc:language="eng" dc:title="United States"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4796775/about.rdf" dc:language="eng" dc:title="United States Virgin Islands"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4566966/about.rdf" dc:language="eng" dc:title="Puerto Rico"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/4796775/" dc:language="eng" dc:title="United States Virgin Islands"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/4566966/" dc:language="eng" dc:title="Puerto Rico"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>

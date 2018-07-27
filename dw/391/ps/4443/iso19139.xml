@@ -1,6 +1,6 @@
 <MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <fileIdentifier>
-    <gco:CharacterString>edu.stanford.purl:gv053qt8274</gco:CharacterString>
+    <gco:CharacterString>edu.stanford.purl:dw391ps4443</gco:CharacterString>
   </fileIdentifier>
   <language>
     <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
@@ -64,7 +64,7 @@
     </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-    <gco:Date>2016-06-24</gco:Date>
+    <gco:Date>2017-01-05</gco:Date>
   </dateStamp>
   <metadataStandardName>
     <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -73,24 +73,77 @@
     <gco:CharacterString>2007</gco:CharacterString>
   </metadataStandardVersion>
   <dataSetURI>
-    <gco:CharacterString>http://purl.stanford.edu/gv053qt8274</gco:CharacterString>
+    <gco:CharacterString>http://purl.stanford.edu/dw391ps4443</gco:CharacterString>
   </dataSetURI>
   <spatialRepresentationInfo>
-    <MD_VectorSpatialRepresentation>
-      <topologyLevel>
-        <MD_TopologyLevelCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopologyLevelCode" codeListValue="geometryOnly" codeSpace="ISOTC211/19115">geometryOnly</MD_TopologyLevelCode>
-      </topologyLevel>
-      <geometricObjects>
-        <MD_GeometricObjects>
-          <geometricObjectType>
-            <MD_GeometricObjectTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="composite" codeSpace="ISOTC211/19115">composite</MD_GeometricObjectTypeCode>
-          </geometricObjectType>
-          <geometricObjectCount>
-            <gco:Integer>340</gco:Integer>
-          </geometricObjectCount>
-        </MD_GeometricObjects>
-      </geometricObjects>
-    </MD_VectorSpatialRepresentation>
+    <MD_Georectified>
+      <numberOfDimensions>
+        <gco:Integer>2</gco:Integer>
+      </numberOfDimensions>
+      <axisDimensionProperties>
+        <MD_Dimension>
+          <dimensionName>
+            <MD_DimensionNameTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="column" codeSpace="ISOTC211/19115">column</MD_DimensionNameTypeCode>
+          </dimensionName>
+          <dimensionSize>
+            <gco:Integer>2094</gco:Integer>
+          </dimensionSize>
+          <resolution>
+            <gco:Measure uom="m">10.000000</gco:Measure>
+          </resolution>
+        </MD_Dimension>
+      </axisDimensionProperties>
+      <axisDimensionProperties>
+        <MD_Dimension>
+          <dimensionName>
+            <MD_DimensionNameTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="row" codeSpace="ISOTC211/19115">row</MD_DimensionNameTypeCode>
+          </dimensionName>
+          <dimensionSize>
+            <gco:Integer>1718</gco:Integer>
+          </dimensionSize>
+          <resolution>
+            <gco:Measure uom="m">10.000000</gco:Measure>
+          </resolution>
+        </MD_Dimension>
+      </axisDimensionProperties>
+      <cellGeometry>
+        <MD_CellGeometryCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CellGeometryCode" codeListValue="area" codeSpace="ISOTC211/19115">area</MD_CellGeometryCode>
+      </cellGeometry>
+      <transformationParameterAvailability>
+        <gco:Boolean>true</gco:Boolean>
+      </transformationParameterAvailability>
+      <checkPointAvailability>
+        <gco:Boolean>false</gco:Boolean>
+      </checkPointAvailability>
+      <cornerPoints>
+        <gml:Point gml:id="idp254016">
+          <gml:pos>396813.382234 4496962.270558</gml:pos>
+        </gml:Point>
+      </cornerPoints>
+      <cornerPoints>
+        <gml:Point gml:id="idp255024">
+          <gml:pos>396813.382234 4514142.270558</gml:pos>
+        </gml:Point>
+      </cornerPoints>
+      <cornerPoints>
+        <gml:Point gml:id="idp256032">
+          <gml:pos>417753.382234 4514142.270558</gml:pos>
+        </gml:Point>
+      </cornerPoints>
+      <cornerPoints>
+        <gml:Point gml:id="idp257040">
+          <gml:pos>417753.382234 4496962.270558</gml:pos>
+        </gml:Point>
+      </cornerPoints>
+      <centerPoint>
+        <gml:Point gml:id="idp258048">
+          <gml:pos>407283.382234 4505552.270558</gml:pos>
+        </gml:Point>
+      </centerPoint>
+      <pointInPixel>
+        <MD_PixelOrientationCode>center</MD_PixelOrientationCode>
+      </pointInPixel>
+    </MD_Georectified>
   </spatialRepresentationInfo>
   <referenceSystemInfo>
     <MD_ReferenceSystem>
@@ -114,7 +167,7 @@
       <citation>
         <CI_Citation>
           <title>
-            <gco:CharacterString>Contacts and Faults, Elk River Watershed, California, 1940-2000</gco:CharacterString>
+            <gco:CharacterString>Geology, Elk River Watershed, California, 1940-2000</gco:CharacterString>
           </title>
           <date>
             <CI_Date>
@@ -132,7 +185,7 @@
           <identifier>
             <MD_Identifier>
               <code>
-                <gco:CharacterString>http://purl.stanford.edu/gv053qt8274</gco:CharacterString>
+                <gco:CharacterString>http://purl.stanford.edu/dw391ps4443</gco:CharacterString>
               </code>
             </MD_Identifier>
           </identifier>
@@ -176,7 +229,7 @@
           <citedResponsibleParty>
             <CI_ResponsibleParty>
               <organisationName>
-                <gco:CharacterString>California. Department of Conservation</gco:CharacterString>
+                <gco:CharacterString>California. Dept. of Conservation.</gco:CharacterString>
               </organisationName>
               <role>
                 <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
@@ -222,13 +275,13 @@
         </CI_Citation>
       </citation>
       <abstract>
-        <gco:CharacterString>This line shapefile depicts contacts and faults within the Elk River watershed in Humboldt County, California. This dataset is the product of the Department of Conservation, California Geological Survey&#x2019;s (CGS) investigation of landslides in the Elk River watershed. The 52 square mile study area is located in Humboldt County in northwestern California. The investigation was based on interpretation of 1940, 1941, 1948, 1954, 1962, 1965, 1984, 1988, 1996 and 2000 aerial photos, findings from CGS&#x2019;s landslide mapping conducted in the early 1980s (Kilbourne, R.T. 1982-84, Manson, M. W. 1984), as well as other sources. Mapping was conducted at 1:24,000 scale. The resulting maps are titled &#x201C;Geologic and Geomorphic Features Related to Landsliding, Elk River Watershed&#x201D; (Plate 1) and &#x201C;Relative Landslide Potential with Geologic and Geomorphic Features, Elk River Watershed&#x201D; map (Plate 2). This study was conducted at a regional scale of mapping using ten sets of aerial photos combined with a compilation of earlier published and unpublished work. Other photo sets may reveal additional landslides. The regional nature of the study makes the data and maps, including the relative landslide potential zones, inappropriate as a substitute for site-specific analysis.</gco:CharacterString>
+        <gco:CharacterString>This raster dataset represents geologic units within the Elk River watershed in Humboldt County, California. This dataset is the product of the Department of Conservation, California Geological Survey&#x2019;s (CGS) investigation of landslides in the Elk River watershed. The 52 square mile study area is located in Humboldt County in northwestern California. The investigation was based on interpretation of 1940, 1941, 1948, 1954, 1962, 1965, 1984, 1988, 1996 and 2000 aerial photos, findings from CGS&#x2019;s landslide mapping conducted in the early 1980s (Kilbourne, R.T. 1982-84, Manson, M. W. 1984), as well as other sources. Mapping was conducted at 1:24,000 scale. The resulting maps are titled &#x201C;Geologic and Geomorphic Features Related to Landsliding, Elk River Watershed&#x201D; (Plate 1) and &#x201C;Relative Landslide Potential with Geologic and Geomorphic Features, Elk River Watershed&#x201D; map (Plate 2). This study was conducted at a regional scale of mapping using ten sets of aerial photos combined with a compilation of earlier published and unpublished work. Other photo sets may reveal additional landslides. The regional nature of the study makes the data and maps, including the relative landslide potential zones, inappropriate as a substitute for site-specific analysis.</gco:CharacterString>
       </abstract>
       <purpose>
         <gco:CharacterString>CGS evaluated the geology, relative slope stability and geomorphic characteristics within the watershed, and compiled the digital geospatial data described in this document. This mapping and compilation is geared toward providing baseline geologic and geomorphic data to aid in responsible land management, as well as the development of watershed restoration projects, watershed management strategies, and watershed plans.</gco:CharacterString>
       </purpose>
       <credit>
-        <gco:CharacterString>Marshall, G., Mendes, E., California Geological Survey and California Dept. of Conservation. (2005). Contacts and Faults, Elk River Watershed, California, 1940-2000 California Geological Survey. Available at: http://purl.stanford.edu/gv053qt8274.</gco:CharacterString>
+        <gco:CharacterString>Marshall, G., Mendes, E., California Geological Survey and California Dept. of Conservation. (2005). Geology, Elk River Watershed, California, 1940-2000 California Geological Survey. Available at: http://purl.stanford.edu/dw391ps4443.</gco:CharacterString>
       </credit>
       <status>
         <MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="ISOTC211/19115">completed</MD_ProgressCode>
@@ -329,7 +382,7 @@
             <gco:CharacterString>Watersheds</gco:CharacterString>
           </keyword>
           <keyword>
-            <gco:CharacterString>Faults (Geology)</gco:CharacterString>
+            <gco:CharacterString>Geology</gco:CharacterString>
           </keyword>
           <keyword>
             <gco:CharacterString>Landslides</gco:CharacterString>
@@ -361,6 +414,14 @@
               </identifier>
             </CI_Citation>
           </thesaurusName>
+        </MD_Keywords>
+      </descriptiveKeywords>
+      <descriptiveKeywords>
+        <MD_Keywords>
+          <keyword>
+            <gco:CharacterString>Downloadable Data</gco:CharacterString>
+          </keyword>
+          <thesaurusName uuidref="723f6998-058e-11dc-8314-0800200c9a66"/>
         </MD_Keywords>
       </descriptiveKeywords>
       <resourceConstraints>
@@ -450,7 +511,7 @@
               <citedResponsibleParty>
                 <CI_ResponsibleParty>
                   <organisationName>
-                    <gco:CharacterString>California. Department of Conservation</gco:CharacterString>
+                    <gco:CharacterString>California. Dept. of Conservation.</gco:CharacterString>
                   </organisationName>
                   <role>
                     <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
@@ -478,7 +539,7 @@
         </MD_AggregateInformation>
       </aggregationInfo>
       <spatialRepresentationType>
-        <MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" codeSpace="ISOTC211/19115">vector</MD_SpatialRepresentationTypeCode>
+        <MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid" codeSpace="ISOTC211/19115">grid</MD_SpatialRepresentationTypeCode>
       </spatialRepresentationType>
       <spatialResolution>
         <MD_Resolution>
@@ -514,7 +575,7 @@
           <temporalElement>
             <EX_TemporalExtent>
               <extent>
-                <gml:TimePeriod gml:id="idm5732672">
+                <gml:TimePeriod gml:id="idp74992">
                   <gml:beginPosition>1940-01-01T00:00:00</gml:beginPosition>
                   <gml:endPosition>2000-12-31T00:00:00</gml:endPosition>
                 </gml:TimePeriod>
@@ -531,16 +592,16 @@
                 <gco:Boolean>true</gco:Boolean>
               </extentTypeCode>
               <westBoundLongitude>
-                <gco:Decimal>-124.222706</gco:Decimal>
+                <gco:Decimal>-124.222708</gco:Decimal>
               </westBoundLongitude>
               <eastBoundLongitude>
-                <gco:Decimal>-123.972451</gco:Decimal>
+                <gco:Decimal>-123.972365</gco:Decimal>
               </eastBoundLongitude>
               <southBoundLatitude>
                 <gco:Decimal>40.617047</gco:Decimal>
               </southBoundLatitude>
               <northBoundLatitude>
-                <gco:Decimal>40.774056</gco:Decimal>
+                <gco:Decimal>40.774144</gco:Decimal>
               </northBoundLatitude>
             </EX_GeographicBoundingBox>
           </geographicElement>
@@ -549,58 +610,40 @@
     </MD_DataIdentification>
   </identificationInfo>
   <contentInfo>
-    <MD_FeatureCatalogueDescription>
-      <complianceCode>
-        <gco:Boolean>false</gco:Boolean>
-      </complianceCode>
-      <language>
-        <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
-      </language>
-      <includedWithDataset>
-        <gco:Boolean>true</gco:Boolean>
-      </includedWithDataset>
-      <featureCatalogueCitation>
-        <CI_Citation>
-          <title>
-            <gco:CharacterString>Feature catalog for Contacts and Faults, Elk River Watershed, California, 1940-2000</gco:CharacterString>
-          </title>
-          <date>
-            <CI_Date>
-              <date>
-                <gco:Date>2004-12-01</gco:Date>
-              </date>
-              <dateType>
-                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
-              </dateType>
-            </CI_Date>
-          </date>
-          <identifier>
-            <MD_Identifier>
-              <code>
-                <gco:CharacterString>498dd0aa-8c76-44ba-a77b-6b21cb3cbcaf</gco:CharacterString>
-              </code>
-            </MD_Identifier>
-          </identifier>
-          <citedResponsibleParty>
-            <CI_ResponsibleParty>
-              <organisationName>
-                <gco:CharacterString>California. Division of Mines and Geology</gco:CharacterString>
-              </organisationName>
-              <role>
-                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
-              </role>
-            </CI_ResponsibleParty>
-          </citedResponsibleParty>
-        </CI_Citation>
-      </featureCatalogueCitation>
-    </MD_FeatureCatalogueDescription>
+    <MD_ImageDescription>
+      <attributeDescription gco:nilReason="missing"/>
+      <contentType>
+        <MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="physicalMeasurement" codeSpace="ISOTC211/19115">physicalMeasurement</MD_CoverageContentTypeCode>
+      </contentType>
+      <dimension>
+        <MD_Band>
+          <descriptor>
+            <gco:CharacterString>elk_geol</gco:CharacterString>
+          </descriptor>
+          <maxValue>
+            <gco:Real>8</gco:Real>
+          </maxValue>
+          <minValue>
+            <gco:Real>1</gco:Real>
+          </minValue>
+          <units>
+            <gml:UnitDefinition gml:id="idm3152">
+              <gml:identifier codeSpace="GML_UomSymbol">Unified Code of Units of Measure</gml:identifier>
+            </gml:UnitDefinition>
+          </units>
+          <bitsPerValue>
+            <gco:Integer>32</gco:Integer>
+          </bitsPerValue>
+        </MD_Band>
+      </dimension>
+    </MD_ImageDescription>
   </contentInfo>
   <distributionInfo>
     <MD_Distribution>
       <distributionFormat>
         <MD_Format>
           <name>
-            <gco:CharacterString>Shapefile</gco:CharacterString>
+            <gco:CharacterString>Raster Dataset</gco:CharacterString>
           </name>
           <version gco:nilReason="missing"/>
         </MD_Format>
@@ -657,19 +700,16 @@
       </distributor>
       <transferOptions>
         <MD_DigitalTransferOptions>
-          <transferSize>
-            <gco:Real>0.895</gco:Real>
-          </transferSize>
           <onLine>
             <CI_OnlineResource>
               <linkage>
-                <URL>http://purl.stanford.edu/gv053qt8274</URL>
+                <URL>http://purl.stanford.edu/dw391ps4443</URL>
               </linkage>
               <protocol>
                 <gco:CharacterString>http</gco:CharacterString>
               </protocol>
               <name>
-                <gco:CharacterString>elk_geol.shp</gco:CharacterString>
+                <gco:CharacterString>elk_geol</gco:CharacterString>
               </name>
             </CI_OnlineResource>
           </onLine>

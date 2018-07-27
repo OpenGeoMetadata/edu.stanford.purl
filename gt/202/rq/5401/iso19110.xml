@@ -1,9 +1,9 @@
-<gfc:FC_FeatureCatalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.isotc211.org/2005/gfc" xsi:schemaLocation="http://www.isotc211.org/2005/gfc http://www.isotc211.org/2005/gfc/gfc.xsd" uuid="&#10;               ebb8714f-39e9-4fda-b07b-545958bd1ee7">
+<gfc:FC_FeatureCatalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.isotc211.org/2005/gfc" xsi:schemaLocation="http://www.isotc211.org/2005/gfc http://www.isotc211.org/2005/gfc/gfc.xsd" uuid="&#10;&#9;&#9;&#9;&#9;&#9;097c530d-2372-4a6a-9931-35cdd819e35d">
   <gmx:name>
-    <gco:CharacterString>Feature catalog for Light Rail Routes: Sacramento County, California, 2015</gco:CharacterString>
+    <gco:CharacterString>Feature catalog for Light Rail Stops: Sacramento County, California, 2015</gco:CharacterString>
   </gmx:name>
   <gmx:scope>
-    <gco:CharacterString>Railroads; Street-railroads</gco:CharacterString>
+    <gco:CharacterString>Railroads; Street-railroads; Railraod stations</gco:CharacterString>
   </gmx:scope>
   <gmx:versionNumber gco:nilReason="unknown"/>
   <gmx:versionDate>
@@ -18,13 +18,13 @@
   <gfc:featureType>
     <gfc:FC_FeatureType>
       <gfc:typeName>
-        <gco:LocalName>LIGHT_RAIL</gco:LocalName>
+        <gco:LocalName>LIGHT_RAIL_STOPS</gco:LocalName>
       </gfc:typeName>
       <gfc:definition/>
       <gfc:isAbstract>
         <gco:Boolean>false</gco:Boolean>
       </gfc:isAbstract>
-      <gfc:featureCatalogue uuidref="&#10;               ebb8714f-39e9-4fda-b07b-545958bd1ee7"/>
+      <gfc:featureCatalogue uuidref="&#10;&#9;&#9;&#9;&#9;&#9;097c530d-2372-4a6a-9931-35cdd819e35d"/>
       <gfc:carrierOfCharacteristics>
         <gfc:FC_FeatureAttribute>
           <gfc:memberName>
@@ -116,10 +116,10 @@
       <gfc:carrierOfCharacteristics>
         <gfc:FC_FeatureAttribute>
           <gfc:memberName>
-            <gco:LocalName>Id</gco:LocalName>
+            <gco:LocalName>ID</gco:LocalName>
           </gfc:memberName>
           <gfc:definition>
-            <gco:CharacterString>Line ID</gco:CharacterString>
+            <gco:CharacterString>Stop ID</gco:CharacterString>
           </gfc:definition>
           <gfc:cardinality gco:nilReason="unknown"/>
           <gfc:valueType>
@@ -134,10 +134,46 @@
       <gfc:carrierOfCharacteristics>
         <gfc:FC_FeatureAttribute>
           <gfc:memberName>
-            <gco:LocalName>LINE</gco:LocalName>
+            <gco:LocalName>POINT_X</gco:LocalName>
           </gfc:memberName>
           <gfc:definition>
-            <gco:CharacterString>Name of Route</gco:CharacterString>
+            <gco:CharacterString>UTM Longitude of stop</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>POINT_Y</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>UTM Latitude of stop</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>STATION</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Name of Stop</gco:CharacterString>
           </gfc:definition>
           <gfc:cardinality gco:nilReason="unknown"/>
           <gfc:valueType>
@@ -152,16 +188,16 @@
       <gfc:carrierOfCharacteristics>
         <gfc:FC_FeatureAttribute>
           <gfc:memberName>
-            <gco:LocalName>Shape_STLe</gco:LocalName>
+            <gco:LocalName>DISPLAY</gco:LocalName>
           </gfc:memberName>
           <gfc:definition>
-            <gco:CharacterString>Perimeter of the polygon in feet</gco:CharacterString>
+            <gco:CharacterString>Named destination of train</gco:CharacterString>
           </gfc:definition>
           <gfc:cardinality gco:nilReason="unknown"/>
           <gfc:valueType>
             <gco:TypeName>
               <gco:aName>
-                <gco:CharacterString>Double</gco:CharacterString>
+                <gco:CharacterString>String</gco:CharacterString>
               </gco:aName>
             </gco:TypeName>
           </gfc:valueType>

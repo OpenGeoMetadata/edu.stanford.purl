@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Aqueducts and Canals, India, 2016</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>International Steering Committee for Global Mapping</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <name type="corporate">
+    <namePart>Survey of India</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>International Steering Committee for Global Mapping</publisher>
+    <place>
+      <placeTerm type="text"/>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+    <edition>2.1</edition>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <extent>0.3</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>Custom projection</projection>
+      <coordinates>(E 70&#xB0;29&#x2B9;53&#x2BA;--E 88&#xB0;9&#x2B9;25&#x2BA;/N 32&#xB0;21&#x2B9;5&#x2BA;--N 10&#xB0;4&#x2B9;10&#x2BA;)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This line shapefile represents aqueducts and canals in India. This layer is part of Global Map version 2.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">Global Map data were developed under the cooperation of National Geospatial Information Authorities (NGIAs) of respective countries and regions.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">Global Map of India &#xA9; ISCGM/Survey of India</note>
+  <note displayLabel="Supplemental information">Global Map data of National/Regional version were developed with consistent specifications by NGIAs of respective countries and regions for fundamental geospatial information of their respective coverage by using geospatial information owned by them, and they were provided. The data have been authorized by NGIAs of respective countries and regions. Therefore, the contents of respective data are based on the views of respective data developers. For some countries and regions, there may be parts where data have not been developed. National/Regional version of Global Map data was to be updated in about five-year cycle on the basis of resolutions of an ISCGM meeting. To know about the year data were updated and about data developers, please refer to metadata attached to each data. Depending on the period the data were prepared, they were developed in line with two different specifications, namely, version 1 in VPF and BIL formats, and version 2 in GML and BIL formats.</note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Aqueducts</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/1269750/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">India</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">2016</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="inlandWaters">Inland Waters</topic>
+  </subject>
+  <location>
+    <url>http://purl.stanford.edu/hm158hv9062</url>
+  </location>
+  <accessCondition type="useAndReproduction">For non-commercial use, in principle, anyone can use the data free of charge. As the data of National/Regional version were developed by NGIAs of respective countries and regions, and there may be parts which have not been developed depending on countries and regions. In using the data, please check respective data policies because different countries and regions have different data policies.</accessCondition>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:hm158hv9062</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/hm158hv9062">
+        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type>Dataset#LineString</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>70.497955 10.069545</gml:lowerCorner>
+            <gml:upperCorner>88.156998 32.351395</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="http://sws.geonames.org/1269750/" dc:language="eng" dc:title="India"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 70&#xB0;29&#x2B9;53&#x2BA;--E 88&#xB0;9&#x2B9;25&#x2BA;/N 32&#xB0;21&#x2B9;5&#x2BA;--N 10&#xB0;4&#x2B9;10&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>

@@ -1,9 +1,9 @@
-<gfc:FC_FeatureCatalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.isotc211.org/2005/gfc" xsi:schemaLocation="http://www.isotc211.org/2005/gfc http://www.isotc211.org/2005/gfc/gfc.xsd" uuid="da3230ed-7693-4777-9378-a99db8a1b769">
+<gfc:FC_FeatureCatalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.isotc211.org/2005/gfc" xsi:schemaLocation="http://www.isotc211.org/2005/gfc http://www.isotc211.org/2005/gfc/gfc.xsd" uuid="4cde72f1-f1f1-47a7-9f11-90e2889c472e">
   <gmx:name>
     <gco:CharacterString>Entity and attribute overview</gco:CharacterString>
   </gmx:name>
   <gmx:scope>
-    <gco:CharacterString>Roads</gco:CharacterString>
+    <gco:CharacterString>Roads; Scenic byways</gco:CharacterString>
   </gmx:scope>
   <gmx:versionNumber gco:nilReason="unknown"/>
   <gmx:versionDate>
@@ -18,13 +18,13 @@
   <gfc:featureType>
     <gfc:FC_FeatureType>
       <gfc:typeName>
-        <gco:LocalName>Roads</gco:LocalName>
+        <gco:LocalName>Scenic_Roads</gco:LocalName>
       </gfc:typeName>
       <gfc:definition/>
       <gfc:isAbstract>
         <gco:Boolean>false</gco:Boolean>
       </gfc:isAbstract>
-      <gfc:featureCatalogue uuidref="da3230ed-7693-4777-9378-a99db8a1b769"/>
+      <gfc:featureCatalogue uuidref="4cde72f1-f1f1-47a7-9f11-90e2889c472e"/>
       <gfc:carrierOfCharacteristics>
         <gfc:FC_FeatureAttribute>
           <gfc:memberName>
@@ -131,7 +131,7 @@
       <gfc:carrierOfCharacteristics>
         <gfc:FC_FeatureAttribute>
           <gfc:memberName>
-            <gco:LocalName>OBJECTID</gco:LocalName>
+            <gco:LocalName>ID</gco:LocalName>
           </gfc:memberName>
           <gfc:cardinality gco:nilReason="unknown"/>
           <gfc:valueType>
@@ -146,7 +146,7 @@
       <gfc:carrierOfCharacteristics>
         <gfc:FC_FeatureAttribute>
           <gfc:memberName>
-            <gco:LocalName>PREFIX</gco:LocalName>
+            <gco:LocalName>ROAD_NAME</gco:LocalName>
           </gfc:memberName>
           <gfc:cardinality gco:nilReason="unknown"/>
           <gfc:valueType>
@@ -161,7 +161,7 @@
       <gfc:carrierOfCharacteristics>
         <gfc:FC_FeatureAttribute>
           <gfc:memberName>
-            <gco:LocalName>NAME</gco:LocalName>
+            <gco:LocalName>NOTES</gco:LocalName>
           </gfc:memberName>
           <gfc:cardinality gco:nilReason="unknown"/>
           <gfc:valueType>
@@ -176,277 +176,7 @@
       <gfc:carrierOfCharacteristics>
         <gfc:FC_FeatureAttribute>
           <gfc:memberName>
-            <gco:LocalName>SUFFIX</gco:LocalName>
-          </gfc:memberName>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>String</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
-            <gco:LocalName>FULL_NAME</gco:LocalName>
-          </gfc:memberName>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>String</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
-            <gco:LocalName>ALIAS</gco:LocalName>
-          </gfc:memberName>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>String</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
-            <gco:LocalName>ROUTE</gco:LocalName>
-          </gfc:memberName>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>String</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
-            <gco:LocalName>ROAD_TYPE</gco:LocalName>
-          </gfc:memberName>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>String</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
-            <gco:LocalName>FUNC_CLASS</gco:LocalName>
-          </gfc:memberName>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>String</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
-            <gco:LocalName>L_CMNTY_CO</gco:LocalName>
-          </gfc:memberName>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>String</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
-            <gco:LocalName>R_CMNTY_CO</gco:LocalName>
-          </gfc:memberName>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>String</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
-            <gco:LocalName>L_ZIP</gco:LocalName>
-          </gfc:memberName>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>Integer</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
-            <gco:LocalName>R_ZIP</gco:LocalName>
-          </gfc:memberName>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>Integer</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
-            <gco:LocalName>FROM_L_ADD</gco:LocalName>
-          </gfc:memberName>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>Integer</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
-            <gco:LocalName>TO_L_ADDRE</gco:LocalName>
-          </gfc:memberName>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>Integer</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
-            <gco:LocalName>FROM_R_ADD</gco:LocalName>
-          </gfc:memberName>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>Integer</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
-            <gco:LocalName>TO_R_ADDRE</gco:LocalName>
-          </gfc:memberName>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>Integer</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
-            <gco:LocalName>LOW_ADDRES</gco:LocalName>
-          </gfc:memberName>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>Integer</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
-            <gco:LocalName>HIGH_ADDRE</gco:LocalName>
-          </gfc:memberName>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>Integer</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
-            <gco:LocalName>MAINT_BY</gco:LocalName>
-          </gfc:memberName>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>String</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
-            <gco:LocalName>SURFACE</gco:LocalName>
-          </gfc:memberName>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>String</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
-            <gco:LocalName>ONE_WAY</gco:LocalName>
+            <gco:LocalName>SETBACK</gco:LocalName>
           </gfc:memberName>
           <gfc:cardinality gco:nilReason="unknown"/>
           <gfc:valueType>

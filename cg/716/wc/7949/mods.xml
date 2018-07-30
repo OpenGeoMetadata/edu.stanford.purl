@@ -1,28 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>LandScan 2012 Level 1 World Administrative Boundaries</title>
   </titleInfo>
   <name type="corporate">
     <namePart>Oak Ridge National Laboratory</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <name type="personal">
-    <namePart>Bright, Edward A.</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <name type="personal">
-    <namePart>Coleman, Philip R.</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <name type="personal">
-    <namePart>Rose, Amy N.</namePart>
     <role>
       <roleTerm type="text" authority="marcrelator">creator</roleTerm>
     </role>
@@ -37,7 +19,6 @@
       <placeTerm type="text">Oak Ridge, Tennessee, US</placeTerm>
     </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
-    <dateValid encoding="w3cdtf">2012</dateValid>
     <edition>2012</edition>
   </originInfo>
   <language>
@@ -47,17 +28,17 @@
     <form>Raster Dataset</form>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+  <subject>
     <cartographics>
       <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>(W 180°--E 180°/N 84°--S 90°)</coordinates>
+      <projection>Custom projection</projection>
+      <coordinates>(W 180&#xB0;--E 180&#xB0;/N 84&#xB0;--S 90&#xB0;)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This raster dataset is a subdirectory containing the ArcGIS grid (world_admin1) of the countries/sub-countries. These are the standard Level 1 Administrative Boundaries. The data table (VAT) contains the cell areas in the field: [Area]. The units are square kilometers. The Value Field simply represents a row number for a specific Latitude. All cells on the same row have the same area. Cell areas are largest at the equator and smallest at the poles. Each year the models incorporate administrative boundary changes, refine the spatial precision of international and sub-national administrative boundaries, and reconcile temporal census information and administrative boundary inconsistencies. The administrative unit level by which the census data is distributed varies considerably in size and spatial precision from country to country. The number of administrative units per nation and spatial fidelity of the boundaries are considered in the model parameterization process. Nations with few, but very large administrative areas require different weights in the model parameters to allocate representative populations to their appropriate locations. Generally, smaller administrative boundaries lead to better population distribution – if the boundaries are spatially accurate. However, small administrative areas that are poorly geo-referenced or spatially characterized actually induce population distribution errors. To mitigate these errors, where possible, analysts will merge poor sub-province boundaries to the province level and distribute the entire province population according to the population likelihood locations determined by the model rather than constrict population distributions to incorrect locations. Very small administrative or enumeration areas equivalent to US census blocks or block groups have unintended consequences for modeling an ambient population. Since the populations associated with census tables are places of residence, commercial and industrial areas may have zero or very low populations associated with them. Thus the output would be reflective of a residential only population distribution instead of an ambient population distribution. This dataset is part of the LandScan 2012 Global Population Database.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This raster dataset is a subdirectory containing the ArcGIS grid (world_admin1) of the countries/sub-countries. These are the standard Level 1 Administrative Boundaries. The data table (VAT) contains the cell areas in the field: [Area]. The units are square kilometers. The Value Field simply represents a row number for a specific Latitude. All cells on the same row have the same area. Cell areas are largest at the equator and smallest at the poles. Each year the models incorporate administrative boundary changes, refine the spatial precision of international and sub-national administrative boundaries, and reconcile temporal census information and administrative boundary inconsistencies. The administrative unit level by which the census data is distributed varies considerably in size and spatial precision from country to country. The number of administrative units per nation and spatial fidelity of the boundaries are considered in the model parameterization process. Nations with few, but very large administrative areas require different weights in the model parameters to allocate representative populations to their appropriate locations. Generally, smaller administrative boundaries lead to better population distribution &#x2013; if the boundaries are spatially accurate. However, small administrative areas that are poorly geo-referenced or spatially characterized actually induce population distribution errors. To mitigate these errors, where possible, analysts will merge poor sub-province boundaries to the province level and distribute the entire province population according to the population likelihood locations determined by the model rather than constrict population distributions to incorrect locations. Very small administrative or enumeration areas equivalent to US census blocks or block groups have unintended consequences for modeling an ambient population. Since the populations associated with census tables are places of residence, commercial and industrial areas may have zero or very low populations associated with them. Thus the output would be reflective of a residential only population distribution instead of an ambient population distribution. This dataset is part of the LandScan 2012 Global Population Database.</abstract>
   <abstract displayLabel="Purpose" lang="eng">Accurate administrative boundary attributes are essential to the LandScan models since the population projections are joined to the boundaries which act as spatial controls for the population totals. The LandScan 2012
 Global Population Database was developed by Oak Ridge National Laboratory (ORNL) for the United States Department of Defense (DoD). </abstract>
-  <note displayLabel="Preferred citation" lang="eng">Bright, Edward A., Coleman, Phillip R., King, Amy L., and Oak Ridge National Laboratory. (2013) LandScan 2012 Level 1 World Administrative Boundaries. Oak Ridge National Laboratory, UT-Battelle, LLC. Available at: http://purl.stanford.edu/cg716wc7949</note>
+  <note displayLabel="Preferred citation" lang="eng">Oak Ridge National Laboratory. (2013). LandScan 2012 Level 1 World Administrative Boundaries. Oak Ridge National Laboratory, UT-Battelle, LLC.</note>
   <note displayLabel="Supplemental information">For correct population analysis using ESRI products assure that the following parameters are set:
 Use ONLY Geographic, WGS84 projection parameters.
 Spatial Analysis cell size is 0.008333333333333 (double precision)
@@ -66,22 +47,16 @@ Converting (including on-the-fly projections) a grid to other projections or coo
 In ESRI ArcMap, load the LandScan grid first in order to maintain the original geographic (lat-lon) projection.
 </note>
   <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Boundaries</topic>
-  </subject>
-  <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Administrative and political divisions</topic>
   </subject>
   <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/6295630/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Earth</geographic>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/6295630/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Earth (Planet)</geographic>
   </subject>
   <subject>
     <temporal encoding="w3cdtf">2012</temporal>
   </subject>
   <subject>
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="society">Society</topic>
   </subject>
   <subject>
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="imageryBaseMapsEarthCover">Imagery and Base Maps</topic>
@@ -100,7 +75,7 @@ In ESRI ArcMap, load the LandScan grid first in order to maintain the original g
   <extension displayLabel="geo">
     <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
       <rdf:Description rdf:about="http://purl.stanford.edu/cg716wc7949">
-        <dc:format>image/tiff; format=ArcGRID</dc:format>
+        <dc:format>application/x-ogc-aig; format=ArcGRID</dc:format>
         <dc:type>Dataset#Raster</dc:type>
         <gml:boundedBy>
           <gml:Envelope gml:srsName="EPSG:4326">
@@ -108,10 +83,8 @@ In ESRI ArcMap, load the LandScan grid first in order to maintain the original g
             <gml:upperCorner>180.0 84.0</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6295630/about.rdf" dc:language="eng" dc:title="Earth"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/6295630/" dc:language="eng" dc:title="Earth (Planet)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject>
-          <geographic authority="lcsh" valueURI="lcsh">Earth (Planet)</geographic>
-        </subject></mods>
+<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 180&#xB0;--E 180&#xB0;/N 84&#xB0;--S 90&#xB0;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>

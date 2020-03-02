@@ -1,4 +1,4 @@
-edu.stanford.purl
+# edu.stanford.purl
 
 This repository contains geospatial metadata from Stanford University Libraries.
 

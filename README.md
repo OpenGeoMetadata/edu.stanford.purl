@@ -17,7 +17,7 @@ Metadata for geospatial data are provided in the following formats:
 
 GeoBlacklight metadata from this repository contain one custom field:
 
-- Use and reproduction -- contains specific language outlining use and reproductions rights for each dataset
+- Use and reproduction -- contains specific language outlining use and reproduction rights for each dataset
 
 
 ## Contribution and enhancement status

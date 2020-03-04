@@ -64,7 +64,7 @@
     </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-    <gco:Date>2015-10-20</gco:Date>
+    <gco:Date>2018-08-02</gco:Date>
   </dateStamp>
   <metadataStandardName>
     <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -89,7 +89,7 @@
             <gco:Integer>8965</gco:Integer>
           </dimensionSize>
           <resolution>
-            <gco:Measure uom="Meter">261.034177</gco:Measure>
+            <gco:Measure uom="m">261.034177</gco:Measure>
           </resolution>
         </MD_Dimension>
       </axisDimensionProperties>
@@ -102,7 +102,7 @@
             <gco:Integer>7539</gco:Integer>
           </dimensionSize>
           <resolution>
-            <gco:Measure uom="Meter">261.034177</gco:Measure>
+            <gco:Measure uom="m">261.034177</gco:Measure>
           </resolution>
         </MD_Dimension>
       </axisDimensionProperties>
@@ -116,27 +116,27 @@
         <gco:Boolean>false</gco:Boolean>
       </checkPointAvailability>
       <cornerPoints>
-        <gml:Point gml:id="idp129680">
+        <gml:Point gml:id="idp135040">
           <gml:pos>-1339986.028522 -906222.460163</gml:pos>
         </gml:Point>
       </cornerPoints>
       <cornerPoints>
-        <gml:Point gml:id="idp130688">
+        <gml:Point gml:id="idp136048">
           <gml:pos>-1339986.028522 1061714.200240</gml:pos>
         </gml:Point>
       </cornerPoints>
       <cornerPoints>
-        <gml:Point gml:id="idp131696">
+        <gml:Point gml:id="idp137056">
           <gml:pos>1000185.368283 1061714.200240</gml:pos>
         </gml:Point>
       </cornerPoints>
       <cornerPoints>
-        <gml:Point gml:id="idp132704">
+        <gml:Point gml:id="idp138064">
           <gml:pos>1000185.368283 -906222.460163</gml:pos>
         </gml:Point>
       </cornerPoints>
       <centerPoint>
-        <gml:Point gml:id="idp133712">
+        <gml:Point gml:id="idp139072">
           <gml:pos>-169900.330119 77745.870039</gml:pos>
         </gml:Point>
       </centerPoint>
@@ -250,12 +250,12 @@
             <CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115">mapDigital</CI_PresentationFormCode>
           </presentationForm>
           <collectiveTitle>
-            <gco:CharacterString>Georeferenced raster data from the Dr. Oscar I. Norwich collection of maps of Africa and its islands, 1486 - ca. 1865</gco:CharacterString>
+            <gco:CharacterString>Georeferenced maps of Africa</gco:CharacterString>
           </collectiveTitle>
         </CI_Citation>
       </citation>
       <abstract>
-        <gco:CharacterString>This layer is a georeferenced raster image of an historic regional map of Nothern Africa from 1840. The original map was engraved by J. &amp;amp; C. Walker and published by Society for the Diffusion of Useful Knowledge. All map collar and inset information is also available as part of the raster image, including any inset maps, profiles, statistical tables, directories, text, illustrations, or other information associated with the principal map. This map was scanned and georeferenced by the Stanford University Geospatial Center using a Transverse Mercator projection. This map is part of a selection of digitally scanned and georeferenced historic maps of Africa from the Oscar I. Norwich Collection at Stanford University.</gco:CharacterString>
+        <gco:CharacterString>This layer is a georeferenced raster image of an historic regional map of Nothern Africa from 1840. The original map was engraved by J. &amp;amp; C. Walker and published by Society for the Diffusion of Useful Knowledge. All map collar and inset information is also available as part of the raster image, including any inset maps, profiles, statistical tables, directories, text, illustrations, or other information associated with the principal map. This map was scanned and georeferenced by the Stanford University Geospatial Center using a Transverse Mercator projection. This map is part of a selection of digitally scanned and georeferenced historic maps of Africa held at Stanford University Libraries.</gco:CharacterString>
       </abstract>
       <purpose>
         <gco:CharacterString>This historic paper map provides an historical perspective of the cultural and physical landscape during this time period. The wide range of information provided on these maps make them useful in the study of historic geography. As this map has been georeferenced, it also can be used as a background layer in conjunction with other GIS data.</gco:CharacterString>
@@ -328,6 +328,12 @@
           <keyword>
             <gco:CharacterString>Africa</gco:CharacterString>
           </keyword>
+          <keyword>
+            <gco:CharacterString>Africa, North</gco:CharacterString>
+          </keyword>
+          <keyword>
+            <gco:CharacterString>Northern Africa</gco:CharacterString>
+          </keyword>
           <type>
             <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
           </type>
@@ -371,9 +377,6 @@
           <keyword>
             <gco:CharacterString>Historical geography</gco:CharacterString>
           </keyword>
-          <keyword>
-            <gco:CharacterString>Maps</gco:CharacterString>
-          </keyword>
           <type>
             <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
           </type>
@@ -414,7 +417,7 @@
           <aggregateDataSetName>
             <CI_Citation>
               <title>
-                <gco:CharacterString>Georeferenced raster data from the Dr. Oscar I. Norwich collection of maps of Africa and its islands, 1486 - ca. 1865</gco:CharacterString>
+                <gco:CharacterString>Georeferenced maps of Africa</gco:CharacterString>
               </title>
               <date gco:nilReason="missing"/>
               <identifier>
@@ -434,28 +437,6 @@
           </initiativeType>
         </MD_AggregateInformation>
       </aggregationInfo>
-      <aggregationInfo>
-        <MD_AggregateInformation>
-          <aggregateDataSetName>
-            <CI_Citation>
-              <title>
-                <gco:CharacterString>Dr. Oscar I. Norwich collection of maps of Africa and its islands, 1486 - ca. 1865</gco:CharacterString>
-              </title>
-              <date gco:nilReason="missing"/>
-              <identifier>
-                <MD_Identifier>
-                  <code>
-                    <gco:CharacterString>http://purl.stanford.edu/qb438pg7646</gco:CharacterString>
-                  </code>
-                </MD_Identifier>
-              </identifier>
-            </CI_Citation>
-          </aggregateDataSetName>
-          <associationType>
-            <DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="crossReference" codeSpace="ISOTC211/19115">crossReference</DS_AssociationTypeCode>
-          </associationType>
-        </MD_AggregateInformation>
-      </aggregationInfo>
       <spatialRepresentationType>
         <MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid" codeSpace="ISOTC211/19115">grid</MD_SpatialRepresentationTypeCode>
       </spatialRepresentationType>
@@ -469,7 +450,7 @@
         <MD_TopicCategoryCode>imageryBaseMapsEarthCover</MD_TopicCategoryCode>
       </topicCategory>
       <environmentDescription>
-        <gco:CharacterString>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.1.4959</gco:CharacterString>
+        <gco:CharacterString> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1.5686</gco:CharacterString>
       </environmentDescription>
       <extent>
         <EX_Extent>
@@ -502,7 +483,7 @@
           <temporalElement>
             <EX_TemporalExtent>
               <extent>
-                <gml:TimePeriod gml:id="idp86336">
+                <gml:TimePeriod gml:id="idp94976">
                   <gml:beginPosition>1840-01-01T00:00:00</gml:beginPosition>
                   <gml:endPosition>1840-12-31T00:00:00</gml:endPosition>
                 </gml:TimePeriod>
@@ -531,7 +512,7 @@
             <gco:Real>45</gco:Real>
           </minValue>
           <units>
-            <gml:UnitDefinition gml:id="idp144736">
+            <gml:UnitDefinition gml:id="idp150096">
               <gml:identifier codeSpace="GML_UomSymbol">Unified Code of Units of Measure</gml:identifier>
             </gml:UnitDefinition>
           </units>

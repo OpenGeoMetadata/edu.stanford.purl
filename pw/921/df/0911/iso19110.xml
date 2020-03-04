@@ -1,0 +1,843 @@
+<gfc:FC_FeatureCatalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.isotc211.org/2005/gfc" xsi:schemaLocation="http://www.isotc211.org/2005/gfc http://www.isotc211.org/2005/gfc/gfc.xsd" uuid="4194f4fa-b078-45c1-bbe8-470b404b7297">
+  <gmx:name>
+    <gco:CharacterString>Entity and Attribute Information</gco:CharacterString>
+  </gmx:name>
+  <gmx:scope>
+    <gco:CharacterString>Citizenship; Census</gco:CharacterString>
+  </gmx:scope>
+  <gmx:versionNumber gco:nilReason="unknown"/>
+  <gmx:versionDate>
+    <gco:Date>2018</gco:Date>
+  </gmx:versionDate>
+  <gmx:language>
+    <gco:CharacterString>eng; US</gco:CharacterString>
+  </gmx:language>
+  <gmx:characterSet>
+    <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115"/>
+  </gmx:characterSet>
+  <gfc:featureType>
+    <gfc:FC_FeatureType>
+      <gfc:typeName>
+        <gco:LocalName>P17_Nationality</gco:LocalName>
+      </gfc:typeName>
+      <gfc:definition/>
+      <gfc:isAbstract>
+        <gco:Boolean>false</gco:Boolean>
+      </gfc:isAbstract>
+      <gfc:featureCatalogue uuidref="4194f4fa-b078-45c1-bbe8-470b404b7297"/>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>FID</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Internal feature number.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Esri</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>Esri</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>OID</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>Shape</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Feature geometry.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Esri</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>Esri</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Geometry</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>CODE</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Variable</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>Shape_Leng</gco:LocalName>
+          </gfc:memberName>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>Shape_Area</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Area of feature in internal units squared.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Esri</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>Esri</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E227</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>1. Awa</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E228</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>2. Achuar</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E229</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>3. Chachi</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E230</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>4. Cofan</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E231</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString> 5. Epera</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E232</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString> 6. Siona</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E233</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString> 7. Secoya</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E234</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString> 8. Shiwiar</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E235</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString> 9. Shuar</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E236</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString> 10. Tsachila</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E237</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString> 11. Waorani</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E238</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString> 12. Zapara</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E239</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString> 13. Andoa</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E240</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString> 13. Kichwa amazonia</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E241</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString> 14. Kichwa de la sierra</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E242</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>21. Pastos</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E243</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>22. Natabuela</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E244</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>23. Otavalo</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E245</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>24. Karanki</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E246</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>25. Kayambi</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E247</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>26. Kitukara</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E248</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>27. Panzaleo</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E249</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>28. Chibuleo</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E250</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>29. Salasaka</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E251</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>30. Kisapincha</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E252</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>31. Tomabela</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E253</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>32. Waranka</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E254</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>33. Puruha</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E255</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>34. Kanari</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E256</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>35. Saraguro</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E257</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>36. Paltas</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E258</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>37. Manta</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E259</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>38. Huancavilca</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E260</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>88. Other nationalities</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E261</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>99. Ignored</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E1131</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>NACIONA_T</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+    </gfc:FC_FeatureType>
+  </gfc:featureType>
+</gfc:FC_FeatureCatalogue>

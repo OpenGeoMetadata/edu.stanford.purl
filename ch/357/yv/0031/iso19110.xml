@@ -1,0 +1,519 @@
+<gfc:FC_FeatureCatalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.isotc211.org/2005/gfc" xsi:schemaLocation="http://www.isotc211.org/2005/gfc http://www.isotc211.org/2005/gfc/gfc.xsd" uuid="8465ea0f-66c5-48f3-a85e-eb3bc031168b">
+  <gmx:name>
+    <gco:CharacterString>Entity and Attribute Information</gco:CharacterString>
+  </gmx:name>
+  <gmx:scope>
+    <gco:CharacterString>Housing; Census</gco:CharacterString>
+  </gmx:scope>
+  <gmx:versionNumber gco:nilReason="unknown"/>
+  <gmx:versionDate>
+    <gco:Date>2018</gco:Date>
+  </gmx:versionDate>
+  <gmx:language>
+    <gco:CharacterString>eng; US</gco:CharacterString>
+  </gmx:language>
+  <gmx:characterSet>
+    <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115"/>
+  </gmx:characterSet>
+  <gfc:featureType>
+    <gfc:FC_FeatureType>
+      <gfc:typeName>
+        <gco:LocalName>HousingType</gco:LocalName>
+      </gfc:typeName>
+      <gfc:definition/>
+      <gfc:isAbstract>
+        <gco:Boolean>false</gco:Boolean>
+      </gfc:isAbstract>
+      <gfc:featureCatalogue uuidref="8465ea0f-66c5-48f3-a85e-eb3bc031168b"/>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>FID</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Internal feature number.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Esri</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>Esri</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>OID</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>Shape</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Feature geometry.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Esri</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>Esri</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Geometry</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>CODE</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Variable</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>Shape_Leng</gco:LocalName>
+          </gfc:memberName>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>Shape_Area</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>Area of feature in internal units squared.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:definitionReference>
+            <gfc:FC_DefinitionReference>
+              <gfc:definitionSource>
+                <gfc:FC_DefinitionSource>
+                  <gfc:source>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>Esri</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="unknown"/>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>Esri</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider" codeSpace="001"/>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gfc:source>
+                </gfc:FC_DefinitionSource>
+              </gfc:definitionSource>
+            </gfc:FC_DefinitionReference>
+          </gfc:definitionReference>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E515</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>1. House / Village</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E516</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>2. Department home or building</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E517</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>3. Room (s) in tenement</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E518</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>4. mediagua</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E519</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>5. Rancho</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E520</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>6. Covacha</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E521</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>7. Hut</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E522</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>8. Another particular housing</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E523</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>9. Hotel, pension, residential or hostel</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E524</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>10. Barracks Military or Police / Fire</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E525</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>11. Social rehabilitation center / prison</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E526</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>12. Shelter and protection for children, women and destitute</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E527</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>13. Hospital, clinic, etc.</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E528</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>14. Convent or religious institution</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E529</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>15. Nursing home or orphanage</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E530</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>16. Other collective housing</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E531</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>17. Homeless</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>E2170</gco:LocalName>
+          </gfc:memberName>
+          <gfc:definition>
+            <gco:CharacterString>TIPVIV_T</gco:CharacterString>
+          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>Double</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+    </gfc:FC_FeatureType>
+  </gfc:featureType>
+</gfc:FC_FeatureCatalogue>

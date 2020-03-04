@@ -24,7 +24,7 @@
     <languageTerm authority="iso639-2b">eng</languageTerm>
   </language>
   <physicalDescription>
-    <form>Raster Dataset</form>
+    <form>GeoTIFF</form>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
   <subject>
@@ -34,37 +34,12 @@
       <coordinates>(E 29&#xB0;20&#x2B9;38&#x2BA;--E 33&#xB0;6&#x2B9;52&#x2BA;/N 31&#xB0;41&#x2B9;18&#x2BA;--N 28&#xB0;45&#x2B9;51&#x2BA;)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced raster image of an historic regional map of Egypt created in 1862. All map collar and inset information is also available as part of the raster image, including any inset maps, profiles, statistical tables, directories, text, illustrations, or other information associated with the principal map. This map was georeferenced by the Stanford University Geospatial Center using a Transverse Mercator projection. This map is part of a selection of digitally scanned and georeferenced historic maps of Africa from the Oscar I. Norwich Collection at Stanford University.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced raster image of an historic regional map of Egypt created in 1862. All map collar and inset information is also available as part of the raster image, including any inset maps, profiles, statistical tables, directories, text, illustrations, or other information associated with the principal map. This map was georeferenced by the Stanford Geospatial Center using a Transverse Mercator projection. This map is part of a selection of maps of Africa held at Stanford University Libraries.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This historic paper map provides an historical perspective of the cultural and physical landscape during this time period. The wide range of information provided on these maps make them useful in the study of historic geography. As this map has been georeferenced, it also can be used as a background layer in conjunction with other GIS data.
     </abstract>
   <note displayLabel="Attribute accuracy report" lang="eng">The horizontal positional accuracy of a raster image is approximately the same as the accuracy of the published source map. The lack of a greater accuracy is largely the result of the inaccuracies with the original measurements and possible distortions in the original paper map document.  There may also be errors introduced during the digitizing and georeferencing process.  In most cases, however, errors in the raster image are small compared with sources of error in the original map graphic.  The RMS error for this map is 221.645 meters. This value describes how consistent the transformation is between the different control points (links).  The RMS error is only an assessment of the accuracy of the transformation.</note>
   <note displayLabel="Preferred citation" lang="eng">Stanford Geospatial Center. (2013). Isthme de Suez avec Trac&#xE9; de Canaux Conc&#xE9;d&#xE9;s par S. A. le Vice-Roi d'Egypte pourle Jonction du Nil au Lac Timsah tel qu'il a &#xE9;t&#xE9; arr&#xE8;t&#xE9; par le Commission Internationale 1857 (Raster Image). Stanford Digital Repository. Available at: http://purl.stanford.edu/bh691yj7263.</note>
-  <note displayLabel="Supplemental information">The Oscar I. Norwich Collection consists of over 300 maps published from the 15th to the early 20th century. More information about this collection can be accessed here: http://purl.stanford.edu/qb438pg7646. For more information about Stanford's Maps of Africa Collection, see here: https://exhibits.stanford.edu/maps-of-africa/default-exhibit.</note>
-<relatedItem type="otherFormat" displayLabel="Scanned map">
-<titleInfo>
-<title>Isthme de Suez avec Trac&#xE9; de Canaux Conc&#xE9;d&#xE9;s par S. A. le Vice-Roi d'Egypte pourle Jonction du Nil au Lac Timsah tel qu'il a &#xE9;t&#xE9; arr&#xE8;t&#xE9; par le Commission Internationale 1857</title>
-</titleInfo>
-<location>
-<url>http://purl.stanford.edu/rs346sc2452</url>
-</location>
-</relatedItem>  
-<relatedItem type="isReferencedBy">
-    <titleInfo>
-      <title>Dr. Oscar I. Norwich collection of maps of Africa and its islands, 1486 - ca. 1865</title>
-    </titleInfo>
-    <location>
-      <url>http://purl.stanford.edu/qb438pg7646</url>
-    </location>
-    <name type="personal">
-      <namePart>Norwich, I</namePart>
-    </name>
-    <name type="personal">
-      <namePart>Norwich, Rose</namePart>
-    </name>
-    <originInfo>
-      <dateIssued encoding="w3cdtf">2013</dateIssued>
-    </originInfo>
-  </relatedItem>
+  <note displayLabel="Supplemental information">For more information about Stanford's Maps of Africa Collection, see here: https://exhibits.stanford.edu/maps-of-africa.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Historical geography</topic>
   </subject>
@@ -81,7 +56,10 @@
     <geographic lang="eng" valueURI="http://sws.geonames.org/357994/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Egypt</geographic>
   </subject>
   <subject>
-    <temporal encoding="w3cdtf">1862</temporal>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/6255146/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Africa</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">1857</temporal>
   </subject>
   <subject>
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="imageryBaseMapsEarthCover">Imagery and Base Maps</topic>
@@ -104,11 +82,12 @@
         <dc:type>Dataset#Raster</dc:type>
         <gml:boundedBy>
           <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>29.3438575 28.7642086</gml:lowerCorner>
-            <gml:upperCorner>33.1147472 31.6883727</gml:upperCorner>
+            <gml:lowerCorner>29.3438575 28.7642089</gml:lowerCorner>
+            <gml:upperCorner>33.1147472 31.6883729</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
         <dc:coverage rdf:resource="http://sws.geonames.org/357994/" dc:language="eng" dc:title="Egypt"/>
+        <dc:coverage rdf:resource="http://sws.geonames.org/6255146/" dc:language="eng" dc:title="Africa"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>

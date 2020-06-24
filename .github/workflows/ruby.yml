@@ -31,7 +31,3 @@ jobs:
     - uses: stefanzweifel/git-auto-commit-action@v4
       commit_message: 'Update Stanford data dump'
       branch: data-updates
-
-  env:
-    # This is necessary in order to push a commit to the repo
-    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged

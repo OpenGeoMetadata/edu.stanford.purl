@@ -6,6 +6,7 @@ require 'http'
 require 'uri'
 require 'byebug'
 require 'tempfile'
+require 'tmpdir'
 
 task :pull do
   timestamp = Time.now.utc.iso8601
@@ -51,43 +52,48 @@ task :pull do
       doc.delete('_version_')
       doc.delete('hashed_id_ssi')
 
-      tree = doc['layer_slug_s'].match(/stanford-(..)(...)(..)(....)/).captures.join('/')
-      next if tree.empty?
+      tree_dirs = doc['layer_slug_s'].match(/stanford-(..)(...)(..)(....)/).captures.join('/')
+      next if tree_dirs.empty?
+
+      tree = File.expand_path(tree_dirs)
 
       FileUtils.mkdir_p(tree)
 
-      File.open("./#{tree}/geoblacklight.json", 'w') { |f| f.puts JSON.pretty_generate(doc) }
+      Dir.mktmpdir do |dir|
+        File.open("#{dir}/geoblacklight.json", 'w') { |f| f.puts JSON.pretty_generate(doc) }
 
-      references = JSON.parse(doc['dct_references_s'])
-      mods_url = references['http://www.loc.gov/mods/v3']
+        references = JSON.parse(doc['dct_references_s'])
+        mods_url = references['http://www.loc.gov/mods/v3']
 
-      puts "  [GET] #{mods_url}"
-      response = HTTP.follow.get(mods_url)
-      mods = response.body.to_s
-      File.open("./#{tree}/mods.xml", 'w') { |f| f.puts mods }
+        puts "  [GET] #{mods_url}"
+        response = HTTP.follow.get(mods_url)
+        mods = response.body.to_s
+        File.open("#{dir}/mods.xml", 'w') { |f| f.puts mods }
 
-      data_zip_url = references['http://schema.org/downloadUrl']
-      # TODO: figure out what to do with private data
-      Tempfile.open('data_zip') do |f|
-        puts "  [GET] #{data_zip_url}"
-        response = HTTP.get(data_zip_url)
-        if !response.status.ok?
-          puts "  [GET] #{data_zip_url} [ERROR]"
-          break
+        data_zip_url = references['http://schema.org/downloadUrl']
+        # TODO: figure out what to do with private data
+        Tempfile.open('data_zip') do |f|
+          puts "  [GET] #{data_zip_url}"
+          response = HTTP.get(data_zip_url)
+          if !response.status.ok?
+            puts "  [GET] #{data_zip_url} [ERROR]"
+            break
+          end
+          puts "  [GET] #{data_zip_url} [OK] (#{response.content_length} bytes)"
+
+
+          f.write(response.body)
+          f.rewind
+          Zip::File.open(f.path) do |zip_file|
+            iso19110 = zip_file.glob('*-iso19110.xml').first
+            puts "  [ZIP] #{iso19110&.name.inspect}"
+            File.open("#{dir}/iso19110.xml", 'w') { |f| f.puts iso19110.get_input_stream.read }
+            iso19139 = zip_file.glob('*-iso19139.xml').first
+            puts "  [ZIP] #{iso19139&.name.inspect}"
+            File.open("#{dir}/iso19139.xml", 'w') { |f| f.puts iso19139.get_input_stream.read }
+          end
         end
-        puts "  [GET] #{data_zip_url} [OK] (#{response.content_length} bytes)"
-
-
-        f.write(response.body)
-        f.rewind
-        Zip::File.open(f.path) do |zip_file|
-          iso19110 = zip_file.glob('*-iso19110.xml').first
-          puts "  [ZIP] #{iso19110&.name.inspect}"
-          File.open("./#{tree}/iso19110.xml", 'w') { |f| f.puts iso19110.get_input_stream.read }
-          iso19139 = zip_file.glob('*-iso19139.xml').first
-          puts "  [ZIP] #{iso19139&.name.inspect}"
-          File.open("./#{tree}/iso19139.xml", 'w') { |f| f.puts iso19139.get_input_stream.read }
-        end
+        FileUtils.cp_r Dir.glob("#{dir}/*"), tree
       end
     rescue => e
       puts "[ERROR] #{e}"

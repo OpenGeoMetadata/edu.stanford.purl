@@ -10,8 +10,6 @@ name: Ruby
 on:
   repository_dispatch:
     types: [test]
-  schedule:
-    - cron: '*/15 * * * *'
 
 jobs:
   test:
@@ -26,9 +24,14 @@ jobs:
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: 2.6
-#     - name: Install dependencies
-#       run: bundle install
-#     - name: Run tests
-#       run: bundle exec rake
-    - name: Disk size
-      run: df -h; ls -la
+    - name: Install dependencies
+      run: bundle install
+    - name: Run tests
+      run: bundle exec rake
+    - uses: stefanzweifel/git-auto-commit-action@v4
+      commit_message: 'Update Stanford data dump'
+      branch: data-updates
+
+  env:
+    # This is necessary in order to push a commit to the repo
+    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged

@@ -9,7 +9,8 @@ require 'tempfile'
 require 'tmpdir'
 
 task :pull do
-  timestamp = Time.now.utc.iso8601
+  start_timestamp = Time.now.utc
+  last_timestamp = nil
   previous_timestamp = File.read('./last_run')
   if !previous_timestamp || previous_timestamp.strip.empty?
     puts 'Unable to find ./last_run file'
@@ -22,7 +23,8 @@ task :pull do
     'f[dct_provenance_s][]': 'Stanford',
     format: 'json',
     q: "-layer_geom_type_s:Image AND layer_modified_dt:[#{previous_timestamp.strip} TO *]",
-    per_page: 100
+    per_page: 100,
+    sort: 'layer_modified_dt asc'
   }
   puts "[GET #0] #{url} #{params.inspect}"
   http_response = HTTP.get(url, params: params)
@@ -95,12 +97,22 @@ task :pull do
         end
         FileUtils.cp_r Dir.glob("#{dir}/*"), tree
       end
+      last_timestamp = doc['layer_modified_dt']
     rescue => e
       puts "[ERROR] #{e}"
     end
   end
-  File.open('./last_run', 'w') { |f| f.puts timestamp }
-  puts "Updating last run: #{timestamp}"
+
+  if last_timestamp
+    # if the most recent document is in the past (beyond any reasonable clock-skew)
+    # go ahead and bump the timestamp so we don't repeat documents
+    if (Time.parse(last_timestamp) + 3600) < start_timestamp
+      last_timestamp = (Time.parse(last_timestamp) + 1).utc.iso8601
+    end
+
+    puts "Updating last run: #{last_timestamp}"
+    File.open('./last_run', 'w') { |f| f.puts last_timestamp }
+  end
 end
 
 task :write_layers_json do

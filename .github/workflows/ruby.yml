@@ -8,6 +8,8 @@
 name: Ruby
 
 on:
+  repository_dispatch:
+    types: [test]
   schedule:
     - cron: '*/15 * * * *'
 

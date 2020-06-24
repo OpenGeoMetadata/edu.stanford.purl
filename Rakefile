@@ -78,8 +78,7 @@ task :pull do
           puts "  [GET] #{data_zip_url}"
           response = HTTP.get(data_zip_url)
           if !response.status.ok?
-            puts "  [GET] #{data_zip_url} [ERROR]"
-            break
+            raise "Unable to fetch #{data_zip_url} (HTTP #{response.status})"
           end
           puts "  [GET] #{data_zip_url} [OK] (#{response.content_length} bytes)"
 

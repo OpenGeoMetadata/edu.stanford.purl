@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Puerto San Jose and Puerto Quetzal (Raster Image)</title>
@@ -35,7 +35,7 @@
     <cartographics>
       <scale>1:15000</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 90&#xB0;51&#x2B9;--W 90&#xB0;42&#x2B9;/N 13&#xB0;56&#x2B9;--N 13&#xB0;50&#x2B9;)</coordinates>
+      <coordinates>(W 90°51ʹ--W 90°42ʹ/N 13°56ʹ--N 13°50ʹ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This layer is a digital raster graphic (DRG) of a scanned nautical chart titled "Puerto San Jose and Puerto Quetzal." It was originally published by the U.S. Defense Mapping Agency.. (Chart number: 21483. 1st Ed., Jan-85; Scale:1:200000). Geographic areas covered by this map include the coast of Antarctica. This layer is part of a selection of digitally scanned and georeferenced maps from the Branner Library Map Collection at Stanford University.</abstract>
@@ -66,7 +66,6 @@
   <location>
     <url>http://purl.stanford.edu/qb377xk2979</url>
   </location>
-  <accessCondition type="useAndReproduction">All data is the copyrighted property of LAND INFO Worldwide Mapping, LLC and / or its suppliers. Land Info grants customer unlimited license for internal academic use of data and license to distribute data on an isolated non-commercial basis, or as Derived Works. Derived works that include the source data must be merged with other value-added data in such a way that the derived work can&#x2019;t be converted back to the original source data format.  Other Derived Works that don&#x2019;t include the source data (vector extraction, classification etc.) have no restrictions on use and distribution. An unlimited license is granted for media use, provided that the following citation is used:  "map data courtesy www.landinfo.com."</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:qb377xk2979</recordIdentifier>
@@ -90,4 +89,22 @@
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 90&#xB0;51&#x2B9;--W 90&#xB0;42&#x2B9;/N 13&#xB0;56&#x2B9;--N 13&#xB0;50&#x2B9;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 90°51ʹ--W 90°42ʹ/N 13°56ʹ--N 13°50ʹ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>National Geospatial-Intelligence Agency Nautical Charts</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qt609tt2964</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">Land Info grants customer unlimited license for internal academic use of data and license to distribute data on an isolated non-commercial basis, or as Derived Works.</accessCondition>
+</mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Grayscale Alaska Shaded Relief, 200-Meter Resolution, Albers projection</title>
@@ -32,10 +32,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::3338</projection>
-      <coordinates>(W 180&#xB0;--E 180&#xB0;/N 72&#xB0;3&#x2B9;56&#x2BA;--N 42&#xB0;36&#x2B9;30&#x2BA;)</coordinates>
+      <coordinates>(W 180°--E 180°/N 72°3ʹ56ʺ--N 42°36ʹ30ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">The grayscale Alaska shaded relief data were derived from National Elevation Dataset (NED) data, and show the terrain of Alaska at a resolution of 200 meters. The NED is a raster product assembled by the U.S. Geological Survey, designed to provide national elevation data in a seamless form with a consistent datum, elevation unit, and projection. Data corrections made in the NED assembly process minimize artifacts, permit edge matching, and fill sliver areas of missing data. The National Atlas also includes a Lambert Azimuthal Equal Area projection shaded relief file; this file is the same data in an Albers projection. This layer is part of the 1997-2014 edition National Atlas of the United States.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">The grayscale Alaska shaded relief data were derived from National Elevation Dataset (NED) data, and show the terrain of Alaska at a resolution of 200 meters. The NED is a raster product assembled by the U.S. Geological Survey, designed to provide national elevation data in a seamless form with a consistent datum, elevation unit, and projection. Data corrections made in the NED assembly process minimize artifacts, permit edge matching, and fill sliver areas of missing data. The National Atlas also includes a Lambert Azimuthal Equal Area projection shaded relief file; this file is the same data in an Albers projection. This layer is part of the 1997-2014 edition of the National Atlas of the United States.</abstract>
   <abstract displayLabel="Purpose" lang="eng">The grayscale shaded relief images were developed to portray the terrain of the United States. They are intended for visual purposes only. The original National Elevation Dataset (NED) data must be used for conducting analysis and determining elevation values.</abstract>
   <note displayLabel="Preferred citation" lang="eng">National Atlas of the United States. (2006). Grayscale Alaska Shaded Relief, 200-Meter Resolution, Albers projection. National Atlas of the United States. Available at: http://purl.stanford.edu/np649pb5860.</note>
   <note displayLabel="Supplemental information">The associated world file is included as part of the GeoTIFF. The contents of the world file are: &gt;200.0000 &gt;0.000000 &gt;0.000000 &gt;-200.0000 &gt;-3390900.0000 &gt;2449900.0000 The following projection file can be used when using ESRI's ArcGIS to view the GeoTIFF (any line breaks should be removed): PROJCS["Albers_NAD_1983_Alaska",GEOGCS["GCS_North_American_1983", DATUM["D_North_American_1983",SPHEROID["GRS_1980",6378137.0, 298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree", 0.0174532925199433]],PROJECTION["Albers"],PARAMETER ["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER ["Central_Meridian",-154.0],PARAMETER["Standard_Parallel_1",55.0], PARAMETER["Standard_Parallel_2",65.0],PARAMETER ["Latitude_Of_Origin",50.0],UNIT["Meter",1.0]]</note>
@@ -69,7 +69,6 @@
   <location>
     <url>http://purl.stanford.edu/np649pb5860</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:np649pb5860</recordIdentifier>
@@ -85,8 +84,8 @@
         <dc:type>Dataset#Raster</dc:type>
         <gml:boundedBy>
           <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-180.0 42.6074773</gml:lowerCorner>
-            <gml:upperCorner>179.9993879 72.0654475</gml:upperCorner>
+            <gml:lowerCorner>-179.9999896 42.607495</gml:lowerCorner>
+            <gml:upperCorner>179.9993982 72.0654652</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
         <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
@@ -94,4 +93,22 @@
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 180&#xB0;--E 179&#xB0;59&#x2B9;58&#x2BA;/N 72&#xB0;3&#x2B9;56&#x2BA;--N 42&#xB0;36&#x2B9;27&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 180°--E 179°59ʹ58ʺ/N 72°3ʹ56ʺ--N 42°36ʹ27ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>National atlas of the United States of America, 1997-2014</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/cv275yx9215</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

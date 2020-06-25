@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>City Limits, Placer County, California, 2020</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>Placer County Geographic Information Systems</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>Placer County Geographic Information Systems</publisher>
+    <place>
+      <placeTerm type="text">Auburn, Calif., US</placeTerm>
+    </place>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <extent>0.154</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>Custom projection</projection>
+      <coordinates>(W 121°26ʹ48ʺ--W 120°56ʹ/N 39°6ʹ53ʺ--N 38°42ʹ59ʺ)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains city limit boundaries of Placer County California. Cities include Lincoln, Roseville, Rocklin, Loomis, Auburn and Colfax. This data is updated on a monthly basis and will include any recent annexations. This layer is part of a collection of public geospatial datasets produced by the Placer County GIS Division.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">Placer County Geographic Information Systems. (2020). City Limits, Placer County, California, 2020. Placer County Geographic Information Systems. Available at: https://purl.stanford.edu/qy016wf7200</note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Cities and towns</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Administrative and political divisions</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng">Placer County (Calif.)</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">2020</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
+  </subject>
+  <location>
+    <url>https://purl.stanford.edu/qy016wf7200</url>
+  </location>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:qy016wf7200</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="https://purl.stanford.edu/qy016wf7200">
+        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type>Dataset#Polygon</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>-121.446644 38.716341</gml:lowerCorner>
+            <gml:upperCorner>-120.933456 39.114702</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 121°26ʹ48ʺ--W 120°56ʹ/N 39°6ʹ53ʺ--N 38°42ʹ59ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Placer County, California, GIS Maps and Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/dm792cm7155</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">Please acknowledge the data producer as the source when data are used in the preparation of reports, papers, publications, maps, or other products. These data are made available as a public resource of general information for use "as is" with the understanding that it is not guaranteed to be accurate, correct or complete and any conclusions drawn from such information are the sole responsibility of the user. The data provider assumes no responsibility for errors or omissions, and explicitly disclaims any representations and warranties, including, without limitation, the implied warranties of merchantability and fitness for a particular purpose.</accessCondition>
+</mods>

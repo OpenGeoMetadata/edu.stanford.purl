@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Grayscale Conterminous United States Shaded Relief, 200-Meter Resolution, Albers projection</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2002</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>GeoTIFF</form>
@@ -31,8 +31,8 @@
   <subject>
     <cartographics>
       <scale>Scale not given.</scale>
-      <projection>EPSG::2163</projection>
-      <coordinates>(W 161&#xB0;13&#x2B9;25&#x2BA;--W 40&#xB0;7&#x2B9;15&#x2BA;/N 74&#xB0;44&#x2B9;26&#x2BA;--N 41&#xB0;16&#x2B9;1&#x2BA;)</coordinates>
+      <projection>Custom projection</projection>
+      <coordinates>(W 131°25ʹ32ʺ--W 61°48ʹ22ʺ/N 52°30ʹ21ʺ--N 20°51ʹ12ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">The grayscale conterminous United States shaded relief data were derived from National Elevation Dataset (NED) data, and show the terrain of the conterminous United States at a resolution of 200 meters. The NED is a raster product assembled by the U.S. Geological Survey, designed to provide national elevation data in seamless form with a consistent datum, elevation unit, and projection. Data corrections made in the NED assembly process minimize artifacts, permit edge matching, and fill sliver areas of missing data. The National Atlas also includes a Lambert Azimuthal Equal Area projection shaded relief file; this file is the same data in an Albers projection. This layer is part of the 1997-2014 edition National Atlas of the United States.</abstract>
@@ -207,7 +207,7 @@
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="elevation">Elevation</topic>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="">Geoscientific Information</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
   </subject>
   <subject>
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="imageryBaseMapsEarthCover">Imagery and Base Maps</topic>
@@ -215,7 +215,6 @@
   <location>
     <url>http://purl.stanford.edu/jb375gc5613</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:jb375gc5613</recordIdentifier>
@@ -231,62 +230,29 @@
         <dc:type>Dataset#Raster</dc:type>
         <gml:boundedBy>
           <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-161.223607 41.2663183</gml:lowerCorner>
-            <gml:upperCorner>-40.1198504 74.7405869</gml:upperCorner>
+            <gml:lowerCorner>-131.425534 20.8522253</gml:lowerCorner>
+            <gml:upperCorner>-61.8057725 52.5058313</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5879092/" dc:language="eng" dc:title="Alaska"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4829764/" dc:language="eng" dc:title="Alabama"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5551752/" dc:language="eng" dc:title="Arizona"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4099753/" dc:language="eng" dc:title="Arkansas"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5417618/" dc:language="eng" dc:title="Colorado"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4831725/" dc:language="eng" dc:title="Connecticut"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4142224/" dc:language="eng" dc:title="Delaware"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4155751/" dc:language="eng" dc:title="Florida"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4197000/" dc:language="eng" dc:title="Georgia"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5855797/" dc:language="eng" dc:title="Hawaii"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5596512/" dc:language="eng" dc:title="Idaho"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4896861/" dc:language="eng" dc:title="Illinois"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4921868/" dc:language="eng" dc:title="Indiana"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4862182/" dc:language="eng" dc:title="Iowa"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4273857/" dc:language="eng" dc:title="Kansas"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6254925/" dc:language="eng" dc:title="Kentucky"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4331987/" dc:language="eng" dc:title="Louisiana"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4971068/" dc:language="eng" dc:title="Maine"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4361885/" dc:language="eng" dc:title="Maryland"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6254926/" dc:language="eng" dc:title="Massachusetts"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5001836/" dc:language="eng" dc:title="Michigan"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5037779/" dc:language="eng" dc:title="Minnesota"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4436296/" dc:language="eng" dc:title="Mississippi"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4398678/" dc:language="eng" dc:title="Missouri"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5667009/" dc:language="eng" dc:title="Montana"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5073708/" dc:language="eng" dc:title="Nebraska"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5509151/" dc:language="eng" dc:title="Nevada"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5090174/" dc:language="eng" dc:title="New Hampshire"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5101760/" dc:language="eng" dc:title="New Jersey"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5481136/" dc:language="eng" dc:title="New Mexico"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5128638/" dc:language="eng" dc:title="New York (State)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4482348/" dc:language="eng" dc:title="North Carolina"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5690763/" dc:language="eng" dc:title="North Dakota"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5165418/" dc:language="eng" dc:title="Ohio"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4544379/" dc:language="eng" dc:title="Oklahoma"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5744337/" dc:language="eng" dc:title="Oregon"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6254927/" dc:language="eng" dc:title="Pennsylvania"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5224323/" dc:language="eng" dc:title="Rhode Island"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4597040/" dc:language="eng" dc:title="South Carolina"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5769223/" dc:language="eng" dc:title="South Dakota"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4662168/" dc:language="eng" dc:title="Tennessee"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4736286/" dc:language="eng" dc:title="Texas"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5549030/" dc:language="eng" dc:title="Utah"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5242283/" dc:language="eng" dc:title="Vermont"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6254928/" dc:language="eng" dc:title="Virginia"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4138106/" dc:language="eng" dc:title="Washington (D.C.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5815135/" dc:language="eng" dc:title="Washington (State)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4826850/" dc:language="eng" dc:title="West Virginia"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5279468/" dc:language="eng" dc:title="Wisconsin"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5843591/" dc:language="eng" dc:title="Wyoming"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 161&#xB0;13&#x2B9;25&#x2BA;--W 40&#xB0;7&#x2B9;11&#x2BA;/N 74&#xB0;44&#x2B9;26&#x2BA;--N 41&#xB0;15&#x2B9;59&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 131°25ʹ32ʺ--W 61°48ʹ21ʺ/N 52°30ʹ21ʺ--N 20°51ʹ8ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>National atlas of the United States of America, 1997-2014</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/cv275yx9215</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Reducing Wildfire Threats to Communities, California, 2018</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>Fire and Resource Assessment Program (Calif.)</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>Fire and Resource Assessment Program (Calif.)</publisher>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>Custom projection</projection>
+      <coordinates>(W 124°30ʹ22ʺ--W 113°29ʹ55ʺ/N 42°4ʹ7ʺ--N 32°25ʹ25ʺ)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This Priority Landscape (PL) prioritizes lands where communities (people and associated infrastructure) are at risk from wildfire to direct efforts at reducing wildfire risk in these areas. Ranking: The ranking varies from 1 (least risk) to 5 (greatest risk). Housing density derived from FRAP's WUI layer is used to rank assets. Threat is determined using California Fire Hazard Severity Zones . Asset: The asset to be protected in this PL is communities, which are defined by housing densities. Less dense areas receive lower value and higher densities receive higher value. The classes of density are: 0 = No houses 1 = 0 - 0.05 housing unit per acre 2 = 0.051 - 0.200 housing unit per acre 3 = 0.201 - 1 housing unit per acre 4 = greater than 1 housing unit per acres Threat: The threat to the communities is Fire Hazard Severity, derived from CAL FIRE's Fire Hazard Severity Zones. The zone ranking is: 1 = moderate severity 3 = high severity 5 = very high severity Final Ranking: The ranked asset and ranked threat were combined to derive the final ranked priority landscape. The results were ranked from the lowest risk of 1 to the highest risk of 5. This dataset was developed in 2018 to support the California Assessment of Forest and Rangelands.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">Fire and Resource Assessment Program (Calif.). (2018). Reducing Wildfire Threats to Communities, California, 2018. Fire and Resource Assessment Program (Calif.). Available at: https://purl.stanford.edu/ry558mk7173</note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Fire risk assessment</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/3687919/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">California</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">2018</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
+  </subject>
+  <location>
+    <url>https://purl.stanford.edu/ry558mk7173</url>
+  </location>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:ry558mk7173</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="https://purl.stanford.edu/ry558mk7173">
+        <dc:format>image/tiff; format=GeoTIFF</dc:format>
+        <dc:type>Dataset#Raster</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>-124.5060913 32.4236478</gml:lowerCorner>
+            <gml:upperCorner>-113.4984758 42.0685746</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 124°30ʹ22ʺ--W 113°29ʹ55ʺ/N 42°4ʹ7ʺ--N 32°25ʹ25ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Forestry and Fire Protection, GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ng146rv3289</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">The user will cite the Department of Forestry and Fire Protection as the original source of the maps, but will clearly denote cases where the original maps have been updated, modified, or in any way altered from the original condition. The State of California and the Department of Forestry and Fire Protection make no representations or warranties regarding the accuracy of data or maps. Neither the State nor the Department shall be liable under any circumstances for any direct, special, incidental, or consequential damages with respect to any claim by any user or third party on account of or arising from the use of data or maps.</accessCondition>
+</mods>

@@ -29,5 +29,6 @@ jobs:
     - name: Run tests
       run: bundle exec rake
     - uses: stefanzweifel/git-auto-commit-action@v4
-      commit_message: 'Update Stanford data dump'
-      branch: data-updates
+      with:
+        commit_message: 'Update Stanford data dump'
+        branch: data-updates

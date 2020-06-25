@@ -76,12 +76,16 @@ task :pull do
         # TODO: figure out what to do with private data
         Tempfile.open('data_zip') do |f|
           puts "  [GET] #{data_zip_url}"
-          response = HTTP.get(data_zip_url)
+          response = if ENV['STACKS_TOKEN']
+            HTTP.follow.auth("Bearer #{ENV['STACKS_TOKEN']}").get(data_zip_url)
+          else
+            HTTP.follow.get(data_zip_url)
+          end
+
           if !response.status.ok?
             raise "Unable to fetch #{data_zip_url} (HTTP #{response.status})"
           end
           puts "  [GET] #{data_zip_url} [OK] (#{response.content_length} bytes)"
-
 
           f.write(response.body)
           f.rewind
@@ -116,7 +120,7 @@ end
 
 task :write_layers_json do
   data = {}
-  Dir.glob('**/geoblacklight.json').each do |file|
+  Dir.glob('**/geoblacklight.json').sort.each do |file|
     druid = File.dirname(file).split(/\//).join
     data["druid:#{druid}"] = File.dirname(file)
   end

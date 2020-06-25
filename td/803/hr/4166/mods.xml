@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Restoring Forest Ecosystem Services Damaged by Wildfire, California, 2018</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>Fire and Resource Assessment Program (Calif.)</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>Fire and Resource Assessment Program (Calif.)</publisher>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>Custom projection</projection>
+      <coordinates>(W 124°10ʹ25ʺ--W 115°57ʹ34ʺ/N 42°4ʹ7ʺ--N 32°52ʹ4ʺ)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This Priority Landscape (PL) shows priority areas for restoring forest ecosystem services damaged by wildfire. For areas that burned between 2008 and 2017, individual 30m pixels were assigned ranks from 1 (lowest need for restoration) to 5 (highest need for restoration) based on the composite scores from various assets and threats. Study Area: The area included in this priority landscape is limited to areas burned by wildfire in the years 2008 through 2017. The data layer "VegBurnSeverity18_1" identifies these areas. Assets: Surface water value: HUC12 watersheds from the National Hydrography Dataset (NHD) Wateshed Boundary Dataset (WBD) were ranked based on surface drinking water value from the USDA Forest Service's Forests to Faucet data, https://www.fs.fed.us/ecosystemservices/FS_Efforts/forests2faucets.shtml. The score of importance to surface drinking water was normalized to a 0-100 scale. This was then binned into 5 categories based on equal area quantiles for data within the study area. Site quality: This shows the productivity of timberland, based upon potential volume of wood (i.e. cubic feet) that can be produced per acre in a year. Spatial site class data was imputed by Barry Wilson from the USFS Forest Inventory and Analysis (FIA) data based on the attribute SITECLCD – site productivity class code. It shows the potential timber volume produced at culmination of mean annual increment, in the standard classes used by the USFS. See Wilson, B.T., C.W. Woodall, and D.M. Griffith, Imputing forest carbon stock estimates from inventory plots to a nationally continuous coverage. Carbon Balance and Management, 2013. 8(1): p. 15. Threats: Erosion Hazard Potential: Erosion caused by the denudation of vegetation after a wildfire can threaten drinking water quality, or the operation of drinking water reservoirs. The Fire and Resource Assessment Program developed a post-fire erosion potential model based on the Revised Universal Soil Loss Equation with the assumption that the maximum amount of vegetation was removed by fire. The data was limited to the area burned between 2008 and 2017 and was binned into 5 categories representing lowest risk (1) to highest risk (5). High Severity Burn Areas: Higher severity fires result in more challenging conditions for forests to restore themselves. These areas represent the difficulty of achieving sufficient natural regeneration which would restore the forest land ecosystem services. These data were ranked into five categories representing easiest to regenerate (1) to hardest to regenerate (5). This ranking is based on the size and complexity of high severity burn areas, based on methodology and data developed by Jens Stevens (see publication https://www.fs.fed.us/psw/publications/north/psw_2017_north005_stevens.pdf) Composite Ranks and Final Ranking: All assets were combined and the result ranked from 1 to 5 to derive a composite asset. Likewise, all threats were combined the results ranked from 1 to 5 to create a composite threat. The composite asset layer and composite threat ranks were then combined and classified to a final priority landscape rank for each 30m pixel. 1 (lowest need for restoration) to 5 (highest need for restoration). This dataset was developed in 2018 to support the California Assessment of Forest and Rangelands.</abstract>
+  <note displayLabel="Preferred citation" lang="eng">Fire and Resource Assessment Program (Calif.). (2018). Restoring Forest Ecosystem Services Damaged by Wildfire, California, 2018. Fire and Resource Assessment Program (Calif.). Available at: https://purl.stanford.edu/td803hr4166</note>
+  <subject>
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Fire risk assessment</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/3687919/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">California</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">2018</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
+  </subject>
+  <location>
+    <url>https://purl.stanford.edu/td803hr4166</url>
+  </location>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:td803hr4166</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="https://purl.stanford.edu/td803hr4166">
+        <dc:format>image/tiff; format=GeoTIFF</dc:format>
+        <dc:type>Dataset#Raster</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>-124.173625 32.8679014</gml:lowerCorner>
+            <gml:upperCorner>-115.9593989 42.0685746</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 124°10ʹ25ʺ--W 115°57ʹ34ʺ/N 42°4ʹ7ʺ--N 32°52ʹ4ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Forestry and Fire Protection, GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ng146rv3289</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">The user will cite the Department of Forestry and Fire Protection as the original source of the maps, but will clearly denote cases where the original maps have been updated, modified, or in any way altered from the original condition. The State of California and the Department of Forestry and Fire Protection make no representations or warranties regarding the accuracy of data or maps. Neither the State nor the Department shall be liable under any circumstances for any direct, special, incidental, or consequential damages with respect to any claim by any user or third party on account of or arising from the use of data or maps.</accessCondition>
+</mods>

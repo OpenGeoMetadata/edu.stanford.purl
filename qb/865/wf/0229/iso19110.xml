@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <gfc:FC_FeatureCatalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.isotc211.org/2005/gfc" xsi:schemaLocation="http://www.isotc211.org/2005/gfc http://www.isotc211.org/2005/gfc/gfc.xsd" uuid="e2061156-5793-426d-80bb-7b06733c6807">
   <gmx:name>
     <gco:CharacterString>Entity and Attribute Information</gco:CharacterString>
@@ -18,7 +19,7 @@
   <gfc:featureType>
     <gfc:FC_FeatureType>
       <gfc:typeName>
-        <gco:LocalName>StanfordCampus2010</gco:LocalName>
+        <gco:LocalName>stanfordCampus2010</gco:LocalName>
       </gfc:typeName>
       <gfc:definition/>
       <gfc:isAbstract>
@@ -116,42 +117,6 @@
       <gfc:carrierOfCharacteristics>
         <gfc:FC_FeatureAttribute>
           <gfc:memberName>
-            <gco:LocalName>Druid</gco:LocalName>
-          </gfc:memberName>
-          <gfc:definition>
-            <gco:CharacterString>Digital repository unique identifier</gco:CharacterString>
-          </gfc:definition>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>String</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
-            <gco:LocalName>Purl</gco:LocalName>
-          </gfc:memberName>
-          <gfc:definition>
-            <gco:CharacterString>PURL</gco:CharacterString>
-          </gfc:definition>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>String</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
             <gco:LocalName>title</gco:LocalName>
           </gfc:memberName>
           <gfc:cardinality gco:nilReason="unknown"/>
@@ -167,11 +132,23 @@
       <gfc:carrierOfCharacteristics>
         <gfc:FC_FeatureAttribute>
           <gfc:memberName>
-            <gco:LocalName>Label</gco:LocalName>
+            <gco:LocalName>recordIden</gco:LocalName>
           </gfc:memberName>
-          <gfc:definition>
-            <gco:CharacterString>Label/Title</gco:CharacterString>
-          </gfc:definition>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>webiteURL</gco:LocalName>
+          </gfc:memberName>
           <gfc:cardinality gco:nilReason="unknown"/>
           <gfc:valueType>
             <gco:TypeName>

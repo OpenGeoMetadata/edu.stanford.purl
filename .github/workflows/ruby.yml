@@ -26,8 +26,10 @@ jobs:
         ruby-version: 2.6
     - name: Install dependencies
       run: bundle install
-    - name: Run tests
+    - name: Update data
       run: bundle exec rake
+      env:
+        STACKS_TOKEN: ${{ secrets.STACKS_TOKEN }}
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: 'Update Stanford data dump'

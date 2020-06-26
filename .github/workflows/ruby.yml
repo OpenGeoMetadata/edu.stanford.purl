@@ -8,6 +8,9 @@
 name: Ruby
 
 on:
+  schedule:
+    - cron: '12 17 * * */7'
+
   repository_dispatch:
     types: [test]
 
@@ -36,6 +39,7 @@ jobs:
       with:
         commit_message: 'Update Stanford data dump'
         branch: data-updates
+        push_options: '--force'
     - uses: repo-sync/pull-request@v2
       with:
         source_branch: data-updates

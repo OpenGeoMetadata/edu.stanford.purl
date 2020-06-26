@@ -18,11 +18,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - uses: peterjgrainger/action-create-branch@v1.0.0
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        branch: 'data-updates'
+    - name: Get on the right branch
+      run: git checkout -b data-updates
     - name: Set up Ruby
     # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
     # change this to (see https://github.com/ruby/setup-ruby#versioning):

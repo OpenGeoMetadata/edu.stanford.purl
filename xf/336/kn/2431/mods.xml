@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Beiping Shi zui xin xiang xi quan tu (Raster Image)</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Raster Dataset</form>
@@ -31,7 +31,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 116&#xB0;20&#x2B9;26&#x2BA;--E 116&#xB0;26&#x2B9;40&#x2BA;/N 39&#xB0;58&#x2B9;3&#x2BA;--N 39&#xB0;51&#x2B9;28&#x2BA;)</coordinates>
+      <coordinates>(E 116°20ʹ26ʺ--E 116°26ʹ40ʺ/N 39°58ʹ3ʺ--N 39°51ʹ28ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced image of a detailed map of Beijing showing the Imperial City, the Forbidden City, and the Temple of Heaven. The original map and this scanned image are from the Library of Congress, Geography and Map Division. The georectifed map image was created as part of the David Rumsey Map Collection. </abstract>
@@ -65,7 +65,6 @@
   <location>
     <url>http://purl.stanford.edu/xf336kn2431</url>
   </location>
-  <accessCondition type="useAndReproduction">This work is licensed under a Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported License. Image from the David Rumsey Map Collection courtesy Stanford University Libraries. To obtain permission to publish or reproduce commercially, please contact the David Rumsey Map Center at rumseymapcenter@stanford.edu. Property rights reside with the repository, Copyright &#xA9; Stanford University. Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:xf336kn2431</recordIdentifier>
@@ -89,4 +88,24 @@
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 116&#xB0;20&#x2B9;26&#x2BA;--E 116&#xB0;26&#x2B9;40&#x2BA;/N 39&#xB0;58&#x2B9;3&#x2BA;--N 39&#xB0;51&#x2B9;28&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 116°20ʹ26ʺ--E 116°26ʹ40ʺ/N 39°58ʹ3ʺ--N 39°51ʹ28ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>David Rumsey Map Collection at Stanford University Libraries</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/xh235dd9059</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">Image from the David Rumsey Map Collection courtesy Stanford University Libraries. To obtain permission to publish or reproduce commercially, please contact the David Rumsey Map Center at rumseymapcenter@stanford.edu.</accessCondition>
+  <accessCondition type="copyright">Property rights reside with the repository, Copyright (c) Stanford University.  Images may be reproduced or transmitted, but not for commercial use. For commercial use or commercial republication, contact rumseymapcenter@stanford.edu This work is licensed under a Creative Commons License. By downloading any images from this site, you agree to the terms of that license.</accessCondition>
+  <accessCondition type="license">CC by-nc-sa: Attribution Non-Commercial Share Alike 3.0 Unported</accessCondition>
+</mods>

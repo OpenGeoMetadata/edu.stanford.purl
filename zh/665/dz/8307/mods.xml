@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Electric Power Substations: United States, Summer 2014</title>
@@ -23,7 +23,7 @@
     <edition>1016 Update</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -34,7 +34,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 124&#xB0;36&#x2B9;42&#x2BA;--W 67&#xB0;17&#x2B9;29&#x2BA;/N 48&#xB0;59&#x2B9;35&#x2BA;--N 24&#xB0;34&#x2B9;32&#x2BA;)</coordinates>
+      <coordinates>(W 124°36ʹ42ʺ--W 67°17ʹ29ʺ/N 48°59ʹ35ʺ--N 24°34ʹ32ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile provides the location, current and previous owners, maximum kilovolts of power, operational status, and other infomation for electric power substations in the United States. This layer is part of a collection of GIS data for renewable and electric energy in the U.S. This layer is from the 2014 Summer Quarter update (Update 1016).</abstract>
@@ -75,8 +75,25 @@
             <gml:upperCorner>-67.291326 48.993065</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;36&#x2B9;42&#x2BA;--W 67&#xB0;17&#x2B9;29&#x2BA;/N 48&#xB0;59&#x2B9;35&#x2BA;--N 24&#xB0;34&#x2B9;32&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 124°36ʹ42ʺ--W 67°17ʹ29ʺ/N 48°59ʹ35ʺ--N 24°34ʹ32ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Renewable energy GIS data : United States</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/vq006xg0504</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

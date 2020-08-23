@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Roads, North America, Winter 2016</title>
@@ -19,7 +19,7 @@
     <edition>1026 Update</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -29,7 +29,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 176&#xB0;57&#x2B9;32&#x2BA;--E 179&#xB0;27&#x2B9;11&#x2BA;/N 76&#xB0;25&#x2B9;40&#x2BA;--S 14&#xB0;22&#x2B9;)</coordinates>
+      <coordinates>(W 176°57ʹ32ʺ--E 179°27ʹ11ʺ/N 76°25ʹ40ʺ--S 14°22ʹ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile represents roads in North America (Canada, Mexico, and the United States). This layer is from Winter Quarter 2016.</abstract>
@@ -59,7 +59,6 @@
   <location>
     <url>http://purl.stanford.edu/qh949hr1717</url>
   </location>
-  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. These data may not be reproduced or used for any purpose without permission. For more information please contact brannerlibrary@stanford.edu.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:qh949hr1717</recordIdentifier>
@@ -79,11 +78,25 @@
             <gml:upperCorner>144.761214 74.740028</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6251999/" dc:language="eng" dc:title="Canada"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3996063/" dc:language="eng" dc:title="Mexico"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6255149/" dc:language="eng" dc:title="North America"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 176&#xB0;57&#x2B9;32&#x2BA;--E 144&#xB0;45&#x2B9;40&#x2BA;/N 74&#xB0;44&#x2B9;24&#x2BA;--S 14&#xB0;22&#x2B9;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 176°57ʹ32ʺ--E 144°45ʹ40ʺ/N 74°44ʹ24ʺ--S 14°22ʹ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Renewable energy GIS data : United States</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/vq006xg0504</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

@@ -1,13 +1,13 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Firippin gomanbun no ichi zu, Maps Index</title>
   </titleInfo>
   <titleInfo>
-    <title type="alternative">Philippines 1:50,000 &#x201C;Maps Index&#x201D; </title>
+    <title type="alternative">Philippines 1:50,000 “Maps Index” </title>
   </titleInfo>
   <titleInfo>
-    <title displayLabel="Alternative title">Philippines 1:50,000 &#x201C;Maps Index&#x201D; </title>
+    <title displayLabel="Alternative title">Philippines 1:50,000 “Maps Index” </title>
   </titleInfo>
   <name type="corporate">
     <namePart>Stanford Geospatial Center</namePart>
@@ -27,21 +27,21 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
     <extent>0.004</extent>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+  <subject>
     <cartographics>
       <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>(E 121&#xB0;45&#x2B9;--E 124&#xB0;20&#x2B9;/N 15&#xB0;--N 12&#xB0;30&#x2B9;)</coordinates>
+      <projection>Custom projection</projection>
+      <coordinates>(E 121°45ʹ--E 124°20ʹ/N 15°--N 12°30ʹ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile is an index to 1:50,000 scale maps of Philippines, titled '&#x6BD4;&#x5F8B;&#x8CD3;&#x3000;&#x4E94;&#x4E07;&#x5206;&#x4E00;&#x5716; - Firippin gomanbun no ichi zu.&#x2019; This map series was originally produced by the Japanese Land Survey Department of the General Staff Headquarters in 1944. Stanford University Libraries holds a large collection of Japanese military and imperial maps, referred to as gaih&#x14D;zu, or "maps of outer lands." These maps were produced starting in the early Meiji (1868-1912) era and the end of World War II by the Land Survey Department of the General Staff Headquarters, the former Japanese Army. The Library is in the process of scanning and making available all of the maps in the collection. To create this index, footprints were generated using the fishnet tool, and metadata were supplied for the digitized paper maps by Stanford University Libraries. After the footprints were created, the shapefile was trimmed and labeled according to the sources.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile is an index to 1:50,000 scale maps of Philippines, titled '比律賓　五万分一圖 - Firippin gomanbun no ichi zu.’ This map series was originally produced by the Japanese Land Survey Department of the General Staff Headquarters in 1944. Stanford University Libraries holds a large collection of Japanese military and imperial maps, referred to as gaihōzu, or "maps of outer lands." These maps were produced starting in the early Meiji (1868-1912) era and the end of World War II by the Land Survey Department of the General Staff Headquarters, the former Japanese Army. The Library is in the process of scanning and making available all of the maps in the collection. To create this index, footprints were generated using the fishnet tool, and metadata were supplied for the digitized paper maps by Stanford University Libraries. After the footprints were created, the shapefile was trimmed and labeled according to the sources.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This layer provides an index map that can be used to locate individual scanned map sheets.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Stanford Geospatial Center. (2016). Firippin gomanbun no ichi zu, Maps Index. Stanford Digital Repository. Available at: http://purl.stanford.edu/xg349km5552.</note>
   <relatedItem type="isReferencedBy">
@@ -79,7 +79,6 @@
   <location>
     <url>http://purl.stanford.edu/xg349km5552</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:xg349km5552</recordIdentifier>
@@ -103,4 +102,22 @@
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 121°45ʹ--E 124°20ʹ/N 15°--N 12°30ʹ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Gaihozu Index Maps</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ch237ht4777</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

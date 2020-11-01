@@ -1,4 +1,5 @@
-<gfc:FC_FeatureCatalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.isotc211.org/2005/gfc" xsi:schemaLocation="http://www.isotc211.org/2005/gfc http://www.isotc211.org/2005/gfc/gfc.xsd" uuid="&#10;               e0fde100-ebb4-4846-bf8e-520e70b54a95&#10;            ">
+<?xml version="1.0" encoding="utf-8"?>
+<gfc:FC_FeatureCatalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.isotc211.org/2005/gfc" xsi:schemaLocation="http://www.isotc211.org/2005/gfc http://www.isotc211.org/2005/gfc/gfc.xsd" uuid="&#10;&#9;&#9;&#9;&#9;&#9;e0fde100-ebb4-4846-bf8e-520e70b54a95&#10;&#9;&#9;&#9;&#9;">
   <gmx:name>
     <gco:CharacterString>Feature catalog for Firippin gomanbun no ichi zu, Maps Index</gco:CharacterString>
   </gmx:name>
@@ -24,7 +25,7 @@
       <gfc:isAbstract>
         <gco:Boolean>false</gco:Boolean>
       </gfc:isAbstract>
-      <gfc:featureCatalogue uuidref="&#10;               e0fde100-ebb4-4846-bf8e-520e70b54a95&#10;            "/>
+      <gfc:featureCatalogue uuidref="&#10;&#9;&#9;&#9;&#9;&#9;e0fde100-ebb4-4846-bf8e-520e70b54a95&#10;&#9;&#9;&#9;&#9;"/>
       <gfc:carrierOfCharacteristics>
         <gfc:FC_FeatureAttribute>
           <gfc:memberName>
@@ -146,7 +147,7 @@
       <gfc:carrierOfCharacteristics>
         <gfc:FC_FeatureAttribute>
           <gfc:memberName>
-            <gco:LocalName>Sheet_ID</gco:LocalName>
+            <gco:LocalName>label</gco:LocalName>
           </gfc:memberName>
           <gfc:cardinality gco:nilReason="unknown"/>
           <gfc:valueType>
@@ -161,7 +162,7 @@
       <gfc:carrierOfCharacteristics>
         <gfc:FC_FeatureAttribute>
           <gfc:memberName>
-            <gco:LocalName>Sheet_Num</gco:LocalName>
+            <gco:LocalName>call_num</gco:LocalName>
           </gfc:memberName>
           <gfc:cardinality gco:nilReason="unknown"/>
           <gfc:valueType>
@@ -176,7 +177,7 @@
       <gfc:carrierOfCharacteristics>
         <gfc:FC_FeatureAttribute>
           <gfc:memberName>
-            <gco:LocalName>Call_numbe</gco:LocalName>
+            <gco:LocalName>recld</gco:LocalName>
           </gfc:memberName>
           <gfc:cardinality gco:nilReason="unknown"/>
           <gfc:valueType>
@@ -191,22 +192,7 @@
       <gfc:carrierOfCharacteristics>
         <gfc:FC_FeatureAttribute>
           <gfc:memberName>
-            <gco:LocalName>Druid</gco:LocalName>
-          </gfc:memberName>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>String</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
-            <gco:LocalName>Purl</gco:LocalName>
+            <gco:LocalName>websiteUrl</gco:LocalName>
           </gfc:memberName>
           <gfc:cardinality gco:nilReason="unknown"/>
           <gfc:valueType>
@@ -228,21 +214,6 @@
             <gco:TypeName>
               <gco:aName>
                 <gco:CharacterString>String</gco:CharacterString>
-              </gco:aName>
-            </gco:TypeName>
-          </gfc:valueType>
-        </gfc:FC_FeatureAttribute>
-      </gfc:carrierOfCharacteristics>
-      <gfc:carrierOfCharacteristics>
-        <gfc:FC_FeatureAttribute>
-          <gfc:memberName>
-            <gco:LocalName>Symphony_B</gco:LocalName>
-          </gfc:memberName>
-          <gfc:cardinality gco:nilReason="unknown"/>
-          <gfc:valueType>
-            <gco:TypeName>
-              <gco:aName>
-                <gco:CharacterString>Double</gco:CharacterString>
               </gco:aName>
             </gco:TypeName>
           </gfc:valueType>
@@ -287,7 +258,37 @@
           <gfc:valueType>
             <gco:TypeName>
               <gco:aName>
-                <gco:CharacterString>SmallInteger</gco:CharacterString>
+                <gco:CharacterString>Integer</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>available</gco:LocalName>
+          </gfc:memberName>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
+              </gco:aName>
+            </gco:TypeName>
+          </gfc:valueType>
+        </gfc:FC_FeatureAttribute>
+      </gfc:carrierOfCharacteristics>
+      <gfc:carrierOfCharacteristics>
+        <gfc:FC_FeatureAttribute>
+          <gfc:memberName>
+            <gco:LocalName>iiiUrl</gco:LocalName>
+          </gfc:memberName>
+          <gfc:cardinality gco:nilReason="unknown"/>
+          <gfc:valueType>
+            <gco:TypeName>
+              <gco:aName>
+                <gco:CharacterString>String</gco:CharacterString>
               </gco:aName>
             </gco:TypeName>
           </gfc:valueType>

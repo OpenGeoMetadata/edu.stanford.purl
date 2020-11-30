@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Vernal Pools: Placer County, California, 1999-2000</title>
@@ -23,7 +23,7 @@
     <dateValid encoding="w3cdtf" point="end">2000</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -34,7 +34,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 121&#xB0;29&#x2B9;8&#x2BA;--W 121&#xB0;10&#x2B9;17&#x2BA;/N 39&#xB0;1&#x2B9;19&#x2BA;--N 38&#xB0;43&#x2B9;37&#x2BA;)</coordinates>
+      <coordinates>(W 121°29ʹ8ʺ--W 121°10ʹ17ʺ/N 39°1ʹ19ʺ--N 38°43ʹ37ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts the distribution of extant vernal pool complexes in Placer Country for use by the United States Fish and Wildlife Service in recovery planning for listed and sensitive species. True color aerial slides from the Deptartment of Water Resources were interpreted, and vernal pool complexes were identified. Complexes more than 40 acres in size were then digitized as polygons and given a density rating (see Resource Fields for attribute definitions). This layer was created to help biologists and resource planners make informed decisions in their recovery and planning efforts. It depicts vernal pool complexes, not individual vernal pools. Since the minimum mapping unit of the coverage is 40 acres, it may not provide the level of detail required for larger scale (smaller area, more site-specific) conservation planning. This coverage was produced based on 1999 aerial photography, supplemented by experience with numerous delineation and inventory projects throughout the vernal pool areas of Placer County. Pre-existing vernal pool delineations served as an additional reference source. Additional documentation is provided with the data.</abstract>
@@ -64,7 +64,6 @@
   <location>
     <url>http://purl.stanford.edu/wz415qy4139</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:wz415qy4139</recordIdentifier>
@@ -84,8 +83,25 @@
             <gml:upperCorner>-121.173664 39.020493</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Placer County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 121&#xB0;28&#x2B9;48&#x2BA;--W 121&#xB0;10&#x2B9;25&#x2BA;/N 39&#xB0;1&#x2B9;14&#x2BA;--N 38&#xB0;43&#x2B9;46&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 121°28ʹ48ʺ--W 121°10ʹ25ʺ/N 39°1ʹ14ʺ--N 38°43ʹ46ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Fish and Wildlife GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/fb282pw3043</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

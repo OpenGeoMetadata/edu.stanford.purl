@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Entire Adult Distribution: Spotted Sand Bass, California, 2001</title>
   </titleInfo>
@@ -23,7 +23,7 @@
     <edition>First</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -34,7 +34,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 121&#xB0;59&#x2B9;48&#x2BA;--W 116&#xB0;56&#x2B9;22&#x2BA;/N 36&#xB0;40&#x2B9;1&#x2BA;--N 32&#xB0;23&#x2B9;9&#x2BA;)</coordinates>
+      <coordinates>(W 121°59ʹ48ʺ--W 116°56ʹ22ʺ/N 36°40ʹ1ʺ--N 32°23ʹ9ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the entire distribution for adult Spotted Sand Bass (Paralabrax maculatofasciatus). The process of creating this shapefile included creating contour lines, in 5-meter intervals, from bathymetry lines. Depth ranges were taken from four references (see Resource Details Supplemental Information). After the broadest depth range was determined for this species, they were rounded to the nearest 5-meter interval. The deepest and shallowest shapefile lines were connected by a line at the northern end and southern end (determined by their geographical extent from north to south). This shapefile was then converted to polygon. The goal of this shapefile was to provide a range in which this species could occur, given that their habitat are present.</abstract>
@@ -78,7 +78,6 @@
   <location>
     <url>http://purl.stanford.edu/zc809fc7159</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:zc809fc7159</recordIdentifier>
@@ -98,9 +97,25 @@
             <gml:upperCorner>-117.092859 36.651154</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 121&#xB0;59&#x2B9;43&#x2BA;--W 117&#xB0;5&#x2B9;34&#x2BA;/N 36&#xB0;39&#x2B9;4&#x2BA;--N 32&#xB0;25&#x2B9;11&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 121°59ʹ43ʺ--W 117°5ʹ34ʺ/N 36°39ʹ4ʺ--N 32°25ʹ11ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Fish and Wildlife GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/fb282pw3043</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

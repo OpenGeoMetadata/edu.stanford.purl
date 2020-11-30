@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Commercial Vehicle Enforcement Facilities, California, 2015</title>
   </titleInfo>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 124&#xB0;9&#x2B9;3&#x2BA;--W 114&#xB0;44&#x2B9;16&#x2BA;/N 41&#xB0;53&#x2B9;21&#x2BA;--N 32&#xB0;33&#x2B9;16&#x2BA;)</coordinates>
+      <coordinates>(W -124.15072--W -114.73784/N 41.88905--N 32.554565)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile contains the locations of commercial vehicle enforcement facilities (CVEF), also called weight stations, in California as of 2015. Highway pavement depends upon the weight and frequency of the traffic using the facility. Heavy trucks cause far greater impact on pavement and bridges compared to passenger cars. It is important to monitor overweight truck traffic in order to preserve and extend pavement life. The California Department of Transportation (Caltrans) Division of Maintenance created this GIS layer by retrieving the CVEF information from the Asset Management Inventory (AMI) database owned by Right of Way. The data attributes include the location description and weight station classification. Based upon the weight station primary function, staffing needs, size, location, and physical configuration, five classification have been established: A, B, C, D, mini-sites. This layer is part of a collection of GIS data created by the California Department of Transportation (Caltrans).</abstract>
@@ -40,8 +40,8 @@
   <note displayLabel="Preferred citation" lang="eng">California Department of Transportation. (2015). Commercial Vehicle Enforcement Facilities, California, 2015. California Department of Transportation. Available at http://purl.stanford.edu/yx674gw3304.</note>
   <note displayLabel="Supplemental information">The inspection program enhances commercial vehicle and driver safety. For detail information on truck access and weight limitation, please visit Caltrans, Division of Traffic Operations website: http://www.dot.ca.gov/hq/traffops/trucks/trucksize/weight.htm
 Data Sources and references: 
-      &#x2022; The Asset Management Database (Caltrans, Division of Right of Way and Land Surveys)
-      &#x2022; 2011 Commercial Vehicle enforcement Facility Inventory of Needs Report, http://www.dot.ca.gov/hq/traffops/trucks/weigh-stations/needs-inventory.pdf</note>
+      • The Asset Management Database (Caltrans, Division of Right of Way and Land Surveys)
+      • 2011 Commercial Vehicle enforcement Facility Inventory of Needs Report, http://www.dot.ca.gov/hq/traffops/trucks/weigh-stations/needs-inventory.pdf</note>
   <note displayLabel="Use limitation">The data are made available to the public solely for informational purposes. Information provided in the Caltrans GIS Data Library is accurate to the best of our knowledge and is subject to change on a regular basis, without notice. While Caltrans makes every effort to provide useful and accurate information, we do not warrant the information to be authoritative, complete, factual, or timely. Information is provided on an "as is" and an "as available" basis. The Department of Transportation is not liable to any party for any cost or damages, including any direct, indirect, special, incidental, or consequential damages, arising out of or in connection with the access or use of, or the inability to access or use, the Site or any of the Materials or Services described herein.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Motor vehicle scales</topic>
@@ -83,8 +83,19 @@ Data Sources and references:
             <gml:upperCorner>-114.73784 41.88905</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Transportation GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sb381ch4421</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. http://www.gnu.org/licenses.</accessCondition>
 </mods>

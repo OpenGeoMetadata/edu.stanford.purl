@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>World Airports, 1:50 million (2012)</title>
@@ -26,7 +26,7 @@
     <edition>2.0.0</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -37,10 +37,10 @@
     <cartographics>
       <scale>1:50000000</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 175&#xB0;8&#x2B9;8&#x2BA;--E 178&#xB0;33&#x2B9;36&#x2BA;/N 71&#xB0;17&#x2B9;21&#x2BA;--S 53&#xB0;18&#x2BA;)</coordinates>
+      <coordinates>(W 175°8ʹ8ʺ--E 178°33ʹ36ʺ/N 71°17ʹ21ʺ--S 53°18ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This point shapefile depicts airports worldwide, including terminal, parking, ramp and runway locations ordered best to worst. Locations could be up to 20 miles away from the actual airport location. More often it&#x2019;s within a mile of the actual location. Accuracy is low due to geocoding based on town name, use of DD.DD&#xB0; or DD.DDDD&#xB0; format instead of DD.DDDDDD&#xB0;for latitude and longitude values. Data is derived from the Mile High Club data on GitHub. These data are represented at 1:50,000,000 scale. This layer is part of the Natural Earth Collection (v.2.0.0).</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This point shapefile depicts airports worldwide, including terminal, parking, ramp and runway locations ordered best to worst. Locations could be up to 20 miles away from the actual airport location. More often it’s within a mile of the actual location. Accuracy is low due to geocoding based on town name, use of DD.DD° or DD.DDDD° format instead of DD.DDDDDD°for latitude and longitude values. Data is derived from the Mile High Club data on GitHub. These data are represented at 1:50,000,000 scale. This layer is part of the Natural Earth Collection (v.2.0.0).</abstract>
   <abstract displayLabel="Purpose" lang="eng">Natural Earth is a public domain map dataset available at 1:10, 1:50 and 1:110 million scales. Featuring tightly integrated vector and raster data, with Natural Earth you can make a variety of visually pleasing, well-crafted maps with cartography or GIS software.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Kelso, N.V. and Patterson, T. (2012). World Airports, 1:50 million (2012). Made with Natural Earth, online at http://www.naturalearthdata.com.</note>
   <subject>
@@ -80,8 +80,17 @@
             <gml:upperCorner>178.560048 71.289299</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6295630/about.rdf" dc:language="eng" dc:title="Earth (Planet)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Natural earth</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qr604qw5282</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

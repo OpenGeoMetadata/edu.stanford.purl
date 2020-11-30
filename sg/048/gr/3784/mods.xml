@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>World Coastlines, 1:50 million (2012)</title>
@@ -26,7 +26,7 @@
     <edition>2.0.0</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -37,7 +37,7 @@
     <cartographics>
       <scale>1:50000000</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 180&#xB0;--E 180&#xB0;/N 83&#xB0;35&#x2B9;59&#x2BA;--S 85&#xB0;11&#x2B9;32&#x2BA;)</coordinates>
+      <coordinates>(W 180°--E 180°/N 83°35ʹ59ʺ--S 85°11ʹ32ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polyline shapefile depicts ocean coastlines worldwide, including major islands. The 50m coastline is a generalized version of the 10m coastline achieved by automated and manual techniques. Coastline is matched to land and water polygons. The ocean coastline, the foundation for building all of the Natural Earth Vectors, primarily derives from the United States Central Intelligence Agency's World Data Bank 2 with modest generalization applied via line simplification in Adobe Illustrator. The Antarctica coast derives from NASA's Mosaic of Antarctica. World Data Bank 2 coastlines have suspect accuracy for certain parts of the world, including northern Russia, southern Chile and the west coast of the United States extending to the Baja Peninsula, Mexico, where the coast was approximately 7 km. east of where it should be. The west coast of the United States was corrected on the Natural Earth Vectors; other areas were not. Does not include rank 6, 7, or 8 coastlines from the minor islands. Some rank 5 coastline should be reclassified as rank 6.These data are represented at 1:50,000,000 scale. This layer is part of the Natural Earth Collection (v.2.0.0).</abstract>
@@ -80,8 +80,17 @@
             <gml:upperCorner>180.0 83.599609</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6295630/about.rdf" dc:language="eng" dc:title="Earth (Planet)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Natural earth</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qr604qw5282</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

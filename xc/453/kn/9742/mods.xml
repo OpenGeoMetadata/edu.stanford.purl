@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>State Highways (Segments), California, 2015</title>
   </titleInfo>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 124&#xB0;15&#x2B9;53&#x2BA;--W 114&#xB0;17&#x2B9;54&#x2BA;/N 42&#xB0;20&#x2BA;--N 32&#xB0;32&#x2B9;39&#x2BA;)</coordinates>
+      <coordinates>(W -124.264859--W -114.298233/N 42.005472--N 32.544302)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile represents highway segments in California. Each object in this layer represents a highway segment where the county, route, postmile prefix, and postmile suffix are the same. Each segment is coded with the district, county, route, postmile prefix (if any), begin postmile, end postmile, and postmile suffix (if any). One additional field - AlignCode - indicates if the state highway segment is on a Right alignment, Left alignment, Right side of an independent alignment, or Left side of an independent alignment. Where TSN (Transportation System Network - the source database) considers most state highways to have just a centerline, the underlying LRS (Linear Referencing System) linework that these segments are based upon has a line for each direction. In some cases the right and left lines are identical (where there is no median). In other cases the right and left are separated (where there is a median, or dual carriageways), but TSN treats the segment as a single centerline. In the last case the underlying linework has dual carriageways, and TSN treats the segment as a split alignment (where there are independent right and left alignments). In some cases (especially for small-scale mapping), it may be appropriate to display linework for just one alignment (e.g. Right alignment), and only for the other side where TSN indicates independent right and left alignments. In other cases (e.g. large-scale mapping), it may be appropriate to display postmiles for both alignments, regardless of how TSN treats the segment. This is an example of a query string that displays linework only for the right alignment where TSN indicates just a centerline, and on both right and left alignments where TSN indicates independent alignments: "AlignCode" &amp;lt;&amp;gt; 'Left'. The bOdometer and eOdometer fields represent the actual distance in miles from the start of the highway to the begin and end of each highway section. This is in contrast to the begin and end postmile values, which no longer represent these values as each highway is realigned (and made longer or shorter) over time. ). This layer is part of a collection of GIS data created by the California Department of Transportation (Caltrans).</abstract>
@@ -76,8 +76,27 @@
             <gml:upperCorner>-114.298233 42.005472</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;15&#x2B9;53&#x2BA;--W 114&#xB0;17&#x2B9;54&#x2BA;/N 42&#xB0;20&#x2BA;--N 32&#xB0;32&#x2B9;39&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>(W -124.264859--W -114.298233/N 42.005472--N 32.544302)</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Transportation GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sb381ch4421</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. http://www.gnu.org/licenses.</accessCondition>
+</mods>

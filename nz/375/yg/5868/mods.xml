@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Marine Protected Areas, California, 2004</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 124&#xB0;23&#x2B9;30&#x2BA;--W 116&#xB0;57&#x2B9;6&#x2BA;/N 40&#xB0;21&#x2B9;5&#x2BA;--N 32&#xB0;37&#x2B9;40&#x2BA;)</coordinates>
+      <coordinates>(W 124°23ʹ30ʺ--W 116°57ʹ6ʺ/N 40°21ʹ5ʺ--N 32°37ʹ40ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains all of California's marine protected areas with associated Department of Fish and Game fishing regulations in 2004. This dataset reflects Department of Fish and Game's best representation of marine protected areas based upon 2004 California Fish and Game Code book and State of California Fish and Game Commission California Code of Regulations, December 2003, Title 14: Natural Resources, Division 1: Fish and Game Commission- Department of Fish and Game. This dataset is not intended for navigational use or defining legal boundaries. This multiple polygon vector shapefile dataset includes all marine protected areas (with associated fishing regulations) for California's coastline and Channel Islands. Attributes give specific information on each of the marine protected areas that have associated DFG fishing regulations for 2004. Information includes: the current names of the existing MPAs, proposed names (pending 2004 Commission approval), current MPA designation, proposed MPA designation (without regulation changes), county which has jurisdiction over each MPA, source and reference information. This layer is part of a collection of data created by the California Department of Fish and Game.</abstract>
@@ -67,8 +67,6 @@
   <location>
     <url>http://purl.stanford.edu/nz375yg5868</url>
   </location>
-  <accessCondition type="useAndReproduction">None.</accessCondition>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:nz375yg5868</recordIdentifier>
@@ -88,8 +86,25 @@
             <gml:upperCorner>-117.236094 40.273627</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;23&#x2B9;29&#x2BA;--W 117&#xB0;14&#x2B9;10&#x2BA;/N 40&#xB0;16&#x2B9;25&#x2BA;--N 32&#xB0;39&#x2B9;52&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 124°23ʹ29ʺ--W 117°14ʹ10ʺ/N 40°16ʹ25ʺ--N 32°39ʹ52ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Fish and Wildlife GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/fb282pw3043</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

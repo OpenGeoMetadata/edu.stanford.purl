@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Aqueducts and Canals, Serbia, 2013</title>
@@ -21,14 +21,11 @@
   <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
   <originInfo>
     <publisher>International Steering Committee for Global Mapping</publisher>
-    <place>
-      <placeTerm type="text"/>
-    </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
     <edition>2</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -39,7 +36,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 18&#xB0;51&#x2B9;35&#x2BA;--E 21&#xB0;20&#x2B9;23&#x2BA;/N 46&#xB0;7&#x2B9;40&#x2BA;--N 44&#xB0;36&#x2B9;55&#x2BA;)</coordinates>
+      <coordinates>(E 18°51ʹ35ʺ--E 21°20ʹ23ʺ/N 46°7ʹ40ʺ--N 44°36ʹ55ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile represents aqueducts and canals in  Serbia. Boundaries of administrative units are collected from different sources (cadastral maps, basic state map and topographic maps of various scales). Positional accuracy has value between 1m to 300m based on source for data collecting. Global Map Serbia version 2.1 Drainage, Population center and Transportation layers were created using the Topographic map 1:300 000. Updating the data using The vector national database (scale 1:1 000 000) and orthophoto images. Digital Terrain Model with 30m grid is produced using terrain elevation data obtained under "Production of digital orthophoto maps for the Republic of Serbia". In order to satisfied Global Map Specification data resampling is done to 1km resolution. Global Map Serbia version 2.0 Land Cover was created using the vector data from European Environment Agency (EEA) - The data were collected and processed using remote sensing satellite images.</abstract>
@@ -61,7 +58,6 @@
   <location>
     <url>http://purl.stanford.edu/hp622vp0835</url>
   </location>
-  <accessCondition type="useAndReproduction">For non-commercial use, in principle, anyone can use the data free of charge. As the data of National/Regional version were developed by NGIAs of respective countries and regions, and there may be parts which have not been developed depending on countries and regions. In using the data, please check respective data policies because different countries and regions have different data policies.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:hp622vp0835</recordIdentifier>
@@ -81,8 +77,25 @@
             <gml:upperCorner>21.339732 46.127782</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Serbia"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 18&#xB0;51&#x2B9;35&#x2BA;--E 21&#xB0;20&#x2B9;23&#x2BA;/N 46&#xB0;7&#x2B9;40&#x2BA;--N 44&#xB0;36&#x2B9;55&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 18°51ʹ35ʺ--E 21°20ʹ23ʺ/N 46°7ʹ40ʺ--N 44°36ʹ55ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Global Map</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/kb168tn2424</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This dataset is freely available for academic use and other non-commercial use. Redistribution, or commercial use is not allowed without prior permission. You are free to create maps and use the data in other ways for publication in academic journals, books, reports, etc.</accessCondition>
+</mods>

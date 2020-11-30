@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Kelp Canopy: California, 2009</title>
@@ -52,7 +52,7 @@
     <dateValid encoding="w3cdtf">2009</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -63,7 +63,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 123&#xB0;45&#x2B9;21&#x2BA;--W 116&#xB0;53&#x2B9;23&#x2BA;/N 39&#xB0;5&#x2B9;32&#x2BA;--N 32&#xB0;32&#x2B9;2&#x2BA;)</coordinates>
+      <coordinates>(W 123°45ʹ21ʺ--W 116°53ʹ23ʺ/N 39°5ʹ32ʺ--N 32°32ʹ2ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">The data for this polygon shapefile was collected and created with the same camera system and processing software as the 2008 survey. Surface and subsurface kelp canopy imagery was collected and processed with separate classification schemes. The shapefile was created from Digital Multi-Spectral Camera image files. The data was collected and processed by Ocean Imaging under contract by the Resources Legacy Fund Foundation (RLFF) for the Marine Protected Areas Monitoring Enterprise. This dataset represents the 2009 aerial kelp survey. The imagery was collected on October 01, 2009 from an altitude of 12,500 feet. Surveys were planned to coincide with periods of minimal change between high and low tides to avoid strong tidal induced currents. This coverage is complete, although the user should note any omissions. The data are projected in California Teale Albers using North American Datum 1983. File reindexed to match CDFW kelp administrative kelp bed boundaries modified by changes to California Code of Regulations, Title 14, Section 165, effective April 1, 2014.</abstract>
@@ -106,7 +106,6 @@
   <location>
     <url>http://purl.stanford.edu/zd395qv1073</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:zd395qv1073</recordIdentifier>
@@ -126,9 +125,25 @@
             <gml:upperCorner>-117.1408 39.036347</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 123&#xB0;45&#x2B9;9&#x2BA;--W 117&#xB0;8&#x2B9;27&#x2BA;/N 39&#xB0;2&#x2B9;11&#x2BA;--N 32&#xB0;33&#x2B9;4&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 123°45ʹ9ʺ--W 117°8ʹ27ʺ/N 39°2ʹ11ʺ--N 32°33ʹ4ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Fish and Wildlife GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/fb282pw3043</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

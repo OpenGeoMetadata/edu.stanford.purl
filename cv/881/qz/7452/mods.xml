@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>World Glaciated Areas, 1:50 million (2012)</title>
@@ -26,7 +26,7 @@
     <edition>2.0.0</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -37,10 +37,10 @@
     <cartographics>
       <scale>1:50000000</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 180&#xB0;--E 180&#xB0;/N 82&#xB0;25&#x2B9;14&#x2BA;--S 85&#xB0;11&#x2B9;24&#x2BA;)</coordinates>
+      <coordinates>(W 180°--E 180°/N 82°25ʹ14ʺ--S 85°11ʹ24ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile includes name attributes for major polar glaciers and more recently de-glaciated areas and does not include scale rank attributes. Includes name attributes for major polar glaciers. Polygons were derived from the Digital Chart of the World (DCW), except for Antarctica derived from MOA. The original DCW data was collected decades ago, so this data layer is deliberately called &#x201C;glaciated areas&#x201D; instead of &#x201C;glaciers&#x201D; to reflect the changeable character of glacier extents. Filtering has aggregated some minor glaciers and eliminated others from the original DCW data. These data are represented at 1:50,000,000 scale. This layer is part of the Natural Earth Collection (v.2.0.0).</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile includes name attributes for major polar glaciers and more recently de-glaciated areas and does not include scale rank attributes. Includes name attributes for major polar glaciers. Polygons were derived from the Digital Chart of the World (DCW), except for Antarctica derived from MOA. The original DCW data was collected decades ago, so this data layer is deliberately called “glaciated areas” instead of “glaciers” to reflect the changeable character of glacier extents. Filtering has aggregated some minor glaciers and eliminated others from the original DCW data. These data are represented at 1:50,000,000 scale. This layer is part of the Natural Earth Collection (v.2.0.0).</abstract>
   <abstract displayLabel="Purpose" lang="eng">Natural Earth is a public domain map dataset available at 1:10, 1:50 and 1:110 million scales. Featuring tightly integrated vector and raster data, with Natural Earth you can make a variety of visually pleasing, well-crafted maps with cartography or GIS software.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Kelso, N.V. and Patterson, T. (2012). World Glaciated Areas, 1:50 million (2012). Made with Natural Earth, online at http://www.naturalearthdata.com.</note>
   <subject>
@@ -80,8 +80,25 @@
             <gml:upperCorner>179.999897 82.420675</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6295630/" dc:language="eng" dc:title="Earth (Planet)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 180&#xB0;--E 180&#xB0;/N 82&#xB0;25&#x2B9;14&#x2BA;--S 85&#xB0;11&#x2B9;24&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 180°--E 180°/N 82°25ʹ14ʺ--S 85°11ʹ24ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Natural earth</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qr604qw5282</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

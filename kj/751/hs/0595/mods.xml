@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Africa (Raster Image)</title>
@@ -30,7 +30,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Raster Dataset</form>
@@ -40,7 +40,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 50&#xB0;28&#x2B9;51&#x2BA;--E 83&#xB0;6&#x2B9;55&#x2BA;/N 42&#xB0;39&#x2B9;49&#x2BA;--S 39&#xB0;19&#x2B9;26&#x2BA;)</coordinates>
+      <coordinates>(W 50°28ʹ51ʺ--E 83°6ʹ55ʺ/N 42°39ʹ49ʺ--S 39°19ʹ26ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced raster image of a continental map of Africa from 1839. Created by the Society for the Diffusion of Useful Knowledge, this map was highly influential due to the accuracy of information. This map was georeferenced using a Sinusoidal projection. All map collar and inset information is also available as part of the raster image, including any inset maps, profiles, statistical tables, directories, text, illustrations, or other information associated with the principal map. This map is part of a selection of digitally scanned and georeferenced historic maps of Africa held at Stanford University Libraries.</abstract>
@@ -66,6 +66,14 @@
   <subject>
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="imageryBaseMapsEarthCover">Imagery and Base Maps</topic>
   </subject>
+  <relatedItem type="otherFormat" displayLabel="Original map in SearchWorks">
+    <titleInfo>
+      <title>Africa</title>
+    </titleInfo>
+    <location>
+      <url>https://searchworks.stanford.edu/view/12113602</url>
+    </location>
+  </relatedItem>
   <location>
     <url>http://purl.stanford.edu/kj751hs0595</url>
   </location>
@@ -88,8 +96,26 @@
             <gml:upperCorner>83.1185027 42.6636124</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6255146/" dc:language="eng" dc:title="Africa"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 50&#xB0;28&#x2B9;51&#x2BA;--E 83&#xB0;7&#x2B9;7&#x2BA;/N 42&#xB0;39&#x2B9;49&#x2BA;--S 39&#xB0;19&#x2B9;19&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 50°28ʹ51ʺ--E 83°7ʹ7ʺ/N 42°39ʹ49ʺ--S 39°19ʹ19ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Georeferenced maps of Africa</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/jz110cf1395</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This work is in the public domain. There are no restrictions on use.</accessCondition>
+  <accessCondition type="license">CC pdm: Public Domain Mark 1.0</accessCondition>
+</mods>

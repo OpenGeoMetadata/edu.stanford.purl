@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Bodies of Water: Santa Clara County, California, 2015</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2015</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,11 +33,11 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::2227</projection>
-      <coordinates>(W 122&#xB0;14&#x2B9;30&#x2BA;--W 121&#xB0;56&#x2BA;/N 37&#xB0;31&#x2B9;23&#x2BA;--N 36&#xB0;58&#x2B9;3&#x2BA;)</coordinates>
+      <coordinates>(W 122°14ʹ30ʺ--W 121°56ʺ/N 37°31ʹ23ʺ--N 36°58ʹ3ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts boundaries of Bodies of Water in the County of Santa Clara, California, including reservoirs, lakes, percolation ponds and salt ponds.The Santa Clara Valley Water District manages an integrated water resources system that includes the supply of clean, safe water, flood protection and stewardship of streams on behalf of Santa Clara County's 1.8 million residents. This layer is part of a collection of GIS data for Santa Clara County, California.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">To map water bodies in and around Santa Clara County. This coverage can be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analyses of geospatial data. </abstract>
+  <abstract displayLabel="Purpose" lang="eng">To map water bodies in and around Santa Clara County. This coverage can be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analyses of geospatial data.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Santa Clara County, California. Planning Office. (2015). Bodies of Water: Santa Clara County, California, 2015. Santa Clara County, Calif. Planning Office. Available at: http://purl.stanford.edu/dh182bs8765.</note>
   <note displayLabel="Use limitation">None.These datasets were developed for use by the Santa Clara Valley Water District (SCVWD) for its internal purposes only, and were not designed or intended for general use by members of the public. SCVWD MAKES NO REPRESENTATION OR WARRANTY AS TO ITS ACCURACY, TIMELINESS, OR COMPLETENESS. SCVWD MAKES NO WARRANTY OF MERCHANTABILITY OR WARRANTY FOR FITNESS OF USE FOR A PARTICULAR PURPOSE, EXPRESSED OR IMPLIED, WITH RESPECT TO THESE PRODUCTS OR THE UNDERLYING DATA. Any user of this data, accepts same AS IS, WITH ALL FAULTS, and assumes all responsibility for the use thereof, and further covenants and agrees to defend, indemnify, and hold SCVWD harmless from and against all damage, loss, or liability arising from any use of this product, in consideration of SCVWD having made this information available.Independent verification of all data contained herein should be obtained by any user of these products, or the underlying data. SCVWD disclaims, and shall not be held liable for, any and all damage, loss, or liability, whether direct, indirect, or consequential, which arises or may arise from these products or the use thereof by any person or entity.</note>
   <subject>
@@ -80,8 +80,25 @@
             <gml:upperCorner>-121.016165 37.513577</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5393021/" dc:language="eng" dc:title="Santa Clara County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;14&#x2B9;21&#x2BA;--W 121&#xB0;58&#x2BA;/N 37&#xB0;30&#x2B9;49&#x2BA;--N 36&#xB0;58&#x2B9;35&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°14ʹ21ʺ--W 121°58ʺ/N 37°30ʹ49ʺ--N 36°58ʹ35ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Santa Clara County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zr514ds1803</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

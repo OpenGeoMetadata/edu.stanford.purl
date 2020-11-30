@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Islands and Rocks: California Coastal National Monument, 1998</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">1998</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 124&#xB0;31&#x2B9;5&#x2BA;--W 116&#xB0;54&#x2B9;46&#x2BA;/N 42&#xB0;3&#x2B9;58&#x2BA;--N 32&#xB0;44&#x2B9;17&#x2BA;)</coordinates>
+      <coordinates>(W 124°31ʹ5ʺ--W 116°54ʹ46ʺ/N 42°3ʹ58ʺ--N 32°44ʹ17ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents offshore rocks and islands that are part of the newly designated California Coastal National Monument (CCNM), under USDI Bureau of Land Management (BLM) jurisdiction. The ownpax data of the surface ownership layer is intended to illustrate state wide and regional land ownership. Large land holders are emphasized in detail and they are Federal, State, and local governments. Private land owners are, for the most part, simply carried as private, generalizing this group as one. BLM obtained the spatial data (linework) from the California State Lands Commission, who had digitized the California coastline from USGS 1:24,000-scale quads. BLM then added geographic place names and ownership codes. The Department of Fish and Game obtained the data from BLM and modified the attribute table to include Owner names. The resulting shapefile was renamed as above. Original documentation from contributing agencies is appended below. This layer is part of a collection of data created by the California Department of Fish &amp;amp; Wildlife.</abstract>
@@ -59,7 +59,7 @@
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="environment">Environment</topic>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="">Geoscientific Information</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
   </subject>
   <subject>
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
@@ -67,8 +67,6 @@
   <location>
     <url>http://purl.stanford.edu/hv956vv4991</url>
   </location>
-  <accessCondition type="useAndReproduction">None, though subject to cost recovery rules</accessCondition>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:hv956vv4991</recordIdentifier>
@@ -88,8 +86,25 @@
             <gml:upperCorner>-117.268474 41.995748</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;25&#x2B9;18&#x2BA;--W 117&#xB0;16&#x2B9;7&#x2BA;/N 41&#xB0;59&#x2B9;45&#x2BA;--N 32&#xB0;47&#x2B9;55&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 124°25ʹ18ʺ--W 117°16ʹ7ʺ/N 41°59ʹ45ʺ--N 32°47ʹ55ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Fish and Wildlife GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/fb282pw3043</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

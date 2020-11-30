@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>World River and Lake Centerlines with Scale Ranking, 1:10 million (2012)</title>
@@ -26,7 +26,7 @@
     <edition>2.0.0</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -37,7 +37,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 164&#xB0;54&#x2B9;13&#x2BA;--E 177&#xB0;12&#x2B9;40&#x2BA;/N 75&#xB0;47&#x2B9;37&#x2BA;--S 52&#xB0;9&#x2B9;28&#x2BA;)</coordinates>
+      <coordinates>(W 164°54ʹ13ʺ--E 177°12ʹ40ʺ/N 75°47ʹ37ʺ--S 52°9ʹ28ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polyline shapefile depicts single-line drainages and lake centerlines with scale rankings worldwide ranked by relative importance. Includes name and line width attributes for creating tapered drainages. River data is primarily derived from the World Data Bank 2. All rivers received manual smoothing and position adjustments to fit shaded relief generated from SRTM Plus elevation data, which is more recent and (presumably) more accurate. Turn on centerlines to avoid data gaps. These data are represented at 1:10,000,000 scale. This layer is part of the Natural Earth Collection (v.2.0.0).</abstract>
@@ -64,7 +64,6 @@
   <location>
     <url>http://purl.stanford.edu/hv485tn5089</url>
   </location>
-  <accessCondition type="useAndReproduction">All versions of Natural Earth raster and vector map data are in the public domain. </accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:hv485tn5089</recordIdentifier>
@@ -84,8 +83,17 @@
             <gml:upperCorner>177.211182 75.793476</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6295630/" dc:language="eng" dc:title="Earth (Planet)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Natural earth</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qr604qw5282</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Boundary, Austria, 2015</title>
@@ -28,7 +28,7 @@
     <edition>2.8</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -39,7 +39,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 9&#xB0;32&#x2B9;1&#x2BA;--E 17&#xB0;9&#x2B9;44&#x2BA;/N 49&#xB0;1&#x2B9;1&#x2BA;--N 46&#xB0;22&#x2B9;29&#x2BA;)</coordinates>
+      <coordinates>(E 9°32ʹ1ʺ--E 17°9ʹ44ʺ/N 49°1ʹ1ʺ--N 46°22ʹ29ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the boundary of Austria (adm0). This layer is part of the Global Administrative Areas 2015 (v2.8) dataset.</abstract>
@@ -56,7 +56,6 @@
   <location>
     <url>http://purl.stanford.edu/rc343vz5889</url>
   </location>
-  <accessCondition type="useAndReproduction">Attribution 3.0 Unported. You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:rc343vz5889</recordIdentifier>
@@ -76,8 +75,25 @@
             <gml:upperCorner>17.162361 49.017044</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Austria"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 9&#xB0;32&#x2B9;1&#x2BA;--E 17&#xB0;9&#x2B9;44&#x2BA;/N 49&#xB0;1&#x2B9;1&#x2BA;--N 46&#xB0;22&#x2B9;29&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 9°32ʹ1ʺ--E 17°9ʹ44ʺ/N 49°1ʹ1ʺ--N 46°22ʹ29ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Global administrative areas version 2.8</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/jv457hb9421</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This dataset is freely available for academic use and other non-commercial use. Redistribution, or commercial use is not allowed without prior permission. You are free to create maps and use the data in other ways for publication in academic journals, books, reports, etc.</accessCondition>
+</mods>

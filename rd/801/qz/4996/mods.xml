@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Major Discharges into Near Coastal Marine Waters: Southern California, 2003</title>
@@ -16,7 +16,7 @@
     <dateValid encoding="w3cdtf">2003</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -27,7 +27,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 118&#xB0;33&#x2B9;48&#x2BA;--W 117&#xB0;7&#x2B9;37&#x2BA;/N 33&#xB0;55&#x2B9;40&#x2BA;--N 32&#xB0;31&#x2B9;29&#x2BA;)</coordinates>
+      <coordinates>(W 118°33ʹ48ʺ--W 117°7ʹ37ʺ/N 33°55ʹ40ʺ--N 32°31ʹ29ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts major discharges into Southern California's near-coastal marine waters, but does not include discharges into enclosed bays and estuaries. The category 'Major' used to describe this feature was derived from the Marine Life Protection Act South Coast Study Region (SCSR) Scientific Advisory Team (SAT) conclusion. Some facilities were excluded and kept their minor ratings, including small marine labs, aquaculture facilities and a desalination plant in the region.</abstract>
@@ -72,7 +72,6 @@
   <location>
     <url>http://purl.stanford.edu/rd801qz4996</url>
   </location>
-  <accessCondition type="useAndReproduction">No restrictions on access or use. Please cite the authors when possible.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:rd801qz4996</recordIdentifier>
@@ -92,9 +91,25 @@
             <gml:upperCorner>-117.175621 33.927557</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 118&#xB0;32&#x2B9;19&#x2BA;--W 117&#xB0;10&#x2B9;32&#x2BA;/N 33&#xB0;55&#x2B9;39&#x2BA;--N 32&#xB0;31&#x2B9;30&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 118°32ʹ19ʺ--W 117°10ʹ32ʺ/N 33°55ʹ39ʺ--N 32°31ʹ30ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Fish and Wildlife GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/fb282pw3043</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

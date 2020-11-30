@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Third-level Administrative Divisions, India, 2015</title>
@@ -28,7 +28,7 @@
     <edition>2.8</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -39,7 +39,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 68&#xB0;11&#x2B9;10&#x2BA;--E 97&#xB0;24&#x2B9;55&#x2BA;/N 35&#xB0;30&#x2B9;5&#x2BA;--N 6&#xB0;45&#x2B9;15&#x2BA;)</coordinates>
+      <coordinates>(E 68°11ʹ10ʺ--E 97°24ʹ55ʺ/N 35°30ʹ5ʺ--N 6°45ʹ15ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the third-level administrative divisions of India (adm3). Level 3 divisions include taluks. This layer is part of the Global Administrative Areas 2015 (v2.8) dataset.</abstract>
@@ -56,7 +56,6 @@
   <location>
     <url>http://purl.stanford.edu/rj389fh4679</url>
   </location>
-  <accessCondition type="useAndReproduction">Attribution 3.0 Unported. You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:rj389fh4679</recordIdentifier>
@@ -76,8 +75,25 @@
             <gml:upperCorner>97.415161 35.501331</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1269750/" dc:language="eng" dc:title="India"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 68&#xB0;11&#x2B9;10&#x2BA;--E 97&#xB0;24&#x2B9;55&#x2BA;/N 35&#xB0;30&#x2B9;5&#x2BA;--N 6&#xB0;45&#x2B9;15&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 68°11ʹ10ʺ--E 97°24ʹ55ʺ/N 35°30ʹ5ʺ--N 6°45ʹ15ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Global administrative areas version 2.8</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/jv457hb9421</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This dataset is freely available for academic use and other non-commercial use. Redistribution, or commercial use is not allowed without prior permission. You are free to create maps and use the data in other ways for publication in academic journals, books, reports, etc.</accessCondition>
+</mods>

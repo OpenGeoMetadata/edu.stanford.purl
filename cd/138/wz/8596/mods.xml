@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>World Minor Island Coastlines, 1:10 million (2012)</title>
@@ -26,7 +26,7 @@
     <edition>2.0.0</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -37,10 +37,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 179&#xB0;57&#x2B9;27&#x2BA;--E 179&#xB0;30&#x2B9;17&#x2BA;/N 81&#xB0;20&#x2B9;41&#x2BA;--S 76&#xB0;7&#x2B9;19&#x2BA;)</coordinates>
+      <coordinates>(W 179°57ʹ27ʺ--E 179°30ʹ17ʺ/N 81°20ʹ41ʺ--S 76°7ʹ19ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polyline shapefile depicts coastlines for minor islands that are 2 sq. km. or less in size. Additional small ocean islands are ranked to two levels of relative importance. These data were derived from the National Oceanic and Atmospheric Administration&#x2019;s World Vector Shoreline at 1:250,000 scale. Minor islands contain more relative detail than do the islands included with the main 10m ocean coastline data. Ocean bathymetry and ocean polygon are not punched out for minor islands. These data are represented at 1:10,000,000 scale. This layer is part of the Natural Earth Collection (v.2.0.0).</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polyline shapefile depicts coastlines for minor islands that are 2 sq. km. or less in size. Additional small ocean islands are ranked to two levels of relative importance. These data were derived from the National Oceanic and Atmospheric Administration’s World Vector Shoreline at 1:250,000 scale. Minor islands contain more relative detail than do the islands included with the main 10m ocean coastline data. Ocean bathymetry and ocean polygon are not punched out for minor islands. These data are represented at 1:10,000,000 scale. This layer is part of the Natural Earth Collection (v.2.0.0).</abstract>
   <abstract displayLabel="Purpose" lang="eng">Natural Earth is a public domain map dataset available at 1:10, 1:50 and 1:110 million scales. Featuring tightly integrated vector and raster data, with Natural Earth you can make a variety of visually pleasing, well-crafted maps with cartography or GIS software.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Kelso, N.V. and Patterson, T. (2012). World Minor Island Coastlines, 1:10 million (2012). Made with Natural Earth, online at http://www.naturalearthdata.com.</note>
   <subject>
@@ -64,7 +64,6 @@
   <location>
     <url>http://purl.stanford.edu/cd138wz8596</url>
   </location>
-  <accessCondition type="useAndReproduction">All versions of Natural Earth raster and vector map data are in the public domain. </accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:cd138wz8596</recordIdentifier>
@@ -84,8 +83,17 @@
             <gml:upperCorner>179.504649 81.344835</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6295630/" dc:language="eng" dc:title="Earth (Planet)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Natural earth</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qr604qw5282</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

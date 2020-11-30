@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>World Sovereign States, 1:110 million (2012)</title>
@@ -26,7 +26,7 @@
     <edition>2.0.0</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -37,10 +37,10 @@
     <cartographics>
       <scale>1:110000000</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 180&#xB0;--E 180&#xB0;/N 83&#xB0;38&#x2B9;42&#x2BA;--S 90&#xB0;)</coordinates>
+      <coordinates>(W 180°--E 180°/N 83°38ʹ42ʺ--S 90°)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts 197 sovereign states worldwide, for which the smallest subdivisions are countries. Sovereign states, map units, map subunits, and scale ranks are deliberately not included at the 110m scale. Some countries do not read well on thematic choropleth data maps. Color code the dots with the same information as the larger country polygons to communicate data that would otherwise be lost. Same as the 50m tiny countries, except filtered where &#x201C;ScaleRank&#x201D; &amp;lt;= 2. Natural Earth Vector draws boundaries of sovereign states according to defacto status. These data are represented at 1:110,000,000 scale. This layer is part of the Natural Earth Collection (v.2.0.0).</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts 197 sovereign states worldwide, for which the smallest subdivisions are countries. Sovereign states, map units, map subunits, and scale ranks are deliberately not included at the 110m scale. Some countries do not read well on thematic choropleth data maps. Color code the dots with the same information as the larger country polygons to communicate data that would otherwise be lost. Same as the 50m tiny countries, except filtered where “ScaleRank” &amp;lt;= 2. Natural Earth Vector draws boundaries of sovereign states according to defacto status. These data are represented at 1:110,000,000 scale. This layer is part of the Natural Earth Collection (v.2.0.0).</abstract>
   <abstract displayLabel="Purpose" lang="eng">Natural Earth is a public domain map dataset available at 1:10, 1:50 and 1:110 million scales. Featuring tightly integrated vector and raster data, with Natural Earth you can make a variety of visually pleasing, well-crafted maps with cartography or GIS software.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Kelso, N.V. and Patterson, T. (2012). World Sovereign States, 1:110 million (2012). Made with Natural Earth, online at http://www.naturalearthdata.com.</note>
   <subject>
@@ -77,8 +77,17 @@
             <gml:upperCorner>180.0 83.64513</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6295630/about.rdf" dc:language="eng" dc:title="Earth (Planet)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Natural earth</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qr604qw5282</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

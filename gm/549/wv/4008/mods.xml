@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>World Boundary Lines Map Units, 1:10 million (2012)</title>
@@ -26,7 +26,7 @@
     <edition>2.0.0</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -37,7 +37,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 3&#xB0;12&#x2B9;54&#x2BA;--E 48&#xB0;57&#x2B9;5&#x2BA;/N 55&#xB0;48&#x2B9;20&#x2BA;--N 5&#xB0;59&#x2B9;55&#x2BA;)</coordinates>
+      <coordinates>(W 3°12ʹ54ʺ--E 48°57ʹ5ʺ/N 55°48ʹ20ʺ--N 5°59ʹ55ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polyline shapefile contains international, disputed, indeterminate, and control line boundaries on land and offshore worldwide, including 200-mile nautical limits. The ground unit of measurement, or map unit, is based on country boundaries. Limited attributes in terms of type of boundary: disputed, treaty, and media lines. Disputed area data is derived from the The United States Central Intelligence Agency's World Factbook boundary database, but not every disputed or undefined boundary listed in the World Factbook boundary database is reflected in the main admin-0 boundaries attributes. Care should be taken with regard to undefined or disputed boundaries when attributing to reflect if the dispute is active or not. These data are represented at 1:10,000,000 scale. This layer is part of the Natural Earth Collection (v.2.0.0).</abstract>
@@ -61,7 +61,6 @@
   <location>
     <url>http://purl.stanford.edu/gm549wv4008</url>
   </location>
-  <accessCondition type="useAndReproduction">All versions of Natural Earth raster and vector map data are in the public domain. </accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:gm549wv4008</recordIdentifier>
@@ -81,8 +80,17 @@
             <gml:upperCorner>48.951491 55.805486</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6295630/" dc:language="eng" dc:title="Earth (Planet)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Natural earth</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qr604qw5282</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

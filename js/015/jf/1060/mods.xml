@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Coastlines, Pakistan, 2012</title>
@@ -21,14 +21,11 @@
   <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
   <originInfo>
     <publisher>International Steering Committee for Global Mapping</publisher>
-    <place>
-      <placeTerm type="text"/>
-    </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
     <edition>2.1</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -39,12 +36,12 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 61&#xB0;37&#x2B9;28&#x2BA;--E 68&#xB0;14&#x2B9;22&#x2BA;/N 25&#xB0;28&#x2B9;27&#x2BA;--N 23&#xB0;34&#x2B9;23&#x2BA;)</coordinates>
+      <coordinates>(E 61°37ʹ28ʺ--E 68°14ʹ22ʺ/N 25°28ʹ27ʺ--N 23°34ʹ23ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This line shapefile represents the coastline in Pakistan. This layer is part of Global Map version 2. The drainage and Transportation layers version 2 are prepared by using the digital 1:1000k data of nepal. The Global Map Nepal version 1.0 Boundaries layer was developed using The Digital Map 200000. Updating the data of version 1.0 using 1:500,000 District Map series and 1:1,000,000 International Map series developed the Global Map Nepal version 1.1 Boundary layer. Updating the Global Map Nepal version 1.1 using 1:1,000,000 Topographic Maps and other information developed the Global Map Nepal version 2.0 Boundary layer, which is corresponding to the merger of municipalities as of April 1, 2010. The Global Map Nepal version 1.0 Population center layer was developed using The 1:1,000,000 Chart International series. Updating the data of version 1.0 using The 1:500,000 District Map series and 1:1,000,000 International Map series developed the Global Map Nepal version 1.1 Population center layer. Updating the Global Map Nepal version 1.1 developed the Global Map Nepal version 2.0 Population center layer, which is corresponding to the merger of municipalities as of April 1, 2010. (Because the built-up area data of the Global Map Nepal is corresponding to the location of each municipality.) 		 </abstract>
+  <abstract displayLabel="Abstract" lang="eng">This line shapefile represents the coastline in Pakistan. This layer is part of Global Map version 2. The drainage and Transportation layers version 2 are prepared by using the digital 1:1000k data of nepal. The Global Map Nepal version 1.0 Boundaries layer was developed using The Digital Map 200000. Updating the data of version 1.0 using 1:500,000 District Map series and 1:1,000,000 International Map series developed the Global Map Nepal version 1.1 Boundary layer. Updating the Global Map Nepal version 1.1 using 1:1,000,000 Topographic Maps and other information developed the Global Map Nepal version 2.0 Boundary layer, which is corresponding to the merger of municipalities as of April 1, 2010. The Global Map Nepal version 1.0 Population center layer was developed using The 1:1,000,000 Chart International series. Updating the data of version 1.0 using The 1:500,000 District Map series and 1:1,000,000 International Map series developed the Global Map Nepal version 1.1 Population center layer. Updating the Global Map Nepal version 1.1 developed the Global Map Nepal version 2.0 Population center layer, which is corresponding to the merger of municipalities as of April 1, 2010. (Because the built-up area data of the Global Map Nepal is corresponding to the location of each municipality.)</abstract>
   <abstract displayLabel="Purpose" lang="eng">Global Map data were developed under the cooperation of National Geospatial Information Authorities (NGIAs) of respective countries and regions.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">Global Map of Pakistan &#xA9; ISCGM/Survey of Pakistan</note>
+  <note displayLabel="Preferred citation" lang="eng">Global Map of Pakistan © ISCGM/Survey of Pakistan</note>
   <note displayLabel="Supplemental information">Global Map data of National/Regional version were developed with consistent specifications by NGIAs of respective countries and regions for fundamental geospatial information of their respective coverage by using geospatial information owned by them, and they were provided. The data have been authorized by NGIAs of respective countries and regions. Therefore, the contents of respective data are based on the views of respective data developers. For some countries and regions, there may be parts where data have not been developed. National/Regional version of Global Map data was to be updated in about five-year cycle on the basis of resolutions of an ISCGM meeting. To know about the year data were updated and about data developers, please refer to metadata attached to each data. Depending on the period the data were prepared, they were developed in line with two different specifications, namely, version 1 in VPF and BIL formats, and version 2 in GML and BIL formats.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Coastlines</topic>
@@ -61,7 +58,6 @@
   <location>
     <url>http://purl.stanford.edu/js015jf1060</url>
   </location>
-  <accessCondition type="useAndReproduction">For non-commercial use, in principle, anyone can use the data free of charge. As the data of National/Regional version were developed by NGIAs of respective countries and regions, and there may be parts which have not been developed depending on countries and regions. In using the data, please check respective data policies because different countries and regions have different data policies.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:js015jf1060</recordIdentifier>
@@ -81,8 +77,25 @@
             <gml:upperCorner>68.239433 25.474264</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1168579/" dc:language="eng" dc:title="Pakistan"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 61&#xB0;37&#x2B9;28&#x2BA;--E 68&#xB0;14&#x2B9;22&#x2BA;/N 25&#xB0;28&#x2B9;27&#x2BA;--N 23&#xB0;34&#x2B9;23&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 61°37ʹ28ʺ--E 68°14ʹ22ʺ/N 25°28ʹ27ʺ--N 23°34ʹ23ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Global Map</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/kb168tn2424</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This dataset is freely available for academic use and other non-commercial use. Redistribution, or commercial use is not allowed without prior permission. You are free to create maps and use the data in other ways for publication in academic journals, books, reports, etc.</accessCondition>
+</mods>

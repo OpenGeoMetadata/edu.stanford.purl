@@ -1,10 +1,10 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Africa (Raster Image)</title>
   </titleInfo>
   <name type="personal">
-    <namePart>Gr&#xE4;f, A. (Adolf), active 1855-1878</namePart>
+    <namePart>Gräf, A. (Adolf), active 1855-1878</namePart>
     <role>
       <roleTerm type="text" authority="marcrelator">creator</roleTerm>
     </role>
@@ -27,7 +27,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Raster Dataset</form>
@@ -37,14 +37,13 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 43&#xB0;46&#x2B9;2&#x2BA;--E 88&#xB0;50&#x2B9;35&#x2BA;/N 44&#xB0;4&#x2BA;--S 39&#xB0;19&#x2B9;17&#x2BA;)</coordinates>
+      <coordinates>(W 43°46ʹ2ʺ--E 88°50ʹ35ʺ/N 44°4ʺ--S 39°19ʹ17ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced raster image of an historic continental map of Africa created by Adolf Gr&#xE4;f, and published by the Georgraphisches Institut in the 19th century. Due to the discoveries noted on the map, it was probably published between 1867-1881. All map collar and inset information is also available as part of the raster image, including any inset maps, profiles, statistical tables, directories, text, illustrations, or other information associated with the principal map. This map was georeferenced by the Stanford University Geospatial Center using a Sinusoidal projection. This map is part of a selection of digitally scanned and georeferenced historic maps of Africa at Stanford University Libraries. </abstract>
-  <abstract displayLabel="Purpose" lang="eng">This historic paper map provides an historical perspective of the cultural and physical landscape during this time period. The wide range of information provided on these maps make them useful in the study of historic geography. As this map has been georeferenced, it also can be used as a background layer in conjunction with other GIS data.
-    </abstract>
+  <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced raster image of an historic continental map of Africa created by Adolf Gräf, and published by the Georgraphisches Institut in the 19th century. Due to the discoveries noted on the map, it was probably published between 1867-1881. All map collar and inset information is also available as part of the raster image, including any inset maps, profiles, statistical tables, directories, text, illustrations, or other information associated with the principal map. This map was georeferenced by the Stanford University Geospatial Center using a Sinusoidal projection. This map is part of a selection of digitally scanned and georeferenced historic maps of Africa at Stanford University Libraries.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">This historic paper map provides an historical perspective of the cultural and physical landscape during this time period. The wide range of information provided on these maps make them useful in the study of historic geography. As this map has been georeferenced, it also can be used as a background layer in conjunction with other GIS data.</abstract>
   <note displayLabel="Attribute accuracy report" lang="eng">The horizontal positional accuracy of a raster image is approximately the same as the accuracy of the published source map. The lack of a greater accuracy is largely the result of the inaccuracies with the original measurements and possible distortions in the original paper map document.  There may also be errors introduced during the digitizing and georeferencing process.  In most cases, however, errors in the raster image are small compared with sources of error in the original map graphic.  The RMS error for this map is 3067.37 meters. This value describes how consistent the transformation is between the different control points (links).  The RMS error is only an assessment of the accuracy of the transformation.</note>
-  <note displayLabel="Preferred citation" lang="eng">Gr&#xE4;f, A. and Stanford Geospatial Center. (2013). Africa (Raster Image). Stanford Digital Repository. Available at: http://purl.stanford.edu/cj719gj6639.</note>
+  <note displayLabel="Preferred citation" lang="eng">Gräf, A. and Stanford Geospatial Center. (2013). Africa (Raster Image). Stanford Digital Repository. Available at: http://purl.stanford.edu/cj719gj6639.</note>
   <note displayLabel="Supplemental information">For more information about Stanford's Maps of Africa Collection, see here: https://exhibits.stanford.edu/maps-of-africa.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Discoveries in geography</topic>
@@ -67,6 +66,14 @@
   <subject>
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="imageryBaseMapsEarthCover">Imagery and Base Maps</topic>
   </subject>
+  <relatedItem type="otherFormat" displayLabel="Original map in SearchWorks">
+    <titleInfo>
+      <title>Africa</title>
+    </titleInfo>
+    <location>
+      <url>https://searchworks.stanford.edu/view/12113508</url>
+    </location>
+  </relatedItem>
   <location>
     <url>http://purl.stanford.edu/cj719gj6639</url>
   </location>
@@ -89,8 +96,26 @@
             <gml:upperCorner>88.8403645 44.0011985</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6255146/" dc:language="eng" dc:title="Africa"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 43&#xB0;46&#x2B9;2&#x2BA;--E 88&#xB0;50&#x2B9;25&#x2BA;/N 44&#xB0;4&#x2BA;--S 39&#xB0;19&#x2B9;32&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 43°46ʹ2ʺ--E 88°50ʹ25ʺ/N 44°4ʺ--S 39°19ʹ32ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Georeferenced maps of Africa</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/jz110cf1395</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This work is in the public domain. There are no restrictions on use.</accessCondition>
+  <accessCondition type="license">CC pdm: Public Domain Mark 1.0</accessCondition>
+</mods>

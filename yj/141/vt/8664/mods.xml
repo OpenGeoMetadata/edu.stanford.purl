@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Suburban Road Networks, Paris, 1724-1729</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">fre</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">fre</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,12 +32,12 @@
     <cartographics>
       <scale>1:5000</scale>
       <projection>EPSG::27561</projection>
-      <coordinates>(E 2&#xB0;17&#x2B9;20&#x2BA;--E 2&#xB0;24&#x2B9;2&#x2BA;/N 48&#xB0;53&#x2B9;4&#x2BA;--N 48&#xB0;49&#x2B9;51&#x2BA;)</coordinates>
+      <coordinates>(E 2°17ʹ20ʺ--E 2°24ʹ2ʺ/N 48°53ʹ4ʺ--N 48°49ʹ51ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile represents road networks of suburban Paris according to 1724-1729 boundaries. Royal power attempted to strengthen the control over the urban expansion of Paris, by establishing new limits beyond which it was forbidden to build under penalty of fines. The 1724-1729 boundaries were the 3rd and last boundary established. It enclosed a space smaller than in the 2nd boundary (1672-1674) and scaled back almost to the limits of the first boundary (1638). There is however a difference of size because, beyond the limit of prohibition, the authorities define in 1724-1729 tract in the suburbs, which already include constructions, and within which it is always possible to build. This 6 categories of terminals were raised from the normative texts: If the terminals of category 1 embodied the end of the city and those in category 2 the beginning of the suburbs, the category 3 to 6 terminals delimit constructed pathways of the suburbs within which it was allowed to build: one distinguished then 2 types of pathways (pathways main or major streets) and cross streets (secondary roads in the suburbs) at the ends of which were posed these additional terminals. The pathways that existed but were not already built in 1724-1729 have not been described and were therefore considered unsuitable. Despite these details on the outskirts, the legislation of 1724-1729, too difficult to enforce, is abandoned in 1765 for the whole of the Parisian suburbs</abstract>
   <abstract displayLabel="Purpose" lang="eng">The ALPAGE programme aims to provide collaborative tools for the Humanities and Social Sciences and for Information Communication Technology (ICT) allowing for the development of research about the Parisian urban area. This aim is achieved by means of a GIS that includes cadastral and historical layers.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">APUR &#xA9; ALPAGE: M. Prodhomme, 2013.</note>
+  <note displayLabel="Preferred citation" lang="eng">APUR © ALPAGE: M. Prodhomme, 2013.</note>
   <subject>
     <topic authority="GEMET - INSPIRE themes, version 1.0" lang="fre">Roads</topic>
   </subject>
@@ -72,8 +72,26 @@
             <gml:upperCorner>2.400548 48.884341</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/2988507/" dc:language="fre" dc:title="Paris (France)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 2&#xB0;17&#x2B9;21&#x2BA;--E 2&#xB0;24&#x2B9;2&#x2BA;/N 48&#xB0;53&#x2B9;4&#x2BA;--N 48&#xB0;49&#x2B9;51&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 2°17ʹ21ʺ--E 2°24ʹ2ʺ/N 48°53ʹ4ʺ--N 48°49ʹ51ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>ALPAGE : AnaLyse diachronique de l'espace urbain PArisien: approche GEomatique = Diachronic analysis of the Paris urban area: a geomatic approach</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zp399nk6394</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This data is a direct result of the work of the researchers from the ALPAGE consortium who released this data under an Open Data Commons Open Database Licence (ODbL). Therefore, use of this data by others must respect the legal requirements specific to this licence. All freely downloadable data contains the shapefiles, metadata file and licence files describing the users rights and responsibilities. All data produced within the consortium is published in this way with the exception of any ongoing work which is in process of academic evaluation (masters, doctoral thesis, habilitation to supervise research).</accessCondition>
+  <accessCondition type="license">ODC odc-odbl: Open Data Commons Open Database License 1.0</accessCondition>
+</mods>

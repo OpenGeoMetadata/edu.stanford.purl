@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Second-level Administrative Divisions, Djibouti, 2015</title>
@@ -28,7 +28,7 @@
     <edition>2.8</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -39,7 +39,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 41&#xB0;45&#x2B9;38&#x2BA;--E 43&#xB0;25&#x2B9;4&#x2BA;/N 12&#xB0;42&#x2B9;24&#x2BA;--N 10&#xB0;57&#x2B9;9&#x2BA;)</coordinates>
+      <coordinates>(E 41°45ʹ38ʺ--E 43°25ʹ4ʺ/N 12°42ʹ24ʺ--N 10°57ʹ9ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the second-level administrative divisions of Djibouti (adm2). Level 2 divisions include districts. This layer is part of the Global Administrative Areas 2015 (v2.8) dataset.</abstract>
@@ -56,7 +56,6 @@
   <location>
     <url>http://purl.stanford.edu/rb880gc8035</url>
   </location>
-  <accessCondition type="useAndReproduction">Attribution 3.0 Unported. You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:rb880gc8035</recordIdentifier>
@@ -76,8 +75,25 @@
             <gml:upperCorner>43.417641 12.706778</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Djibouti"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 41&#xB0;45&#x2B9;38&#x2BA;--E 43&#xB0;25&#x2B9;4&#x2BA;/N 12&#xB0;42&#x2B9;24&#x2BA;--N 10&#xB0;57&#x2B9;9&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 41°45ʹ38ʺ--E 43°25ʹ4ʺ/N 12°42ʹ24ʺ--N 10°57ʹ9ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Global administrative areas version 2.8</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/jv457hb9421</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This dataset is freely available for academic use and other non-commercial use. Redistribution, or commercial use is not allowed without prior permission. You are free to create maps and use the data in other ways for publication in academic journals, books, reports, etc.</accessCondition>
+</mods>

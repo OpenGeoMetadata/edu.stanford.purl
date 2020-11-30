@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Pinniped Haul-Out Sites: California, 2013</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2013</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,11 +33,11 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 124&#xB0;30&#x2B9;25&#x2BA;--W 116&#xB0;55&#x2B9;52&#x2BA;/N 42&#xB0;36&#x2BA;--N 32&#xB0;44&#x2B9;34&#x2BA;)</coordinates>
+      <coordinates>(W 124°30ʹ25ʺ--W 116°55ʹ52ʺ/N 42°36ʺ--N 32°44ʹ34ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile depicts a compilation of marine mammal haul out features used in three Marine Life Protection Act study regions: north central coast, south coast and north coast. Data have been refined through review by each of the SATs assembled for each region. Data were not aggregated or conditioned for evalution in the central coast.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">This dataset provides coverage for land habitat that is used as haul out sites for periods of rest, molting and as rookeries for mating and pupping by marine mammals that have front and read flippers, including seals, sea lions and walruses. This coverage has been used to evaluate marine protected areas proposals relative to marine mammal protections by the Science Advisory Teams (SAT) assembled during implementation of the Marine Life Protection Act (MLPA). </abstract>
+  <abstract displayLabel="Purpose" lang="eng">This dataset provides coverage for land habitat that is used as haul out sites for periods of rest, molting and as rookeries for mating and pupping by marine mammals that have front and read flippers, including seals, sea lions and walruses. This coverage has been used to evaluate marine protected areas proposals relative to marine mammal protections by the Science Advisory Teams (SAT) assembled during implementation of the Marine Life Protection Act (MLPA).</abstract>
   <note displayLabel="Preferred citation" lang="eng">Biogeographic Assessments of California National Marine Sanctuaries, California Marine Life Protection Act Iniative Scientific Advisory Team members, California Department of Fish and Wildlife. Pinniped Haul-Out Sites: California, 2013. Available at: http://purl.stanford.edu/fw274np8584.</note>
   <note displayLabel="Use limitation">None</note>
   <subject>
@@ -85,7 +85,6 @@
   <location>
     <url>http://purl.stanford.edu/cq376yf4339</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:cq376yf4339</recordIdentifier>
@@ -105,9 +104,25 @@
             <gml:upperCorner>165.537555 41.940172</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;24&#x2B9;51&#x2BA;--E 165&#xB0;32&#x2B9;15&#x2BA;/N 41&#xB0;56&#x2B9;25&#x2BA;--N 39&#xB0;2&#x2B9;8&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 124°24ʹ51ʺ--E 165°32ʹ15ʺ/N 41°56ʹ25ʺ--N 39°2ʹ8ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Fish and Wildlife GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/fb282pw3043</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

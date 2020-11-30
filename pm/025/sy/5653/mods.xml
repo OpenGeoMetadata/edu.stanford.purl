@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Amtrak Thruway Bus System, California, 2013</title>
   </titleInfo>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,10 +32,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 124&#xB0;12&#x2B9;59&#x2BA;--W 115&#xB0;9&#x2B9;35&#x2BA;/N 40&#xB0;58&#x2B9;8&#x2BA;--N 32&#xB0;43&#x2B9;23&#x2BA;)</coordinates>
+      <coordinates>(W -124.216516--W -115.1596/N 40.968814--N 32.723091)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This line shapefile represents the Amtrak thruway bus system in California. These buses operate in conjunction with the three Amtrak (Capitol Corridor, San Joaquin, and Pacific Surfliner) train routes in California. A passenger must travel on a train segment in order to use the feeder bus system. Bus routes follow major highways between stations however the actual route taken is at the driver&#x2019;s discretion and subject to change due to road conditions. This layer is part of a collection of GIS data created by the California Department of Transportation (Caltrans).</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This line shapefile represents the Amtrak thruway bus system in California. These buses operate in conjunction with the three Amtrak (Capitol Corridor, San Joaquin, and Pacific Surfliner) train routes in California. A passenger must travel on a train segment in order to use the feeder bus system. Bus routes follow major highways between stations however the actual route taken is at the driver’s discretion and subject to change due to road conditions. This layer is part of a collection of GIS data created by the California Department of Transportation (Caltrans).</abstract>
   <abstract displayLabel="Purpose" lang="eng">This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
   <note displayLabel="Preferred citation" lang="eng">California Department of Transportation. (2013). Amtrak Thruway Bus System, California, 2013. California Department of Transportation. Available at http://purl.stanford.edu/pm025sy5653.</note>
   <note displayLabel="Use limitation">This is Category I data. Category I data are public domain and available to share with Caltrans partners. Caltrans makes no representation about the suitability, reliability, availability, timeliness, or accuracy of its GIS data for any purpose. The GIS data and information are provided "as is" without warranty of any kind. Use of the data should be limited to informational and preliminary study purposes only. Caltrans shall not be held liable by users of the data, or by any other party, for any loss or damages, consequential or otherwise, including but not limited to time, money, or goodwill, arising from the use, operation or modification of the data. For planning purposes only. The Rail Database is intended for high level planning purposes and is a point in time reporting of estimated current conditions and forecast of future conditions. While every effort has been made to ensure accuracy of reported data, the Database is not intended for detailed service or facility planning. Such planning requires in-depth site analysis and field confirmation of actual conditions.</note>
@@ -76,8 +76,27 @@
             <gml:upperCorner>-115.1596 40.968814</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;12&#x2B9;59&#x2BA;--W 115&#xB0;9&#x2B9;35&#x2BA;/N 40&#xB0;58&#x2B9;8&#x2BA;--N 32&#xB0;43&#x2B9;23&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>(W -124.216516--W -115.1596/N 40.968814--N 32.723091)</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Transportation GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sb381ch4421</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. http://www.gnu.org/licenses.</accessCondition>
+</mods>

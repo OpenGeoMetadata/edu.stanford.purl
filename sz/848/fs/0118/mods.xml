@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Administrative Division Lines, Latvia, 2011</title>
@@ -21,14 +21,11 @@
   <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
   <originInfo>
     <publisher>International Steering Committee for Global Mapping</publisher>
-    <place>
-      <placeTerm type="text"/>
-    </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
     <edition>2</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -39,7 +36,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 20&#xB0;58&#x2B9;53&#x2BA;--E 28&#xB0;14&#x2B9;30&#x2BA;/N 58&#xB0;5&#x2B9;8&#x2BA;--N 55&#xB0;40&#x2B9;29&#x2BA;)</coordinates>
+      <coordinates>(E 20°58ʹ53ʺ--E 28°14ʹ30ʺ/N 58°5ʹ8ʺ--N 55°40ʹ29ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile represents administrative divisions lines in Latvia. The Global Map Latvia - Boundaries layer accuracy corresponds to scale 1:500 000. Boundaries layer were developed with generalization method from digital Cadaster map at scale 1:10 000. Names of administrative units are shown according to data from the Central Statistical Bureau of Latvia. Boundary lines information renovated according to changes till November 2012. The Global Map Latvia - Drainage layer accuracy corresponds to scale 1:1 000 000. Drainage layer were developed with generalization method from Overview map of Latvia at scale 1:250 000. Drainage information renovated according to changes till January 2012. The Global Map Latvia - Transportation layer accuracy corresponds to scale 1:1 000 000. Transportation layer were developed with generalization method from Overview map of Latvia at scale 1:250 000. Transportation information renovated according to changes till January 2012.</abstract>
@@ -61,7 +58,6 @@
   <location>
     <url>http://purl.stanford.edu/sz848fs0118</url>
   </location>
-  <accessCondition type="useAndReproduction">For non-commercial use, in principle, anyone can use the data free of charge. As the data of National/Regional version were developed by NGIAs of respective countries and regions, and there may be parts which have not been developed depending on countries and regions. In using the data, please check respective data policies because different countries and regions have different data policies.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:sz848fs0118</recordIdentifier>
@@ -81,8 +77,25 @@
             <gml:upperCorner>28.241573 58.085567</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Latvia"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 20&#xB0;58&#x2B9;53&#x2BA;--E 28&#xB0;14&#x2B9;30&#x2BA;/N 58&#xB0;5&#x2B9;8&#x2BA;--N 55&#xB0;40&#x2B9;29&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 20°58ʹ53ʺ--E 28°14ʹ30ʺ/N 58°5ʹ8ʺ--N 55°40ʹ29ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Global Map</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/kb168tn2424</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This dataset is freely available for academic use and other non-commercial use. Redistribution, or commercial use is not allowed without prior permission. You are free to create maps and use the data in other ways for publication in academic journals, books, reports, etc.</accessCondition>
+</mods>

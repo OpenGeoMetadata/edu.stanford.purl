@@ -1,7 +1,7 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
-    <title>Second-level Administrative Divisions, C&#xF4;te d'Ivoire, 2015</title>
+    <title>Second-level Administrative Divisions, Côte d'Ivoire, 2015</title>
   </titleInfo>
   <name type="personal">
     <namePart>Hijmans, Robert J.</namePart>
@@ -28,7 +28,7 @@
     <edition>2.8</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -39,7 +39,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 8&#xB0;35&#x2B9;57&#x2BA;--W 2&#xB0;29&#x2B9;42&#x2BA;/N 10&#xB0;44&#x2B9;12&#x2BA;--N 4&#xB0;21&#x2B9;43&#x2BA;)</coordinates>
+      <coordinates>(W 8°35ʹ57ʺ--W 2°29ʹ42ʺ/N 10°44ʹ12ʺ--N 4°21ʹ43ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the second-level administrative divisions of Cote d'Ivoire (adm2). Level 2 divisions include regions. This layer is part of the Global Administrative Areas 2015 (v2.8) dataset.</abstract>
@@ -48,7 +48,7 @@
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Administrative and political divisions</topic>
   </subject>
   <subject>
-    <geographic lang="eng">C&#xF4;te d'Ivoire</geographic>
+    <geographic lang="eng">Côte d'Ivoire</geographic>
   </subject>
   <subject>
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
@@ -56,7 +56,6 @@
   <location>
     <url>http://purl.stanford.edu/th623wt2561</url>
   </location>
-  <accessCondition type="useAndReproduction">Attribution 3.0 Unported. You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:th623wt2561</recordIdentifier>
@@ -76,8 +75,25 @@
             <gml:upperCorner>-2.494897 10.73664</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="C&#xF4;te d'Ivoire"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 8&#xB0;35&#x2B9;57&#x2BA;--W 2&#xB0;29&#x2B9;42&#x2BA;/N 10&#xB0;44&#x2B9;12&#x2BA;--N 4&#xB0;21&#x2B9;43&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 8°35ʹ57ʺ--W 2°29ʹ42ʺ/N 10°44ʹ12ʺ--N 4°21ʹ43ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Global administrative areas version 2.8</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/jv457hb9421</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This dataset is freely available for academic use and other non-commercial use. Redistribution, or commercial use is not allowed without prior permission. You are free to create maps and use the data in other ways for publication in academic journals, books, reports, etc.</accessCondition>
+</mods>

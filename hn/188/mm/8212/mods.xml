@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Kelp Canopy: California, 2005</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2005</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 124&#xB0;14&#x2B9;36&#x2BA;--W 116&#xB0;46&#x2B9;49&#x2BA;/N 41&#xB0;50&#x2B9;12&#x2BA;--N 32&#xB0;32&#x2B9;22&#x2BA;)</coordinates>
+      <coordinates>(W 124°14ʹ36ʺ--W 116°46ʹ49ʺ/N 41°50ʹ12ʺ--N 32°32ʹ22ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile was created mostly from Digital Multi-Spectral Video image files and some were converted to image files from JPEG files. These data represent the 2005 California Department of Fish and Wildlife (CDFW) Survey flown between August and November of 2005. The photographs were taken from 10,500 feet, utilizing the CDFW's two Partenavia aircraft. Surveys were planned to coincide with periods of minimal change between high and low tides to avoid strong tidal induced currents and flown during early morning or late afternoon to avoid glare from overhead sun. The data from Los Angeles Harbor to LaJolla was provided by the Region Nine Kelp Consortium. These data were collected on March 15 and June 22, 2005. These data are complete, although the user should note ommissions. The coverage was projected in Teale Albers North American Datum 1983. File reindexed to match CDFW administrative kelp bed boundaries modified by changes to California Code of Regulations, Title 14, Section 165, effective April 1, 2014.</abstract>
@@ -88,9 +88,6 @@
   <location>
     <url>http://purl.stanford.edu/hn188mm8212</url>
   </location>
-  <accessCondition type="useAndReproduction">Access constraints: These are public data.</accessCondition>
-  <accessCondition type="useAndReproduction">Use constraints: The Deparment of Fish and Game must be credited with the collection, analysis and distribution of these data.</accessCondition>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:hn188mm8212</recordIdentifier>
@@ -110,9 +107,25 @@
             <gml:upperCorner>-117.150184 41.765546</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;14&#x2B9;25&#x2BA;--W 117&#xB0;9&#x2B9;1&#x2BA;/N 41&#xB0;45&#x2B9;56&#x2BA;--N 32&#xB0;33&#x2B9;59&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 124°14ʹ25ʺ--W 117°9ʹ1ʺ/N 41°45ʹ56ʺ--N 32°33ʹ59ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Fish and Wildlife GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/fb282pw3043</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

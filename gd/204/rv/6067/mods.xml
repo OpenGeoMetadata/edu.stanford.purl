@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Automated Weather Observation System Locations, California, 2016</title>
   </titleInfo>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 124&#xB0;14&#x2B9;12&#x2BA;--W 114&#xB0;37&#x2B9;24&#x2BA;/N 41&#xB0;46&#x2B9;53&#x2BA;--N 32&#xB0;34&#x2B9;20&#x2BA;)</coordinates>
+      <coordinates>(W -124.236533--W -114.623293/N 41.781442--N 32.572306)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile contains the locations of Automated Weather Observation Systems (AWOS), created from the California Aviation System Plan (2013) list. The upgrades and distribution of AWOS, Automated Surface Observation Systems (ASOS), and Automated Terminal Information Services (ATIS) in California are a critical part of the State aviation system. Access to localized weather conditions benefit both commercial and General Aviation (GA) operations. Caltrans Division of Aeronautics (Division) is monitoring the expansion and updating of the system with a focus on bringing more of this technology to key airports thereby improving air safety. Also, as AWOS/ASOS technology improves, the use of the hardware for shared uses, such as monitoring remote highways concurrently with remote airports is seen as an essential safety measure for normal as well as emergency response operations. The State is currently researching a cooperative approach to improving the road and aviation automated weather reporting system to support multimodal safety statewide. The expansion of the system through Public Private Partnerships (P3) is also becoming a topic of increasing interest as data and cost sharing strategies among various users becomes more desired, available and practical. AWOS is a computer-generated voice which is used to automate the broadcast of the minute-by-minute weather observations. ASOS is the primary surface weather observing system of the United States. ATIS is the continuous broadcast of recorded non-control information which converts selected meteorological data and air traffic control data into human speech. This layer is part of a collection of GIS data created by the California Department of Transportation (Caltrans).</abstract>
@@ -40,11 +40,10 @@
   <note displayLabel="Preferred citation" lang="eng">California Department of Transportation. (2016). Automated Weather Observation System Locations, California, 2016. California Department of Transportation. Available at http://purl.stanford.edu/gd204rv6067.</note>
   <note displayLabel="Supplemental information">Data Sources and references: 
 
-&#x2022; California Aviation System Plan, 2013 Inventory Element (CASP/IE), by California Department of Transportation Division of Aeronautics, CASP/IE Section 2 
+• California Aviation System Plan, 2013 Inventory Element (CASP/IE), by California Department of Transportation Division of Aeronautics, CASP/IE Section 2 
 http://www.dot.ca.gov/hq/planning/aeronaut/documents/casp/casp_inventory_element_sections_2and3_with_appendices.pdf 
 
-&#x2022; California Aviation System Plan (CASP) Elements: http://www.dot.ca.gov/hq/planning/aeronaut/documents/casp/ 
-</note>
+• California Aviation System Plan (CASP) Elements: http://www.dot.ca.gov/hq/planning/aeronaut/documents/casp/</note>
   <note displayLabel="Use limitation">This data is provided as a service for planning purposes and not intended for design, navigation purposes or airspace consideration. Such needs should include discussions with the Federal Aviation Administration, Caltrans Division of Aeronautics, and the site management/owners.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Automatic meteorological stations</topic>
@@ -89,8 +88,27 @@ http://www.dot.ca.gov/hq/planning/aeronaut/documents/casp/casp_inventory_element
             <gml:upperCorner>-114.623293 41.781442</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;14&#x2B9;12&#x2BA;--W 114&#xB0;37&#x2B9;24&#x2BA;/N 41&#xB0;46&#x2B9;53&#x2BA;--N 32&#xB0;34&#x2B9;20&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>(W -124.236533--W -114.623293/N 41.781442--N 32.572306)</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Transportation GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sb381ch4421</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. http://www.gnu.org/licenses.</accessCondition>
+</mods>

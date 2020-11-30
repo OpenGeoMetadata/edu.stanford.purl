@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>World Boundaries of Disputed Areas, 1:10 million (2012)</title>
@@ -25,7 +25,7 @@
     <edition>2.0.0</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -36,7 +36,7 @@
     <cartographics>
       <scale>1:10000000</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 89&#xB0;11&#x2B9;35&#x2BA;--E 149&#xB0;21&#x2B9;34&#x2BA;/N 48&#xB0;7&#x2B9;14&#x2BA;--S 23&#xB0;50&#x2B9;15&#x2BA;)</coordinates>
+      <coordinates>(W 89°11ʹ35ʺ--E 149°21ʹ34ʺ/N 48°7ʹ14ʺ--S 23°50ʹ15ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile depicts the boundaries of disputed areas and breakaway regions ranging from Kashmir to the Elemi Triangle and Northern Cyprus to the Western Sahara desert. Data is derived from the The United States Central Intelligence Agency's World Factbook boundary database, but not every disputed or undefined boundary listed in the World Factbook boundary database is reflected in the main admin-0 boundaries attributes. Care should be taken with regard to undefined or disputed boundaries when attributing to reflect if the dispute is active or not. Some disputed areas that are small could be better symbolized with a point symbol. These data are represented at 1:10,000,000 scale. This layer is part of the Natural Earth Collection (v.2.0.0).</abstract>
@@ -111,7 +111,6 @@
   <location>
     <url>http://purl.stanford.edu/tq310nc7616</url>
   </location>
-  <accessCondition type="useAndReproduction">All versions of Natural Earth raster and vector map data are in the public domain. </accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:tq310nc7616</recordIdentifier>
@@ -131,25 +130,17 @@
             <gml:upperCorner>149.359335 48.120604</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/587116/about.rdf" dc:language="eng" dc:title="Azerbaijan"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3582678/about.rdf" dc:language="eng" dc:title="Belize"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1252634/about.rdf" dc:language="eng" dc:title="Bhutan"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Chile"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1814991/about.rdf" dc:language="eng" dc:title="China"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3017382/about.rdf" dc:language="eng" dc:title="France"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4197000/about.rdf" dc:language="eng" dc:title="Georgia"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3378535/about.rdf" dc:language="eng" dc:title="Guyana"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1269750/about.rdf" dc:language="eng" dc:title="India"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/294640/about.rdf" dc:language="eng" dc:title="Israel"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/192950/about.rdf" dc:language="eng" dc:title="Kenya"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/272103/about.rdf" dc:language="eng" dc:title="Lebanon"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/617790/about.rdf" dc:language="eng" dc:title="Moldova"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/2542007/about.rdf" dc:language="eng" dc:title="Morocco"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1168579/about.rdf" dc:language="eng" dc:title="Pakistan"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/2017370/about.rdf" dc:language="eng" dc:title="Russia"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/366755/about.rdf" dc:language="eng" dc:title="Sudan"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/2510769/about.rdf" dc:language="eng" dc:title="Spain"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Natural earth</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qr604qw5282</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

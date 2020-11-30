@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>High Occupancy Vehicle Lanes, California, 2015</title>
   </titleInfo>
@@ -27,7 +27,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -38,8 +38,8 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 122&#xB0;48&#x2B9;26&#x2BA;--W 116&#xB0;56&#x2B9;18&#x2BA;/N 38&#xB0;51&#x2B9;41&#x2BA;--N 32&#xB0;32&#x2B9;33&#x2BA;)</coordinates>
-      <coordinates>(W 122&#xB0;48&#x2B9;28&#x2BA;--W 117&#xB0;2&#x2B9;34&#x2BA;/N 38&#xB0;51&#x2B9;40&#x2BA;--N 32&#xB0;37&#x2B9;38&#x2BA;)</coordinates>
+      <coordinates>(W -122.807761--W -117.042844/N 38.861076--N 32.627273)</coordinates>
+      <coordinates>(W -122.807761--W -117.042844/N 38.861076--N 32.627273)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile represents the existing, under construction, programmed, and proposed High-Occupancy Vehicle (HOV) lanes on the California state Highway system as of 2015. Also known as carpool or diamond lanes, HOV lanes are a traffic management strategy to promote and encourage ridesharing; thereby alleviating congestion and maximizing the people-carrying capacity of California highways. HOV lanes are usually located on the inside (left) lane and are identified by signs along the freeway and white diamond symbols painted on the pavement. In Northern California, HOV lanes are only operational on Monday thru Friday during posted peak congestion hours, for example: between 6 a.m. - 10 a.m. and 3 p.m. - 7 p.m. All other vehicles may use the lanes during off-peak hours. This is referred to as "part-time" operation. In Southern California, HOV lanes are generally separated from other lanes by a buffer zone. The HOV lanes are in effect 24-hours a day, 7-days a week, referred to as "full-time" operation.The locations of the HOV system are based on postmiles derived from an excel spreadsheet maintained by Caltrans, Division of Traffic Operations, Office of System Management Operations. This layer is part of a collection of GIS data created by the California Department of Transportation (Caltrans).</abstract>
@@ -83,8 +83,27 @@
             <gml:upperCorner>-117.042844 38.861076</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;48&#x2B9;28&#x2BA;--W 117&#xB0;2&#x2B9;34&#x2BA;/N 38&#xB0;51&#x2B9;40&#x2BA;--N 32&#xB0;37&#x2B9;38&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>(W -122.807761--W -117.042844/N 38.861076--N 32.627273)</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Transportation GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sb381ch4421</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. http://www.gnu.org/licenses.</accessCondition>
+</mods>

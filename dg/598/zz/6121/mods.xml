@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Traffic Bottlenecks, California, 2010</title>
   </titleInfo>
@@ -27,7 +27,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -38,14 +38,14 @@
     <cartographics>
       <scale>1:</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 122&#xB0;48&#x2B9;34&#x2BA;--W 116&#xB0;56&#x2B9;20&#x2BA;/N 38&#xB0;57&#x2B9;8&#x2BA;--N 32&#xB0;38&#x2B9;39&#x2BA;)</coordinates>
+      <coordinates>(W -122.809315--W -116.938881/N 38.952183--N 32.644195)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile represents traffic bottlenecks, or heavy congestion during peak a.m. and p.m. travel periods, on California's State Highway system during 2010. These data were derived from the California Department of Transportation (Caltrans) HQ Traffic Operations Asset Management Branch and prepared by Caltrans as part of the Mobility Performance Report (MPR). The MPR is prepared by Caltrans and district staff providing detailed data about highway system performance related to congestion and mobility. Caltrans collects vehicle counts and calculates speeds at all hours of the days and the week of major metropolitan areas throughout California via the Caltrans Performance Measurement System. This information helps identify congestion bottlenecks and results in more cost-effective investments to improve performance of the State Highway System. This layer is part of a collection of GIS data created by the California Department of Transportation (Caltrans).</abstract>
   <abstract displayLabel="Purpose" lang="eng">This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
   <note displayLabel="Preferred citation" lang="eng">California Department of Transportation. (2013). Traffic Bottlenecks, California, 2010. California Department of Transportation. Available at http://purl.stanford.edu/dg598zz6121.</note>
   <note displayLabel="Supplemental information">Data were downloaded from  the Caltrans Performance Measurement System (PeMS) in August 2010 using the Performance&gt;Bottlenecks&gt;Top Bottlenecks query for the period January 1, 2010 through December 31, 2010. Maps were created from processed data between September and November 2010. The maps were published in the 2010 Mobility Performance Report that was issued in July 2013 by the California Department of Transportation for the California State Transportation Agency.</note>
-  <note displayLabel="Use limitation">The maps and data are made available to the public solely for informational purposes.Information provided in the Caltrans GIS Data Library is accurate to the best of our knowledge and is subject to change on a regular basis, without notice. While the GIS Data Management Branch makes every effort to provide useful and accurate information, we do not warrant the information to be authoritative, complete, factual, or timely. Information is provided on an "as is" and an "as available" basis. The Department of Transportation is not liable to any party for any cost or damages, including any direct, indirect, special, incidental, or consequential damages, arising out of or in connection with the access or use of, or the inability to access or use, the Site or any of the Materials or Services described herein. </note>
+  <note displayLabel="Use limitation">The maps and data are made available to the public solely for informational purposes.Information provided in the Caltrans GIS Data Library is accurate to the best of our knowledge and is subject to change on a regular basis, without notice. While the GIS Data Management Branch makes every effort to provide useful and accurate information, we do not warrant the information to be authoritative, complete, factual, or timely. Information is provided on an "as is" and an "as available" basis. The Department of Transportation is not liable to any party for any cost or damages, including any direct, indirect, special, incidental, or consequential damages, arising out of or in connection with the access or use of, or the inability to access or use, the Site or any of the Materials or Services described herein.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Traffic density</topic>
   </subject>
@@ -86,8 +86,27 @@
             <gml:upperCorner>-116.938881 38.952183</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;48&#x2B9;34&#x2BA;--W 116&#xB0;56&#x2B9;20&#x2BA;/N 38&#xB0;57&#x2B9;8&#x2BA;--N 32&#xB0;38&#x2B9;39&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>(W -122.809315--W -116.938881/N 38.952183--N 32.644195)</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Transportation GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sb381ch4421</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. http://www.gnu.org/licenses.</accessCondition>
+</mods>

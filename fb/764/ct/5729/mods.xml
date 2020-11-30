@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Suggested Site Development, Redevelopment Project Number One, Western Addition Redevelopment Area (Raster Image)</title>
@@ -24,7 +24,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Raster Dataset</form>
@@ -34,10 +34,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 122&#xB0;26&#x2B9;28&#x2BA;--W 122&#xB0;25&#x2B9;15&#x2BA;/N 37&#xB0;47&#x2B9;16&#x2BA;--N 37&#xB0;46&#x2B9;36&#x2BA;)</coordinates>
+      <coordinates>(W 122°26ʹ28ʺ--W 122°25ʹ15ʺ/N 37°47ʹ16ʺ--N 37°46ʹ36ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced image of a suggested site development plan in the Western Addition of San Francisco. This plan appears in "Replanning the Geary Area in the Western Addition" published in March 1952 by the San Francisco Department of City Planning. A scanned version of this map was georeferenced as part of the Imagined San Francisco project. </abstract>
+  <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced image of a suggested site development plan in the Western Addition of San Francisco. This plan appears in "Replanning the Geary Area in the Western Addition" published in March 1952 by the San Francisco Department of City Planning. A scanned version of this map was georeferenced as part of the Imagined San Francisco project.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This project traces the history of urban planning in San Francisco, placing special emphasis on unrealized schemes. Rather than using visual material simply to illustrate outcomes, Imagined San Francisco uses historical plans, maps, architectural renderings, and photographs to show what might have been. By enabling users to layer a series of urban plans, the project presents the city not only as a sequence of material changes, but also as a contingent process and a battleground for political power. Savvy institutional actors--like banks, developers, and many public officials--understood that in some cases to clearly articulate their interests would be to invite challenges. That means that textual sources like newspapers and municipal reports are limited in what they can tell researchers about the shape of political power. Urban plans, however, often speak volumes about interests and dynamics upon which textual sources remain silent. Mortgage lenders, for example, apparently thought it unwise to state that they wished to see a poor neighborhood cleared, to be replaced with a freeway onramp. Yet visual analysis of planning proposals makes that interest plain. So in the process of showing how the city might have looked, Imagined San Francisco also shows how political power actually was negotiated and exercised.</abstract>
   <note displayLabel="Preferred citation" lang="eng">San Francisco Department of City Planning and San Francisco Redevelopment Agency (2017). Suggested Site Development, Redevelopment Project Number One, Western Addition Redevelopment Area (Raster Image). Stanford University. Center for Spatial and Textual Analysis. Available at: http://purl.stanford.edu/fb764ct5729</note>
   <subject>
@@ -58,7 +58,6 @@
   <location>
     <url>http://purl.stanford.edu/fb764ct5729</url>
   </location>
-  <accessCondition type="useAndReproduction">You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>fb764ct5729</recordIdentifier>
@@ -78,8 +77,26 @@
             <gml:upperCorner>-122.4208706 37.7878171</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5391959/" dc:language="eng" dc:title="San Francisco (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;26&#x2B9;28&#x2BA;--W 122&#xB0;25&#x2B9;15&#x2BA;/N 37&#xB0;47&#x2B9;16&#x2BA;--N 37&#xB0;46&#x2B9;36&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°26ʹ28ʺ--W 122°25ʹ15ʺ/N 37°47ʹ16ʺ--N 37°46ʹ36ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Imagined San Francisco</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sb872dn6361</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</accessCondition>
+  <accessCondition type="license">CC by: Attribution 3.0 Unported</accessCondition>
+</mods>

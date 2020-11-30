@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>World Elevation Points, 1:50 million (2012)</title>
@@ -26,7 +26,7 @@
     <edition>2.0.0</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -37,7 +37,7 @@
     <cartographics>
       <scale>1:50000000</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 167&#xB0;33&#x2B9;17&#x2BA;--E 160&#xB0;38&#x2B9;38&#x2BA;/N 69&#xB0;16&#x2B9;52&#x2BA;--S 85&#xB0;20&#x2B9;51&#x2BA;)</coordinates>
+      <coordinates>(W 167°33ʹ17ʺ--E 160°38ʹ38ʺ/N 69°16ʹ52ʺ--S 85°20ʹ51ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile depicts areas and point labels of major points of elevation worldwide. Data was derived primarily from the Florida Resources and Environmental Analysis Center's Physical Map of the World. Mountain peaks have been corrected to their true latitude-longitude location based on PeakBagger. These data are represented at 1:50,000,000 scale. This layer is part of the Natural Earth Collection (v.2.0.0).</abstract>
@@ -83,8 +83,17 @@
             <gml:upperCorner>160.643937 69.28107</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6295630/about.rdf" dc:language="eng" dc:title="Earth (Planet)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Natural earth</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qr604qw5282</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Kelp Canopy, Hopkins Marine Reserve, Monterey Bay, California, 2004</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,14 +32,14 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 121&#xB0;54&#x2B9;44&#x2BA;--W 121&#xB0;53&#x2B9;41&#x2BA;/N 36&#xB0;37&#x2B9;33&#x2BA;--N 36&#xB0;36&#x2B9;44&#x2BA;)</coordinates>
+      <coordinates>(W 121°54ʹ44ʺ--W 121°53ʹ41ʺ/N 36°37ʹ33ʺ--N 36°36ʹ44ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts the kelp canopy for the coastal area seaward of Hopkins Marine Station, located in Pacific Grove, California. This file was created to assess the extents of Giant (Macrocystis pyrifera) and Bull (Nereocystis leutkeana) Kelp along the coast of California. The original imagery was collected using a Digital Multi-Spectral Video unit developed by Specterra Systems Inc. </abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts the kelp canopy for the coastal area seaward of Hopkins Marine Station, located in Pacific Grove, California. This file was created to assess the extents of Giant (Macrocystis pyrifera) and Bull (Nereocystis leutkeana) Kelp along the coast of California. The original imagery was collected using a Digital Multi-Spectral Video unit developed by Specterra Systems Inc.</abstract>
   <abstract displayLabel="Purpose" lang="eng">These data are used to assess the extent of kelp resources along the coast of California.</abstract>
   <note displayLabel="Preferred citation" lang="eng">California Department of Fish and Game. (2004). Kelp Canopy, Hopkins Marine Reserve, Monterey Bay, California, 2004. Department of Fish and Game. Available at: http://purl.stanford.edu/hj447nz0296.</note>
   <note displayLabel="Supplemental information">This image file was created from Digital Multi-Spectral Video image files. The original .IMG files created by the DMSV were converted to .FXD files to assure spectral resolution and integrity by a batchfix MS-DOS program. The images were then imported into TNTMips software and georeferenced using DOQs from the United States Geological Survey. After the images had been georeferenced they were re sampled to a 2 meter cell size using a nearest neighbor method designed by Microimages Inc. Areas with a high glint factor (reflection from the sun on choppy water) were extracted to enhance the classification process. All of the images were then mosaiced based on an affine feathering method. The images were subsequently feature mapped and automatically classified to display areas of kelp. The resampled and classified image was then exported into a Arcview BIL file. The BIL file was converted into and Arcview Grid to calculate area. The GRID data was then converted to ESRI shapefile format for display purposes using a weed tolerance of 1.35. DISCLAIMER The user is cautioned against making direct comparisons between the various kelp surveys for the following reasons: 1) Timing of the survey is important, particularly with respect to growing season conditions in the ocean, and storms and harvest levels preceding the dates of survey photography. Seasonal variability may account for differences in surveys, which may not reflect a change in the bed's extent, productivity, or harvest level. 2) Statistical significance in change of area should be evaluated. To do this, a variance parameter is needed, which is obtained by repeated measurements. Most of the coastline, however, has been surveyed only on five occasions (1967, 1989, 1999, 2002, 2003). 3) Survey methods have not been/may not be consistent. Some method of calibration between the methods needs to be performed in order to insure a change of area is not due to survey instrumentation, and not misinterpreted as a biological change. 4) An area where apparently no kelp data are present may truly represent an area devoid of kelp, or may represent an area where kelp was not detected due to poor photo quality, missing photo coverage, or other issues with data collection and processing. Photo coverage is extensive for the state, but the user is advised to consult the photo index for each year to determine whether photographs were acquired for an area of interest.</note>
-  <note displayLabel="Use limitation">The Deparment of Fish and Game must be credited with the collection, anlysis and distribution of these data.</note>
+  <note displayLabel="Use limitation">The Department of Fish and Game must be credited with the collection, anlysis and distribution of these data.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Kelps</topic>
   </subject>
@@ -73,8 +73,6 @@
   <location>
     <url>http://purl.stanford.edu/hj447nz0296</url>
   </location>
-  <accessCondition type="useAndReproduction">These are public data.</accessCondition>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:hj447nz0296</recordIdentifier>
@@ -94,10 +92,25 @@
             <gml:upperCorner>-121.89496 36.62592</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5374363/" dc:language="eng" dc:title="Monterey Bay (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5380437/" dc:language="eng" dc:title="Pacific Grove (Calif.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Hopkins Marine Station"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 121&#xB0;54&#x2B9;44&#x2BA;--W 121&#xB0;53&#x2B9;42&#x2BA;/N 36&#xB0;37&#x2B9;33&#x2BA;--N 36&#xB0;36&#x2B9;44&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 121°54ʹ44ʺ--W 121°53ʹ42ʺ/N 36°37ʹ33ʺ--N 36°36ʹ44ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Fish and Wildlife GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/fb282pw3043</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

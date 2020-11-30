@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Adjusted Urban Areas, California, 2010</title>
   </titleInfo>
@@ -27,7 +27,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -38,14 +38,14 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 124&#xB0;15&#x2B9;21&#x2BA;--W 114&#xB0;31&#x2B9;50&#x2BA;/N 41&#xB0;52&#x2B9;10&#x2BA;--N 32&#xB0;32&#x2B9;3&#x2BA;)</coordinates>
+      <coordinates>(W -124.255849--W -114.530661/N 41.869505--N 32.534028)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents adjusted urban area boundaries for California derived from the 2010 Census urban area boundaries, the preceding 2000 Caltrans urban area boundaries, and approved district and headquarters urban area adjustments. The three urban area boundaries were merged and smoothed to create the 170 adjusted urban area boundaries for California. This layer is part of a collection of GIS data created by the California Department of Transportation (Caltrans).</abstract>
-  <abstract displayLabel="Purpose" lang="eng">The 2010 adjusted urban area file represents the current Federal Highway Administration (FHWA) approved Caltrans adjusted urban area boundaries in California.  </abstract>
+  <abstract displayLabel="Purpose" lang="eng">The 2010 adjusted urban area file represents the current Federal Highway Administration (FHWA) approved Caltrans adjusted urban area boundaries in California.</abstract>
   <note displayLabel="Preferred citation" lang="eng">California Department of Transportation. (2013). Adjusted Urban Areas, California, 2010. California Department of Transportation. Available at http://purl.stanford.edu/jt346pj7452.</note>
-  <note displayLabel="Supplemental information">The website about 2010 Adjusted Urban Areas: http://dot.ca.gov/hq/tsip/hseb/urban.html </note>
-  <note displayLabel="Use limitation">This data is made available to the public solely for informational purposes.Every reasonable effort has been made to ensure the accuracy of the data. There are no restrictions on distribution of the data by users. However, users are encouraged to refer others to the Department of Transportation&#x2019;s GIS Data Library to acquire the data, in case updated data become available. </note>
+  <note displayLabel="Supplemental information">The website about 2010 Adjusted Urban Areas: http://dot.ca.gov/hq/tsip/hseb/urban.html</note>
+  <note displayLabel="Use limitation">This data is made available to the public solely for informational purposes.Every reasonable effort has been made to ensure the accuracy of the data. There are no restrictions on distribution of the data by users. However, users are encouraged to refer others to the Department of Transportation’s GIS Data Library to acquire the data, in case updated data become available.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Metropolitan areas</topic>
   </subject>
@@ -89,8 +89,27 @@
             <gml:upperCorner>-114.530661 41.869505</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;15&#x2B9;21&#x2BA;--W 114&#xB0;31&#x2B9;50&#x2BA;/N 41&#xB0;52&#x2B9;10&#x2BA;--N 32&#xB0;32&#x2B9;3&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>(W -124.255849--W -114.530661/N 41.869505--N 32.534028)</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Transportation GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sb381ch4421</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. http://www.gnu.org/licenses.</accessCondition>
+</mods>

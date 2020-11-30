@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Ocean Depths: California Coast, 2000</title>
@@ -41,7 +41,7 @@
     <edition>First</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -52,7 +52,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 126&#xB0;31&#x2BA;--W 116&#xB0;40&#x2B9;3&#x2BA;/N 42&#xB0;17&#x2B9;33&#x2BA;--N 32&#xB0;2&#x2B9;51&#x2BA;)</coordinates>
+      <coordinates>(W 126°31ʺ--W 116°40ʹ3ʺ/N 42°17ʹ33ʺ--N 32°2ʹ51ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile depicts ocean depths gridded on a 5-minute latitude/longitude interval. This coverage was created from data extracted from the National Oceanic and Atmospheric Administration (NOAA) National Geophysical Data Center (NGDC) "TerrainBase" dataset. The TerrainBase global digital terrain model contains a complete matrix of land elevation and ocean depth values for the entire world. NGDC/World Data Center-A developed the model using the best public domain data available at the time of publication.</abstract>
@@ -98,10 +98,6 @@
   <location>
     <url>http://purl.stanford.edu/gc081vs0264</url>
   </location>
-  <accessCondition type="useAndReproduction">No restrictions on access or use. Please cite the authors when possible.</accessCondition>
-  <accessCondition type="useAndReproduction">No restrictions on access or use. Please cite the authors when possible.</accessCondition>
-  <accessCondition type="useAndReproduction">No restrictions on access or use. Please cite the authors when possible.</accessCondition>
-  <accessCondition type="useAndReproduction">No restrictions on access or use. Please cite the authors when possible.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:gc081vs0264</recordIdentifier>
@@ -121,9 +117,25 @@
             <gml:upperCorner>-117.08086 42.169838</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 125&#xB0;49&#x2B9;52&#x2BA;--W 117&#xB0;4&#x2B9;51&#x2BA;/N 42&#xB0;10&#x2B9;11&#x2BA;--N 32&#xB0;10&#x2B9;12&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 125°49ʹ52ʺ--W 117°4ʹ51ʺ/N 42°10ʹ11ʺ--N 32°10ʹ12ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Fish and Wildlife GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/fb282pw3043</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

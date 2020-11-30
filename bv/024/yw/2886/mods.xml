@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Egg Nest Distribution: Cabezon, California, 2001</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2001</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 124&#xB0;30&#x2B9;49&#x2BA;--W 116&#xB0;53&#x2B9;47&#x2BA;/N 42&#xB0;3&#x2B9;59&#x2BA;--N 32&#xB0;44&#x2B9;18&#x2BA;)</coordinates>
+      <coordinates>(W 124°30ʹ49ʺ--W 116°53ʹ47ʺ/N 42°3ʹ59ʺ--N 32°44ʹ18ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the most common distribution of egg nests of the adult Cabezon (Scorpaenichthys marmoratus). The process of creating this shapefile included creating contour lines, in 5-meter intervals, from bathymetry lines. Depth ranges were taken from four different references (see Resource Details Supplemental Information). After the depth range between which this species is most common was determined, they were rounded to the closest 5-meter interval. The deepest and shallowest shapefile lines were connected by a line at the northern end and southern end (determined by their geographical range from north to south). This shapefile was then converted to polygon. The goal of this shapefile was to provide a range in which this species' egg nests could occur, given that their subtidal areas in or around rocky reef and kelp bed habitats are present. Females spawn their eggs on intertidal and subtidal, algae-free rocky surfaces, primarily in crevices and under rocks. Masses of the pale green or reddish eggs are up to18 inches in diameter and up to two to 4 inches thick. Males fertilize the eggs after spawning by the female, and the male guards the nest during the 2-3 week period that the eggs mature.</abstract>
@@ -83,7 +83,6 @@
   <location>
     <url>http://purl.stanford.edu/bv024yw2886</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:bv024yw2886</recordIdentifier>
@@ -103,9 +102,25 @@
             <gml:upperCorner>-117.252257 41.996257</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;25&#x2B9;3&#x2BA;--W 117&#xB0;15&#x2B9;8&#x2BA;/N 41&#xB0;59&#x2B9;47&#x2BA;--N 32&#xB0;46&#x2B9;56&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 124°25ʹ3ʺ--W 117°15ʹ8ʺ/N 41°59ʹ47ʺ--N 32°46ʹ56ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Fish and Wildlife GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/fb282pw3043</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>World Urban Areas, LandScan, 1:10 million (2012)</title>
   </titleInfo>
@@ -25,7 +25,7 @@
     <edition>2.0.0</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -36,7 +36,7 @@
     <cartographics>
       <scale>1:10000000</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 175&#xB0;14&#x2B9;--E 178&#xB0;32&#x2B9;/N 77&#xB0;29&#x2B9;30&#x2BA;--S 54&#xB0;51&#x2B9;)</coordinates>
+      <coordinates>(W 175°14ʹ--E 178°32ʹ/N 77°29ʹ30ʺ--S 54°51ʹ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts boundaries of urban areas with dense areas of human habitation worldwide. Regional significance is favored over population census in determining selection of places. Use the scale rankings to filter the number of towns that appear on your map. This layer also provides population estimates derived from the Oak Ridge National Laboratory's LandScan population database for 90% of the cities depicted. Population estimates account for the total metropolitan population rather than it's administrative boundary population. These data were converted from raster to vector and pixels with fewer than 200 persons per square kilometer were removed from the dataset as they were classified as rural. Once urban pixels were selected, these pixels were aggregated into contiguous units. Concurrently Thiessen polygons were created based on the selected city points. The Thiessen polygons were used to intersect the contiguous city boundaries to produce bounded areas for the cities. As a result, our estimates capture a metropolitan and micropolitan populations per city regardless of administrative units. Once intersected, the contiguous polygons were recalculated, using aerial interpolation assuming uniform population distribution within each pixel, to determine the population total. This process was conducted multiple times, for each scale level, to produce population estimates for each city at nested scales of 1:300 million, 1:110 million, 1:50 million, 1:20 million, and 1:10 million. These data are represented at 1:10,000,000 scale. This layer is part of the Natural Earth Collection (v.2.0.0).</abstract>
@@ -75,7 +75,6 @@
   <location>
     <url>http://purl.stanford.edu/yk247bg4748</url>
   </location>
-  <accessCondition type="useAndReproduction">All versions of Natural Earth raster and vector map data are in the public domain. </accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:yk247bg4748</recordIdentifier>
@@ -95,8 +94,17 @@
             <gml:upperCorner>178.533333 77.491667</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6295630/about.rdf" dc:language="eng" dc:title="Earth (Planet)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Natural earth</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qr604qw5282</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Local Agency Owned Bridges, California, 2015</title>
   </titleInfo>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 124&#xB0;24&#x2B9;1&#x2BA;--W 114&#xB0;10&#x2B9;45&#x2BA;/N 41&#xB0;59&#x2B9;48&#x2BA;--N 32&#xB0;32&#x2B9;47&#x2BA;)</coordinates>
+      <coordinates>(W -124.400364--W -114.179203/N 41.996673--N 32.546456)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile contains the locations of local government agency owned bridges in the California state highway system as of April 2015. Bridge inventory data was obtained from the California Department of Transportation (Caltrans) Structure Maintenance and Investigations (SMI) Database. SMI performs bridge inspections in accordance with federal regulations on over 12,000 State Highway bridges and approximately 12,200 bridges owned by local government agencies. Caltrans bridge inspectors are responsible for maintaining the safety and integrity of over 24000 bridges owned by the State of California and California's local government agencies. This layer is part of a collection of GIS data created by the California Department of Transportation (Caltrans).</abstract>
@@ -41,8 +41,7 @@
   <note displayLabel="Supplemental information">Note: The dataset consists of bridge attributes collected for the purpose of reporting to Federal Highway Administration. This data was obtained on the date indicated by the file.  The data was extracted from the SM&amp;I database and may have been in the process of being modified when it was extracted.  For official data attributes for each bridge, use the signed and stamped Bridge Inspection Reports stored in BIRIS (http://db2.dot.ca.gov:7777/forms/frmservlet?config=biris).
 
 Reference: Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges (FHWA-PD-96-0001) 
-For more information, please see Caltrans Division of Maintenance, Structure Maintenance website at http://www.dot.ca.gov/hq/structur/strmaint/
-</note>
+For more information, please see Caltrans Division of Maintenance, Structure Maintenance website at http://www.dot.ca.gov/hq/structur/strmaint/</note>
   <note displayLabel="Use limitation">Public data but have some limitations, such as for planning purpose only. Disclaimer: The data are made available to the public solely for informational purposes. Information provided in the Caltrans GIS Data Library is accurate to the best of our knowledge and is subject to change on a regular basis, without notice. While Office of Data Services and Technology, GIS Branch makes every effort to provide useful and accurate information, we do not warrant the information to be authoritative, complete, factual, or timely. Information is provided on an "as is" and an "as available" basis. The Department of Transportation is not liable to any party for any cost or damages, including any direct, indirect, special, incidental, or consequential damages, arising out of or in connection with the access or use of, or the inability to access or use, the Site or any of the Materials or Services described herein.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Bridges</topic>
@@ -78,8 +77,27 @@ For more information, please see Caltrans Division of Maintenance, Structure Mai
             <gml:upperCorner>-114.179203 41.996673</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;24&#x2B9;1&#x2BA;--W 114&#xB0;10&#x2B9;45&#x2BA;/N 41&#xB0;59&#x2B9;48&#x2BA;--N 32&#xB0;32&#x2B9;47&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>(W -124.400364--W -114.179203/N 41.996673--N 32.546456)</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Transportation GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sb381ch4421</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. http://www.gnu.org/licenses.</accessCondition>
+</mods>

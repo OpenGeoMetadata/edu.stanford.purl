@@ -1,13 +1,7 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>A chart of the Indian Ocean improved from the chart of M. d'Apres de Mannevillette; with the addition of a part of the Pacific Ocean, as well as of the original tracks of the principal discoverers or other navigators to India and China; and in which it has been attempted to give a chronological indication of the successive discoveries (Raster Image)</title>
-  </titleInfo>
-  <titleInfo>
-    <title type="alternative">A chart of the Indian Ocean improved from the chart of M. d'Apres de Mannevillette; with the addition of a part of the Pacific Ocean, as well as of the original tracks of the principal discoverers or other navigators to India and China; and in which it has been attempted to give a chronological indication of the successive discoveries</title>
-  </titleInfo>
-  <titleInfo>
-    <title displayLabel="Alternative title">A chart of the Indian Ocean improved from the chart of M. d'Apres de Mannevillette; with the addition of a part of the Pacific Ocean, as well as of the original tracks of the principal discoverers or other navigators to India and China; and in which it has been attempted to give a chronological indication of the successive discoveries</title>
   </titleInfo>
   <name type="corporate">
     <namePart>Stanford Geospatial Center</namePart>
@@ -22,7 +16,7 @@
     </role>
   </name>
   <name type="personal">
-    <namePart>Hatchett, J. (John) </namePart>
+    <namePart>Hatchett, J. (John)</namePart>
     <role>
       <roleTerm type="text" authority="marcrelator">creator</roleTerm>
     </role>
@@ -39,7 +33,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Raster Dataset</form>
@@ -49,12 +43,11 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 13&#xB0;17&#x2B9;40&#x2BA;--E 180&#xB0;/N 39&#xB0;10&#x2B9;29&#x2BA;--S 48&#xB0;45&#x2B9;13&#x2BA;)</coordinates>
+      <coordinates>(E 13°17ʹ40ʺ--E 180°/N 39°10ʹ29ʺ--S 48°45ʹ13ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced raster image of the historic paper map of the Indian Ocean. The original map was originally created by Louis Delarochette and published in 1803. This map shows the entire continent of Africa. Additional areas displayed in this map include: the Pacific Ocean, Australia, and part of Asia. The features illustrated on this map includes: lakes, coastal islands, gulfs, seas. There are 2 inset maps titled, North East Monsoon, South West Monsoon. All map collar and inset information is also available as part of the raster image, including any inset maps, profiles, statistical tables, directories, text, illustrations, or other information associated with the principal map. The map was georeferenced by the Stanford Geospatial Center using a Mercator projection. This map is part of a selection of digitally scanned and georeferenced historic maps of Africa held at Stanford University Libraries</abstract>
-  <abstract displayLabel="Purpose" lang="eng">This historic paper map provides an historical perspective of the cultural and physical landscape during this time period. The wide range of information provided on these maps make them useful in the study of historic geography. As this map has been georeferenced, it also can be used as a background layer in conjunction with other GIS data.
-    </abstract>
+  <abstract displayLabel="Purpose" lang="eng">This historic paper map provides an historical perspective of the cultural and physical landscape during this time period. The wide range of information provided on these maps make them useful in the study of historic geography. As this map has been georeferenced, it also can be used as a background layer in conjunction with other GIS data.</abstract>
   <note displayLabel="Attribute accuracy report" lang="eng">The horizontal positional accuracy of a raster image is approximately the same as the accuracy of the published source map. The lack of a greater accuracy is largely the result of the inaccuracies with the original measurements and possible distortions in the original paper map document.  There may also be errors introduced during the digitizing and georeferencing process.  In most cases, however, errors in the raster image are small compared with sources of error in the original map graphic.  The RMS error for this map is 1899.6 meters. This value describes how consistent the transformation is between the different control points (links).  The RMS error is only an assessment of the accuracy of the transformation.</note>
   <note displayLabel="Preferred citation" lang="eng">Delarochette, Louis and Stanford Geospatial Center. (2013). A chart of the Indian Ocean improved from the chart of M. d'Apres de Mannevillette; with the addition of a part of the Pacific Ocean, as well as of the original tracks of the principal discoverers or other navigators to India and China; and in which it has been attempted to give a chronological indication of the successive discoveries (Raster Image). Stanford Digital Repository. Available at: http://purl.stanford.edu/mq457xb3818.</note>
   <note displayLabel="Supplemental information">For more information about Stanford's Maps of Africa Collection, see here: https://exhibits.stanford.edu/maps-of-africa.</note>
@@ -91,7 +84,14 @@
   <location>
     <url>http://purl.stanford.edu/mq457xb3818</url>
   </location>
-  <accessCondition type="useAndReproduction">Images may be reproduced or transmitted, but not for commercial use.&#x201D; For commercial use or commercial republication, contact  brannerlibrary@stanford.edu.  Attribution-Non Commercial: CC BY-NC."  </accessCondition>
+  <relatedItem type="otherFormat" displayLabel="Original map in SearchWorks">
+    <titleInfo>
+      <title>A Chart of the Indian Ocean ...</title>
+    </titleInfo>
+    <location>
+      <url>https://searchworks.stanford.edu/view/12113569</url>
+    </location>
+  </relatedItem>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:mq457xb3818</recordIdentifier>
@@ -111,12 +111,26 @@
             <gml:upperCorner>179.9928251 39.1747875</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6255146/" dc:language="eng" dc:title="Africa"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1545739/" dc:language="eng" dc:title="Indian Ocean"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/2077456/" dc:language="eng" dc:title="Australia"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/2186224/" dc:language="eng" dc:title="New Zealand"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 180&#xB0;--E 179&#xB0;59&#x2B9;34&#x2BA;/N 39&#xB0;10&#x2B9;29&#x2BA;--S 48&#xB0;45&#x2B9;13&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 180°--E 179°59ʹ34ʺ/N 39°10ʹ29ʺ--S 48°45ʹ13ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Georeferenced maps of Africa</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/jz110cf1395</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This work is in the public domain. There are no restrictions on use.</accessCondition>
+  <accessCondition type="license">CC pdm: Public Domain Mark 1.0</accessCondition>
+</mods>

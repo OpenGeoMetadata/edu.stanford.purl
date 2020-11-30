@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Entire Adult Distribution: China Rockfish, California, 2001</title>
@@ -23,7 +23,7 @@
     <edition>First</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -34,7 +34,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 124&#xB0;42&#x2B9;15&#x2BA;--W 118&#xB0;12&#x2B9;17&#x2BA;/N 42&#xB0;4&#x2B9;12&#x2BA;--N 33&#xB0;42&#x2B9;36&#x2BA;)</coordinates>
+      <coordinates>(W 124°42ʹ15ʺ--W 118°12ʹ17ʺ/N 42°4ʹ12ʺ--N 33°42ʹ36ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the entire distribution for adult China Rockfish (Sebastes nebulosus). The process of creating this shapefile included creating contour lines, in 5-meter intervals, from bathymetry lines. Depth ranges were taken from four references (see Resource Details Supplemental Information). After the broadest depth range was determined for this species, they were rounded to the nearest 5-meter interval. The deepest and shallowest shapefile lines were connected by a line at the northern end and southern end (determined by their geographical extent from north to south). This shapefile was then converted to polygon. The goal of this shapefile was to provide a range in which this species could occur, given that their habitat are present.</abstract>
@@ -78,7 +78,6 @@
   <location>
     <url>http://purl.stanford.edu/xv986ks1841</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:xv986ks1841</recordIdentifier>
@@ -98,9 +97,25 @@
             <gml:upperCorner>-118.391476 41.99979</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;36&#x2B9;31&#x2BA;--W 118&#xB0;23&#x2B9;29&#x2BA;/N 41&#xB0;59&#x2B9;59&#x2BA;--N 33&#xB0;47&#x2B9;18&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 124°36ʹ31ʺ--W 118°23ʹ29ʺ/N 41°59ʹ59ʺ--N 33°47ʹ18ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Fish and Wildlife GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/fb282pw3043</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

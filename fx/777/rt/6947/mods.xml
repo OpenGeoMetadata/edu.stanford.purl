@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Eastern Frontier of the Colony of the Cape of Good Hope, (and part of Kafirland) from Algoa Bay to the Great Kei River. Chiefly from M.S. Surveys &amp; Sketches communicated by Lt. Col. Michell Survr. Genl. of the Colony ... Compiled by John Arrowsmith (Raster Image)</title>
@@ -27,7 +27,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Raster Dataset</form>
@@ -37,12 +37,11 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 25&#xB0;11&#x2B9;12&#x2BA;--E 28&#xB0;35&#x2B9;9&#x2BA;/S 31&#xB0;47&#x2B9;37&#x2BA;--S 34&#xB0;8&#x2B9;30&#x2BA;)</coordinates>
+      <coordinates>(E 25°11ʹ12ʺ--E 28°35ʹ9ʺ/S 31°47ʹ37ʺ--S 34°8ʹ30ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced raster image of an historic regional map of South Africa showing the eastern section of the Cape (Colony) of Good Hope and part of Kafirland - from Algoa Bay to the Great Kei River. This map was compiled by John Arrowsmith from sketches by the survey general of the colony. All map collar and inset information is also available as part of the raster image, including any inset maps, profiles, statistical tables, directories, text, illustrations, or other information associated with the principal map. This map was georeferenced by the Stanford University Geospatial Center using a Transverse Mercator projection. This map is part of a selection of digitally scanned and georeferenced historic maps of Africa held at Stanford University Libraries.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">This historic paper map provides an historical perspective of the cultural and physical landscape during this time period. The wide range of information provided on these maps make them useful in the study of historic geography. As this map has been georeferenced, it also can be used as a background layer in conjunction with other GIS data.
-    </abstract>
+  <abstract displayLabel="Purpose" lang="eng">This historic paper map provides an historical perspective of the cultural and physical landscape during this time period. The wide range of information provided on these maps make them useful in the study of historic geography. As this map has been georeferenced, it also can be used as a background layer in conjunction with other GIS data.</abstract>
   <note displayLabel="Attribute accuracy report" lang="eng">The horizontal positional accuracy of a raster image is approximately the same as the accuracy of the published source map. The lack of a greater accuracy is largely the result of the inaccuracies with the original measurements and possible distortions in the original paper map document.  There may also be errors introduced during the digitizing and georeferencing process.  In most cases, however, errors in the raster image are small compared with sources of error in the original map graphic.  The RMS error for this map is 112.16 meters. This value describes how consistent the transformation is between the different control points (links).  The RMS error is only an assessment of the accuracy of the transformation.</note>
   <note displayLabel="Preferred citation" lang="eng">Arrowsmith, John, and Stanford Geospatial Center. (2013). Eastern Frontier of the Colony of the Cape of Good Hope, (and part of Kafirland) from Algoa Bay to the Great Kei River. Chiefly from M.S. Surveys &amp; Sketches communicated by Lt. Col. Michell Survr. Genl. of the Colony ... Compiled by John Arrowsmith (Raster Image). Stanford Digital Repository. Available at: http://purl.stanford.edu/fx777rt6947.</note>
   <note displayLabel="Supplemental information">For more information about Stanford's Maps of Africa Collection, see here: https://exhibits.stanford.edu/maps-of-africa.</note>
@@ -95,11 +94,26 @@
             <gml:upperCorner>28.5857433 -31.7937433</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Cape of Good Hope (Colony)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6255146/" dc:language="eng" dc:title="Africa"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Africa, Southern"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Southern Africa"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 25&#xB0;11&#x2B9;12&#x2BA;--E 28&#xB0;35&#x2B9;9&#x2BA;/S 31&#xB0;47&#x2B9;37&#x2BA;--S 34&#xB0;8&#x2B9;30&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 25°11ʹ12ʺ--E 28°35ʹ9ʺ/S 31°47ʹ37ʺ--S 34°8ʹ30ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Georeferenced maps of Africa</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/jz110cf1395</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This work is in the public domain. There are no restrictions on use.</accessCondition>
+  <accessCondition type="license">CC pdm: Public Domain Mark 1.0</accessCondition>
+</mods>

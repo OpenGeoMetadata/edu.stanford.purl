@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Antarctic Ice Shelf Areas, 1:10 million (2012)</title>
@@ -26,7 +26,7 @@
     <edition>2.0.0</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -37,7 +37,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 180&#xB0;--E 180&#xB0;/S 64&#xB0;31&#x2B9;29&#x2BA;--S 85&#xB0;13&#x2B9;20&#x2BA;)</coordinates>
+      <coordinates>(W 180°--E 180°/S 64°31ʹ29ʺ--S 85°13ʹ20ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts year-round ice shelves in Antarctica. Data was derived from the MODIS 2003-2004 Mosaic of Antarctica, but reflects more recent ice shelf collapses digitized from satellite images. It does not include seasonal (winter) ice which extends much farther around the entire continent. These data are represented at 1:10,000,000 scale. This layer is part of the Natural Earth Collection (v.2.0.0).</abstract>
@@ -61,7 +61,6 @@
   <location>
     <url>http://purl.stanford.edu/my556bx0395</url>
   </location>
-  <accessCondition type="useAndReproduction">All versions of Natural Earth raster and vector map data are in the public domain. </accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:my556bx0395</recordIdentifier>
@@ -81,8 +80,17 @@
             <gml:upperCorner>180.0 -64.524837</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6255152/" dc:language="eng" dc:title="Antarctica"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Natural earth</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qr604qw5282</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

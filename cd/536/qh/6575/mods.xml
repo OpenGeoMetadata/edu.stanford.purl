@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Intercity Passenger Rail Routes, California, 2013</title>
   </titleInfo>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,10 +32,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 122&#xB0;21&#x2B9;37&#x2BA;--W 117&#xB0;10&#x2B9;12&#x2BA;/N 38&#xB0;54&#x2B9;13&#x2BA;--N 32&#xB0;42&#x2B9;57&#x2BA;)</coordinates>
+      <coordinates>(W -122.36019--W -117.170022/N 38.90374--N 32.715711)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This line shapefile represents intercity passenger rail routes in California as of 2013. Intercity passenger rail services provide transportation between metropolitan areas, to rural areas of California, and to points beyond California&#x2019;s borders. California&#x2019;s intercity rail services can be divided into two groups: 1) state-supported routes, which are funded by the State and serve California travel markets; and 2) Amtrak long-distance routes, which are funded by Amtrak and serve California and interstate markets. This layer represents three state-supported intercity passenger rail routes:Pacific SurflinerRoute (San Luis Obispo &#x2013; Los Angeles &#x2013; San Diego), San Joaquin Route (Bay Area/Sacramento &#x2013; Stockton &#x2013; Bakersfield), and Capitol Corridor (San Jose &#x2013; Oakland &#x2013; Sacramento &#x2013; Roseville/Auburn). This layer is part of a collection of GIS data created by the California Department of Transportation (Caltrans).</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This line shapefile represents intercity passenger rail routes in California as of 2013. Intercity passenger rail services provide transportation between metropolitan areas, to rural areas of California, and to points beyond California’s borders. California’s intercity rail services can be divided into two groups: 1) state-supported routes, which are funded by the State and serve California travel markets; and 2) Amtrak long-distance routes, which are funded by Amtrak and serve California and interstate markets. This layer represents three state-supported intercity passenger rail routes:Pacific SurflinerRoute (San Luis Obispo – Los Angeles – San Diego), San Joaquin Route (Bay Area/Sacramento – Stockton – Bakersfield), and Capitol Corridor (San Jose – Oakland – Sacramento – Roseville/Auburn). This layer is part of a collection of GIS data created by the California Department of Transportation (Caltrans).</abstract>
   <abstract displayLabel="Purpose" lang="eng">This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
   <note displayLabel="Preferred citation" lang="eng">California Department of Transportation. (2013). Intercity Passenger Rail Routes, California, 2013. California Department of Transportation. Available at http://purl.stanford.edu/cd536qh6575.</note>
   <note displayLabel="Supplemental information">Reference: 2013 California State Rail Plan, California Department of Transportation, May 2013. http://californiastaterailplan.dot.ca.gov/docs/Final_Copy_2013_CSRP.pdf</note>
@@ -80,8 +80,27 @@
             <gml:upperCorner>-117.170022 38.90374</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;21&#x2B9;37&#x2BA;--W 117&#xB0;10&#x2B9;12&#x2BA;/N 38&#xB0;54&#x2B9;13&#x2BA;--N 32&#xB0;42&#x2B9;57&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>(W -122.36019--W -117.170022/N 38.90374--N 32.715711)</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Transportation GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sb381ch4421</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. http://www.gnu.org/licenses.</accessCondition>
+</mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>North American Lakes, 1:10 million (2012)</title>
@@ -26,7 +26,7 @@
     <edition>2.0.0</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -37,7 +37,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 164&#xB0;17&#x2B9;3&#x2BA;--W 18&#xB0;34&#x2B9;12&#x2BA;/N 82&#xB0;17&#x2B9;33&#x2BA;--N 8&#xB0;59&#x2B9;18&#x2BA;)</coordinates>
+      <coordinates>(W 164°17ʹ3ʺ--W 18°34ʹ12ʺ/N 82°17ʹ33ʺ--N 8°59ʹ18ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts natural and artificial lakes in North America only ranked by relative importance, coordinating with river ranking. Includes name attributes. Data primarily derives from the North American Environmental Atlas, a collaboration of government agencies in Canada, Mexico and the United States and the trilateral Commission for Environmental Cooperation (CEC). The modified CCM lakes offered here are intended for small-scale cartographic use. These data are represented at 1:10,000,000 scale. This layer is part of the Natural Earth Collection (v.2.0.0).</abstract>
@@ -61,7 +61,6 @@
   <location>
     <url>http://purl.stanford.edu/ff882gc9141</url>
   </location>
-  <accessCondition type="useAndReproduction">All versions of Natural Earth raster and vector map data are in the public domain. </accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:ff882gc9141</recordIdentifier>
@@ -81,8 +80,17 @@
             <gml:upperCorner>-18.569997 82.292487</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6255149/" dc:language="eng" dc:title="North America"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Natural earth</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qr604qw5282</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

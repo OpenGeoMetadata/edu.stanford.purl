@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>U.S. Parks and Protected Land Lines, 1:10 million (2012)</title>
@@ -26,7 +26,7 @@
     <edition>2.0.0</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -37,7 +37,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 156&#xB0;32&#x2B9;23&#x2BA;--W 68&#xB0;55&#x2B9;25&#x2BA;/N 59&#xB0;8&#x2B9;33&#x2BA;--N 26&#xB0;33&#x2B9;32&#x2BA;)</coordinates>
+      <coordinates>(W 156°32ʹ23ʺ--W 68°55ʹ25ʺ/N 59°8ʹ33ʺ--N 26°33ʹ32ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polyline shapefile depicts 394 authorized Park Service units in the United States only that are over 100,000 acres. The data does not include affiliated areas and unauthorized park units. Park units over 100,000 acres appear as areas, park units under 100,000 acres as points, and linear parks, including rivers, trails, and seashores, as lines. There are a few exceptions to this rule. Many parks are comprised of scattered, non-contiguous land parcels. Not all of these are shown, especially in urban areas and the northeastern US. Dots generally indicate the center of the largest parcel or the parcel where the visitor center is located. Park boundaries extending over water areas are not shown. There are a few exceptions to this rule. Although National Preserves adjacent to National Parks are generally counted as separate units, they are typically administered jointly with their respective parks. This data reflects this administrative reality. Park shapes were generalized with the Visvalingam-Whyatt algorithm using the on-line tools at Mapshaper.org. this data was produced privately and is not an official product nor is it endorsed by the Park Service. These data are represented at 1:10,000,000 scale. This layer is part of the Natural Earth Collection (v.2.0.0).</abstract>
@@ -79,7 +79,6 @@
   <location>
     <url>http://purl.stanford.edu/mh803ht5664</url>
   </location>
-  <accessCondition type="useAndReproduction">All versions of Natural Earth raster and vector map data are in the public domain. </accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:mh803ht5664</recordIdentifier>
@@ -99,8 +98,17 @@
             <gml:upperCorner>-68.923747 59.142578</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Natural earth</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qr604qw5282</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

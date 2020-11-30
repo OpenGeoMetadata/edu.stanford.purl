@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Marine Protected Areas, Channel Islands, California, 2004</title>
   </titleInfo>
@@ -22,7 +22,7 @@
     <edition>v1</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,13 +33,13 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 120&#xB0;34&#x2B9;17&#x2BA;--W 118&#xB0;57&#x2B9;32&#x2BA;/N 34&#xB0;8&#x2B9;29&#x2BA;--N 33&#xB0;24&#x2B9;44&#x2BA;)</coordinates>
+      <coordinates>(W 120°34ʹ17ʺ--W 118°57ʹ32ʺ/N 34°8ʹ29ʺ--N 33°24ʹ44ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents the Channel Islands Marine Protected Areas. Pending Office of Administrative Law approval MPAs in effect as of April 9, 2003. This layer is part of a collection of data created by the California Department of Fish and Game.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This shapefile was prepared to make web and hardcopy documents for public distribution of the Channel Island Marine Protected Areas. This map should not be used for navigational purposes.</abstract>
   <note displayLabel="Preferred citation" lang="eng">California Department of Fish and Game. Marine Resources Region. (2004). Marine Protected Areas, Channel Islands, California, 2004. California Department of Fish and Game. Available at: http://purl.stanford.edu/zc305gv0300.</note>
-  <note displayLabel="Supplemental information">Futhermore, the restrictions described are only those imposed by this MPA designation. Additional restrictions may apply to fishing activites and other activities such as collecting, discharging and disposing of substances. Refer to the CA Code of Regulations, Title 14 &#xA7;632 and the Code of Federal Regulations, Title 15 &#xA7;922.70 or contact the CA Department of Fish and Game or the Channel Islands National Marine Sanctuary. For further information on the Channel Islands Marine Protected Areas please visit the following websites: http://www.dfg.ca.gov/mrd/channel_islands/index.html http://www.dfg.ca.gov/mrd/channel_islands/flyer.pdf</note>
+  <note displayLabel="Supplemental information">Futhermore, the restrictions described are only those imposed by this MPA designation. Additional restrictions may apply to fishing activites and other activities such as collecting, discharging and disposing of substances. Refer to the CA Code of Regulations, Title 14 §632 and the Code of Federal Regulations, Title 15 §922.70 or contact the CA Department of Fish and Game or the Channel Islands National Marine Sanctuary. For further information on the Channel Islands Marine Protected Areas please visit the following websites: http://www.dfg.ca.gov/mrd/channel_islands/index.html http://www.dfg.ca.gov/mrd/channel_islands/flyer.pdf</note>
   <note displayLabel="Use limitation">This file is not for navigational purposes.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Natural resources</topic>
@@ -74,7 +74,6 @@
   <location>
     <url>http://purl.stanford.edu/zc305gv0300</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:zc305gv0300</recordIdentifier>
@@ -94,9 +93,25 @@
             <gml:upperCorner>-118.96755 34.140394</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Channel Islands (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 120&#xB0;34&#x2B9;17&#x2BA;--W 118&#xB0;58&#x2B9;3&#x2BA;/N 34&#xB0;8&#x2B9;25&#x2BA;--N 33&#xB0;24&#x2B9;46&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 120°34ʹ17ʺ--W 118°58ʹ3ʺ/N 34°8ʹ25ʺ--N 33°24ʹ46ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Fish and Wildlife GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/fb282pw3043</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

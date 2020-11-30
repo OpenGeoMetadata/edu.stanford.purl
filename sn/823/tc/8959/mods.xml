@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>World Tiny Countries with Scale Ranking, 1:50 million (2012)</title>
@@ -26,7 +26,7 @@
     <edition>2.0.0</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -37,7 +37,7 @@
     <cartographics>
       <scale>1:50000000</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 176&#xB0;9&#x2B9;51&#x2BA;--E 179&#xB0;12&#x2B9;14&#x2BA;/N 71&#xB0;1&#x2B9;42&#x2BA;--S 54&#xB0;16&#x2B9;28&#x2BA;)</coordinates>
+      <coordinates>(W 176°9ʹ51ʺ--E 179°12ʹ14ʺ/N 71°1ʹ42ʺ--S 54°16ʹ28ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile depicts tiny country points that can be used with country layers to communicate data that would otherwise be lost due to some countries not displaying well on thematic choropleth data maps. Scale rank is the smallest base unit where multipart polygons per each feature are broken apart and given individual scale ranks. These data are represented at 1:50,000,000 scale. This layer is part of the Natural Earth Collection (v.2.0.0).</abstract>
@@ -77,8 +77,17 @@
             <gml:upperCorner>179.203974 71.028249</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6295630/about.rdf" dc:language="eng" dc:title="Earth (Planet)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Natural earth</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qr604qw5282</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

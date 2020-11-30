@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Most Common Adult Distribution: Treefish, California, 2001</title>
@@ -23,7 +23,7 @@
     <edition>First</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -34,10 +34,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 122&#xB0;44&#x2B9;11&#x2BA;--W 116&#xB0;55&#x2B9;39&#x2BA;/N 37&#xB0;47&#x2B9;53&#x2BA;--N 32&#xB0;23&#x2B9;33&#x2BA;)</coordinates>
+      <coordinates>(W 122°44ʹ11ʺ--W 116°55ʹ39ʺ/N 37°47ʹ53ʺ--N 32°23ʹ33ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the most common distribution for adult Treefish (Sebastes serriceps). The process of creating this shapefile included creating contour lines, in 5-meter intervals, from bathymetry lines. Depth ranges were taken from four references (see Resource Details Supplemental Information). After the depth range between which this species is most common was determined, they were rounded to the closest 5-meter interval. The deepest and shallowest shapefile lines were connected by a line at the northern end and southern end (determined by their geographical range from north to south). This shapefile was then converted to polygon. The goal of this shapefile was to provide a range in which this species could occur, given that their habitat is present. </abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the most common distribution for adult Treefish (Sebastes serriceps). The process of creating this shapefile included creating contour lines, in 5-meter intervals, from bathymetry lines. Depth ranges were taken from four references (see Resource Details Supplemental Information). After the depth range between which this species is most common was determined, they were rounded to the closest 5-meter interval. The deepest and shallowest shapefile lines were connected by a line at the northern end and southern end (determined by their geographical range from north to south). This shapefile was then converted to polygon. The goal of this shapefile was to provide a range in which this species could occur, given that their habitat is present.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This coverage displays the geographic range of select Pacific Ocean fish species.</abstract>
   <note displayLabel="Preferred citation" lang="eng">California Department of Fish and Game. (2006). Most Common Adult Distribution: Treefish, California, 2001. Biogeographic Data Branch. Available at: http://purl.stanford.edu/dr766tm1274</note>
   <note displayLabel="Supplemental information">Converted to California Teale Albers NAD 83 by the California Department of Fish and Game, Marine GIS --BEGIN ORIGINAL METADATA - THIS INFORMATION MAY NOT BE CURRENT-- California Department of Fish and Game Marine Region GIS Metadata Shapefile Name: blkyl-rf-adco.shp Metadata File: blkyl-rf-adco.txt Metadata Date: April 19, 2001 Shapefile Description This shapefile contains the most common distribution for adults. The process of creating this shapefile included creating contour lines, in 5 meter intervals, from bathymetry lines. Depth ranges were taken from four references (see below). After the depth range between which this species is most common was determined, they were rounded to the closest 5 meter interval. The deepest and shallowest shapefile lines were connected by a line at the northern end and southern end (determined by their geographical range from north to south). This shapefile was then converted to polygon. The goal of this shapefile was to provide a range in which this species could occur, given that their habitat is present. References for North and South extent as well as depth ranges: Eschmeyer, W.N. and E.S. Herald. 1983. A field guide to Pacific coast fishes of North America. Houghton Mifflin Co., Boston, MA. 336 p. Love, M. 1996. Probably More Than You Want To Know About The Fishes Of The Pacific Coast. Really Big Press, Santa Barbara, California, 381 p. Love, M.S., L. Thorsteinson, C.W. Mecklenburg, and T.A. Mecklenburg. In Preparation (January 2000). A checklist of marine and estuarine fishes of the Northeast Pacific, from Alaska to Baja California. National Biological Service. Located at website http://id-www.ucsb.edu/lovelab/home.html Miller, D.J. and R.N. Lea. 1972. Guide to the coastal marine fishes of California. California Department of Fish and Game, Fish Bulletin 157, 249 p. Vital Statistics Datum: NAD27 Projection: Albers (standard Teale parameters) Units: Meters 1st Std. Parallel: 34 00 00 N 2nd Std. Parallel: 40 30 00 N False Easting: 0.0 False Northing: -4,000,000 Attributes Table Structure of blkyl-rf-adco.dbf Number of records: 13 Item Name Type Description Shape S point shape feature Area N calculated area for polygon Perimeter N calculated perimeter Hectares N hectares for polygon Name S common name for species Sci. Name S scientific name for species Range S common range for adults of this species depth range S gives the shallow and deep depths in meters north to south S gives the north and south extent for this species DFG Marine Region GIS Contacts Nancy Wright California Department of Fish and Game GIS Analyst Marine Region 20 Lower Ragsdale Drive Monterey, CA 93940 (831) 649-2942 nmwright@dfg.ca.gov GIS Technical Contact Colleena Perez California Department of Fish and Game Scientific Aid Marine Region 20 Lower Ragsdale Drive Monterey, CA 93940 (831) 649-7143 cperez@dfg.ca.gov --END ORIGINAL METADATA--</note>
@@ -78,7 +78,6 @@
   <location>
     <url>http://purl.stanford.edu/dr766tm1274</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:dr766tm1274</recordIdentifier>
@@ -98,9 +97,25 @@
             <gml:upperCorner>-117.127267 37.773012</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;44&#x2B9;2&#x2BA;--W 117&#xB0;7&#x2B9;38&#x2BA;/N 37&#xB0;46&#x2B9;23&#x2BA;--N 32&#xB0;25&#x2B9;32&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°44ʹ2ʺ--W 117°7ʹ38ʺ/N 37°46ʹ23ʺ--N 32°25ʹ32ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Fish and Wildlife GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/fb282pw3043</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

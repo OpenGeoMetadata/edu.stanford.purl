@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Afrique Meridionale (Raster Image)</title>
@@ -27,7 +27,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Raster Dataset</form>
@@ -37,12 +37,11 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 15&#xB0;53&#x2B9;49&#x2BA;--E 83&#xB0;17&#x2B9;58&#x2BA;/N 9&#xB0;25&#x2B9;29&#x2BA;--S 44&#xB0;19&#x2B9;14&#x2BA;)</coordinates>
+      <coordinates>(W 15°53ʹ49ʺ--E 83°17ʹ58ʺ/N 9°25ʹ29ʺ--S 44°19ʹ14ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced raster image of an historic regional map of Southern Africa originally created by Pierre Lapie in 1809. All map collar and inset information is also available as part of the raster image, including any inset maps, profiles, statistical tables, directories, text, illustrations, or other information associated with the principal map. This map was georeferenced by the Stanford University Geospatial Center using a Sinusoidal projection. This map is part of a selection of digitally scanned and georeferenced historic maps of Africa held at Stanford University Libraries.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">This historic paper map provides an historical perspective of the cultural and physical landscape during this time period. The wide range of information provided on these maps make them useful in the study of historic geography. As this map has been georeferenced, it also can be used as a background layer in conjunction with other GIS data.
-    </abstract>
+  <abstract displayLabel="Purpose" lang="eng">This historic paper map provides an historical perspective of the cultural and physical landscape during this time period. The wide range of information provided on these maps make them useful in the study of historic geography. As this map has been georeferenced, it also can be used as a background layer in conjunction with other GIS data.</abstract>
   <note displayLabel="Attribute accuracy report" lang="eng">The horizontal positional accuracy of a raster image is approximately the same as the accuracy of the published source map. The lack of a greater accuracy is largely the result of the inaccuracies with the original measurements and possible distortions in the original paper map document.  There may also be errors introduced during the digitizing and georeferencing process.  In most cases, however, errors in the raster image are small compared with sources of error in the original map graphic.  The RMS error for this map is 1309.79 meters. This value describes how consistent the transformation is between the different control points (links).  The RMS error is only an assessment of the accuracy of the transformation.</note>
   <note displayLabel="Preferred citation" lang="eng">Stanford Geospatial Center. (2013). Afrique Meridionale (Raster Image). Stanford Digital Repository. Available at: http://purl.stanford.edu/tz862pt4955.</note>
   <note displayLabel="Supplemental information">For more information about Stanford's Maps of Africa Collection, see here: https://exhibits.stanford.edu/maps-of-africa.</note>
@@ -70,6 +69,14 @@
   <location>
     <url>http://purl.stanford.edu/tz862pt4955</url>
   </location>
+  <relatedItem type="otherFormat" displayLabel="Original map in SearchWorks">
+    <titleInfo>
+      <title>Afrique Meridionale</title>
+    </titleInfo>
+    <location>
+      <url>https://searchworks.stanford.edu/view/12113438</url>
+    </location>
+  </relatedItem>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:tz862pt4955</recordIdentifier>
@@ -89,8 +96,26 @@
             <gml:upperCorner>83.301768 9.4248165</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Africa, Southern"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 15&#xB0;53&#x2B9;49&#x2BA;--E 83&#xB0;18&#x2B9;6&#x2BA;/N 9&#xB0;25&#x2B9;29&#x2BA;--S 44&#xB0;19&#x2B9;6&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 15°53ʹ49ʺ--E 83°18ʹ6ʺ/N 9°25ʹ29ʺ--S 44°19ʹ6ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Georeferenced maps of Africa</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/jz110cf1395</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This work is in the public domain. There are no restrictions on use.</accessCondition>
+  <accessCondition type="license">CC pdm: Public Domain Mark 1.0</accessCondition>
+</mods>

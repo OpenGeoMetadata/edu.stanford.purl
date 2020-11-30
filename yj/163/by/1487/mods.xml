@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>World Land Boundaries, 1:50 million (2012)</title>
   </titleInfo>
@@ -26,7 +26,7 @@
     <edition>2.0.0</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -37,7 +37,7 @@
     <cartographics>
       <scale>1:50000000</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 141&#xB0;8&#x2BA;--E 145&#xB0;56&#x2B9;25&#x2BA;/N 70&#xB0;3&#x2B9;53&#x2BA;--S 55&#xB0;6&#x2B9;50&#x2BA;)</coordinates>
+      <coordinates>(W 141°8ʺ--E 145°56ʹ25ʺ/N 70°3ʹ53ʺ--S 55°6ʹ50ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile contains international, disputed, indeterminate, and control line boundaries on land and offshore worldwide, including 200-mile nautical limits. Limited attributes in terms of type of boundary: disputed, treaty, and media lines. Disputed area data was derived from the The United States Central Intelligence Agency's World Factbook boundary database, but not every disputed or undefined boundary listed in the World Factbook boundary database is reflected in the main admin-0 boundaries attributes. Care should be taken with regard to undefined or disputed boundaries when attributing to reflect if the dispute is active or not. These data are represented at 1:50,000,000 scale. This layer is part of the Natural Earth Collection (v.2.0.0).</abstract>
@@ -80,8 +80,17 @@
             <gml:upperCorner>145.940167 70.064819</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6295630/about.rdf" dc:language="eng" dc:title="Earth (Planet)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Natural earth</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qr604qw5282</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

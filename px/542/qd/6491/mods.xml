@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Young of the Year Distribution: Canary Rockfish, California, 2001</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2001</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 124&#xB0;30&#x2B9;13&#x2BA;--W 116&#xB0;52&#x2B9;26&#x2BA;/N 42&#xB0;1&#x2B9;36&#x2BA;--N 32&#xB0;37&#x2B9;41&#x2BA;)</coordinates>
+      <coordinates>(W 124°30ʹ13ʺ--W 116°52ʹ26ʺ/N 42°1ʹ36ʺ--N 32°37ʹ41ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polyline shapefile depicts distribution for Young of the Year (YOY) Canary Rockfish (Sebastes pinniger), those fish born within the past year which have not yet reached one year of age. The process of creating this shapefile included creating contour lines, in 5-meter intervals, from bathymetry lines. Depth ranges were taken from four different references (see Resource Details Supplemental Information). After the depth range between which this species is most common was determined, they were rounded to the closest 5-meter interval.The deepest and shallowest shapefile lines were connected by a line at the northern end and southern end (determined by their geographical range from north to south). This shapefile was then converted to polygon. The goal of this shapefile was to provide a range in which this species could occur, given that their habitat is present.</abstract>
@@ -74,7 +74,6 @@
   <location>
     <url>http://purl.stanford.edu/px542qd6491</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:px542qd6491</recordIdentifier>
@@ -94,9 +93,25 @@
             <gml:upperCorner>-117.23711 41.956666</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;24&#x2B9;35&#x2BA;--W 117&#xB0;14&#x2B9;14&#x2BA;/N 41&#xB0;57&#x2B9;24&#x2BA;--N 32&#xB0;39&#x2B9;54&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 124°24ʹ35ʺ--W 117°14ʹ14ʺ/N 41°57ʹ24ʺ--N 32°39ʹ54ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Fish and Wildlife GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/fb282pw3043</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

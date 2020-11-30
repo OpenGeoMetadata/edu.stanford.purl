@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>World Bathymetry, -8000 Meter Depths, 1:10 million (2012)</title>
@@ -26,7 +26,7 @@
     <edition>2.0.0</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -37,7 +37,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 178&#xB0;9&#x2B9;20&#x2BA;--E 157&#xB0;19&#x2B9;21&#x2BA;/N 48&#xB0;51&#x2B9;4&#x2BA;--S 34&#xB0;4&#x2B9;48&#x2BA;)</coordinates>
+      <coordinates>(W 178°9ʹ20ʺ--E 157°19ʹ21ʺ/N 48°51ʹ4ʺ--S 34°4ʹ48ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This shapefile represents batymetric polygons at -8000 meters depth. These data were created from created from SRTM Plus. Isobaths surrounding islands, seamounts, and near other steep slopes received considerable manual generalization to improve legibility. This layer is part of the Natural Earth Collection (v.2.0.0).</abstract>
@@ -61,7 +61,6 @@
   <location>
     <url>http://purl.stanford.edu/nd818rw9081</url>
   </location>
-  <accessCondition type="useAndReproduction">All versions of Natural Earth raster and vector map data are in the public domain. </accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:nd818rw9081</recordIdentifier>
@@ -81,8 +80,17 @@
             <gml:upperCorner>157.32252 48.851081</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6295630/about.rdf" dc:language="eng" dc:title="Earth (Planet)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Natural earth</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qr604qw5282</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

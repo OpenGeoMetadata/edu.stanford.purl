@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Power Plant Entrainment (Polygons): Southern California, 2008</title>
   </titleInfo>
@@ -19,7 +19,7 @@
     <edition>First</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -30,7 +30,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 119&#xB0;15&#x2B9;53&#x2BA;--W 117&#xB0;2&#x2B9;10&#x2BA;/N 34&#xB0;12&#x2B9;25&#x2BA;--N 32&#xB0;35&#x2B9;16&#x2BA;)</coordinates>
+      <coordinates>(W 119°15ʹ53ʺ--W 117°2ʹ10ʺ/N 34°12ʹ25ʺ--N 32°35ʹ16ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts the estimated extent of power plant entrainment in the Southern California Bight. Included in the attributes is scale range of larvae entrained per year. The attributes also include the offshore distance and the alongshore distance that is affected by entrainment. The entrainment area calculations are based on several assumptions, including (1) that alongshore extent is 5-times cross-shore extent, (2) bottom depth slopes linearly to about 10m at the outer edge of this entrained volume, and (3) the entrainment area appears on both sides of the intake as currents may run in one direction or the other. Where the intake is in an enclosed bay, this area extends beyond the bay when the bay holds less volume than that pumped in a 10-day period (e.g., Alamitos Bay), or is confined to the bay where the bay is large enough (e.g., San Diego Bay). This is a simplified approach and a more detailed assessment should be developed for any specific site that may interact with nearby marine protected areas. The reference used to create this shapefile: Foster, M., Steinbeck, J. 2008. Compilation of California coastal power plant entrainment and impingement estimates for California State Water Resources Control Board staff draft issue paper on once-through cooling. California State Water Resources Control Board.</abstract>
@@ -73,7 +73,6 @@
   <location>
     <url>http://purl.stanford.edu/yt699ry4370</url>
   </location>
-  <accessCondition type="useAndReproduction">No restrictions on access or use. Please cite the authors when possible.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:yt699ry4370</recordIdentifier>
@@ -93,9 +92,25 @@
             <gml:upperCorner>-117.093337 34.207001</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 119&#xB0;15&#x2B9;--W 117&#xB0;5&#x2B9;36&#x2BA;/N 34&#xB0;12&#x2B9;25&#x2BA;--N 32&#xB0;35&#x2B9;17&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 119°15ʹ--W 117°5ʹ36ʺ/N 34°12ʹ25ʺ--N 32°35ʹ17ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Fish and Wildlife GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/fb282pw3043</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

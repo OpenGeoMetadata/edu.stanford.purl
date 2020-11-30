@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Kelp Canopy: California, 1999</title>
@@ -23,7 +23,7 @@
     <edition>First</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -34,11 +34,11 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 124&#xB0;23&#x2B9;55&#x2BA;--W 116&#xB0;49&#x2B9;50&#x2BA;/N 40&#xB0;28&#x2B9;30&#x2BA;--N 32&#xB0;31&#x2B9;21&#x2BA;)</coordinates>
+      <coordinates>(W 124°23ʹ55ʺ--W 116°49ʹ50ʺ/N 40°28ʹ30ʺ--N 32°31ʹ21ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts kelp beds along the California coast, which are a critical habitat for many important sport and commercial species of invertebrates and fishes. Kelp is also harvested by commercial and sport concerns. Until now, kelp bed area figures used in harvest regulatory processes by the State of California have been based upon hardcopy maps created from 1989 aerial photography, displaying hand drawn delineated features of the kelp canopy. The Fall 1999 project digitally remeasured the 1989 kelp maps and established new digital methods to calculate the area of the 1999 kelp canopy based on aerial, color-infrared photographs. The objective was to create a baseline that could be used to assess the effects of current and future use of coastal kelp. File reindexed to match California Department of Fish and Wildlife administrative kelp bed boundaries modified by changes to California Code of Regulations, Title 14, Section 165, effective April 1, 2014.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">The State of California Fish and Game Commission established and mapped kelp bed boundaries for the purpose of administering kelp harvest leases and harvest regulations (Title 14, California Code of Regulations, Section 165.5). The purpose of this coverage is to provide an easy-to-use, state-wide GIS shapefile for graphic presentation. This dataset was not intended for use in determining linear or areal dimensions of kelp distribution or for areal comparison with other kelp datasets. </abstract>
+  <abstract displayLabel="Purpose" lang="eng">The State of California Fish and Game Commission established and mapped kelp bed boundaries for the purpose of administering kelp harvest leases and harvest regulations (Title 14, California Code of Regulations, Section 165.5). The purpose of this coverage is to provide an easy-to-use, state-wide GIS shapefile for graphic presentation. This dataset was not intended for use in determining linear or areal dimensions of kelp distribution or for areal comparison with other kelp datasets.</abstract>
   <note displayLabel="Preferred citation" lang="eng">California Department of Fish and Wildlife Marine Resources Region. (2000). Kelp Canopy: California, 1999. California Department of Fish and Wildlife. Marine Resources Region. Available at: http://purl.stanford.edu/wn780ng0200.</note>
   <note displayLabel="Supplemental information">This data was revised on 09-29-09. The revisions resulted in the removal of polygon overlap which increased overall kelp area 0.71 sq. mi. The overlap involved the following administrative beds: 218 (0.000229 sq. mi.), bed 305 (0.714568 sq. mi.), and bed 306 (0.000088 sq. mi.). In addition, the data was intersected with the administrative kelp beds. DISCLAIMER The user is cautioned against making direct comparisons between the various kelp surveys for the following reasons: 1) Timing of the survey is important, particularly with respect to growing season conditions in the ocean, storms and harvest levels preceding the dates of survey photography, tidal changes, and water clarity. Seasonal variability may account for differences in surveys, which may not reflect a change in the bed's extent, productivity, or harvest level. 2) Statistical significance in change of area should be evaluated. To do this, a variance parameter is needed, which is obtained by repeated measurements. Most of the coastline, however, has been surveyed only on five occasions (1967, 1989, 1999, 2002, 2003). 3) Survey methods have not been/may not be consistent. Some method of calibration between the methods needs to be performed in order to insure a change of area is not due to survey instrumentation, and not misinterpreted as a biological change. 4) An area where apparently no kelp data are present may truly represent an area devoid of kelp, or may represent an area where kelp was not detected due to poor photo quality, missing photo coverage, or other issues with data collection and processing. Photo coverage is extensive for the state, but the user is advised to consult the photo index for each year to determine whether photographs were acquired for an area of interest. This shapefile is the product of a multi-step process of converting aerial photographs in various formats to digital .jpg files by scanning them. The scanned images were then georeferenced and classified using an unsupervised classification algorithm. Classified images (water, low density/submerged kelp, medium density kelp, high density kelp) were converted to ArcInfo Grids, and then to an ESRI shapefile. Linear or areal extent of kelp was and should be derived from the original classified images ONLY.</note>
   <note displayLabel="Use limitation">These are public data. The Department of Fish and Wildlife must be credited with the collection, analysis and distribution of these data.</note>
@@ -81,9 +81,6 @@
   <location>
     <url>http://purl.stanford.edu/wn780ng0200</url>
   </location>
-  <accessCondition type="useAndReproduction">Access constraints: This is public data.</accessCondition>
-  <accessCondition type="useAndReproduction">Use constraints: This is public data. Please cite California Department of Fish and Game if this GIS data is used or included in developed products.</accessCondition>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:wn780ng0200</recordIdentifier>
@@ -103,9 +100,25 @@
             <gml:upperCorner>-117.14139 40.397055</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;23&#x2B9;54&#x2BA;--W 117&#xB0;8&#x2B9;29&#x2BA;/N 40&#xB0;23&#x2B9;49&#x2BA;--N 32&#xB0;33&#x2B9;24&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 124°23ʹ54ʺ--W 117°8ʹ29ʺ/N 40°23ʹ49ʺ--N 32°33ʹ24ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Fish and Wildlife GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/fb282pw3043</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

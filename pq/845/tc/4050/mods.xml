@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>State Roads: China, 2010</title>
@@ -29,7 +29,7 @@
     <edition>v.1</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -40,10 +40,10 @@
     <cartographics>
       <scale>1:1000000</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(E 74&#xB0;54&#x2B9;32&#x2BA;--E 132&#xB0;31&#x2B9;26&#x2BA;/N 50&#xB0;34&#x2B9;25&#x2BA;--N 18&#xB0;11&#x2B9;26&#x2BA;)</coordinates>
+      <coordinates>(E 74°54ʹ32ʺ--E 132°31ʹ26ʺ/N 50°34ʹ25ʺ--N 18°11ʹ26ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This line shapefile depicts state roads in China for 2010. This layer is part of the 2010 China Province Population Census Dataset. The data is based on the national digital map (1:1 million) developed by the National Geographic Information Center of China (NGCC), including rives, roads, residential area and administrative boundaries. </abstract>
+  <abstract displayLabel="Abstract" lang="eng">This line shapefile depicts state roads in China for 2010. This layer is part of the 2010 China Province Population Census Dataset. The data is based on the national digital map (1:1 million) developed by the National Geographic Information Center of China (NGCC), including rives, roads, residential area and administrative boundaries.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
   <note displayLabel="Preferred citation" lang="eng">China Data Center. University of Michigan. (2010). State Roads: China, 2010. Copyright by All China Marketing Research Co., Ltd.
  Available at: http://purl.stanford.edu/pq845tc4050</note>
@@ -81,8 +81,17 @@
             <gml:upperCorner>132.523884 50.573662</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1814991/about.rdf" dc:language="eng" dc:title="China"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>2010 China province population census data with GIS maps</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/nz187ct8959</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
 </mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Census Feature Lines: Santa Clara County, California, 2011</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2011</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 122&#xB0;12&#x2B9;10&#x2BA;--W 121&#xB0;12&#x2B9;29&#x2BA;/N 37&#xB0;29&#x2B9;5&#x2BA;--N 36&#xB0;53&#x2B9;35&#x2BA;)</coordinates>
+      <coordinates>(W 122°12ʹ10ʺ--W 121°12ʹ29ʺ/N 37°29ʹ5ʺ--N 36°53ʹ35ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polyline shapefile depicts centerlines for an extract of selected geographic and cartographic information, including water, railroad and road features, for the County of Santa Clara, California from the United States Census Bureau Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB) for 2011. The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line File is designed to stand alone as an independent data set, or they can be combined to cover the entire nation. Edge refers to the linear topological primitives that make up MTDB. This "All Lines" shapefile contains linear features such as roads, railroads, and hydrography. Additional attribute data associated with the linear features found in the "All Lines" shapefile are available in relational (.dbf) files that users must download separately. The "All Lines" shapefile contains the geometry and attributes of each topological primitive edge. Each edge has a unique TIGER/Line identifier (TLID) value. This layer is part of a collection of GIS data for Santa Clara County, California.</abstract>
@@ -102,8 +102,25 @@
             <gml:upperCorner>-121.208178 37.484637</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5393021/" dc:language="eng" dc:title="Santa Clara County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;12&#x2B9;10&#x2BA;--W 121&#xB0;12&#x2B9;29&#x2BA;/N 37&#xB0;29&#x2B9;5&#x2BA;--N 36&#xB0;53&#x2B9;35&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°12ʹ10ʺ--W 121°12ʹ29ʺ/N 37°29ʹ5ʺ--N 36°53ʹ35ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Santa Clara County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zr514ds1803</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>California Cowcod Conservation Areas, 2003</title>
@@ -18,7 +18,7 @@
     <dateValid encoding="w3cdtf">2003</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -29,7 +29,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 119&#xB0;53&#x2B9;15&#x2BA;--W 117&#xB0;48&#x2B9;14&#x2BA;/N 33&#xB0;50&#x2B9;20&#x2BA;--N 32&#xB0;18&#x2B9;47&#x2BA;)</coordinates>
+      <coordinates>(W 119°53ʹ15ʺ--W 117°48ʹ14ʺ/N 33°50ʹ20ʺ--N 32°18ʹ47ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts the Cowcod management boundaries based on California Code Title 14, section 150.06. This Conservation Area is part of the South Coast Study Region (SCSR). This Conservation Area was designated in 2001 after cowcod were declared overfished.</abstract>
@@ -75,8 +75,6 @@
   <location>
     <url>http://purl.stanford.edu/kv299cy7357</url>
   </location>
-  <accessCondition type="useAndReproduction">No restrictions on access or use. Please cite the authors when possible.</accessCondition>
-  <accessCondition type="useAndReproduction">No restrictions on access or use. Please cite the authors when possible.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:kv299cy7357</recordIdentifier>
@@ -96,9 +94,25 @@
             <gml:upperCorner>-117.834308 33.833339</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 119&#xB0;53&#x2B9;9&#x2BA;--W 117&#xB0;50&#x2B9;4&#x2BA;/N 33&#xB0;50&#x2B9;--N 32&#xB0;20&#x2B9;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 119°53ʹ9ʺ--W 117°50ʹ4ʺ/N 33°50ʹ--N 32°20ʹ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Fish and Wildlife GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/fb282pw3043</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

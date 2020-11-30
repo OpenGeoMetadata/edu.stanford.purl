@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Roads, Albania, 2016</title>
@@ -21,14 +21,11 @@
   <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
   <originInfo>
     <publisher>International Steering Committee for Global Mapping</publisher>
-    <place>
-      <placeTerm type="text"/>
-    </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
     <edition>2</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -39,7 +36,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 19&#xB0;17&#x2B9;23&#x2BA;--E 21&#xB0;3&#x2B9;22&#x2BA;/N 42&#xB0;35&#x2B9;46&#x2BA;--N 39&#xB0;39&#x2B9;8&#x2BA;)</coordinates>
+      <coordinates>(E 19°17ʹ23ʺ--E 21°3ʹ22ʺ/N 42°35ʹ46ʺ--N 39°39ʹ8ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile represents roads in  Albania. The Global Map Albania version 2 was developed based on Global Map Specifications version 2.2. The source data of vector layers were a Digital Map 1:25000 and Orthophoto, map image made in 1985 and orthophoto made in 2008. The data source of Elevation layer was developed using orthophoto 2000 year. The data source of Land Use and Vegetation layer were developed using orthophoto 2012 year. IRS, SPOT and RapidEye satellite images, dual coverage, orthophotos (2012), topographic maps for making Land Cover.</abstract>
@@ -61,7 +58,6 @@
   <location>
     <url>http://purl.stanford.edu/gb659rz4703</url>
   </location>
-  <accessCondition type="useAndReproduction">For non-commercial use, in principle, anyone can use the data free of charge. As the data of National/Regional version were developed by NGIAs of respective countries and regions, and there may be parts which have not been developed depending on countries and regions. In using the data, please check respective data policies because different countries and regions have different data policies.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:gb659rz4703</recordIdentifier>
@@ -81,8 +77,25 @@
             <gml:upperCorner>21.055985 42.596204</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Albania"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 19&#xB0;17&#x2B9;23&#x2BA;--E 21&#xB0;3&#x2B9;22&#x2BA;/N 42&#xB0;35&#x2B9;46&#x2BA;--N 39&#xB0;39&#x2B9;8&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 19°17ʹ23ʺ--E 21°3ʹ22ʺ/N 42°35ʹ46ʺ--N 39°39ʹ8ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Global Map</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/kb168tn2424</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This dataset is freely available for academic use and other non-commercial use. Redistribution, or commercial use is not allowed without prior permission. You are free to create maps and use the data in other ways for publication in academic journals, books, reports, etc.</accessCondition>
+</mods>

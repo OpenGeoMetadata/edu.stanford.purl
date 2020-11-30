@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>World Roads, 1:10 million (2012)</title>
@@ -25,7 +25,7 @@
     <edition>2.0.0</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -36,7 +36,7 @@
     <cartographics>
       <scale>1:10000000</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 166&#xB0;31&#x2B9;57&#x2BA;--E 178&#xB0;22&#x2B9;20&#x2BA;/N 71&#xB0;10&#x2B9;40&#x2BA;--S 55&#xB0;6&#x2B9;44&#x2BA;)</coordinates>
+      <coordinates>(W 166°31ʹ57ʺ--E 178°22ʹ20ʺ/N 71°10ʹ40ʺ--S 55°6ʹ44ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polyline shapefile represents roads worldwide. The data was derived from a database at 1:1,000,000 scale (but holds up to 1:250,000 scale), covering all of the United States and Canada, Alaska, Hawaii, Puerto Rico, Mexico, and Belize. These data are represented at 1:10,000,000 scale. This layer is part of the Natural Earth Collection (v.2.0.0).</abstract>
@@ -57,7 +57,6 @@
   <location>
     <url>http://purl.stanford.edu/vs175mk0273</url>
   </location>
-  <accessCondition type="useAndReproduction">All versions of Natural Earth raster and vector map data are in the public domain. </accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:vs175mk0273</recordIdentifier>
@@ -77,8 +76,17 @@
             <gml:upperCorner>178.372108 71.177684</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Earth  (Planet)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Natural earth</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qr604qw5282</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

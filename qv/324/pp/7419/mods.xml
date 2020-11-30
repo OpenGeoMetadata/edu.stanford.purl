@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Interstate Passenger Rail Stations, California, 2013</title>
   </titleInfo>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,10 +32,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 122&#xB0;23&#x2B9;34&#x2BA;--W 114&#xB0;36&#x2B9;23&#x2BA;/N 41&#xB0;12&#x2B9;45&#x2BA;--N 33&#xB0;52&#x2B9;7&#x2BA;)</coordinates>
+      <coordinates>(W -122.392893--W -114.60644/N 41.212453--N 33.868688)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This line shapefile represents interstate long-distance passenger rail routes in California. This layer includes four Amtrak routes California: California Zephyr (Emeryville &#x2013; Sacramento &#x2013; Reno &#x2013; Denver &#x2013; Chicago), Coast Starlight (Los Angeles &#x2013; Oakland &#x2013; Sacramento &#x2013; Portland &#x2013; Seattle), Sunset Limited (Los Angeles-San Antonio-New Orleans), and Southwest Chief (Los Angeles &#x2013; Albuquerque &#x2013; Kansas City &#x2013; Chicago). ). This layer is part of a collection of GIS data created by the California Department of Transportation (Caltrans).</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This line shapefile represents interstate long-distance passenger rail routes in California. This layer includes four Amtrak routes California: California Zephyr (Emeryville – Sacramento – Reno – Denver – Chicago), Coast Starlight (Los Angeles – Oakland – Sacramento – Portland – Seattle), Sunset Limited (Los Angeles-San Antonio-New Orleans), and Southwest Chief (Los Angeles – Albuquerque – Kansas City – Chicago). ). This layer is part of a collection of GIS data created by the California Department of Transportation (Caltrans).</abstract>
   <abstract displayLabel="Purpose" lang="eng">This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
   <note displayLabel="Preferred citation" lang="eng">California Department of Transportation. (2013). Interstate Passenger Rail Stations, California, 2013. California Department of Transportation. Available at http://purl.stanford.edu/qv324pp7419.</note>
   <note displayLabel="Supplemental information">If need more information about California existing passenger rail system, please refer to 2013 California State Rail Plan, California Department of Transportation, May 2013 at http://californiastaterailplan.dot.ca.gov/docs/Final_Copy_2013_CSRP.pdf</note>
@@ -83,8 +83,27 @@
             <gml:upperCorner>-114.60644 41.212453</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;23&#x2B9;34&#x2BA;--W 114&#xB0;36&#x2B9;23&#x2BA;/N 41&#xB0;12&#x2B9;45&#x2BA;--N 33&#xB0;52&#x2B9;7&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>(W -122.392893--W -114.60644/N 41.212453--N 33.868688)</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Transportation GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sb381ch4421</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. http://www.gnu.org/licenses.</accessCondition>
+</mods>

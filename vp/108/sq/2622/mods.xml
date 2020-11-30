@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Vernal Pools Study Area: Central Valley, California, 1998</title>
@@ -33,7 +33,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">1998</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -44,7 +44,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 123&#xB0;22&#x2B9;33&#x2BA;--W 118&#xB0;5&#x2B9;30&#x2BA;/N 41&#xB0;15&#x2B9;55&#x2BA;--N 34&#xB0;50&#x2B9;10&#x2BA;)</coordinates>
+      <coordinates>(W 123°22ʹ33ʺ--W 118°5ʹ30ʺ/N 41°15ʹ55ʺ--N 34°50ʹ10ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile is believed to represent a boundary used for mapping vernal pool complexes in a study by Dr. Robert F. Holland (reference the mapped vernal pool complexes dataset named "usfwsvp2" for related information).True color aerial slides from the Deptartment of Water Resources were interpreted, and vernal pool complexes were identified. Complexes more than 40 acres in size were then digitized as polygons and given a density rating (see Resource Fields for attribute definitions). This layer was created to help biologists and resource planners make informed decisions in their recovery and planning efforts. It depicts vernal pool complexes, not individual vernal pools. Since the minimum mapping unit of the coverage is 40 acres, it may not provide the level of detail required for larger scale (smaller area, more site-specific) conservation planning.</abstract>
@@ -74,7 +74,6 @@
   <location>
     <url>http://purl.stanford.edu/vp108sq2622</url>
   </location>
-  <accessCondition type="useAndReproduction">No restrictions on access or use. Please cite the authors when possible.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:vp108sq2622</recordIdentifier>
@@ -94,8 +93,25 @@
             <gml:upperCorner>-118.247735 41.249391</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Central Valley (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 123&#xB0;15&#x2B9;7&#x2BA;--W 118&#xB0;14&#x2B9;52&#x2BA;/N 41&#xB0;14&#x2B9;58&#x2BA;--N 34&#xB0;52&#x2B9;25&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 123°15ʹ7ʺ--W 118°14ʹ52ʺ/N 41°14ʹ58ʺ--N 34°52ʹ25ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Fish and Wildlife GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/fb282pw3043</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

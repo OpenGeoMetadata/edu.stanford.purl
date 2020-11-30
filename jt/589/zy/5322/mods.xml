@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Democratic Republic of the Congo - Protected Areas (2016)</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,11 +32,11 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 12&#xB0;13&#x2B9;14&#x2BA;--E 30&#xB0;12&#x2B9;17&#x2BA;/N 5&#xB0;23&#x2B9;18&#x2BA;--S 11&#xB0;11&#x2B9;56&#x2BA;)</coordinates>
+      <coordinates>(E 12°13ʹ14ʺ--E 30°12ʹ17ʺ/N 5°23ʹ18ʺ--S 11°11ʹ56ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">The data includes the protected areas national parks, World Heritage Site, reserves in DRC. The World Database on Protected Areas (WDPA) is a joint project between the United Nations Environment Programme (UNEP) and the International Union for Conservation of Nature (IUCN), managed by United Nations Environment Programme's World Conservation Monitoring Centre (UNEP-WCMC).</abstract>
-  <abstract displayLabel="Purpose" lang="eng"> The World Bank and the International Finance Corporation, collectively the World Bank Group (WBG) strives to enhance public access to and use of data that can support development impact.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">The World Bank and the International Finance Corporation, collectively the World Bank Group (WBG) strives to enhance public access to and use of data that can support development impact.</abstract>
   <note displayLabel="Preferred citation" lang="eng">World Bank Group. (2016). Democratic Republic of the Congo - Protected Areas (2016) World Bank Group. Available at: http://purl.stanford.edu/jt589zy5322</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Protected areas</topic>
@@ -53,7 +53,6 @@
   <location>
     <url>http://purl.stanford.edu/jt589zy5322</url>
   </location>
-  <accessCondition type="useAndReproduction">CC-BY-SA 4.0. This material may be shared or adapted provided appropriate credit is given to the originator, and the same license is used.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:jt589zy5322</recordIdentifier>
@@ -73,8 +72,24 @@
             <gml:upperCorner>30.20467 5.388336</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Congo (Democratic Congo (Brazzaville))"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 12&#xB0;13&#x2B9;14&#x2BA;--E 30&#xB0;12&#x2B9;17&#x2BA;/N 5&#xB0;23&#x2B9;18&#x2BA;--S 11&#xB0;11&#x2B9;56&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 12°13ʹ14ʺ--E 30°12ʹ17ʺ/N 5°23ʹ18ʺ--S 11°11ʹ56ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>World Bank GIS Datasets</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/kn717qc3056</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+</mods>

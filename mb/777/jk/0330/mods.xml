@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Census Water Bodies, 2000 - San Francisco Bay Area, California</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2000</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 123&#xB0;38&#x2B9;4&#x2BA;--W 121&#xB0;12&#x2B9;45&#x2BA;/N 38&#xB0;51&#x2B9;2&#x2BA;--N 36&#xB0;55&#x2B9;5&#x2BA;)</coordinates>
+      <coordinates>(W 123°38ʹ4ʺ--W 121°12ʹ45ʺ/N 38°51ʹ2ʺ--N 36°55ʹ5ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile displays water bodies in the San Francisco Bay area of California. This category includes lakes, ponds, bays, rivers, reservoirs and other water features. Predominant features represented in this layer have Census Feature Class Codes (CFCCs) of: H01 (Shoreline of perennial water feature); H11 (Perennial stream or river); H12 (Intermittent stream, river, or wash); H21 (Perennial canal, ditch, or aqueduct); H31 (Perennial lake or pond); H41 (Perennial reservoir); H51 (Bay, estuary, gulf, or sound). The Feature Name attribute further identifies water bodies as rivers, creeks, branches, forks, etc. MTC derived these data from the Census 2000 California Waterbodies dataset. This layer is part of the Bay Area Metropolitan Transportation Commission (MTC) GIS Maps and Data collection.</abstract>
@@ -96,7 +96,6 @@
   <location>
     <url>http://purl.stanford.edu/mb777jk0330</url>
   </location>
-  <accessCondition type="useAndReproduction">No restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:mb777jk0330</recordIdentifier>
@@ -116,17 +115,25 @@
             <gml:upperCorner>-121.253061 38.850587</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="San Francisco Bay Area (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5391959/" dc:language="eng" dc:title="San Francisco (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5339268/" dc:language="eng" dc:title="Contra Costa County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5376101/" dc:language="eng" dc:title="Napa County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5392427/" dc:language="eng" dc:title="San Mateo County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5392427/" dc:language="eng" dc:title="San Mateo County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5396987/" dc:language="eng" dc:title="Solano County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5397100/" dc:language="eng" dc:title="Sonoma County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5370468/" dc:language="eng" dc:title="Marin County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5322745/" dc:language="eng" dc:title="Alameda County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 123&#xB0;38&#x2B9;1&#x2BA;--W 121&#xB0;15&#x2B9;11&#x2BA;/N 38&#xB0;51&#x2B9;2&#x2BA;--N 36&#xB0;55&#x2B9;20&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 123°38ʹ1ʺ--W 121°15ʹ11ʺ/N 38°51ʹ2ʺ--N 36°55ʹ20ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Metropolitan Transportation Commission GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/bq589tv8583</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

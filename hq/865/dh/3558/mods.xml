@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Interstate Passenger Rail Routes, Calfornia, 2013</title>
   </titleInfo>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,11 +32,11 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 124&#xB0;18&#x2B9;28&#x2BA;--W 113&#xB0;39&#x2B9;27&#x2BA;/N 42&#xB0;6&#x2B9;11&#x2BA;--N 32&#xB0;26&#x2B9;32&#x2BA;)</coordinates>
-      <coordinates>(W 122&#xB0;26&#x2B9;22&#x2BA;--W 114&#xB0;36&#x2B9;19&#x2BA;/N 42&#xB0;2&#x2B9;20&#x2BA;--N 32&#xB0;43&#x2B9;41&#x2BA;)</coordinates>
+      <coordinates>(W -122.439487--W -114.60537/N 42.038808--N 32.72805)</coordinates>
+      <coordinates>(W -122.439487--W -114.60537/N 42.038808--N 32.72805)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This line shapefile represents interstate routes in California existing intercity passenger rail system. Intercity passenger rail services provide transportation between metropolitan areas, to rural areas of California, and to points beyond California&#x2019;s borders. California&#x2019;s intercity rail services can be divided into two groups: 1) state-supported routes, which are funded by the State and serve California travel markets; and 2) Amtrak long-distance routes, which are funded by Amtrak and serve California and interstate markets. This feature class includes four Amtrak long-distance intercity passenger rail routes in California: California Zephyr (Emeryville &#x2013; Sacramento &#x2013; Reno &#x2013; Denver &#x2013; Chicago), Coast Starlight (Los Angeles &#x2013; Oakland &#x2013; Sacramento &#x2013; Portland &#x2013; Seattle), Sunset Limited (Los Angeles-San Antonio-New Orleans), and Southwest Chief (Los Angeles &#x2013; Albuquerque &#x2013; Kansas City &#x2013; Chicago). ). This layer is part of a collection of GIS data created by the California Department of Transportation (Caltrans).</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This line shapefile represents interstate routes in California existing intercity passenger rail system. Intercity passenger rail services provide transportation between metropolitan areas, to rural areas of California, and to points beyond California’s borders. California’s intercity rail services can be divided into two groups: 1) state-supported routes, which are funded by the State and serve California travel markets; and 2) Amtrak long-distance routes, which are funded by Amtrak and serve California and interstate markets. This feature class includes four Amtrak long-distance intercity passenger rail routes in California: California Zephyr (Emeryville – Sacramento – Reno – Denver – Chicago), Coast Starlight (Los Angeles – Oakland – Sacramento – Portland – Seattle), Sunset Limited (Los Angeles-San Antonio-New Orleans), and Southwest Chief (Los Angeles – Albuquerque – Kansas City – Chicago). ). This layer is part of a collection of GIS data created by the California Department of Transportation (Caltrans).</abstract>
   <note displayLabel="Preferred citation" lang="eng">California Department of Transportation. (2013). Interstate Passenger Rail Routes, Calfornia, 2013. California Department of Transportation. Available at http://purl.stanford.edu/hq865dh3558.</note>
   <note displayLabel="Use limitation">This is Category I data. Category I data are public domain and available to share with Caltrans partners. Caltrans makes no representation about the suitability, reliability, availability, timeliness, or accuracy of its GIS data for any purpose. The GIS data and information are provided "as is" without warranty of any kind. Use of the data should be limited to informational and preliminary study purposes only. Caltrans shall not be held liable by users of the data, or by any other party, for any loss or damages, consequential or otherwise, including but not limited to time, money, or goodwill, arising from the use, operation or modification of the data. For planning purposes only. The Rail Database is intended for high level planning purposes and is a point in time reporting of estimated current conditions and forecast of future conditions. While every effort has been made to ensure accuracy of reported data, the Database is not intended for detailed service or facility planning. Such planning requires in-depth site analysis and field confirmation of actual conditions.</note>
   <subject>
@@ -76,8 +76,27 @@
             <gml:upperCorner>-114.60537 42.038808</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;26&#x2B9;22&#x2BA;--W 114&#xB0;36&#x2B9;19&#x2BA;/N 42&#xB0;2&#x2B9;20&#x2BA;--N 32&#xB0;43&#x2B9;41&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>(W -122.439487--W -114.60537/N 42.038808--N 32.72805)</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Transportation GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sb381ch4421</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. http://www.gnu.org/licenses.</accessCondition>
+</mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>World Disputed Areas, 1:50 million (2012)</title>
@@ -26,7 +26,7 @@
     <edition>2.0.0</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -37,7 +37,7 @@
     <cartographics>
       <scale>1:50000000</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 58&#xB0;25&#x2B9;38&#x2BA;--E 148&#xB0;50&#x2B9;14&#x2BA;/N 48&#xB0;9&#x2B9;1&#x2BA;--N 1&#xB0;28&#x2B9;31&#x2BA;)</coordinates>
+      <coordinates>(W 58°25ʹ38ʺ--E 148°50ʹ14ʺ/N 48°9ʹ1ʺ--N 1°28ʹ31ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts disputed areas ranging from Kashmir to the Elemi Triangle and Northern Cyprus to the Western Sahara desert. Data is derived from the The United States Central Intelligence Agency's World Factbook boundary database, but not every disputed or undefined boundary listed in the World Factbook boundary database is reflected in the main admin-0 boundaries attributes. Care should be taken with regard to undefined or disputed boundaries when attributing to reflect if the dispute is active or not. Some disputed areas that are small could be better symbolized with a point symbol. These data are represented at 1:50,000,000 scale. This layer is part of the Natural Earth Collection (v.2.0.0).</abstract>
@@ -80,8 +80,17 @@
             <gml:upperCorner>148.837148 48.150317</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6295630/about.rdf" dc:language="eng" dc:title="Earth (Planet)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Natural earth</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qr604qw5282</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

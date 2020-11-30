@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>European Lakes, 1:10 million (2012)</title>
@@ -26,7 +26,7 @@
     <edition>2.0.0</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -37,7 +37,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 9&#xB0;35&#x2B9;50&#x2BA;--E 60&#xB0;11&#x2B9;27&#x2BA;/N 69&#xB0;31&#x2B9;2&#x2BA;--N 30&#xB0;31&#x2B9;41&#x2BA;)</coordinates>
+      <coordinates>(W 9°35ʹ50ʺ--E 60°11ʹ27ʺ/N 69°31ʹ2ʺ--N 30°31ʹ41ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts natural and artificial lakes for Europe only ranked by relative importance, coordinating with river ranking. Includes name attributes. Data primarily derives from Catchment Characterisation and Modelling (CCM) Database 2.1 by the European Commission, Joint Research Centre, Institute for Environment and Sustainability. The modified CCM lakes offered here are intended for small-scale cartographic use. Only a portion of CCM data is used, representing major lakes (classes 4 and 5 in the MAINDRAIN attributes column). Generalization and smoothing were applied to these selected data. These data are represented at 1:10,000,000 scale. This layer is part of the Natural Earth Collection (v.2.0.0).</abstract>
@@ -61,7 +61,6 @@
   <location>
     <url>http://purl.stanford.edu/hx872sp6848</url>
   </location>
-  <accessCondition type="useAndReproduction">All versions of Natural Earth raster and vector map data are in the public domain. </accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:hx872sp6848</recordIdentifier>
@@ -81,8 +80,17 @@
             <gml:upperCorner>60.190929 69.517279</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6255148/" dc:language="eng" dc:title="Europe"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Natural earth</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qr604qw5282</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

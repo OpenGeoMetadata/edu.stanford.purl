@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Tanzania - TANESCO Thermal Power Stations (2015)</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,11 +32,11 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 29&#xB0;39&#x2B9;40&#x2BA;--E 40&#xB0;22&#x2B9;1&#x2BA;/S 1&#xB0;19&#x2B9;11&#x2BA;--S 10&#xB0;55&#x2B9;21&#x2BA;)</coordinates>
+      <coordinates>(E 29°39ʹ40ʺ--E 40°22ʹ1ʺ/S 1°19ʹ11ʺ--S 10°55ʹ21ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">Tanzania Electric Supply Company Limited (TANESCO) is a parastatal organization under the Ministry of Energy and Minerals. The Company generates, transmits, distributes and sells electricity to Tanzania Mainland and sells bulk power to the Zanzibar Electricity Corporation (ZECO) which in turn sells it to the public in islands Unguja and Pemba. TANESCO owns most of the electricity Generating, Transmitting and Distributing facilities in Tanzania Mainland. The dataset provides information on existing, under construction and proposed power stations for hydro, thermal and substations, as well as existing and under construction transmission lines. The data is geo-referenced , digitized and extracted from the national grid system map published in 2015 by TANESCO.</abstract>
-  <abstract displayLabel="Purpose" lang="eng"> The World Bank and the International Finance Corporation, collectively the World Bank Group (WBG) strives to enhance public access to and use of data that can support development impact.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">The World Bank and the International Finance Corporation, collectively the World Bank Group (WBG) strives to enhance public access to and use of data that can support development impact.</abstract>
   <note displayLabel="Preferred citation" lang="eng">World Bank Group. (2015). Tanzania - TANESCO Thermal Power Stations (2015) World Bank Group. Available at: http://purl.stanford.edu/fk981zr2330</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Geothermal resources</topic>
@@ -56,7 +56,6 @@
   <location>
     <url>http://purl.stanford.edu/fk981zr2330</url>
   </location>
-  <accessCondition type="useAndReproduction">CC-BY-SA 4.0. This material may be shared or adapted provided appropriate credit is given to the originator, and the same license is used.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:fk981zr2330</recordIdentifier>
@@ -76,8 +75,24 @@
             <gml:upperCorner>40.367075 -1.319598</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Tanzania"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 29&#xB0;39&#x2B9;40&#x2BA;--E 40&#xB0;22&#x2B9;1&#x2BA;/S 1&#xB0;19&#x2B9;11&#x2BA;--S 10&#xB0;55&#x2B9;21&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 29°39ʹ40ʺ--E 40°22ʹ1ʺ/S 1°19ʹ11ʺ--S 10°55ʹ21ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>World Bank GIS Datasets</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/kn717qc3056</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+</mods>

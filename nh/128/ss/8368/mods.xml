@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>California Coastal Eelgrass Habitats, 2010</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 124&#xB0;19&#x2B9;45&#x2BA;--W 116&#xB0;45&#x2B9;52&#x2BA;/N 40&#xB0;55&#x2B9;34&#x2BA;--N 32&#xB0;34&#x2B9;13&#x2BA;)</coordinates>
+      <coordinates>(W 124°19ʹ45ʺ--W 116°45ʹ52ʺ/N 40°55ʹ34ʺ--N 32°34ʹ13ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts eelgrass beds on the central California coast that provide foraging, breeding, or nursery areas for invertebrates, fish and birds. The most common type of seagrass in California is Zostera, or eelgrass, which grows under water in estuaries and in shallow coastal bays of the ecoregion. This flowering plant, not an alga, occurs in dense beds and helps prevent erosion and maintain stability near shore by anchoring sediment with its spreading rhizomes and slowing water flow. This file aggregates data from several sources across multiple years. Features shown here should not be considered a representation of condition for any given year, but represent the maximum extent of eelgrass found across multiple surveys over multiple years.</abstract>
@@ -62,8 +62,6 @@
   <location>
     <url>http://purl.stanford.edu/nh128ss8368</url>
   </location>
-  <accessCondition type="useAndReproduction">No restrictions on access or use. Please cite the authors when possible.</accessCondition>
-  <accessCondition type="useAndReproduction">No restrictions on access or use. Please cite the authors when possible.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:nh128ss8368</recordIdentifier>
@@ -86,4 +84,22 @@
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;18&#x2B9;58&#x2BA;--W 117&#xB0;5&#x2B9;53&#x2BA;/N 40&#xB0;51&#x2B9;28&#x2BA;--N 32&#xB0;36&#x2B9;1&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 124°18ʹ58ʺ--W 117°5ʹ53ʺ/N 40°51ʹ28ʺ--N 32°36ʹ1ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Fish and Wildlife GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/fb282pw3043</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Railroad System, United States, 1840</title>
@@ -18,7 +18,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2006</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -29,14 +29,12 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 94&#xB0;51&#x2B9;34&#x2BA;--W 68&#xB0;38&#x2B9;45&#x2BA;/N 44&#xB0;56&#x2B9;2&#x2BA;--N 29&#xB0;58&#x2B9;54&#x2BA;)</coordinates>
+      <coordinates>(W 94°51ʹ34ʺ--W 68°38ʹ45ʺ/N 44°56ʹ2ʺ--N 29°58ʹ54ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This line shapefile represents the railroad network of the United States in 1840. This layer is part of the Railroads and the Making of Modern America project. </abstract>
+  <abstract displayLabel="Abstract" lang="eng">This line shapefile represents the railroad network of the United States in 1840. This layer is part of the Railroads and the Making of Modern America project.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This project seeks to document and represent the rapid and far-reaching social effects of railroads and to explore the transformation of the United States to modern ideas, institutions, and practices in the nineteenth century.</abstract>
   <note displayLabel="Preferred citation" lang="eng">University of Nebraska. Lincoln. (2006). Railroad System, United States, 1840. University of Nebraska Lincoln. Available at: https://purl.stanford.edu/st852jv1039.</note>
-  <note displayLabel="Supplemental information"> Vessels sailing to the Arctic to explore or to hunt whales and seals made early sea-ice observations. Over the centuries, technological advances and commercial opportunities in the Arctic led to more frequent and regular sea-ice observations, with associated increasing accuracy. As sailing ships gave way to steam powered vessels, and with the advent of aircraft and satellites, regular mapping of sea ice conditions became an organized activity. From 1967 onwards, hand drawn weekly charts were produced, showing not only an ice edge, but also concentrations of sea ice within the ice pack. Since July 1997, improved technology allowed daily production of digital sea ice maps on workdays.
-</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Railroads</topic>
   </subject>
@@ -52,15 +50,6 @@
   <location>
     <url>https://purl.stanford.edu/st852jv1039</url>
   </location>
-  <accessCondition type="useAndReproduction">All material on this site is published freely for educational and research use, subject to fair use regulations. The site design, programming, and data structures are all developed in open source. Images and other materials may have copyright restrictions; please contact the appropriate institution. Please direct all inquires on the copyright status of any materials from the University of Nebraska&#x2013;Lincoln to:
-Katherine L. Walter
-Co-director, Center for Digital Research in the Humanities
-Chair, Digital Initiatives &amp; Special Collections 
-319A Love Library
-University of Nebraska&#x2013;Lincoln
-Lincoln, NE 68588-4100
-402-472-3939
-kwalter1@unl.edu</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:st852jv1039</recordIdentifier>
@@ -80,8 +69,25 @@ kwalter1@unl.edu</accessCondition>
             <gml:upperCorner>-68.645718 44.934022</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 94&#xB0;51&#x2B9;34&#x2BA;--W 68&#xB0;38&#x2B9;45&#x2BA;/N 44&#xB0;56&#x2B9;2&#x2BA;--N 29&#xB0;58&#x2B9;54&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 94°51ʹ34ʺ--W 68°38ʹ45ʺ/N 44°56ʹ2ʺ--N 29°58ʹ54ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Railroads and the making of modern America</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/tp955sp0123</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This dataset is freely available for academic use and other non-commercial use. Redistribution, or commercial use is not allowed without prior permission. You are free to create maps and use the data in other ways for publication in academic journals, books, reports, etc.</accessCondition>
+</mods>

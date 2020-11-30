@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Airports, Napa County, California, 1997</title>
@@ -11,7 +11,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">1997</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -21,7 +21,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::2226</projection>
-      <coordinates>(W 122&#xB0;34&#x2B9;28&#x2BA;--W 122&#xB0;12&#x2B9;15&#x2BA;/N 38&#xB0;44&#x2B9;58&#x2BA;--N 38&#xB0;12&#x2B9;43&#x2BA;)</coordinates>
+      <coordinates>(W 122°34ʹ28ʺ--W 122°12ʹ15ʺ/N 38°44ʹ58ʺ--N 38°12ʹ43ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile contains locations of Airports in Napa County, California. These data were creted from extracting features labeled as "Airports" from the U.S. Geological Survey's Geographic Names Information System (GNIS) datafiles (1997). The GNIS data is an automated inventory of the names and locations of physical and cultural geographic features located throughout the United States. Additional websites were searched for other airports and airfields. This layer is part of a collection of GIS data created by the California Department of Transportation (Caltrans).</abstract>
@@ -59,4 +59,24 @@
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;34&#x2B9;23&#x2BA;--W 122&#xB0;12&#x2B9;18&#x2BA;/N 38&#xB0;44&#x2B9;57&#x2BA;--N 38&#xB0;12&#x2B9;47&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°34ʹ23ʺ--W 122°12ʹ18ʺ/N 38°44ʹ57ʺ--N 38°12ʹ47ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Department of Transportation GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sb381ch4421</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. http://www.gnu.org/licenses.</accessCondition>
+</mods>

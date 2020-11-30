@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Ferry Routes, Georgia, 2013</title>
@@ -21,14 +21,11 @@
   <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
   <originInfo>
     <publisher>International Steering Committee for Global Mapping</publisher>
-    <place>
-      <placeTerm type="text"/>
-    </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
     <edition>2</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -39,7 +36,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 39&#xB0;56&#x2B9;12&#x2BA;--E 41&#xB0;40&#x2B9;38&#x2BA;/N 43&#xB0;1&#x2B9;35&#x2BA;--N 41&#xB0;35&#x2B9;42&#x2BA;)</coordinates>
+      <coordinates>(E 39°56ʹ12ʺ--E 41°40ʹ38ʺ/N 43°1ʹ35ʺ--N 41°35ʹ42ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile represents ferry routes in Georgia. The Global Map Georgia version 2 was developed from the 2008 Year, data - 1:1 000 000, source data -Topo map image. Updated information from the Ministries, political boundary line and political boundary area were developed from the Topo 1 000 000 gmmk10 2006-03-08</abstract>
@@ -61,7 +58,6 @@
   <location>
     <url>http://purl.stanford.edu/jw247fy1898</url>
   </location>
-  <accessCondition type="useAndReproduction">For non-commercial use, in principle, anyone can use the data free of charge. As the data of National/Regional version were developed by NGIAs of respective countries and regions, and there may be parts which have not been developed depending on countries and regions. In using the data, please check respective data policies because different countries and regions have different data policies.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:jw247fy1898</recordIdentifier>
@@ -81,8 +77,25 @@
             <gml:upperCorner>41.670796 42.967649</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4197000/" dc:language="eng" dc:title="Georgia"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 40&#xB0;27&#x2BA;--E 41&#xB0;40&#x2B9;15&#x2BA;/N 42&#xB0;58&#x2B9;4&#x2BA;--N 41&#xB0;39&#x2B9;13&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 40°27ʺ--E 41°40ʹ15ʺ/N 42°58ʹ4ʺ--N 41°39ʹ13ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Global Map</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/kb168tn2424</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This dataset is freely available for academic use and other non-commercial use. Redistribution, or commercial use is not allowed without prior permission. You are free to create maps and use the data in other ways for publication in academic journals, books, reports, etc.</accessCondition>
+</mods>

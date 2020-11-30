@@ -1,7 +1,7 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
-    <title>Isthme de Suez avec Trac&#xE9; de Canaux Conc&#xE9;d&#xE9;s par S. A. le Vice-Roi d'Egypte pourle Jonction du Nil au Lac Timsah tel qu'il a &#xE9;t&#xE9; arr&#xE8;t&#xE9; par le Commission Internationale 1857 (Raster Image)</title>
+    <title>Isthme de Suez avec Tracé de Canaux Concédés par S. A. le Vice-Roi d'Egypte pourle Jonction du Nil au Lac Timsah tel qu'il a été arrèté par le Commission Internationale 1857 (Raster Image)</title>
   </titleInfo>
   <name type="corporate">
     <namePart>Stanford Geospatial Center</namePart>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>GeoTIFF</form>
@@ -31,14 +31,13 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 29&#xB0;20&#x2B9;38&#x2BA;--E 33&#xB0;6&#x2B9;52&#x2BA;/N 31&#xB0;41&#x2B9;18&#x2BA;--N 28&#xB0;45&#x2B9;51&#x2BA;)</coordinates>
+      <coordinates>(E 29°20ʹ38ʺ--E 33°6ʹ52ʺ/N 31°41ʹ18ʺ--N 28°45ʹ51ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced raster image of an historic regional map of Egypt created in 1862. All map collar and inset information is also available as part of the raster image, including any inset maps, profiles, statistical tables, directories, text, illustrations, or other information associated with the principal map. This map was georeferenced by the Stanford Geospatial Center using a Transverse Mercator projection. This map is part of a selection of maps of Africa held at Stanford University Libraries.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">This historic paper map provides an historical perspective of the cultural and physical landscape during this time period. The wide range of information provided on these maps make them useful in the study of historic geography. As this map has been georeferenced, it also can be used as a background layer in conjunction with other GIS data.
-    </abstract>
+  <abstract displayLabel="Purpose" lang="eng">This historic paper map provides an historical perspective of the cultural and physical landscape during this time period. The wide range of information provided on these maps make them useful in the study of historic geography. As this map has been georeferenced, it also can be used as a background layer in conjunction with other GIS data.</abstract>
   <note displayLabel="Attribute accuracy report" lang="eng">The horizontal positional accuracy of a raster image is approximately the same as the accuracy of the published source map. The lack of a greater accuracy is largely the result of the inaccuracies with the original measurements and possible distortions in the original paper map document.  There may also be errors introduced during the digitizing and georeferencing process.  In most cases, however, errors in the raster image are small compared with sources of error in the original map graphic.  The RMS error for this map is 221.645 meters. This value describes how consistent the transformation is between the different control points (links).  The RMS error is only an assessment of the accuracy of the transformation.</note>
-  <note displayLabel="Preferred citation" lang="eng">Stanford Geospatial Center. (2013). Isthme de Suez avec Trac&#xE9; de Canaux Conc&#xE9;d&#xE9;s par S. A. le Vice-Roi d'Egypte pourle Jonction du Nil au Lac Timsah tel qu'il a &#xE9;t&#xE9; arr&#xE8;t&#xE9; par le Commission Internationale 1857 (Raster Image). Stanford Digital Repository. Available at: http://purl.stanford.edu/bh691yj7263.</note>
+  <note displayLabel="Preferred citation" lang="eng">Stanford Geospatial Center. (2013). Isthme de Suez avec Tracé de Canaux Concédés par S. A. le Vice-Roi d'Egypte pourle Jonction du Nil au Lac Timsah tel qu'il a été arrèté par le Commission Internationale 1857 (Raster Image). Stanford Digital Repository. Available at: http://purl.stanford.edu/bh691yj7263.</note>
   <note displayLabel="Supplemental information">For more information about Stanford's Maps of Africa Collection, see here: https://exhibits.stanford.edu/maps-of-africa.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Historical geography</topic>
@@ -86,9 +85,26 @@
             <gml:upperCorner>33.1147472 31.6883729</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/357994/" dc:language="eng" dc:title="Egypt"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6255146/" dc:language="eng" dc:title="Africa"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 29&#xB0;20&#x2B9;38&#x2BA;--E 33&#xB0;6&#x2B9;53&#x2BA;/N 31&#xB0;41&#x2B9;18&#x2BA;--N 28&#xB0;45&#x2B9;51&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 29°20ʹ38ʺ--E 33°6ʹ53ʺ/N 31°41ʹ18ʺ--N 28°45ʹ51ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Georeferenced maps of Africa</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/jz110cf1395</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This work is in the public domain. There are no restrictions on use.</accessCondition>
+  <accessCondition type="license">CC pdm: Public Domain Mark 1.0</accessCondition>
+</mods>

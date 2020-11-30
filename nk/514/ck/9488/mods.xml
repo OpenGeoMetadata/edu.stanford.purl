@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>U.S. State Boundary Lines, 1:110 million (2012)</title>
@@ -26,7 +26,7 @@
     <edition>2.0.0</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -37,7 +37,7 @@
     <cartographics>
       <scale>1:110000000</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 124&#xB0;12&#x2B9;50&#x2BA;--W 70&#xB0;38&#x2B9;45&#x2BA;/N 49&#xB0;20&#x2BA;--N 29&#xB0;41&#x2B9;22&#x2BA;)</coordinates>
+      <coordinates>(W 124°12ʹ50ʺ--W 70°38ʹ45ʺ/N 49°20ʺ--N 29°41ʹ22ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polyline shape file depicts internal, first-order administrative boundaries and polygons for states of  the United States. All countries having 10m admin-1 with scale ranks 1 or less should be present in this file. Currently only the United States are represented. Boundaries should perfectly match the following 110m Natural Earth Vector themes: coastline, lake shoreline, admin-0 country boundary, river and lake centerlines. For more detailed breakdowns for most countries in the world, see 10m admin-1. These data are represented at 1:110,000,000 scale. This layer is part of the Natural Earth Collection (v.2.0.0).</abstract>
@@ -80,8 +80,17 @@
             <gml:upperCorner>-70.645734 49.00564</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/about.rdf" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Natural earth</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qr604qw5282</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

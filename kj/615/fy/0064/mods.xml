@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>World Playas, 1:50 million (2012)</title>
@@ -26,7 +26,7 @@
     <edition>2.0.0</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -37,7 +37,7 @@
     <cartographics>
       <scale>1:50000000</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 118&#xB0;49&#x2B9;41&#x2BA;--E 140&#xB0;2&#x2B9;38&#x2BA;/N 45&#xB0;47&#x2B9;57&#x2BA;--S 32&#xB0;19&#x2B9;34&#x2BA;)</coordinates>
+      <coordinates>(W 118°49ʹ41ʺ--E 140°2ʹ38ʺ/N 45°47ʹ57ʺ--S 32°19ʹ34ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts major playas, salt pans and intermittent lakes worldwide. Care must be taken not to have playas extend beyond flat areas indicated on the raster shaded relief. Generalized from 10m playas. These data are represented at 1:50,000,000 scale. This layer is part of the Natural Earth Collection (v.2.0.0).</abstract>
@@ -80,8 +80,17 @@
             <gml:upperCorner>140.04399 45.799143</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6295630/about.rdf" dc:language="eng" dc:title="Earth (Planet)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Natural earth</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qr604qw5282</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

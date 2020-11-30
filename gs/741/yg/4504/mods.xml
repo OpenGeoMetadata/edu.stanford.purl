@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Urbanized Areas, California, 2000</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2000</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 124&#xB0;15&#x2B9;32&#x2BA;--W 113&#xB0;34&#x2B9;52&#x2BA;/N 41&#xB0;52&#x2B9;29&#x2BA;--N 32&#xB0;24&#x2B9;17&#x2BA;)</coordinates>
+      <coordinates>(W 124°15ʹ32ʺ--W 113°34ʹ52ʺ/N 41°52ʹ29ʺ--N 32°24ʹ17ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the urbanized areas of California. These data were derived from the TIGER/2000 Urbanized Areas (UA) dataset of the 2000 Census. The Census Bureau defines UAs as an area consisting of a central place(s) and adjacent urban fringe that together have a minimum residential population of at least 50,000 people and generally an overall population density of at least 1,000 people per square mile of land area. The Census Bureau uses published criteria to determine the qualification and boundaries of UAs.The U.S. Census Bureau classifies as urban all territory, population, and housing units located within urbanized areas (UAs). It delineates UA boundaries to encompass densely settled territory, which generally consists of: A cluster of one or more block groups or census blocks each of which has a population density of at least 1,000 people per square mile at the time and, Surrounding block groups and census blocks each of which has a population density of at least 500 people per square mile at the time and, Less densely settled blocks that form enclaves or indentations, or are used to connect discontiguous areas with qualifying densities. This layer is part of the Bay Area Metropolitan Transportation Commission (MTC) GIS Maps and Data collection.</abstract>
@@ -54,7 +54,6 @@
   <location>
     <url>http://purl.stanford.edu/gs741yg4504</url>
   </location>
-  <accessCondition type="useAndReproduction">No restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:gs741yg4504</recordIdentifier>
@@ -74,8 +73,25 @@
             <gml:upperCorner>-114.532006 41.869046</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;15&#x2B9;26&#x2BA;--W 114&#xB0;31&#x2B9;55&#x2BA;/N 41&#xB0;52&#x2B9;9&#x2BA;--N 32&#xB0;32&#x2B9;29&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 124°15ʹ26ʺ--W 114°31ʹ55ʺ/N 41°52ʹ9ʺ--N 32°32ʹ29ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Metropolitan Transportation Commission GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/bq589tv8583</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

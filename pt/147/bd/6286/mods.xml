@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Arctic Ice Chart, August 30, 1976</title>
@@ -18,7 +18,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2003</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -29,14 +29,13 @@
     <cartographics>
       <scale>1:24000</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 30&#xB0;--E 80&#xB0;/N 85&#xB0;--N 69&#xB0;57&#x2B9;33&#x2BA;)</coordinates>
+      <coordinates>(W 30°--E 80°/N 85°--N 69°57ʹ33ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains ice observations in the Arctic region for August 30, 1976. This layer is part of the Arctic Climate System (ACSYS) Historical Ice Chart Archive. The earliest chart in the data set comes from 1553, when Sir Hugh Willoughby and Richard Chancellor, commanders of two expeditions sent out by the Company of Merchant Adventurers, recorded their observations of the ice edge. Early charts are irregular and infrequent, reflecting the remoteness and hostility of the region. The frequency of observations generally increases over time, as the economic and strategic importance of the Arctic grew, along with the ability to access, observe and record information on sea ice. The Norwegian Meteorological Institute in Troms&#xF8; used a combination of satellite imagery and in situ observations to produce daily digital charts each working day. These show not only the ice edge, but also detailed information on the range of sea ice concentrations and ice types. The Norwegian Meteorological Institute is continuing this series, and more recent charts may be obtained from this source.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">The ACSYS Historical Ice Chart Archive presents historical sea-ice observations in the Arctic region between 30&#xBA;W and 70&#xBA;E. The earliest chart dates from 1553, and the most recent from December 2002.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains ice observations in the Arctic region for August 30, 1976. This layer is part of the Arctic Climate System (ACSYS) Historical Ice Chart Archive. The earliest chart in the data set comes from 1553, when Sir Hugh Willoughby and Richard Chancellor, commanders of two expeditions sent out by the Company of Merchant Adventurers, recorded their observations of the ice edge. Early charts are irregular and infrequent, reflecting the remoteness and hostility of the region. The frequency of observations generally increases over time, as the economic and strategic importance of the Arctic grew, along with the ability to access, observe and record information on sea ice. The Norwegian Meteorological Institute in Tromsø used a combination of satellite imagery and in situ observations to produce daily digital charts each working day. These show not only the ice edge, but also detailed information on the range of sea ice concentrations and ice types. The Norwegian Meteorological Institute is continuing this series, and more recent charts may be obtained from this source.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">The ACSYS Historical Ice Chart Archive presents historical sea-ice observations in the Arctic region between 30ºW and 70ºE. The earliest chart dates from 1553, and the most recent from December 2002.</abstract>
   <note displayLabel="Preferred citation" lang="eng">ACSYS, 2003. ACSYS Historical Ice Chart Archive (1553-2002). IACPO Informal Report No. 8. Troms, Norway: Arctic Climate System Study.</note>
-  <note displayLabel="Supplemental information">Vessels sailing to the Arctic to explore or to hunt whales and seals made early sea-ice observations. Over the centuries, technological advances and commercial opportunities in the Arctic led to more frequent and regular sea-ice observations, with associated increasing accuracy. As sailing ships gave way to steam powered vessels, and with the advent of aircraft and satellites, regular mapping of sea ice conditions became an organized activity. From 1967 onwards, hand drawn weekly charts were produced, showing not only an ice edge, but also concentrations of sea ice within the ice pack. Since July 1997, improved technology allowed daily production of digital sea ice maps on workdays.
-</note>
+  <note displayLabel="Supplemental information">Vessels sailing to the Arctic to explore or to hunt whales and seals made early sea-ice observations. Over the centuries, technological advances and commercial opportunities in the Arctic led to more frequent and regular sea-ice observations, with associated increasing accuracy. As sailing ships gave way to steam powered vessels, and with the advent of aircraft and satellites, regular mapping of sea ice conditions became an organized activity. From 1967 onwards, hand drawn weekly charts were produced, showing not only an ice edge, but also concentrations of sea ice within the ice pack. Since July 1997, improved technology allowed daily production of digital sea ice maps on workdays.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Sea ice</topic>
   </subject>
@@ -55,9 +54,6 @@
   <location>
     <url>http://purl.stanford.edu/pt147bd6286</url>
   </location>
-  <accessCondition type="useAndReproduction">If you use this data, please refer to it using this citation:
-
-ACSYS, 2003. ACSYS Historical Ice Chart Archive (1553-2002). IACPO Informal Report No. 8. Troms&#xF8;, Norway: Arctic Climate System Study.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:pt147bd6286</recordIdentifier>
@@ -77,8 +73,19 @@ ACSYS, 2003. ACSYS Historical Ice Chart Archive (1553-2002). IACPO Informal Repo
             <gml:upperCorner>80.000003 85.000001</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/2960860/" dc:language="eng" dc:title="Arctic Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Arctic Climate System Study Historical Ice Chart Archive, 1553-2002</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/vc538rj6879</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">If you use this data, please refer to it using this citation:
+ACSYS, 2003. ACSYS Historical Ice Chart Archive (1553-2002). IACPO Informal Report No. 8. Tromsø, Norway: Arctic Climate System Study.</accessCondition>
+  <accessCondition type="license">CC by: Attribution 3.0 Unported</accessCondition>
 </mods>

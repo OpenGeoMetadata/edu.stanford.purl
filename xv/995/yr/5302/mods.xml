@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Spheres of Influence, San Joaquin County, California, 2015</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::2227</projection>
-      <coordinates>(W 121&#xB0;33&#x2B9;49&#x2BA;--W 120&#xB0;58&#x2B9;34&#x2BA;/N 38&#xB0;10&#x2B9;15&#x2BA;--N 37&#xB0;39&#x2B9;18&#x2BA;)</coordinates>
+      <coordinates>(W 121°33ʹ49ʺ--W 120°58ʹ34ʺ/N 38°10ʹ15ʺ--N 37°39ʹ18ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents the boundaries of spheres of influence for San Joaquin County, California as of July 2015. City and special district spheres of influence define the probable physical boundaries and service area of a local agency. Local Agency Formation Commission Laws require that spheres be updated at least once every five years either concurrently or subsequently to the preparation of Municipal Service Reviews. In determining the sphere of influence for each local agency, the Commission is required by Government Code Section 56425(e) to consider certain factors, including: the present and planned uses in the area, including agricultural and open-space lands; the present and probable need for public facilities and services in the area; the present capacity of public facilities and adequacy of public services that the agency provides or is authorized to provide; the existence of any social or economic communities of interest in the area if the commission determines that they are relevant to the agency; and For an update of a sphere of influence of a city or special district that provides public facilities or services related to sewers, municipal and industrial water, or structural fire protection, that occurs pursuant to subdivision (g) on or after July 1, 2012, the present and probable need for those public facilities and services of any disadvantaged unincorporated communities within the existing sphere of influence. Spheres are determined and amended solely at the discretion of the Commission. This layer is part of a collection of GIS data for San Joaquin County in California.</abstract>
@@ -59,7 +59,6 @@
   <location>
     <url>http://purl.stanford.edu/xv995yr5302</url>
   </location>
-  <accessCondition type="useAndReproduction">No restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:xv995yr5302</recordIdentifier>
@@ -79,8 +78,25 @@
             <gml:upperCorner>-120.976832 38.169079</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5392126/" dc:language="eng" dc:title="San Joaquin County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 121&#xB0;33&#x2B9;27&#x2BA;--W 120&#xB0;58&#x2B9;37&#x2BA;/N 38&#xB0;10&#x2B9;9&#x2BA;--N 37&#xB0;39&#x2B9;20&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 121°33ʹ27ʺ--W 120°58ʹ37ʺ/N 38°10ʹ9ʺ--N 37°39ʹ20ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>San Joaquin County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/dp027np2489</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

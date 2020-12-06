@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Points of Interest, San Joaquin County, California, 2015</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::2227</projection>
-      <coordinates>(W 121&#xB0;33&#x2B9;31&#x2BA;--W 120&#xB0;55&#x2B9;55&#x2BA;/N 38&#xB0;14&#x2B9;46&#x2BA;--N 37&#xB0;37&#x2B9;31&#x2BA;)</coordinates>
+      <coordinates>(W 121°33ʹ31ʺ--W 120°55ʹ55ʺ/N 38°14ʹ46ʺ--N 37°37ʹ31ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile contains points of interest in San Joaquin County, California asof July 2015. Points of interest included in this layer are schools, education centers, sports compelxes, auditoriums, transit stations, zoos, churches, fire and police stations, cemetaries, hospitals, marinas, parks, golf courses, greenbelts, jails, libraries, museums, wineries and wasterwater treatment plants. This layer is part of a collection of GIS data for San Joaquin County in California.</abstract>
@@ -92,7 +92,6 @@
   <location>
     <url>http://purl.stanford.edu/bn756gm0660</url>
   </location>
-  <accessCondition type="useAndReproduction">No restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:bn756gm0660</recordIdentifier>
@@ -112,8 +111,25 @@
             <gml:upperCorner>165.998456 38.244424</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5392126/" dc:language="eng" dc:title="San Joaquin County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 121&#xB0;33&#x2B9;7&#x2BA;--E 165&#xB0;59&#x2B9;54&#x2BA;/N 38&#xB0;14&#x2B9;40&#x2BA;--S 90&#xB0;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 121°33ʹ7ʺ--E 165°59ʹ54ʺ/N 38°14ʹ40ʺ--S 90°</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>San Joaquin County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/dp027np2489</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">Please acknowledge the data producer as the source when data are used in the preparation of reports, papers, publications, maps, or other products. These data are made available as a public resource of general information for use "as is" with the understanding that it is not guaranteed to be accurate, correct or complete and any conclusions drawn from such information are the sole responsibility of the user. The data provider assumes no responsibility for errors or omissions, and explicitly disclaims any representations and warranties, including, without limitation, the implied warranties of merchantability and fitness for a particular purpose.</accessCondition>
+</mods>

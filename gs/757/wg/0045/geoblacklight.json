@@ -1,0 +1,40 @@
+{
+  "dc_identifier_s": "http://purl.stanford.edu/gs757wg0045",
+  "dc_title_s": "Centerline Routes, Riverside County California, 2020",
+  "dc_rights_s": "Public",
+  "layer_geom_type_s": "Line",
+  "layer_modified_dt": "2020-11-30T17:30:18Z",
+  "dct_issued_s": "2020",
+  "dc_type_s": "Dataset",
+  "dc_format_s": "Shapefile",
+  "dc_language_s": "English",
+  "dc_subject_sm": [
+    "Roads",
+    "Transportation"
+  ],
+  "dct_spatial_sm": [
+    "Riverside County (Calif.)"
+  ],
+  "dct_temporal_sm": [
+    "2020"
+  ],
+  "dc_publisher_s": "Riverside County (Calif.). Geographic Information Services",
+  "dc_creator_sm": [
+    "Riverside County (Calif.). Geographic Information Services"
+  ],
+  "geoblacklight_version": "1.0",
+  "dct_references_s": "{\"http://schema.org/url\":\"https://purl.stanford.edu/gs757wg0045\",\"http://www.loc.gov/mods/v3\":\"https://purl.stanford.edu/gs757wg0045.mods\",\"http://schema.org/downloadUrl\":\"https://stacks.stanford.edu/file/druid:gs757wg0045/data.zip\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices.stanford.edu/geoserver/wms\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"https://raw.githubusercontent.com/OpenGeoMetadata/edu.stanford.purl/master/gs/757/wg/0045/iso19139.xml\",\"http://www.opengis.net/def/serviceType/ogc/wfs\":\"https://geowebservices.stanford.edu/geoserver/wfs\"}",
+  "solr_geom": "ENVELOPE(-117.672219, -114.481206, 34.0797, 33.411472)",
+  "layer_slug_s": "stanford-gs757wg0045",
+  "layer_id_s": "druid:gs757wg0045",
+  "dct_provenance_s": "Stanford",
+  "stanford_rights_metadata_s": "<rightsMetadata>\n    <access type=\"discover\">\n      <machine>\n        <world/>\n      </machine>\n    </access>\n    <access type=\"read\">\n      <machine>\n        <world/>\n      </machine>\n    </access>\n    <use>\n      <human type=\"useAndReproduction\">Please acknowledge the data producer as the source when data are used in the preparation of reports, papers, publications, maps, or other products. These data are made available as a public resource of general information for use \"as is\" with the understanding that it is not guaranteed to be accurate, correct or complete and any conclusions drawn from such information are the sole responsibility of the user. The data provider assumes no responsibility for errors or omissions, and explicitly disclaims any representations and warranties, including, without limitation, the implied warranties of merchantability and fitness for a particular purpose.</human>\n    </use>\n  </rightsMetadata>",
+  "solr_year_i": 2020,
+  "dc_source_sm": [
+    "stanford-wd766ym5591"
+  ],
+  "dct_isPartOf_sm": [
+    "Riverside County, California, GIS Maps and Data"
+  ],
+  "dc_description_s": "The CENTERLINE_ROUTES feature class contains linear referencing routes derived from the Centerlines feature class. These routes are Polyline M features. The M geometry values, also known as Measures, provide an alternative to X and Y coordinates for describing locations along a line. These measures can be used to define point or line events that align with a chosen Route. To use the CENERLINE_ROUTE features as the basis for events, an event table must contain fields that include the ROUTE_NAME value of each event and either one or two event measure positions to create a point or line event respectively.The fields of the CENTERLINE_ROUTES feature class are:ROUTE_NAME - The unique identifier of each Route. It is based on the Street Name of the Centerlines and the predominant General Plan Area Plan where the Route is located. Other components of the name may distringuish different route branches or separate route alignments of a Street Name within a given Area Plan. Route names may also indicate the route's direction of travel for freeways and other roads that are divided into two lines.ROUTE_DIRECTION - This field is a component of the Route Name and only has a value when the Route follows Centerlines with a single direction of travel. Its values are made up of EB, NB, SB, and WB for Eastbound, Northbound, Southbound, and Westbound, and a number to distinguish any separate branches.FULL_NAME - The Full Name of the Street derived from the Centerlines.AREA_PLAN_ABBREVIATION - A four to five letter abbreviation for the predominant General Plan Area Plan of the Route derived from the Centerline features. These values can be used to group routes by area and to make distinctions in street names that appear in more than one portion of the County. The abbreviations and their meanings are as follows: DESCN - Desert Center; ECDES - East County/Desert; ECVAP - Eastern Coachella Valley Area Plan; ELSIN - Elsinore Valley; EVALE - Eastvale; HIGHG - Highgrove; HVWIN - Harvest Valley/Winchester; JURUP - Jurupa Valley; LAKEV - Lakeview/Nuevo; LMATH - Lake Mathews/Woodcrest; MARCH - March; MEADV - Mead Valley; PASS - The Pass; PVERD - Palo Verde Valley; RECHE - Reche Canyon; REMAP - REMAP (Riverside Extended Mountain Area Plan); RIVER - Riverside/Corona/Norco; SANJA - San Jacinto Valley; SUNCI - Sun City/Menifee Valley; SWAP - Southwest Area Plan; TEMES - Temescal Canyon; WCVAP - Western Coachella Valley Area Plan.SUBROUTE - Used when Routes with the same Street Name and Area Plan branch or follow separate alignments that are unlikely to join together in the future.FROM_MEASURE - The measure of the beginning point of the Route. Normally this value is 1000.TO_MEASURE - The measure of the ending point of the Route. This measure will generally be length of the Route in feet plus 1000. The length of any gaps within the route are also included in the To measure.LENGTH - The actual length in feet of the Route excluding gaps and rounded to match the precision of the Route's measures.MEASURE_MONOTONICITY - A value indicating the simplicity or complexity of the Route based on its measure pattern. A value of 1 indicates that the Route is simple, with continuously increasing measures only. All other values indicate that a Route is complex, and includes other patterns of increasing, decreasing, stagnant, or unassigned measures.PARTS - The number of polyline parts within the Route. Any value higher than 1 indicates that the Route contains one or more gaps or branches.CREATED_DATE - The date the Route was created as a linear reference feature.MODIFIED_DATE - The last date the Route was modified, if any.LINE_LINK - This field contains a reprentation of the Route's geometry and is made up of 5 components within curly brackets - The From X coordinate, the From Y coordinate, the To X coordinate, the To Y coordinate, and the Length. This field is used to detect changes in geometry when the script is run to update the routes. Riverside County (Calif.). Geographic Information Services. (2020). Centerline Routes, Riverside County California, 2020. Riverside County (Calif.). Geographic Information Services. Available at: http://purl.stanford.edu/CenterlineRoutes.shp These data are made available as a public service. The data is for reference purposes only, and the originator(s) make no representatives, warranties, or guarantees as to the accuracy of the data. Information found here should not be used for making financial or any other commitments. In no way shall the originator(s) become liable to users of these data, or any other party, for any loss or direct, indirect, special, incidental or consequential damages, including but not limited to time, money or goodwill, arising from the use or modification of the data. This data is in the public domain. This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection."
+}

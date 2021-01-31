@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2011</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -74,10 +74,28 @@
             <gml:upperCorner>22.203406 68.032306</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6295630/about.rdf" dc:language="eng" dc:title="Earth"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject>
-          <geographic authority="lcsh" valueURI="lcsh">Earth (Planet)</geographic>
-        </subject><subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 10°35ʹ43ʺ--E 22°12ʹ12ʺ/N 68°1ʹ56ʺ--N 55°7ʹ</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject>
+    <geographic authority="lcsh" valueURI="lcsh">Earth (Planet)</geographic>
+  </subject>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 10°35ʹ43ʺ--E 22°12ʹ12ʺ/N 68°1ʹ56ʺ--N 55°7ʹ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Collins Mobile Coverage Explorer, 2007-2013</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/vh286rq6087</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

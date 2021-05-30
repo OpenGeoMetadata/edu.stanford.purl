@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Administrative Units with Populations, Pakistan, 1998</title>
@@ -27,7 +27,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -38,7 +38,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(E 60&#xB0;52&#x2B9;43&#x2BA;--E 77&#xB0;50&#x2B9;27&#x2BA;/N 37&#xB0;5&#x2B9;48&#x2BA;--N 23&#xB0;41&#x2B9;41&#x2BA;)</coordinates>
+      <coordinates>(E 60°52ʹ43ʺ--E 77°50ʹ27ʺ/N 37°5ʹ48ʺ--N 23°41ʹ41ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the administrative unit boundaries for Pakistan in 1998. Administrative units consist of 4 provinces, one federal capital territory, two autonomous and disputed territories, and a group of federally administered tribal areas. Population data from the 1998 census are also included for each unit. These are the level 1 administrative divisions (ADM1). This layer is part of a collection of data relating to administrative units in the Pakistan.</abstract>
@@ -87,8 +87,17 @@
             <gml:upperCorner>77.840904 37.096638</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1168579/" dc:language="eng" dc:title="Pakistan"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Pakistan administrative GIS spatial data [PA-A2] : ADM 1, 2, &amp; 3 administrative units and capitals</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zp065zw5741</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
 </mods>

@@ -1,7 +1,7 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
-    <title>Arrondissement Boundaries: Ardennes, France, 2010 </title>
+    <title>Arrondissement Boundaries: Ardennes, France, 2010</title>
   </titleInfo>
   <name type="corporate">
     <namePart>Articque informatique</namePart>
@@ -23,7 +23,7 @@
     <edition>1</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::2154</projection>
-      <coordinates>(E 4&#xB0;1&#x2B9;5&#x2BA;--E 5&#xB0;25&#x2B9;9&#x2BA;/N 50&#xB0;10&#x2B9;42&#x2BA;--N 49&#xB0;13&#x2B9;4&#x2BA;)</coordinates>
+      <coordinates>(E 4°1ʹ5ʺ--E 5°25ʹ9ʺ/N 50°10ʹ42ʺ--N 49°13ʹ4ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents the Arrondissement Boundaries for the Ardennes department of France for 2010. These are the level 3 administrative divisions (ADM3) of Ardennes. The 101 French departments are divided into 342 arrondissements, which may be translated into English as districts.</abstract>
@@ -76,8 +76,25 @@
             <gml:upperCorner>5.39371 50.169136</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3037136/about.rdf" dc:language="eng" dc:title="Ardennes (France)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 4&#xB0;1&#x2B9;32&#x2BA;--E 5&#xB0;23&#x2B9;37&#x2BA;/N 50&#xB0;10&#x2B9;9&#x2BA;--N 49&#xB0;13&#x2B9;36&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 4°1ʹ32ʺ--E 5°23ʹ37ʺ/N 50°10ʹ9ʺ--N 49°13ʹ36ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Carticque France Administratif, 2010</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/wn457nv9847</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

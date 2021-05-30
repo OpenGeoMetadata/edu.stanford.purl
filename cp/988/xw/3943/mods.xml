@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Regional Capitals with Census Populations, Republic of Georgia, 1989</title>
@@ -27,7 +27,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -38,7 +38,7 @@
     <cartographics>
       <scale>1:1000000</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(E 40&#xB0;15&#x2B9;3&#x2BA;--E 46&#xB0;16&#x2B9;29&#x2BA;/N 43&#xB0;18&#x2B9;55&#x2BA;--N 41&#xB0;15&#x2B9;47&#x2BA;)</coordinates>
+      <coordinates>(E 40°15ʹ3ʺ--E 46°16ʹ29ʺ/N 43°18ʹ55ʺ--N 41°15ʹ47ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile contains the regional capitals within the Republic of Georgia. Population counts from the 1989 Soviet census are also included for each capital. In Georgia, a region is not a self-governing unit; its function is to coordinate communication of several municipalities (with the exception of the municipalities of Adjara and that of Tbilisi) with the central government of Georgia, which is represented in a region by an official appointed by Prime Minister, the State Commissioner. This layer is part of a collection of data relating to administrative units in the Republic of Georgia.</abstract>
@@ -90,8 +90,17 @@
             <gml:upperCorner>46.274827 43.315139</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/614540/" dc:language="eng" dc:title="Georgia (Republic)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Republic of Georgia administrative GIS spatial data [FSU-AC3+] : ADM 1 &amp; 2 administrative units and capitals</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/yf926rr7557</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
 </mods>

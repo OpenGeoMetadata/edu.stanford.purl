@@ -22,25 +22,27 @@
     <dateValid encoding="w3cdtf">1998</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Raster Dataset</form>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+  <subject>
     <cartographics>
       <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
+      <projection>Custom projection</projection>
       <coordinates>(W 122°17ʹ5ʺ--W 121°54ʹ35ʺ/N 35°58ʹ37ʺ--N 35°33ʹ30ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This GeoTIFF shows multibeam backscatter imagery extraced from gridded bathymetry of Lower Lucia Canyon in Monterey Bay, California. Original bathymetric data were collected in 1998 using a 30kHz hull-mounted Simrad EM300 multibeam echo sounder system. Grids for this coverage area have cell size of 25 meters. This layer is part of the MBARI Monterey Bay Multibeam Survey collection, a compilation of data and imagery of the Monterey Bay and the adjacent seafloor, including coastline, imagery, and bathymetry. </abstract>
+  <abstract displayLabel="Abstract" lang="eng">This GeoTIFF shows multibeam backscatter imagery extraced from gridded bathymetry of Lower Lucia Canyon in Monterey Bay, California. Original bathymetric data were collected in 1998 using a 30kHz hull-mounted Simrad EM300 multibeam echo sounder system. Grids for this coverage area have cell size of 25 meters. This layer is part of the MBARI Monterey Bay Multibeam Survey collection, a compilation of data and imagery of the Monterey Bay and the adjacent seafloor, including coastline, imagery, and bathymetry.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This collection of data provides documented layers of of the Monterey Bay to persons/institutions of interest throughout the research and educational communities. These maps help define the geological variability of the seafloor and provide a detailed framework for future oceanographic research, monitoring, and management activities.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">Monterey Bay Aquarium Research Institute. (2000) Acoustic Reflexivity (Backscatter) Image: Lower Lucia Canyon, Monterey Bay, California, 1998. Monterey Bay Aquarium Research Institute. Available at: http://purl.stanford.edu/zm058pr1525</note>
-  <note displayLabel="Supplemental information">The lower part of Lucia Canyon crosses the continental slope platform at a depth of about 1,800 meters to the north of the pockmark field. Here the seafloor gently dips 1.4º to the west and is sediment covered with isolated bedrock exposures. The western part of this mid-slope platform is marked by a steeper slope (7º) and forms the lower slope in this region, ranging from 2,000-3,500 meters. Many rills and landslide scars characterize the lower slope.
+  <note displayLabel="Preferred citation" lang="eng">Monterey Bay Aquarium Research Institute. (2000) Acoustic Reflexivity (Backscatter) Image: Lower Lucia Canyon, Monterey Bay, California, 1998. Monterey Bay Aquarium Research Institute.</note>
+  <note displayLabel="Supplemental information">This distribution contains images and of the data both in geographic coordinates (latitude and longitude) and in projected coordinates, namely Universal Transverse Mercader (UTM) zone 10. The UTM version is available at the Stanford Geospatial Center. This layer was acquired from a CD-ROM compiled by the Monterey Bay Aquarium Research Institute (MBARI) during the Fall of 2000. It is intended to be used in conjunction with ArcView® (with the Spatial Analyst Extension), ArcExplorer (TM), or ARC/INFO® Geographic Information System (GIS) software by ESRI.  Users of other software will need to import the ascii files or convert the ESRI formats.
 
-At the base of the lower slope, Lucia Canyon makes a 90° turn to the south and parallels the slope for at least 50 kilometers. In this area sediment overflow from the canyon forms levees and overbank deposits. </note>
+The lower part of Lucia Canyon crosses the continental slope platform at a depth of about 1,800 meters to the north of the pockmark field. Here the seafloor gently dips 1.4º to the west and is sediment covered with isolated bedrock exposures. The western part of this mid-slope platform is marked by a steeper slope (7º) and forms the lower slope in this region, ranging from 2,000-3,500 meters. Many rills and landslide scars characterize the lower slope.
+
+At the base of the lower slope, Lucia Canyon makes a 90° turn to the south and parallels the slope for at least 50 kilometers. In this area sediment overflow from the canyon forms levees and overbank deposits.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Bathymetric maps</topic>
   </subject>
@@ -84,8 +86,25 @@ At the base of the lower slope, Lucia Canyon makes a 90° turn to the south and 
             <gml:upperCorner>-121.9096147 35.9770286</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5374363/about.rdf" dc:language="eng" dc:title="Monterey Bay (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°17ʹ5ʺ--W 121°54ʹ35ʺ/N 35°58ʹ37ʺ--N 35°33ʹ30ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>MBARI Monterey Bay multibeam survey</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zv845sk1001</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
 </mods>

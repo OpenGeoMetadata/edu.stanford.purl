@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>ZIP Code Boundaries, United States (Q3 2006)</title>
@@ -16,13 +16,13 @@
   <originInfo>
     <publisher>TTG, Inc.</publisher>
     <place>
-      <placeTerm type="text">Bedford, MA, </placeTerm>
+      <placeTerm type="text">Bedford, MA,</placeTerm>
     </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2006</dateIssued>
     <dateValid encoding="w3cdtf">2006</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 178&#xB0;13&#x2B9;31&#x2BA;--W 66&#xB0;58&#x2B9;48&#x2BA;/N 71&#xB0;20&#x2B9;3&#x2BA;--N 18&#xB0;54&#x2B9;50&#x2BA;)</coordinates>
+      <coordinates>(W 178°13ʹ31ʺ--W 66°58ʹ48ʺ/N 71°20ʹ3ʺ--N 18°54ʹ50ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains zip code boundaries for the United States. Data are valid from July to September, 2006. Attributes included in the data are location, area/perimeter, county names, FIPS and USPS codes, and alternate names. These data are updated quarterly using the latest feeds from the U.S. Postal Service with additional sources being used to cross-check the data.</abstract>
@@ -73,8 +73,17 @@
             <gml:upperCorner>-66.97995 71.334198</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/about.rdf" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>5-digit zip code boundaries for the United States</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/rz239nx1054</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
 </mods>

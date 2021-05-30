@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">1992</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -39,7 +39,7 @@
   <abstract displayLabel="Abstract" lang="eng">This dataset describes the instream habitat of the Mendocino County reach of the Russian River, from the confluence of the Russian River and the East Fork Russian River (just below Lake Mendocino), to sixty feet upstream from where the US Highway 101 Hopland Bridge crosses the Russian River. The dataset contains information describing the instream habitat in terms of habitat type, thalweg depth, substrate type, shelter rating, presence of Ludwigia spp. as well as erosional information. The instream habitat data which this file illustrates was collected between the months of September and October, 1992.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This dataset is to be used in riparian ecosystem management, planning analysis, and impact assessment.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Circuit Rider Productions and National Oceanic and Atmospheric Administration (2002). Instream Habitat: Mendocino County, Russian River, California, 1992. Circuit Rider Productions. Available at: http://purl.stanford.edu/xp425hc7407</note>
-  <note displayLabel="Supplemental information">This data gathering effort was a component of the Russian River Resource Enhancement and Access Plan's Instream Habitat Inventory. Dynamic segmentation was performed on the "nchydro" streams coverage developed in 2001 by the California Department of Forestry to create a line file of the collected data. Technical and resource assistance in performing the dynamic segmentation was provided by Colin Brooks of CDFG and the Integrated Hardwood Range Management Program (IHRMP) North Coast Research and Extension Group. Upon completion of the dynamic segmentation, the resulting line work was calibrated using known point locations as calibration points. However, the original data contains a margin of error of up to 10% for the linear footage. The error must be taken into consideration when using this data. </note>
+  <note displayLabel="Supplemental information">This data gathering effort was a component of the Russian River Resource Enhancement and Access Plan's Instream Habitat Inventory. Dynamic segmentation was performed on the "nchydro" streams coverage developed in 2001 by the California Department of Forestry to create a line file of the collected data. Technical and resource assistance in performing the dynamic segmentation was provided by Colin Brooks of CDFG and the Integrated Hardwood Range Management Program (IHRMP) North Coast Research and Extension Group. Upon completion of the dynamic segmentation, the resulting line work was calibrated using known point locations as calibration points. However, the original data contains a margin of error of up to 10% for the linear footage. The error must be taken into consideration when using this data.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Riparian ecology</topic>
   </subject>
@@ -83,9 +83,25 @@
             <gml:upperCorner>-123.101537 39.190461</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5372163/about.rdf" dc:language="eng" dc:title="Mendocino County (Calif.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Russian River Watershed (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 123°12ʹ1ʺ--W 123°6ʹ6ʺ/N 39°11ʹ26ʺ--N 38°57ʹ14ʺ</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 123°12ʹ1ʺ--W 123°6ʹ6ʺ/N 39°11ʹ26ʺ--N 38°57ʹ14ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Russian River watershed GIS</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zt526qk7324</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

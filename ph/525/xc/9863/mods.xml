@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
-    <title>Riparian Extent: Alexander Valley Reach, Russian River, California, 2000 </title>
+    <title>Riparian Extent: Alexander Valley Reach, Russian River, California, 2000</title>
   </titleInfo>
   <name type="corporate">
     <namePart>Circuit Rider Productions</namePart>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2000</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -40,7 +40,7 @@
   <abstract displayLabel="Purpose" lang="eng">The intended use of this layer is to support watershed analysis and planning.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Circuit Rider Productions and National Oceanic and Atmospheric Administration (2002). Riparian Extent: Alexander Valley Reach, Russian River, California, 2000 . Circuit Rider Productions. Available at: http://purl.stanford.edu/ph525xc9863</note>
   <note displayLabel="Supplemental information">The Aggregate Resources Management (ARM) Plan aerial photos provided imagery coverage of the mainstem Russian River for photo-interpretation and digitizing riparian extent. Though these aerial photos were not orthogonally rectified, the terrain within the floodplain study area is relatively level and the mapping results are considered acceptable for purposes of natural resources planning.
-The aerials from the County of Sonoma Information Systems Department / GIS Group were corrected to the ground using aerial and ground-based global positioning system (GPS) survey coordinates. The data resolution varies from one-foot resolution or better in urban or incorporated areas and two-foot resolution in forested, mountainous, or other unincorporated areas of the County. These aerials were originally in California Stateplane Zone II, NAD 83 (survey feet) II coordinates and were later reprojected to UTM NAD 83 zone 10N. </note>
+The aerials from the County of Sonoma Information Systems Department / GIS Group were corrected to the ground using aerial and ground-based global positioning system (GPS) survey coordinates. The data resolution varies from one-foot resolution or better in urban or incorporated areas and two-foot resolution in forested, mountainous, or other unincorporated areas of the County. These aerials were originally in California Stateplane Zone II, NAD 83 (survey feet) II coordinates and were later reprojected to UTM NAD 83 zone 10N.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Hydrography</topic>
   </subject>
@@ -87,10 +87,25 @@ The aerials from the County of Sonoma Information Systems Department / GIS Group
             <gml:upperCorner>-122.821541 38.828426</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5397100/about.rdf" dc:language="eng" dc:title="Sonoma County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5372163/about.rdf" dc:language="eng" dc:title="Mendocino County (Calif.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Russian River Watershed (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 123°49ʺ--W 122°49ʹ18ʺ/N 38°49ʹ42ʺ--N 38°39ʹ10ʺ</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 123°49ʺ--W 122°49ʹ18ʺ/N 38°49ʹ42ʺ--N 38°39ʹ10ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Russian River watershed GIS</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zt526qk7324</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

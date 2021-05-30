@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Legislative Electoral Constituencies: Nord-Pas-de-Calais, France, 2010</title>
@@ -23,7 +23,7 @@
     <edition>1</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -34,10 +34,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::2154</projection>
-      <coordinates>(E 1&#xB0;32&#x2B9;8&#x2BA;--E 4&#xB0;15&#x2B9;20&#x2BA;/N 51&#xB0;5&#x2B9;24&#x2BA;--N 49&#xB0;57&#x2B9;56&#x2BA;)</coordinates>
+      <coordinates>(E 1°32ʹ8ʺ--E 4°15ʹ20ʺ/N 51°5ʹ24ʺ--N 49°57ʹ56ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the legislative district boundaries of the Nord-Pas-de-Calais region of France for 2010. Known as circonscriptions l&#xE9;gislatives, these are the electoral divisons for France's National Assembly.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the legislative district boundaries of the Nord-Pas-de-Calais region of France for 2010. Known as circonscriptions législatives, these are the electoral divisons for France's National Assembly.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Articque informatique. (2010). Legislative Electoral Constituencies: Nord-Pas-de-Calais, France, 2010. Articque informatique. Available at: http://purl.stanford.edu/np281xb9295</note>
   <subject>
@@ -77,8 +77,25 @@
             <gml:upperCorner>4.230652 51.08905</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/2990119/about.rdf" dc:language="eng" dc:title="Nord-Pas-de-Calais (France)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 1&#xB0;33&#x2B9;19&#x2BA;--E 4&#xB0;13&#x2B9;50&#x2BA;/N 51&#xB0;5&#x2B9;21&#x2BA;--N 49&#xB0;58&#x2B9;9&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 1°33ʹ19ʺ--E 4°13ʹ50ʺ/N 51°5ʹ21ʺ--N 49°58ʹ9ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Carticque France Elections V 2010</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/jm697sq9872</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

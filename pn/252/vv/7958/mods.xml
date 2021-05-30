@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">1992</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>GeoTIFF</form>
@@ -35,7 +35,7 @@
       <coordinates>(W 122°6ʹ50ʺ--W 121°42ʹ11ʺ/N 37°54ʺ--N 36°34ʹ19ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This GeoTIFF is a scan of NOAA Chart #18685: "United States--West Coast, California, Monterey Bay (1992)." This image shows the areas of Monterey Bay, Monterey Harbor, Moss Landing Harbor, Santa Cruz, and Small Craft Harbor in California. The original map was produced in July 25, 1992. These data are available in WGS84 and UTM Zone 10 (NAD83) projections. This layer is part of the GIS Data of the Monterey Bay collection, a compilation of data and imagery of the Monterey Bay area, including coastline, imagery, and bathymetry. </abstract>
+  <abstract displayLabel="Abstract" lang="eng">This GeoTIFF is a scan of NOAA Chart #18685: "United States--West Coast, California, Monterey Bay (1992)." This image shows the areas of Monterey Bay, Monterey Harbor, Moss Landing Harbor, Santa Cruz, and Small Craft Harbor in California. The original map was produced in July 25, 1992. These data are available in WGS84 and UTM Zone 10 (NAD83) projections. This layer is part of the GIS Data of the Monterey Bay collection, a compilation of data and imagery of the Monterey Bay area, including coastline, imagery, and bathymetry.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data. This collection of data provides documented layers of of the Monterey Bay to persons/institutions of interest throughout the research and educational communities.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Hatcher, G. (2008) Monterey Bay, Monterey Harbor, Moss Landing Harbor, Santa Cruz, Small Craft Harbor, 1992. Monterey Bay Aquarium Research Institute. Available at: http://purl.stanford.edu/pn252vv7958</note>
   <note displayLabel="Supplemental information">All data are registered to the WGS84 datum with two versions of each feature, image, and grid coverage included in the collection. One is in a Geographic (decimal degrees) coordinate system and the second is in a Universal Transverse Mercator (UTM) zone 10 projection.
@@ -92,12 +92,17 @@ NOTE: To most easily use the grid data, the ArcView Spatial Analyst extension sh
             <gml:upperCorner>-121.7033696 37.0151479</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5374363/about.rdf" dc:language="eng" dc:title="Monterey Bay (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5374395/about.rdf" dc:language="eng" dc:title="Monterey Harbor (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5393052/about.rdf" dc:language="eng" dc:title="Santa Cruz (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5393102/about.rdf" dc:language="eng" dc:title="Santa Cruz Small Craft Harbor"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5375043/about.rdf" dc:language="eng" dc:title="Moss Landing Harbor (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>GIS data of the Monterey Bay</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/yd676wr7013</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">Land Info grants customer unlimited license for internal academic use of data and license to distribute data on an isolated non-commercial basis, or as Derived Works. Derived works that include the source data must be merged with other value-added data in such a way that the derived work can't be converted back to the original source data format. Other Derived Works that don't include the source data (vector extraction, classification etc.) have no restrictions on use and distribution. An unlimited license is granted for media use, provided that the following citation is used:  "map data courtesy www.landinfo.com."</accessCondition>
 </mods>

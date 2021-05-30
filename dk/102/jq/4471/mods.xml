@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Oil and Gas Wells in the United States (Zone 3), Summer 2014</title>
@@ -22,7 +22,7 @@
     <edition>1016 Update</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 178&#xB0;17&#x2B9;33&#x2BA;--W 94&#xB0;36&#x2B9;17&#x2BA;/N 71&#xB0;51&#x2B9;14&#x2BA;--N 31&#xB0;22&#x2B9;12&#x2BA;)</coordinates>
+      <coordinates>(W 178°17ʹ33ʺ--W 94°36ʹ17ʺ/N 71°51ʹ14ʺ--N 31°22ʹ12ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point dataset shows the locations of oil and gas wells in the U.S. that are located in Rextag GIS Zone 3. Zone 3 includes the western and midwestern states, including Arizona, California, Colorado, Idaho, Kansas, Montana, Nebraska, Nevada, New Mexico, North Dakota, Oregon, South Dakota, Washington, Wyoming, and Utah. Information in this layer is based on data provided by numerous sources in a variety of digital formats, collected at the state or county level. This layer is from the summer quarter update of 2014.</abstract>
@@ -125,22 +125,25 @@
             <gml:upperCorner>-94.60464 71.853908</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5551752/" dc:language="eng" dc:title="Arizona"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5417618/" dc:language="eng" dc:title="Colorado"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5596512/" dc:language="eng" dc:title="Idaho"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4273857/" dc:language="eng" dc:title="Kansas"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5667009/" dc:language="eng" dc:title="Montana"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5073708/" dc:language="eng" dc:title="Nebraska"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5509151/" dc:language="eng" dc:title="Nevada"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5481136/" dc:language="eng" dc:title="New Mexico"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5690763/" dc:language="eng" dc:title="North Dakota"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5744337/" dc:language="eng" dc:title="Oregon"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5769223/" dc:language="eng" dc:title="South Dakota"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5815135/" dc:language="eng" dc:title="Washington (State)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5843591/" dc:language="eng" dc:title="Wyoming"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5549030/" dc:language="eng" dc:title="Utah"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 178&#xB0;17&#x2B9;33&#x2BA;--W 94&#xB0;36&#x2B9;17&#x2BA;/N 71&#xB0;51&#x2B9;14&#x2BA;--N 31&#xB0;22&#x2B9;12&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 178°17ʹ33ʺ--W 94°36ʹ17ʺ/N 71°51ʹ14ʺ--N 31°22ʹ12ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Oil and gas wells GIS data : United States</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sv325bx4406</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

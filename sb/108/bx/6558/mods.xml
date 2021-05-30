@@ -1,7 +1,7 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
-    <title>Commune Boundaries: Cantal, France, 2010 </title>
+    <title>Commune Boundaries: Cantal, France, 2010</title>
   </titleInfo>
   <name type="corporate">
     <namePart>Articque informatique</namePart>
@@ -23,7 +23,7 @@
     <edition>1</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::2154</projection>
-      <coordinates>(E 2&#xB0;3&#x2B9;16&#x2BA;--E 3&#xB0;22&#x2B9;29&#x2BA;/N 45&#xB0;29&#x2B9;3&#x2BA;--N 44&#xB0;36&#x2B9;52&#x2BA;)</coordinates>
+      <coordinates>(E 2°3ʹ16ʺ--E 3°22ʹ29ʺ/N 45°29ʹ3ʺ--N 44°36ʹ52ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents the Commune Boundaries for the Cantal department of France for 2010. These are the level 5 administrative divisions (ADM5) of Cantal. French communes are roughly equivalent to townships or incorporated municipalities.</abstract>
@@ -73,8 +73,25 @@
             <gml:upperCorner>3.371464 45.483216</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3028791/about.rdf" dc:language="eng" dc:title="Cantal (France)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 2&#xB0;3&#x2B9;46&#x2BA;--E 3&#xB0;22&#x2B9;17&#x2BA;/N 45&#xB0;29&#x2B9;--N 44&#xB0;36&#x2B9;56&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 2°3ʹ46ʺ--E 3°22ʹ17ʺ/N 45°29ʹ--N 44°36ʹ56ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Carticque France Administratif, 2010</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/wn457nv9847</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

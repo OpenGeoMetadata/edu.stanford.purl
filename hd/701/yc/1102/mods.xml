@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2002</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -36,7 +36,7 @@
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile shows the location of the Warm Spirings Fish Hatchery located in the Russian River watershed region near Geyserville, California. This layer is the result of querying a larger dataset developed by the California Department of Fish and Game (CDFG).</abstract>
-  <abstract displayLabel="Purpose" lang="eng"> This shapefile is intended to be used for watershed planning and analysis.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">This shapefile is intended to be used for watershed planning and analysis.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Circuit Rider Productions and National Oceanic and Atmospheric Administration (2002). Warm Springs Hatchery, Russian River Watershed, California, 2002. Circuit Rider Productions. Available at: http://purl.stanford.edu/hd701yc1102</note>
   <note displayLabel="Supplemental information">Data includes reference information as well as contact information.</note>
   <subject>
@@ -85,10 +85,25 @@
             <gml:upperCorner>-123.000627 38.718836</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5352059/about.rdf" dc:language="eng" dc:title="Geyserville (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5397100/about.rdf" dc:language="eng" dc:title="Sonoma County (Calif.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Russian River Watershed (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 123°2ʺ--W 123°2ʺ/N 38°43ʹ8ʺ--N 38°43ʹ8ʺ</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 123°2ʺ--W 123°2ʺ/N 38°43ʹ8ʺ--N 38°43ʹ8ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Russian River watershed GIS</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zt526qk7324</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Tamil Nadu, India: Village Socio-Demographic and Economic Census Data, 1991</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">1991</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>1:200000</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 76&#xB0;14&#x2B9;5&#x2BA;--E 80&#xB0;21&#x2B9;12&#x2BA;/N 13&#xB0;33&#x2B9;50&#x2BA;--N 8&#xB0;4&#x2B9;24&#x2BA;)</coordinates>
+      <coordinates>(E 76°14ʹ5ʺ--E 80°21ʹ12ʺ/N 13°33ʹ50ʺ--N 8°4ʹ24ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point dataset shows village boundaries with socio-demographic and economic Census data for 1991 for the State of Tamil Nadu, India linked to the 1991 Census. Includes village socio-demographic and economic Census attribute data such as total population, population by sex, household, literacy and illiteracy rates, and employment by industry. This layer is part of the VillageMap dataset which includes socio-demographic and economic Census data for 1991 at the village level for all the states of India. This data layer is sourced from secondary government sources, chiefly Survey of India, Census of India, Election Commission, etc.</abstract>
@@ -79,13 +79,13 @@
     <geographic lang="eng" valueURI="http://sws.geonames.org/1272023/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Eraniel (India)</geographic>
   </subject>
   <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/1260628/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">P&#x101;mban (India)</geographic>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/1260628/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Pāmban (India)</geographic>
   </subject>
   <subject>
     <geographic lang="eng" valueURI="http://sws.geonames.org/1257630/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Salem (India : District)</geographic>
   </subject>
   <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/1254388/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Tiruchchir&#x101;ppalli (India)</geographic>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/1254388/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Tiruchchirāppalli (India)</geographic>
   </subject>
   <subject>
     <geographic lang="eng" valueURI="http://sws.geonames.org/1264522/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Madurai (India : District)</geographic>
@@ -130,15 +130,25 @@
             <gml:upperCorner>80.35335 13.56393</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1255053/" dc:language="eng" dc:title="Tamil Nadu (India)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1272023/" dc:language="eng" dc:title="Eraniel (India)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1260628/" dc:language="eng" dc:title="P&#x101;mban (India)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1257630/" dc:language="eng" dc:title="Salem (India : District)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1254388/" dc:language="eng" dc:title="Tiruchchir&#x101;ppalli (India)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1264522/" dc:language="eng" dc:title="Madurai (India : District)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1273866/" dc:language="eng" dc:title="Coimbatore (India : District)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/7646145/" dc:language="eng" dc:title="Chennai (India : District)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 76&#xB0;14&#x2B9;5&#x2BA;--E 80&#xB0;21&#x2B9;12&#x2BA;/N 13&#xB0;33&#x2B9;50&#x2BA;--N 8&#xB0;4&#x2B9;24&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 76°14ʹ5ʺ--E 80°21ʹ12ʺ/N 13°33ʹ50ʺ--N 8°4ʹ24ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>VillageMap India 1991 : Primary Census Abstract with boundaries</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/vz256bs0128</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

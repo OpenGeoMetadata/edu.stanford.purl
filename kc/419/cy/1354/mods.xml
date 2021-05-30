@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2010</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -37,7 +37,7 @@
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This shapefile represents parks in Tuxtla Gutierrez (Mexico).</abstract>
-  <abstract displayLabel="Purpose" lang="eng">LeadDog Consulting (Originator and Publisher) has a Mexico-based data partner network for which they have access to GIS data sets to create city streets maps for Mexico, which may include streets, street names, street classifications, points of interests, landuse, water, neighborhood points, and railroads. These data are intended for geographic display and analysis at the city level. No responsibility is assumed by LeadDog Consulting. </abstract>
+  <abstract displayLabel="Purpose" lang="eng">LeadDog Consulting (Originator and Publisher) has a Mexico-based data partner network for which they have access to GIS data sets to create city streets maps for Mexico, which may include streets, street names, street classifications, points of interests, landuse, water, neighborhood points, and railroads. These data are intended for geographic display and analysis at the city level. No responsibility is assumed by LeadDog Consulting.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Instituto Nacional de Estadística, Geografía e Informática (Mexico) and LeadDog Consulting. (2010). Parks: Tuxtla Gutierrez, Mexico, 2010. LeadDog Consulting Available at: http://purl.stanford.edu/kc419cy1354</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Parks</topic>
@@ -52,7 +52,7 @@
     <temporal encoding="w3cdtf">2010</temporal>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="">Geoscientific Information</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
   </subject>
   <subject>
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="location">Location</topic>
@@ -82,8 +82,17 @@
             <gml:upperCorner>-93.083063 16.777912</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3515001/about.rdf" dc:language="eng" dc:title="Tuxtla Gutiérrez (Mexico)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Mexico GIS Maps and Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/jv541yy2984</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
 </mods>

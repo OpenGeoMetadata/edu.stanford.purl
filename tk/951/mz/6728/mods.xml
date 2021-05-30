@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">1998</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -36,7 +36,7 @@
       <coordinates>(W 123°24ʹ5ʺ--W 121°31ʹ1ʺ/N 37°4ʹ7ʺ--N 35°28ʹ39ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile is an index map of bathymetric data available from the 1998 MBARI Monterey Bay Multibeam Survey. Original bathymetric data were collected in 1998 using a 30kHz hull-mounted Simrad EM300 multibeam echo sounder system. This layer is part of the MBARI Monterey Bay Multibeam Survey collection, a compilation of data and imagery of the Monterey Bay and the adjacent seafloor, including coastline, imagery, and bathymetry. </abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile is an index map of bathymetric data available from the 1998 MBARI Monterey Bay Multibeam Survey. Original bathymetric data were collected in 1998 using a 30kHz hull-mounted Simrad EM300 multibeam echo sounder system. This layer is part of the MBARI Monterey Bay Multibeam Survey collection, a compilation of data and imagery of the Monterey Bay and the adjacent seafloor, including coastline, imagery, and bathymetry.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This collection of data provides documented layers of of the Monterey Bay to persons/institutions of interest throughout the research and educational communities. These maps help define the geological variability of the seafloor and provide a detailed framework for future oceanographic research, monitoring, and management activities.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Monterey Bay Aquarium Research Institute. (2000) Grid Boundaries: MBARI Monterey Bay Multibeam Survey, Monterey Bay, California, 1998. Monterey Bay Aquarium Research Institute. Available at: http://purl.stanford.edu/tk951mz6728</note>
   <subject>
@@ -79,8 +79,17 @@
             <gml:upperCorner>-121.516989 37.068592</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5374363/about.rdf" dc:language="eng" dc:title="Monterey Bay (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>MBARI Monterey Bay multibeam survey</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zv845sk1001</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
 </mods>

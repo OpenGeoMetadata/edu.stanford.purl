@@ -1,7 +1,7 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
-    <title>Legislative Electoral Constituencies: Saint-Barth&#xE9;lemy, 2010</title>
+    <title>Legislative Electoral Constituencies: Saint-Barthélemy, 2010</title>
   </titleInfo>
   <name type="corporate">
     <namePart>Articque informatique</namePart>
@@ -23,7 +23,7 @@
     <edition>1</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -34,12 +34,12 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::2154</projection>
-      <coordinates>(E 3&#xB0;4&#x2B9;4&#x2BA;--E 7&#xB0;18&#x2B9;31&#x2BA;/N 41&#xB0;18&#x2B9;34&#x2BA;--N 40&#xB0;33&#x2B9;4&#x2BA;)</coordinates>
+      <coordinates>(E 3°4ʹ4ʺ--E 7°18ʹ31ʺ/N 41°18ʹ34ʺ--N 40°33ʹ4ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the legislative district boundaries of Saint-Barth&#xE9;lemy for 2010. Known as circonscriptions l&#xE9;gislatives, these are the electoral divisons for France's National Assembly.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the legislative district boundaries of Saint-Barthélemy for 2010. Known as circonscriptions législatives, these are the electoral divisons for France's National Assembly.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">Articque informatique. (2010). Legislative Electoral Constituencies: Saint-Barth&#xE9;lemy, 2010. Articque informatique. Available at: http://purl.stanford.edu/kr966pm3384</note>
+  <note displayLabel="Preferred citation" lang="eng">Articque informatique. (2010). Legislative Electoral Constituencies: Saint-Barthélemy, 2010. Articque informatique. Available at: http://purl.stanford.edu/kr966pm3384</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Administrative and political divisions</topic>
   </subject>
@@ -47,7 +47,7 @@
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Election districts</topic>
   </subject>
   <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/3578476/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Saint-Barth&#xE9;lemy</geographic>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/3578476/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Saint-Barthélemy</geographic>
   </subject>
   <subject>
     <temporal encoding="w3cdtf">2010</temporal>
@@ -77,8 +77,25 @@
             <gml:upperCorner>7.279767 41.309297</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3578476/about.rdf" dc:language="eng" dc:title="Saint-Barth&#xE9;lemy"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 3&#xB0;4&#x2B9;7&#x2BA;--E 7&#xB0;16&#x2B9;47&#x2BA;/N 41&#xB0;18&#x2B9;33&#x2BA;--N 40&#xB0;33&#x2B9;34&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 3°4ʹ7ʺ--E 7°16ʹ47ʺ/N 41°18ʹ33ʺ--N 40°33ʹ34ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Carticque France Elections V 2010</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/jm697sq9872</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

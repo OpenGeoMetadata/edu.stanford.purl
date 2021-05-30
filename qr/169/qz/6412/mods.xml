@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Oil and Gas Wells in the United States (Zone 1), Summer 2014</title>
@@ -22,7 +22,7 @@
     <edition>1016 Update</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 106&#xB0;32&#x2B9;13&#x2BA;--W 83&#xB0;23&#x2B9;54&#x2BA;/N 38&#xB0;46&#x2B9;19&#x2BA;--N 25&#xB0;51&#x2B9;24&#x2BA;)</coordinates>
+      <coordinates>(W 106°32ʹ13ʺ--W 83°23ʹ54ʺ/N 38°46ʹ19ʺ--N 25°51ʹ24ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point dataset shows the locations of oil and gas wells in the U.S. that are located in Rextag GIS Zone 1. Zone 1 includes Arkansas, Louisiana, Oklahoma, Texas, and offshore sites within the Gulf of Mexico. Information in this layer is based on data provided by numerous sources in a variety of digital formats, collected at the state or county level. This layer is from the summer quarter update of 2014.</abstract>
@@ -98,12 +98,25 @@
             <gml:upperCorner>-83.398249 37.007414</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4099753/" dc:language="eng" dc:title="Arkansas"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4331987/" dc:language="eng" dc:title="Louisiana"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4544379/" dc:language="eng" dc:title="Oklahoma"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4736286/" dc:language="eng" dc:title="Texas"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3523271/" dc:language="eng" dc:title="Mexico, Gulf of"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 106&#xB0;32&#x2B9;13&#x2BA;--W 83&#xB0;23&#x2B9;54&#x2BA;/N 37&#xB0;27&#x2BA;--N 25&#xB0;51&#x2B9;24&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 106°32ʹ13ʺ--W 83°23ʹ54ʺ/N 37°27ʺ--N 25°51ʹ24ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Oil and gas wells GIS data : United States</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sv325bx4406</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

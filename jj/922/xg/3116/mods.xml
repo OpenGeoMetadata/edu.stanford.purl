@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Marital Status, Guyana, 2012</title>
@@ -24,7 +24,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -35,11 +35,11 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 61&#xB0;32&#x2B9;12&#x2BA;--W 57&#xB0;8&#x2B9;/N 8&#xB0;21&#x2B9;14&#x2BA;--N 0&#xB0;)</coordinates>
+      <coordinates>(W 61°32ʹ12ʺ--W 57°8ʹ/N 8°21ʹ14ʺ--N 0°)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains statistics on marital status from the 2012 Guyana Population and Housing Census. The census information was collected by the Bureau of Statistics in Guyana on September 15, 2012. The original questionnaire and other supporting documentation for this census is included with this download.</abstract>
-  <abstract displayLabel="Purpose" lang="eng"> These data are intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">These data are intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production.</abstract>
   <note displayLabel="Preferred citation" lang="eng">East View Cartographic, Inc. and Guyana Bureau of Statistics.(2018). Marital Status, Guyana, 2012. East View Cartographic, Inc. Available at: http://purl.stanford.edu/jj922xg3116.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Marital status</topic>
@@ -59,7 +59,6 @@
   <location>
     <url>http://purl.stanford.edu/jj922xg3116</url>
   </location>
-  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:jj922xg3116</recordIdentifier>
@@ -79,8 +78,25 @@
             <gml:upperCorner>-57.133919 8.344838</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3378535/" dc:language="eng" dc:title="Guyana"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 61&#xB0;29&#x2B9;21&#x2BA;--W 57&#xB0;8&#x2B9;2&#x2BA;/N 8&#xB0;20&#x2B9;41&#x2BA;--N 0&#xB0;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 61°29ʹ21ʺ--W 57°8ʹ2ʺ/N 8°20ʹ41ʺ--N 0°</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Guyana Census 2012</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/gs383hc4433</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

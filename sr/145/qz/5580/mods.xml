@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Legislative Electoral Constituencies: Oise, France, 2010</title>
@@ -23,7 +23,7 @@
     <edition>1</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -34,10 +34,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::2154</projection>
-      <coordinates>(E 1&#xB0;41&#x2B9;8&#x2BA;--E 3&#xB0;10&#x2B9;2&#x2BA;/N 49&#xB0;46&#x2B9;12&#x2BA;--N 49&#xB0;3&#x2B9;14&#x2BA;)</coordinates>
+      <coordinates>(E 1°41ʹ8ʺ--E 3°10ʹ2ʺ/N 49°46ʹ12ʺ--N 49°3ʹ14ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the legislative district boundaries of the Oise department of France for 2010. Known as circonscriptions l&#xE9;gislatives, these are the electoral divisons for France's National Assembly.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the legislative district boundaries of the Oise department of France for 2010. Known as circonscriptions législatives, these are the electoral divisons for France's National Assembly.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Articque informatique. (2010). Legislative Electoral Constituencies: Oise, France, 2010. Articque informatique. Available at: http://purl.stanford.edu/sr145qz5580</note>
   <subject>
@@ -77,8 +77,25 @@
             <gml:upperCorner>3.166158 49.763573</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/2990129/about.rdf" dc:language="eng" dc:title="Nord (France : Department)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 1&#xB0;41&#x2B9;19&#x2BA;--E 3&#xB0;9&#x2B9;58&#x2BA;/N 49&#xB0;45&#x2B9;49&#x2BA;--N 49&#xB0;3&#x2B9;38&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 1°41ʹ19ʺ--E 3°9ʹ58ʺ/N 49°45ʹ49ʺ--N 49°3ʹ38ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Carticque France Elections V 2010</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/jm697sq9872</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

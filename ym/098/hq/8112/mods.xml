@@ -1,7 +1,7 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
-    <title>Department Boundary: French Guiana, 2010 </title>
+    <title>Department Boundary: French Guiana, 2010</title>
   </titleInfo>
   <name type="corporate">
     <namePart>Articque informatique</namePart>
@@ -23,7 +23,7 @@
     <edition>1</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -34,7 +34,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::2154</projection>
-      <coordinates>(E 8&#xB0;46&#x2B9;6&#x2BA;--E 10&#xB0;8&#x2B9;14&#x2BA;/N 47&#xB0;48&#x2B9;12&#x2BA;--N 46&#xB0;39&#x2B9;)</coordinates>
+      <coordinates>(E 8°46ʹ6ʺ--E 10°8ʹ14ʺ/N 47°48ʹ12ʺ--N 46°39ʹ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents the department boundary of French Guiana for 2010. These are the level 2 administrative divisions (ADM2) of French Guiana. Department is one of the three levels of government below the national level ("territorial collectivities"), between the region and the commune. There are 96 departments in metropolitan France and 5 overseas departments, which also are classified as regions. Departments are further subdivided into 342 arrondissements, themselves divided into cantons; the latter two have no autonomy and are used for the organisation of public services and sometimes elections.</abstract>
@@ -77,8 +77,25 @@
             <gml:upperCorner>10.073543 47.787569</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3381670/about.rdf" dc:language="eng" dc:title="French Guiana"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 8&#xB0;46&#x2B9;31&#x2BA;--E 10&#xB0;4&#x2B9;25&#x2BA;/N 47&#xB0;47&#x2B9;15&#x2BA;--N 46&#xB0;42&#x2B9;1&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 8°46ʹ31ʺ--E 10°4ʹ25ʺ/N 47°47ʹ15ʺ--N 46°42ʹ1ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Carticque France Administratif, 2010</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/wn457nv9847</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

@@ -1,7 +1,7 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
-    <title>Commune Boundaries: Aube, France, 2010 </title>
+    <title>Commune Boundaries: Aube, France, 2010</title>
   </titleInfo>
   <name type="corporate">
     <namePart>Articque informatique</namePart>
@@ -23,7 +23,7 @@
     <edition>1</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::2154</projection>
-      <coordinates>(E 3&#xB0;22&#x2B9;46&#x2BA;--E 4&#xB0;52&#x2B9;56&#x2BA;/N 48&#xB0;43&#x2B9;21&#x2BA;--N 47&#xB0;54&#x2B9;50&#x2BA;)</coordinates>
+      <coordinates>(E 3°22ʹ46ʺ--E 4°52ʹ56ʺ/N 48°43ʹ21ʺ--N 47°54ʹ50ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents the Commune Boundaries for the Aube department of France for 2010. These are the level 5 administrative divisions (ADM5) of Aube. French communes are roughly equivalent to townships or incorporated municipalities.</abstract>
@@ -73,8 +73,25 @@
             <gml:upperCorner>4.864178 48.71669</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3036420/about.rdf" dc:language="eng" dc:title="Aube (France)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 3&#xB0;23&#x2B9;1&#x2BA;--E 4&#xB0;51&#x2B9;51&#x2BA;/N 48&#xB0;43&#x2B9;--N 47&#xB0;55&#x2B9;26&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 3°23ʹ1ʺ--E 4°51ʹ51ʺ/N 48°43ʹ--N 47°55ʹ26ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Carticque France Administratif, 2010</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/wn457nv9847</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

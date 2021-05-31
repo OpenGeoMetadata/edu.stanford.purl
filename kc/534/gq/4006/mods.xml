@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2000</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -39,7 +39,7 @@
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents the portion of the lands administered and/or owned by DFG layer within the Russian River basin. These data were derived from a 2000 California Department of Fish and Game (DFG) layer for the entire state of California. Polygon features from the original source data were selected based on their spatial location within the extent of the Russian River basin.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This layer can be used for watershed analysis and planning in the Russian River region of California.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Circuit Rider Productions and National Oceanic and Atmospheric Administration (2002). California Department of Fish and Game Lands: Russian River Basin, 2000. Circuit Rider Productions. Available at: http://purl.stanford.edu/kc534gq4006</note>
-  <note displayLabel="Supplemental information">    The DFGLANDS coverage is a digitized geographical inventory of
+  <note displayLabel="Supplemental information">The DFGLANDS coverage is a digitized geographical inventory of
     selected lands administered and/or owned by the California Department
     of Fish and Game (DFG). Properties such as ecological reserves,
     wildlife areas, undesignated lands containing biological resource
@@ -105,10 +105,25 @@
             <gml:upperCorner>-122.755688 39.127706</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5397100/about.rdf" dc:language="eng" dc:title="Sonoma County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5372163/about.rdf" dc:language="eng" dc:title="Mendocino County (Calif.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Russian River Watershed (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 123°9ʹ51ʺ--W 122°45ʹ20ʺ/N 39°7ʹ40ʺ--N 38°20ʹ45ʺ</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 123°9ʹ51ʺ--W 122°45ʹ20ʺ/N 39°7ʹ40ʺ--N 38°20ʹ45ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Russian River watershed GIS</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zt526qk7324</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

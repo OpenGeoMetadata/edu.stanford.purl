@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Shipping Fairways in the Gulf of Mexico, Fall 2012</title>
@@ -23,7 +23,7 @@
     <edition>1009 Update</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,8 +33,8 @@
   <subject>
     <cartographics>
       <scale>Scale not given.</scale>
-      <projection>EPSG::4269</projection>
-      <coordinates>(W 97&#xB0;7&#x2B9;12&#x2BA;--W 82&#xB0;18&#x2B9;27&#x2BA;/N 30&#xB0;39&#x2B9;56&#x2BA;--N 25&#xB0;28&#x2B9;1&#x2BA;)</coordinates>
+      <projection>Custom projection</projection>
+      <coordinates>(W 97°7ʹ12ʺ--W 82°18ʹ27ʺ/N 30°39ʹ56ʺ--N 25°28ʹ1ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polyline dataset shows the major shipping fairways in the Gulf of Mexico region. This layer includes data for Fall quarter 2012.</abstract>
@@ -78,8 +78,25 @@
             <gml:upperCorner>-82.307619 30.665492</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3523271/" dc:language="eng" dc:title="Mexico, Gulf of"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 97&#xB0;7&#x2B9;12&#x2BA;--W 82&#xB0;18&#x2B9;27&#x2BA;/N 30&#xB0;39&#x2B9;56&#x2BA;--N 25&#xB0;28&#x2B9;1&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 97°7ʹ12ʺ--W 82°18ʹ27ʺ/N 30°39ʹ56ʺ--N 25°28ʹ1ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Oil and gas wells GIS data : United States</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sv325bx4406</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

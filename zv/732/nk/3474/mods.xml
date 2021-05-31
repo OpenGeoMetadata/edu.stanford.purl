@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Administrative Unit Capitals, Pakistan, 1998</title>
@@ -27,7 +27,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -37,7 +37,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(E 67&#xB0;1&#x2B9;5&#x2BA;--E 74&#xB0;20&#x2B9;13&#x2BA;/N 35&#xB0;55&#x2B9;20&#x2BA;--N 24&#xB0;53&#x2B9;30&#x2BA;)</coordinates>
+      <coordinates>(E 67°1ʹ5ʺ--E 74°20ʹ13ʺ/N 35°55ʹ20ʺ--N 24°53ʹ30ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile contains the capital cities for level 1 administrative (ADM1) units in Pakistan in 1998. Administrative units consist of 4 provinces, one federal capital territory, two autonomous and disputed territories, and a group of federally administered tribal areas. This layer is part of a collection of data relating to administrative units in the Pakistan.</abstract>
@@ -83,8 +83,17 @@
             <gml:upperCorner>74.336909 35.922177</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1168579/" dc:language="eng" dc:title="Pakistan"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Pakistan administrative GIS spatial data [PA-A2] : ADM 1, 2, &amp; 3 administrative units and capitals</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zp065zw5741</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
 </mods>

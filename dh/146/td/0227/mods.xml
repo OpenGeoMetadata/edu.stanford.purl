@@ -23,7 +23,7 @@
     <dateValid encoding="w3cdtf" point="end">2002</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -38,7 +38,7 @@
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts groundwater basins and sub-basins as defined by the California Department of Water Resources, and are designated on the basis of geological and hydrological conditions such as the occurrence of alluvial or unconsolidated deposits. When practical, large basins are also subdivided by political boundaries, as in the Central Valley. Basins are named and numbered per the convention of the Department of Water Resources.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">This dataset is intended to aid assessment of the groundwater basins along the Russian River. </abstract>
+  <abstract displayLabel="Purpose" lang="eng">This dataset is intended to aid assessment of the groundwater basins along the Russian River.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Circuit Rider Productions and National Oceanic and Atmospheric Administration (2002). Ground GeoWaterbodies: Russian River, California, 1998-2002. Circuit Rider Productions. Available at: http://purl.stanford.edu/dh146td0227</note>
   <note displayLabel="Supplemental information">The State Water Resources Control Board traced selected formations from 250K USGS geologic maps onto mylar sheets. Because the USGS maps are regarded as high-quality maps and because of the integrity of mylar, it could be said that the resulting digitized coverage maintains good accuracy. Some of the tracings on the mylar, however, seemed a bit jagged and, in some cases, problems with horizontal rectification between USGS quads and the mylars were solved by repositioning tics. The coverage is, therefore, only of moderate quality.</note>
   <subject>
@@ -88,10 +88,25 @@
             <gml:upperCorner>-122.53999 39.363586</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5397100/about.rdf" dc:language="eng" dc:title="Sonoma County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5372163/about.rdf" dc:language="eng" dc:title="Mendocino County (Calif.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Russian River Watershed (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 123°15ʹ38ʺ--W 122°32ʹ24ʺ/N 39°21ʹ49ʺ--N 38°18ʹ</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 123°15ʹ38ʺ--W 122°32ʹ24ʺ/N 39°21ʹ49ʺ--N 38°18ʹ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Russian River watershed GIS</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zt526qk7324</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

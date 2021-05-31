@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Output Area Boundaries: South Oxfordshire, England, 2001</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2001</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 1&#xB0;17&#x2B9;27&#x2BA;--W 0&#xB0;51&#x2B9;39&#x2BA;/N 51&#xB0;48&#x2B9;51&#x2BA;--N 51&#xB0;27&#x2B9;30&#x2BA;)</coordinates>
+      <coordinates>(W 1°17ʹ27ʺ--W 0°51ʹ39ʺ/N 51°48ʹ51ʺ--N 51°27ʹ30ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains high-resolution output area (OA) boundaries and population statistics for South Oxfordshire, England. Output areas (OAs) are created for Census data, specifically for the output of census estimates. The OA is the lowest geographical level at which census estimates are provided. There are 175,434 output areas in England and Wales. They were created around a target of 125 resident households, and 37.5% lie between 120 and 129 households, whilst 79.5% lie between 110 and 139 households. Some 5% lie between 40 households - the confidentiality threshold - and 99 households, and many of these are a single parish (or community in Wales). The output areas nest within ward and parish (community in Wales) boundaries legally in place at the end of 2002. Draft boundaries were used in a few local authorities where final versions did not become available. Information on the operative dates for the district, ward and parish boundaries in each local authority is listed Here (as an Excel file), together with the number of Output Areas in each authority.</abstract>
@@ -79,8 +79,25 @@
             <gml:upperCorner>-0.870066 51.813772</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/2637349/" dc:language="eng" dc:title="South Oxfordshire (England)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 1&#xB0;17&#x2B9;25&#x2BA;--W 0&#xB0;52&#x2B9;12&#x2BA;/N 51&#xB0;48&#x2B9;50&#x2BA;--N 51&#xB0;27&#x2B9;34&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 1°17ʹ25ʺ--W 0°52ʹ12ʺ/N 51°48ʹ50ʺ--N 51°27ʹ34ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>OA Boundaries for England and Wales</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/df257my4238</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

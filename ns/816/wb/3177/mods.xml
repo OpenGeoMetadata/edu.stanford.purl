@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Upper Ganga Watershed, India: Sub-Basin Boundaries, 2012</title>
@@ -19,7 +19,7 @@
     <dateValid encoding="w3cdtf">2012</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -30,8 +30,8 @@
     <cartographics>
       <scale>1:250000</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 77&#xB0;35&#x2B9;33&#x2BA;--E 84&#xB0;49&#x2B9;37&#x2BA;/N 31&#xB0;27&#x2B9;26&#x2BA;--N 23&#xB0;57&#x2B9;10&#x2BA;)</coordinates>
-      <coordinates>(E 77&#xB0;35&#x2B9;33&#x2BA;--E 84&#xB0;49&#x2B9;37&#x2BA;/N 31&#xB0;27&#x2B9;26&#x2BA;--N 23&#xB0;57&#x2B9;10&#x2BA;)</coordinates>
+      <coordinates>(E 77°35ʹ33ʺ--E 84°49ʹ37ʺ/N 31°27ʹ26ʺ--N 23°57ʹ10ʺ)</coordinates>
+      <coordinates>(E 77°35ʹ33ʺ--E 84°49ʹ37ʺ/N 31°27ʹ26ʺ--N 23°57ʹ10ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon dataset shows the sub-basin boundaries of the Upper Ganga Watershed in India for 2012. This layer is part of the Watershed Map of India which includes information about drainage networks (i.e. major rivers, streams and large reservoirs.) Also includes data on catchment areas/watersheds boundaries, basins and sub-basins.</abstract>
@@ -71,7 +71,7 @@
     <geographic lang="eng" valueURI="http://sws.geonames.org/1262333/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Muzaffarnagar (India : District)</geographic>
   </subject>
   <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/6994903/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">R&#x101;mganga Nadi</geographic>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/6994903/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Rāmganga Nadi</geographic>
   </subject>
   <subject>
     <geographic lang="eng" valueURI="http://sws.geonames.org/1440994/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Tons Nadi</geographic>
@@ -104,15 +104,25 @@
             <gml:upperCorner>84.82694 31.45733</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1275715/" dc:language="eng" dc:title="Bihar (India)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1264542/" dc:language="eng" dc:title="Madhya Pradesh (India)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1253626/" dc:language="eng" dc:title="Uttar Pradesh (India)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1444366/" dc:language="eng" dc:title="Uttarakhand (India)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1202950/" dc:language="eng" dc:title="Ganges River (India and Bangladesh)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1262333/" dc:language="eng" dc:title="Muzaffarnagar (India : District)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6994903/" dc:language="eng" dc:title="R&#x101;mganga Nadi"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1440994/" dc:language="eng" dc:title="Tons Nadi"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 77&#xB0;35&#x2B9;33&#x2BA;--E 84&#xB0;49&#x2B9;37&#x2BA;/N 31&#xB0;27&#x2B9;26&#x2BA;--N 23&#xB0;57&#x2B9;10&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 77°35ʹ33ʺ--E 84°49ʹ37ʺ/N 31°27ʹ26ʺ--N 23°57ʹ10ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Watershed map of India</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/pf830fj1392</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

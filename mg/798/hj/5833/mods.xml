@@ -23,7 +23,7 @@
     <dateValid encoding="w3cdtf" point="end">2002</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -38,7 +38,7 @@
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">The polygon features were selected based on their spatial location within the extent of the Russian River basin and contains reach codes for networked features and isolated lakes, flow direction, names, stream level, and centerline representations for areal water bodies. Reaches are also defined to represent waterbodies.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">This dataset describes the lakes of the Russian River basin and is intended for hydrography analysis and planning. </abstract>
+  <abstract displayLabel="Purpose" lang="eng">This dataset describes the lakes of the Russian River basin and is intended for hydrography analysis and planning.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Circuit Rider Productions and National Oceanic and Atmospheric Administration (2002). Waterbody Reach: Russian River Basin, California, 1999-2002. Circuit Rider Productions. Available at: http://purl.stanford.edu/mg798hj5833</note>
   <note displayLabel="Supplemental information">The accuracy of the attributes of the Digital Line Graph data is estimated to be 98.5 percent. One or more of the following methods were used to test attribute accuracy: - manual comparison of the source with hardcopy plots. - symbolized display of the digital line graph on an interactive computer graphic system. - Selected attributes that could not be visually verified on plots or on screen were interactively queried and verified on screen. In addition, software validated feature types and characteristics against a master set of types and characteristics, checked that combinations of types and characteristics were valid, and that types and characteristics were valid for the delineation of the feature.
 
@@ -92,10 +92,25 @@ Features found on the ground may have been eliminated or generalized on the sour
             <gml:upperCorner>-122.581667 39.378218</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5397100/about.rdf" dc:language="eng" dc:title="Sonoma County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5372163/about.rdf" dc:language="eng" dc:title="Mendocino County (Calif.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Russian River Watershed (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 123°22ʹ12ʺ--W 122°34ʹ54ʺ/N 39°22ʹ42ʺ--N 38°21ʹ59ʺ</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 123°22ʹ12ʺ--W 122°34ʹ54ʺ/N 39°22ʹ42ʺ--N 38°21ʹ59ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Russian River watershed GIS</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zt526qk7324</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

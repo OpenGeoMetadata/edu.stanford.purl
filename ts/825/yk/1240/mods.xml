@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Commune Boundaries: French Polynesia, 2010</title>
@@ -23,7 +23,7 @@
     <edition>1</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -34,7 +34,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::2154</projection>
-      <coordinates>(E 0&#xB0;14&#x2B9;27&#x2BA;--E 4&#xB0;59&#x2B9;37&#x2BA;/N 40&#xB0;4&#x2B9;9&#x2BA;--N 37&#xB0;35&#x2B9;56&#x2BA;)</coordinates>
+      <coordinates>(E 0°14ʹ27ʺ--E 4°59ʹ37ʺ/N 40°4ʹ9ʺ--N 37°35ʹ56ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents the Commune Boundaries of French Polynesia for 2010. These are the level 5 administrative divisions (ADM5). French communes are roughly equivalent to townships or incorporated municipalities.</abstract>
@@ -74,8 +74,25 @@
             <gml:upperCorner>4.946993 40.060876</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4030656/about.rdf" dc:language="eng" dc:title="French Polynesia"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 0&#xB0;20&#x2B9;46&#x2BA;--E 4&#xB0;56&#x2B9;49&#x2BA;/N 40&#xB0;3&#x2B9;39&#x2BA;--N 37&#xB0;36&#x2B9;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 0°20ʹ46ʺ--E 4°56ʹ49ʺ/N 40°3ʹ39ʺ--N 37°36ʹ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Carticque France Administratif, 2010</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/wn457nv9847</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">1998</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -36,7 +36,7 @@
       <coordinates>(W 122°29ʹ58ʺ--W 121°/N 37°30ʹ--N 35°27ʹ36ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This line shapefile represents the coastline of California, ranging from El Grenada south to (approx.) Cayucos. This layer includes the survey region of the MBARI Mulitbeam Survey of 1998. </abstract>
+  <abstract displayLabel="Abstract" lang="eng">This line shapefile represents the coastline of California, ranging from El Grenada south to (approx.) Cayucos. This layer includes the survey region of the MBARI Mulitbeam Survey of 1998.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This collection of data provides documented layers of of the Monterey Bay to persons/institutions of interest throughout the research and educational communities. These maps help define the geological variability of the seafloor and provide a detailed framework for future oceanographic research, monitoring, and management activities.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Monterey Bay Aquarium Research Institute. (2000). Coastline: MBARI Multibeam Survey Region, 1998. Monterey Bay Aquarium Research Institute. Available at: http://purl.stanford.edu/wz439dh2495</note>
   <subject>
@@ -73,8 +73,17 @@
             <gml:upperCorner>-121.0 37.5</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5374363/about.rdf" dc:language="eng" dc:title="Monterey Bay (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>MBARI Monterey Bay multibeam survey</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zv845sk1001</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
 </mods>

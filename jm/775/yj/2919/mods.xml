@@ -1,13 +1,10 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Market Village Map of India, 2011</title>
   </titleInfo>
-  <titleInfo>
-    <title type="alternative">Market VillageMap of India : digital map of Market Village points of India, 2011</title>
-  </titleInfo>
-  <titleInfo>
-    <title displayLabel="Alternative title">Market VillageMap of India : digital map of Market Village points of India, 2011</title>
+  <titleInfo type="alternative" displayLabel="Alternative title">
+    <title>Market Village Map of India : digital map of Market Village points of India, 2011</title>
   </titleInfo>
   <name type="corporate">
     <namePart>ML InfoMap (Firm)</namePart>
@@ -27,7 +24,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -38,7 +35,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 68&#xB0;40&#x2B9;34&#x2BA;--E 97&#xB0;9&#x2B9;57&#x2BA;/N 34&#xB0;37&#x2B9;2&#x2BA;--N 8&#xB0;7&#x2B9;55&#x2BA;)</coordinates>
+      <coordinates>(E 68°40ʹ34ʺ--E 97°9ʹ57ʺ/N 34°37ʹ2ʺ--N 8°7ʹ55ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile represents market villages of India. Markets may be held daily, weekly or monthly. The identification of the market village is from the 2011 Census of India. The location coordinates are from satellite images, and all villages over 5000 population are placed on the village settlement. In the present database, several features have been added from the Village Asset tables of the District Census Hanbook of 2011.</abstract>
@@ -70,18 +67,17 @@
     <temporal encoding="w3cdtf">2011</temporal>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="economy">Economy</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode_economy">Economy</topic>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="location">Location</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode_location">Location</topic>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="transportation">Transportation</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode_transportation">Transportation</topic>
   </subject>
   <location>
     <url>http://purl.stanford.edu//jm775yj2919</url>
   </location>
-  <accessCondition type="useAndReproduction">Data may not be distributed, copied, or made available to users outside of the Stanford University Network. Data may not used for commercial purposes. Users should acknowledge ML Infomap in any derivative works. </accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:jm775yj2919</recordIdentifier>
@@ -105,4 +101,22 @@
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 68&#xB0;40&#x2B9;34&#x2BA;--E 97&#xB0;9&#x2B9;57&#x2BA;/N 34&#xB0;37&#x2B9;2&#x2BA;--N 8&#xB0;7&#x2B9;55&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 68°40ʹ34ʺ--E 97°9ʹ57ʺ/N 34°37ʹ2ʺ--N 8°7ʹ55ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>India Market Villages</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/vn124mg6399</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

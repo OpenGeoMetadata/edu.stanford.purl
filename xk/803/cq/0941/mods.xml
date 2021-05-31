@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">1985</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -39,7 +39,7 @@
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the fire hazard severity zones that lie within the Russian River basin region of California. Following the disastrous 1980 fire season, Senator Ayala introduced legislation which required the Director of CDF to zone all State Responsibility Area (SRA) lands in accordance with the degree of severity of fire hazard. The purpose of the zoning was for identifying measures to be taken to retard the rate of spreading and to reduce the potential intensity of uncontrolled fires that threaten to destroy resources, life, or property. Each zone was "to embrace relatively homogeneous lands and shall be based on fuel loading, slope, fire weather, and other relevant factors present" (PRC 4201-4204). The final maps were adopted into regulation as Section 1280 of CCR Title 14 on March 12, 1985. The end result was that each "Fire Hazard Severity Zone (FHSZ)" received one of three ratings: Moderate, High, or Very High. The original data from 1985 was digitized into a GIS format. These data have been overlain with the most current "official" SRA data (1998) to give FHSZs on current SRA.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This layer can be used for watershed analysis and planning in the Russian River region of California.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Circuit Rider Productions and National Oceanic and Atmospheric Administration (2002). Fire Hazard Severity Zones: Russian River Basin, California, 2001. Circuit Rider Productions. Available at: http://purl.stanford.edu/xk803cq0941</note>
-  <note displayLabel="Supplemental information">    Given the limitations and age of this data, it has very limited utility. Examination of this data suggests that little effort was made to standardize zoning procedures between ranger units. There are cases where ranger units that might be expected to have similar hazard characteristics appear to be much different in terms of FHSZs. For example, there are ranger units zoned exclusively as Very High while an adjacent unit has a variety of zones of different ratings. There are also cases where ratings change abruptly at ranger unit boundaries. These inconsistencies are a direct result of a lack of procedural standardization, and could be due to different long-term planning periods, different interpretation of fuel models, or the level of detail used to map the various zones. 
+  <note displayLabel="Supplemental information">Given the limitations and age of this data, it has very limited utility. Examination of this data suggests that little effort was made to standardize zoning procedures between ranger units. There are cases where ranger units that might be expected to have similar hazard characteristics appear to be much different in terms of FHSZs. For example, there are ranger units zoned exclusively as Very High while an adjacent unit has a variety of zones of different ratings. There are also cases where ratings change abruptly at ranger unit boundaries. These inconsistencies are a direct result of a lack of procedural standardization, and could be due to different long-term planning periods, different interpretation of fuel models, or the level of detail used to map the various zones. 
      
     The gross inconsistencies in the data are obvious from even a cursory examination of the statewide FHSZ map. The fact that there was no effort to standardize the mapping effort or review the data for accuracy suggest that the data be used with extreme caution. 
 
@@ -63,7 +63,7 @@ Finally, the zones are designed to give an average hazard rating for the area. T
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="environment">Environment</topic>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="">Geoscientific Information</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
   </subject>
   <location>
     <url>http://purl.stanford.edu/xk803cq0941</url>
@@ -87,10 +87,25 @@ Finally, the zones are designed to give an average hazard rating for the area. T
             <gml:upperCorner>-122.528843 39.399103</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5397100/about.rdf" dc:language="eng" dc:title="Sonoma County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5372163/about.rdf" dc:language="eng" dc:title="Mendocino County (Calif.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Russian River Watershed (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 123°23ʹ15ʺ--W 122°31ʹ44ʺ/N 39°23ʹ57ʺ--N 38°17ʹ55ʺ</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 123°23ʹ15ʺ--W 122°31ʹ44ʺ/N 39°23ʹ57ʺ--N 38°17ʹ55ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Russian River watershed GIS</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zt526qk7324</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

@@ -1,10 +1,10 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Nile River Boundaries, Egypt, 2006</title>
   </titleInfo>
   <name type="corporate">
-    <namePart>Egypt. Jiha&#x304;z al-Markazi&#x304; lil-Ta&#x2BB;bi&#x2BC;ah al-&#x2BB;A&#x304;mmah wa-al-Ih&#x323;s&#x323;a&#x304;&#x2BC;</namePart>
+    <namePart>Egypt. Jihāz al-Markazī lil-Taʻbiʼah al-ʻĀmmah wa-al-Iḥṣāʼ</namePart>
     <role>
       <roleTerm type="text" authority="marcrelator">creator</roleTerm>
     </role>
@@ -14,7 +14,7 @@
   <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
   <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
   <originInfo>
-    <publisher>Egypt. Jiha&#x304;z al-Markazi&#x304; lil-Ta&#x2BB;bi&#x2BC;ah al-&#x2BB;A&#x304;mmah wa-al-Ih&#x323;s&#x323;a&#x304;&#x2BC;</publisher>
+    <publisher>Egypt. Jihāz al-Markazī lil-Taʻbiʼah al-ʻĀmmah wa-al-Iḥṣāʼ</publisher>
     <place>
       <placeTerm type="text">Cairo, EG</placeTerm>
     </place>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2006</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::32636</projection>
-      <coordinates>(E 30&#xB0;21&#x2B9;39&#x2BA;--E 33&#xB0;8&#x2B9;38&#x2BA;/N 31&#xB0;31&#x2B9;56&#x2BA;--N 21&#xB0;57&#x2B9;8&#x2BA;)</coordinates>
+      <coordinates>(E 30°21ʹ39ʺ--E 33°8ʹ38ʺ/N 31°31ʹ56ʺ--N 21°57ʹ8ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts the coverage area of the Nile River in Egypt as of 2006. These data are part of a collection of boundary data for Egypt published by the Central Agency for Public Mobilization And Statistics.</abstract>
@@ -76,8 +76,25 @@
             <gml:upperCorner>33.133035 31.527059</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/357994/about.rdf" dc:language="eng" dc:title="Egypt"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 30&#xB0;21&#x2B9;42&#x2BA;--E 33&#xB0;7&#x2B9;59&#x2BA;/N 31&#xB0;31&#x2B9;37&#x2BA;--N 21&#xB0;57&#x2B9;43&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 30°21ʹ42ʺ--E 33°7ʹ59ʺ/N 31°31ʹ37ʺ--N 21°57ʹ43ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Egypt boundaries : Governorates, Kism, Marka</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/tp306xd1863</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

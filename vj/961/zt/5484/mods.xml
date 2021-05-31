@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">1998</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Raster Dataset</form>
@@ -35,12 +35,12 @@
       <coordinates>(W 121°54ʹ46ʺ--W 121°31ʹ1ʺ/N 36°15ʹ4ʺ--N 35°34ʹ4ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This GeoTIFF shows multibeam backscatter imagery extraced from gridded bathymetry of Upper Lucia Canyon in Monterey Bay, California. Original bathymetric data were collected in 1998 using a 30kHz hull-mounted Simrad EM300 multibeam echo sounder system. Grids for this coverage area have cell size of 25 meters. This layer is part of the MBARI Monterey Bay Multibeam Survey collection, a compilation of data and imagery of the Monterey Bay and the adjacent seafloor, including coastline, imagery, and bathymetry. </abstract>
+  <abstract displayLabel="Abstract" lang="eng">This GeoTIFF shows multibeam backscatter imagery extraced from gridded bathymetry of Upper Lucia Canyon in Monterey Bay, California. Original bathymetric data were collected in 1998 using a 30kHz hull-mounted Simrad EM300 multibeam echo sounder system. Grids for this coverage area have cell size of 25 meters. This layer is part of the MBARI Monterey Bay Multibeam Survey collection, a compilation of data and imagery of the Monterey Bay and the adjacent seafloor, including coastline, imagery, and bathymetry.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This collection of data provides documented layers of of the Monterey Bay to persons/institutions of interest throughout the research and educational communities. These maps help define the geological variability of the seafloor and provide a detailed framework for future oceanographic research, monitoring, and management activities.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Monterey Bay Aquarium Research Institute. (2000) Acoustic Reflexivity (Backscatter) Image: Upper Lucia Canyon, Monterey Bay, California, 1998. Monterey Bay Aquarium Research Institute. Available at: http://purl.stanford.edu/vj961zt5484</note>
   <note displayLabel="Supplemental information">A 560 square kilometer pockmark field containing approximately 1,500 individual depressions lies to the south of the Sur and Lucia Canyons. These features occur on a slope platform at depths ranging from 900 meters to 1,200 meters. The pockmarks have irregular circular rims and cross-sectional profiles resembling an inverted cone with inward dipping slopes of 5° to 6°. Diameters range from 130 meters to 260 meters, and depths from rim to bottom range from 8-12 meters, with the typical pockmark being 200 meters across and 10 meters deep. Pockmark densities range from 1.5/km2 in the north increasing to 6/km2 in the south. The southern extent of the pockmark field is unknown but almost certainly extends beyond the southern edge of the surveyed area.
 
-A levied channel with associated overbank deposits and abandoned channel scars bisects the pockmark field in an east-west direction. The overbank deposits appear to have obliterated previously existing pocks, while newer pocks form linear strings along partly buried older channels. Elsewhere they are distributed so as to maintain some optimum distance from each other, and only rarely do two or more pockmarks coalesce (Maher et al., 1998). </note>
+A levied channel with associated overbank deposits and abandoned channel scars bisects the pockmark field in an east-west direction. The overbank deposits appear to have obliterated previously existing pocks, while newer pocks form linear strings along partly buried older channels. Elsewhere they are distributed so as to maintain some optimum distance from each other, and only rarely do two or more pockmarks coalesce (Maher et al., 1998).</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Bathymetric maps</topic>
   </subject>
@@ -84,8 +84,17 @@ A levied channel with associated overbank deposits and abandoned channel scars b
             <gml:upperCorner>-121.5169094 36.2510838</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5374363/about.rdf" dc:language="eng" dc:title="Monterey Bay (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>MBARI Monterey Bay multibeam survey</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zv845sk1001</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
 </mods>

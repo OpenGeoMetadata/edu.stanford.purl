@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Orissa, India: Village Socio-Demographic and Economic Census Data, 1991</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">1991</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>1:200000</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 81&#xB0;23&#x2B9;27&#x2BA;--E 87&#xB0;29&#x2B9;20&#x2BA;/N 22&#xB0;33&#x2B9;54&#x2BA;--N 17&#xB0;49&#x2B9;17&#x2BA;)</coordinates>
+      <coordinates>(E 81°23ʹ27ʺ--E 87°29ʹ20ʺ/N 22°33ʹ54ʺ--N 17°49ʹ17ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon dataset shows village boundaries with socio-demographic and economic Census data for 1991 for the State of Orissa, India linked to the 1991 Census. Includes village socio-demographic and economic Census attribute data such as total population, population by sex, household, literacy and illiteracy rates, and employment by industry. This layer is part of the VillageMap dataset which includes socio-demographic and economic Census data for 1991 at the village level for all the states of India. This data layer is sourced from secondary government sources, chiefly Survey of India, Census of India, Election Commission, etc.</abstract>
@@ -79,7 +79,7 @@
     <geographic lang="eng" valueURI="http://sws.geonames.org/1275734/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Bideipur (India)</geographic>
   </subject>
   <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/1277576/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">B&#x101;ligurha (India)</geographic>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/1277576/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Bāligurha (India)</geographic>
   </subject>
   <subject>
     <geographic lang="eng" valueURI="http://sws.geonames.org/1275198/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Brahmapur (India)</geographic>
@@ -124,13 +124,25 @@
             <gml:upperCorner>87.48894 22.56487</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1261029/" dc:language="eng" dc:title="Orissa (India)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1275734/" dc:language="eng" dc:title="Bideipur (India)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1277576/" dc:language="eng" dc:title="B&#x101;ligurha (India)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1275198/" dc:language="eng" dc:title="Brahmapur (India)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1273781/" dc:language="eng" dc:title="Cuttack (India : District)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1275817/" dc:language="eng" dc:title="Bhubaneswar (India)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 81&#xB0;23&#x2B9;27&#x2BA;--E 87&#xB0;29&#x2B9;20&#x2BA;/N 22&#xB0;33&#x2B9;54&#x2BA;--N 17&#xB0;49&#x2B9;17&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 81°23ʹ27ʺ--E 87°29ʹ20ʺ/N 22°33ʹ54ʺ--N 17°49ʹ17ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>VillageMap India 1991 : Primary Census Abstract with boundaries</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/vz256bs0128</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

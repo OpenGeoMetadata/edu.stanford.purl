@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Line Features of the Russian River Watershed, California, 1998</title>
@@ -23,7 +23,7 @@
     <dateValid encoding="w3cdtf" point="end">2001</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -34,10 +34,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 122&#xB0;52&#x2B9;15&#x2BA;--W 122&#xB0;50&#x2B9;21&#x2BA;/N 38&#xB0;36&#x2B9;48&#x2BA;--N 38&#xB0;33&#x2B9;24&#x2BA;)</coordinates>
+      <coordinates>(W 122°52ʹ15ʺ--W 122°50ʹ21ʺ/N 38°36ʹ48ʺ--N 38°33ʹ24ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This line shapefile features stream cross section data from the Russian River mainstem and describes 1998 project limits, tree dripline, DEM breaklines, channel and gravel roads for the Middle Reach. The original source data from which this GIS file was created was contributed to the RRGIS by the Sonoma County Water Agency (SCWA). The Sonoma County Water Agency gathers stream cross section data for the Russian River mainstem on a yearly basis. Comprehensive stream cross sectional information was contributed to the RRGIS for the years 1993 through 2001. Additional cross section data describing conditions as far back as 1990 was at times included in certain files. The contriubted data were in a variety of file formats including .txt , .xls and .dwg. During an advisory meeting with fisheries biologists, it was determined that converting the SCWA cross section data into a GIS formatted file was a high priority for local salmonid recovery planning efforts. </abstract>
+  <abstract displayLabel="Abstract" lang="eng">This line shapefile features stream cross section data from the Russian River mainstem and describes 1998 project limits, tree dripline, DEM breaklines, channel and gravel roads for the Middle Reach. The original source data from which this GIS file was created was contributed to the RRGIS by the Sonoma County Water Agency (SCWA). The Sonoma County Water Agency gathers stream cross section data for the Russian River mainstem on a yearly basis. Comprehensive stream cross sectional information was contributed to the RRGIS for the years 1993 through 2001. Additional cross section data describing conditions as far back as 1990 was at times included in certain files. The contriubted data were in a variety of file formats including .txt , .xls and .dwg. During an advisory meeting with fisheries biologists, it was determined that converting the SCWA cross section data into a GIS formatted file was a high priority for local salmonid recovery planning efforts.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This dataset is intended to be used for mapping and analysis.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Circuit Rider Productions and National Oceanic and Atmospheric Administration (2002). Line Features of the Russian River Watershed, California, 1998. Circuit Rider Productions. Available at: http://purl.stanford.edu/yf972rd4740.</note>
   <note displayLabel="Supplemental information">Comprehensive stream cross sectional information was contributed for the years 1993 through 2001. Additional cross section data describing conditions as far back as 1990 was at times included in certain files.</note>
@@ -87,10 +87,25 @@
             <gml:upperCorner>-122.839207 38.613246</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5397100/" dc:language="eng" dc:title="Sonoma County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5372163/" dc:language="eng" dc:title="Mendocino County (Calif.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Russian River Watershed (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;52&#x2B9;15&#x2BA;--W 122&#xB0;50&#x2B9;21&#x2BA;/N 38&#xB0;36&#x2B9;48&#x2BA;--N 38&#xB0;33&#x2B9;24&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°52ʹ15ʺ--W 122°50ʹ21ʺ/N 38°36ʹ48ʺ--N 38°33ʹ24ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Russian River watershed GIS</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zt526qk7324</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

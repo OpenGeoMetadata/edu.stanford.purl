@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>2010 China Township Census</title>
@@ -29,7 +29,7 @@
     <edition>v.4</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -40,7 +40,7 @@
     <cartographics>
       <scale>1:1000000</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(E 74&#xB0;2&#x2B9;44&#x2BA;--E 134&#xB0;34&#x2B9;32&#x2BA;/N 53&#xB0;28&#x2B9;49&#x2BA;--N 8&#xB0;49&#x2B9;41&#x2BA;)</coordinates>
+      <coordinates>(E 74°2ʹ44ʺ--E 134°34ʹ32ʺ/N 53°28ʹ49ʺ--N 8°49ʹ41ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile contains the locations of townships in China with 2010 census population statistics. These data are represented at 1:1,000,000 scale. This layer is part of the China 2010 township population census dataset.</abstract>
@@ -95,8 +95,17 @@
             <gml:upperCorner>134.575686 53.480186</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1814991/" dc:language="eng" dc:title="China"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>2010 China province population census data with GIS maps</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qv036gj9039</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
 </mods>

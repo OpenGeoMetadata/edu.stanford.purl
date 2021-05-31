@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Population by County, Census: China, 1964</title>
@@ -33,15 +33,12 @@
   <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
   <originInfo>
     <publisher>University of Michigan. China Data Center</publisher>
-    <place>
-      <placeTerm type="text"/>
-    </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2006</dateIssued>
     <dateValid encoding="w3cdtf">1964</dateValid>
     <edition>Version III</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -52,8 +49,8 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(E 73&#xB0;26&#x2B9;49&#x2BA;--E 135&#xB0;5&#x2B9;9&#x2BA;/N 53&#xB0;33&#x2B9;29&#x2BA;--N 5&#xB0;22&#x2B9;11&#x2BA;)</coordinates>
-      <coordinates>(E 73&#xB0;26&#x2B9;49&#x2BA;--E 135&#xB0;5&#x2B9;9&#x2BA;/N 53&#xB0;33&#x2B9;29&#x2BA;--N 5&#xB0;22&#x2B9;11&#x2BA;)</coordinates>
+      <coordinates>(E 73°26ʹ49ʺ--E 135°5ʹ9ʺ/N 53°33ʹ29ʺ--N 5°22ʹ11ʺ)</coordinates>
+      <coordinates>(E 73°26ʹ49ʺ--E 135°5ʹ9ʺ/N 53°33ʹ29ʺ--N 5°22ʹ11ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains county boundaries and population data for China from the 1964 Census. These data were primarily based on "The Historical Administrative Maps of the People's Republic of China" published by China Map Press.</abstract>
@@ -108,8 +105,17 @@
             <gml:upperCorner>135.085831 53.557926</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1814991/about.rdf" dc:language="eng" dc:title="China"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Zhongguo wu ci xian ji ren kou pu cha shu ju : Historical county population census data with maps : 1953, 1964, 1982, 1990, 2000</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/fd953pg7906</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
 </mods>

@@ -34,7 +34,7 @@
     <dateValid encoding="w3cdtf">1997</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>GeoTIFF</form>
@@ -47,7 +47,7 @@
       <coordinates>(W 122°30ʹ47ʺ--W 121°47ʹ2ʺ/N 37°4ʺ--N 36°29ʹ38ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This GeoTIFF is a grayscale image of the filtered 20-Meter Bathymetry Grid of Monterey Bay, California (BATHY20F). These data are available in WGS84 and UTM Zone 10 (NAD83) projections. This layer is part of the GIS Data of the Monterey Bay collection, a compilation of data and imagery of the Monterey Bay area, including coastline, imagery, and bathymetry. </abstract>
+  <abstract displayLabel="Abstract" lang="eng">This GeoTIFF is a grayscale image of the filtered 20-Meter Bathymetry Grid of Monterey Bay, California (BATHY20F). These data are available in WGS84 and UTM Zone 10 (NAD83) projections. This layer is part of the GIS Data of the Monterey Bay collection, a compilation of data and imagery of the Monterey Bay area, including coastline, imagery, and bathymetry.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data. This collection of data provides documented layers of of the Monterey Bay to persons/institutions of interest throughout the research and educational communities.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Maher, N., Hatcher, G., and Bucciarelli, R. (1998). 20-Meter Grayscale Bathymetry Image (Filtered): Monterey Bay, California, 1997. Monterey Bay Aquarium Research Institute. Available at: http://purl.stanford.edu/kf247sf9818</note>
   <note displayLabel="Supplemental information">All data are registered to the WGS84 datum with two versions of each feature, image, and grid coverage included in the collection. One is in a Geographic (decimal degrees) coordinate system and the second is in a Universal Transverse Mercator (UTM) zone 10 projection.
@@ -95,8 +95,17 @@ NOTE: To most easily use the grid data, the ArcView Spatial Analyst extension sh
             <gml:upperCorner>-121.7833436 37.0036731</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5374363/about.rdf" dc:language="eng" dc:title="Monterey Bay (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>GIS data of the Monterey Bay</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/yd676wr7013</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
 </mods>

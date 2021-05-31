@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Krishna Watershed, India: Drainage Areas, 2012</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2012</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>1:250000</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(E 73&#xB0;21&#x2B9;1&#x2BA;--E 81&#xB0;51&#x2B9;45&#x2BA;/N 19&#xB0;24&#x2B9;13&#x2BA;--N 13&#xB0;6&#x2B9;5&#x2BA;)</coordinates>
+      <coordinates>(E 73°21ʹ1ʺ--E 81°51ʹ45ʺ/N 19°24ʹ13ʺ--N 13°6ʹ5ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polyline dataset shows the drainage areas of the Krishna Watershed of India for 2012. The Krishna watershed lies within the states of Maharashra, Karnataka and Andhra Pradesh. This layer is part of the Watershed Map of India which includes information about drainage networks (i.e. major rivers, streams and large reservoirs.) Also includes data on catchment areas/watersheds boundaries, basins and sub-basins.</abstract>
@@ -97,12 +97,17 @@
             <gml:upperCorner>81.862373 19.403732</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1278629/" dc:language="eng" dc:title="Andhra Pradesh (India)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1264418/" dc:language="eng" dc:title="Maharashtra (India)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1267701/" dc:language="eng" dc:title="Karnataka (India)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Krishna River (India)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Krishna River Watershed (India)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Watershed map of India</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/pf830fj1392</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
 </mods>

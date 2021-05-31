@@ -23,7 +23,7 @@
     <dateValid encoding="w3cdtf" point="end">2002</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -39,7 +39,7 @@
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile contains the locations of completed projects (for which final reports have been received) funded through the California Department of Fish and Game's Fisheries Restoration Grants Program (FRGP). The shapefile was created by heads-up digitizing. Locations were taken from representations of stream habitat restoration projects marked on maps included in the paper documentation of the projects. Approximately 12% of projects sites (455/3850) could not be placed at specific locations.Line locations were originally digitized using two different methods. Instream locations were digitized by referencing them directly to the place along the stream in which the work was done. Locations that were not along streams were heads-up digitized. These two different shapefiles were merged into a single line shapefile for the purposes of this data release. See Supplimental Information for more details.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">This point dataset describes the geographic areas where restoration projects were completed through the California Department of Fish and Game's Fisheries Restoration Grants Program (FRGP), and is intended to be a comprehensive repository for anadromous stream restoration projects throughout California. </abstract>
+  <abstract displayLabel="Purpose" lang="eng">This point dataset describes the geographic areas where restoration projects were completed through the California Department of Fish and Game's Fisheries Restoration Grants Program (FRGP), and is intended to be a comprehensive repository for anadromous stream restoration projects throughout California.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Circuit Rider Productions and National Oceanic and Atmospheric Administration (2002). Anadromous Stream Restoration Projects (Points): Russian River, California, 1981-2002. Circuit Rider Productions. Available at: http://purl.stanford.edu/jh185jy9609</note>
   <note displayLabel="Supplemental information">Data is sought from any agencies and organizations that have funded or carried out restoration work in California. 
 
@@ -91,10 +91,25 @@ This shapefile must be used in conjunction with rr_restoration_pts1.shp (points)
             <gml:upperCorner>-122.674254 39.322155</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5397100/about.rdf" dc:language="eng" dc:title="Sonoma County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5372163/about.rdf" dc:language="eng" dc:title="Mendocino County (Calif.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Russian River Watershed (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 123°21ʹ37ʺ--W 122°40ʹ27ʺ/N 39°19ʹ20ʺ--N 38°20ʹ27ʺ</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 123°21ʹ37ʺ--W 122°40ʹ27ʺ/N 39°19ʹ20ʺ--N 38°20ʹ27ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Russian River watershed GIS</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zt526qk7324</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

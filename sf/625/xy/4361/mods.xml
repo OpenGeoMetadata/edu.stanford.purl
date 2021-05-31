@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Living Children, Bolivia, 2012</title>
@@ -10,7 +10,7 @@
     </role>
   </name>
   <name type="corporate">
-    <namePart>Bolivia. Direcci&#xF3;n Nacional de Estad&#xED;stica y Censos</namePart>
+    <namePart>Bolivia. Dirección Nacional de Estadística y Censos</namePart>
     <role>
       <roleTerm type="text" authority="marcrelator">creator</roleTerm>
     </role>
@@ -24,7 +24,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -35,11 +35,11 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 69&#xB0;38&#x2B9;41&#x2BA;--W 57&#xB0;27&#x2B9;16&#x2BA;/S 9&#xB0;40&#x2B9;11&#x2BA;--S 22&#xB0;54&#x2B9;24&#x2BA;)</coordinates>
+      <coordinates>(W 69°38ʹ41ʺ--W 57°27ʹ16ʺ/S 9°40ʹ11ʺ--S 22°54ʹ24ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains statistics on the number of living children from the 2012 Census of Bolivia. The census information was conducted on November 21, 2012 by Direccion Nacional de Estadistica y Censos (Bolivia). The questionnaire and survey report for this census are included with this download. </abstract>
-  <abstract displayLabel="Purpose" lang="eng"> These data are intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains statistics on the number of living children from the 2012 Census of Bolivia. The census information was conducted on November 21, 2012 by Direccion Nacional de Estadistica y Censos (Bolivia). The questionnaire and survey report for this census are included with this download.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">These data are intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production.</abstract>
   <note displayLabel="Preferred citation" lang="eng">East View Cartographic, Inc. and Direccion General de Estadistica y Censos, Bolivia. (2018). Living Children, Bolivia, 2012 East View Cartographic, Inc. Available at: http://purl.stanford.edu/sf625xy4361</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Children</topic>
@@ -59,7 +59,6 @@
   <location>
     <url>http://purl.stanford.edu/sf625xy4361</url>
   </location>
-  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:sf625xy4361</recordIdentifier>
@@ -79,8 +78,25 @@
             <gml:upperCorner>-57.454433 -9.669633</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Bolivia"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 69&#xB0;38&#x2B9;41&#x2BA;--W 57&#xB0;27&#x2B9;16&#x2BA;/S 9&#xB0;40&#x2B9;11&#x2BA;--S 22&#xB0;54&#x2B9;24&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 69°38ʹ41ʺ--W 57°27ʹ16ʺ/S 9°40ʹ11ʺ--S 22°54ʹ24ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Bolivia Census 2012</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zx327qv2660</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

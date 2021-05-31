@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>China County Map with 2010 Population Census Comparation Data from Short Form Data</title>
@@ -24,7 +24,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -35,13 +35,11 @@
     <cartographics>
       <scale>1:1000000</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 73&#xB0;26&#x2B9;49&#x2BA;--E 135&#xB0;5&#x2B9;9&#x2BA;/N 53&#xB0;33&#x2B9;29&#x2BA;--N 6&#xB0;19&#x2B9;7&#x2BA;)</coordinates>
+      <coordinates>(E 73°26ʹ49ʺ--E 135°5ʹ9ʺ/N 53°33ʹ29ʺ--N 6°19ʹ7ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents the boundaries of counties in China with 2010 Population Census Short Form data. Two types of questionnaires (long form and short form) were used for the 2010 population census. The short form contains items that reflect the basic situation of the population, while the long form includes all short form items plus other items such as migration, education, economic activities, marriage and family, fertility , housing , etc. According to the National Bureau of Statistics of China, the households for the Long Form survey were selected by a random sampling program. The data included in these maps are from 100% Short Form survey (A variables) and 10% Long Form survey (L variables). Reference time for the Census is: 00:00AM, November 1, 2010. The 2010 Census covered all 2,872 counties, districts and autonomous regions of Mainland China and includes all persons who hold the nationality of, and have permanent residing place in the People's Republic of China. During the census, each person was enumerated in his/her permanent residing place. The GIS data is based on the national digital map (1:1 million) developed by the National Geographic Information Center of China (NGCC), including rives, roads, residential area and administrative boundaries. This layer is part of the China 2010 county population census dataset.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">The 2010 China county maps are developed for matching 2010 China population Census data, which should only be used as references for research or education instead of used as official maps.
-
-</abstract>
+  <abstract displayLabel="Purpose" lang="eng">The 2010 China county maps are developed for matching 2010 China population Census data, which should only be used as references for research or education instead of used as official maps.</abstract>
   <note displayLabel="Preferred citation" lang="eng">China Data Center. University of Michigan. (2010). China County Map with 2010 Population Census Comparation Data from Short Form Data. Copyright by All China Marketing Research Co., Ltd. Available at: http://purl.stanford.edu/mn106fd8747.</note>
   <subject>
     <topic authority="lcsh" lang="eng">Administrative and political divisions</topic>
@@ -95,8 +93,25 @@
             <gml:upperCorner>135.085831 53.557926</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1814991/" dc:language="eng" dc:title="China"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 73&#xB0;26&#x2B9;49&#x2BA;--E 135&#xB0;5&#x2B9;9&#x2BA;/N 53&#xB0;33&#x2B9;29&#x2BA;--N 6&#xB0;19&#x2B9;7&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 73°26ʹ49ʺ--E 135°5ʹ9ʺ/N 53°33ʹ29ʺ--N 6°19ʹ7ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>China 2010 county population census data with GIS maps</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zr428hb7795</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

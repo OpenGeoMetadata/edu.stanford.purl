@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Village Boundaries of Bihar, India, 2011</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 83&#xB0;19&#x2B9;33&#x2BA;--E 88&#xB0;17&#x2B9;36&#x2BA;/N 27&#xB0;31&#x2B9;8&#x2BA;--N 24&#xB0;15&#x2B9;36&#x2BA;)</coordinates>
+      <coordinates>(E 83°19ʹ33ʺ--E 88°17ʹ36ʺ/N 27°31ʹ8ʺ--N 24°15ʹ36ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents village boundaries in Bihar, India. Points of all villages are shown linked to Primary Census Abstract 2011.</abstract>
@@ -93,7 +93,6 @@
   <location>
     <url>http://purl.stanford.edu/qd465td1900</url>
   </location>
-  <accessCondition type="useAndReproduction">Data may not be distributed, copied, or made available to users outside of the Stanford University Network. Data may not used for commercial purposes. Users should acknowledge ML Infomap in any derivative works. </accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:qd465td1900</recordIdentifier>
@@ -113,9 +112,25 @@
             <gml:upperCorner>88.29327 27.51885</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1275715/" dc:language="eng" dc:title="Bihar (India)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1269750/" dc:language="eng" dc:title="India"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 83&#xB0;19&#x2B9;33&#x2BA;--E 88&#xB0;17&#x2B9;36&#x2BA;/N 27&#xB0;31&#x2B9;8&#x2BA;--N 24&#xB0;15&#x2B9;36&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 83°19ʹ33ʺ--E 88°17ʹ36ʺ/N 27°31ʹ8ʺ--N 24°15ʹ36ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Villagemap India 2011</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/np053cc4030</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

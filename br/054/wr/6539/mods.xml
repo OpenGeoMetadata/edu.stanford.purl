@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">1998</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Raster Dataset</form>
@@ -35,12 +35,12 @@
       <coordinates>(W 122°17ʹ5ʺ--W 121°54ʹ34ʺ/N 35°58ʹ37ʺ--N 35°33ʹ29ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This raster layer contains a color sun illuminated relief image in GeoTIFF format of bathymetric data collected from the Lower Lucia Canyon region of Monterey Bay, California. These data were gathered as part of the 1998 Monterey Bay Aquarium Research Institute (MBARI) Multibeam Survey of Monterey Bay, California. Original bathymetric data were collected in 1998 using a 30kHz hull-mounted Simrad EM300 multibeam echo sounder system. Grids for this coverage area have cell size of 25 meters. This layer is part of the MBARI Monterey Bay Multibeam Survey collection, a compilation of data and imagery of the Monterey Bay and the adjacent seafloor, including coastline, imagery, and bathymetry. </abstract>
+  <abstract displayLabel="Abstract" lang="eng">This raster layer contains a color sun illuminated relief image in GeoTIFF format of bathymetric data collected from the Lower Lucia Canyon region of Monterey Bay, California. These data were gathered as part of the 1998 Monterey Bay Aquarium Research Institute (MBARI) Multibeam Survey of Monterey Bay, California. Original bathymetric data were collected in 1998 using a 30kHz hull-mounted Simrad EM300 multibeam echo sounder system. Grids for this coverage area have cell size of 25 meters. This layer is part of the MBARI Monterey Bay Multibeam Survey collection, a compilation of data and imagery of the Monterey Bay and the adjacent seafloor, including coastline, imagery, and bathymetry.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This collection of data provides documented layers of of the Monterey Bay to persons/institutions of interest throughout the research and educational communities. These maps help define the geological variability of the seafloor and provide a detailed framework for future oceanographic research, monitoring, and management activities.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Monterey Bay Aquarium Research Institute. (2000) Color Shaded Relief Image: Lower Lucia Canyon, Monterey Bay, California, 1998. Monterey Bay Aquarium Research Institute. Available at: http://purl.stanford.edu/br054wr6539</note>
   <note displayLabel="Supplemental information">The lower part of Lucia Canyon crosses the continental slope platform at a depth of about 1,800 meters to the north of the pockmark field. Here the seafloor gently dips 1.4º to the west and is sediment covered with isolated bedrock exposures. The western part of this mid-slope platform is marked by a steeper slope (7º) and forms the lower slope in this region, ranging from 2,000-3,500 meters. Many rills and landslide scars characterize the lower slope.
 
-At the base of the lower slope, Lucia Canyon makes a 90° turn to the south and parallels the slope for at least 50 kilometers. In this area sediment overflow from the canyon forms levees and overbank deposits. </note>
+At the base of the lower slope, Lucia Canyon makes a 90° turn to the south and parallels the slope for at least 50 kilometers. In this area sediment overflow from the canyon forms levees and overbank deposits.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Bathymetric maps</topic>
   </subject>
@@ -84,8 +84,17 @@ At the base of the lower slope, Lucia Canyon makes a 90° turn to the south and 
             <gml:upperCorner>-121.9094764 35.9770286</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5374363/about.rdf" dc:language="eng" dc:title="Monterey Bay (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>MBARI Monterey Bay multibeam survey</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zv845sk1001</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
 </mods>

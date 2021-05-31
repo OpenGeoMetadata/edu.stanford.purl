@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2012</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -36,7 +36,7 @@
       <coordinates>(E 87°59ʹ19ʺ--E 97°24ʹ33ʺ/N 29°29ʹ--N 25°5ʹ53ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">The polygon dataset shows sub-basin boundaries of the Brahmaputra Watershed in India for 2012. This layer is part of the Watershed Map of India which includes information about drainage networks (i.e. major rivers, streams and large reservoirs.) Also includes data on catchment areas/watersheds boundaries, basins and sub-basins. </abstract>
+  <abstract displayLabel="Abstract" lang="eng">The polygon dataset shows sub-basin boundaries of the Brahmaputra Watershed in India for 2012. This layer is part of the Watershed Map of India which includes information about drainage networks (i.e. major rivers, streams and large reservoirs.) Also includes data on catchment areas/watersheds boundaries, basins and sub-basins.</abstract>
   <abstract displayLabel="Purpose" lang="eng">These data are intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production.</abstract>
   <note displayLabel="Conceptual consistency report" lang="eng">Coastal boundary aligned with imagery, no gaps in polygon, no topological errors, aggregate and % figures verified</note>
   <note displayLabel="Attribute accuracy report" lang="eng">30-50 metres</note>
@@ -97,12 +97,17 @@
             <gml:upperCorner>97.4091 29.48332</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1278341/about.rdf" dc:language="eng" dc:title="Arunāchal Pradesh (India)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1278253/about.rdf" dc:language="eng" dc:title="Assam (India)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1263207/about.rdf" dc:language="eng" dc:title="Meghalaya (India)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1208092/about.rdf" dc:language="eng" dc:title="Brahmaputra River"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Brahmaputra River Watershed"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Watershed map of India</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/pf830fj1392</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
 </mods>

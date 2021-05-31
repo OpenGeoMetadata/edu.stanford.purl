@@ -23,7 +23,7 @@
     <dateValid encoding="w3cdtf" point="end">2005</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -36,7 +36,7 @@
       <coordinates>(E 60°--E 75°/N 39°--N 29°)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This line shapefile represents the road networks for the country of Afghanistan from 1997 to 2005. The roads layer was digitized from USDMA 1:100,000 scale. The layer includes 3 type of roads, all weather primary, all weather secondary and tracks. </abstract>
+  <abstract displayLabel="Abstract" lang="eng">This line shapefile represents the road networks for the country of Afghanistan from 1997 to 2005. The roads layer was digitized from USDMA 1:100,000 scale. The layer includes 3 type of roads, all weather primary, all weather secondary and tracks.</abstract>
   <abstract displayLabel="Purpose" lang="eng">Road layers provide basemap data on road and track features at a 1:100,000 scale. Users must assume responsibility in determining the usability of this data for their purpose. Not for use in scales greater than 1:100,000.  This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Afghanistan Information Management Service (2005). Roads: Afghanistan, 1997-2005. Afghanistan Information Management Service. Available at: http://purl.stanford.edu/zf530zb3898</note>
   <subject>
@@ -77,8 +77,17 @@
             <gml:upperCorner>74.695955 38.486883</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1149361/about.rdf" dc:language="eng" dc:title="Afghanistan"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Topographic maps of Afghanistan and Kabul</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/xh132fs5952</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
 </mods>

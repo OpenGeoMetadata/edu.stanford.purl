@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">1990</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -36,7 +36,7 @@
       <coordinates>(W 123°13ʹ57ʺ--W 122°34ʹ29ʺ/N 39°10ʹ28ʺ--N 38°18ʹ53ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the boundaries of cities and other Census designated places within the Russian River Watershed region. The Federal place codes define polygons that are cities or census designated places or are unclassified as to type. </abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the boundaries of cities and other Census designated places within the Russian River Watershed region. The Federal place codes define polygons that are cities or census designated places or are unclassified as to type.</abstract>
   <abstract displayLabel="Purpose" lang="eng">The intended use for this layer is to provide GIS users with 1990 census data related to cities and Censusidesignated places within the Russian River Watershed region.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Circuit Rider Productions and National Oceanic and Atmospheric Administration (2002). Cities and Census Designated Places: Russian River Watershed, California, 1990. Circuit Rider Productions. Available at: http://purl.stanford.edu/km287cc1995</note>
   <subject>
@@ -88,10 +88,25 @@
             <gml:upperCorner>-122.578931 39.174217</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5397100/about.rdf" dc:language="eng" dc:title="Sonoma County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5372163/about.rdf" dc:language="eng" dc:title="Mendocino County (Calif.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Russian River Watershed (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 123°13ʹ56ʺ--W 122°34ʹ44ʺ/N 39°10ʹ27ʺ--N 38°18ʹ55ʺ</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 123°13ʹ56ʺ--W 122°34ʹ44ʺ/N 39°10ʹ27ʺ--N 38°18ʹ55ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Russian River watershed GIS</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zt526qk7324</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+</mods>

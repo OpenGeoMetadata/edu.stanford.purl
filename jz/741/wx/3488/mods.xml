@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2005</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -36,7 +36,7 @@
       <coordinates>(E 65°37ʹ22ʺ--E 65°43ʹ39ʺ/N 31°38ʹ19ʺ--N 31°36ʹ28ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents village boundaries of the Kāpīsā Province in Afghanistan for 2005. This layer is part of the Topographic Maps of Afghanistan and Kabul dataset which contains shapefiles relating to district and provincial boundaries, land use, transportation, buildings and structures, rivers, settlements and other specific city data. </abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents village boundaries of the Kāpīsā Province in Afghanistan for 2005. This layer is part of the Topographic Maps of Afghanistan and Kabul dataset which contains shapefiles relating to district and provincial boundaries, land use, transportation, buildings and structures, rivers, settlements and other specific city data.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Afghanistan Information Management Service (2005). Village Boundaries: Kāpīsā Province, Afghanistan, 2005. Afghanistan Information Management Service. Available at: http://purl.stanford.edu/jz741wx3488</note>
   <subject>
@@ -70,8 +70,17 @@
             <gml:upperCorner>69.892971 35.185539</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1138255/about.rdf" dc:language="eng" dc:title="Kāpīsā (Afghanistan)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Topographic maps of Afghanistan and Kabul</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/xh132fs5952</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
 </mods>

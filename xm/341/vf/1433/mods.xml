@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Williamson Act Parcels: San Mateo County, California, 2015</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2015</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,10 +33,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::2227</projection>
-      <coordinates>(W 122&#xB0;31&#x2B9;11&#x2BA;--W 122&#xB0;8&#x2B9;59&#x2BA;/N 37&#xB0;35&#x2B9;46&#x2BA;--N 37&#xB0;6&#x2B9;55&#x2BA;)</coordinates>
+      <coordinates>(W 122°31ʹ11ʺ--W 122°8ʹ59ʺ/N 37°35ʹ46ʺ--N 37°6ʹ55ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts land parcels that are regulated under the Williamson Act. The California Land Conservation Act, better known as the Williamson Act, has been the California&#x2019;s agricultural land protection program since its enactmentin1965. The Williamson Act preserves agricultural and open space lands through property tax incentives and voluntary restrictive use contracts. Private landowners voluntarily restrict their land to agricultural and compatible open space uses under minimum ten year rolling term contracts with local governments. In return, restricted parcels are assessed for property tax purposes at a rate consistent with their actual use, rather than potential market value. The purpose of the Williamson Act is to preserve the County&#x2019;s prime soils and intensive high value agricultural operations, and to discourage premature and unnecessary conversion of agricultural land to urban use. This layer is part of a collection of GIS data for San Mateo County, California.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts land parcels that are regulated under the Williamson Act. The California Land Conservation Act, better known as the Williamson Act, has been the California’s agricultural land protection program since its enactmentin1965. The Williamson Act preserves agricultural and open space lands through property tax incentives and voluntary restrictive use contracts. Private landowners voluntarily restrict their land to agricultural and compatible open space uses under minimum ten year rolling term contracts with local governments. In return, restricted parcels are assessed for property tax purposes at a rate consistent with their actual use, rather than potential market value. The purpose of the Williamson Act is to preserve the County’s prime soils and intensive high value agricultural operations, and to discourage premature and unnecessary conversion of agricultural land to urban use. This layer is part of a collection of GIS data for San Mateo County, California.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This coverage can be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analyses of geospatial data.</abstract>
   <note displayLabel="Preferred citation" lang="eng">County of San Mateo Information Services Department. (2015). Williamson Act Parcels: San Mateo County, California, 2015. San Mateo County. Available at: http://purl.stanford.edu/xm341vf1433</note>
   <note displayLabel="Use limitation">The County of San Mateo cannot vouch for the data or analyses derived from these data.</note>
@@ -101,8 +101,25 @@
             <gml:upperCorner>-122.152585 37.590734</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5392427/" dc:language="eng" dc:title="San Mateo County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;31&#x2B9;9&#x2BA;--W 122&#xB0;9&#x2B9;9&#x2BA;/N 37&#xB0;35&#x2B9;27&#x2BA;--N 37&#xB0;7&#x2B9;6&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°31ʹ9ʺ--W 122°9ʹ9ʺ/N 37°35ʹ27ʺ--N 37°7ʹ6ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>San Mateo County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/tz596xp9947</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

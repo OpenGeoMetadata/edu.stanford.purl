@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Active Parcels with Assessor Parcel Numbers: San Mateo County, California, 2015</title>
@@ -23,7 +23,7 @@
     <dateValid encoding="w3cdtf" point="end">2015</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -34,7 +34,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 122&#xB0;31&#x2B9;15&#x2BA;--W 122&#xB0;4&#x2B9;47&#x2BA;/N 37&#xB0;42&#x2B9;33&#x2BA;--N 37&#xB0;6&#x2B9;24&#x2BA;)</coordinates>
+      <coordinates>(W 122°31ʹ15ʺ--W 122°4ʹ47ʺ/N 37°42ʹ33ʺ--N 37°6ʹ24ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts the active parcels, including assessor's parcel numbers, over which the County of San Mateo holds authority. A parcel is a piece of real property under a defined ownership, or it can be a lot in a subdivision. County governments administer and legislate through the creation of and maintenance of land records that are associated with a parcel of land. Thus the parcel is often the vital administrative unit of local government. Parcel maps must meet the requirements of the General Plan and all applicable laws and ordinances. Parcel maps are alternately called tax maps, plat maps, plot maps and assessor maps. This layer is part of a collection of GIS data for San Mateo County, California.</abstract>
@@ -81,8 +81,25 @@
             <gml:upperCorner>-122.07974 37.709078</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5392427/" dc:language="eng" dc:title="San Mateo County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;31&#x2B9;15&#x2BA;--W 122&#xB0;4&#x2B9;47&#x2BA;/N 37&#xB0;42&#x2B9;33&#x2BA;--N 37&#xB0;6&#x2B9;24&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°31ʹ15ʺ--W 122°4ʹ47ʺ/N 37°42ʹ33ʺ--N 37°6ʹ24ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>San Mateo County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/tz596xp9947</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

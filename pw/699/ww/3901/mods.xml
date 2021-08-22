@@ -1,13 +1,10 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Adjudicated Groundwater Basins, California, 2013</title>
   </titleInfo>
-  <titleInfo>
-    <title type="alternative">Adjudicated_GW_Basins</title>
-  </titleInfo>
-  <titleInfo>
-    <title displayLabel="Alternative title">Adjudicated_GW_Basins</title>
+  <titleInfo type="alternative" displayLabel="Alternative title">
+    <title>Adjudicated_GW_Basins</title>
   </titleInfo>
   <name type="corporate">
     <namePart>California. Department of Water Resources</namePart>
@@ -27,7 +24,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -38,10 +35,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 122&#xB0;57&#x2B9;45&#x2BA;--W 116&#xB0;20&#x2B9;20&#x2BA;/N 41&#xB0;37&#x2B9;58&#x2BA;--N 33&#xB0;12&#x2B9;59&#x2BA;)</coordinates>
+      <coordinates>(W 122°57ʹ45ʺ--W 116°20ʹ20ʺ/N 41°37ʹ58ʺ--N 33°12ʹ59ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the boundaries of adjudicated groundwater basins in California. These data were developed using the best available data for the California Water Plan Update 2013, however may contain errors. Adjudication is a form of groundwater management in California through the courts. When groundwater resources do not meet water demands in an area, landowners may turn to the courts to determine how much groundwater can be rightfully extracted by each overlying landowner or appropriator. The court typically appoints a Watermaster to administer the judgment and to periodically report to the court. As of 2013 there were 24 adjudicated groundwater basins in California, with the majority of the adjudications located in Southern California in the South Coast hydrologic region. The majority of groundwater rights adjudications in California imposes extraction limits and/or initiates management actions in the event of declining groundwater levels or water quality degradation. It should be noted that the primary objective of an adjudication is to provide a proportionate share of the available groundwater to the users within the basin so it can be extracted without having adverse effects to existing groundwater supplies. Environmental concerns were not considered when most of the judgments were written. This dataset was compiled from various sources using different scales. Some boundaries are more accurately digitized than others. Use at your own discretion. </abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the boundaries of adjudicated groundwater basins in California. These data were developed using the best available data for the California Water Plan Update 2013, however may contain errors. Adjudication is a form of groundwater management in California through the courts. When groundwater resources do not meet water demands in an area, landowners may turn to the courts to determine how much groundwater can be rightfully extracted by each overlying landowner or appropriator. The court typically appoints a Watermaster to administer the judgment and to periodically report to the court. As of 2013 there were 24 adjudicated groundwater basins in California, with the majority of the adjudications located in Southern California in the South Coast hydrologic region. The majority of groundwater rights adjudications in California imposes extraction limits and/or initiates management actions in the event of declining groundwater levels or water quality degradation. It should be noted that the primary objective of an adjudication is to provide a proportionate share of the available groundwater to the users within the basin so it can be extracted without having adverse effects to existing groundwater supplies. Environmental concerns were not considered when most of the judgments were written. This dataset was compiled from various sources using different scales. Some boundaries are more accurately digitized than others. Use at your own discretion.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This layer is intended to be used as a compliment to data, reports, and other information provided by the California Groundwater Information Center.</abstract>
   <note displayLabel="Preferred citation" lang="eng">California Department of Water Resources. (2014). Adjudicated Groundwater Basins, California, 2013. California Department of Water Resources. Available at: http://purl.stanford.edu/pw699ww3901.</note>
   <note displayLabel="Use limitation">DWR makes no warranties, representations of guarantees, either expressed or implied, as to the completeness, accuracy or correctness of the data, nor accepts or assumes any liability arising from or for any incorrect, incomplete or misleading data provided pursuant to this request.</note>
@@ -61,7 +58,7 @@
     <temporal encoding="w3cdtf">2013</temporal>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="">Geoscientific Information</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
   </subject>
   <subject>
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="location">Location</topic>
@@ -91,8 +88,25 @@
             <gml:upperCorner>-116.338892 41.632809</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;57&#x2B9;45&#x2BA;--W 116&#xB0;20&#x2B9;20&#x2BA;/N 41&#xB0;37&#x2B9;58&#x2BA;--N 33&#xB0;12&#x2B9;59&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°57ʹ45ʺ--W 116°20ʹ20ʺ/N 41°37ʹ58ʺ--N 33°12ʹ59ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Groundwater Information Center, California: GIS Maps and Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/cz385jp1958</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

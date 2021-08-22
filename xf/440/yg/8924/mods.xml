@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Sand Beaches: Kenya, 2000</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2000</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>ESRI::104000</projection>
-      <coordinates>(E 34&#xB0;29&#x2B9;15&#x2BA;--E 41&#xB0;20&#x2B9;43&#x2BA;/S 0&#xB0;18&#x2B9;33&#x2BA;--S 4&#xB0;15&#x2B9;15&#x2BA;)</coordinates>
+      <coordinates>(E 34°29ʹ15ʺ--E 41°20ʹ43ʺ/S 0°18ʹ33ʺ--S 4°15ʹ15ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile shows areas of sand beaches in Kenya. This data layer was extracted from FAO's Africover dataset (2000).</abstract>
@@ -96,8 +96,25 @@
             <gml:upperCorner>41.345173 -0.309101</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/192950/about.rdf" dc:language="eng" dc:title="Kenya"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 34&#xB0;29&#x2B9;15&#x2BA;--E 41&#xB0;20&#x2B9;43&#x2BA;/S 0&#xB0;18&#x2B9;33&#x2BA;--S 4&#xB0;15&#x2B9;15&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 34°29ʹ15ʺ--E 41°20ʹ43ʺ/S 0°18ʹ33ʺ--S 4°15ʹ15ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Kenya GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ft018fj7823</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

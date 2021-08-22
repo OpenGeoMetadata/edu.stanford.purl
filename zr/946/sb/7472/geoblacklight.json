@@ -1,29 +1,18 @@
 {
   "dc_identifier_s": "http://purl.stanford.edu/zr946sb7472",
   "dc_title_s": "200-Meter Resolution Land Cover, Conterminous United States, 1992",
-  "dc_description_s": "This raster layer is a georeferenced image of 1992 land cover for the conterminous United States, at a resolution of 200 meters. The map layer was compiled by staff in the National Land Cover Characterization Program of the U.S. Geological Survey National Center for Earth Resources Observation and Science, from data produced for the 1992 National Land Cover Dataset (NLCD). The NLCD used Landsat Thematic Mapper satellite data. This layer is part of the 1997-2014 edition of the National Atlas of the United States.These data are intended for geographic display and analysis at the continental level, and for large regional areas. The data should be displayed and analyzed at scales appropriate for 1:2,000,000-scale data. No responsibility is assumed by the U.S. Geological Survey or the National Atlas of the United States in the use of these data.",
+  "dc_description_s": "This raster layer is a georeferenced image of 1992 land cover for the conterminous United States, at a resolution of 200 meters. The map layer was compiled by staff in the National Land Cover Characterization Program of the U.S. Geological Survey National Center for Earth Resources Observation and Science, from data produced for the 1992 National Land Cover Dataset (NLCD). The NLCD used Landsat Thematic Mapper satellite data. This layer is part of the 1997-2014 edition of the National Atlas of the United States. These data are intended for geographic display and analysis at the continental level, and for large regional areas. The data should be displayed and analyzed at scales appropriate for 1:2,000,000-scale data. No responsibility is assumed by the U.S. Geological Survey or the National Atlas of the United States in the use of these data. U.S. Geological Survey. (2005). 200-Meter Resolution Land Cover, Conterminous United States, 1992. USGS. Available at: http://purl.stanford.edu/zr946sb7472. The source data for this map layer are circa 1992. Ninety to ninety-five percent of the data came from the 1991-1993 time frame. A few images outside this time frame were used to obtain cloud-free imagery for the entire conterminous United States. The following table describes the display of land cover characteristics classes in the TIFF image: >Value Class RGB values >_________________________________________________________ >11 Water 132 193 255 >12 Perennial ice and snow 255 255 255 >21 Low intensity residential 252 227 227 >22 High intensity residential 247 171 158 >23 Commercial/industrial/ > transportation 230 87 77 >31 Bare rock/sand/clay 209 204 191 >32 Quarries/strip mines/gravel pits 176 176 176 >33 Transitional 81 60 117 >41 Deciduous forest 135 199 128 >42 Evergreen forest 56 130 79 >43 Mixed forest 211 232 176 >51 Shrubland 219 201 117 >61 Orchards and vineyards 186 173 117 >71 Grasslands/herbaceous 252 232 171 >81 Pasture/hay 252 247 94 >82 Row crops 201 145 71 >83 Small grains 121 107 73 >84 Fallow 245 237 204 >85 Urban/recreational grasses 240 156 54 >91 Woody wetlands 201 230 250 >92 Emergent herbaceous wetlands 145 191 217 >95 Non-U.S. land 132 158 172 > For further information about the National Land Cover Characterization Program of the U.S. Geological Survey, please see http://landcover.usgs.gov/natllandcover.asp. The datum for NLCD data is NAD83. Because there is no ellipsoidal form of the Lambert Azimuthal Equal Area (LAZ) projection, once data have been projected to LAZ they lose any datum affiliation and instead are based on a sphere with a radius of 6370997 meters. However, some commonly-used software packages will report an error if a datum is not specified, so to accommodate such software, the GeoTIFF retains the NAD83 datum associated with the NLCD data from which it was derived. The associated world file is included as part of the GeoTIFF. The contents of the world file are: >200.0000 >0.000000 >0.000000 >-200.0000 >-2262900.0000 >1038900.0000 The following projection file can be used when using ESRI's ArcGIS to view the GeoTIFF (any line breaks should be removed): PROJCS[\"NAD_1983_Lambert_Azimuthal_Equal_Area\",GEOGCS [\"GCS_Sphere_ARC_INFO\",DATUM[\"D_Sphere_ARC_INFO\",SPHEROID [\"Sphere_ARC_INFO\",6370997.0,0.0]],PRIMEM[\"Greenwich\",0.0], UNIT[\"Degree\",0.0174532925199433]],PROJECTION [\"Lambert_Azimuthal_Equal_Area\"],PARAMETER[\"False_Easting\",0.0], PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\", -100.0],PARAMETER[\"Latitude_Of_Origin\",45.0],UNIT[\"Meter\",1.0]] ; {\"gdaId\" : 6065768} This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.",
   "dc_rights_s": "Public",
-  "dct_provenance_s": "Stanford",
-  "dct_references_s": "{\"http://schema.org/url\":\"http://purl.stanford.edu/zr946sb7472\",\"http://schema.org/downloadUrl\":\"http://stacks.stanford.edu/file/druid:zr946sb7472/data.zip\",\"http://www.loc.gov/mods/v3\":\"http://purl.stanford.edu/zr946sb7472.mods\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"https://raw.githubusercontent.com/OpenGeoMetadata/edu.stanford.purl/master/zr/946/sb/7472/iso19139.xml\",\"http://www.opengis.net/def/serviceType/ogc/wcs\":\"https://geowebservices.stanford.edu/geoserver/wcs\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices.stanford.edu/geoserver/wms\"}",
-  "layer_id_s": "druid:zr946sb7472",
-  "layer_slug_s": "stanford-zr946sb7472",
   "layer_geom_type_s": "Raster",
-  "layer_modified_dt": "2016-03-23T21:28:22Z",
+  "layer_modified_dt": "2021-08-17T17:44:29Z",
+  "dct_issued_s": "2005",
+  "dc_type_s": "Dataset",
   "dc_format_s": "GeoTIFF",
   "dc_language_s": "English",
-  "dc_type_s": "Dataset",
-  "dc_publisher_s": "Geological Survey (U.S.)",
-  "dc_creator_sm": [
-    "Geological Survey (U.S.)"
-  ],
   "dc_subject_sm": [
     "Land cover",
     "Imagery and Base Maps",
     "Biology and Ecology"
-  ],
-  "dct_issued_s": "2005",
-  "dct_temporal_sm": [
-    "1992"
   ],
   "dct_spatial_sm": [
     "Alabama",
@@ -77,8 +66,28 @@
     "Wyoming",
     "United States"
   ],
+  "dct_temporal_sm": [
+    "1992"
+  ],
+  "dc_publisher_s": "Geological Survey (U.S.)",
+  "dc_creator_sm": [
+    "Geological Survey (U.S.)"
+  ],
+  "geoblacklight_version": "1.0",
+  "dct_references_s": "{\"http://schema.org/url\":\"https://purl.stanford.edu/zr946sb7472\",\"http://www.loc.gov/mods/v3\":\"https://purl.stanford.edu/zr946sb7472.mods\",\"http://schema.org/downloadUrl\":\"https://stacks.stanford.edu/file/druid:zr946sb7472/data.zip\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices.stanford.edu/geoserver/wms\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"https://raw.githubusercontent.com/OpenGeoMetadata/edu.stanford.purl/master/zr/946/sb/7472/iso19139.xml\",\"http://www.opengis.net/def/serviceType/ogc/wcs\":\"https://geowebservices.stanford.edu/geoserver/wcs\"}",
   "solr_geom": "ENVELOPE(-132.7302372, -59.5331104, 54.352878, 19.0709662)",
+  "layer_slug_s": "stanford-zr946sb7472",
+  "layer_id_s": "druid:zr946sb7472",
+  "dct_provenance_s": "Stanford",
+  "stanford_rights_metadata_s": "<rightsMetadata>\n    <access type=\"discover\">\n      <machine>\n        <world/>\n      </machine>\n    </access>\n    <access type=\"read\">\n      <machine>\n        <world/>\n      </machine>\n    </access>\n    <use>\n      <human type=\"useAndReproduction\">This item is in the public domain.  There are no restrictions on use.</human>\n      <human type=\"creativeCommons\"/>\n      <machine type=\"creativeCommons\"/>\n    </use>\n    <copyright>\n      <human>This work is in the Public Domain, meaning that it is not subject to copyright.</human>\n    </copyright>\n  </rightsMetadata>",
+  "stanford_license_s": "",
+  "stanford_use_and_reproduction_s": "This item is in the public domain.  There are no restrictions on use.",
+  "stanford_copyright_s": "\n      This work is in the Public Domain, meaning that it is not subject to copyright.\n    ",
   "solr_year_i": 1992,
-  "stanford_rights_metadata_s": "<?xml version=\"1.0\"?>\n<rightsMetadata>\n  <access type=\"discover\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <access type=\"read\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <use>\n    <human type=\"useAndReproduction\">This item is in the public domain.  There are no restrictions on use.</human>\n    <human type=\"creativeCommons\"/>\n    <machine type=\"creativeCommons\"/>\n  </use>\n  <copyright>\n    <human>This work is in the Public Domain, meaning that it is not subject to copyright.</human>\n  </copyright>\n</rightsMetadata>\n",
-  "geoblacklight_version": "1.0"
+  "dc_source_sm": [
+    "stanford-cv275yx9215"
+  ],
+  "dct_isPartOf_sm": [
+    "National atlas of the United States of America, 1997-2014"
+  ]
 }

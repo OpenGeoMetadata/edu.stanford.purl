@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>1:1,000,000-Scale Contours of Puerto Rico and the U.S. Virgin Islands</title>
   </titleInfo>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2014</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>1:1000000</scale>
       <projection>EPSG::2163</projection>
-      <coordinates>(W 102&#xB0;3&#x2B9;35&#x2BA;--W 97&#xB0;13&#x2B9;32&#x2BA;/N 48&#xB0;29&#x2B9;55&#x2BA;--N 47&#xB0;40&#x2B9;20&#x2BA;)</coordinates>
+      <coordinates>(W 102°3ʹ35ʺ--W 97°13ʹ32ʺ/N 48°29ʹ55ʺ--N 47°40ʹ20ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile shows elevation contour lines for Puerto Rico and the U.S. Virgin Islands. The map layer was derived from the 100-meter resolution elevation data set which is published by the National Atlas of the United States, and is in the same Albers Equal-area Conic projection as that source data set. Contour intervals match the steps used in the National Atlas Color-Sliced Elevation data sets. Contours were adjusted so that they are in the proper relationship to National Atlas 1:1,000,000-scale lakes, reservoirs, and wide (double-line) streams. This layer is part of the 1997-2014 edition of the National Atlas of the United States.</abstract>
@@ -84,7 +84,6 @@
   <location>
     <url>http://purl.stanford.edu/yp747gp3063</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:yp747gp3063</recordIdentifier>
@@ -104,9 +103,25 @@
             <gml:upperCorner>-97.265021 48.495803</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4566966/" dc:language="eng" dc:title="Puerto Rico"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4796775/" dc:language="eng" dc:title="United States Virgin Islands"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 102&#xB0;2&#x2B9;37&#x2BA;--W 97&#xB0;15&#x2B9;54&#x2BA;/N 48&#xB0;29&#x2B9;45&#x2BA;--N 47&#xB0;40&#x2B9;51&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 102°2ʹ37ʺ--W 97°15ʹ54ʺ/N 48°29ʹ45ʺ--N 47°40ʹ51ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>National atlas of the United States of America, 1997-2014</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/cv275yx9215</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>SST Long-term Mean, 2000-2013</title>
@@ -15,13 +15,10 @@
   <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
   <originInfo>
     <publisher>Ocean Tipping Points Project</publisher>
-    <place>
-      <placeTerm type="text"/>
-    </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Raster Dataset</form>
@@ -31,11 +28,11 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 160&#xB0;26&#x2B9;47&#x2BA;--W 154&#xB0;32&#x2B9;20&#x2BA;/N 22&#xB0;25&#x2B9;25&#x2BA;--N 18&#xB0;45&#x2B9;14&#x2BA;)</coordinates>
+      <coordinates>(W 160°26ʹ47ʺ--W 154°32ʹ20ʺ/N 22°25ʹ25ʺ--N 18°45ʹ14ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">Sea surface temperature (SST) plays an important role in a number of ecological processes and can vary over a wide range of time scales, from daily to decadal changes. SST influences primary production, species migration patterns, and coral health. If temperatures are anomalous warm for extended periods of time, drastic changes in the surrounding ecosystem can result, including harmful effects such as coral bleaching. This layer represents the mean sea surface temperature (SST) (degrees Celsius) of weekly time series from 2000 &#x2013; 2013. A continuous, 5km gap-filled weekly SST data set available from 1985 &#x2013; 2013 was produced from a variety of sources. Please see Lineage Statement for more details.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">This layer was developed as part of a geospatial database of key anthropogenic pressures to coastal waters of the Main Hawaiian Islands for the Ocean Tipping Points project (http://oceantippingpoints.org/). Ocean tipping points occur when shifts in human use or environmental conditions result in large, and sometimes abrupt, impacts to marine ecosystems.  The ability to predict and understand ocean tipping points can enhance ecosystem management, including critical coral reef management and policies to protect ecosystem services produced by coral reefs. The goal of the Ocean Tipping Points Hawaii case study was to gather, process and map spatial information on environmental and human-based drivers of coral reef ecosystem conditions. </abstract>
+  <abstract displayLabel="Abstract" lang="eng">Sea surface temperature (SST) plays an important role in a number of ecological processes and can vary over a wide range of time scales, from daily to decadal changes. SST influences primary production, species migration patterns, and coral health. If temperatures are anomalous warm for extended periods of time, drastic changes in the surrounding ecosystem can result, including harmful effects such as coral bleaching. This layer represents the mean sea surface temperature (SST) (degrees Celsius) of weekly time series from 2000 – 2013. A continuous, 5km gap-filled weekly SST data set available from 1985 – 2013 was produced from a variety of sources. Please see Lineage Statement for more details.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">This layer was developed as part of a geospatial database of key anthropogenic pressures to coastal waters of the Main Hawaiian Islands for the Ocean Tipping Points project (http://oceantippingpoints.org/). Ocean tipping points occur when shifts in human use or environmental conditions result in large, and sometimes abrupt, impacts to marine ecosystems.  The ability to predict and understand ocean tipping points can enhance ecosystem management, including critical coral reef management and policies to protect ecosystem services produced by coral reefs. The goal of the Ocean Tipping Points Hawaii case study was to gather, process and map spatial information on environmental and human-based drivers of coral reef ecosystem conditions.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Ocean Tipping Points Project. (2016). SST Long-term Mean, 2000-2013. Ocean Tipping Points Project. Available at: http://purl.stanford.edu/sm309xd8108. http://purl.stanford.edu/xx299ky8940.</note>
   <note displayLabel="Use limitation">Please contact the Ocean Tipping Points project in advance of applying these data sets to project work so the PI can track and communicate data uses and ensure no duplicate efforts are underway. When applying these data for publication, please reference and cite the complete journal article, Wedding et al. 2017.</note>
   <subject>
@@ -99,9 +96,25 @@
             <gml:upperCorner>-154.539306 22.4237407</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5855797/" dc:language="eng" dc:title="Hawaii"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 160&#xB0;26&#x2B9;47&#x2BA;--W 154&#xB0;32&#x2B9;22&#x2BA;/N 22&#xB0;25&#x2B9;25&#x2BA;--N 18&#xB0;45&#x2B9;15&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 160°26ʹ47ʺ--W 154°32ʹ22ʺ/N 22°25ʹ25ʺ--N 18°45ʹ15ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Ocean Tipping Points</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/hs513mq2073</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">Please contact the Ocean Tipping Points project in advance of applying these data sets to project work so the PI can track and communicate data uses and ensure no duplicate efforts are underway. When applying these data for publication, please reference and cite the complete journal article, Wedding et al. 2017,  http://oceantippingpoints.org/our-work/publications.</accessCondition>
+</mods>

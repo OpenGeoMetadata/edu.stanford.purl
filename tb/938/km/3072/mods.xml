@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Color Puerto Rico and the U.S. Virgin Islands Shaded Relief, 200-Meter Resolution</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2002</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>GeoTIFF</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 65&#xB0;23&#x2B9;47&#x2BA;--W 60&#xB0;34&#x2B9;40&#x2BA;/N 16&#xB0;44&#x2B9;54&#x2BA;--N 12&#xB0;13&#x2B9;24&#x2BA;)</coordinates>
+      <coordinates>(W 65°23ʹ47ʺ--W 60°34ʹ40ʺ/N 16°44ʹ54ʺ--N 12°13ʹ24ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">The color Puerto Rico and U.S. Virgin Islands shaded relief data were derived from National Elevation Dataset (NED) data, and show the terrain of Puerto Rico and U.S. Virgin Islands at a resolution of 200 meters. The NED is a raster product assembled by the U.S. Geological Survey, designed to provide national elevation data in a seamless form with a consistent datum, elevation unit, and projection. Data corrections made in the NED assembly process minimize artifacts, permit edge matching, and fill sliver areas of missing data. This layer is part of the 1997-2014 edition National Atlas of the United States.</abstract>
@@ -68,7 +68,6 @@
   <location>
     <url>http://purl.stanford.edu/tb938km3072</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:tb938km3072</recordIdentifier>
@@ -88,10 +87,25 @@
             <gml:upperCorner>-60.578233 16.7483169</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4566966/" dc:language="eng" dc:title="Puerto Rico"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4796775/" dc:language="eng" dc:title="United States Virgin Islands"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 65&#xB0;23&#x2B9;47&#x2BA;--W 60&#xB0;34&#x2B9;42&#x2BA;/N 16&#xB0;44&#x2B9;54&#x2BA;--N 12&#xB0;13&#x2B9;25&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 65°23ʹ47ʺ--W 60°34ʹ42ʺ/N 16°44ʹ54ʺ--N 12°13ʹ25ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>National atlas of the United States of America, 1997-2014</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/cv275yx9215</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

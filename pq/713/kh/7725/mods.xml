@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>World Shoreline Boundary between Island Ponds and Islands, 2014 (Intermediate-resolution)</title>
@@ -28,7 +28,7 @@
     <edition>2.3.3</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -39,14 +39,14 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 88&#xB0;51&#x2B9;7&#x2BA;--E 29&#xB0;6&#x2B9;6&#x2BA;/N 62&#xB0;5&#x2B9;6&#x2BA;--S 2&#xB0;18&#x2B9;14&#x2BA;)</coordinates>
+      <coordinates>(W 88°51ʹ7ʺ--E 29°6ʹ6ʺ/N 62°5ʹ6ʺ--S 2°18ʹ14ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents the boundary between island ponds and islands at intermediate resolution. Intermediate represents an 80 percent reduction in size and quality from the high resolution layer. The Global Self-consistent, Hierarchical, High-resolution Geography (GSHHG) Database is a high-resolution geography data set amalgamated from three data bases in the public domain. This layer is part of GSHHG Version 2.3.3. The World Vector Shorelines (WVS) is the basis for shorelines except for Antarctica while the CIA World Data Bank (WDBII) is the basis for lakes, although there are instances where differences in coastline representations necessitated adding WDBII islands to GSHHG. The WDBII source also provides all political borders and rivers. GSHHG data have undergone extensive processing and should be free of internal inconsistencies such as erratic points and crossing segments. Atlas of the Cryosphere (AC) provides the basis for Antarctica coastlines. The shorelines are constructed entirely from hierarchically arranged closed polygons. </abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents the boundary between island ponds and islands at intermediate resolution. Intermediate represents an 80 percent reduction in size and quality from the high resolution layer. The Global Self-consistent, Hierarchical, High-resolution Geography (GSHHG) Database is a high-resolution geography data set amalgamated from three data bases in the public domain. This layer is part of GSHHG Version 2.3.3. The World Vector Shorelines (WVS) is the basis for shorelines except for Antarctica while the CIA World Data Bank (WDBII) is the basis for lakes, although there are instances where differences in coastline representations necessitated adding WDBII islands to GSHHG. The WDBII source also provides all political borders and rivers. GSHHG data have undergone extensive processing and should be free of internal inconsistencies such as erratic points and crossing segments. Atlas of the Cryosphere (AC) provides the basis for Antarctica coastlines. The shorelines are constructed entirely from hierarchically arranged closed polygons.</abstract>
   <abstract displayLabel="Purpose" lang="eng">These shoreline polygon data can be used to simplify data searches and data selections and to study the statistical characteristics of shorelines and land-masses.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Wessel, P., and W. H. F. Smith (2014). World Shoreline Boundary between Island Ponds and Islands, 2014 (Intermediate-resolution). (v. 2.3.3). United States. National Geospatial-Intelligence Agency. Available at http://purl.stanford.edu/pq713kh7725.</note>
   <note displayLabel="Supplemental information">GSHHG used to be called GSHHS (Global Self-consistent, Hierarchical, High-resolution Shorelines) but since rivers and political boundaries were also included we changed it to GSHHG starting with version 2.2.1. 
-The addition of AC since 2.3.0 allows two choices for Antarctica coastlines: Ice-front or Grounding line. These are encoded as levels 5 and 6, respectively. </note>
+The addition of AC since 2.3.0 allows two choices for Antarctica coastlines: Ice-front or Grounding line. These are encoded as levels 5 and 6, respectively.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Shorelines</topic>
   </subject>
@@ -71,7 +71,6 @@ The addition of AC since 2.3.0 allows two choices for Antarctica coastlines: Ice
   <location>
     <url>http://purl.stanford.edu/pq713kh7725</url>
   </location>
-  <accessCondition type="useAndReproduction">Starting with version 2.2.2, GSHHG has been released under the GNU Lesser General Public License. (http://www.gnu.org/licenses/lgpl.html)</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:pq713kh7725</recordIdentifier>
@@ -91,8 +90,19 @@ The addition of AC since 2.3.0 allows two choices for Antarctica coastlines: Ice
             <gml:upperCorner>29.101667 62.085</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Earth"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>A global, self-consistent, hierarchical, high-resolution shoreline database</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/db745bh8486</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. http://www.gnu.org/licenses.</accessCondition>
 </mods>

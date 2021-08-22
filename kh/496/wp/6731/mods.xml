@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Official Protraction Diagram and Leasing Map Boundaries, United States, 2001</title>
@@ -15,13 +15,10 @@
   <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
   <originInfo>
     <publisher>Geological Survey (U.S.)</publisher>
-    <place>
-      <placeTerm type="text"/>
-    </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2001</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +29,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 180&#xB0;--E 180&#xB0;/N 74&#xB0;59&#x2B9;46&#x2BA;--N 13&#xB0;55&#x2B9;8&#x2BA;)</coordinates>
+      <coordinates>(W 180°--E 180°/N 74°59ʹ46ʺ--N 13°55ʹ8ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile shows the official protraction diagram (OPD) and leasing map boundaries for the United States, covering areas of the Outer Continental Shelf (OCS) within Federal jurisdiction. They are generated in accordance with 30 Code of Federal Regulations (CFR) 256.8 to support Federal land ownership and mineral resource management. Leasing maps are irregularly shaped areas developed early in the offshore program for near-shore areas in the Gulf of Mexico. Elsewhere, OPD's were developed on a Universal Transverse Mercator (UTM) grid and are approximately one degree in latitude by two degrees in longitude, except in northern areas where they are three degrees in longitude. This map layer shows existing and planned OPD limits. Actual limits of Federal jurisdiction are defined by various international and maritime boundaries not presently depicted. Lease Map and OPD boundaries in the Gulf of Mexico were historically cut at the Submerged Lands Act (SLA) boundary, while in other areas the full OPD boundary is shown and therefore may include non-OCS lands within the rectangularly shaped OPD boundary. While the Gulf of Mexico Region uses the North American Datum of 1927, for this map layer those coordinates have been transformed to the North American Datum of 1983 to coincide with the OPD's in the other Minerals Management Service regions. This file updates the September 2000 map layer by including the OPD boundaries for Puerto Rico and the U.S. Virgin Islands. This layer is part of the 1997-2014 edition of the National Atlas of the United States.</abstract>
@@ -104,11 +101,25 @@
             <gml:upperCorner>180.0 74.996</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="United States. Virgin Islands"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3523271/" dc:language="eng" dc:title="Mexico, Gulf of"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4566966/" dc:language="eng" dc:title="Puerto Rico"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 180&#xB0;--E 180&#xB0;/N 74&#xB0;59&#x2B9;46&#x2BA;--N 13&#xB0;55&#x2B9;8&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 180°--E 180°/N 74°59ʹ46ʺ--N 13°55ʹ8ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>National atlas of the United States of America, 1997-2014</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/cv275yx9215</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

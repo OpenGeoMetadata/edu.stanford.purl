@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Livestock Density in Kenya's Rangelands, 1994 to 1996</title>
@@ -23,7 +23,7 @@
     <dateValid encoding="w3cdtf" point="end">1996</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -34,10 +34,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(E 33&#xB0;59&#x2B9;28&#x2BA;--E 41&#xB0;54&#x2B9;41&#x2BA;/N 5&#xB0;1&#x2B9;8&#x2BA;--S 4&#xB0;40&#x2B9;39&#x2BA;)</coordinates>
+      <coordinates>(E 33°59ʹ28ʺ--E 41°54ʹ41ʺ/N 5°1ʹ8ʺ--S 4°40ʹ39ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile portrays livestock density in Kenya's rangelands for 1994-96. Most of Kenya&#x2019;s rangelands contain livestock. Higher livestock numbers can be found in the wetter part of the rangelands and closer to permanent water sources. Livestock densities in large parts of the northeastern rangelands re&#xFB02;ect pastoral production systems where herders move livestock periodically to follow the seasonal supply of water and feed. In a number of locations in Narok, Kajiado, and Laikipia Districts, high wildlife and livestock densities coincide.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile portrays livestock density in Kenya's rangelands for 1994-96. Most of Kenya’s rangelands contain livestock. Higher livestock numbers can be found in the wetter part of the rangelands and closer to permanent water sources. Livestock densities in large parts of the northeastern rangelands reﬂect pastoral production systems where herders move livestock periodically to follow the seasonal supply of water and feed. In a number of locations in Narok, Kajiado, and Laikipia Districts, high wildlife and livestock densities coincide.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This data was used in Map 1.5 and Map 4.7 in Nature's Benefits in Kenya: An Atlas of Ecosystems and Human Well-Being.</abstract>
   <note displayLabel="Preferred citation" lang="eng">International Livestock Research Institute. (2007). Livestock Density in Kenya's Rangelands, 1994 to 1996. World Resources Institute. Available at: http://purl.stanford.edu/pp492fg6473</note>
   <note displayLabel="Supplemental information">Species numbers are aggregated using a "tropical livestock unit" (TLU) (which is equivalent to an animal weight of 250 kilograms) to grid cells of 5x5 km and then averaged by square kilometer. Livestock includes cattle, sheep, goats, camels and donkeys that were observed during low-altitude flights. Units are in "tropical livestock unit per sq. kilometer." Note: A livestock density nul should be interpreted as "No observation of animals". Please refer to DRSRS for updates.</note>
@@ -98,8 +98,17 @@
             <gml:upperCorner>41.911372 5.018981</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/192950/about.rdf" dc:language="eng" dc:title="Kenya"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Kenya GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ft018fj7823</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

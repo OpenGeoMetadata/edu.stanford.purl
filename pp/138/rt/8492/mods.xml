@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Intensity of Cultivation: Kenya, 2000</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2000</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,10 +33,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(E 33&#xB0;56&#x2B9;49&#x2BA;--E 41&#xB0;54&#x2B9;41&#x2BA;/N 4&#xB0;26&#x2B9;40&#x2BA;--S 4&#xB0;40&#x2B9;10&#x2BA;)</coordinates>
+      <coordinates>(E 33°56ʹ49ʺ--E 41°54ʹ41ʺ/N 4°26ʹ40ʺ--S 4°40ʹ10ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile portrays the percentage of land under cutivation in Kenya. Cultivated lands, are intensively farmed land. Areas of more than 80 percent cropland represent only a small proportion of Kenya&#x2019;s agroecosystems. These densely cropped areas are found predominantly in the highlands of central and western Kenya and in small patches of lowlands. They include intensively produced crops such as wheat, tea, sugarcane, irrigated rice, and high-yielding maize (see Map 4.4 for a more detailed view). The majority of Kenya&#x2019;s agroecosystems consist of landscapes with 50 or 60 percent active cropland, mixed with less intensively managed land. The latter can include, for example, forests or woodlands that can support mixed activities such as wood extraction and livestock grazing. This layer is a WRI calculation based on the FAO Africover Legend for Croplands (2000).</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile portrays the percentage of land under cutivation in Kenya. Cultivated lands, are intensively farmed land. Areas of more than 80 percent cropland represent only a small proportion of Kenya’s agroecosystems. These densely cropped areas are found predominantly in the highlands of central and western Kenya and in small patches of lowlands. They include intensively produced crops such as wheat, tea, sugarcane, irrigated rice, and high-yielding maize (see Map 4.4 for a more detailed view). The majority of Kenya’s agroecosystems consist of landscapes with 50 or 60 percent active cropland, mixed with less intensively managed land. The latter can include, for example, forests or woodlands that can support mixed activities such as wood extraction and livestock grazing. This layer is a WRI calculation based on the FAO Africover Legend for Croplands (2000).</abstract>
   <abstract displayLabel="Purpose" lang="eng">Used in Map 5.4 of Nature's Benefits in Kenya: An Atlas of Ecosystems and Human Well-Being.</abstract>
   <note displayLabel="Preferred citation" lang="eng">World Resources Institute. (2000). Intensity of Cultivation: Kenya, 2000. World Resources Institute. Available at: http://purl.stanford.edu/pp138rt8492</note>
   <note displayLabel="Supplemental information">Original data are downloadable at www.africover.org.</note>
@@ -102,8 +102,17 @@
             <gml:upperCorner>41.911373 4.444314</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/192950/about.rdf" dc:language="eng" dc:title="Kenya"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Kenya GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ft018fj7823</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

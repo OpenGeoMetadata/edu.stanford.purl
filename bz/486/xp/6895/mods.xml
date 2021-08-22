@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>District Boundaries: Kenya, 2003</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2003</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(E 33&#xB0;54&#x2B9;48&#x2BA;--E 41&#xB0;54&#x2B9;47&#x2BA;/N 5&#xB0;28&#x2B9;14&#x2BA;--S 4&#xB0;40&#x2B9;39&#x2BA;)</coordinates>
+      <coordinates>(E 33°54ʹ48ʺ--E 41°54ʹ47ʺ/N 5°28ʹ14ʺ--S 4°40ʹ39ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents Kenya's district administrative boundaries in 2003. These data were acquired from the Kenya Central Bureau of Statistics (CBS).</abstract>
@@ -98,8 +98,17 @@
             <gml:upperCorner>41.912922 5.470521</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/192950/about.rdf" dc:language="eng" dc:title="Kenya"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Kenya GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ft018fj7823</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

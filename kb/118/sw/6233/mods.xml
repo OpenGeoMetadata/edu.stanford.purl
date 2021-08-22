@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Coral Reefs on Eastern Coast of Kenya, 2006</title>
@@ -16,7 +16,7 @@
     </role>
   </name>
   <name type="corporate">
-    <namePart>Nationale geologiske unders&#xF8;gelser for Danmark og Gr&#xF8;nland</namePart>
+    <namePart>Nationale geologiske undersøgelser for Danmark og Grønland</namePart>
     <role>
       <roleTerm type="text" authority="marcrelator">creator</roleTerm>
     </role>
@@ -26,7 +26,7 @@
   <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
   <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
   <originInfo>
-    <publisher>Nationale geologiske unders&#xF8;gelser for Danmark og Gr&#xF8;nland</publisher>
+    <publisher>Nationale geologiske undersøgelser for Danmark og Grønland</publisher>
     <place>
       <placeTerm type="text">Copenhagen, DK</placeTerm>
     </place>
@@ -34,7 +34,7 @@
     <dateValid encoding="w3cdtf">2006</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -45,10 +45,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>ESRI::104000</projection>
-      <coordinates>(E 39&#xB0;12&#x2B9;34&#x2BA;--E 41&#xB0;34&#x2B9;58&#x2BA;/S 1&#xB0;39&#x2B9;8&#x2BA;--S 4&#xB0;45&#x2B9;48&#x2BA;)</coordinates>
+      <coordinates>(E 39°12ʹ34ʺ--E 41°34ʹ58ʺ/S 1°39ʹ8ʺ--S 4°45ʹ48ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents coral reefs on the eastern coast of Kenya. These data were acquired from 'KenSea, Environmental Sensitivity Atlas for Coastal Area of Kenya,' published by the Geological Survey of Denmark (GEUS) (2006). To protect the ecological integrity of Kenya&#x2019;s coral reefs, the government has designated six marine reserves &#x2014; Kisite, Kiunga, Malindi, Mombasa, Mpunguti, and Watamu &#x2014; encompassing a signi&#xFB01;cant portion of the reef and its surrounding waters.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents coral reefs on the eastern coast of Kenya. These data were acquired from 'KenSea, Environmental Sensitivity Atlas for Coastal Area of Kenya,' published by the Geological Survey of Denmark (GEUS) (2006). To protect the ecological integrity of Kenya’s coral reefs, the government has designated six marine reserves — Kisite, Kiunga, Malindi, Mombasa, Mpunguti, and Watamu — encompassing a signiﬁcant portion of the reef and its surrounding waters.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This data was used in Map 6.4 and Map 6.5 in Nature's Benefits in Kenya: An Atlas of Ecosystems and Human Well-Being.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Geological Survey of Denmark and Greenland, Kenya Marine and Fisheries Research Institute, and the United Nations Development Programme of Kenya. (2006). Coral Reefs on Eastern Coast of Kenya, 2006. GEUS. Available at: http://purl.stanford.edu/kb118sw6233</note>
   <note displayLabel="Supplemental information">The full report is available at http://www.geus.dk/program-areas/nature-environment/international/reports/kensea/kensea_rapport.pdf.</note>
@@ -111,8 +111,25 @@
             <gml:upperCorner>41.582678 -1.652337</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/192950/about.rdf" dc:language="eng" dc:title="Kenya"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 39&#xB0;12&#x2B9;34&#x2BA;--E 41&#xB0;34&#x2B9;58&#x2BA;/S 1&#xB0;39&#x2B9;8&#x2BA;--S 4&#xB0;45&#x2B9;48&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 39°12ʹ34ʺ--E 41°34ʹ58ʺ/S 1°39ʹ8ʺ--S 4°45ʹ48ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Kenya GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ft018fj7823</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

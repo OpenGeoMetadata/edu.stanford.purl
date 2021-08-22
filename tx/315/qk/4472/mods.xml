@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>River Basins and Sub-Basins: Kenya, 1992</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">1992</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,10 +33,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(E 33&#xB0;56&#x2B9;59&#x2BA;--E 41&#xB0;53&#x2B9;54&#x2BA;/N 5&#xB0;26&#x2B9;9&#x2BA;--S 4&#xB0;41&#x2B9;1&#x2BA;)</coordinates>
+      <coordinates>(E 33°56ʹ59ʺ--E 41°53ʹ54ʺ/N 5°26ʹ9ʺ--S 4°41ʹ1ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile shows river basins and sub-basins, as well as areas of drainage and subdrainage in Kenya. </abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile shows river basins and sub-basins, as well as areas of drainage and subdrainage in Kenya.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This data was used in selected maps in Nature's Benefits in Kenya: An Atlas of Ecosystems and Human Well-Being.</abstract>
   <note displayLabel="Preferred citation" lang="eng">World Resources Institute. (2007). River Basins and Sub-Basins: Kenya, 1992. World Resources Institute. Available at: http://purl.stanford.edu/tx315qk4472</note>
   <note displayLabel="Use limitation">Data set is not for use in litigation. While efforts have been made to ensure that these data are accurate and reliable within the state of the art, WRI, cannot assume liability for any damages, or misrepresentations, caused by any inaccuracies in the data, or as a result of the data to be used on a particular system. WRI makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty.</note>
@@ -101,8 +101,17 @@
             <gml:upperCorner>41.898453 5.435789</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/192950/about.rdf" dc:language="eng" dc:title="Kenya"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Kenya GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ft018fj7823</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

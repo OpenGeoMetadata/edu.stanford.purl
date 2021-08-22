@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Heat Flow, Turkey, 1991-1998</title>
@@ -30,7 +30,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -41,11 +41,11 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 26&#xB0;10&#x2B9;--E 43&#xB0;45&#x2B9;30&#x2BA;/N 41&#xB0;58&#x2B9;12&#x2BA;--N 36&#xB0;16&#x2B9;54&#x2BA;)</coordinates>
+      <coordinates>(E 26°10ʹ--E 43°45ʹ30ʺ/N 41°58ʹ12ʺ--N 36°16ʹ54ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile contains heat flow data for Turkey compiled from sources dating from 1991 to 1998. Heat flow is a measure of heat loss across the surface of the Earth and is useful for modeling recent tectonic activity, transport of heat by groundwater, variations in concentrations of the radiogenic elements U, Th and K, glacial dynamics, and recent changes in climate. See attibute table and supplemental documentation for more detail.</abstract>
-  <abstract displayLabel="Purpose" lang="eng"> Global heat flow data are maintained by the International Heat Flow Commission (IHFC) of the International Association of Seismology and Physics of the Earth's Interior (IASPEI).</abstract>
+  <abstract displayLabel="Purpose" lang="eng">Global heat flow data are maintained by the International Heat Flow Commission (IHFC) of the International Association of Seismology and Physics of the Earth's Interior (IASPEI).</abstract>
   <note displayLabel="Preferred citation" lang="eng">Heat Flow, Turkey, 1991-1998 (2016) .Global Heatflow database from the International Heat Flow Commission 2011. http://purl.stanford.edu/db572gt6524</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Terrestrial heat flow</topic>
@@ -62,7 +62,6 @@
   <location>
     <url>http://purl.stanford.edu/db572gt6524</url>
   </location>
-  <accessCondition type="useAndReproduction">The AAPG, under the direction and guidance of the GIS Publications Committee and AAPG Datapages, is building a GIS / spatial library comprised of peer-reviewed Global Framework, Geothematic and Geographic themed projects. The project files are free to the public.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:db572gt6524</recordIdentifier>
@@ -82,8 +81,25 @@
             <gml:upperCorner>43.7583 41.97</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Turkey"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 26&#xB0;10&#x2B9;--E 43&#xB0;45&#x2B9;30&#x2BA;/N 41&#xB0;58&#x2B9;12&#x2BA;--N 36&#xB0;16&#x2B9;54&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 26°10ʹ--E 43°45ʹ30ʺ/N 41°58ʹ12ʺ--N 36°16ʹ54ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Global Heatflow database from the International Heat Flow Commission 2011</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/pv411wm0035</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

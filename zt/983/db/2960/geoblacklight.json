@@ -1,21 +1,13 @@
 {
   "dc_identifier_s": "http://purl.stanford.edu/zt983db2960",
   "dc_title_s": "Causes of Forest Fragmentation in the United States (270 Meter Resolution), 1992",
-  "dc_description_s": "This raster image is a 270-meter resolution grid map of the conterminous United States in GeoTIFF format, created from National Land Cover Data (NLCD). The NLCD data was reclassified into four categories: forest, other natural (e.g. grassland, wetland, etc.), human land use (e.g. agriculture, urban, etc.), and nodata (water, ice and snow, and bare rock/sand). A 9 x 9-pixel moving window was then used to generate forest edge measurements for every pixel, regardless of its class. Within each window, the edges of all forest pixels were examined to determine what type of land cover shared each edge. Three new grids were created, one for each edge type (forest-forest, forest-natural, and forest-human). The values in these grids were calculated as the number of edges with the appropriate type in the window divided by the total number of forest edges, regardless of neighbor. These grids represented forest connectivity (forest-forest edges), naturally caused forest fragmentation (forest-natural edges), and human caused forest fragmentation (forest- human edges). In the map, forest connectivity is displayed in green, natural fragmentation in blue, and human fragmentation in red. Yellow indicates areas that are an approximately equal mix of connected forest and human fragmentation, while cyan indicates areas that are an approximately equal mix of connected forest and natural fragmentation. Black represents areas with no forest in the 9 x 9-pixel window; white represents ignored or nodata areas, such as water, ice and snow, and bare rock/sand. Forest fragmentation has been studied extensively and can be quantified in several ways. This map layer is the first to identify sources of forest fragmentation, separating fragmentation into human and natural components. The data may be a useful tool for decision makers in identifying areas for protection or restoration. Areas displayed in yellow represent transition zones between connected forest and human-fragmented forest. Because human land uses tend to expand over time, these areas will be the most likely to experience further degradation. In time, the transition zones may become highly fragmented and new transitional areas will appear deeper in the intact forest. Consequently, the yellow areas in the map may represent excellent opportunities for protection or restoration. Protecting transitional and adjacent areas may limit further expansion or degradation of the transitional areas. Restoration efforts to eliminate or reduce fragmentation may produce larger patches of connected forest.",
   "dc_rights_s": "Public",
-  "dct_provenance_s": "Stanford",
-  "dct_references_s": "{\"http://schema.org/url\":\"http://purl.stanford.edu/zt983db2960\",\"http://schema.org/downloadUrl\":\"http://stacks.stanford.edu/file/druid:zt983db2960/data.zip\",\"http://www.loc.gov/mods/v3\":\"http://purl.stanford.edu/zt983db2960.mods\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"https://raw.githubusercontent.com/OpenGeoMetadata/edu.stanford.purl/master/zt/983/db/2960/iso19139.xml\",\"http://www.opengis.net/def/serviceType/ogc/wcs\":\"https://geowebservices.stanford.edu/geoserver/wcs\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices.stanford.edu/geoserver/wms\"}",
-  "layer_id_s": "druid:zt983db2960",
-  "layer_slug_s": "stanford-zt983db2960",
   "layer_geom_type_s": "Raster",
-  "layer_modified_dt": "2016-03-23T21:28:29Z",
+  "layer_modified_dt": "2021-08-17T17:44:31Z",
+  "dct_issued_s": "2004",
+  "dc_type_s": "Dataset",
   "dc_format_s": "GeoTIFF",
   "dc_language_s": "English",
-  "dc_type_s": "Dataset",
-  "dc_publisher_s": "National Atlas of the United States",
-  "dc_creator_sm": [
-    "Wade, Tim"
-  ],
   "dc_subject_sm": [
     "Fragmented landscapes",
     "Landscape ecology",
@@ -24,10 +16,6 @@
     "Land cover",
     "Environment",
     "Biology and Ecology"
-  ],
-  "dct_issued_s": "2004",
-  "dct_temporal_sm": [
-    "1992"
   ],
   "dct_spatial_sm": [
     "United States",
@@ -82,8 +70,29 @@
     "Wisconsin",
     "Wyoming"
   ],
+  "dct_temporal_sm": [
+    "1992"
+  ],
+  "dc_publisher_s": "National Atlas of the United States",
+  "dc_creator_sm": [
+    "Wade, Tim"
+  ],
+  "geoblacklight_version": "1.0",
+  "dct_references_s": "{\"http://schema.org/url\":\"https://purl.stanford.edu/zt983db2960\",\"http://www.loc.gov/mods/v3\":\"https://purl.stanford.edu/zt983db2960.mods\",\"http://schema.org/downloadUrl\":\"https://stacks.stanford.edu/file/druid:zt983db2960/data.zip\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices.stanford.edu/geoserver/wms\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"https://raw.githubusercontent.com/OpenGeoMetadata/edu.stanford.purl/master/zt/983/db/2960/iso19139.xml\",\"http://www.opengis.net/def/serviceType/ogc/wcs\":\"https://geowebservices.stanford.edu/geoserver/wcs\"}",
   "solr_geom": "ENVELOPE(-132.7271681, -59.5319171, 54.3508578, 19.0694189)",
+  "layer_slug_s": "stanford-zt983db2960",
+  "layer_id_s": "druid:zt983db2960",
+  "dct_provenance_s": "Stanford",
+  "stanford_rights_metadata_s": "<rightsMetadata>\n    <access type=\"discover\">\n      <machine>\n        <world/>\n      </machine>\n    </access>\n    <access type=\"read\">\n      <machine>\n        <world/>\n      </machine>\n    </access>\n    <use>\n      <human type=\"useAndReproduction\">This item is in the public domain.  There are no restrictions on use.</human>\n      <human type=\"creativeCommons\"/>\n      <machine type=\"creativeCommons\"/>\n    </use>\n    <copyright>\n      <human>This work is in the Public Domain, meaning that it is not subject to copyright.</human>\n    </copyright>\n  </rightsMetadata>",
+  "stanford_license_s": "",
+  "stanford_use_and_reproduction_s": "This item is in the public domain.  There are no restrictions on use.",
+  "stanford_copyright_s": "\n      This work is in the Public Domain, meaning that it is not subject to copyright.\n    ",
   "solr_year_i": 1992,
-  "stanford_rights_metadata_s": "<?xml version=\"1.0\"?>\n<rightsMetadata>\n  <access type=\"discover\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <access type=\"read\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <use>\n    <human type=\"useAndReproduction\">This item is in the public domain.  There are no restrictions on use.</human>\n    <human type=\"creativeCommons\"/>\n    <machine type=\"creativeCommons\"/>\n  </use>\n  <copyright>\n    <human>This work is in the Public Domain, meaning that it is not subject to copyright.</human>\n  </copyright>\n</rightsMetadata>\n",
-  "geoblacklight_version": "1.0"
+  "dc_source_sm": [
+    "stanford-cv275yx9215"
+  ],
+  "dct_isPartOf_sm": [
+    "National atlas of the United States of America, 1997-2014"
+  ],
+  "dc_description_s": "This raster image is a 270-meter resolution grid map of the conterminous United States in GeoTIFF format, created from National Land Cover Data (NLCD). The NLCD data was reclassified into four categories: forest, other natural (e.g. grassland, wetland, etc.), human land use (e.g. agriculture, urban, etc.), and nodata (water, ice and snow, and bare rock/sand). A 9 x 9-pixel moving window was then used to generate forest edge measurements for every pixel, regardless of its class. Within each window, the edges of all forest pixels were examined to determine what type of land cover shared each edge. Three new grids were created, one for each edge type (forest-forest, forest-natural, and forest-human). The values in these grids were calculated as the number of edges with the appropriate type in the window divided by the total number of forest edges, regardless of neighbor. These grids represented forest connectivity (forest-forest edges), naturally caused forest fragmentation (forest-natural edges), and human caused forest fragmentation (forest- human edges). In the map, forest connectivity is displayed in green, natural fragmentation in blue, and human fragmentation in red. Yellow indicates areas that are an approximately equal mix of connected forest and human fragmentation, while cyan indicates areas that are an approximately equal mix of connected forest and natural fragmentation. Black represents areas with no forest in the 9 x 9-pixel window; white represents ignored or nodata areas, such as water, ice and snow, and bare rock/sand. Forest fragmentation has been studied extensively and can be quantified in several ways. This map layer is the first to identify sources of forest fragmentation, separating fragmentation into human and natural components. The data may be a useful tool for decision makers in identifying areas for protection or restoration. Areas displayed in yellow represent transition zones between connected forest and human-fragmented forest. Because human land uses tend to expand over time, these areas will be the most likely to experience further degradation. In time, the transition zones may become highly fragmented and new transitional areas will appear deeper in the intact forest. Consequently, the yellow areas in the map may represent excellent opportunities for protection or restoration. Protecting transitional and adjacent areas may limit further expansion or degradation of the transitional areas. Restoration efforts to eliminate or reduce fragmentation may produce larger patches of connected forest. Wade, Tim. (2004). Causes of Forest Fragmentation in the United States (270 Meter Resolution), 1992. National Atlas of the United States. Available at: http://purl.stanford.edu/zt983db2960. Downloadable data is scaled from 0 to 100 and is meant to be used in analyses. For display purposes, it is recommended that the data be rescaled from 0 to 255 to capture the full spectrum of possible fragmentation combinations. Colors are subdued and yellows and cyans may be missing in the display, using data scaled from 0 to 100. These data are based on National Land Cover Data (NLCD). Information about NLCD is available online at: <http://landcover.usgs.gov/natllandcover.asp>. For additional information see Vogelmann, J.E., S.M. Howard, L. Yang, C.R. Larson, B.K. Wylie, and N. van Driel. 2001. Completion of the 1990s National land cover data set for the conterminous United States from Landsat Thematic Mapper data and ancillary data sources. Photogrammetric Engineering and Remote Sensing 67: 650-662. The data are stored in three bands, one each for forest connectivity (Pff), human fragmentation (Pfa), and natural fragmentation (Pfn). Values have been scaled from 0 to 100, with -9999 (nodata) where the NLCD identified water, ice and snow, or bare rock/sand (classes 11, 12 and 31). Values of 0 occur where the 9 x 9-pixel window contained no forest pixels or where all forest pixels were surrounded by nodata pixels. A value of 100 indicates a window where all forest pixel edges adjoin only one class. For example, a 100 in the forest connectivity band means all forest pixels in the window are adjacent to other forest pixels or a nodata pixel. It does not necessarily mean that all pixels in the window are forest. To display these data, it is highly recommended that their values be stretched to range from 0 to 255. This will brighten and enhance the contrast in the image. Detailed information on the algorithms used to process the NLCD data to create a global fragmentation map can be found in: Wade, T.G, K.H. Riitters, J.D. Wickham, and K.B. Jones, 2003. Distribution and causes of global forest fragmentation. Conservation Ecology 7(2): 7. [online] URL: <http://www.consecol.org/vol7/iss2/art7>. Similar procedures were used to create this map layer. The United States Environmental Protection Agency (EPA), through its Office of Research and Development (ORD), partially funded and collaborated in this work under Interagency Agreement DW12939283-01-0 with the United States Department of Agriculture. It has been subjected to Agency review and approved for publication. The associated world file is included as part of the GeoTIFF. The contents of the world file are: >270.0000 >0.000000 >0.000000 >-270.0000 >-2262865.0000 >1038776.0000 The following projection file can be used when using ESRI's ArcGIS to view the GeoTIFF (any line breaks should be removed): PROJCS[\"NAD_1983_Lambert_Azimuthal_Equal_Area\",GEOGCS [\"GCS_Sphere_ARC_INFO\",DATUM[\"D_Sphere_ARC_INFO\",SPHEROID [\"Sphere_ARC_INFO\",6370997.0,0.0]],PRIMEM[\"Greenwich\",0.0], UNIT[\"Degree\",0.0174532925199433]],PROJECTION [\"Lambert_Azimuthal_Equal_Area\"],PARAMETER[\"False_Easting\",0.0], PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\", -100.0],PARAMETER[\"Latitude_Of_Origin\",45.0],UNIT[\"Meter\",1.0]] None. Acknowledgment of the National Atlas of the United States of America, the U.S. Environmental Protection Agency, the U.S. Forest Service, and (or) the U.S. Geological Survey would be appreciated in products derived from these data. This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection."
 }

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Maximum Pleistocene Glacier Limits, Alaska Palaeo-Glacier Atlas</title>
@@ -28,7 +28,7 @@
     <edition>2</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -39,7 +39,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 178&#xB0;42&#x2B9;58&#x2BA;--W 118&#xB0;52&#x2B9;50&#x2BA;/N 70&#xB0;13&#x2B9;9&#x2BA;--N 51&#xB0;40&#x2B9;25&#x2BA;)</coordinates>
+      <coordinates>(W 178°42ʹ58ʺ--W 118°52ʹ50ʺ/N 70°13ʹ9ʺ--N 51°40ʹ25ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile represents the maximum pleistocene glacier limits (extent). This report is an update of the Alaska PalaeoGlacier Atlas. It includes information published since 2002 and is based on a more detailed map scale. In addition to the all-time maximum extent of former glaciers and the late Wisconsinan extent, this update includes the mapped limit for the penultimate glaciation, which generally occurred during the early Wisconsinan. The update also includes a compilation of cosmogenic exposure ages linked to the geospatial database. The Alaska PalaeoGlacier Atlas is a geospatial summary of Pleistocene glaciation across Alaska.</abstract>
@@ -83,12 +83,11 @@
     <temporal encoding="w3cdtf">2011</temporal>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="">Geoscientific Information</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
   </subject>
   <location>
     <url>http://purl.stanford.edu/kh036xb5342</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:kh036xb5342</recordIdentifier>
@@ -108,17 +107,25 @@
             <gml:upperCorner>-129.978512 69.930767</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5879092/" dc:language="eng" dc:title="Alaska"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Brooks Range (Alaska)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Seward Peninsula (Alaska)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Ahklun Mountains (Alaska)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Kuskokwim Mountains (Alaska)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Alaska Range (Alaska)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Alaska Peninsula (Alaska)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Kodiak Island (Alaska)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Wrangell Mountains (Alaska)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Saint Elias Mountains"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 174&#xB0;3&#x2B9;33&#x2BA;--W 129&#xB0;58&#x2B9;43&#x2BA;/N 69&#xB0;55&#x2B9;51&#x2BA;--N 52&#xB0;54&#x2B9;45&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 174°3ʹ33ʺ--W 129°58ʹ43ʺ/N 69°55ʹ51ʺ--N 52°54ʹ45ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Alaska Palaeo-Glacier Atlas</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/js199hm3307</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

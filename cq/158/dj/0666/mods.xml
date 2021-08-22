@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Heat Flow, Senegal, 1988-1991</title>
@@ -30,7 +30,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -41,11 +41,11 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 17&#xB0;20&#x2B9;--W 13&#xB0;45&#x2B9;/N 16&#xB0;10&#x2B9;--N 12&#xB0;52&#x2B9;)</coordinates>
+      <coordinates>(W 17°20ʹ--W 13°45ʹ/N 16°10ʹ--N 12°52ʹ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile contains heat flow data for Senegal compiled from sources dating from 1988 to 1991. Heat flow is a measure of heat loss across the surface of the Earth and is useful for modeling recent tectonic activity, transport of heat by groundwater, variations in concentrations of the radiogenic elements U, Th and K, glacial dynamics, and recent changes in climate. See attibute table and supplemental documentation for more detail.</abstract>
-  <abstract displayLabel="Purpose" lang="eng"> Global heat flow data are maintained by the International Heat Flow Commission (IHFC) of the International Association of Seismology and Physics of the Earth's Interior (IASPEI).</abstract>
+  <abstract displayLabel="Purpose" lang="eng">Global heat flow data are maintained by the International Heat Flow Commission (IHFC) of the International Association of Seismology and Physics of the Earth's Interior (IASPEI).</abstract>
   <note displayLabel="Preferred citation" lang="eng">Heat Flow, Senegal, 1988-1991 (2016) .Global Heatflow database from the International Heat Flow Commission 2011. http://purl.stanford.edu/cq158dj0666</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Terrestrial heat flow</topic>
@@ -62,7 +62,6 @@
   <location>
     <url>http://purl.stanford.edu/cq158dj0666</url>
   </location>
-  <accessCondition type="useAndReproduction">The AAPG, under the direction and guidance of the GIS Publications Committee and AAPG Datapages, is building a GIS / spatial library comprised of peer-reviewed Global Framework, Geothematic and Geographic themed projects. The project files are free to the public.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:cq158dj0666</recordIdentifier>
@@ -82,8 +81,25 @@
             <gml:upperCorner>-13.75 16.1667</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Senegal"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 17&#xB0;20&#x2B9;--W 13&#xB0;45&#x2B9;/N 16&#xB0;10&#x2B9;--N 12&#xB0;52&#x2B9;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 17°20ʹ--W 13°45ʹ/N 16°10ʹ--N 12°52ʹ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Global Heatflow database from the International Heat Flow Commission 2011</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/pv411wm0035</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

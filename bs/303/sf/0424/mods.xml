@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Geologic Units (Polygons): Generalized Geologic Map of Alaska, Hawaii, Puerto Rico, and the U.S. Virgin Islands, 2005</title>
@@ -29,7 +29,7 @@
     <edition>1.0</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -40,7 +40,7 @@
     <cartographics>
       <scale>1:7500000</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 179&#xB0;8&#x2B9;--E 179&#xB0;49&#x2B9;1&#x2BA;/N 71&#xB0;23&#x2B9;53&#x2BA;--N 17&#xB0;40&#x2B9;31&#x2BA;)</coordinates>
+      <coordinates>(W 179°8ʹ--E 179°49ʹ1ʺ/N 71°23ʹ53ʺ--N 17°40ʹ31ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains polygon boundaries, tags and labels for major geologic units in Alaska, Hawaii, Puerto Rico and the U.S. Virgin Islands. In addition to the polygons representing the areal extent of geologic units, it identifies major faults and continental glaciation in Alaska. The data depict the geology of the bedrock that lies at or near the land surface, but not the distribution of surficial materials such as soils, alluvium, and glacial deposits. This map complements the Generalized Geologic Map of the Conterminous United States by Reed and Bush. The data are generalized from a compilation prepared for use in the Geologic Map of North America, published as a paper map by the Geological Society of America and to be released as a digital file by the U.S. Geological Survey. This layer is part of the 1997-2014 edition National Atlas of the United States.</abstract>
@@ -78,12 +78,11 @@
     <temporal encoding="w3cdtf">2005</temporal>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="">Geoscientific Information</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
   </subject>
   <location>
     <url>http://purl.stanford.edu/bs303sf0424</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:bs303sf0424</recordIdentifier>
@@ -103,11 +102,25 @@
             <gml:upperCorner>179.816888 71.398186</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5879092/" dc:language="eng" dc:title="Alaska"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5855797/" dc:language="eng" dc:title="Hawaii"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4566966/" dc:language="eng" dc:title="Puerto Rico"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4796775/" dc:language="eng" dc:title="United States Virgin Islands"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 179&#xB0;8&#x2B9;--E 179&#xB0;49&#x2B9;1&#x2BA;/N 71&#xB0;23&#x2B9;53&#x2BA;--N 17&#xB0;40&#x2B9;31&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 179°8ʹ--E 179°49ʹ1ʺ/N 71°23ʹ53ʺ--N 17°40ʹ31ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>National atlas of the United States of America, 1997-2014</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/cv275yx9215</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

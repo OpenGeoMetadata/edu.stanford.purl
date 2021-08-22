@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Average Water Consumption by Livestock and Wildlife by Subdrainage Area, Kenya, 1994-1996</title>
@@ -23,7 +23,7 @@
     <dateValid encoding="w3cdtf" point="end">1996</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -34,7 +34,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::32637</projection>
-      <coordinates>(E 33&#xB0;59&#x2B9;37&#x2BA;--E 41&#xB0;54&#x2B9;16&#x2BA;/N 5&#xB0;26&#x2B9;46&#x2BA;--S 4&#xB0;41&#x2B9;1&#x2BA;)</coordinates>
+      <coordinates>(E 33°59ʹ37ʺ--E 41°54ʹ16ʺ/N 5°26ʹ46ʺ--S 4°41ʹ1ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents the average water consumption of livestock and wildlife by sub-basin in Kenya for 1994-96. The greatest water demand from livestock occurs in the surveyed subdrainages of the Lake Victoria drainage area near Tanzania. Wildlife demand for water is also high in this area, mostly because of the number of animals within and close to a large protected area (Masai Mara). The subdrainages north of Mount Kenya (Ewaso Ngiro North drainage) also have significant water demand because of the high number of wildlife species.</abstract>
@@ -106,8 +106,25 @@
             <gml:upperCorner>41.898453 5.435789</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/192950/about.rdf" dc:language="eng" dc:title="Kenya"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 34&#xB0;9&#x2BA;--E 41&#xB0;53&#x2B9;54&#x2BA;/N 5&#xB0;26&#x2B9;9&#x2BA;--S 4&#xB0;41&#x2B9;1&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 34°9ʺ--E 41°53ʹ54ʺ/N 5°26ʹ9ʺ--S 4°41ʹ1ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Kenya GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ft018fj7823</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

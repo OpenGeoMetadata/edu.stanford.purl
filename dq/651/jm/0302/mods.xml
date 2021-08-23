@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Subwatershed Boundaries, California (12-digit HUC), 2013</title>
@@ -23,7 +23,7 @@
     <dateValid encoding="w3cdtf" point="end">2008</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -34,22 +34,20 @@
     <cartographics>
       <scale>1:24000</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 124&#xB0;32&#x2B9;6&#x2BA;--W 113&#xB0;59&#x2B9;24&#x2BA;/N 42&#xB0;25&#x2B9;13&#x2BA;--N 32&#xB0;17&#x2B9;59&#x2BA;)</coordinates>
+      <coordinates>(W 124°32ʹ6ʺ--W 113°59ʹ24ʺ/N 42°25ʹ13ʺ--N 32°17ʹ59ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the 6th level, 12-digit hydrologic unit code (HUC) sub-watershed boundaries of California. This layer consists of georeferenced digital data and associated attributes created in accordance with the "USGS National Map Accuracy Standards and the NRCS Federal Standards for Delineation of Hydrologic Unit Boundaries, 10/01/04." The dataset was developed by digitizing watershed and subwatershed boundary lines using 1:24,000-scale digital raster graphics (DRG), high-resolution digital watershed datasets, a high-resolution National Hydrography Dataset (NHD) at 1:24,000-scale, and 1:250,000-scale draft hydrologic boundary lines. A 30-meter National Elevation Dataset (NED) was used to produce the 1:250,000-scale preliminary draft boundaries, as well as a hillshade layer for additional reference. Some draft catchments (watersheds/subwatersheds) were also created with Watershed Boundary Dataset tools (ArcHydro Tools, Version 9), using the NED for terrain analysis and the NHD for determining stream flow direction. Polygons are attributed with the following: hydrologic unit codes for 6th level subwatersheds; HU sizes (in acres); states containing the HUs; non-contributing areas; downsteam hydrologic units; 5th and 6th level names; type of HUs (standard, frontal, etc.); flow modifications; and Geographic Names Information System (GNIS) identification numbers.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">The subwatershed hydrologic unit boundaries provide a uniquely identified and uniform method of subdividing large drainage areas. The smaller-sized 6th level subwatersheds (up to 40,000 acres) are useful for numerous application programs supported by a variety of local, state, and federal agencies. This data set is intended to be used as a tool for water resource management and planning activities, particularly for site-specific and localized studies requiring a level of detail provided by large-scale map information. This layer is part of a larger, seamless, nationally consistent geospatial database for the watershed boundary dataset.
-</abstract>
+  <abstract displayLabel="Purpose" lang="eng">The subwatershed hydrologic unit boundaries provide a uniquely identified and uniform method of subdividing large drainage areas. The smaller-sized 6th level subwatersheds (up to 40,000 acres) are useful for numerous application programs supported by a variety of local, state, and federal agencies. This data set is intended to be used as a tool for water resource management and planning activities, particularly for site-specific and localized studies requiring a level of detail provided by large-scale map information. This layer is part of a larger, seamless, nationally consistent geospatial database for the watershed boundary dataset.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Wyoming Geographic Information Sciences Center. (2014). Subwatershed Boundaries, California (12-digit HUC), 2013. Wyoming Geographic Information Sciences Center. Available at: http://purl.stanford.edu/dq651jm0302.</note>
   <note displayLabel="Supplemental information">The definition for a hydrologic unit according to the FGDC Proposal, Version 1.0 - Federal Standards For Delineation of 
-Hydrologic Unit Boundaries 3/01/02 states &#x201C;A hydrologic unit is a drainage area delineated to nest in a multi-level, 
+Hydrologic Unit Boundaries 3/01/02 states “A hydrologic unit is a drainage area delineated to nest in a multi-level, 
 hierarchical drainage system.  Its boundaries are defined by hydrographic and topographic criteria that delineate an 
 area of land upstream from a specific point on a river, stream or similar surface waters.  A hydrologic unit can accept 
 surface water directly from upstream drainage areas, and indirectly from associated surface areas such as remnant, 
 non-contributing, and diversions to form a drainage area with single or multiple outlet points. Hydrologic units are 
 only synonymous with classic watersheds when their boundaries include all the source area contributing surface water to a 
-single defined outlet point. &#x201C;  
-</note>
+single defined outlet point. “</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Hydrology</topic>
   </subject>
@@ -90,8 +88,25 @@ single defined outlet point. &#x201C;
             <gml:upperCorner>-113.989906 42.420253</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;32&#x2B9;6&#x2BA;--W 113&#xB0;59&#x2B9;24&#x2BA;/N 42&#xB0;25&#x2B9;13&#x2BA;--N 32&#xB0;17&#x2B9;59&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 124°32ʹ6ʺ--W 113°59ʹ24ʺ/N 42°25ʹ13ʺ--N 32°17ʹ59ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Watershed Boundary Dataset</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/kv947jv5051</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

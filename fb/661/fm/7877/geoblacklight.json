@@ -1,21 +1,14 @@
 {
   "dc_identifier_s": "http://purl.stanford.edu/fb661fm7877",
   "dc_title_s": "100-Meter Resolution Impervious Surface of Hawaii, 2001",
-  "dc_description_s": "This raster layer is a georeferenced image containing impervious surface data for Hawaii. Data are in an Albers Equal-Area Conic projection and have a resolution of 100 meters. The impervious surface data were derived from the 2001 National Land Cover Database (NLCD) Percent Developed Imperviousness data set, a product of the Multi-Resolution Land Characteristics Consortium (MRLC). The MRLC is a multi-agency cooperative effort to study land cover change. This layer is part of the 1997-2014 edition of the National Atlas of the United States.The 100-meter resolution impervious surface data were developed to portray the impervious surface of the United States at 1:1,000,000 scale. They are intended primarily for visual purposes. The original NLCD data should be used for conducting scientific analysis.",
+  "dc_description_s": "This raster layer is a georeferenced image containing impervious surface data for Hawaii. Data are in an Albers Equal-Area Conic projection and have a resolution of 100 meters. The impervious surface data were derived from the 2001 National Land Cover Database (NLCD) Percent Developed Imperviousness data set, a product of the Multi-Resolution Land Characteristics Consortium (MRLC). The MRLC is a multi-agency cooperative effort to study land cover change. This layer is part of the 1997-2014 edition of the National Atlas of the United States. The 100-meter resolution impervious surface data were developed to portray the impervious surface of the United States at 1:1,000,000 scale. They are intended primarily for visual purposes. The original NLCD data should be used for conducting scientific analysis. U.S. Geological Survey. (2013). 100-Meter Resolution Impervious Surface of Hawaii, 2001. USGS. Available at: http://purl.stanford.edu/fb661fm7877. NLCD data sets at 30-meter resolution may be downloaded from the MRLC Web site, http://www.mrlc.gov/nlcd01_data.php. Further information on NLCD, related data sets, and land cover research may be found at the online USGS Land Cover Institute http://landcover.usgs.gov/. Pixel values for impervious surface data and their corresponding RGB colors are listed in the color ramp (.clr) file that accompanies the data set. This table shows all impervious surface classes and the RGB color values used to represent them. >Pixel value NLCD 2001 Impervious Surface classes R G B >================================================================================== >1 through 100 Percent impervious, 1% through 100% See .clr for RGB's >101, 102, 103 Non-U.S. land 240 235 211 >104 Background U.S. land 104 104 104 >0 Ocean water 193 224 250 Pixel values 1 through 100 represent the percentage covered by impervious surface, such as pavement, as seen from above. Pixel value 101 represents land in Canada or the British Virgin Islands. Pixel value 102 represents land in Mexico or Russia. Pixel value 103 represents land in The Bahamas and Cuba in the southeastern part of the data set. Pixel value 104 represents U.S. land that does not have valid data values. There are no null values in the image. Included with the GeoTIFF are an auxiliary information file (.aux.xml), an image overview file (.ovr), a value attribute database file (.vat.dbf), a .tfw file (more information included below), a .prj file (more information included below), and an Adobe Color Table (.act) file. The contents of the associated world file (.tfw) are: >100.0 >0.0 >0.0 >-100.0 >-402950.0 >2164950.0 The projection (.prj) file contains the following information: > PROJCS[\"Albers_NAD83_ Hawaii \", >GEOGCS[\"GCS_North_American_1983\", >DATUM[\"D_North_American_1983\", >SPHEROID[\"GRS_1980\",6378137.0,298.257222101]], >PRIMEM[\"Greenwich\",0.0], >UNIT[\"Degree\",0.0174532925199433]], >PROJECTION[\"Albers\"], >PARAMETER[\"False_Easting\",0.0], >PARAMETER[\"False_Northing\",0.0], >PARAMETER[\"Central_Meridian\",-157.0], >PARAMETER[\"Standard_Parallel_1\",8.0], >PARAMETER[\"Standard_Parallel_2\",18.0], >PARAMETER[\"Latitude_Of_Origin\",3.0], >UNIT[\"Meter\",1.0]] Data set extent in meters (Albers Equal-Area Conic projection) >North 2165000 >West -403000 >East 303000 >South 1723000 There are no NULL or NODATA values in the GeoTIFF. Instead, all impervious surface values in oceans have been set to zero as part of the masking process. A copy of the land/water mask used in processing is available on request. Information about National Atlas Web services can be found on the Web Map and Web Feature Services page; see http://nationalatlas.gov/infodocs/webservices.html. ; {\"gdaId\" : 6152774} This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.",
   "dc_rights_s": "Public",
-  "dct_provenance_s": "Stanford",
-  "dct_references_s": "{\"http://schema.org/url\":\"http://purl.stanford.edu/fb661fm7877\",\"http://schema.org/downloadUrl\":\"http://stacks.stanford.edu/file/druid:fb661fm7877/data.zip\",\"http://www.loc.gov/mods/v3\":\"http://purl.stanford.edu/fb661fm7877.mods\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"https://raw.githubusercontent.com/OpenGeoMetadata/edu.stanford.purl/master/fb/661/fm/7877/iso19139.xml\",\"http://www.opengis.net/def/serviceType/ogc/wcs\":\"https://geowebservices.stanford.edu/geoserver/wcs\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices.stanford.edu/geoserver/wms\"}",
-  "layer_id_s": "druid:fb661fm7877",
-  "layer_slug_s": "stanford-fb661fm7877",
   "layer_geom_type_s": "Raster",
-  "layer_modified_dt": "2016-03-22T17:18:43Z",
+  "layer_modified_dt": "2021-08-17T17:44:39Z",
+  "dct_issued_s": "2013",
+  "dc_type_s": "Dataset",
   "dc_format_s": "GeoTIFF",
   "dc_language_s": "English",
-  "dc_type_s": "Dataset",
-  "dc_publisher_s": "Geological Survey (U.S.)",
-  "dc_creator_sm": [
-    "Geological Survey (U.S.)"
-  ],
   "dc_subject_sm": [
     "Pavements",
     "Roads",
@@ -29,15 +22,31 @@
     "Structure",
     "Environment"
   ],
-  "dct_issued_s": "2013",
-  "dct_temporal_sm": [
-    "2001"
-  ],
   "dct_spatial_sm": [
     "Hawaii"
   ],
+  "dct_temporal_sm": [
+    "2001"
+  ],
+  "dc_publisher_s": "Geological Survey (U.S.)",
+  "dc_creator_sm": [
+    "Geological Survey (U.S.)"
+  ],
+  "geoblacklight_version": "1.0",
+  "dct_references_s": "{\"http://schema.org/url\":\"https://purl.stanford.edu/fb661fm7877\",\"http://www.loc.gov/mods/v3\":\"https://purl.stanford.edu/fb661fm7877.mods\",\"http://schema.org/downloadUrl\":\"https://stacks.stanford.edu/file/druid:fb661fm7877/data.zip\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices.stanford.edu/geoserver/wms\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"https://raw.githubusercontent.com/OpenGeoMetadata/edu.stanford.purl/master/fb/661/fm/7877/iso19139.xml\",\"http://www.opengis.net/def/serviceType/ogc/wcs\":\"https://geowebservices.stanford.edu/geoserver/wcs\"}",
   "solr_geom": "ENVELOPE(-160.8774181, -154.0842082, 22.5889294, 18.5478405)",
+  "layer_slug_s": "stanford-fb661fm7877",
+  "layer_id_s": "druid:fb661fm7877",
+  "dct_provenance_s": "Stanford",
+  "stanford_rights_metadata_s": "<rightsMetadata>\n    <access type=\"discover\">\n      <machine>\n        <world/>\n      </machine>\n    </access>\n    <access type=\"read\">\n      <machine>\n        <world/>\n      </machine>\n    </access>\n    <use>\n      <human type=\"useAndReproduction\">This item is in the public domain.  There are no restrictions on use.</human>\n      <human type=\"creativeCommons\"/>\n      <machine type=\"creativeCommons\"/>\n    </use>\n    <copyright>\n      <human>This work is in the Public Domain, meaning that it is not subject to copyright.</human>\n    </copyright>\n  </rightsMetadata>",
+  "stanford_license_s": "",
+  "stanford_use_and_reproduction_s": "This item is in the public domain.  There are no restrictions on use.",
+  "stanford_copyright_s": "\n      This work is in the Public Domain, meaning that it is not subject to copyright.\n    ",
   "solr_year_i": 2001,
-  "stanford_rights_metadata_s": "<?xml version=\"1.0\"?>\n<rightsMetadata>\n  <access type=\"discover\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <access type=\"read\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <use>\n    <human type=\"useAndReproduction\">This item is in the public domain.  There are no restrictions on use.</human>\n    <human type=\"creativeCommons\"/>\n    <machine type=\"creativeCommons\"/>\n  </use>\n  <copyright>\n    <human>This work is in the Public Domain, meaning that it is not subject to copyright.</human>\n  </copyright>\n</rightsMetadata>\n",
-  "geoblacklight_version": "1.0"
+  "dc_source_sm": [
+    "stanford-cv275yx9215"
+  ],
+  "dct_isPartOf_sm": [
+    "National atlas of the United States of America, 1997-2014"
+  ]
 }

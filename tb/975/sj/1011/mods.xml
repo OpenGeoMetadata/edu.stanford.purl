@@ -1,10 +1,10 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Particulate Matter (PM-2.5) Non-Attainment Areas: California, 2011</title>
   </titleInfo>
   <name type="corporate">
-    <namePart>United States. Environmental Protection Agency. </namePart>
+    <namePart>United States. Environmental Protection Agency.</namePart>
     <role>
       <roleTerm type="text" authority="marcrelator">creator</roleTerm>
     </role>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2011</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>::0</projection>
-      <coordinates>(W 123&#xB0;6&#x2B9;25&#x2BA;--W 115&#xB0;21&#x2B9;59&#x2BA;/N 39&#xB0;53&#x2B9;19&#x2BA;--N 32&#xB0;38&#x2B9;33&#x2BA;)</coordinates>
+      <coordinates>(W 123°6ʹ25ʺ--W 115°21ʹ59ʺ/N 39°53ʹ19ʺ--N 32°38ʹ33ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile identifies areas in the U.S. where air pollution levels have not met the 2006 National Ambient Air Quality Standards (NAAQS) for fine particulate matter (PM-2.5) and have been designated "nonattainment". This category of particle pollution measurement monitors fine particles, such as those found in smoke and haze, that are 2.5 micrometers in diameter or smaller. These particles can be directly emitted from sources such as forest fires, or they can form when gases emitted from power plants, industries and automobiles react in the air. The EPA Office of Air Quality Planning and Standards (OAQPS) has set National Ambient Air Quality Standards for six principal pollutants, which are called "criteria" pollutants. Under provisions of the Clean Air Act, which is intended to improve the quality of the air we breathe, EPA sets limits on how much of a pollutant can be in the air anywhere in the United States. This ensures that all Americans have the same basic health and environmental protections. The law allows individual states to have stronger pollution controls, but states are not allowed to have weaker pollution controls than those set for the whole country. EPA calls these pollutants "criteria air pollutants" because the agency has regulated them by first developing health-based criteria (science-based guidelines) as the basis for setting permissible levels. One set of limits (primary standard) protects health; another set of limits (secondary standard) is intended to prevent environmental and property damage. A geographic area that meets or does better than the primary standard is called an attainment area; areas that don't meet the primary standard are called nonattainment areas.</abstract>
@@ -93,8 +93,25 @@
             <gml:upperCorner>-115.366338 39.88851</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/about.rdf" dc:language="eng" dc:title="California"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 123&#xB0;6&#x2B9;25&#x2BA;--W 115&#xB0;21&#x2B9;59&#x2BA;/N 39&#xB0;53&#x2B9;19&#x2BA;--N 32&#xB0;38&#x2B9;33&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 123°6ʹ25ʺ--W 115°21ʹ59ʺ/N 39°53ʹ19ʺ--N 32°38ʹ33ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Air Resources Board GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/nn400xy7936</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Major Cities: Kenya, 2000</title>
@@ -16,7 +16,7 @@
     </role>
   </name>
   <name type="corporate">
-    <namePart>Kokusai Ky&#x14D;ryoku Kik&#x14D;</namePart>
+    <namePart>Kokusai Kyōryoku Kikō</namePart>
     <role>
       <roleTerm type="text" authority="marcrelator">creator</roleTerm>
     </role>
@@ -28,13 +28,13 @@
   <originInfo>
     <publisher>World Resources Institute</publisher>
     <place>
-      <placeTerm type="text">Washington, D.C., </placeTerm>
+      <placeTerm type="text">Washington, D.C.,</placeTerm>
     </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2000</dateIssued>
     <dateValid encoding="w3cdtf">2000</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -45,7 +45,7 @@
     <cartographics>
       <scale>1:50000</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(E 34&#xB0;4&#x2B9;13&#x2BA;--E 41&#xB0;50&#x2B9;24&#x2BA;/N 4&#xB0;15&#x2B9;57&#x2BA;--S 4&#xB0;10&#x2B9;7&#x2BA;)</coordinates>
+      <coordinates>(E 34°4ʹ13ʺ--E 41°50ʹ24ʺ/N 4°15ʹ57ʺ--S 4°10ʹ7ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile identifies major cities in Kenya for 2000. Data from 1:50,000 and 250,000 topographic maps originally created by the Geological Survey of Kenya were digitized by the International Livestoack Research Institute and the Japan International Cooperation Agency.</abstract>
@@ -107,8 +107,17 @@
             <gml:upperCorner>41.840122 4.265939</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/192950/about.rdf" dc:language="eng" dc:title="Kenya"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Kenya GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ft018fj7823</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

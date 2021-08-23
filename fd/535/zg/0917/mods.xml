@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Solar: Average Monthly and Annual Direct Normal Irradiance Data, One-Degree Resolution of the World from NASA/SSE, 1983-2005</title>
@@ -20,7 +20,7 @@
     <edition>Release 6.0</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -31,10 +31,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 180&#xB0;--E 180&#xB0;/N 90&#xB0;--S 90&#xB0;)</coordinates>
+      <coordinates>(W 180°--E 180°/N 90°--S 90°)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents the average monthly and annual measurements (kWh/m^2/day) of solar direct normal radiation (DNI) for the entire globe. Lat/Lon values indicate the lower left corner of a 1x1 degree region. Negative values are south and west; positive values are north and east. Boundaries of the -90/-180 region are -90 to -89 (south) and -180 to -179 (west). The last region, 89/180, is bounded by 89 to 90 (north) and 179 to 180 (east). This polygon shapefile represents the average monthly and annual measurements (kWh/m^2/day) of solar direct normal radiation (DNI) for the entire globe. These data are regional averages; not point data. The source data was downloaded from the Surface Meteorology and Solar Energy (SSE) website as text files. The tabular data was then converted to the shapefile format. </abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents the average monthly and annual measurements (kWh/m^2/day) of solar direct normal radiation (DNI) for the entire globe. Lat/Lon values indicate the lower left corner of a 1x1 degree region. Negative values are south and west; positive values are north and east. Boundaries of the -90/-180 region are -90 to -89 (south) and -180 to -179 (west). The last region, 89/180, is bounded by 89 to 90 (north) and 179 to 180 (east). This polygon shapefile represents the average monthly and annual measurements (kWh/m^2/day) of solar direct normal radiation (DNI) for the entire globe. These data are regional averages; not point data. The source data was downloaded from the Surface Meteorology and Solar Energy (SSE) website as text files. The tabular data was then converted to the shapefile format.</abstract>
   <abstract displayLabel="Purpose" lang="eng">These data are meant to provide investors and other stakeholders with reliable, verifiable and accessible information on the solar resource potential for the data domain.</abstract>
   <note displayLabel="Preferred citation" lang="eng">NASA Langley Atmospheric Sciences Data Center. (2008) Solar: Average Monthly and Annual Direct Normal Irradiance Data, One-Degree Resolution of the World from NASA/SSE, 1983-2005. NASA Available at: http://purl.stanford.edu/fd535zg0917</note>
   <note displayLabel="Supplemental information">Spatial Extent: Global Bounding Coordinates (decimal degrees)
@@ -80,10 +80,20 @@ annual (mandatory) - R4, mean annual value in (kWh/m2/day)jan, feb, mar, apr, ma
             <gml:upperCorner>180.0 90.0</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6295630/about.rdf" dc:language="eng" dc:title="Earth"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject>
-          <geographic authority="lcsh" valueURI="lcsh">Earth (Planet)</geographic>
-        </subject></mods>
+  <subject>
+    <geographic authority="lcsh">Earth (Planet)</geographic>
+  </subject>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>NASA Surface Meteorology and Solar Energy : Global Data Sets</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/bn217rw0181</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

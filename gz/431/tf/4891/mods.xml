@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Groundwater Elevation Change, California, Spring 2002 to Spring 2012</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,10 +32,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 112&#xB0;17&#x2B9;45&#x2BA;--E 121&#xB0;43&#x2B9;55&#x2BA;/S 10&#xB0;49&#x2B9;--S 25&#xB0;54&#x2B9;59&#x2BA;)</coordinates>
+      <coordinates>(E 112°17ʹ45ʺ--E 121°43ʹ55ʺ/S 10°49ʹ--S 25°54ʹ59ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This point shapefile represents changes in groundwater levels in California. These data represent groundwater changes between spring 2002 and spring 2012. Each point shows the calculated difference between the measured groundwater levels from the time period. The change in groundwater level is plotted on the map only if a measurement exists in both time periods as well. The colored points in the measurements layer show the location of all wells where the groundwater level change is determined. </abstract>
+  <abstract displayLabel="Abstract" lang="eng">This point shapefile represents changes in groundwater levels in California. These data represent groundwater changes between spring 2002 and spring 2012. Each point shows the calculated difference between the measured groundwater levels from the time period. The change in groundwater level is plotted on the map only if a measurement exists in both time periods as well. The colored points in the measurements layer show the location of all wells where the groundwater level change is determined.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This layer is intended to be used as a compliment to data, reports, and other information provided by the California Groundwater Information Center.</abstract>
   <note displayLabel="Preferred citation" lang="eng">California Department of Water Resources. (2016). Groundwater Elevation Change, California, Spring 2002 to Spring 2012. California Department of Water Resources. Available at: http://purl.stanford.edu/gz431tf4891.</note>
   <subject>
@@ -54,7 +54,7 @@
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="inlandWaters">Inland Waters</topic>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="">Geoscientific Information</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
   </subject>
   <subject>
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="elevation">Elevation</topic>
@@ -62,7 +62,6 @@
   <location>
     <url>http://purl.stanford.edu/gz431tf4891</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:gz431tf4891</recordIdentifier>
@@ -82,8 +81,25 @@
             <gml:upperCorner>121.323676 -14.436828</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 112&#xB0;24&#x2B9;58&#x2BA;--E 121&#xB0;19&#x2B9;25&#x2BA;/S 14&#xB0;26&#x2B9;13&#x2BA;--S 22&#xB0;25&#x2B9;40&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 112°24ʹ58ʺ--E 121°19ʹ25ʺ/S 14°26ʹ13ʺ--S 22°25ʹ40ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Groundwater Information Center, California: GIS Maps and Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/cz385jp1958</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Infant Burial Towers, China, 1644-1911</title>
@@ -18,7 +18,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -29,10 +29,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 110&#xB0;19&#x2B9;56&#x2BA;--E 121&#xB0;45&#x2B9;7&#x2BA;/N 39&#xB0;22&#x2B9;49&#x2BA;--N 29&#xB0;39&#x2B9;6&#x2BA;)</coordinates>
+      <coordinates>(E 110°19ʹ56ʺ--E 121°45ʹ7ʺ/N 39°22ʹ49ʺ--N 29°39ʹ6ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This point shapefile contains the location of infant burial towers in China from 1644 to 1911. This layer was created as part of the Grave Reform in Modern China project, a digital humanities initiative based at Stanford that is building an interactive spatial and textual analysis platform to examine the phenomenon of grave relocation in modern China, </abstract>
+  <abstract displayLabel="Abstract" lang="eng">This point shapefile contains the location of infant burial towers in China from 1644 to 1911. This layer was created as part of the Grave Reform in Modern China project, a digital humanities initiative based at Stanford that is building an interactive spatial and textual analysis platform to examine the phenomenon of grave relocation in modern China,</abstract>
   <note displayLabel="Preferred citation" lang="eng">Snyder-Reinke, J. (2018). Infant Burial Towers, China, 1644-1911. Stanford University. Center for Interdisciplinary Research. Available at: http://purl.stanford.edu/gc224tt2259.</note>
   <subject>
     <topic authority="lcsh" lang="eng">Burial</topic>
@@ -49,7 +49,6 @@
   <location>
     <url>http://purl.stanford.edu/gc224tt2259</url>
   </location>
-  <accessCondition type="useAndReproduction">Attribution 3.0 Unported. You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:gc224tt2259</recordIdentifier>
@@ -69,8 +68,26 @@
             <gml:upperCorner>121.7519 39.380226</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1814991/" dc:language="eng" dc:title="China"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 110&#xB0;19&#x2B9;56&#x2BA;--E 121&#xB0;45&#x2B9;7&#x2BA;/N 39&#xB0;22&#x2B9;49&#x2BA;--N 29&#xB0;39&#x2B9;6&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 110°19ʹ56ʺ--E 121°45ʹ7ʺ/N 39°22ʹ49ʺ--N 29°39ʹ6ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Grave Reform in Modern China : [geospatial datasets]</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/hw327pj4436</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</accessCondition>
+  <accessCondition type="license" xlink:href="https://creativecommons.org/licenses/by/3.0/legalcode">This work is licensed under a Creative Commons Attribution 3.0 Unported license (CC BY).</accessCondition>
+</mods>

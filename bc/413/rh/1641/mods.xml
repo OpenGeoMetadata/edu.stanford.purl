@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>100-Meter Resolution Satellite View with Shaded Relief of Hawaii</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2013</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>GeoTIFF</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 161&#xB0;2&#x2B9;44&#x2BA;--W 153&#xB0;57&#x2B9;29&#x2BA;/N 32&#xB0;53&#x2B9;31&#x2BA;--N 28&#xB0;40&#x2B9;34&#x2BA;)</coordinates>
+      <coordinates>(W 160°52ʹ39ʺ--W 154°5ʹ5ʺ/N 22°35ʹ20ʺ--N 18°32ʹ53ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">The Satellite View with Shaded Relief of Hawaii map layer is a 100-meter resolution simulated natural-color image of Hawaii, with relief shading added to accentuate terrain features. Vegetation is generally green, with forests in darker green and grasslands or shrublands in lighter green. Areas of high reflectance, including urban areas, rock, and dry bare soil, are shown in shades of tan and pink. Very bright areas, such as snow and ice, are light blue. The image was produced by combining a mosaic of Landsat Thematic Mapper (TM) imagery from the Landsat 4 and Landsat 5 satellites with shaded relief generated from 100-meter elevation data extracted from the National Elevation Dataset (NED). This layer is part of the 1997-2014 edition National Atlas of the United States.</abstract>
@@ -87,7 +87,6 @@
   <location>
     <url>http://purl.stanford.edu/bc413rh1641</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:bc413rh1641</recordIdentifier>
@@ -103,12 +102,29 @@
         <dc:type>Dataset#Raster</dc:type>
         <gml:boundedBy>
           <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-161.0455909 28.6760816</gml:lowerCorner>
-            <gml:upperCorner>-153.9584089 32.8918599</gml:upperCorner>
+            <gml:lowerCorner>-160.8774181 18.5478405</gml:lowerCorner>
+            <gml:upperCorner>-154.0842082 22.5889294</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5855797/" dc:language="eng" dc:title="Hawaii"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 161&#xB0;2&#x2B9;44&#x2BA;--W 153&#xB0;57&#x2B9;30&#x2BA;/N 32&#xB0;53&#x2B9;31&#x2BA;--N 28&#xB0;40&#x2B9;34&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 160°52ʹ39ʺ--W 154°5ʹ3ʺ/N 22°35ʹ20ʺ--N 18°32ʹ52ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>National atlas of the United States of America, 1997-2014</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/cv275yx9215</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

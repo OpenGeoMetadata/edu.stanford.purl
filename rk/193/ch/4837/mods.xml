@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Food Crops as a Percentage of all Cropland in Central and Western Kenya, 2001</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2001</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,10 +33,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(E 33&#xB0;54&#x2B9;32&#x2BA;--E 38&#xB0;26&#x2B9;37&#x2BA;/N 1&#xB0;21&#x2B9;12&#x2BA;--S 2&#xB0;44&#x2B9;38&#x2BA;)</coordinates>
+      <coordinates>(E 33°54ʹ32ʺ--E 38°26ʹ37ʺ/N 1°21ʹ12ʺ--S 2°44ʹ38ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts the share of cropland that is dedicated to food crops, irrespective of the overall intensity of cultivation. By using only two categories (food and nonfood) and grouping the data into four broad data ranges, the map is relatively robust to the seasonal changes in specific crop choices caused by differences in rainfall, prices, demand, and labor availability. Spatial patterns of food cropping do not necessarily mirror those of cropland intensity. Areas where more than 75 percent of farmers&#x2019; cropland is dedicated to food crop are concentrated in high-potential Districts such as Trans Nzoia, Uasin Gishu, Lugari, upper Nandi, and Nakuru (maize and other cereals); Narok (wheat); and lower Kirinyaga (rice). High food-crop shares also occur in more marginal cropping areas such as the Districts bordering Lake Victoria and large parts of Machakos and Makueni Districts (but here low-yielding maize is the major contributor). The lowest shares of food crops (25 percent) cover the tea-growing areas along the Aberdare Range; Mount Kenya; and parts of eastern Bomet, Buret, Kericho, and Nyamira Districts. Areas with a food share of 25-50 percent include the coffee-growing zones of the Aberdare Range and Mount Kenya in Central Province. In the west, for example, in Siaya, Kakamega, and Migori Districts, low shares of food crops are typically paired with sugarcane or tobacco crops. Areas with low shares of food crops in Kitui District may be temporary, reflecting large shares of fallow cropland during the 1997 season of the aerial surveys.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts the share of cropland that is dedicated to food crops, irrespective of the overall intensity of cultivation. By using only two categories (food and nonfood) and grouping the data into four broad data ranges, the map is relatively robust to the seasonal changes in specific crop choices caused by differences in rainfall, prices, demand, and labor availability. Spatial patterns of food cropping do not necessarily mirror those of cropland intensity. Areas where more than 75 percent of farmers’ cropland is dedicated to food crop are concentrated in high-potential Districts such as Trans Nzoia, Uasin Gishu, Lugari, upper Nandi, and Nakuru (maize and other cereals); Narok (wheat); and lower Kirinyaga (rice). High food-crop shares also occur in more marginal cropping areas such as the Districts bordering Lake Victoria and large parts of Machakos and Makueni Districts (but here low-yielding maize is the major contributor). The lowest shares of food crops (25 percent) cover the tea-growing areas along the Aberdare Range; Mount Kenya; and parts of eastern Bomet, Buret, Kericho, and Nyamira Districts. Areas with a food share of 25-50 percent include the coffee-growing zones of the Aberdare Range and Mount Kenya in Central Province. In the west, for example, in Siaya, Kakamega, and Migori Districts, low shares of food crops are typically paired with sugarcane or tobacco crops. Areas with low shares of food crops in Kitui District may be temporary, reflecting large shares of fallow cropland during the 1997 season of the aerial surveys.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This data was used in Map 4.4 in Nature's Benefits in Kenya: An Atlas of Ecosystems and Human Well-Being.</abstract>
   <note displayLabel="Preferred citation" lang="eng">World Resources Institute. (2007). Food Crops as a Percentage of all Cropland in Central and Western Kenya, 1997. World Resources Institute. Available at: http://purl.stanford.edu/rk193ch4837</note>
   <note displayLabel="Supplemental information">These data combine detailed crop information from 5,747 aerial photos for a growing season in 1997, each providing a sample point of detailed crop information. These samples were averaged to spatial units (polygons) of croplands from Kenya's most recent land-cover map (FAO 2000).</note>
@@ -102,8 +102,17 @@
             <gml:upperCorner>38.443604 1.353382</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/192950/about.rdf" dc:language="eng" dc:title="Kenya"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Kenya GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ft018fj7823</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Buffalo Distribution: Kenya, 1994-1996</title>
@@ -23,7 +23,7 @@
     <dateValid encoding="w3cdtf" point="end">1996</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -34,7 +34,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::32637</projection>
-      <coordinates>(E 34&#xB0;55&#x2B9;19&#x2BA;--E 41&#xB0;1&#x2B9;38&#x2BA;/N 2&#xB0;7&#x2B9;34&#x2BA;--S 4&#xB0;15&#x2B9;8&#x2BA;)</coordinates>
+      <coordinates>(E 34°55ʹ19ʺ--E 41°1ʹ38ʺ/N 2°7ʹ34ʺ--S 4°15ʹ8ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile portrays the spatial distribution of buffalo numbers observed in Kenya from 1994 to 1996. Wildlife counts came from a rangeland census using low altitude flights. Animals are aggregated to squares of 5 kilometers by 5 kilometers.</abstract>
@@ -104,8 +104,25 @@
             <gml:upperCorner>41.022497 2.12579</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/192950/about.rdf" dc:language="eng" dc:title="Kenya"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 34&#xB0;55&#x2B9;56&#x2BA;--E 41&#xB0;1&#x2B9;21&#x2BA;/N 2&#xB0;7&#x2B9;33&#x2BA;--S 4&#xB0;15&#x2B9;7&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 34°55ʹ56ʺ--E 41°1ʹ21ʺ/N 2°7ʹ33ʺ--S 4°15ʹ7ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Kenya GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ft018fj7823</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

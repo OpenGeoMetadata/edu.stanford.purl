@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Wildebeest Observations: Athi-Kapiti Plains, Kenya, 1977-78 and 1994-96</title>
@@ -26,7 +26,7 @@
     <dateValid encoding="w3cdtf">1996</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -37,7 +37,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::32637</projection>
-      <coordinates>(E 36&#xB0;39&#x2B9;6&#x2BA;--E 37&#xB0;7&#x2B9;48&#x2BA;/S 1&#xB0;23&#x2B9;30&#x2BA;--S 1&#xB0;55&#x2B9;17&#x2BA;)</coordinates>
+      <coordinates>(E 36°39ʹ6ʺ--E 37°7ʹ48ʺ/S 1°23ʹ30ʺ--S 1°55ʹ17ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile portrays number of wildebeest observed in 1977-78 and 1994-96 in the Athi-Kapiti Plains, Kenya. Note: This data shows numbers of wildebeest observed during the wet season by low-altitude flights. The data was then aggregated to 5km grid cells by number observed.</abstract>
@@ -118,8 +118,25 @@
             <gml:upperCorner>37.129559 -1.391724</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Kitengela (Kenya)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 36&#xB0;39&#x2B9;6&#x2BA;--E 37&#xB0;7&#x2B9;46&#x2BA;/S 1&#xB0;23&#x2B9;30&#x2BA;--S 1&#xB0;55&#x2B9;16&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 36°39ʹ6ʺ--E 37°7ʹ46ʺ/S 1°23ʹ30ʺ--S 1°55ʹ16ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Kenya GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ft018fj7823</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>100-Meter Resolution Land Cover of Hawaii, 2001</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>GeoTIFF</form>
@@ -31,7 +31,7 @@
     <cartographics>
       <scale>1:1000000</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 160&#xB0;52&#x2B9;39&#x2BA;--W 154&#xB0;5&#x2B9;5&#x2BA;/N 22&#xB0;35&#x2B9;20&#x2BA;--N 18&#xB0;32&#x2B9;53&#x2BA;)</coordinates>
+      <coordinates>(W 160°52ʹ39ʺ--W 154°5ʹ5ʺ/N 22°35ʹ20ʺ--N 18°32ʹ53ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This raster layer is a georeferenced image containing land cover data for Hawaii, in an Albers Equal-Area Conic projection and at a resolution of 100 meters. The land cover data were derived from the 2001 National Land Cover Database (NLCD) Land Cover data set, a product of the Multi-Resolution Land Characteristics Consortium (MRLC). This layer is part of the 1997-2014 edition of the National Atlas of the United States.</abstract>
@@ -75,8 +75,25 @@
             <gml:upperCorner>-154.0842082 22.5889294</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5855797/" dc:language="eng" dc:title="Hawaii"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 160&#xB0;52&#x2B9;39&#x2BA;--W 154&#xB0;5&#x2B9;3&#x2BA;/N 22&#xB0;35&#x2B9;20&#x2BA;--N 18&#xB0;32&#x2B9;52&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 160°52ʹ39ʺ--W 154°5ʹ3ʺ/N 22°35ʹ20ʺ--N 18°32ʹ52ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>National atlas of the United States of America, 1997-2014</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/cv275yx9215</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

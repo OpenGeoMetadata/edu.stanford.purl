@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Large-Scale Irrigation Areas: Kenya, 2000</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2000</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,10 +33,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(E 33&#xB0;56&#x2B9;49&#x2BA;--E 41&#xB0;54&#x2B9;41&#x2BA;/N 4&#xB0;26&#x2B9;40&#x2BA;--S 4&#xB0;40&#x2B9;10&#x2BA;)</coordinates>
+      <coordinates>(E 33°56ʹ49ʺ--E 41°54ʹ41ʺ/N 4°26ʹ40ʺ--S 4°40ʹ10ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents large scale irrigation schemes in Kenya, with the largest located at the foothills of Mount Kenya. This includes Kenya&#x2019;s largest irrigation investment, the Mwea-Tebere rice irrigation scheme. Covering more than 6,100 hectares, this area produces most of Kenya&#x2019;s rice. Other irrigated areas are located close to Kisumu (where sugar cane is produced) and along the lower Tana River (which produces citrus and rice). These data were derived from FAO's Africover dataset.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents large scale irrigation schemes in Kenya, with the largest located at the foothills of Mount Kenya. This includes Kenya’s largest irrigation investment, the Mwea-Tebere rice irrigation scheme. Covering more than 6,100 hectares, this area produces most of Kenya’s rice. Other irrigated areas are located close to Kisumu (where sugar cane is produced) and along the lower Tana River (which produces citrus and rice). These data were derived from FAO's Africover dataset.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This data was used in Map 3.12 in Nature's Benefits in Kenya: An Atlas of Ecosystems and Human Well-Being.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Food and Agriculture Organization of the United Nations. (2000). Large-Scale Irrigation Areas: Kenya, 2000. FAO Available at: http://purl.stanford.edu/mb356fv7906</note>
   <note displayLabel="Supplemental information">Original data are downloadable at www.africover.org.</note>
@@ -99,8 +99,17 @@
             <gml:upperCorner>41.911373 4.444314</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/192950/about.rdf" dc:language="eng" dc:title="Kenya"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Kenya GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ft018fj7823</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

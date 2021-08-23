@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Important Bird Areas: Kenya, 2003-2004</title>
@@ -23,7 +23,7 @@
     <dateValid encoding="w3cdtf" point="end">2004</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -34,10 +34,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(E 34&#xB0;11&#x2B9;--E 41&#xB0;26&#x2B9;/N 3&#xB0;27&#x2B9;--S 4&#xB0;43&#x2B9;)</coordinates>
+      <coordinates>(E 34°11ʹ--E 41°26ʹ/N 3°27ʹ--S 4°43ʹ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts Important Bird Areas (IBAs) and their status in Kenya, 2003-2004. The data depicts each IBA by a point in the center of its associated area. IBAs range from 1 hectare to more than 1 million hectares in size. This layer identi&#xFB01;es 60 IBAs in Kenya covering some 5.7 million hectares (10 percent of the country&#x2019;s land area). These areas play a critical role in ensuring the survival of local and migratory bird species. Of these 60 sites, only 35 are located inside parks, sanctuaries, reserves, or other protected areas. Thus, the survival of local and migratory species relies heavily on coexistence with people in landscapes that have been signi&#xFB01;cantly altered by human activities. A recent assessment of the conservation status of Kenya&#x2019;s IBAs indicated that many are in decline&#x2014;a &#xFB01;nding that bodes ill for Kenya&#x2019;s rich bird diversity. Indeed, some 27 bird species in Kenya have been listed as &#x201C;critically endangered, endangered, or vulnerable.&#x201D; </abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts Important Bird Areas (IBAs) and their status in Kenya, 2003-2004. The data depicts each IBA by a point in the center of its associated area. IBAs range from 1 hectare to more than 1 million hectares in size. This layer identiﬁes 60 IBAs in Kenya covering some 5.7 million hectares (10 percent of the country’s land area). These areas play a critical role in ensuring the survival of local and migratory bird species. Of these 60 sites, only 35 are located inside parks, sanctuaries, reserves, or other protected areas. Thus, the survival of local and migratory species relies heavily on coexistence with people in landscapes that have been signiﬁcantly altered by human activities. A recent assessment of the conservation status of Kenya’s IBAs indicated that many are in decline—a ﬁnding that bodes ill for Kenya’s rich bird diversity. Indeed, some 27 bird species in Kenya have been listed as “critically endangered, endangered, or vulnerable.”</abstract>
   <abstract displayLabel="Purpose" lang="eng">This data was used in Map 5.3 in Nature's Benefits in Kenya: An Atlas of Ecosystems and Human Well-Being.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Nature Kenya. (2007). Important Bird Areas: Kenya, 2003-2004. Birdlife International. Available at: http://purl.stanford.edu/jm947qz7375</note>
   <note displayLabel="Supplemental information">Please note that this data is frequently updated. Please refer to Birdlife International's website for most updated versions and downloads: http://www.birdlife.org/datazone/index.html</note>
@@ -101,8 +101,17 @@
             <gml:upperCorner>41.433333 3.45</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/192950/about.rdf" dc:language="eng" dc:title="Kenya"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Kenya GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ft018fj7823</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

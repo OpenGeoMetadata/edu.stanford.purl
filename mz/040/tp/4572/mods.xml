@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Annual Growth of Biomass for Vegetation Outside of Croplands: Kenya, 2002</title>
@@ -9,9 +9,6 @@
   <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
   <originInfo>
     <publisher>World Resources Institute</publisher>
-    <place>
-      <placeTerm type="text"/>
-    </place>
     <publisher>World Resources Institute</publisher>
     <place>
       <placeTerm type="text">Washington, D.C., US</placeTerm>
@@ -20,7 +17,7 @@
     <dateValid encoding="w3cdtf">2002</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -31,7 +28,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(E 33&#xB0;54&#x2B9;32&#x2BA;--E 41&#xB0;54&#x2B9;41&#x2BA;/N 5&#xB0;25&#x2B9;41&#x2BA;--S 4&#xB0;40&#x2B9;50&#x2BA;)</coordinates>
+      <coordinates>(E 33°54ʹ32ʺ--E 41°54ʹ41ʺ/N 5°25ʹ41ʺ--S 4°40ʹ50ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts the annual growth of biomass outside of croplands as well as the theoretically harvestable biomass yield outside of croplands for Kenya. The map depicts, in three broad categories, a rough estimate of the amount of wood that could be sustainably harvested, that is, the annual growth of wood biomass per year from vegetation outside of croplands that could be harvested without depleting the stock. Closed forests in the mountain ranges, and forests and dense woodlands along the coast are the most productive. Areas that are generally classified as bushlands or woodlands on national maps fall in the mid-range of productivity. The areas in the lowest growth category either are a mix of cropland and natural landscapes (with little remaining natural vegetation) or have few trees, for example, grasslands. The World Resources Institute calculated these data based on FAO Africover and Kenya Ministry of Energy Survey data from 200 and 2002, respectively.</abstract>
@@ -100,8 +97,17 @@
             <gml:upperCorner>41.911373 5.428018</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/192950/about.rdf" dc:language="eng" dc:title="Kenya"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Kenya GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ft018fj7823</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

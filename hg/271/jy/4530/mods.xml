@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>French Concession, China, 1849-1861</title>
@@ -18,7 +18,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -29,7 +29,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 121&#xB0;28&#x2B9;25&#x2BA;--E 121&#xB0;29&#x2B9;29&#x2BA;/N 31&#xB0;14&#x2B9;8&#x2BA;--N 31&#xB0;13&#x2B9;36&#x2BA;)</coordinates>
+      <coordinates>(E 121°28ʹ25ʺ--E 121°29ʹ29ʺ/N 31°14ʹ8ʺ--N 31°13ʹ36ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents French concession in China from 1849 to 1861. This layer was created as part of the Grave Reform in Modern China project, a digital humanities initiative based at Stanford that is building an interactive spatial and textual analysis platform to examine the phenomenon of grave relocation in modern China.</abstract>
@@ -49,7 +49,6 @@
   <location>
     <url>http://purl.stanford.edu/hg271jy4530</url>
   </location>
-  <accessCondition type="useAndReproduction">Attribution 3.0 Unported. You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:hg271jy4530</recordIdentifier>
@@ -69,8 +68,26 @@
             <gml:upperCorner>121.491234 31.23553</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1814991/" dc:language="eng" dc:title="China"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 121&#xB0;28&#x2B9;25&#x2BA;--E 121&#xB0;29&#x2B9;28&#x2BA;/N 31&#xB0;14&#x2B9;8&#x2BA;--N 31&#xB0;13&#x2B9;36&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 121°28ʹ25ʺ--E 121°29ʹ28ʺ/N 31°14ʹ8ʺ--N 31°13ʹ36ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Grave Reform in Modern China : [geospatial datasets]</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/hw327pj4436</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</accessCondition>
+  <accessCondition type="license" xlink:href="https://creativecommons.org/licenses/by/3.0/legalcode">This work is licensed under a Creative Commons Attribution 3.0 Unported license (CC BY).</accessCondition>
+</mods>

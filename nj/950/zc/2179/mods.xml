@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Average Number of Crops Grown in Croplands of Central and Western Kenya, 2001</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2001</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,10 +33,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(E 33&#xB0;56&#x2B9;49&#x2BA;--E 38&#xB0;26&#x2B9;37&#x2BA;/N 1&#xB0;16&#x2B9;47&#x2BA;--S 2&#xB0;44&#x2B9;38&#x2BA;)</coordinates>
+      <coordinates>(E 33°56ʹ49ʺ--E 38°26ʹ37ʺ/N 1°16ʹ47ʺ--S 2°44ʹ38ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents the average number of crops grown in croplands of central and western Kenya, 1997. This map combines detailed crop information from 5,747 aerial photos for a growing season in 1997, each providing a sample point of detailed crop information. These samples are averaged to spatial units (polygons) of crop - lands from Kenya&#x2019;s most recent land cover map (FAO 2000). These averages represent conservative estimates. The raw data indicate that in some sample points farmers grow up to eight different crop species simultaneously.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents the average number of crops grown in croplands of central and western Kenya, 1997. This map combines detailed crop information from 5,747 aerial photos for a growing season in 1997, each providing a sample point of detailed crop information. These samples are averaged to spatial units (polygons) of crop - lands from Kenya’s most recent land cover map (FAO 2000). These averages represent conservative estimates. The raw data indicate that in some sample points farmers grow up to eight different crop species simultaneously.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This data was used in Map 5.5 in Nature's Benefits in Kenya: An Atlas of Ecosystems and Human Well-Being.</abstract>
   <note displayLabel="Preferred citation" lang="eng">World Resources Institute. (2007). Average Number of Crops Grown in Croplands of Central and Western Kenya, 2001. World Resources Institute. Available at: http://purl.stanford.edu/nj950zc2179</note>
   <note displayLabel="Supplemental information">These data combine detailed crop information from 5,747 aerial photos for a growing season in 1997, each providing a sample point of detailed crop information. These samples were averaged to spatial units (polygons) of croplands from Kenya's most recent land-cover map (FAO 2000). These averages represent conservative estimates. The raw data indicate that in some sample points farmers grow up to eight different crop species simultaneously, especially in Kirinyaga, Meru Central, and Gucha Districts.</note>
@@ -99,8 +99,17 @@
             <gml:upperCorner>38.443604 1.279585</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/192950/about.rdf" dc:language="eng" dc:title="Kenya"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Kenya GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ft018fj7823</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

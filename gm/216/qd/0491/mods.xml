@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>100-Meter Resolution Satellite View of Hawaii</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2013</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>GeoTIFF</form>
@@ -31,8 +31,8 @@
   <subject>
     <cartographics>
       <scale>1:1000000</scale>
-      <projection>EPSG::2783</projection>
-      <coordinates>(W 167&#xB0;8&#x2B9;15&#x2BA;--W 158&#xB0;50&#x2B9;52&#x2BA;/N 39&#xB0;50&#x2B9;25&#x2BA;--N 35&#xB0;28&#x2B9;9&#x2BA;)</coordinates>
+      <projection>Custom projection</projection>
+      <coordinates>(W 160°52ʹ39ʺ--W 154°5ʹ5ʺ/N 22°35ʹ20ʺ--N 18°32ʹ53ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">The Satellite View of Hawaii map layer is a 100-meter resolution simulated natural-color image of Hawaii. Vegetation is generally green, with forests in darker green and grasslands or shrublands in lighter green. Areas of high reflectance, including urban areas, rock, and dry bare soil, are shown in shades of tan and pink. Very bright areas, such as snow and ice, are light blue. The image was produced by mosaicking Landsat Thematic Mapper (TM) imagery from the Landsat 4 and Landsat 5 satellites. Bands 7 (mid-infrared), 4 (near-infrared) and 2 (green), were assigned to red, green, and blue, respectively, and adjusted to produce the final simulated natural-color image. This layer is part of the 1997-2014 edition National Atlas of the United States.</abstract>
@@ -67,12 +67,11 @@
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="elevation">Elevation</topic>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="">Geoscientific Information</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
   </subject>
   <location>
     <url>http://purl.stanford.edu/gm216qd0491</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:gm216qd0491</recordIdentifier>
@@ -88,13 +87,29 @@
         <dc:type>Dataset#Raster</dc:type>
         <gml:boundedBy>
           <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-167.1374318 35.4685615</gml:lowerCorner>
-            <gml:upperCorner>-158.8480848 39.8403701</gml:upperCorner>
+            <gml:lowerCorner>-160.8774181 18.5478405</gml:lowerCorner>
+            <gml:upperCorner>-154.0842082 22.5889294</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5855797/" dc:language="eng" dc:title="Hawaii"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 167&#xB0;8&#x2B9;15&#x2BA;--W 158&#xB0;50&#x2B9;53&#x2BA;/N 39&#xB0;50&#x2B9;25&#x2BA;--N 35&#xB0;28&#x2B9;7&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 160°52ʹ39ʺ--W 154°5ʹ3ʺ/N 22°35ʹ20ʺ--N 18°32ʹ52ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>National atlas of the United States of America, 1997-2014</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/cv275yx9215</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Late Wisconsin Glaciers, Alaska Palaeo-Glacier Atlas</title>
@@ -28,7 +28,7 @@
     <edition>2</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -39,7 +39,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 178&#xB0;2&#x2B9;1&#x2BA;--W 119&#xB0;20&#x2B9;44&#x2BA;/N 69&#xB0;50&#x2B9;24&#x2BA;--N 51&#xB0;45&#x2B9;48&#x2BA;)</coordinates>
+      <coordinates>(W 178°2ʹ1ʺ--W 119°20ʹ44ʺ/N 69°50ʹ24ʺ--N 51°45ʹ48ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile represents the extent of glaciers during the late Wisconsin glaciation (also known as the Last Glacial Maximum, about 20,000 years ago). Pleistocene glaciers once covered &amp;gt;1,200,000 km2, from the continental shelf bordering the North Pacific to the northern foothills of the Brooks Range. Late Wisconsin glaciers occupied 727,800 km2 -- nearly ten times the area of modern glaciers, but only 48% of the state. Alaska's glaciers expanded more than 20 times during the last 3 million years in response to cold and snowy conditions. During the late Wisconsin glaciation, when sea level fell approximately 125 m (approx. 400 ft), the Bering Land Bridge was exposed as a broad tundra plain, and much of the state escaped glaciation due to a cold but dry climate. Deposition and erosion by glaciers in the recent geologic past have greatly influenced Alaska's landscapes and ecosystems. This report is an update of the Alaska PalaeoGlacier Atlas. It includes information published since 2002 and is based on a more detailed map scale. In addition to the all-time maximum extent of former glaciers and the late Wisconsinan extent, this update includes the mapped limit for the penultimate glaciation, which generally occurred during the early Wisconsinan. The update also includes a compilation of cosmogenic exposure ages linked to the geospatial database. The Alaska PalaeoGlacier Atlas is a geospatial summary of Pleistocene glaciation across Alaska.</abstract>
@@ -86,12 +86,11 @@
     <temporal encoding="w3cdtf">2011</temporal>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="">Geoscientific Information</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
   </subject>
   <location>
     <url>http://purl.stanford.edu/vv347vv3451</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:vv347vv3451</recordIdentifier>
@@ -111,17 +110,25 @@
             <gml:upperCorner>-129.978511 69.677428</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5879092/" dc:language="eng" dc:title="Alaska"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Brooks Range (Alaska)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Seward Peninsula (Alaska)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Ahklun Mountains (Alaska)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Kuskokwim Mountains (Alaska)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Alaska Range (Alaska)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Alaska Peninsula (Alaska)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Kodiak Island (Alaska)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Wrangell Mountains (Alaska)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Saint Elias Mountains"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 168&#xB0;45&#x2B9;24&#x2BA;--W 129&#xB0;58&#x2B9;43&#x2BA;/N 69&#xB0;40&#x2B9;39&#x2BA;--N 53&#xB0;4&#x2B9;6&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 168°45ʹ24ʺ--W 129°58ʹ43ʺ/N 69°40ʹ39ʺ--N 53°4ʹ6ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Alaska Palaeo-Glacier Atlas</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/js199hm3307</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

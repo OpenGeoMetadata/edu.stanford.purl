@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>100-Meter Resolution Satellite View of Puerto Rico and the U.S. Virgin Islands</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2013</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>GeoTIFF</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>1:1000000</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 68&#xB0;21&#x2B9;28&#x2BA;--W 63&#xB0;47&#x2B9;20&#x2BA;/N 18&#xB0;57&#x2B9;11&#x2BA;--N 17&#xB0;3&#x2B9;36&#x2BA;)</coordinates>
+      <coordinates>(W 68°21ʹ28ʺ--W 63°47ʹ20ʺ/N 18°57ʹ11ʺ--N 17°3ʹ36ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">The Satellite View of Puerto Rico and the U.S. Virgin Islands map layer is a 100-meter resolution simulated natural-color image of Puerto Rico and the U.S. Virgin Islands, delivered in the Albers Equal-Area Conic map projection. Vegetation is generally green, with forests in darker green and grasslands or shrublands in lighter green. Areas of high reflectance, including urban areas, rock, and dry bare soil, are shown in shades of tan and pink. Very bright areas, such as snow and ice, are light blue. The image was produced by mosaicking Landsat Thematic Mapper (TM) imagery from the Landsat 4 and Landsat 5 satellites. Bands 7 (mid-infrared), 4 (near-infrared) and 2 (green), were assigned to red, green, and blue, respectively, and adjusted to produce the final simulated natural-color image. This layer is part of the 1997-2014 edition National Atlas of the United States.</abstract>
@@ -57,7 +57,7 @@
     <temporal encoding="w3cdtf">2013</temporal>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="">Geoscientific Information</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
   </subject>
   <subject>
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="imageryBaseMapsEarthCover">Imagery and Base Maps</topic>
@@ -68,7 +68,6 @@
   <location>
     <url>http://purl.stanford.edu/zn645bq0125</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:zn645bq0125</recordIdentifier>
@@ -88,10 +87,25 @@
             <gml:upperCorner>-63.7891704 18.9529521</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4566966/" dc:language="eng" dc:title="Puerto Rico"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4796775/" dc:language="eng" dc:title="United States Virgin Islands"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 68&#xB0;21&#x2B9;28&#x2BA;--W 63&#xB0;47&#x2B9;21&#x2BA;/N 18&#xB0;57&#x2B9;11&#x2BA;--N 17&#xB0;3&#x2B9;37&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 68°21ʹ28ʺ--W 63°47ʹ21ʺ/N 18°57ʹ11ʺ--N 17°3ʹ37ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>National atlas of the United States of America, 1997-2014</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/cv275yx9215</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

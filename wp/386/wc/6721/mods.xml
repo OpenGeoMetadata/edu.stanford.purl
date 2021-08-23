@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Wind: Monthly and Annual Average Wind GIS Data at One-Degree Resolution of the World from NASA/SSE (1983-1993)</title>
@@ -23,7 +23,7 @@
     <dateValid encoding="w3cdtf" point="end">1993</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -34,13 +34,13 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 180&#xB0;--E 180&#xB0;/N 90&#xB0;--S 90&#xB0;)</coordinates>
+      <coordinates>(W 180°--E 180°/N 90°--S 90°)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains data for wind speed at 50 m above the surface of the Earth (m/s) These data are 10-year monthly and annual averages ranging from July 1983 to June 1993. The source data was downloaded from the Surface Meteorology and Solar Energy (SSE) website as text files. The tabular data was then converted to the shapefile format. This is the 5th release of these data.</abstract>
   <abstract displayLabel="Purpose" lang="eng">These data provide investors and other stakeholders with reliable, verifiable and accessible information on the solar resource potential for the data domain.</abstract>
   <note displayLabel="Preferred citation" lang="eng">NASA Langley Atmospheric Sciences Data Center. (2008) Wind: Monthly and Annual Average Wind GIS Data at One-Degree Resolution of the World from NASA/SSE (1983-1993). NASA Available at: http://purl.stanford.edu/wp386wc6721</note>
-  <note displayLabel="Supplemental information"> Spatial Extent: Global Bounding
+  <note displayLabel="Supplemental information">Spatial Extent: Global Bounding
 Coordinates (decimal degrees) South: -90.00, North: 90.00, West:
 -180.00, East: 180.00Co-ordinate System: Geographic, Datum: WGS84,
 Ellipsoid: WGS84. Polygon shapefile with fields as defined belowID
@@ -91,10 +91,20 @@ aprmax, maymax, junmax, julmax, augmax, sepmax, octmax, novmax, decmax
             <gml:upperCorner>180.0 90.0</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6295630/about.rdf" dc:language="eng" dc:title="Earth"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject>
-          <geographic authority="lcsh" valueURI="lcsh">Earth (Planet)</geographic>
-        </subject></mods>
+  <subject>
+    <geographic authority="lcsh" valueURI="lcsh">Earth (Planet)</geographic>
+  </subject>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>NASA Surface Meteorology and Solar Energy : Global Data Sets</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/bn217rw0181</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

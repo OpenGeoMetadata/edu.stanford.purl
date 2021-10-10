@@ -1,13 +1,10 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Shiberia niman-gosenbun no ichizu, Maps Index</title>
   </titleInfo>
-  <titleInfo>
-    <title type="alternative">Siberia (Russia), Primorski&#x12D; kra&#x12D; (Russia) 1:25,000 Maps Index</title>
-  </titleInfo>
-  <titleInfo>
-    <title displayLabel="Alternative title">Siberia (Russia), Primorski&#x12D; kra&#x12D; (Russia) 1:25,000 Maps Index</title>
+  <titleInfo type="alternative" displayLabel="Alternative title">
+    <title>Siberia (Russia), Primorskiĭ kraĭ (Russia) 1:25,000 Maps Index</title>
   </titleInfo>
   <name type="corporate">
     <namePart>Stanford Geospatial Center</namePart>
@@ -23,7 +20,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -34,19 +31,16 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(E 131&#xB0;30&#x2B9;--E 133&#xB0;46&#x2B9;30&#x2BA;/N 45&#xB0;32&#x2B9;--N 42&#xB0;48&#x2B9;)</coordinates>
+      <coordinates>(E 131°30ʹ--E 133°46ʹ30ʺ/N 45°32ʹ--N 42°48ʹ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile is an index to 1:25,000 scale maps of Siberia (Russia), Primorski&#x12D; kra&#x12D; (Russia), titled 'Shiberia niman-gosenbun no ichizu -- &#x897F;&#x4F2F;&#x5229;&#x4E8C;&#x4E07;&#x4E94;&#x5343;&#x5206;&#x4E00;&#x5716;.&#x2019; This map series was originally produced by the Japanese Land Survey Department of the General Staff Headquarters between 1910 and 1917. Stanford University Libraries holds a large collection of Japanese military and imperial maps, referred to as gaih&#x14D;zu, or "maps of outer lands." These maps were produced starting in the early Meiji (1868-1912) era and the end of World War II by the Land Survey Department of the General Staff Headquarters, the former Japanese Army. The Library is in the process of scanning and making available all of the maps in the collection. To create this index, footprints were generated using the fishnet tool, and metadata were supplied for the digitized paper maps by Stanford University Libraries. After the footprints were created, the shapefile was trimmed and labeled according to the sources.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile is an index to 1:25,000 scale maps of Siberia (Russia), Primorskiĭ kraĭ (Russia), titled 'Shiberia niman-gosenbun no ichizu -- 西伯利二万五千分一圖.’ This map series was originally produced by the Japanese Land Survey Department of the General Staff Headquarters between 1910 and 1917. Stanford University Libraries holds a large collection of Japanese military and imperial maps, referred to as gaihōzu, or "maps of outer lands." These maps were produced starting in the early Meiji (1868-1912) era and the end of World War II by the Land Survey Department of the General Staff Headquarters, the former Japanese Army. The Library is in the process of scanning and making available all of the maps in the collection. To create this index, footprints were generated using the fishnet tool, and metadata were supplied for the digitized paper maps by Stanford University Libraries. After the footprints were created, the shapefile was trimmed and labeled according to the sources.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This layer provides an index map that can be used to locate individual scanned map sheets.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Stanford Geospatial Center. (2016). Shiberia niman-gosenbun no ichizu, Maps Index. Stanford Digital Repository. Available at: http://purl.stanford.edu/zh202dn4079.</note>
   <relatedItem type="isReferencedBy">
     <titleInfo>
       <title>Shiberia niman-gosenbun no ichizu</title>
     </titleInfo>
-    <originInfo>
-      <dateIssued encoding="w3cdtf"/>
-    </originInfo>
   </relatedItem>
   <subject>
     <topic lang="eng">Military maps</topic>
@@ -64,7 +58,7 @@
     <geographic lang="eng">Siberia (Russia)</geographic>
   </subject>
   <subject>
-    <geographic lang="eng">Primorski&#x12D; kra&#x12D; (Russia)</geographic>
+    <geographic lang="eng">Primorskiĭ kraĭ (Russia)</geographic>
   </subject>
   <subject>
     <geographic lang="eng" valueURI="http://sws.geonames.org/2017370/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Russia</geographic>
@@ -81,7 +75,6 @@
   <location>
     <url>http://purl.stanford.edu/zh202dn4079</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:zh202dn4079</recordIdentifier>
@@ -101,10 +94,17 @@
             <gml:upperCorner>133.775 45.533333</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Siberia (Russia)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Primorski&#x12D; kra&#x12D; (Russia)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/2017370/" dc:language="eng" dc:title="Russia"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Gaihozu Index Maps</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ch237ht4777</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

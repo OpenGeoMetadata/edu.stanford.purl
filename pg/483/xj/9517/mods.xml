@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Nijūmanbun no ichi teikokuzu, Maps Index</title>
   </titleInfo>
-  <titleInfo>
-    <title type="alternative">Japan, Kuril Islands (Russia), Taiwan, 1:200,000 Maps Index</title>
-  </titleInfo>
-  <titleInfo>
-    <title displayLabel="Alternative title">Japan, Kuril Islands (Russia), Taiwan, 1:200,000 Maps Index</title>
+  <titleInfo type="alternative" displayLabel="Alternative title">
+    <title>Japan, Kuril Islands (Russia), Taiwan, 1:200,000 Maps Index</title>
   </titleInfo>
   <name type="corporate">
     <namePart>Stanford Geospatial Center</namePart>
@@ -23,7 +20,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -44,9 +41,6 @@
     <titleInfo>
       <title>Nijūmanbun no ichi teikokuzu [cartographic material]</title>
     </titleInfo>
-    <originInfo>
-      <dateIssued encoding="w3cdtf"/>
-    </originInfo>
   </relatedItem>
   <subject>
     <topic lang="eng">Military maps</topic>
@@ -100,15 +94,12 @@
             <gml:upperCorner>157.0 51.333333</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Japan"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Kuril Islands (Russia)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Taiwan"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
   <relatedItem type="host">
     <titleInfo>
-      <title>Topographic Map Indexes</title>
+      <title>Gaihozu Index Maps</title>
     </titleInfo>
     <location>
       <url>https://purl.stanford.edu/ch237ht4777</url>

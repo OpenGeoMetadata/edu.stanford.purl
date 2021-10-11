@@ -1,7 +1,7 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
-    <title>Hyakumanbun no ichi k&#x14D;k&#x16B;zu, Maps Index</title>
+    <title>Hyakumanbun no ichi kōkūzu, Maps Index</title>
   </titleInfo>
   <name type="corporate">
     <namePart>Stanford Geospatial Center</namePart>
@@ -17,7 +17,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -28,19 +28,16 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(E 87&#xB0;30&#x2B9;--E 168&#xB0;30&#x2B9;/N 43&#xB0;--S 13&#xB0;)</coordinates>
+      <coordinates>(E 87°30ʹ--E 168°30ʹ/N 43°--S 13°)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile is an index to 1:1,000,000 scale maps of Southeast Asia and Australia, titled 'Hyakumanbun no ichi k&#x14D;k&#x16B;zu.&#x2019; To create this index, footprints were generated using the fishnet tool, and metadata were supplied for the digitized paper maps by Stanford University Libraries. After the footprints were created, the shapefile was trimmed and labeled according to the sources.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile is an index to 1:1,000,000 scale maps of Southeast Asia and Australia, titled 'Hyakumanbun no ichi kōkūzu.’ To create this index, footprints were generated using the fishnet tool, and metadata were supplied for the digitized paper maps by Stanford University Libraries. After the footprints were created, the shapefile was trimmed and labeled according to the sources.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This layer provides an index map that can be used to locate individual scanned map sheets.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">Stanford Geospatial Center. (2016). Hyakumanbun no ichi k&#x14D;k&#x16B;zu, Maps Index. Stanford Digital Repository. Available at: http://purl.stanford.edu/xh465cw2755.</note>
+  <note displayLabel="Preferred citation" lang="eng">Stanford Geospatial Center. (2016). Hyakumanbun no ichi kōkūzu, Maps Index. Stanford Digital Repository. Available at: http://purl.stanford.edu/xh465cw2755.</note>
   <relatedItem type="isReferencedBy">
     <titleInfo>
-      <title>Hyakumanbun no ichi k&#x14D;k&#x16B;zu</title>
+      <title>Hyakumanbun no ichi kōkūzu</title>
     </titleInfo>
-    <originInfo>
-      <dateIssued encoding="w3cdtf"/>
-    </originInfo>
   </relatedItem>
   <subject>
     <topic lang="eng">Topographic maps</topic>
@@ -72,7 +69,6 @@
   <location>
     <url>http://purl.stanford.edu/xh465cw2755</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:xh465cw2755</recordIdentifier>
@@ -92,9 +88,17 @@
             <gml:upperCorner>168.5 43.0</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Southeast Asia"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/2077456/" dc:language="eng" dc:title="Australia"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Gaihozu Index Maps</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ch237ht4777</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

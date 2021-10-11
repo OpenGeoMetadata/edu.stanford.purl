@@ -1,13 +1,10 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
-    <title>Nihyakumanbunnoichi Dait&#x14D;a K&#x14D;k&#x16B;zu, Maps Index</title>
+    <title>Nihyakumanbunnoichi Daitōa Kōkūzu, Maps Index</title>
   </titleInfo>
-  <titleInfo>
-    <title type="alternative">East Asia, Southeast Asia, Alaska 1:2,000,000 Maps Index</title>
-  </titleInfo>
-  <titleInfo>
-    <title displayLabel="Alternative title">East Asia, Southeast Asia, Alaska 1:2,000,000 Maps Index</title>
+  <titleInfo type="alternative" displayLabel="Alternative title">
+    <title>East Asia, Southeast Asia, Alaska 1:2,000,000 Maps Index</title>
   </titleInfo>
   <name type="corporate">
     <namePart>Stanford Geospatial Center</namePart>
@@ -22,12 +19,12 @@
   <originInfo>
     <publisher>Stanford Digital Repository</publisher>
     <place>
-      <placeTerm type="text">Stanford, California, </placeTerm>
+      <placeTerm type="text">Stanford, California,</placeTerm>
     </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -38,19 +35,16 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 174&#xB0;--E 176&#xB0;/N 68&#xB0;--S 25&#xB0;)</coordinates>
+      <coordinates>(W 174°--E 176°/N 68°--S 25°)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile is an index to 1:2,000,000 scale maps of East Asia, Southeast Asia, Alaska, titled '&#x4E8C;&#x767E;&#x4E07;&#x5206;&#x4E00;&#x5927;&#x6771;&#x4E9C;&#x822A;&#x7A7A;&#x5716; - Nihyakumanbunnoichi Dait&#x14D;a K&#x14D;k&#x16B;zu.&#x2019; This map series was originally produced by the Japanese Land Survey Department of the General Staff Headquarters between 1943and 1944. Stanford University Libraries holds a large collection of Japanese military and imperial maps, referred to as gaih&#x14D;zu, or "maps of outer lands." These maps were produced starting in the early Meiji (1868-1912) era and the end of World War II by the Land Survey Department of the General Staff Headquarters, the former Japanese Army. The Library is in the process of scanning and making available all of the maps in the collection. To create this index, footprints were generated using the fishnet tool, and metadata were supplied for the digitized paper maps by Stanford University Libraries. After the footprints were created, the shapefile was trimmed and labeled according to the sources.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile is an index to 1:2,000,000 scale maps of East Asia, Southeast Asia, Alaska, titled '二百万分一大東亜航空圖 - Nihyakumanbunnoichi Daitōa Kōkūzu.’ This map series was originally produced by the Japanese Land Survey Department of the General Staff Headquarters between 1943and 1944. Stanford University Libraries holds a large collection of Japanese military and imperial maps, referred to as gaihōzu, or "maps of outer lands." These maps were produced starting in the early Meiji (1868-1912) era and the end of World War II by the Land Survey Department of the General Staff Headquarters, the former Japanese Army. The Library is in the process of scanning and making available all of the maps in the collection. To create this index, footprints were generated using the fishnet tool, and metadata were supplied for the digitized paper maps by Stanford University Libraries. After the footprints were created, the shapefile was trimmed and labeled according to the sources.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This layer provides an index map that can be used to locate individual scanned map sheets.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">Stanford Geospatial Center. (2016). Nihyakumanbunnoichi Dait&#x14D;a K&#x14D;k&#x16B;zu, Maps Index. Stanford Digital Repository. Available at: http://purl.stanford.edu/hh140rt2408.</note>
+  <note displayLabel="Preferred citation" lang="eng">Stanford Geospatial Center. (2016). Nihyakumanbunnoichi Daitōa Kōkūzu, Maps Index. Stanford Digital Repository. Available at: http://purl.stanford.edu/hh140rt2408.</note>
   <relatedItem type="isReferencedBy">
     <titleInfo>
-      <title>Nihyakumanbunnoichi Dait&#x14D;a K&#x14D;k&#x16B;zu</title>
+      <title>Nihyakumanbunnoichi Daitōa Kōkūzu</title>
     </titleInfo>
-    <originInfo>
-      <dateIssued encoding="w3cdtf"/>
-    </originInfo>
   </relatedItem>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Grids (Cartography)</topic>
@@ -85,7 +79,6 @@
   <location>
     <url>http://purl.stanford.edu/hh140rt2408</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:hh140rt2408</recordIdentifier>
@@ -105,10 +98,17 @@
             <gml:upperCorner>176.0 68.0</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="East Asia"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Southeast Asia"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5879092/" dc:language="eng" dc:title="Alaska"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Gaihozu Index Maps</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ch237ht4777</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

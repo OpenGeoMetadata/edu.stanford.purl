@@ -1,13 +1,10 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
-    <title>M&#x14D;ko hyakumanbun no ichi zu, Maps Index</title>
+    <title>Mōko hyakumanbun no ichi zu, Maps Index</title>
   </titleInfo>
-  <titleInfo>
-    <title type="alternative">Mongolia, 1:1,000,000  "Maps Index"</title>
-  </titleInfo>
-  <titleInfo>
-    <title displayLabel="Alternative title">Mongolia, 1:1,000,000  "Maps Index"</title>
+  <titleInfo type="alternative" displayLabel="Alternative title">
+    <title>Mongolia, 1:1,000,000  "Maps Index"</title>
   </titleInfo>
   <name type="corporate">
     <namePart>Stanford Geospatial Center</namePart>
@@ -23,7 +20,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -34,19 +31,16 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(E 108&#xB0;--E 120&#xB0;/N 52&#xB0;--N 40&#xB0;)</coordinates>
+      <coordinates>(E 108°--E 120°/N 52°--N 40°)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile is an index to 1:1,000,000 scale maps of Mongolia, titled 'M&#x14D;ko hyakumanbun no ichi zu: Rohan kaiby&#x14D; -- &#x8499;&#x53E4;&#x767E;&#x4E07;&#x5206;&#x4E00;&#x5716;: &#x9732;&#x7248;&#x6539;&#x63CF;. &#x2019; This map series was originally produced by the Japanese Land Survey Department of the General Staff Headquarters in 1941. Stanford University Libraries holds a large collection of Japanese military and imperial maps, referred to as gaih&#x14D;zu, or "maps of outer lands." These maps were produced starting in the early Meiji (1868-1912) era and the end of World War II by the Land Survey Department of the General Staff Headquarters, the former Japanese Army. The Library is in the process of scanning and making available all of the maps in the collection. To create this index, footprints were generated using the fishnet tool, and metadata were supplied for the digitized paper maps by Stanford University Libraries. After the footprints were created, the shapefile was trimmed and labeled according to the sources.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile is an index to 1:1,000,000 scale maps of Mongolia, titled 'Mōko hyakumanbun no ichi zu: Rohan kaibyō -- 蒙古百万分一圖: 露版改描. ’ This map series was originally produced by the Japanese Land Survey Department of the General Staff Headquarters in 1941. Stanford University Libraries holds a large collection of Japanese military and imperial maps, referred to as gaihōzu, or "maps of outer lands." These maps were produced starting in the early Meiji (1868-1912) era and the end of World War II by the Land Survey Department of the General Staff Headquarters, the former Japanese Army. The Library is in the process of scanning and making available all of the maps in the collection. To create this index, footprints were generated using the fishnet tool, and metadata were supplied for the digitized paper maps by Stanford University Libraries. After the footprints were created, the shapefile was trimmed and labeled according to the sources.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This layer provides an index map that can be used to locate individual scanned map sheets.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">Stanford Geospatial Center. (2016). M&#x14D;ko hyakumanbun no ichi zu, Maps Index. Stanford Digital Repository. Available at: http://purl.stanford.edu/dz707yw1572.</note>
+  <note displayLabel="Preferred citation" lang="eng">Stanford Geospatial Center. (2016). Mōko hyakumanbun no ichi zu, Maps Index. Stanford Digital Repository. Available at: http://purl.stanford.edu/dz707yw1572.</note>
   <relatedItem type="isReferencedBy">
     <titleInfo>
-      <title>M&#x14D;ko hyakumanbun no ichi zu [cartographic material]</title>
+      <title>Mōko hyakumanbun no ichi zu [cartographic material]</title>
     </titleInfo>
-    <originInfo>
-      <dateIssued encoding="w3cdtf"/>
-    </originInfo>
   </relatedItem>
   <subject>
     <topic lang="eng">Military maps</topic>
@@ -75,7 +69,6 @@
   <location>
     <url>http://purl.stanford.edu/dz707yw1572</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:dz707yw1572</recordIdentifier>
@@ -95,8 +88,17 @@
             <gml:upperCorner>120.0 52.0</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Mongolia"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Gaihozu Index Maps</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ch237ht4777</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

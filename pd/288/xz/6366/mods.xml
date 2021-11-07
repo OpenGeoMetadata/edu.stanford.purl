@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Marine Mammals Sightings Per Unit Effort, 1979-2007</title>
@@ -15,13 +15,10 @@
   <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
   <originInfo>
     <publisher>Northeast Ocean Data</publisher>
-    <place>
-      <placeTerm type="text"/>
-    </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +29,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 77&#xB0;--W 64&#xB0;/N 45&#xB0;40&#x2B9;--N 34&#xB0;50&#x2B9;)</coordinates>
+      <coordinates>(W 77°--W 64°/N 45°40ʹ--N 34°50ʹ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">Geospatial data obtained from the United States Navy included point shapefiles of valid sightings for all marine mammal targets and pre-calculated effort grids for each season. Sightings data were taken from NMFS-NEFSC Aerial Surveys, NMFS-NEFSC Shipboard Surveys, and the North Atlantic Right Whale Consortium Database. The validity of sightings was carefully screened and verified by United States Navy contractors before inclusion in the model. Invalid records were not included in the analysis. Sightings for each ten minute square were divided by the effort for each ten minute square to calculate Sightings Per Unit Effort (SPUE). SPUE was calculated for each target species, for each season, and for each ten minute square.</abstract>
@@ -72,7 +69,6 @@
   <location>
     <url>http://purl.stanford.edu/pd288xz6366</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:pd288xz6366</recordIdentifier>
@@ -92,10 +88,25 @@
             <gml:upperCorner>-64.0 45.666687</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3373405/" dc:language="eng" dc:title="Atlantic Ocean"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Northeastern States"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Mid Atlantic States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 77&#xB0;--W 64&#xB0;/N 45&#xB0;40&#x2B9;--N 34&#xB0;50&#x2B9;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 77°--W 64°/N 45°40ʹ--N 34°50ʹ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Northeast Ocean Data : Maps and data for ocean planning in the northeastern United States</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sg639pq7229</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

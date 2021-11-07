@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Public Housing Buildings, 2016</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 159&#xB0;42&#x2B9;52&#x2BA;--W 65&#xB0;57&#x2B9;2&#x2BA;/N 64&#xB0;50&#x2B9;36&#x2BA;--N 13&#xB0;27&#x2B9;37&#x2BA;)</coordinates>
+      <coordinates>(W 159°42ʹ52ʺ--W 65°57ʹ2ʺ/N 64°50ʹ36ʺ--N 13°27ʹ37ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">Public Housing was established to provide decent and safe rental housing for eligible low-income families, the elderly, and persons with disabilities. Public housing comes in all sizes and types, from scattered single family houses to high-rise apartments for elderly families. There are approximately 1.2 million households living in public housing units, managed by some 3,300 housing agencies (HAs). HUD administers Federal aid to local housing agencies (HAs) that manage the housing for low-income residents at rents they can afford. HUD furnishes technical and professional assistance in planning, developing and managing these developments. Public Housing Developments are depicted as a distinct address chosen to represent the general location of an entire Public Housing Development, which may be comprised of several buildings scattered across a community. The building with the largest number of units is selected to represent the location of the development. Location data for HUD-related properties and facilities are derived from HUDs enterprise geocoding service. While not all records are able to be geocoded and mapped, we are continuously working to improve the address data quality and enhance coverage. Note that this file only includes x, y coordinates and associated attributes for those addresses that can be geocoded to an interpolated point along a street segment, or to the centroid of the nearest U.S. Census block.Please consider this issue when using any datasets provided by HUD. The tenant characteristics for each building are suppressed with a -4 value when the Number_Reported. Data Current as of: 9/30/2016</abstract>
@@ -60,8 +60,6 @@
   <location>
     <url>http://purl.stanford.edu/xf698qm4616</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:xf698qm4616</recordIdentifier>
@@ -81,8 +79,17 @@
             <gml:upperCorner>-65.950646 64.843387</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. Department of Housing and Urban Development Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/wc590wy7435</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

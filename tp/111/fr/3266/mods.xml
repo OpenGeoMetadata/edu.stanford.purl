@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Folds: Offshore of Refugio Beach, California, 2012</title>
@@ -46,7 +46,7 @@
     <dateValid encoding="w3cdtf">2012</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -57,7 +57,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 120&#xB0;11&#x2B9;29&#x2BA;--W 119&#xB0;59&#x2B9;47&#x2BA;/N 34&#xB0;26&#x2B9;54&#x2BA;--N 34&#xB0;25&#x2B9;26&#x2BA;)</coordinates>
+      <coordinates>(W 120°11ʹ29ʺ--W 119°59ʹ47ʺ/N 34°26ʹ54ʺ--N 34°25ʹ26ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile contains geologic folds for the offshore area of Refugio Beach, California. This map area lies within the Western Transverse Ranges province, north of the southern California Borderland (Fisher and others, 2009). This province has undergone significant north-south compression since the Miocene, and recent global positioning system (GPS) data suggest north-south shortening of about 6 mm/yr (Larson and Webb, 1992). The active west-trending Pitas Point Fault (broad zone including back faults), Red Mountain Fault, and Rincon Creek Fault are some of the structures on which this shortening occurs (e.g., Jackson and Yeats, 1982; Sorlien and others, 2000; Fisher and others, 2009). This fault system, in aggregate, extends for about 100 km through the Ventura and Santa Barbara basins and represents an important earthquake hazard (e.g., Fisher and others, 2009). A map that show these data are published in Scientific Investigations Map 3319, "California State Waters Map Series--Offshore of Refugio Beach, California." This layer is part of USGS Data Series 781.</abstract>
@@ -86,7 +86,7 @@
     <temporal encoding="w3cdtf">2012</temporal>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="">Geoscientific Information</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
   </subject>
   <subject>
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="oceans">Oceans</topic>
@@ -94,8 +94,6 @@
   <location>
     <url>http://purl.stanford.edu/tp111fr3266</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:tp111fr3266</recordIdentifier>
@@ -115,10 +113,25 @@
             <gml:upperCorner>-119.996731 34.444482</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Santa Barbara County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 120&#xB0;11&#x2B9;28&#x2BA;--W 119&#xB0;59&#x2B9;48&#x2BA;/N 34&#xB0;26&#x2B9;40&#x2BA;--N 34&#xB0;25&#x2B9;30&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 120°11ʹ28ʺ--W 119°59ʹ48ʺ/N 34°26ʹ40ʺ--N 34°25ʹ30ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California State Waters Map Series Data Catalog</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ng324gh5570</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

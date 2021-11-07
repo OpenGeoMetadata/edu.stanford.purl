@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Fire Hazard Areas: Santa Cruz County, California, 2015</title>
@@ -28,7 +28,7 @@
     <dateValid encoding="w3cdtf">2015</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -39,7 +39,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::2227</projection>
-      <coordinates>(W 122&#xB0;19&#x2B9;8&#x2BA;--W 121&#xB0;35&#x2B9;19&#x2BA;/N 37&#xB0;16&#x2B9;16&#x2BA;--N 36&#xB0;52&#x2B9;58&#x2BA;)</coordinates>
+      <coordinates>(W 122°19ʹ8ʺ--W 121°35ʹ19ʺ/N 37°16ʹ16ʺ--N 36°52ʹ58ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts fire hazard areas in the County of Santa Cruz, California. This coverage supports mitigation strategies in Fire Hazard Areas that warrant these investments. Fire Hazard Areas provide specific designation for application of defensible space and building standards consistent with known mechanisms of fire risk to people, property and natural resources. This layer is part of a collection of GIS data created for Santa Cruz County, California.</abstract>
@@ -68,7 +68,7 @@
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="">Geoscientific Information</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
   </subject>
   <location>
     <url>http://purl.stanford.edu/bd559xr9037</url>
@@ -92,8 +92,25 @@
             <gml:upperCorner>-121.588923 37.264658</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Santa Cruz County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;19&#x2B9;1&#x2BA;--W 121&#xB0;35&#x2B9;20&#x2BA;/N 37&#xB0;15&#x2B9;53&#x2BA;--N 36&#xB0;53&#x2B9;23&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°19ʹ1ʺ--W 121°35ʹ20ʺ/N 37°15ʹ53ʺ--N 36°53ʹ23ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Santa Cruz County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/kn733hp1726</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

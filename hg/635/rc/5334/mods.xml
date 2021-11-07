@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Census Places, Monterey County, California, 2010</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 122&#xB0;12&#x2B9;59&#x2BA;--W 120&#xB0;13&#x2BA;/N 37&#xB0;10&#x2B9;11&#x2BA;--N 35&#xB0;20&#x2B9;18&#x2BA;)</coordinates>
+      <coordinates>(W 122°12ʹ59ʺ--W 120°13ʺ/N 37°10ʹ11ʺ--N 35°20ʹ18ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents 2010 census designated places (CDP) in Monterey County, California. Places, for the reporting of decennial census data, include census designated places, consolidated cities, and incorporated places. Each place is assigned a five-digit Federal Information Processing Standards (FIPS) code, based on the alphabetical order of the place name within each state. If place names are duplicated within a state, and they represent distinctly different areas, a separate code is assigned to each place name alphabetically by primary county in which each place is located, or if both places are in the same county, alphabetically by their legal description (for example, ''city'' before ''village''). Census designated places (CDPs) are delineated for each decennial census as the statistical counterparts of incorporated places. CDPs are delineated to provide census data for concentrations of population, housing, and commercial structures that are identifiable by name but are not within an incorporated place. CDP boundaries usually are defined in cooperation with state, local, and tribal officials. These boundaries, which usually coincide with visible features or the boundary of an adjacent incorporated place or other legal entity boundary, have no legal status, nor do these places have officials elected to serve traditional municipal functions. CDP boundaries may change from one decennial census to the next with changes in the settlement pattern; a CDP with the same name as in an earlier census does not necessarily have the same boundary.Consolidated City. An incorporated place that has combined its governmental functions with a county or subcounty entity but contains one or more other incorporated places that continue to function as local governments within the consolidated government. This layer is part of a collection of GIS data for Monterey County in California.</abstract>
@@ -65,7 +65,6 @@
   <location>
     <url>http://purl.stanford.edu/hg635rc5334</url>
   </location>
-  <accessCondition type="useAndReproduction">No restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:hg635rc5334</recordIdentifier>
@@ -85,8 +84,17 @@
             <gml:upperCorner>-120.003687 37.169717</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Monterey County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Monterey County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/yz208xk1891</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

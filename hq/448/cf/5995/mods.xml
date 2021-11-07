@@ -1,13 +1,10 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Shice Shanghai Chengxiang Zujie Tu (Raster Image)</title>
   </titleInfo>
-  <titleInfo>
-    <title type="alternative">&#x5BE6;&#x6E2C;&#x4E0A;&#x6D77;&#x57CE;&#x5EC2;&#x79DF;&#x754C;&#x5716;</title>
-  </titleInfo>
-  <titleInfo>
-    <title displayLabel="Alternative title">&#x5BE6;&#x6E2C;&#x4E0A;&#x6D77;&#x57CE;&#x5EC2;&#x79DF;&#x754C;&#x5716;</title>
+  <titleInfo type="alternative" displayLabel="Alternative title">
+    <title>實測上海城廂租界圖</title>
   </titleInfo>
   <name type="corporate">
     <namePart>Virtual Shanghai Project</namePart>
@@ -24,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>GeoTIFF</form>
@@ -34,10 +31,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 121&#xB0;25&#x2B9;41&#x2BA;--E 121&#xB0;33&#x2B9;57&#x2BA;/N 31&#xB0;16&#x2B9;55&#x2BA;--N 31&#xB0;11&#x2B9;28&#x2BA;)</coordinates>
+      <coordinates>(E 121°25ʹ41ʺ--E 121°33ʹ57ʺ/N 31°16ʹ55ʺ--N 31°11ʹ28ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced image of a map of Shanghai titled 'Shice Shanghai chengxiang zujie tu' (&#x5BE6;&#x6E2C;&#x4E0A;&#x6D77;&#x57CE;&#x5EC2;&#x79DF;&#x754C;&#x5716; /Map of Shanghai walled city and foreign settlements). Originally published in 1910, this map shows the city walls, foreign settlements, and roads.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced image of a map of Shanghai titled 'Shice Shanghai chengxiang zujie tu' (實測上海城廂租界圖 /Map of Shanghai walled city and foreign settlements). Originally published in 1910, this map shows the city walls, foreign settlements, and roads.</abstract>
   <abstract displayLabel="Purpose" lang="eng">Virtual Shanghai is a research and resource platform on the history of Shanghai from the mid-nineteenth century to nowadays. It incorporates various sets of documents: essays, original documents, photographs, maps, quantitative data, etc. The objective of the project is to write a history of the city through the combined mobilization of these various types of documents. The implementation of this approach relies on the use of digital and GIS technologies. On the research side, the platform offers various ways to step into the history of the city and follow its course at different levels over time. On the resource side, apart from providing original textual and visual documents, it develops a powerful cartographic tool for spatial analysis and real-time mapping. The authors of the present project subscribe to the idea of sharing scholarship and research tools for the benefit of scholars, students, and citizens at large.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Virtual Shanghai Project. (2018). Shice Shanghai Chengxiang Zujie Tu (Raster Image). Virtual Shanghai Project. Available at: https://purl.stanford.edu/jh940jk0147</note>
   <subject>
@@ -77,8 +74,26 @@
             <gml:upperCorner>121.5659396 31.2818293</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1796231/" dc:language="eng" dc:title="Shanghai (China)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 121&#xB0;25&#x2B9;41&#x2BA;--E 121&#xB0;33&#x2B9;57&#x2BA;/N 31&#xB0;16&#x2B9;55&#x2BA;--N 31&#xB0;11&#x2B9;28&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 121°25ʹ41ʺ--E 121°33ʹ57ʺ/N 31°16ʹ55ʺ--N 31°11ʹ28ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Virtual Shanghai</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qs150bm4171</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This work is in the public domain. There are no restrictions on use.</accessCondition>
+  <accessCondition type="license" xlink:href="https://creativecommons.org/publicdomain/mark/1.0/">This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights (Public Domain Mark 1.0).</accessCondition>
+</mods>

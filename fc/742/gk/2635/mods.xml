@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Rural Services Boundaries: Santa Cruz County, California, 2015</title>
@@ -28,7 +28,7 @@
     <dateValid encoding="w3cdtf">2015</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -39,7 +39,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::2227</projection>
-      <coordinates>(W 122&#xB0;12&#x2B9;31&#x2BA;--W 121&#xB0;48&#x2B9;32&#x2BA;/N 37&#xB0;9&#x2B9;47&#x2BA;--N 36&#xB0;50&#x2B9;50&#x2BA;)</coordinates>
+      <coordinates>(W 122°12ʹ31ʺ--W 121°48ʹ32ʺ/N 37°9ʹ47ʺ--N 36°50ʹ50ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the rural services boundaries in the County of Santa Cruz, California as defined by County Code Section 17.02.030. Boundaries are defined in the General Plan and Local Coastal Program Land Use Plan as those areas located outside the urban services line which have recognized urban densities which may or may not have full urban services; specifically including, but not limited to, Davenport, La Selva Beach, Sand Dollar Beach/Canon del Sol, Sunset Beach, and Pajaro Dunes. This layer is part of a collection of GIS data created for Santa Cruz County, California.</abstract>
@@ -49,8 +49,7 @@
 
 County of Santa Cruz Planning Department General Plan (adopted May 24, 1994): http://www.sccoplanning.com/PlanningHome/SustainabilityPlanning/GeneralPlan.aspx 
 
-County of Santa Cruz Urban Services Line and Rural Services Line Code: http://www.codepublishing.com/ca/santacruzcounty/html/SantaCruzCounty17/SantaCruzCounty1702.html 
-</note>
+County of Santa Cruz Urban Services Line and Rural Services Line Code: http://www.codepublishing.com/ca/santacruzcounty/html/SantaCruzCounty17/SantaCruzCounty1702.html</note>
   <note displayLabel="Use limitation">These data were compiled from many different sources; therefore, the accuracy of the individual layers varies significantly, and some layers do not align exactly with others. In the urban areas, data are generally accurate within five to ten feet of their true geographic coordinates, but in the rural areas, data may be accurate to only within three hundred feet. With these limitations, the County of Santa Cruz disclaims any responsibility for the accuracy or correctness of this data. This disclaimer is exclusive and in lieu of any warranties, fitness for particular purpose, and/or any other type of warranty, whether expressed or implied.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects" lang="eng">Regional planning</topic>
@@ -92,8 +91,25 @@ County of Santa Cruz Urban Services Line and Rural Services Line Code: http://ww
             <gml:upperCorner>-121.808984 37.158463</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Santa Cruz County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;12&#x2B9;20&#x2BA;--W 121&#xB0;48&#x2B9;32&#x2BA;/N 37&#xB0;9&#x2B9;30&#x2BA;--N 36&#xB0;51&#x2B9;8&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°12ʹ20ʺ--W 121°48ʹ32ʺ/N 37°9ʹ30ʺ--N 36°51ʹ8ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Santa Cruz County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/kn733hp1726</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

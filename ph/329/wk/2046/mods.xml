@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Chlorophyll A (Winter), Northwest Atlantic United States, 1998-2006</title>
@@ -15,13 +15,10 @@
   <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
   <originInfo>
     <publisher>Northeast Ocean Data</publisher>
-    <place>
-      <placeTerm type="text"/>
-    </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>GeoTIFF</form>
@@ -31,7 +28,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 86&#xB0;52&#x2B9;47&#x2BA;--W 41&#xB0;9&#x2B9;21&#x2BA;/N 56&#xB0;37&#x2B9;29&#x2BA;--N 21&#xB0;32&#x2B9;13&#x2BA;)</coordinates>
+      <coordinates>(W 86°52ʹ47ʺ--W 41°9ʹ21ʺ/N 56°37ʹ29ʺ--N 21°32ʹ13ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This data product was created as part of the Northwest Atlantic Marine Ecoregional Assessment. The Nature Conservancy developed this science-based ecoregional assessment for the Northwest Atlantic Marine region (Bay of Fundy to Cape Hatteras, North Carolina). This assessment synthesizes information on oceanography, chemistry, geology, biology, and social science to inform decisions about coastal and marine ecosystems. By integrating this information at a regional level, the Conservancy is able to provide both a greater understanding of the interrelated biological diversity of the marine ecoregion, and a clearer picture of the current condition of its natural areas and the challenges to their continued persistence. The ten categories of targets identified as the primary structure for the marine ecoregional assessment are: coastal and estuarine habitats, benthic habitats, diadromous fish, demersal fish, pelagic fish, forage fish, nearshore shellfish, shorebirds and seabirds, marine mammals, and sea turtles. For more information and a detailed report, please visit http://nature.org/namera/. Phytoplankton concentration was determined by measuring chlorophyll a, which can be detected using remote sensing techniques. Plankton are important for many reasons: Phytoplankton and zooplankton support commercially and ecologically important fisheries (including shellfish); Increases in phytoplankton abundance is a good indicator of commercially productive waters; Plankton play a critical role in global biogeochemical cycles, including those of essential nutrients and carbon; Artificially-introduced nutrients (nutrient loading), particularly nitrate in marine systems, cause phytoplankton blooms (eutrophication) that can reduce bottom oxygen levels to hypoxic or anoxic levels in stratified water, causing fish kills if anoxic for periods of time; Species composition and abundance can be used as a) historic or current indicators or predictors of ecosystem or fishery health and b) to assess changes in climate, sea level, and biogeochemistry; and Blooms of toxic algae can harm both marine life and people.</abstract>
@@ -107,7 +104,6 @@
   <location>
     <url>http://purl.stanford.edu/ph329wk2046</url>
   </location>
-  <accessCondition type="useAndReproduction">The Nature Conservancy reserves all rights in data provided. All data are provided as is. This is not a survey quality dataset. TNC-derived data analysis cannot be relied on as a definitive statement of the presence or absence of individual species or significant ecological communities at given locations and cannot be substituted for ecological surveys that may be required for environmental assessment or conservation planning. The Nature Conservancy makes no warranty as to the currency, completeness, accuracy or utility of any specific data. This disclaimer applies both to individual use of the data and aggregate use with other data. It is strongly recommended that careful attention be paid to the contents of the metadata file associated with these data.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:ph329wk2046</recordIdentifier>
@@ -127,23 +123,25 @@
             <gml:upperCorner>-41.1557826 56.6247931</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Albemarle Sound (N.C.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Baltimore Canyon"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Fundy, Bay of"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Chesapeake Bay (Md. and Va.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Delaware Bay (Del. and N.J.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Georges Bank"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Great South Channel (North Atlantic Ocean)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Maine, Gulf of"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Ontario, Lake (N.Y. and Ont.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Long Island Sound (N.Y. and Conn.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Mid-Atlantic Bight"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Nantucket Shoals (Mass.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Norfolk Canyon"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Stellwagen Bank"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Northeastern States"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Middle Atlantic States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 86&#xB0;52&#x2B9;47&#x2BA;--W 41&#xB0;9&#x2B9;21&#x2BA;/N 56&#xB0;37&#x2B9;29&#x2BA;--N 21&#xB0;32&#x2B9;13&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 86°52ʹ47ʺ--W 41°9ʹ21ʺ/N 56°37ʹ29ʺ--N 21°32ʹ13ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Northeast Ocean Data : Maps and data for ocean planning in the northeastern United States</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sg639pq7229</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

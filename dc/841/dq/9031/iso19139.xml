@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <fileIdentifier>
     <gco:CharacterString>edu.stanford.purl:dc841dq9031</gco:CharacterString>
@@ -280,7 +281,7 @@
         </CI_Citation>
       </citation>
       <abstract>
-        <gco:CharacterString>This polygon shapefile represents zip code tabulation areas (ZCTAs) for the state of California. These data were gathered from the 2010 Census demographics update and contain keys for ZCTAs, centroid coordinates, demographic fields for age, gender, race and ethnicity, and housing information including living quarters, institutionalized populations, households and housing units. For the 2010 Census, there were no &#x201C;XX&#x201D; or &#x201C;HH&#x201D; ZCTAs assigned. Only five-digit ZCTAs were produced, and large unpopulated areas were excluded from the delineations. For the 2010 Census, there is no wall-to-wall national coverage for ZCTAs. Large water bodies and unpopulated land area such as national parks were excluded from the 2010 delineations, and for this reason the Census 2010 product does not have complete national coverage.</gco:CharacterString>
+        <gco:CharacterString>This polygon shapefile represents zip code tabulation areas (ZCTAs) for the state of California. These data were gathered from the 2010 Census demographics update and contain keys for ZCTAs, centroid coordinates, demographic fields for age, gender, race and ethnicity, and housing information including living quarters, institutionalized populations, households and housing units. For the 2010 Census, there were no “XX” or “HH” ZCTAs assigned. Only five-digit ZCTAs were produced, and large unpopulated areas were excluded from the delineations. For the 2010 Census, there is no wall-to-wall national coverage for ZCTAs. Large water bodies and unpopulated land area such as national parks were excluded from the 2010 delineations, and for this reason the Census 2010 product does not have complete national coverage.</gco:CharacterString>
       </abstract>
       <purpose>
         <gco:CharacterString>This dataset is intended for researchers, students, policy makers, and the general public for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data</gco:CharacterString>
@@ -637,11 +638,11 @@
           <processStep>
             <LI_ProcessStep>
               <description>
-                <gco:CharacterString>&#x2022; The file &#x2018;tl_2010_06_zcta510&#x2019; was downloaded from the US Census Bureau.  It was projected to the &#x2018;Census2010&#x2019; GDB.  It was named &#x2018;tl_2010_06_zcta510_Projected&#x2019;.
-&#x2022; A new feature class, &#x2018;CensusZCTAs2010_Demographics&#x2019;, was created based on a schema developed by OSHPD and VESTRA.
-&#x2022; Records from &#x2018;tl_2010_06_zcta510&#x2019; were appended to CensusZCTAs2010_Demographics with field mapping for key fields.
-&#x2022; Two Census data files, &#x2018;DEC_10_DP_DPDP1_with_ann.xlsx&#x2019; and &#x2018;DEC_10_SF1_QTP13_with_ann.xlsx&#x2019;, were manipulated into a file, &#x2018;CensusZCTA2010Data&#x2019; for compatibility with Esri technology and added to the &#x2018;Census2010&#x2019; GDB.
-&#x2022; Table &#x2018;CensusZCTA2010Data&#x2019; was joined to feature class &#x2018;CensusZCTAs2010_Demographics&#x2019; and fields in the feature class related to population; age; gender; race; ethnicity; living quarters; institutionalized population; households; and housing units table were calculated based on the join.
+                <gco:CharacterString>• The file ‘tl_2010_06_zcta510’ was downloaded from the US Census Bureau.  It was projected to the ‘Census2010’ GDB.  It was named ‘tl_2010_06_zcta510_Projected’.
+• A new feature class, ‘CensusZCTAs2010_Demographics’, was created based on a schema developed by OSHPD and VESTRA.
+• Records from ‘tl_2010_06_zcta510’ were appended to CensusZCTAs2010_Demographics with field mapping for key fields.
+• Two Census data files, ‘DEC_10_DP_DPDP1_with_ann.xlsx’ and ‘DEC_10_SF1_QTP13_with_ann.xlsx’, were manipulated into a file, ‘CensusZCTA2010Data’ for compatibility with Esri technology and added to the ‘Census2010’ GDB.
+• Table ‘CensusZCTA2010Data’ was joined to feature class ‘CensusZCTAs2010_Demographics’ and fields in the feature class related to population; age; gender; race; ethnicity; living quarters; institutionalized population; households; and housing units table were calculated based on the join.
 </gco:CharacterString>
               </description>
               <dateTime>

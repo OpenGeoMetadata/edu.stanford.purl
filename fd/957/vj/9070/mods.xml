@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Provinces, Morocco, 2007</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2007</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,11 +32,11 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 13&#xB0;10&#x2B9;9&#x2BA;--W 0&#xB0;59&#x2B9;30&#x2BA;/N 35&#xB0;55&#x2B9;41&#x2BA;--N 27&#xB0;39&#x2B9;59&#x2BA;)</coordinates>
+      <coordinates>(W 13°10ʹ9ʺ--W 0°59ʹ30ʺ/N 35°55ʹ41ʺ--N 27°39ʹ59ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains province boundaries for Morocco as of January 2007. These are the level 2 administrative units (ADM2) for Morocco. This layer is part of the Map Library dataset containing line and polygon boundaries for individual countries on the African continent.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">The Map Library is a project of the UK charity &#x201C;The Map Maker Trust." It aims to make public domain mapping data more readily available for development in all kinds of fields, from health care to urban management, from de-mining to environmental protection.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">The Map Library is a project of the UK charity “The Map Maker Trust." It aims to make public domain mapping data more readily available for development in all kinds of fields, from health care to urban management, from de-mining to environmental protection.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Map Maker Ltd. (2007). Provinces, Morocco, 2007 Map Maker, Ltd. Available at: http://purl.stanford.edu/fd957vj9070.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Administrative and political divisions</topic>
@@ -53,7 +53,6 @@
   <location>
     <url>http://purl.stanford.edu/fd957vj9070</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:fd957vj9070</recordIdentifier>
@@ -73,8 +72,17 @@
             <gml:upperCorner>-0.99174 35.92802</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/2542007/" dc:language="eng" dc:title="Morocco"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>The Map Library</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/cf420zs7030</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>North Atlantic Tug and Tow AIS Vessel Density 2012</title>
@@ -16,12 +16,12 @@
   <originInfo>
     <publisher>United States. National Oceanic and Atmospheric Administration</publisher>
     <place>
-      <placeTerm type="text">Charleston, SC, </placeTerm>
+      <placeTerm type="text">Charleston, SC,</placeTerm>
     </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Raster Dataset</form>
@@ -31,7 +31,7 @@
     <cartographics>
       <scale>1:1000000</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 77&#xB0;46&#x2B9;34&#x2BA;--W 63&#xB0;45&#x2B9;19&#x2BA;/N 46&#xB0;44&#x2B9;31&#x2BA;--N 35&#xB0;4&#x2B9;25&#x2BA;)</coordinates>
+      <coordinates>(W 77°46ʹ34ʺ--W 63°45ʹ19ʺ/N 46°44ʹ31ʺ--N 35°4ʹ25ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This raster dataset represents density of Tug and tow vessel traffic in 2012 from vessels with Automatic Identification System (AIS) transponders in 100 meter grid cells. The dataset is best interpreted using a high to low density scale and does not represent actual vessel counts. in the Northeastern United States. AISs are a navigation safety device that transmits and monitors the location and characteristics of many vessels in U.S. and international waters in real-time.</abstract>
@@ -89,7 +89,6 @@
   <location>
     <url>http://purl.stanford.edu/qs831pz2063</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:qs831pz2063</recordIdentifier>
@@ -109,14 +108,25 @@
             <gml:upperCorner>-63.7555229 46.7419049</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3373405/" dc:language="eng" dc:title="Atlantic Ocean"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Cape Cod Bay (Mass.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Chesapeake Bay (Md. and Va.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Delaware Bay (Del. and N.J.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Maine, Gulf of"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Massachusetts Bay (Mass.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Long Island Sound (N.Y. and Conn.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 77&#xB0;46&#x2B9;34&#x2BA;--W 63&#xB0;45&#x2B9;20&#x2BA;/N 46&#xB0;44&#x2B9;31&#x2BA;--N 35&#xB0;4&#x2B9;25&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 77°46ʹ34ʺ--W 63°45ʹ20ʺ/N 46°44ʹ31ʺ--N 35°4ʹ25ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Northeast Ocean Data : Maps and data for ocean planning in the northeastern United States</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sg639pq7229</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

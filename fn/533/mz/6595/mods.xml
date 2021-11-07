@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Parliamentary Constituencies of Wales, 1862-1868</title>
@@ -45,7 +45,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2009</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -56,10 +56,10 @@
     <cartographics>
       <scale>1:126720</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 5&#xB0;48&#x2B9;40&#x2BA;--W 2&#xB0;38&#x2B9;28&#x2BA;/N 53&#xB0;27&#x2B9;5&#x2BA;--N 51&#xB0;19&#x2B9;51&#x2BA;)</coordinates>
+      <coordinates>(W 5°48ʹ40ʺ--W 2°38ʹ28ʺ/N 53°27ʹ5ʺ--N 51°19ʹ51ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">These are digital boundaries for the system of Constituencies which were and are the units from which Members of Parliament are elected, and which they then represent. The system of county and borough constituencies has early origins but was not systematically mapped until the reforms introduced by the Representation of the People Act in 1832. This file represents a separate set of digital boundaries for constituencies in England and Wales created for the period 1862-8 incorporating eliminations of rotten boroughs between the Boundary Commission Reports of 1832 and 1868. Statistical data and other information used in &#x201C;A Vision of Britain through Time&#x201D; can be accessed here: http://www.visionofbritain.org.uk/data.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">These are digital boundaries for the system of Constituencies which were and are the units from which Members of Parliament are elected, and which they then represent. The system of county and borough constituencies has early origins but was not systematically mapped until the reforms introduced by the Representation of the People Act in 1832. This file represents a separate set of digital boundaries for constituencies in England and Wales created for the period 1862-8 incorporating eliminations of rotten boroughs between the Boundary Commission Reports of 1832 and 1868. Statistical data and other information used in “A Vision of Britain through Time” can be accessed here: http://www.visionofbritain.org.uk/data.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Great Britain Historical GIS Project. (2012). Parliamentary Constituencies of Wales, 1862-1868. University of Portsmouth. Available at: http://purl.stanford.edu/fn533mz6595</note>
   <note displayLabel="Supplemental information">Gregory, I, Bennett, C, Gilham, V., and Southall, H. 2002. The Great Britain Historical GIS Project: from maps to changing human geography.' The Cartographic Journal, Vol. 39, No. 1, p. 37-49. Southall, H 2012, 'Rebuilding the Great Britain Historical GIS, part 2: a geo-spatial ontology of administrative units' Historical Methods: A Journal of Quantitative and Interdisciplinary History, vol 45, no. 3, pp. 119-134. DOI: 10.1080/01615440.2012.664101</note>
@@ -133,7 +133,6 @@
   <location>
     <url>http://purl.stanford.edu/fn533mz6595</url>
   </location>
-  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates for non-commercial activities of research, teaching, educational or scholarly work purposes only. Affiliates are limited to current faculty, staff and students. An End User License outlining the full terms of use is included with this download. Copyright &#xA9; Great Britain Historical GIS Project and the University of Portsmouth. By downloading any data from this site, you agree to the terms contained in the End User License.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:fn533mz6595</recordIdentifier>
@@ -153,8 +152,25 @@
             <gml:upperCorner>-2.64879 53.428873</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Wales"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 5&#xB0;40&#x2B9;10&#x2BA;--W 2&#xB0;38&#x2B9;56&#x2BA;/N 53&#xB0;25&#x2B9;44&#x2BA;--N 51&#xB0;22&#x2B9;46&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 5°40ʹ10ʺ--W 2°38ʹ56ʺ/N 53°25ʹ44ʺ--N 51°22ʹ46ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>A vision of Britain through time</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/jw176xm4375</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates for non-commercial activities of research, teaching, educational or scholarly work purposes only. Affiliates are limited to current faculty, staff and students. An End User Licence outlining the full terms of use is included with this download.</accessCondition>
+</mods>

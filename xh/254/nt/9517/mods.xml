@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Challenge Grantee Areas, 2014</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 158&#xB0;5&#x2B9;18&#x2BA;--W 70&#xB0;34&#x2B9;30&#x2BA;/N 48&#xB0;13&#x2BA;--N 21&#xB0;16&#x2B9;12&#x2BA;)</coordinates>
+      <coordinates>(W 158°5ʹ18ʺ--W 70°34ʹ30ʺ/N 48°13ʺ--N 21°16ʹ12ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents the boundaries of HUDs Community Challenge Grantee communities. These grants aim to reform and reduce barriers to achieving affordable, economically vital and sustainable communities. The funds are awarded to communities, large and small, to address local challenges to integrating transportation and housing. Such efforts may include amending or updating local master plans, zoning codes, and building codes to support private sector investment in mixed-use development, affordable housing and the re-use of older buildings. Other local efforts may include retrofitting main streets to provide safer routes for children and seniors, or preserving affordable housing and local businesses near new transit stations.</abstract>
@@ -63,7 +63,6 @@
   <location>
     <url>http://purl.stanford.edu/xh254nt9517</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:xh254nt9517</recordIdentifier>
@@ -83,8 +82,17 @@
             <gml:upperCorner>-70.575094 48.003643</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. Department of Housing and Urban Development Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/wc590wy7435</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Monterey County Water Resources Agency Assessment Zone 15, Monterey County, California, 2015</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -31,7 +31,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 121&#xB0;33&#x2B9;10&#x2BA;--W 121&#xB0;32&#x2B9;24&#x2BA;/N 36&#xB0;37&#x2B9;58&#x2BA;--N 36&#xB0;37&#x2B9;24&#x2BA;)</coordinates>
+      <coordinates>(W 121°33ʹ10ʺ--W 121°32ʹ24ʺ/N 36°37ʹ58ʺ--N 36°37ʹ24ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the boundary of water resource assessment zone 15 located in Monterey County, California. Zones for water management were established by the Monterey County Water Reseources Agency (MCWRA) to manage the quality and quantity of water within the county. This layer is part of a collection of GIS data for Monterey County in California.</abstract>
@@ -58,7 +58,6 @@
   <location>
     <url>http://purl.stanford.edu/ry153gw2914</url>
   </location>
-  <accessCondition type="useAndReproduction">No restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:ry153gw2914</recordIdentifier>
@@ -78,8 +77,17 @@
             <gml:upperCorner>-121.540043 36.632854</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Monterey County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Monterey County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/yz208xk1891</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

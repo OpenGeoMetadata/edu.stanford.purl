@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Urban Development, Bamako, Mali, 1990-2000</title>
@@ -40,7 +40,7 @@
     <dateValid encoding="w3cdtf">2000</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>GeoTIFF</form>
@@ -50,7 +50,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::32629</projection>
-      <coordinates>(W 8&#xB0;16&#x2B9;51&#x2BA;--W 7&#xB0;29&#x2B9;15&#x2BA;/N 13&#xB0;--N 12&#xB0;12&#x2B9;50&#x2BA;)</coordinates>
+      <coordinates>(W 8°16ʹ51ʺ--W 7°29ʹ15ʺ/N 13°--N 12°12ʹ50ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This raster layer shows the areas of Bamako, Mali which were developed between 1990 and 2000. Categories of new development represented in these data include: infill, extension and leapfrog. Infill represents development within all the open spaces in the urban footprint of the earlier period excluding exterior open space. Extension represents development in contiguous clusters that contained exterior open space in the earlier period and that were not infUnited States Leapfrog represents development entirely outside the exterior open space of the earlier period. These data are part of the Atlas of Urban Expansion.</abstract>
@@ -100,8 +100,25 @@
             <gml:upperCorner>-7.4873881 12.9999481</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/2460596/" dc:language="eng" dc:title="Bamako (Mali)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 8&#xB0;16&#x2B9;51&#x2BA;--W 7&#xB0;29&#x2B9;15&#x2BA;/N 13&#xB0;--N 12&#xB0;12&#x2B9;49&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 8°16ʹ51ʺ--W 7°29ʹ15ʺ/N 13°--N 12°12ʹ49ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Atlas of urban expansion : GIS data for cities</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/rr276tj2464</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

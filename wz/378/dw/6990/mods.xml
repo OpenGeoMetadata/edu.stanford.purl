@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Unified School Districts, North Carolina, 2000</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2001</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>1:100000</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 84&#xB0;19&#x2B9;19&#x2BA;--W 75&#xB0;27&#x2B9;31&#x2BA;/N 36&#xB0;35&#x2B9;17&#x2BA;--N 33&#xB0;50&#x2B9;40&#x2BA;)</coordinates>
+      <coordinates>(W 84°19ʹ19ʺ--W 75°27ʹ31ʺ/N 36°35ʹ17ʺ--N 33°50ʹ40ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents the unified school district boundaries in North Carolina. School districts are geographic entities within which state, county, or local officials provide public educational services for the area's residents. The unified school districts are districts that provide education to children of all school ages. The elementary school districts provide education to the lower grade/age levels and the secondary school districts provide education to the upper grade/age levels. In general, where there is a unified school district, no elementary or secondary school district exists and where there is an elementary school district, the secondary school district may or may not exist. School districts are geographic entities within which state, county, or local officials provide public educational services for the area's residents. The U.S. Census Bureau obtains the boundaries and names for school districts from state officials. The U.S. Census Bureau first provided data for school districts in the 1970 census. For Census 2000, the U.S. Census Bureau tabulated data for three types of school districts: elementary, secondary, and unified. Each school district is assigned a five-digit code that is unique within state. School district codes are assigned by the Department of Education and are not necessarily in alphabetical order by school district name.</abstract>
@@ -68,7 +68,6 @@
   <location>
     <url>http://purl.stanford.edu/wz378dw6990</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use. Acknowledgment of the U.S. Census Bureau would be appreciated for products derived from these files. TIGER, TIGER/Line, and Census TIGER are registered trademarks of the U.S. Census Bureau.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:wz378dw6990</recordIdentifier>
@@ -88,8 +87,25 @@
             <gml:upperCorner>-75.458659 36.588117</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4482348/" dc:language="eng" dc:title="North Carolina"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 84&#xB0;19&#x2B9;19&#x2BA;--W 75&#xB0;27&#x2B9;31&#x2BA;/N 36&#xB0;35&#x2B9;17&#x2BA;--N 33&#xB0;50&#x2B9;40&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 84°19ʹ19ʺ--W 75°27ʹ31ʺ/N 36°35ʹ17ʺ--N 33°50ʹ40ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. Census School Districts, 2000</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qv621sy2752</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

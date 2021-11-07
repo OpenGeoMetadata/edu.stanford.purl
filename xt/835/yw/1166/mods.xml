@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Administrative Boundaries, Akashi, Japan, 1990</title>
@@ -40,7 +40,7 @@
     <dateValid encoding="w3cdtf">1990</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -51,7 +51,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::32653</projection>
-      <coordinates>(E 134&#xB0;51&#x2B9;45&#x2BA;--E 135&#xB0;1&#x2B9;56&#x2BA;/N 34&#xB0;43&#x2B9;33&#x2BA;--N 34&#xB0;38&#x2B9;20&#x2BA;)</coordinates>
+      <coordinates>(E 134°51ʹ45ʺ--E 135°1ʹ56ʺ/N 34°43ʹ33ʺ--N 34°38ʹ20ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon layer establishes the administrative boundaries of Akashi-shi, Japan, otherwise known as the study area. These data are part of the Atlas of Urban Expansion.</abstract>
@@ -104,8 +104,25 @@
             <gml:upperCorner>135.032332 34.72566</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1847966/" dc:language="eng" dc:title="Akashi-shi (Japan)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 134&#xB0;51&#x2B9;45&#x2BA;--E 135&#xB0;1&#x2B9;56&#x2BA;/N 34&#xB0;43&#x2B9;32&#x2BA;--N 34&#xB0;38&#x2B9;21&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 134°51ʹ45ʺ--E 135°1ʹ56ʺ/N 34°43ʹ32ʺ--N 34°38ʹ21ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Atlas of urban expansion : GIS data for cities</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/rr276tj2464</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

@@ -1,13 +1,10 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>The New Map of Shanghai City (Raster Image)</title>
   </titleInfo>
-  <titleInfo>
-    <title type="alternative">&#x6700;&#x8FD1;&#x5BE6;&#x6E2C;&#x4E0A;&#x6D77;&#x5730;&#x5716;</title>
-  </titleInfo>
-  <titleInfo>
-    <title displayLabel="Alternative title">&#x6700;&#x8FD1;&#x5BE6;&#x6E2C;&#x4E0A;&#x6D77;&#x5730;&#x5716;</title>
+  <titleInfo type="alternative" displayLabel="Alternative title">
+    <title>最近實測上海地圖</title>
   </titleInfo>
   <name type="corporate">
     <namePart>Virtual Shanghai Project</namePart>
@@ -25,7 +22,7 @@
     <edition>1.00</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Raster Dataset</form>
@@ -35,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 121&#xB0;25&#x2B9;52&#x2BA;--E 121&#xB0;31&#x2B9;26&#x2BA;/N 31&#xB0;16&#x2B9;59&#x2BA;--N 31&#xB0;11&#x2B9;28&#x2BA;)</coordinates>
+      <coordinates>(E 121°25ʹ52ʺ--E 121°31ʹ26ʺ/N 31°16ʹ59ʺ--N 31°11ʹ28ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced image of a map of Shanghai that was published in 1919. It is drawn from a Russian city guide: G.G. Siunnerberg, Putevoditel' po Shanxaiu - The Guide to Shanghai, Shanghai, Russkoe knigoizdatel'stvo i tipografia komiteta obshchestvennoi pomoshchi v Shanxae, 1919. The map actually does not reflect the actual extension of the foreign settlements in 1919. In particular, the French Concession is shown (colored section) under its pre-1914 extension. The map is centered on the central districts of the two settlements.</abstract>
@@ -68,7 +65,6 @@
   <location>
     <url>http://purl.stanford.edu/gh720pr2699</url>
   </location>
-  <accessCondition type="useAndReproduction">This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:gh720pr2699</recordIdentifier>
@@ -88,8 +84,26 @@
             <gml:upperCorner>121.5239483 31.2831141</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1796231/" dc:language="eng" dc:title="Shanghai (China)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 121&#xB0;25&#x2B9;52&#x2BA;--E 121&#xB0;31&#x2B9;26&#x2BA;/N 31&#xB0;16&#x2B9;59&#x2BA;--N 31&#xB0;11&#x2B9;28&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 121°25ʹ52ʺ--E 121°31ʹ26ʺ/N 31°16ʹ59ʺ--N 31°11ʹ28ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Virtual Shanghai</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qs150bm4171</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This work is in the public domain. There are no restrictions on use.</accessCondition>
+  <accessCondition type="license" xlink:href="https://creativecommons.org/publicdomain/mark/1.0/">This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights (Public Domain Mark 1.0).</accessCondition>
+</mods>

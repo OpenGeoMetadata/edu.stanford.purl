@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Bathymetry: Offshore of Santa Barbara, California, 2009</title>
@@ -60,7 +60,7 @@
     <edition>1.0</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Raster Dataset</form>
@@ -70,7 +70,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 119&#xB0;48&#x2B9;58&#x2BA;--W 119&#xB0;36&#x2B9;58&#x2BA;/N 34&#xB0;29&#x2B9;18&#x2BA;--N 34&#xB0;19&#x2B9;22&#x2BA;)</coordinates>
+      <coordinates>(W 119°48ʹ58ʺ--W 119°36ʹ58ʺ/N 34°29ʹ18ʺ--N 34°19ʹ22ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced raster image containing bathymetric data for the offshore area of Santa Barbara, California. The bathymetric map of the area was generated from data collected by California State University, Monterey Bay (CSUMB), the U.S. Geological Survey (USGS), and by Fugro Pelagos for the U.S. Army Corps of Engineers (USACE) Joint Lidar Bathymetry Technical Center of Expertise. Most of the offshore area was mapped by CSUMB in the summer of 2007, using a 244-kHz Reson 8101 multibeam echosounder. Smaller areas in the far-east nearshore, as well as further offshore to the west and in the southeast outer shelf area, were mapped by the USGS in 2005 and 2006, using a combination of 468-kHz (2005) and 117-kHz (2006) SEA (AP) Ltd. SWATHplus-M phase-differencing sidescan sonars. The nearshore bathymetry and coastal topography were mapped for USACE by Fugro Pelagos in 2009, using the SHOALS-1000T bathymetric-lidar and Leica ALS60 topographic-lidar systems. All these mapping missions combined to collect bathymetry from the 0-m isobath to beyond the 3-nautical-mile limit of California's State Waters. NOTE: The horizontal datum of this bathymetry data (NAD83) differs from the horizontal datum of other layers in this SIM (WGS84). Some bathymetry grids within this map area were projected horizontally from WGS84 to NAD83 using ESRI tools to be more consistent with the vertical reference of the North American Vertical Datum of 1988 (NAVD88). A map that shows these data is published in Scientific Investigations Map 3281, "California State Waters Map Series--Offshore of Santa Barbara, California." This layer is part of USGS Data Series 781.</abstract>
@@ -125,7 +125,6 @@
   <location>
     <url>http://purl.stanford.edu/mm438mc4911</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:mm438mc4911</recordIdentifier>
@@ -145,10 +144,25 @@
             <gml:upperCorner>-119.6160838 34.4884032</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Santa Barbara County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 119&#xB0;48&#x2B9;58&#x2BA;--W 119&#xB0;36&#x2B9;58&#x2BA;/N 34&#xB0;29&#x2B9;18&#x2BA;--N 34&#xB0;19&#x2B9;22&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 119°48ʹ58ʺ--W 119°36ʹ58ʺ/N 34°29ʹ18ʺ--N 34°19ʹ22ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California State Waters Map Series Data Catalog</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ng324gh5570</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

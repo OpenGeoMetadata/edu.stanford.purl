@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Poverty Census Tracts, 2010</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 157&#xB0;53&#x2B9;22&#x2BA;--W 65&#xB0;14&#x2B9;39&#x2BA;/N 48&#xB0;45&#x2B9;20&#x2BA;--N 17&#xB0;52&#x2B9;52&#x2BA;)</coordinates>
+      <coordinates>(W 157°53ʹ22ʺ--W 65°14ʹ39ʺ/N 48°45ʹ20ʺ--N 17°52ʹ52ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents 2010 U.S. Census Tracts with a 39% Poverty Rate or Greater. Data Current as of: November 10, 2014.</abstract>
@@ -56,7 +56,6 @@
   <location>
     <url>http://purl.stanford.edu/sb742vh2182</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:sb742vh2182</recordIdentifier>
@@ -76,8 +75,17 @@
             <gml:upperCorner>-65.244234 48.755678</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. Department of Housing and Urban Development Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/wc590wy7435</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

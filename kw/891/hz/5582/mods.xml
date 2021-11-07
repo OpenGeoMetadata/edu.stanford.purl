@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Folds: Hueneme Canyon and Vicinity, California, 2012</title>
@@ -46,7 +46,7 @@
     <dateValid encoding="w3cdtf">2012</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -57,7 +57,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::32611</projection>
-      <coordinates>(W 119&#xB0;19&#x2B9;7&#x2BA;--W 119&#xB0;11&#x2B9;14&#x2BA;/N 34&#xB0;13&#x2B9;20&#x2BA;--N 34&#xB0;3&#x2B9;50&#x2BA;)</coordinates>
+      <coordinates>(W 119°19ʹ7ʺ--W 119°11ʹ14ʺ/N 34°13ʹ20ʺ--N 34°3ʹ50ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile represents geologic folds for Hueneme Canyon and the surrounding vicinity in California. The offshore map area is characterized by two major physiographic features: (1) the nearshore continental shelf and upper slope; and (2) Hueneme Canyon and parts of three smaller, unnamed submarine canyons incised into the shelf southeast of Hueneme Canyon. The nearshore, shelf, and slope are underlain by recent sediments and characterized by active sediment transport. Shelf and slope morphology and evolution result from drainage incision into deltaic sediments of the Oxnard plain during sea-level lowstand and subsequent sedimentation as sea level rose about 125 to 130 m over the last ~18,000 to 20,000 years (Lambeck and Chappell, 2001). This map area occurs in the southern part of the Western Transverse Ranges province, north of the California Continental Borderland (Fisher and others, 2009). Shelf deposits are deformed in the northernmost part of the map area by the west-trending Montalvo Fault and Anticline (Fisher and others, 2005). The Montalvo structures are part of a band of active deformation that includes the west-trending Oak Ridge Fault (Fisher and others, 2005), which extends into the offshore just a few km north of this map area. The Oak Ridge-Montalvo Fault Zone forms the southern boundary of the Ventura Basin and is considered an earthquake hazard because it extends along strike for about 130 km and appears to be the westward continuation of the fault system responsible for the 1994 M 6.7 Northridge earthquake. Only data for offshore map units are released digitally in this publication. For onshore geology (sheet 10) see Clahan (2003). The map was published in Scientific Investigations Map 3225. This layer is part of the USGS Data Series 781.</abstract>
@@ -86,7 +86,7 @@
     <temporal encoding="w3cdtf">2012</temporal>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="">Geoscientific Information</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
   </subject>
   <subject>
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="oceans">Oceans</topic>
@@ -94,8 +94,6 @@
   <location>
     <url>http://purl.stanford.edu/kw891hz5582</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:kw891hz5582</recordIdentifier>
@@ -115,10 +113,25 @@
             <gml:upperCorner>-119.188411 34.220604</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Ventura County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 119&#xB0;19&#x2B9;6&#x2BA;--W 119&#xB0;11&#x2B9;18&#x2BA;/N 34&#xB0;13&#x2B9;14&#x2BA;--N 34&#xB0;3&#x2B9;51&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 119°19ʹ6ʺ--W 119°11ʹ18ʺ/N 34°13ʹ14ʺ--N 34°3ʹ51ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California State Waters Map Series Data Catalog</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ng324gh5570</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

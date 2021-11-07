@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>City Boundaries: Solano County, California, 2008</title>
@@ -22,7 +22,7 @@
     <edition>citypolys</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,11 +33,11 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::2226</projection>
-      <coordinates>(W 122&#xB0;23&#x2B9;17&#x2BA;--W 121&#xB0;39&#x2B9;59&#x2BA;/N 38&#xB0;29&#x2B9;21&#x2BA;--N 38&#xB0;2&#x2B9;19&#x2BA;)</coordinates>
+      <coordinates>(W 122°23ʹ17ʺ--W 121°39ʹ59ʺ/N 38°29ʹ21ʺ--N 38°2ʹ19ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts city boundaries over which the County of Solano, California holds authority: Benicia, Dixon, Fairfield, Rio Vista, Suisun City, Vacaville and Vallejo. This coverage does not include unincorporated areas. These boundaries have been approved by the Local Agency Formation Commission (LAFCO) of Solano County, a state mandated local agency established to oversee the boundaries of cities and special districts in order to promote orderly county growth and development. This layer is part of a collection of GIS data produced by Solano County, California.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">Solano Regional Geographic Information Systems Consortium (Solano ReGIS) is a cooperative of local government agencies within Solano County, California, working together to share spatial data, pool resources, and provide GIS expertise to Solano ReGIS members, which include the Cities of Benicia, Dixon, Fairfield, Rio Vista, Suisun City, Vacaville and Vallejo; the County of Solano; the Fairfield-Suisun Sewer District; the Local Agency Formation Commission (LAFCO); the Solano County Water Agency; the Solano Irrigation District; the Solano Transportation Authority; and the Vallejo Sanitation and Flood Control District. These Solano ReGIS members provide public access to applications, maps and spatial data. Solano County encompasses 7 cities and approximately 425,000 people. This coverage can be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analyses of geospatial data. </abstract>
+  <abstract displayLabel="Purpose" lang="eng">Solano Regional Geographic Information Systems Consortium (Solano ReGIS) is a cooperative of local government agencies within Solano County, California, working together to share spatial data, pool resources, and provide GIS expertise to Solano ReGIS members, which include the Cities of Benicia, Dixon, Fairfield, Rio Vista, Suisun City, Vacaville and Vallejo; the County of Solano; the Fairfield-Suisun Sewer District; the Local Agency Formation Commission (LAFCO); the Solano County Water Agency; the Solano Irrigation District; the Solano Transportation Authority; and the Vallejo Sanitation and Flood Control District. These Solano ReGIS members provide public access to applications, maps and spatial data. Solano County encompasses 7 cities and approximately 425,000 people. This coverage can be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analyses of geospatial data.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Solano Regional GIS Consortium. (2015). City Boundaries: Solano County, California, 2008. Solano Regional GIS Consortium. (2015). County Boundary (Line): Solano County, California, 2015. Solano County, California. Available at: http://purl.stanford.edu/vk598rw6191.</note>
   <note displayLabel="Use limitation">Solano Regional GIS Consortium provides GIS layers for general mapping use only and does not provide legally authoritative data. The user assumes responsibility for any decisions made using Solano ReGIS sourced data. This dataset is not suitable for high-precision measurement applications such as engineering problems, property transfers, or other uses that might require highly accurate measurements of the earth's surface.</note>
   <subject>
@@ -98,15 +98,25 @@
             <gml:upperCorner>-121.667835 38.489011</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5396987/" dc:language="eng" dc:title="Solano County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5327550/" dc:language="eng" dc:title="Benicia (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5343303/" dc:language="eng" dc:title="Dixon (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5347335/" dc:language="eng" dc:title="Fairfield (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/7536026/" dc:language="eng" dc:title="Rio Vista (Calif.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Suisun City (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5405228/" dc:language="eng" dc:title="Vacaville (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5405380/" dc:language="eng" dc:title="Vallejo (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;23&#x2B9;10&#x2BA;--W 121&#xB0;40&#x2B9;4&#x2BA;/N 38&#xB0;29&#x2B9;20&#x2BA;--N 38&#xB0;2&#x2B9;21&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°23ʹ10ʺ--W 121°40ʹ4ʺ/N 38°29ʹ20ʺ--N 38°2ʹ21ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Solano County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zx684vf0715</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

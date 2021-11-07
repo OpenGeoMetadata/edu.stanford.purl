@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>National Water Information System Stations, Northeast United States, 2010</title>
@@ -33,7 +33,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -44,7 +44,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 73&#xB0;59&#x2B9;21&#x2BA;--W 67&#xB0;14&#x2B9;51&#x2BA;/N 45&#xB0;39&#x2B9;51&#x2BA;--N 40&#xB0;21&#x2B9;56&#x2BA;)</coordinates>
+      <coordinates>(W 73°59ʹ21ʺ--W 67°14ʹ51ʺ/N 45°39ʹ51ʺ--N 40°21ʹ56ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile contains the locations of the National Water Information System (NWIS) stations in the Northeastern United States. As part of the Survey's program of disseminating water data to the public, the Water Resources Division (WRD) maintains a distributed network of computers and fileservers for the storage and retrieval of water data collected through its activities at approximately 1.4 million sites.The NWIS is a distributed water database in which data can be processed over a network of workstations and fileservers at Survey offices throughout the United States. The system is composed of four subsystems: the Ground-Water Site-Inventory System, the Water-Quality System, the Automated Data-Processing System, and the Water-Use Data System. Many types of data are stored in the NWIS' distributed, local data bases, including: site information, time-series (flow, stage, precipitation, chemical), peak flow, ground water, water quality, and water use.</abstract>
@@ -141,24 +141,25 @@
             <gml:upperCorner>-67.247498 45.66423</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3373405/" dc:language="eng" dc:title="Atlantic Ocean"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Atlantic Coast (New England)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4831725/" dc:language="eng" dc:title="Connecticut"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4971068/" dc:language="eng" dc:title="Maine"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6254926/" dc:language="eng" dc:title="Massachusetts"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5090174/" dc:language="eng" dc:title="New Hampshire"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="New York"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5224323/" dc:language="eng" dc:title="Rhode Island"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Buzzards Bay (Mass.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Cape Cod Bay (Mass.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Massachusetts Bay (Mass.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Nantucket Sound (Mass.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Penobscot Bay (Me.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Rhode Island Sound (Mass. and R.I.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Vineyard Sound (Mass.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Maine, Gulf of"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Long Island Sound (N.Y. and Conn.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 73&#xB0;59&#x2B9;21&#x2BA;--W 67&#xB0;14&#x2B9;51&#x2BA;/N 45&#xB0;39&#x2B9;51&#x2BA;--N 40&#xB0;21&#x2B9;56&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 73°59ʹ21ʺ--W 67°14ʹ51ʺ/N 45°39ʹ51ʺ--N 40°21ʹ56ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Northeast Ocean Data : Maps and data for ocean planning in the northeastern United States</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sg639pq7229</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

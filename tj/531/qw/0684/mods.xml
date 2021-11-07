@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Marine Fish Weighted Persistence (Spring), 1970-2006</title>
@@ -15,13 +15,10 @@
   <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
   <originInfo>
     <publisher>Northeast Ocean Data</publisher>
-    <place>
-      <placeTerm type="text"/>
-    </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +29,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 77&#xB0;--W 64&#xB0;/N 46&#xB0;5&#x2BA;--N 34&#xB0;50&#x2B9;)</coordinates>
+      <coordinates>(W 77°--W 64°/N 46°5ʺ--N 34°50ʹ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">Weighted persistence is reported for each ten-minute square (TMS) for each of 48 target species. Weighted persistence is a calculation where each decade is weighted by the average abundance of the species over the decades it was present. The calculation involves two variables, abundance and persistence. Abundance was measured in numbers of individuals of a given species caught per sampling tow. Persistence refers to the consistency with which a species was caught in the same 10-minute square over time. Because the abundance data was skewed toward low abundances with occasional very high abundances, data was transformed to a log scale and the mean log abundance was calculated for each decade based on all valid tows within each ten minute square. These decadal average scores were then averaged across all decades to obtain a grand average abundance. Only decades where the species was present was used in calculating the grand average abundance as the absent decades were already accounted for in the persistence metric. The grand average abundance for a species was then divided by the maximum value occurring in any TMS for that species in a season to create a metric of relative grand average abundance ranging between 0-1 for each season. Low abundance was then defined as 0-0.4999. High abundance was defined as 0.5000 - 0.9999. Only 10-minute squares where valid tows occurred in 3 or more of the focus decades (1970's, 1980s, 1990s, 2000's) were used for mapping in the NAM report and are provided in this table. The Weighted persistence values were lumped into 7 classes for reporting purposes: 0= No recorded abundance 1= 1 decade, any abundance 2= 2 decades, any abundance 3= 3 decades, low abundance 4= 3 decades, high abundance 5= 4 decades, low abundance 6= 4 decades, high abundance</abstract>
@@ -82,9 +79,25 @@
             <gml:upperCorner>-64.0 46.001389</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Northeastern States"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3373405/" dc:language="eng" dc:title="Atlantic Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 77&#xB0;--W 64&#xB0;/N 46&#xB0;5&#x2BA;--N 34&#xB0;50&#x2B9;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 77°--W 64°/N 46°5ʺ--N 34°50ʹ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Northeast Ocean Data : Maps and data for ocean planning in the northeastern United States</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sg639pq7229</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

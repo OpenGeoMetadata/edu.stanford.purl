@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Roads, San Mateo and Santa Clara Counties, California, 2017</title>
@@ -16,12 +16,12 @@
   <originInfo>
     <publisher>Jasper Ridge Biological Preserve (Agency)</publisher>
     <place>
-      <placeTerm type="text">Woodside, CA, </placeTerm>
+      <placeTerm type="text">Woodside, CA,</placeTerm>
     </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 122&#xB0;17&#x2B9;31&#x2BA;--W 121&#xB0;58&#x2B9;51&#x2BA;/N 37&#xB0;29&#x2B9;15&#x2BA;--N 37&#xB0;16&#x2B9;38&#x2BA;)</coordinates>
+      <coordinates>(W 122°17ʹ31ʺ--W 121°58ʹ51ʺ/N 37°29ʹ15ʺ--N 37°16ʹ38ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile represents roads of San Mateo and Santa Clara Counties in California. This layer is part of a collection of GIS data created and managed by the Jasper Ridge Biological Preserve.</abstract>
@@ -92,7 +92,6 @@
   <location>
     <url>http://purl.stanford.edu/fg291pm5652</url>
   </location>
-  <accessCondition type="useAndReproduction">Downloading the data indicates acceptance of the conditions: You agree not to sell any products resulting from this data - it is for educational, non-commercial use only. You also agree to notify JRBP about any derivative products or publications that result from the use of Jasper Ridge data, and to provide digital copies. Jasper Ridge Biological Preserve and Stanford University are not responsible for any errors in the data or for errors in products derived from these data.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:fg291pm5652</recordIdentifier>
@@ -112,21 +111,25 @@
             <gml:upperCorner>-121.982457 37.486831</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5410535/" dc:language="eng" dc:title="Woodside (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5392427/" dc:language="eng" dc:title="San Mateo County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5393021/" dc:language="eng" dc:title="Santa Clara County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5341145/" dc:language="eng" dc:title="Cupertino (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5375480/" dc:language="eng" dc:title="Mountain View (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5380748/" dc:language="eng" dc:title="Palo Alto (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5345032/" dc:language="eng" dc:title="East Palo Alto (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5400075/" dc:language="eng" dc:title="Sunnyvale (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5325147/" dc:language="eng" dc:title="Atherton (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5368335/" dc:language="eng" dc:title="Los Altos (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5368346/" dc:language="eng" dc:title="Los Altos Hills (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5372223/" dc:language="eng" dc:title="Menlo Park (Calif.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Stanford (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5400075/" dc:language="eng" dc:title="Sunnyvale (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;17&#x2B9;25&#x2BA;--W 121&#xB0;58&#x2B9;57&#x2BA;/N 37&#xB0;29&#x2B9;13&#x2BA;--N 37&#xB0;16&#x2B9;43&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°17ʹ25ʺ--W 121°58ʹ57ʺ/N 37°29ʹ13ʺ--N 37°16ʹ43ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Jasper Ridge Biological Preserve GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/vs868cq8571</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">Downloading the data indicates acceptance of the conditions: You agree not to sell any products resulting from this data - it is for educational, non-commercial use only. You also agree to notify JRBP about any derivative products or publications that result from the use of Jasper Ridge data, and to provide digital copies. Jasper Ridge Biological Preserve and Stanford University are not responsible for any errors in the data or for errors in products derived from these data.</accessCondition>
+</mods>

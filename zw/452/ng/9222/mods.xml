@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Damage Assessment in Cuautepec Madero colony, Mexico</title>
@@ -18,7 +18,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -29,7 +29,7 @@
     <cartographics>
       <scale>1:24000</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 99&#xB0;8&#x2B9;39&#x2BA;--W 99&#xB0;8&#x2B9;15&#x2BA;/N 19&#xB0;32&#x2B9;43&#x2BA;--N 19&#xB0;32&#x2B9;31&#x2BA;)</coordinates>
+      <coordinates>(W 99°8ʹ39ʺ--W 99°8ʹ15ʺ/N 19°32ʹ43ʺ--N 19°32ʹ31ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This map illustrates the structures potentially damaged by the earthquake of September 19, 2017 which were detected through satellite images for the Cuautepec Madero colony in Mexico City. Twenty-nine potentially damaged structures were identified within the base satellite image, of which 16 are within the administrative boundary of the colony. The analysis was carried out with a WorldView-2 image, acquired on September 26, 2017.</abstract>
@@ -50,7 +50,6 @@
   <location>
     <url>http://purl.stanford.edu/zw452ng9222</url>
   </location>
-  <accessCondition type="useAndReproduction">Under the CC BY-SA license, you are free to share (copy and redistribute the material in any medium or format) and or adapt (remix, transform, and build upon the material) for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms. The license terms are that you must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. Additionally, you may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:zw452ng9222</recordIdentifier>
@@ -70,8 +69,26 @@
             <gml:upperCorner>-99.137598 19.54521</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Cuautepec (Mexico City, Mexico)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 99&#xB0;8&#x2B9;39&#x2BA;--W 99&#xB0;8&#x2B9;15&#x2BA;/N 19&#xB0;32&#x2B9;43&#x2BA;--N 19&#xB0;32&#x2B9;31&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 99°8ʹ39ʺ--W 99°8ʹ15ʺ/N 19°32ʹ43ʺ--N 19°32ʹ31ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>United Nations Operational Satellite Applications Programme - GIS Maps and Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qv655cn7837</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">Under the CC BY-SA license, you are free to share (copy and redistribute the material in any medium or format) and or adapt (remix, transform, and build upon the material) for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms. The license terms are that you must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. Additionally, you may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</accessCondition>
+  <accessCondition type="license" xlink:href="https://creativecommons.org/licenses/by-sa/3.0/legalcode">This work is licensed under a Creative Commons Attribution Share Alike 3.0 Unported license (CC BY-SA).</accessCondition>
+</mods>

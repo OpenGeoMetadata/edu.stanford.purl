@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Australasia: River Network, 30s resolution, 2008</title>
@@ -15,13 +15,10 @@
   <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
   <originInfo>
     <publisher>Geological Survey (U.S.)</publisher>
-    <place>
-      <placeTerm type="text"/>
-    </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2008</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +29,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 113&#xB0;1&#x2B9;15&#x2BA;--E 179&#xB0;52&#x2B9;45&#x2BA;/S 10&#xB0;7&#x2B9;15&#x2BA;--S 50&#xB0;48&#x2B9;15&#x2BA;)</coordinates>
+      <coordinates>(E 113°1ʹ15ʺ--E 179°52ʹ45ʺ/S 10°7ʹ15ʺ--S 50°48ʹ15ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This river network (stream lines) map for Australasia is derived from the flow direction map for Australasia. The flow accumulation map for Australasia is used for selection and attribution. Only rivers with upstream drainage areas exceeding a certain threshold are selected: for the 15 arc-second resolution a threshold of 100 upstream cells has been used. The vectorized river reaches are attributed with the maximum flow accumulation (in number of cells) occurring within each river reach. This data is derived from elevation data of the Shuttle Radar Topography Mission (SRTM) at 30 arc-second resolution approx. 1km at the equator.</abstract>
@@ -66,8 +63,6 @@
   <location>
     <url>http://purl.stanford.edu/hp937qj5218</url>
   </location>
-  <accessCondition type="useAndReproduction">Users may apply HydroSHEDS for non-commercial purposes. We kindly ask users to cite HydroSHEDS in any published material produced using this data. Any modification of the original data by users must be noted. The authors of HydroSHEDS may request reprints of publications and copies of derived materials. The user shall not reproduce, convert, (re)publish, (re)distribute, (re)broadcast, (re)transmit, sell, rent, lease, sublicense, lend, assign, time-share, or transfer, in whole or in part, or provide unlicensed third parties access to the data and related materials without explicit written permission from the authors. For more details see HydroSHEDS Technical Documentation.
-</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:hp937qj5218</recordIdentifier>
@@ -87,8 +82,26 @@
             <gml:upperCorner>179.879167 -10.120833</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Australasia"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 113&#xB0;1&#x2B9;15&#x2BA;--E 179&#xB0;52&#x2B9;45&#x2BA;/S 10&#xB0;7&#x2B9;15&#x2BA;--S 50&#xB0;48&#x2B9;15&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 113°1ʹ15ʺ--E 179°52ʹ45ʺ/S 10°7ʹ15ʺ--S 50°48ʹ15ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>HydroSHEDS</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zc665xv7392</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">Users may apply HydroSHEDS for non-commercial purposes. Any modification of the original data by users must be noted. The authors of HydroSHEDS may request reprints of publications and copies of derived materials. The user shall not reproduce, convert, (re)publish, (re)distribute, (re)broadcast, (re)transmit, sell, rent, lease, sublicense, lend, assign, time-share, or transfer, in whole or in part, or provide unlicensed third parties access to the data and related materials without explicit written permission from the authors. We kindly ask users to cite HydroSHEDS in any published material produced using this data. If possible, please provide online links to http://www.worldwildlife.org/hydrosheds for general information, and/or http://hydrosheds.cr.usgs.gov for data download and technical information.</accessCondition>
+  <accessCondition type="license" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/legalcode">This work is licensed under a Creative Commons Attribution Non Commercial 3.0 Unported license (CC BY-NC).</accessCondition>
+</mods>

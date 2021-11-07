@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Bathymetry: Offshore of Half Moon Bay, California, 2007</title>
@@ -54,7 +54,7 @@
     <edition>1.0</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Raster Dataset</form>
@@ -64,10 +64,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 122&#xB0;35&#x2B9;52&#x2BA;--W 122&#xB0;23&#x2B9;38&#x2BA;/N 37&#xB0;32&#x2B9;53&#x2BA;--N 37&#xB0;23&#x2B9;7&#x2BA;)</coordinates>
+      <coordinates>(W 122°35ʹ52ʺ--W 122°23ʹ38ʺ/N 37°32ʹ53ʺ--N 37°23ʹ7ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced raster image containing bathymetric data for the offshore area of Half Moon Bay, California. The bathymetry and shaded-relief maps were generated from bathymetry data collected by Fugro Pelagos, and by California State University, Monterey Bay (CSUMB). Mapping was completed in 2006 and 2007, using a combination of 400-kHz Reson 7125 and 244-kHz Reson 8101 multibeam echosounders. These mapping missions combined to collect bathymetry from about the 10-m isobath to beyond the 3-nautical-mile limit of California's State Waters. NOTE: the horizontal datum of the bathymtry data (NAD83) differs from the horizontal datum of other layers in this SIM (WGS84). Some bathymetry grids within this map were projected horizontally from WGS84 to NAD83 using ESRI tools to be more consistent with the vertical reference of the North American Vertical Datum of 1988 (NAVD88). These data are not intended for navigational purposes. The map that show these data are published in Open-File Report 2014&#x2013;1214, "California State Waters Map Series--Offshore of Half Moon Bay, California." This layer is part of USGS Data Series 781.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced raster image containing bathymetric data for the offshore area of Half Moon Bay, California. The bathymetry and shaded-relief maps were generated from bathymetry data collected by Fugro Pelagos, and by California State University, Monterey Bay (CSUMB). Mapping was completed in 2006 and 2007, using a combination of 400-kHz Reson 7125 and 244-kHz Reson 8101 multibeam echosounders. These mapping missions combined to collect bathymetry from about the 10-m isobath to beyond the 3-nautical-mile limit of California's State Waters. NOTE: the horizontal datum of the bathymtry data (NAD83) differs from the horizontal datum of other layers in this SIM (WGS84). Some bathymetry grids within this map were projected horizontally from WGS84 to NAD83 using ESRI tools to be more consistent with the vertical reference of the North American Vertical Datum of 1988 (NAVD88). These data are not intended for navigational purposes. The map that show these data are published in Open-File Report 2014–1214, "California State Waters Map Series--Offshore of Half Moon Bay, California." This layer is part of USGS Data Series 781.</abstract>
   <abstract displayLabel="Purpose" lang="eng">In 2007, the California Ocean Protection Council initiated the California Seafloor Mapping Program (CSMP) to create a comprehensive seafloor map of high-resolution bathymetry, marine benthic habitats and geology within the 3-nautical-mile limit of California's State Waters. CSMP has divided coastal California into 110 map blocks, each to be published individually as United States Geological Survey Open-File Reports (OFRs) or Scientific Investigations Maps (SIMs) at a scale of 1:24,000. Maps display seafloor morphology and character, identify potential marine benthic habitats and illustrate both the seafloor geology and shallow (to about 100 m) subsurface geology. Data layers for bathymetry, bathymetric contours, acoustic backscatter, seafloor character, potential benthic habitat and offshore geology were created for each map block, as well as regional-scale data layers for sediment thickness, depth to transition, transgressive contours, isopachs, predicted distributions of benthic macro-invertebrates and visual observations of benthic habitat from video cruises over the entire state. These data are intended for science researchers, students, policy  makers, and the general public. This information is not intended for navigational purposes.The data can be used with geographic information systems (GIS) software to display geologic and oceanographic information.</abstract>
   <note displayLabel="Preferred citation" lang="eng">U.S. Geological Survey. (2013). Bathymetry: Offshore of Half Moon Bay, California, 2007. California State Waters Map Series Data Catalog: U.S. Geological Survey Data Series 781. Available at: http://purl.stanford.edu/qd217vy5285.</note>
   <subject>
@@ -121,7 +121,6 @@
   <location>
     <url>http://purl.stanford.edu/qd217vy5285</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:qd217vy5285</recordIdentifier>
@@ -141,10 +140,25 @@
             <gml:upperCorner>-122.3938777 37.5479737</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5392427/" dc:language="eng" dc:title="San Mateo County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;35&#x2B9;52&#x2BA;--W 122&#xB0;23&#x2B9;38&#x2BA;/N 37&#xB0;32&#x2B9;53&#x2BA;--N 37&#xB0;23&#x2B9;7&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°35ʹ52ʺ--W 122°23ʹ38ʺ/N 37°32ʹ53ʺ--N 37°23ʹ7ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California State Waters Map Series Data Catalog</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ng324gh5570</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

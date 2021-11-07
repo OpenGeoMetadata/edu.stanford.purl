@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Revitalization Areas by Block Group, 2015</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 179&#xB0;8&#x2B9;50&#x2BA;--E 179&#xB0;46&#x2B9;42&#x2BA;/N 71&#xB0;21&#x2B9;9&#x2BA;--N 17&#xB0;53&#x2B9;5&#x2BA;)</coordinates>
+      <coordinates>(W 179°8ʹ50ʺ--E 179°46ʹ42ʺ/N 71°21ʹ9ʺ--N 17°53ʹ5ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">Revitalization Area eligibility was determined by comparing the block groups median household income and home ownership rate to the respective rates of the surrounding area. If the block group is located in a CBSA Metropolitan Area then the metro area was used. If the block group was non-metro then the state rates were used. Also included are several variables relating to REO and FHA activity in the block group including average REO sales price over the last 12 months, 90-day FHA defaults, 90-day FHA defaults in foreclosure, active FHA-insured single family loans, active REO properties, and a 2-year history of REO closings. Data for owner occupied housing units provided by 2010 Census SF1. Data for median household income and home onwership rate provided by American Community Survey 5-year (2007-2011). Data for HUD single family FHA loans and REO provided by the Single Family Data Warehouse as of 06/22/2015.</abstract>
@@ -65,7 +65,6 @@
   <location>
     <url>http://purl.stanford.edu/rw920ys7515</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:rw920ys7515</recordIdentifier>
@@ -85,8 +84,17 @@
             <gml:upperCorner>179.77847 71.352561</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. Department of Housing and Urban Development Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/wc590wy7435</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

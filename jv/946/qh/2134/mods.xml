@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Bathymetry Hillshade: Offshore of Tomales Point, California, 2010</title>
@@ -48,7 +48,7 @@
     <edition>1.0</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Raster Dataset</form>
@@ -58,7 +58,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 123&#xB0;5&#x2B9;51&#x2BA;--W 122&#xB0;53&#x2B9;41&#x2BA;/N 38&#xB0;15&#x2B9;19&#x2BA;--N 38&#xB0;5&#x2B9;44&#x2BA;)</coordinates>
+      <coordinates>(W 123°5ʹ51ʺ--W 122°53ʹ41ʺ/N 38°15ʹ19ʺ--N 38°5ʹ44ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced raster image containing shaded relief (hillshade) data for the offshore area of Tomales Point, California. The bathymetric and shaded relief maps of the area were generated from data collected by California State University, Monterey Bay (CSUMB), Fugro Pelagos and by the U.S. Geological Survey (USGS). Mapping was completed between 2004 and 2010, using a combination of 200-kHz and 400-kHz Reson 7125, and 244-kHz Reson 8101 multibeam echosounders, as well as 234-kHz and 468-kHz SEA SWATHPlus phase-differencing sidescan sonars. These mapping missions combined to collect bathymetry from about the 10-m isobath to beyond the 3-nautical-mile limit of California's State Waters. A map that shows these data is published in Open-File Report 2015-1088, "California State Waters Map Series--Offshore of Tomales Point, California." This layer is part of USGS Data Series 781.</abstract>
@@ -116,8 +116,6 @@
   <location>
     <url>http://purl.stanford.edu/jv946qh2134</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:jv946qh2134</recordIdentifier>
@@ -137,11 +135,25 @@
             <gml:upperCorner>-122.8947305 38.2553798</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5370468/" dc:language="eng" dc:title="Marin County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Tomales Bay (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 123&#xB0;5&#x2B9;51&#x2BA;--W 122&#xB0;53&#x2B9;41&#x2BA;/N 38&#xB0;15&#x2B9;19&#x2BA;--N 38&#xB0;5&#x2B9;44&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 123°5ʹ51ʺ--W 122°53ʹ41ʺ/N 38°15ʹ19ʺ--N 38°5ʹ44ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California State Waters Map Series Data Catalog</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ng324gh5570</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

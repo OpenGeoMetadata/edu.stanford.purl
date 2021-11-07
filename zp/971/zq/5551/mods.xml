@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Depth Contours, New England, 2002</title>
@@ -22,7 +22,7 @@
     <edition>1.0</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 74&#xB0;--W 65&#xB0;/N 45&#xB0;10&#x2B9;57&#x2BA;--N 37&#xB0;49&#x2B9;31&#x2BA;)</coordinates>
+      <coordinates>(W 74°--W 65°/N 45°10ʹ57ʺ--N 37°49ʹ31ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile contains bathymetric contours at 10-meter intervals for the continental shelf and 100 meter intervals beyond the 200 meter shelf edge. The contours have been derived from the National Oceanic and Atmospheric Administration (NOAA), National Geophysical Data Center (NGDC), Coastal Relief Models volume 1 and 2.</abstract>
@@ -67,7 +67,6 @@
   <location>
     <url>http://purl.stanford.edu/zp971zq5551</url>
   </location>
-  <accessCondition type="useAndReproduction">No restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:zp971zq5551</recordIdentifier>
@@ -87,11 +86,25 @@
             <gml:upperCorner>-65.000002 45.182497</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3373405/" dc:language="eng" dc:title="Atlantic Ocean"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Atlantic Coast (New England)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="New York Bight (N.J. and N.Y.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Maine, Gulf of"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 74&#xB0;--W 65&#xB0;/N 45&#xB0;10&#x2B9;57&#x2BA;--N 37&#xB0;49&#x2B9;31&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 74°--W 65°/N 45°10ʹ57ʺ--N 37°49ʹ31ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Northeast Ocean Data : Maps and data for ocean planning in the northeastern United States</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sg639pq7229</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

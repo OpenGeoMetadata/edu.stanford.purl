@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Natural Gas Processing Plants, United States, 2012-2013</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>1:1000000</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 120&#xB0;22&#x2B9;59&#x2BA;--W 78&#xB0;43&#x2B9;59&#x2BA;/N 48&#xB0;53&#x2B9;15&#x2BA;--N 26&#xB0;27&#x2B9;1&#x2BA;)</coordinates>
+      <coordinates>(W 120°22ʹ59ʺ--W 78°43ʹ59ʺ/N 48°53ʹ15ʺ--N 26°27ʹ1ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile represents natural gas processing plants in the United States in 2012 with select updates through 2013. Zip code centroids are used for map location. These data were gathered from the EIA-757, Natural Gas Processing Plant Survey. This layer is part of a collection of GIS data produced by the U.S. National Energy Information Administration.</abstract>
@@ -73,8 +73,17 @@
             <gml:upperCorner>-78.7331 48.8875</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. National Energy Information Center Interactive State Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/gx140ys0508</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

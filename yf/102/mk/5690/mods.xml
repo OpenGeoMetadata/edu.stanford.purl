@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Low Transportation Cost Index, 2008-2012</title>
   </titleInfo>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 178&#xB0;13&#x2B9;40&#x2BA;--W 65&#xB0;14&#x2B9;39&#x2BA;/N 71&#xB0;23&#x2B9;26&#x2BA;--N 17&#xB0;52&#x2B9;52&#x2BA;)</coordinates>
+      <coordinates>(W 178°13ʹ40ʺ--W 65°14ʹ39ʺ/N 71°23ʹ26ʺ--N 17°52ʹ52ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This index is based on estimates of transportation costs for a family that meets the following description: a 3-person single-parent family with income at 50% of the median income for renters for the region (i.e. CBSA). The estimates come from the Location Affordability Index (LAI). The data correspond to those for household type 6 (hh_type6_) as noted in the LAI data dictionary. More specifically, among this household type, we model transportation costs as a percent of income for renters (t_rent). Neighborhoods are defined as census tracts. The LAI data do not contain transportation cost information for Puerto Rico. Interpretation Values are inverted and percentile ranked nationally, with values ranging from 0 to 100. The higher the transportation cost index, the lower the cost of transportation in that neighborhood. Transportation costs may be low for a range of reasons, including greater access to public transportation and the density of homes, services, and jobs in the neighborhood and surrounding community. Data Source: Location Affordability Index (LAI) data, 2008-2012. Data Current As Of: 6/15/2015.</abstract>
@@ -40,8 +40,7 @@
   <note displayLabel="Preferred citation" lang="eng">United States. Department of Housing and Urban Development. (2015). Low Transportation Cost Index, 2008-2012. United States. Department of Housing and Urban Development. Available at http://purl.stanford.edu/yf102mk5690.</note>
   <note displayLabel="Supplemental information">2015References:
 www.locationaffordability.info 
-http://lai.locationaffordability.info//lai_data_dictionary.pdf
-</note>
+http://lai.locationaffordability.info//lai_data_dictionary.pdf</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Transportation</topic>
   </subject>
@@ -60,7 +59,6 @@ http://lai.locationaffordability.info//lai_data_dictionary.pdf
   <location>
     <url>http://purl.stanford.edu/yf102mk5690</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:yf102mk5690</recordIdentifier>
@@ -80,8 +78,17 @@ http://lai.locationaffordability.info//lai_data_dictionary.pdf
             <gml:upperCorner>-65.244234 71.390482</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. Department of Housing and Urban Development Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/wc590wy7435</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

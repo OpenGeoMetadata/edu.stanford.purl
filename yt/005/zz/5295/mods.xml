@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Vernal Pool Complexes: San Francisco Bay Area, California, 1998</title>
@@ -51,7 +51,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -62,7 +62,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 122&#xB0;50&#x2B9;33&#x2BA;--W 121&#xB0;35&#x2B9;14&#x2BA;/N 38&#xB0;34&#x2B9;23&#x2BA;--N 37&#xB0;27&#x2B9;51&#x2BA;)</coordinates>
+      <coordinates>(W 122°50ʹ33ʺ--W 121°35ʹ14ʺ/N 38°34ʹ23ʺ--N 37°27ʹ51ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts existing vernal pool complexes, not individual vernal pools, in the nine county San Francisco Bay Area Region, California as identified and mapped by Dr. Robert F. Holland. The purpose of the inventory was to map the distribution of vernal pool complexes for use by the United States Fish and Wildlife Service in recovery planning for listed and sensitive species. True color aerial slides from the Department of Water Resources were interpreted and vernal pool complexes were identified. Complexes more than 40 acres in size were then digitized as polygons and given a density rating. Since the minimum mapping unit of the coverage is 40 acres, it may not provide the level of detail required for larger scale (smaller area, more site-specific) conservation planning.</abstract>
@@ -120,7 +120,6 @@
   <location>
     <url>http://purl.stanford.edu/yt005zz5295</url>
   </location>
-  <accessCondition type="useAndReproduction">These data are distributed under a GNU General Public License (GPL)</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:yt005zz5295</recordIdentifier>
@@ -140,17 +139,25 @@
             <gml:upperCorner>-121.593741 38.550587</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="San Francisco Bay Area (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5322745/" dc:language="eng" dc:title="Alameda County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5339268/" dc:language="eng" dc:title="Contra Costa County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5370468/" dc:language="eng" dc:title="Marin County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5376101/" dc:language="eng" dc:title="Napa County (Calif.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="San Francisco County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5392427/" dc:language="eng" dc:title="San Mateo County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5393021/" dc:language="eng" dc:title="Santa Clara County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5396987/" dc:language="eng" dc:title="Solano County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5397100/" dc:language="eng" dc:title="Sonoma County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;50&#x2B9;26&#x2BA;--W 121&#xB0;35&#x2B9;37&#x2BA;/N 38&#xB0;33&#x2B9;2&#x2BA;--N 37&#xB0;28&#x2B9;51&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°50ʹ26ʺ--W 121°35ʹ37ʺ/N 38°33ʹ2ʺ--N 37°28ʹ51ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>The Conservation Lands Network regional biodiversity GIS database</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/xc921dx0980</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

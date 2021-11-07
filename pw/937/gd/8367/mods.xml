@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Mental Health Professional Shortage Areas, California, 2014</title>
@@ -22,7 +22,7 @@
     <edition>2014v07</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 124&#xB0;30&#x2B9;22&#x2BA;--W 113&#xB0;29&#x2B9;54&#x2BA;/N 42&#xB0;4&#x2B9;7&#x2BA;--N 32&#xB0;25&#x2B9;25&#x2BA;)</coordinates>
+      <coordinates>(W 124°30ʹ22ʺ--W 113°29ʹ54ʺ/N 42°4ʹ7ʺ--N 32°25ʹ25ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains mental health professional shortage areas (HPSAs) in California. The federal HPSA designation (formerly Health Manpower Shortage Areas) identifies areas as having a shortage of mental health providers on the basis of availability of psychiatrist and mental health professionals. To qualify for designation as a Mental HPSA, an area must be: 1. A rational service area for the delivery of mental health services, 2. A lack of access to care provided by Core Mental Health Professionals (CMHP) in the area, and 3. One of the following conditions prevails in the area: a. The population to CMHP ratio is &amp;gt; 6,000:1, and the population to psychiatrist ratio is &amp;gt; 20,000:1, OR b. The population to CMHP ratio is &amp;gt; 9,000:1 OR c. The population to psychiatrist ratio is &amp;gt; 30,000:1. Benefits of designation as a HPSA include: student loan repayment and personnel placement through the National Health Service Corps (NHSC) improved Medicare reimbursement enhanced federal grant eligibility. This is version 7 of this data (updated July 2014). This layer is part of the Healthcare Atlas of California.</abstract>
@@ -82,8 +82,25 @@
             <gml:upperCorner>-114.131212 42.001043</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;24&#x2B9;35&#x2BA;--W 114&#xB0;7&#x2B9;52&#x2BA;/N 42&#xB0;4&#x2BA;--N 32&#xB0;32&#x2B9;3&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 124°24ʹ35ʺ--W 114°7ʹ52ʺ/N 42°4ʺ--N 32°32ʹ3ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Healthcare Atlas of California</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qw778bk1665</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

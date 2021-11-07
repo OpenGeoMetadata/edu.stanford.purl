@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Water Trails, Northeast United States, 2014</title>
@@ -18,7 +18,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -29,7 +29,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 73&#xB0;53&#x2B9;6&#x2BA;--W 67&#xB0;20&#x2B9;19&#x2BA;/N 44&#xB0;40&#x2B9;10&#x2BA;--N 40&#xB0;48&#x2B9;37&#x2BA;)</coordinates>
+      <coordinates>(W 73°53ʹ6ʺ--W 67°20ʹ19ʺ/N 44°40ʹ10ʺ--N 40°48ʹ37ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This dataset shows coastal water trails in the northeast United States. A water trail is an officially designated water route, or blueway, that is maintained by an agency or association. Water trails are typically used recreationally by paddlers in non-motorized boats such as kayaks or canoes. Water trails are deemed coastal if they are located within or have an endpoint in a saline water body. Information on water trails was obtained from a number of different sources which manage individual trails or which aggregate information about multiple trails in one virtual location. Source data included online web maps, static maps in PDF format, textual descriptions, and direct conversations with sponsoring agencies. This dataset is meant to depict the distribution and general locations of water trails throughout the region. It does not contain any information regarding tides, navigation, safety, navigable route within the trail, or difficulty level. 2. PURPOSE</abstract>
@@ -108,7 +108,6 @@
   <location>
     <url>http://purl.stanford.edu/xz114qf1730</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:xz114qf1730</recordIdentifier>
@@ -128,25 +127,25 @@
             <gml:upperCorner>-67.338648 44.669463</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4971068/" dc:language="eng" dc:title="Maine"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Casco Bay (Me.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Frenchman Bay (Me.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Long Island Sound (N.Y. and Conn.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Saco Bay (Me.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Narragansett Bay (R.I.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5090174/" dc:language="eng" dc:title="New Hampshire"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5128638/" dc:language="eng" dc:title="New York (State)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Penobscot Bay (Me.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Bronx River (N.Y.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Connecticut River"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Kennebec River (Me.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Machias Bay (Me.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Pettaquamscutt River (R.I.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Muscongus Bay (Me.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Pawtuxet River (R.I.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Ten Mile River (Mass.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Taunton River (Mass.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 73&#xB0;53&#x2B9;6&#x2BA;--W 67&#xB0;20&#x2B9;19&#x2BA;/N 44&#xB0;40&#x2B9;10&#x2BA;--N 40&#xB0;48&#x2B9;37&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 73°53ʹ6ʺ--W 67°20ʹ19ʺ/N 44°40ʹ10ʺ--N 40°48ʹ37ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Northeast Ocean Data : Maps and data for ocean planning in the northeastern United States</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sg639pq7229</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

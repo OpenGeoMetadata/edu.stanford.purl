@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Community Planning Boundaries: Humboldt County, California, 2004</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2004</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::26741</projection>
-      <coordinates>(W 124&#xB0;13&#x2B9;46&#x2BA;--W 123&#xB0;28&#x2B9;44&#x2BA;/N 41&#xB0;21&#x2B9;14&#x2BA;--N 40&#xB0;1&#x2B9;19&#x2BA;)</coordinates>
+      <coordinates>(W 124°13ʹ46ʺ--W 123°28ʹ44ʺ/N 41°21ʹ14ʺ--N 40°1ʹ19ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts boundaries for Community Planning Areas in the County of Humboldt, California as of 2004. Community Planning Areas (AGCP) are governed by corresponding Community Plans and the related Humboldt County Framework Plan, both of which are long range statements of public policy for the use of public and private lands. A Community Plan contains specific policies and information applicable to the Community Planning Area. Together, the Framework Plan and the Community Plan comprise the Humboldt County General Plan. The Framework Plan covers countywide issues and the Community Plans deal with land use within the Community Planning Areas while remaining consistent with the policies of the Framework Plan. Community Plans cover a 20 year planning time frame.</abstract>
@@ -84,8 +84,25 @@
             <gml:upperCorner>-123.508038 41.346081</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Humboldt County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;12&#x2B9;31&#x2BA;--W 123&#xB0;30&#x2B9;29&#x2BA;/N 41&#xB0;20&#x2B9;46&#x2BA;--N 40&#xB0;1&#x2B9;29&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 124°12ʹ31ʺ--W 123°30ʹ29ʺ/N 41°20ʹ46ʺ--N 40°1ʹ29ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Humboldt County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zc242vz4054</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

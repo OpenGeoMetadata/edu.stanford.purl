@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>ABAG Priority Development Areas, San Mateo County Sea Level Rise Vulnerability Assessment Project Area, 2016</title>
@@ -24,7 +24,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -35,11 +35,11 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 122&#xB0;28&#x2B9;38&#x2BA;--W 122&#xB0;7&#x2B9;6&#x2BA;/N 37&#xB0;42&#x2B9;30&#x2BA;--N 37&#xB0;26&#x2B9;48&#x2BA;)</coordinates>
+      <coordinates>(W 122°28ʹ38ʺ--W 122°7ʹ6ʺ/N 37°42ʹ30ʺ--N 37°26ʹ48ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shpefile contains the Priority Development Areas (PDA) used by the Association of Bay Area Governments (ABAG) to plan for development in the San Francisco Bay Region. PDAs represent areas local jurisdictions have identified, as part of ABAG's Sustainable Communities Strategy work, for new and/or intensified development. This PDA feature set is limited to use in general mapping and analysis related to the San Francisco Bay Region. Association of Bay Area Governments, February 2016. DO NOT USE this feature set for mapping and analysis related to Plan Bay Area. Plan Bay Area specific PDAs are available in a separate feature set. The data are current as of February 2016. This layer is part of the San Mateo County Sea Level Rise Vulnerability Assessment Project.</abstract>
-  <abstract displayLabel="Purpose" lang="eng"> These data are intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">These data are intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production.</abstract>
   <note displayLabel="Preferred citation" lang="eng">County of San Mateo Information Services Department and Association of Bay Area Governments. (2019). ABAG Priority Development Areas, San Mateo County Sea Level Rise Vulnerability Assessment Project Area, 2016. County of San Mateo Information Services Department. Available at: http://purl.stanford.edu/sj061ht5116.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Land use</topic>
@@ -56,7 +56,6 @@
   <location>
     <url>http://purl.stanford.edu/sj061ht5116</url>
   </location>
-  <accessCondition type="useAndReproduction">These data are made available by San Mateo County as a public service. The data are for reference purposes only, and the County makes no representatives, warranties, or guarantees as to the accuracy of the data.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:sj061ht5116</recordIdentifier>
@@ -76,8 +75,25 @@
             <gml:upperCorner>-122.118242 37.70842</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5392427/" dc:language="eng" dc:title="San Mateo County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;28&#x2B9;38&#x2BA;--W 122&#xB0;7&#x2B9;6&#x2BA;/N 37&#xB0;42&#x2B9;30&#x2BA;--N 37&#xB0;26&#x2B9;48&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°28ʹ38ʺ--W 122°7ʹ6ʺ/N 37°42ʹ30ʺ--N 37°26ʹ48ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>San Mateo County Sea Level Rise Vulnerability Assessment Project</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/vd126cg5748</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

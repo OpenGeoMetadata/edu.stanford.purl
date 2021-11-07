@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Watershed Drainage Basins: Santa Cruz County, California, 2015</title>
@@ -28,7 +28,7 @@
     <dateValid encoding="w3cdtf">2015</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -39,7 +39,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::2227</projection>
-      <coordinates>(W 122&#xB0;19&#x2B9;10&#x2BA;--W 121&#xB0;34&#x2B9;53&#x2BA;/N 37&#xB0;17&#x2B9;34&#x2BA;--N 36&#xB0;50&#x2B9;32&#x2BA;)</coordinates>
+      <coordinates>(W 122°19ʹ10ʺ--W 121°34ʹ53ʺ/N 37°17ʹ34ʺ--N 36°50ʹ32ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts watershed drainage basins in the County of Santa Cruz, California, including number codes to identify individual watersheds. This coverage includes these major watersheds: 1) North Coast, 2) San Lorenzo, 3) Soquel/Aptos, and 4) Pajaro. These drainage basins function as watershed drainage or catchment areas. The county watershed coding system is designed with two purposes: 1) to be able to aggregate watersheds and associated geographic information by code number ranges, and 2) to allow flexibility for future designation of additional sub-watersheds. Monitoring stations on streams can also be designated using the same coding system. Attributes are coded to represent the major drainage basin a watershed is located within, as well as its location within that Basin. Attributes include a number (1 through 4) representing the major drainage basin, followed by another number indicating its postion relative to other Watersheds in that Basin. The higher the second number, the farther up the drainage basin. This layer is part of a collection of GIS data created for Santa Cruz County, California.</abstract>
@@ -87,8 +87,25 @@
             <gml:upperCorner>-121.582294 37.286151</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Santa Cruz County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;19&#x2B9;2&#x2BA;--W 121&#xB0;34&#x2B9;56&#x2BA;/N 37&#xB0;17&#x2B9;10&#x2BA;--N 36&#xB0;50&#x2B9;56&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°19ʹ2ʺ--W 121°34ʹ56ʺ/N 37°17ʹ10ʺ--N 36°50ʹ56ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Santa Cruz County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/kn733hp1726</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

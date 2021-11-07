@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Mineral Classifications: Santa Cruz County, California, 2015</title>
@@ -28,7 +28,7 @@
     <dateValid encoding="w3cdtf">2015</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -39,13 +39,13 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::2227</projection>
-      <coordinates>(W 122&#xB0;9&#x2B9;43&#x2BA;--W 121&#xB0;34&#x2B9;56&#x2BA;/N 37&#xB0;10&#x2B9;23&#x2BA;--N 36&#xB0;53&#x2B9;15&#x2BA;)</coordinates>
+      <coordinates>(W 122°9ʹ43ʺ--W 121°34ʹ56ʺ/N 37°10ʹ23ʺ--N 36°53ʹ15ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains state mineral classifications in County of Santa Cruz, California. The State Geologist classifies mineral lands solely on the basis of geologic factors. Existing land use, by statute, is not considered. Classification of an area as a Mineral Resource Zone-2 (MRZ-2) indicates the existence of a deposit that meets certain criteria for value and marketability. The Classification Report also describes other categories of Mineral Resource Zone: MRZ-1, 3 and 4. The first 2 of these catefories are used to indicate if an area contains no resources (MRZ-1) or contains potential but presently unproven resources (MRZ-3). Areas where it is not possible to assign any of these categories are classified MRZ-4 (State of California Department of Conservation Mining and Geology Board Annual Report 1986).</abstract>
   <abstract displayLabel="Purpose" lang="eng">The Geographic Information Systems (GIS) Unit falls under the purview of the County of Santa Cruz Information Services Department. The GIS Unit serves all County departments and external customers and provides data on land, features and people of Santa Cruz County. Santa Cruz County encompasses 4 cities and approximately 265,000 people. This coverage can be used for basic applications such as viewing, querying and map output production, or to provide a basemap to support graphical overlays and analyses of geospatial data.</abstract>
   <note displayLabel="Preferred citation" lang="eng">County of Santa Cruz Information Services Department. (2015). Mineral Classifications: Santa Cruz County, California, 2015. Santa Cruz County, California. Available at http://purl.stanford.edu/wj672jh4142.</note>
-  <note displayLabel="Supplemental information">GIS Layer Number = 55/ Original Mapping Source: California Dept of Conservation, Division of Mines and Geology, Special Report 146 Part IV and State Mining and Reclamation Act (SMARA) Designation Report No. 7. Map Used to Convert to GIS: Source Maps. New Information Acceptable for Updating Maps: Revision of State Mines and Geology Designation/Classification Map. Parcel Specific Overiding Information: Not applicable. The boundaries were plotted and reviewed by the County's Environmental Planning staff. </note>
+  <note displayLabel="Supplemental information">GIS Layer Number = 55/ Original Mapping Source: California Dept of Conservation, Division of Mines and Geology, Special Report 146 Part IV and State Mining and Reclamation Act (SMARA) Designation Report No. 7. Map Used to Convert to GIS: Source Maps. New Information Acceptable for Updating Maps: Revision of State Mines and Geology Designation/Classification Map. Parcel Specific Overiding Information: Not applicable. The boundaries were plotted and reviewed by the County's Environmental Planning staff.</note>
   <note displayLabel="Use limitation">These data were compiled from many different sources; therefore, the accuracy of the individual layers varies significantly, and some layers do not align exactly with others. In the urban areas, data are generally accurate within five to ten feet of their true geographic coordinates, but in the rural areas, data may be accurate to only within three hundred feet. With these limitations, the County of Santa Cruz disclaims any responsibility for the accuracy or correctness of this data. This disclaimer is exclusive and in lieu of any warranties, fitness for particular purpose, and/or any other type of warranty, whether expressed or implied.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects" lang="eng">Minerals--Classification</topic>
@@ -60,7 +60,7 @@
     <temporal encoding="w3cdtf">2015</temporal>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="">Geoscientific Information</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
   </subject>
   <location>
     <url>http://purl.stanford.edu/wj672jh4142</url>
@@ -84,8 +84,25 @@
             <gml:upperCorner>-121.582434 37.166493</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Santa Cruz County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;9&#x2B9;41&#x2BA;--W 121&#xB0;34&#x2B9;57&#x2BA;/N 37&#xB0;9&#x2B9;59&#x2BA;--N 36&#xB0;53&#x2B9;37&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°9ʹ41ʺ--W 121°34ʹ57ʺ/N 37°9ʹ59ʺ--N 36°53ʹ37ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Santa Cruz County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/kn733hp1726</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

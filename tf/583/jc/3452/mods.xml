@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>CDBG Activity by Tract, 1996-2016</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 178&#xB0;13&#x2B9;40&#x2BA;--W 65&#xB0;14&#x2B9;39&#x2BA;/N 71&#xB0;23&#x2B9;26&#x2BA;--N 17&#xB0;52&#x2B9;52&#x2BA;)</coordinates>
+      <coordinates>(W 178°13ʹ40ʺ--W 65°14ʹ39ʺ/N 71°23ʹ26ʺ--N 17°52ʹ52ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">The Community Development Block Grant (CDBG) is a federal block grant distributed via formula to states and local governments. States and local governments use these grant funds to carry out housing, economic development, public services, and public improvement activities that serve low- and moderate-income people. The locations of CDBG activities are derived from addresses provided by HUD grantees from 1996 to present in HUDs Integrated Disbursement and Information System (IDIS). Until recently, these addresses were not validated on point of entry. The prevalence of missing or incorrect address data means that HUD cannot guarantee the accuracy of these locations. However, due to recent improvements to IDIS, HUD expects the quality of activity locations to improve over time. All CDBG activities in the categories of acquisition, economic development, housing, public improvements, public services, and other summarized by Census tract. All tracts are included, except for those that have a Total Activity Count = 0 or the Total Activity Count is NULL. Data Current As Of: 05/11/2016</abstract>
@@ -74,7 +74,6 @@
   <location>
     <url>http://purl.stanford.edu/tf583jc3452</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:tf583jc3452</recordIdentifier>
@@ -94,8 +93,17 @@
             <gml:upperCorner>-65.244234 71.390482</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. Department of Housing and Urban Development Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/wc590wy7435</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

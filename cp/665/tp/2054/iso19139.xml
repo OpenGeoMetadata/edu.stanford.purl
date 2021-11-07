@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <fileIdentifier>
     <gco:CharacterString>edu.stanford.purl:cp665tp2054</gco:CharacterString>
@@ -9,7 +10,7 @@
     <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
   </characterSet>
   <parentIdentifier>
-    <gco:CharacterString>pID</gco:CharacterString>
+    <gco:CharacterString>https://purl.stanford.edu/mg057bs7584.mods</gco:CharacterString>
   </parentIdentifier>
   <hierarchyLevel>
     <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
@@ -64,7 +65,7 @@
     </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-    <gco:Date>2016-04-13</gco:Date>
+    <gco:Date>2016-06-07</gco:Date>
   </dateStamp>
   <metadataStandardName>
     <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -119,7 +120,7 @@
           <date>
             <CI_Date>
               <date>
-                <gco:Date>2001-07-01</gco:Date>
+                <gco:Date>2002-07-01</gco:Date>
               </date>
               <dateType>
                 <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
@@ -212,13 +213,13 @@
         </CI_Citation>
       </citation>
       <abstract>
-        <gco:CharacterString>This point shapefile depicts geologic units within the Freshwater Creek watershed in Humboldt County, California at 1:24,000 scale. This map contains a digital representation of the map Geologic and Geomorphic Features Related to Landsliding, OFR 99-10, and the map of Relative Landslide Potential, OFR 99-10a. The map of Landslide Potential With Geologic and Geomorphic Features is a digital representation of the map of Geologic and Geomorphic Features Related to Landsliding, OFR 99-10, combined with the map of Relative Landslide Potential, OFR 99-10a. This map set was created using an ArcInfo GIS database by compiling information from OFR 99-10 and OFR 99-10a. The data for the original mapping (OFR 99-10 and 99-10a) was compiled from multiple sources including published maps and reports, aerial photograph mapping, and reconnaissance geologic mapping.</gco:CharacterString>
+        <gco:CharacterString>This point shapefile depicts geologic units within the Freshwater Creek watershed in Humboldt County, California at 1:24,000 scale. These data were derived from digital maps of landslide potential and geologic features in Humboldt County originally published in 1999 by the California Division of Mines and Geology (OFR 99-10 and OFR 99-10a). The data for the original mapping were compiled from multiple sources including published maps and reports, aerial photograph mapping, and reconnaissance geologic mapping.</gco:CharacterString>
       </abstract>
       <purpose>
         <gco:CharacterString>The maps/data are useful in preparation of Timber Harvesting Plans, and for use by land managers for identifying areas of potentially unstable ground. The maps/data serve as a guide to potential problem areas where more site-specific review is required.</gco:CharacterString>
       </purpose>
       <credit>
-        <gco:CharacterString>California Division of Mines and Geology and California Geological Survey. (2001). Geologic Units (Points), Freshwater Creek Watershed, California, 1999. California Dept. of Conservation and California Geological Survey. Available at http://purl.stanford.edu/cp665tp2054.</gco:CharacterString>
+        <gco:CharacterString>California Division of Mines and Geology and California Geological Survey. (2002). Geologic Units (Points), Freshwater Creek Watershed, California, 1999. California Dept. of Conservation and California Geological Survey. Available at http://purl.stanford.edu/cp665tp2054.</gco:CharacterString>
       </credit>
       <status>
         <MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="ISOTC211/19115">completed</MD_ProgressCode>
@@ -380,7 +381,7 @@ Information on the maps are not sufficient to serve as a substitute for site spe
               <identifier>
                 <MD_Identifier>
                   <code>
-                    <gco:CharacterString>pID</gco:CharacterString>
+                    <gco:CharacterString>https://purl.stanford.edu/mg057bs7584</gco:CharacterString>
                   </code>
                 </MD_Identifier>
               </identifier>
@@ -482,9 +483,6 @@ Information on the maps are not sufficient to serve as a substitute for site spe
         <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
       </characterSet>
       <topicCategory>
-        <MD_TopicCategoryCode>inlandWaters</MD_TopicCategoryCode>
-      </topicCategory>
-      <topicCategory>
         <MD_TopicCategoryCode>geoscientificInformation</MD_TopicCategoryCode>
       </topicCategory>
       <environmentDescription>
@@ -498,10 +496,9 @@ Information on the maps are not sufficient to serve as a substitute for site spe
           <temporalElement>
             <EX_TemporalExtent>
               <extent>
-                <gml:TimePeriod gml:id="idm4739520">
-                  <gml:beginPosition>1999-01-01T00:00:00</gml:beginPosition>
-                  <gml:endPosition>1999-12-31T00:00:00</gml:endPosition>
-                </gml:TimePeriod>
+                <gml:TimeInstant gml:id="idm5677472">
+                  <gml:timePosition>1999-12-01T00:00:00</gml:timePosition>
+                </gml:TimeInstant>
               </extent>
             </EX_TemporalExtent>
           </temporalElement>

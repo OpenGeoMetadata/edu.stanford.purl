@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Aids to Navigation, Northeast United States, 2012</title>
@@ -16,12 +16,12 @@
   <originInfo>
     <publisher>Coastal Services Center (U.S.)</publisher>
     <place>
-      <placeTerm type="text">Charleston, SC, </placeTerm>
+      <placeTerm type="text">Charleston, SC,</placeTerm>
     </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>1:63360</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 73&#xB0;59&#x2B9;59&#x2BA;--W 66&#xB0;34&#x2B9;48&#x2BA;/N 45&#xB0;10&#x2B9;27&#x2BA;--N 39&#xB0;30&#x2B9;)</coordinates>
+      <coordinates>(W 73°59ʹ59ʺ--W 66°34ʹ48ʺ/N 45°10ʹ27ʺ--N 39°30ʹ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile represents marine aids to navigation in the Northeastern United States. The Coast Guard maintains systems of marine aids to navigation consisting of visual, audible, and electronic signals which are designed to assist the prudent mariner in the process of navigation. The aids to navigation system is not intended to identify every shoal or obstruction to navigation which exists in the navigable waters of the United States, but rather provides for reasonable marking of marine features as resources permit. The primary objective of the aids to navigation system is to mark navigable channels and waterways, obstructions adjacent to these waterways, and obstructions in areas of general navigation which may not be anticipated. Other waters, even if navigable, are generally not marked. The term aid to navigation means any device external to a vessel or aircraft intended to assist a navigator to determine position or safe course, or to warn of dangers or obstructions to navigation.</abstract>
@@ -150,33 +150,25 @@
             <gml:upperCorner>-66.58 45.17414</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3373405/" dc:language="eng" dc:title="Atlantic Ocean"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Block Island Sound (R.I.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Rhode Island Sound (Mass. and R.I.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5224323/" dc:language="eng" dc:title="Rhode Island"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Blue Hill Bay (Me.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Boston Harbor (Mass.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Buzzards Bay (Mass. : Bay)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4971068/" dc:language="eng" dc:title="Maine"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Cape Cod Bay (Mass.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Casco Bay (Me.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Cobscook Bay (Me.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4831725/" dc:language="eng" dc:title="Connecticut"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Frenchman Bay (Me.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Maine, Gulf of"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Ipswich Bay (Mass.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Long Island Sound (N.Y. and Conn.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Saco Bay (Me.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Vineyard Sound (Mass.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Machias Bay (Me.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Massachusetts Bay (Mass.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6254926/" dc:language="eng" dc:title="Massachusetts"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Nantucket Sound (Mass.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Narragansett Bay (R.I.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5090174/" dc:language="eng" dc:title="New Hampshire"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5128638/" dc:language="eng" dc:title="New York (State)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Penobscot Bay (Me.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 73&#xB0;59&#x2B9;59&#x2BA;--W 66&#xB0;34&#x2B9;48&#x2BA;/N 45&#xB0;10&#x2B9;27&#x2BA;--N 39&#xB0;30&#x2B9;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 73°59ʹ59ʺ--W 66°34ʹ48ʺ/N 45°10ʹ27ʺ--N 39°30ʹ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Northeast Ocean Data : Maps and data for ocean planning in the northeastern United States</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sg639pq7229</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

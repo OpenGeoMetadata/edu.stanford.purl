@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Underpasses Allowing Wildlife Passage: San Francisco Bay Area, California, 2006</title>
@@ -39,7 +39,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -50,7 +50,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 123&#xB0;2&#x2B9;18&#x2BA;--W 121&#xB0;14&#x2B9;34&#x2BA;/N 38&#xB0;51&#x2B9;23&#x2BA;--N 36&#xB0;55&#x2B9;32&#x2BA;)</coordinates>
+      <coordinates>(W 123°2ʹ18ʺ--W 121°14ʹ34ʺ/N 38°51ʹ23ʺ--N 36°55ʹ32ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">Connectivity is vital to the viability of many mammal and other species conservation targets. The Conservation Lands Network (CLN) incorporates two levels of connectivity: connectivity within landscape units and connectivity between landscape units. Marxan was configured to capture local networks, or within landscape unit connectivity, by locking in protected lands and using settings in the software, but some key local linkages were explicitly considered, and were included as Areas for Further Consideration. Connectivity between landscape units is equally important. Mountain lions, in particular, will not persist in the more isolated landscape units (Santa Cruz Mountains, Mount Diablo) without occasional immigration, based on research on cougars in the Santa Ana Mountains in Southern California (Beier 1993). Riparian areas provide important connectivity for many wildlife species and are included in the CLN. There is ample evidence that culverts, bridges, and other passages under major freeways are used by a variety of wildlife (Penrod et al. 2006), but constrained narrow corridors can lead to problems for some species. Some specific linkages issues were identified across the region (Figure 6.8). There are a series of obvious choke points on several major freeways: 1) Highway 580 between the South and Middle East Bay Hills landscape units; 2) Altamont Pass area (also Highway 580) between the Mt. Diablo and Mt. Hamilton Ranges; 3). Caldecott Corridor located above the tunnel between the Middle and North East Bay Hills; 4) Coyote Valley between Sierra Azul and the Mt. Hamilton Range landscape units; and 5) Various crossings of Highway 101 in Sonoma County. Key linkages from the study area to beyond the boundaries include: 6) Chittenden Gap at the south end of the Sierra Azul landscape unit connecting to the Gabilan Range; 7) Across the Soap Lake Basin south of Gilroy; and 8) The Sonoma Coast Range to the Northern Mayacamas across Highway 101 and the Russian River north of Cloverdale. To begin to address the linkage issues noted above, the team used aerial photography, Google Earth and maps to conduct an initial analysis of bridges and other potential wildlife crossing areas. The exercise also identified areas that require more detailed investigation. This point shapefile depicts the results of the analysis showing some of the key underpasses that might allow safe passage to wildlife in the nine county San Francisco Bay Area Region, California. These areas were also included as Areas for Further Consideration.</abstract>
@@ -113,7 +113,6 @@
   <location>
     <url>http://purl.stanford.edu/ry730vk8697</url>
   </location>
-  <accessCondition type="useAndReproduction">These data are distributed under a GNU General Public License (GPL)</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:ry730vk8697</recordIdentifier>
@@ -133,17 +132,25 @@
             <gml:upperCorner>-121.285007 38.856472</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="San Francisco Bay Area (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5322745/" dc:language="eng" dc:title="Alameda County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5339268/" dc:language="eng" dc:title="Contra Costa County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5370468/" dc:language="eng" dc:title="Marin County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5376101/" dc:language="eng" dc:title="Napa County (Calif.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="San Francisco County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5392427/" dc:language="eng" dc:title="San Mateo County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5393021/" dc:language="eng" dc:title="Santa Clara County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5396987/" dc:language="eng" dc:title="Solano County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5397100/" dc:language="eng" dc:title="Sonoma County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 123&#xB0;2&#x2B9;18&#x2BA;--W 121&#xB0;17&#x2B9;6&#x2BA;/N 38&#xB0;51&#x2B9;23&#x2BA;--N 36&#xB0;55&#x2B9;44&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 123°2ʹ18ʺ--W 121°17ʹ6ʺ/N 38°51ʹ23ʺ--N 36°55ʹ44ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>The Conservation Lands Network regional biodiversity GIS database</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/xc921dx0980</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

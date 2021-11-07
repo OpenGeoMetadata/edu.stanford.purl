@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Hopkins Marine Life Refuge, Pacific Grove, California, 1931-1984</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 121&#xB0;54&#x2B9;27&#x2BA;--W 121&#xB0;53&#x2B9;56&#x2BA;/N 36&#xB0;37&#x2B9;26&#x2BA;--N 36&#xB0;37&#x2B9;7&#x2BA;)</coordinates>
+      <coordinates>(W 121°54ʹ27ʺ--W 121°53ʹ56ʺ/N 36°37ʹ26ʺ--N 36°37ʹ7ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the original boundary of the Hopkins Marine Life Refuge (HMLR) as defined in Pacific Grove city ordinance No. 284 in 1931. This legislation defined the boundaries of the refuge and stated that collecting marine invertebrates or plants within the area was unlawful if performed by any person other than an affiliate or licensee of Stanford University or the University of California. The essential features of this important legislation were retained when it was superceded by sections 10657 and 10901 of the California Fish and Game Code nearly 30 years later. HMLR received additional protection in 1974 when the California State Water Resources Control Board designated it as an Area of Special Biological Significance. This designation ensures that the coastal water remains free of chemical and thermal pollution. In 1984 legislative changes were made in the California Fish and Game Code sections pertaining to HMLR (sections 10502, 10502.5, 10657, 10657.5, and 10901). The result of this legislation is that 1) a Director of the HMLR has been appointed to issue permits for scientific collecting within the refuge; 2) taking fish, marine invertebrates and plants without such a permit is prohibited; and 3) the boundaries on two sides of the refuge were extended to coincide with the Pacific Grove Marine Gardens Fish Refuge. The accuracy of these data is subject to interpretation of boundary definitation at time of creation. This layer is part of a collection of data relating to Hopkins Marine Station located near Monterey Bay, California.</abstract>
@@ -66,7 +66,6 @@
   <location>
     <url>http://purl.stanford.edu/xf457bp9996</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:xf457bp9996</recordIdentifier>
@@ -86,10 +85,25 @@
             <gml:upperCorner>-121.89887 36.623822</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Hopkins Marine Station"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5374363/" dc:language="eng" dc:title="Monterey Bay (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5380437/" dc:language="eng" dc:title="Pacific Grove (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 121&#xB0;54&#x2B9;27&#x2BA;--W 121&#xB0;53&#x2B9;56&#x2BA;/N 36&#xB0;37&#x2B9;26&#x2BA;--N 36&#xB0;37&#x2B9;7&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 121°54ʹ27ʺ--W 121°53ʹ56ʺ/N 36°37ʹ26ʺ--N 36°37ʹ7ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Hopkins Marine Station GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zv579ky1111</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

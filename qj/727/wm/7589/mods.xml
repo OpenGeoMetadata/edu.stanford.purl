@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Inner Gorges, Elk River Watershed, California, 1940-2000</title>
@@ -40,7 +40,7 @@
     <edition>1</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -51,10 +51,10 @@
     <cartographics>
       <scale>1:24000</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 124&#xB0;10&#x2B9;19&#x2BA;--W 123&#xB0;58&#x2B9;56&#x2BA;/N 40&#xB0;42&#x2B9;56&#x2BA;--N 40&#xB0;39&#x2B9;21&#x2BA;)</coordinates>
+      <coordinates>(W 124°10ʹ19ʺ--W 123°58ʹ56ʺ/N 40°42ʹ56ʺ--N 40°39ʹ21ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This line shapefile depicts inner gorges within the Elk River watershed in Humboldt County, California. Inner gorges are geomorphic features consisting of steep slopes adjacent to channels. This dataset is the product of the Department of Conservation, California Geological Survey&#x2019;s (CGS) investigation of landslides in the Elk River watershed. The 52 square mile study area is located in Humboldt County in northwestern California. The investigation was based on interpretation of 1940, 1941, 1948, 1954, 1962, 1965, 1984, 1988, 1996 and 2000 aerial photos, findings from CGS&#x2019;s landslide mapping conducted in the early 1980s (Kilbourne, R.T. 1982-84, Manson, M. W. 1984), as well as other sources. Mapping was conducted at 1:24,000 scale. The resulting maps are titled &#x201C;Geologic and Geomorphic Features Related to Landsliding, Elk River Watershed&#x201D; (Plate 1) and &#x201C;Relative Landslide Potential with Geologic and Geomorphic Features, Elk River Watershed&#x201D; map (Plate 2). This study was conducted at a regional scale of mapping using ten sets of aerial photos combined with a compilation of earlier published and unpublished work. Other photo sets may reveal additional landslides. The regional nature of the study makes the data and maps, including the relative landslide potential zones, inappropriate as a substitute for site-specific analysis.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This line shapefile depicts inner gorges within the Elk River watershed in Humboldt County, California. Inner gorges are geomorphic features consisting of steep slopes adjacent to channels. This dataset is the product of the Department of Conservation, California Geological Survey’s (CGS) investigation of landslides in the Elk River watershed. The 52 square mile study area is located in Humboldt County in northwestern California. The investigation was based on interpretation of 1940, 1941, 1948, 1954, 1962, 1965, 1984, 1988, 1996 and 2000 aerial photos, findings from CGS’s landslide mapping conducted in the early 1980s (Kilbourne, R.T. 1982-84, Manson, M. W. 1984), as well as other sources. Mapping was conducted at 1:24,000 scale. The resulting maps are titled “Geologic and Geomorphic Features Related to Landsliding, Elk River Watershed” (Plate 1) and “Relative Landslide Potential with Geologic and Geomorphic Features, Elk River Watershed” map (Plate 2). This study was conducted at a regional scale of mapping using ten sets of aerial photos combined with a compilation of earlier published and unpublished work. Other photo sets may reveal additional landslides. The regional nature of the study makes the data and maps, including the relative landslide potential zones, inappropriate as a substitute for site-specific analysis.</abstract>
   <abstract displayLabel="Purpose" lang="eng">CGS evaluated the geology, relative slope stability and geomorphic characteristics within the watershed, and compiled the digital geospatial data described in this document. This mapping and compilation is geared toward providing baseline geologic and geomorphic data to aid in responsible land management, as well as the development of watershed restoration projects, watershed management strategies, and watershed plans.</abstract>
   <note displayLabel="Attribute accuracy report" lang="eng">Initial checking of attributes was conducted by the geologists who mapped the features. Limited field assessment of attributes was completed. The 'confidence' attribute indicates the geologist's level of
 certainty in a given feature (typically as viewed through a stereoscope). Peer reviewers and GIS staff conducted additional quality control. Because the attribute fields are designed to address various types of mapping products, and because some data is compiled from other sources, not all attribute fields are populated.</note>
@@ -81,12 +81,11 @@ certainty in a given feature (typically as viewed through a stereoscope). Peer r
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="inlandWaters">Inland Waters</topic>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="">Geoscientific Information</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
   </subject>
   <location>
     <url>http://purl.stanford.edu/qj727wm7589</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:qj727wm7589</recordIdentifier>
@@ -106,9 +105,25 @@ certainty in a given feature (typically as viewed through a stereoscope). Peer r
             <gml:upperCorner>-123.982566 40.714794</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="California, Northern"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Humboldt County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;10&#x2B9;18&#x2BA;--W 123&#xB0;58&#x2B9;57&#x2BA;/N 40&#xB0;42&#x2B9;53&#x2BA;--N 40&#xB0;39&#x2B9;25&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 124°10ʹ18ʺ--W 123°58ʹ57ʺ/N 40°42ʹ53ʺ--N 40°39ʹ25ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Maps and GIS data for the Elk River watershed, Humboldt County, California : watershed mapping series, map set 4</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/bn324wt5869</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

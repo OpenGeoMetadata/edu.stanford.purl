@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Assessor's Parcels: Humboldt County, California, 2015</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2015</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::26741</projection>
-      <coordinates>(W 124&#xB0;26&#x2B9;44&#x2BA;--W 123&#xB0;22&#x2B9;59&#x2BA;/N 41&#xB0;28&#x2B9;28&#x2BA;--N 39&#xB0;59&#x2B9;15&#x2BA;)</coordinates>
+      <coordinates>(W 124°26ʹ44ʺ--W 123°22ʹ59ʺ/N 41°28ʹ28ʺ--N 39°59ʹ15ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts boundaries of Parcels over which the County of Humboldt, California holds authority. This coverage includes all unincorporated areas, as well as cities/incorporated areas. Assessor's Parcels are based upon the legal property descriptionsand each Parcel is identified by an Assessor's Parcel Number (APN), which is an 8 digit number separated by dashes (e.g. 049-103-12). The first 3 digits represent the Assessor's mapbook containing the Parcel (Book 049 in the above example). The next 2 digits represent the page number within that mapbook (Page 10 in the example). The next digit represents the block number on that page (Block 3 in the example). The last 2 digits represent the Assessor's Parcel Number on that block (12 in the example). A Parcel is a piece of real property under a defined ownership, or it can be a lot in a subdivision. County governments administer and legislate through the creation of and maintenance of land records that are associated with a Parcel of land. Thus the Parcel is often the vital administrative unit of local government. Parcel maps must meet the requirements of the General Plan and all applicable laws and ordinances. Parcel maps are alternately called tax maps, plat maps, plot maps and assessor maps.</abstract>
@@ -86,8 +86,25 @@
             <gml:upperCorner>-123.405219 41.466095</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Humboldt County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;24&#x2B9;30&#x2BA;--W 123&#xB0;24&#x2B9;19&#x2BA;/N 41&#xB0;27&#x2B9;58&#x2BA;--N 40&#xB0;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 124°24ʹ30ʺ--W 123°24ʹ19ʺ/N 41°27ʹ58ʺ--N 40°</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Humboldt County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zc242vz4054</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Terrestrial Ecoregions: San Francisco Bay Area, California, 2011</title>
@@ -45,7 +45,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -56,7 +56,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 124&#xB0;40&#x2B9;56&#x2BA;--W 109&#xB0;56&#x2B9;9&#x2BA;/N 48&#xB0;34&#x2B9;17&#x2BA;--N 33&#xB0;26&#x2B9;8&#x2BA;)</coordinates>
+      <coordinates>(W 124°40ʹ56ʺ--W 109°56ʹ9ʺ/N 48°34ʹ17ʺ--N 33°26ʹ8ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts global ecoregions, major habitat types, biogeographical realms and The Nature Conservancy terrestrial assessment units as of December 14, 2009. Developed originally by Olson, D. M. and E. Dinerstein (2002), Bailey (1995) and Environment Canada (Wiken, 1986), these data layers were modified by The Nature Conservancy (TNC) to be used in its Biodiversity Planning exercises in the process known as Ecoregional Assessments. Several Ecoregions were modified from the originals by TNC staff developing the aforementioned assessments. The modifications are based on ecological, bio-physical and political rationales; most changes are noted in the accompanying documentation (attributes). Ecoregions in Canada and Mexico were modified mainly at the border with US territory, where TNC modified-Bailey (1995) ecoregions crossed over the country boundaries and the Olson, D. M. and E. Dinerstein (2002) and (Wiken, 1986) were replaced where the TNC modified-Bailey (1995) overlayed them. This layer was split from the terrestrial ecoregional assessment layer in June 2008.</abstract>
@@ -108,8 +108,6 @@
   <location>
     <url>http://purl.stanford.edu/xp971rf3309</url>
   </location>
-  <accessCondition type="useAndReproduction">These data are distributed under a GNU General Public License (GPL)</accessCondition>
-  <accessCondition type="useAndReproduction">These data are distributed under a GNU General Public License (GPL)</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:xp971rf3309</recordIdentifier>
@@ -129,17 +127,25 @@
             <gml:upperCorner>-111.004512 48.55112</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="San Francisco Bay Area (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5322745/" dc:language="eng" dc:title="Alameda County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5339268/" dc:language="eng" dc:title="Contra Costa County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5370468/" dc:language="eng" dc:title="Marin County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5376101/" dc:language="eng" dc:title="Napa County (Calif.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="San Francisco County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5392427/" dc:language="eng" dc:title="San Mateo County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5393021/" dc:language="eng" dc:title="Santa Clara County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5396987/" dc:language="eng" dc:title="Solano County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5397100/" dc:language="eng" dc:title="Sonoma County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;30&#x2B9;7&#x2BA;--W 111&#xB0;16&#x2BA;/N 48&#xB0;33&#x2B9;4&#x2BA;--N 33&#xB0;40&#x2B9;19&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 124°30ʹ7ʺ--W 111°16ʺ/N 48°33ʹ4ʺ--N 33°40ʹ19ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>The Conservation Lands Network regional biodiversity GIS database</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/xc921dx0980</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Multifamily Properties Assisted, 2016</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 161&#xB0;46&#x2B9;34&#x2BA;--W 64&#xB0;52&#x2B9;38&#x2BA;/N 64&#xB0;51&#x2B9;34&#x2BA;--N 17&#xB0;41&#x2B9;48&#x2BA;)</coordinates>
+      <coordinates>(W 161°46ʹ34ʺ--W 64°52ʹ38ʺ/N 64°51ʹ34ʺ--N 17°41ʹ48ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">HUD Multifamily Housing property portfolio consist primarily of rental housing properties with five or more dwelling units such as apartments or town houses, but can also be nursing homes, hospitals, elderly housing, mobile home parks, retirement service centers, and occasionally vacant land. The portfolio can be broken down into two basic categories: insured and assisted. HUD provides subsidies and grants to property owners and developers designed to promote the development and preservation of affordable rental units for low-income populations and those with special needs, such as the elderly and disabled. The three largest assistance programs for Multifamily housing are Section 8 Project Based Assistance, Section 202 Supportive Housing for the Elderly, and Section 811 Supportive Housing for Persons with Disabilities. The Multifamily property locations represent the approximate location of the property. The locations of individual buildings associated with each property are not depicted here. Generally speaking, the location of the property is derived from the primary address on file.Location data for HUD-related properties and facilities are derived from HUDs enterprise geocoding service. While not all records are able to be geocoded and mapped, we are continuously working to improve the address data quality and enhance coverage. Note that this file only includes x, y coordinates and associated attributes for those addresses that can be geocoded to an interpolated point along a street segment, or to the centroid of the nearest U.S. Census block. Please consider this issue when using any datasets provided by HUD. Data Current As Of: 06/30/2016</abstract>
@@ -68,7 +68,6 @@
   <location>
     <url>http://purl.stanford.edu/xc206cn3959</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:xc206cn3959</recordIdentifier>
@@ -88,8 +87,17 @@
             <gml:upperCorner>-64.87718 64.859432</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. Department of Housing and Urban Development Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/wc590wy7435</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

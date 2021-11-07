@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Roads, Monterey County, California, 2015</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 122&#xB0;7&#x2B9;56&#x2BA;--W 120&#xB0;15&#x2B9;20&#x2BA;/N 37&#xB0;2&#x2B9;6&#x2BA;--N 35&#xB0;31&#x2B9;8&#x2BA;)</coordinates>
+      <coordinates>(W 122°7ʹ56ʺ--W 120°15ʹ20ʺ/N 37°2ʹ6ʺ--N 35°31ʹ8ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile depicts roads (including major and minor roads, highways and streets) within Monterey County, California. This layer is part of a collection of GIS data for Monterey County in California.</abstract>
@@ -53,7 +53,6 @@
   <location>
     <url>http://purl.stanford.edu/vz186nk6258</url>
   </location>
-  <accessCondition type="useAndReproduction">No restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:vz186nk6258</recordIdentifier>
@@ -73,8 +72,17 @@
             <gml:upperCorner>-120.255612 37.035131</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Monterey County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Monterey County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/yz208xk1891</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Shanghai in 1855 (Raster Image)</title>
@@ -19,7 +19,7 @@
     <edition>1.00</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Raster Dataset</form>
@@ -29,7 +29,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 121&#xB0;27&#x2B9;30&#x2BA;--E 121&#xB0;30&#x2B9;39&#x2BA;/N 31&#xB0;15&#x2B9;27&#x2BA;--N 31&#xB0;12&#x2B9;35&#x2BA;)</coordinates>
+      <coordinates>(E 121°27ʹ30ʺ--E 121°30ʹ39ʺ/N 31°15ʹ27ʺ--N 31°12ʹ35ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced image of a map of Shanghai that was published in 1928. This is an intersting map that shows Shanghai English settlement as of 1855 on a map that was clearly produced at a later date. It was published in "A Short History of Shanghai" by H. Pott (see bibliography). It carries a list of buildings with their name and location. The map also shows the location of the second racecourse in the city. Pott, F. L. Hawks (Francis Lister Hawks), 1864-1947, A short history of Shanghai, being an account of the growth and development of the international settlement (1928)</abstract>
@@ -62,7 +62,6 @@
   <location>
     <url>http://purl.stanford.edu/cp231qk1515</url>
   </location>
-  <accessCondition type="useAndReproduction">This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:cp231qk1515</recordIdentifier>
@@ -82,8 +81,26 @@
             <gml:upperCorner>121.5109081 31.257376</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1796231/" dc:language="eng" dc:title="Shanghai (China)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 121&#xB0;27&#x2B9;30&#x2BA;--E 121&#xB0;30&#x2B9;39&#x2BA;/N 31&#xB0;15&#x2B9;27&#x2BA;--N 31&#xB0;12&#x2B9;35&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 121°27ʹ30ʺ--E 121°30ʹ39ʺ/N 31°15ʹ27ʺ--N 31°12ʹ35ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Virtual Shanghai</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qs150bm4171</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This work is in the public domain. There are no restrictions on use.</accessCondition>
+  <accessCondition type="license" xlink:href="https://creativecommons.org/publicdomain/mark/1.0/">This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights (Public Domain Mark 1.0).</accessCondition>
+</mods>

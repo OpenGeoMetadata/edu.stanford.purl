@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Pilot Boarding Areas, Northeast United States, 2009-2013</title>
   </titleInfo>
@@ -15,13 +15,10 @@
   <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
   <originInfo>
     <publisher>Northeast Ocean Data</publisher>
-    <place>
-      <placeTerm type="text"/>
-    </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,10 +29,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 73&#xB0;49&#x2B9;6&#x2BA;--W 66&#xB0;51&#x2B9;53&#x2BA;/N 44&#xB0;58&#x2B9;--N 40&#xB0;26&#x2B9;17&#x2BA;)</coordinates>
+      <coordinates>(W 73°49ʹ6ʺ--W 66°51ʹ53ʺ/N 44°58ʹ--N 40°26ʹ17ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">Pilot boarding areas are locations at sea where pilots familiar with local waters board incoming vessels to navigate their passage to a destination port. Pilotage is compulsory for foreign vessels and U.S. vessels under register in foreign trade with specific draft characteristics. Pilot boarding areas are represented by a 0.5 nautical mile radius around a coordinate point unless the Coast Pilot specifically designates a different radius or boarding area boundary. This dataset does not contain information regarding the hazards and considerations necessary to approach each port. The primary source material is the United States Coast Pilot. Additional information was derived from the Office of Massachusetts Coastal Zone Management&#x2019;s pilot boarding area dataset, which consists of information acquired from pilot associations in 2009. Northeast Ocean Data plans to engage with pilot associations in 2014 to confirm the location and boarding area sizes in order to finalize the dataset.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">Pilot boarding areas are locations at sea where pilots familiar with local waters board incoming vessels to navigate their passage to a destination port. Pilotage is compulsory for foreign vessels and U.S. vessels under register in foreign trade with specific draft characteristics. Pilot boarding areas are represented by a 0.5 nautical mile radius around a coordinate point unless the Coast Pilot specifically designates a different radius or boarding area boundary. This dataset does not contain information regarding the hazards and considerations necessary to approach each port. The primary source material is the United States Coast Pilot. Additional information was derived from the Office of Massachusetts Coastal Zone Management’s pilot boarding area dataset, which consists of information acquired from pilot associations in 2009. Northeast Ocean Data plans to engage with pilot associations in 2014 to confirm the location and boarding area sizes in order to finalize the dataset.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This datasets is intended to support region-scale ocean planning activities.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Applied Science Associates. (2014). Pilot Boarding Areas, Northeast United States, 2009-2013. Northeast Ocean Data. Available at: http://purl.stanford.edu/yh313jp8747.</note>
   <note displayLabel="Use limitation">Not to be used for navigation</note>
@@ -99,7 +96,6 @@
   <location>
     <url>http://purl.stanford.edu/yh313jp8747</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:yh313jp8747</recordIdentifier>
@@ -119,21 +115,25 @@
             <gml:upperCorner>-66.864769 44.966663</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4971068/" dc:language="eng" dc:title="Maine"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5128638/" dc:language="eng" dc:title="New York (State)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6254926/" dc:language="eng" dc:title="Massachusetts"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3373405/" dc:language="eng" dc:title="Atlantic Ocean"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Block Island Sound (R.I.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Buzzards Bay (Mass. : Bay)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Cobscook Bay (Me.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Frenchman Bay (Me.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Cape Cod Bay (Mass.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Rhode Island Sound (Mass. and R.I.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="New York Harbor (N.Y. and N.J.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Maine, Gulf of"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Montauk (N.Y.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Massachusetts Bay (Mass.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 73&#xB0;49&#x2B9;6&#x2BA;--W 66&#xB0;51&#x2B9;53&#x2BA;/N 44&#xB0;58&#x2B9;--N 40&#xB0;26&#x2B9;17&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 73°49ʹ6ʺ--W 66°51ʹ53ʺ/N 44°58ʹ--N 40°26ʹ17ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Northeast Ocean Data : Maps and data for ocean planning in the northeastern United States</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sg639pq7229</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

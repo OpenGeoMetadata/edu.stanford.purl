@@ -1,30 +1,18 @@
 {
   "dc_identifier_s": "http://purl.stanford.edu/nb672gq8020",
   "dc_title_s": "Chlorophyll A (Spring), Northwest Atlantic United States, 1998-2006",
-  "dc_description_s": "This data product was created as part of the Northwest Atlantic Marine Ecoregional Assessment. The Nature Conservancy developed this science-based ecoregional assessment for the Northwest Atlantic Marine region (Bay of Fundy to Cape Hatteras, North Carolina). This assessment synthesizes information on oceanography, chemistry, geology, biology, and social science to inform decisions about coastal and marine ecosystems. By integrating this information at a regional level, the Conservancy is able to provide both a greater understanding of the interrelated biological diversity of the marine ecoregion, and a clearer picture of the current condition of its natural areas and the challenges to their continued persistence. The ten categories of targets identified as the primary structure for the marine ecoregional assessment are: coastal and estuarine habitats, benthic habitats, diadromous fish, demersal fish, pelagic fish, forage fish, nearshore shellfish, shorebirds and seabirds, marine mammals, and sea turtles. For more information and a detailed report, please visit http://nature.org/namera/. Phytoplankton concentration was determined by measuring chlorophyll a, which can be detected using remote sensing techniques. Plankton are important for many reasons: Phytoplankton and zooplankton support commercially and ecologically important fisheries (including shellfish); Increases in phytoplankton abundance is a good indicator of commercially productive waters; Plankton play a critical role in global biogeochemical cycles, including those of essential nutrients and carbon; Artificially-introduced nutrients (nutrient loading), particularly nitrate in marine systems, cause phytoplankton blooms (eutrophication) that can reduce bottom oxygen levels to hypoxic or anoxic levels in stratified water, causing fish kills if anoxic for periods of time; Species composition and abundance can be used as a) historic or current indicators or predictors of ecosystem or fishery health and b) to assess changes in climate, sea level, and biogeochemistry; and Blooms of toxic algae can harm both marine life and people.Phytoplankton concentration was determined by measuring chlorophyll a, which can be detected using remote sensing techniques. To measure chlorophyll by satellite, images from the Sea Viewing Wide Field-of-View Sensor (SeaWiFS) obtained from NASA were used. These images have a 1.1 km2 nominal resolution. These data were processed by Dr. Tim Moore at the Ocean Process Analysis Laboratory, University of New Hampshire in order to improve the estimation of chlorophyll in the coastal zone. The chlorophyll data were derived from a regionally-parameterized empirical algorithm which follows the functional form: X=log(max(Rrs443,Rrs490,Rrs510)/Rrs555) Log(Chl)=a0+a1*X+a2*X2+a3*X3+a4X4 where the exponential coefficients were fitted to a regional subset of the NASA bio-Optical Marine Algorithm Data (NOMAD) set. The data were processed in MATLAB and delivered in .HDF format. The data were converted from .HDF to MATLAB using Marine Geospatial Ecology tools (Roberts et al. 2009). In each image, land and clouds were removed, so as to not skew the calculation. Seasonally averaged chlorophyll images were created for the time period January 1998 - December 2006. The data time series ranges are monthly for January 1997 - February 2007. Years with inconsistent monthly data were eliminated (1997 and 2007). The seasons are defined to be consistent with other target data: winter, January - March; spring, April - June; summer, July - September; fall, October - December.",
   "dc_rights_s": "Public",
-  "dct_provenance_s": "Stanford",
-  "dct_references_s": "{\"http://schema.org/url\":\"http://purl.stanford.edu/nb672gq8020\",\"http://schema.org/downloadUrl\":\"http://stacks.stanford.edu/file/druid:nb672gq8020/data.zip\",\"http://www.loc.gov/mods/v3\":\"http://purl.stanford.edu/nb672gq8020.mods\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"https://raw.githubusercontent.com/OpenGeoMetadata/edu.stanford.purl/master/nb/672/gq/8020/iso19139.xml\",\"http://www.opengis.net/def/serviceType/ogc/wcs\":\"https://geowebservices.stanford.edu/geoserver/wcs\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices.stanford.edu/geoserver/wms\"}",
-  "layer_id_s": "druid:nb672gq8020",
-  "layer_slug_s": "stanford-nb672gq8020",
   "layer_geom_type_s": "Raster",
-  "layer_modified_dt": "2017-11-22T16:20:02Z",
+  "layer_modified_dt": "2021-10-29T20:01:52Z",
+  "dct_issued_s": "2010",
+  "dc_type_s": "Dataset",
   "dc_format_s": "GeoTIFF",
   "dc_language_s": "English",
-  "dc_type_s": "Dataset",
-  "dc_publisher_s": "Northeast Ocean Data",
-  "dc_creator_sm": [
-    "Nature Conservancy (U.S.)"
-  ],
   "dc_subject_sm": [
     "Chlorophyll",
     "Phytoplankton",
     "Environment",
     "Oceans"
-  ],
-  "dct_issued_s": "2010",
-  "dct_temporal_sm": [
-    "1998-2006"
   ],
   "dct_spatial_sm": [
     "Albemarle Sound (N.C.)",
@@ -44,8 +32,29 @@
     "Northeastern States",
     "Middle Atlantic States"
   ],
+  "dct_temporal_sm": [
+    "1998-2006"
+  ],
+  "dc_publisher_s": "Northeast Ocean Data",
+  "dc_creator_sm": [
+    "Nature Conservancy (U.S.)"
+  ],
+  "geoblacklight_version": "1.0",
+  "dct_references_s": "{\"http://schema.org/url\":\"https://purl.stanford.edu/nb672gq8020\",\"http://www.loc.gov/mods/v3\":\"https://purl.stanford.edu/nb672gq8020.mods\",\"http://schema.org/downloadUrl\":\"https://stacks.stanford.edu/file/druid:nb672gq8020/data.zip\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices.stanford.edu/geoserver/wms\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"https://raw.githubusercontent.com/OpenGeoMetadata/edu.stanford.purl/master/nb/672/gq/8020/iso19139.xml\",\"http://www.opengis.net/def/serviceType/ogc/wcs\":\"https://geowebservices.stanford.edu/geoserver/wcs\"}",
   "solr_geom": "ENVELOPE(-86.8796117, -41.1557826, 56.6247931, 21.5370534)",
+  "layer_slug_s": "stanford-nb672gq8020",
+  "layer_id_s": "druid:nb672gq8020",
+  "dct_provenance_s": "Stanford",
+  "stanford_rights_metadata_s": "<rightsMetadata>\n    <access type=\"discover\">\n      <machine>\n        <world/>\n      </machine>\n    </access>\n    <access type=\"read\">\n      <machine>\n        <world/>\n      </machine>\n    </access>\n    <use>\n      <human type=\"useAndReproduction\">This item is in the public domain.  There are no restrictions on use.</human>\n      <human type=\"creativeCommons\"/>\n      <machine type=\"creativeCommons\"/>\n    </use>\n    <copyright>\n      <human>This work is in the Public Domain, meaning that it is not subject to copyright.</human>\n    </copyright>\n  </rightsMetadata>",
+  "stanford_license_s": "",
+  "stanford_use_and_reproduction_s": "This item is in the public domain.  There are no restrictions on use.",
+  "stanford_copyright_s": "\n      This work is in the Public Domain, meaning that it is not subject to copyright.\n    ",
   "solr_year_i": 1998,
-  "stanford_rights_metadata_s": "<?xml version=\"1.0\"?>\n<rightsMetadata>\n  <access type=\"discover\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <access type=\"read\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <use>\n    <human type=\"useAndReproduction\">This item is in the public domain.  There are no restrictions on use.</human>\n    <human type=\"creativeCommons\"/>\n    <machine type=\"creativeCommons\"/>\n  </use>\n  <copyright>\n    <human>This work is in the Public Domain, meaning that it is not subject to copyright.</human>\n  </copyright>\n</rightsMetadata>\n",
-  "geoblacklight_version": "1.0"
+  "dc_source_sm": [
+    "stanford-sg639pq7229"
+  ],
+  "dct_isPartOf_sm": [
+    "Northeast Ocean Data : Maps and data for ocean planning in the northeastern United States"
+  ],
+  "dc_description_s": "This data product was created as part of the Northwest Atlantic Marine Ecoregional Assessment. The Nature Conservancy developed this science-based ecoregional assessment for the Northwest Atlantic Marine region (Bay of Fundy to Cape Hatteras, North Carolina). This assessment synthesizes information on oceanography, chemistry, geology, biology, and social science to inform decisions about coastal and marine ecosystems. By integrating this information at a regional level, the Conservancy is able to provide both a greater understanding of the interrelated biological diversity of the marine ecoregion, and a clearer picture of the current condition of its natural areas and the challenges to their continued persistence. The ten categories of targets identified as the primary structure for the marine ecoregional assessment are: coastal and estuarine habitats, benthic habitats, diadromous fish, demersal fish, pelagic fish, forage fish, nearshore shellfish, shorebirds and seabirds, marine mammals, and sea turtles. For more information and a detailed report, please visit http://nature.org/namera/. Phytoplankton concentration was determined by measuring chlorophyll a, which can be detected using remote sensing techniques. Plankton are important for many reasons: Phytoplankton and zooplankton support commercially and ecologically important fisheries (including shellfish); Increases in phytoplankton abundance is a good indicator of commercially productive waters; Plankton play a critical role in global biogeochemical cycles, including those of essential nutrients and carbon; Artificially-introduced nutrients (nutrient loading), particularly nitrate in marine systems, cause phytoplankton blooms (eutrophication) that can reduce bottom oxygen levels to hypoxic or anoxic levels in stratified water, causing fish kills if anoxic for periods of time; Species composition and abundance can be used as a) historic or current indicators or predictors of ecosystem or fishery health and b) to assess changes in climate, sea level, and biogeochemistry; and Blooms of toxic algae can harm both marine life and people. Phytoplankton concentration was determined by measuring chlorophyll a, which can be detected using remote sensing techniques. To measure chlorophyll by satellite, images from the Sea Viewing Wide Field-of-View Sensor (SeaWiFS) obtained from NASA were used. These images have a 1.1 km2 nominal resolution. These data were processed by Dr. Tim Moore at the Ocean Process Analysis Laboratory, University of New Hampshire in order to improve the estimation of chlorophyll in the coastal zone. The chlorophyll data were derived from a regionally-parameterized empirical algorithm which follows the functional form: X=log(max(Rrs443,Rrs490,Rrs510)/Rrs555) Log(Chl)=a0+a1*X+a2*X2+a3*X3+a4X4 where the exponential coefficients were fitted to a regional subset of the NASA bio-Optical Marine Algorithm Data (NOMAD) set. The data were processed in MATLAB and delivered in .HDF format. The data were converted from .HDF to MATLAB using Marine Geospatial Ecology tools (Roberts et al. 2009). In each image, land and clouds were removed, so as to not skew the calculation. Seasonally averaged chlorophyll images were created for the time period January 1998 - December 2006. The data time series ranges are monthly for January 1997 - February 2007. Years with inconsistent monthly data were eliminated (1997 and 2007). The seasons are defined to be consistent with other target data: winter, January - March; spring, April - June; summer, July - September; fall, October - December. The Nature Conservancy. (2010). Chlorophyll A (Spring), Northwest Atlantic United States, 1998-2006. Northeast Ocean Data. Available at: http://purl.stanford.edu/nb672gq8020. The Nature Conservancy (TNC) compiled this data set from publicly available data sources and this data is freely distributable without permission from this TNC resource office. This data set must be cited on all electronic and hard copy products using the language of the Data Set Credit. Use and analysis of the geographic data are limited by the scale at which the data was collected and mapped, and that, as a regional analysis, it is not intended for site level decisions. The Nature Conservancy shall not be held liable for improper or incorrect use of the data described and/or contained herein. Any sale, distribution, loan, or offering for use of these digital data, in whole or in part, is prohibited without the approval of the Nature Conservancy. The use of these data to produce other GIS products and services with the intent to sell for a profit is prohibited without the written consent of the Nature Conservancy. All parties receiving these data must be informed of these restrictions. The Nature Conservancy shall be acknowledged as data contributors to any reports or other products derived from these data. This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection."
 }

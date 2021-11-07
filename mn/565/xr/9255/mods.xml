@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Coal Mines, Surface and Underground, United States, 2012</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,14 +32,13 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::3395</projection>
-      <coordinates>(W 148&#xB0;54&#x2B9;44&#x2BA;--W 75&#xB0;30&#x2B9;20&#x2BA;/N 64&#xB0;4&#x2B9;6&#x2BA;--N 28&#xB0;54&#x2B9;51&#x2BA;)</coordinates>
+      <coordinates>(W 148°54ʹ44ʺ--W 75°30ʹ20ʺ/N 64°4ʹ6ʺ--N 28°54ʹ51ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile represents operating surface and underground coal mines in the United States as of 2012 These data originate from the U.S. Energy Information Administration, Form EIA-7A "Coal Production and Preparation Report" and the U.S. Department of Labor, Mine Safety and Health Administration Form 7000-2, "Quarterly Mine Employment and Coal Production Report." This layer is part of a collection of GIS data produced by the U.S. National Energy Information Administration.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
   <note displayLabel="Preferred citation" lang="eng">National Energy Information Center (U.S.). (2015). Coal Mines, Surface and Underground, United States, 2012. National Energy Information Center. Available at: http://purl.stanford.edu/mn565xr9255.</note>
-  <note displayLabel="Supplemental information">For additional mine data see "Historical Detailed Coal Production Data": http://www.eia.gov/coal/data.cfm#production
-</note>
+  <note displayLabel="Supplemental information">For additional mine data see "Historical Detailed Coal Production Data": http://www.eia.gov/coal/data.cfm#production</note>
   <note displayLabel="Use limitation">The U.S. Energy Information Administration shall not be held liable for improper or incorrect use of the data described and/or contained herein. These data and related graphics, if available, are not legal documents and are not intended to be used as such. The information contained in these data is dynamic and may change over time. The U.S. Energy Information Administration gives no warranty, expressed or implied, as to the accuracy, reliability, or completeness of these data.</note>
   <subject>
     <topic lang="eng">Coal mines and mining</topic>
@@ -75,8 +74,25 @@
             <gml:upperCorner>-75.505555 64.068197</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 180&#xB0;--W 75&#xB0;30&#x2B9;20&#x2BA;/N 64&#xB0;4&#x2B9;6&#x2BA;--S 90&#xB0;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 180°--W 75°30ʹ20ʺ/N 64°4ʹ6ʺ--S 90°</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. National Energy Information Center Interactive State Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/gx140ys0508</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

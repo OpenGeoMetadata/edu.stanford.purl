@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Isopachs: Santa Barbara Channel, California, 2009</title>
@@ -48,7 +48,7 @@
     <edition>version 1</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -59,7 +59,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 120&#xB0;12&#x2B9;21&#x2BA;--W 119&#xB0;7&#x2B9;24&#x2BA;/N 34&#xB0;29&#x2B9;30&#x2BA;--N 34&#xB0;1&#x2B9;42&#x2BA;)</coordinates>
+      <coordinates>(W 120°12ʹ21ʺ--W 119°7ʹ24ʺ/N 34°29ʹ30ʺ--N 34°1ʹ42ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile contains isopachs (contour lines of equal thickness) at 2.5 meter intervals for the areas within the 3-nautical mile limit around the Santa Barbara Channel in California. As part of the USGS's California State Waters Mapping Project, a 20-m grid of depth to the transgressive surface of the last glacial maximum (LGM) was generated for the 3-mile offshore region. . Source data include seismic-reflection profile data, collected in 2007 (USGS cruise Z-3-07-SC) and 2008 (USGS cruise S-7-08-SC), supplemented with outcrop and geologic structure data. The resulting grid covers an area of approximately 600 sq km. The volume of sediment accumulated since the LGM is approximately 9,000 million cubic meters. A map that shows these data is published in Scientific Investigations Map 3225, "California State Waters Map Series--Hueneme Canyon and Vicinity, California." This layer is part of USGS Data Series 781.</abstract>
@@ -88,7 +88,7 @@
     <temporal encoding="w3cdtf">2007-2009</temporal>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="">Geoscientific Information</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
   </subject>
   <subject>
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="oceans">Oceans</topic>
@@ -99,8 +99,6 @@
   <location>
     <url>http://purl.stanford.edu/mp642qs6720</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:mp642qs6720</recordIdentifier>
@@ -120,11 +118,25 @@
             <gml:upperCorner>-119.123778 34.469842</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Santa Barbara County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Santa Barbara Channel (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 120&#xB0;12&#x2B9;17&#x2BA;--W 119&#xB0;7&#x2B9;26&#x2BA;/N 34&#xB0;28&#x2B9;11&#x2BA;--N 34&#xB0;3&#x2B9;4&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 120°12ʹ17ʺ--W 119°7ʹ26ʺ/N 34°28ʹ11ʺ--N 34°3ʹ4ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California State Waters Map Series Data Catalog</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ng324gh5570</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

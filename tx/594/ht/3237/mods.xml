@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>HUD Field Offices, 2016</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 157&#xB0;51&#x2B9;36&#x2BA;--W 66&#xB0;4&#x2B9;15&#x2BA;/N 61&#xB0;11&#x2B9;36&#x2BA;--N 18&#xB0;25&#x2B9;32&#x2BA;)</coordinates>
+      <coordinates>(W 157°51ʹ36ʺ--W 66°4ʹ15ʺ/N 61°11ʹ36ʺ--N 18°25ʹ32ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile contains the locations of the United States Department of Housing and Urban Development (HUD) field offices. HUD is organized into 10 Regions where each Region is managed by a Regional Administrator, who also oversees the Regional Office. Each Field Office within a Region is managed by a Field Office Director, who reports to the Regional Administrator. There is at least one HUD Field Office in every State and a total of 10 Regional Offices. Staff who answer the main office telephone will be able to respond to or direct your calls to the appropriate person. Data Current As Of: July 1st 2014</abstract>
@@ -59,7 +59,6 @@
   <location>
     <url>http://purl.stanford.edu/tx594ht3237</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:tx594ht3237</recordIdentifier>
@@ -79,8 +78,17 @@
             <gml:upperCorner>-66.070933 61.193409</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. Department of Housing and Urban Development Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/wc590wy7435</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Waterways: Santa Cruz County, California, 2015</title>
@@ -28,7 +28,7 @@
     <dateValid encoding="w3cdtf">2015</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -39,13 +39,13 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::2227</projection>
-      <coordinates>(W 122&#xB0;19&#x2B9;8&#x2BA;--W 121&#xB0;34&#x2B9;45&#x2BA;/N 37&#xB0;17&#x2B9;19&#x2BA;--N 36&#xB0;50&#x2B9;30&#x2BA;)</coordinates>
+      <coordinates>(W 122°19ʹ8ʺ--W 121°34ʹ45ʺ/N 37°17ʹ19ʺ--N 36°50ʹ30ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polyline shapefile depicts waterways in the County of Santa Cruz, California, including canyons, creeks, gulches, rivers and sloughs. This layer is part of a collection of GIS data created for Santa Cruz County, California.</abstract>
   <abstract displayLabel="Purpose" lang="eng">The Geographic Information Systems (GIS) Unit falls under the purview of the County of Santa Cruz Information Services Department. The GIS Unit serves all County departments and external customers and provides data on land, features and people of Santa Cruz County. Santa Cruz County encompasses 4 cities and approximately 265,000 people. This coverage can be used for basic applications such as viewing, querying and map output production, or to provide a basemap to support graphical overlays and analyses of geospatial data.</abstract>
   <note displayLabel="Preferred citation" lang="eng">County of Santa Cruz Information Services Department. (2015). Waterways: Santa Cruz County, California, 2015. Santa Cruz County, California. Available at http://purl.stanford.edu/md043xg6400.</note>
-  <note displayLabel="Supplemental information">GIS Layer Number = 35/ Stream Location Original Mapping Source: USGS Topographic maps. Map Used to Convert to GIS: Streams from topographic maps (.dlg), FEMA floodway maps and 701/RDA aerial photos where available. New Information Acceptable for Updating Maps: New aerial photogrammetry or revised USGS topographic maps. GPS information. Parcel Specific Overiding Information: Report by qualified biologist. Stream Classifications Original Mapping Source: USGS Topograpic maps. Map Used to Convert to GIS: Source maps. New Information Acceptable for Updating Maps: Revised USGS topograpic maps, report by biologist or qualified hydrologist. Parcel Specific Overiding Information: Report by qualified biologist. Stream locations and classifications were plotted and reviewed by the County's Water Resource Planner. </note>
+  <note displayLabel="Supplemental information">GIS Layer Number = 35/ Stream Location Original Mapping Source: USGS Topographic maps. Map Used to Convert to GIS: Streams from topographic maps (.dlg), FEMA floodway maps and 701/RDA aerial photos where available. New Information Acceptable for Updating Maps: New aerial photogrammetry or revised USGS topographic maps. GPS information. Parcel Specific Overiding Information: Report by qualified biologist. Stream Classifications Original Mapping Source: USGS Topograpic maps. Map Used to Convert to GIS: Source maps. New Information Acceptable for Updating Maps: Revised USGS topograpic maps, report by biologist or qualified hydrologist. Parcel Specific Overiding Information: Report by qualified biologist. Stream locations and classifications were plotted and reviewed by the County's Water Resource Planner.</note>
   <note displayLabel="Use limitation">These data were compiled from many different sources; therefore, the accuracy of the individual layers varies significantly, and some layers do not align exactly with others. In the urban areas, data are generally accurate within five to ten feet of their true geographic coordinates, but in the rural areas, data may be accurate to only within three hundred feet. With these limitations, the County of Santa Cruz disclaims any responsibility for the accuracy or correctness of this data. This disclaimer is exclusive and in lieu of any warranties, fitness for particular purpose, and/or any other type of warranty, whether expressed or implied.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects" lang="eng">Hydrography</topic>
@@ -84,8 +84,25 @@
             <gml:upperCorner>-121.579722 37.282008</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Santa Cruz County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;19&#x2B9;--W 121&#xB0;34&#x2B9;47&#x2BA;/N 37&#xB0;16&#x2B9;55&#x2BA;--N 36&#xB0;50&#x2B9;54&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°19ʹ--W 121°34ʹ47ʺ/N 37°16ʹ55ʺ--N 36°50ʹ54ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Santa Cruz County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/kn733hp1726</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Faults: Drakes Bay and Vicinity, California, 2009</title>
   </titleInfo>
@@ -41,7 +41,7 @@
     <dateValid encoding="w3cdtf" point="end">2009</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -51,7 +51,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 122&#xB0;57&#x2B9;59&#x2BA;--W 122&#xB0;48&#x2B9;35&#x2BA;/N 37&#xB0;58&#x2B9;17&#x2BA;--N 37&#xB0;55&#x2B9;6&#x2BA;)</coordinates>
+      <coordinates>(W 122°57ʹ59ʺ--W 122°48ʹ35ʺ/N 37°58ʹ17ʺ--N 37°55ʹ6ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile contains fault lines of Drakes Bay and the surrouding vicinity of California. Faults are identified on seismic-reflection data based on abrupt truncation or warping of reflections and (or) juxtaposition of reflection panels with different seismic parameters such as reflection presence, amplitude, frequency, geometry, continuity, and vertical sequence. The Point Reyes Fault Zone runs through the map area and is an offshore curvilinear reverse fault zone with predominantly north-side-up motion (Hoskins and Griffiths, 1971; McCulloch, 1987; Heck and others, 1990; Stozek, 2012) that likely connects with the western San Gregorio fault further to the south (Ryan and others, 2008), making it part of the San Andreas Fault System. The Point Reyes Fault Zone is characterized by a 5 to 11 km-wide zone of deformation in the shallow subsurface that is associated with two main fault structures, the Point Reyes Fault and the western Point Reyes Fault. Near the Point Reyes headland, vertical displacement of granitic basement across the Point Reyes Fault is at least 1.4 km (McCulloch, 1987). Offshore Double Point, vertical displacement on the Point Reyes Fault is difficult to assess because subsurface age constraints from nearby wells are lacking, and there are few offset horizons across the fault imaged on available seismic data. However, warping and folding of Neogene strata are clearly visible on high-resolution seismic data (see field activity S-8-09-NC). The western Point Reyes Fault is defined by a broad anticlinal structure visible in both industry and high-resolution seismic datasets that exhibits that same sense of vergence (north-side-up) as the Point Reyes Fault. Faults were primarily mapped by interpretation of seismic reflection profile data (see field activity S-8-09-NC). The seismic reflection profiles were collected between 2006 and 2009. This layer is a part of USGS Data Series 781.</abstract>
@@ -83,7 +83,7 @@
     <temporal encoding="w3cdtf">2006-2009</temporal>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="">Geoscientific Information</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
   </subject>
   <subject>
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="oceans">Oceans</topic>
@@ -91,7 +91,6 @@
   <location>
     <url>http://purl.stanford.edu/yx723mn4156</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:yx723mn4156</recordIdentifier>
@@ -111,11 +110,25 @@
             <gml:upperCorner>-122.809778 37.971471</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5370468/" dc:language="eng" dc:title="Marin County (Calif.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Drakes Bay (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;57&#x2B9;59&#x2BA;--W 122&#xB0;48&#x2B9;35&#x2BA;/N 37&#xB0;58&#x2B9;17&#x2BA;--N 37&#xB0;55&#x2B9;6&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°57ʹ59ʺ--W 122°48ʹ35ʺ/N 37°58ʹ17ʺ--N 37°55ʹ6ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California State Waters Map Series Data Catalog</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ng324gh5570</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

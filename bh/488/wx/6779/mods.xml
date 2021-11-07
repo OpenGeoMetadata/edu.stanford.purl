@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Alquist Priolo Fault Lines, Monterey County, California, 2015</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 120&#xB0;58&#x2B9;2&#x2BA;--W 120&#xB0;19&#x2B9;21&#x2BA;/N 36&#xB0;22&#x2B9;30&#x2BA;--N 35&#xB0;46&#x2B9;57&#x2BA;)</coordinates>
+      <coordinates>(W 120°58ʹ2ʺ--W 120°19ʹ21ʺ/N 36°22ʹ30ʺ--N 35°46ʹ57ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile depicts the Alquist Priolo faults within Monterey County, California. These data were created using TIFF images accessed through the State of California Dept. of Conservation website. TIFFs were georeferenced and faults lines were traced.This layer is part of a collection of GIS data for Monterey County in California.</abstract>
@@ -51,12 +51,11 @@
     <temporal encoding="w3cdtf">2015</temporal>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="">Geoscientific Information</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
   </subject>
   <location>
     <url>http://purl.stanford.edu/bh488wx6779</url>
   </location>
-  <accessCondition type="useAndReproduction">No restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:bh488wx6779</recordIdentifier>
@@ -76,8 +75,17 @@
             <gml:upperCorner>-120.322398 36.374971</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Monterey County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Monterey County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/yz208xk1891</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

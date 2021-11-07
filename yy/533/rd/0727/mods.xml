@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Streams, San Francisquito Creek Watershed, 2017</title>
@@ -16,12 +16,12 @@
   <originInfo>
     <publisher>Jasper Ridge Biological Preserve (Agency)</publisher>
     <place>
-      <placeTerm type="text">Woodside, CA, </placeTerm>
+      <placeTerm type="text">Woodside, CA,</placeTerm>
     </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 122&#xB0;19&#x2B9;31&#x2BA;--W 122&#xB0;6&#x2B9;57&#x2BA;/N 37&#xB0;28&#x2B9;1&#x2BA;--N 37&#xB0;19&#x2B9;31&#x2BA;)</coordinates>
+      <coordinates>(W 122°19ʹ31ʺ--W 122°6ʹ57ʺ/N 37°28ʹ1ʺ--N 37°19ʹ31ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile represents named streams and major drainages of the San Francisquito Creek watershed, located in the San Francisco Bay Area of California. This layer is part of a collection of GIS data created and managed by the Jasper Ridge Biological Preserve.</abstract>
@@ -59,7 +59,6 @@
   <location>
     <url>http://purl.stanford.edu/yy533rd0727</url>
   </location>
-  <accessCondition type="useAndReproduction">Downloading the data indicates acceptance of the conditions: You agree not to sell any products resulting from this data - it is for educational, non-commercial use only. You also agree to notify JRBP about any derivative products or publications that result from the use of Jasper Ridge data, and to provide digital copies. Jasper Ridge Biological Preserve and Stanford University are not responsible for any errors in the data or for errors in products derived from these data.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:yy533rd0727</recordIdentifier>
@@ -79,9 +78,25 @@
             <gml:upperCorner>-122.115955 37.465623</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="San Francisquito Creek (Calif.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="San Francisco Bay Area (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;19&#x2B9;27&#x2BA;--W 122&#xB0;6&#x2B9;57&#x2BA;/N 37&#xB0;27&#x2B9;56&#x2BA;--N 37&#xB0;19&#x2B9;32&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°19ʹ27ʺ--W 122°6ʹ57ʺ/N 37°27ʹ56ʺ--N 37°19ʹ32ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Jasper Ridge Biological Preserve GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/vs868cq8571</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">Downloading the data indicates acceptance of the conditions: You agree not to sell any products resulting from this data - it is for educational, non-commercial use only. You also agree to notify JRBP about any derivative products or publications that result from the use of Jasper Ridge data, and to provide digital copies. Jasper Ridge Biological Preserve and Stanford University are not responsible for any errors in the data or for errors in products derived from these data.</accessCondition>
+</mods>

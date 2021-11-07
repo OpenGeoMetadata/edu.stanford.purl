@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>NSP Activity by Tract, 2014</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 159&#xB0;47&#x2B9;16&#x2BA;--W 66&#xB0;11&#x2B9;45&#x2BA;/N 64&#xB0;50&#x2B9;54&#x2BA;--N 18&#xB0;26&#x2B9;13&#x2BA;)</coordinates>
+      <coordinates>(W 159°47ʹ16ʺ--W 66°11ʹ45ʺ/N 64°50ʹ54ʺ--N 18°26ʹ13ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile data is derived from an extract of HUD CPDs Disaster Recovery Grants Reporting (DRGR) System. Each observation in the raw DRGR extract is an address at which an Neighborhood Stabilization Program (NSP) activity took place. If multiple activities took place at one address, that address would be in the database multiple times and would over-count NSP activity. This is likely to be the case if a grantee reports the same property under an acquisition activity and a rehab activity. Steps have been taken to mitigate the occurrences of over-counting through the standardization of addresses, the prioritization of activity types for those addresses where more than one activity took place, and then the removal of duplicate addresses. For example: if a grantee reported an acquisition and rehab activity at the same address, the rehab activity will be prioritized over the rehab and the acquisition will be removed. The data will also over-count NSP activity if grantees enter an activity at a single address in multiple quarterly performance reports; much of this double counting will also be mitigated through the standardization and duplicate removal process. Conversely, if multiple units were assisted at a single address, that address would under-represent NSP activity. This is likely to be the case if a grantee reports a single address that actually represents a group of properties or a property with multiple units. We are currently working on a process to mitigate these instances, but this will not be available until next quarter. The observations were reported by grantees through December 31, 2013. The data extract was drawn, cleaned, and aggregated to the tract level on February 15th, 2014. Data Current As Of: 11/18/2014</abstract>
@@ -62,7 +62,6 @@
   <location>
     <url>http://purl.stanford.edu/ck701ng7274</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:ck701ng7274</recordIdentifier>
@@ -82,8 +81,17 @@
             <gml:upperCorner>-66.195893 64.848359</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. Department of Housing and Urban Development Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/wc590wy7435</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

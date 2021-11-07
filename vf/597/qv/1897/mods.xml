@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Administrative Boundaries, Montevideo, Uruguay, 1990</title>
@@ -40,7 +40,7 @@
     <dateValid encoding="w3cdtf">1990</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -51,7 +51,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::32721</projection>
-      <coordinates>(W 56&#xB0;30&#x2B9;26&#x2BA;--W 55&#xB0;23&#x2B9;31&#x2BA;/S 34&#xB0;10&#x2B9;43&#x2BA;--S 34&#xB0;56&#x2B9;28&#x2BA;)</coordinates>
+      <coordinates>(W 56°30ʹ26ʺ--W 55°23ʹ31ʺ/S 34°10ʹ43ʺ--S 34°56ʹ28ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon layer establishes the administrative boundaries of Montevideo, Uruguay, otherwise known as the study area. These data are part of the Atlas of Urban Expansion.</abstract>
@@ -104,8 +104,25 @@
             <gml:upperCorner>-55.394747 -34.181431</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3441575/" dc:language="eng" dc:title="Montevideo (Uruguay)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 56&#xB0;30&#x2B9;18&#x2BA;--W 55&#xB0;23&#x2B9;41&#x2BA;/S 34&#xB0;10&#x2B9;53&#x2BA;--S 34&#xB0;56&#x2B9;21&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 56°30ʹ18ʺ--W 55°23ʹ41ʺ/S 34°10ʹ53ʺ--S 34°56ʹ21ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Atlas of urban expansion : GIS data for cities</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/rr276tj2464</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

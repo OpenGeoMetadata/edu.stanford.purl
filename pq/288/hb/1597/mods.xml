@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Polygon Mask: San Francisco Bay Area, California, 2011</title>
@@ -39,7 +39,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -50,7 +50,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 124&#xB0;26&#x2B9;39&#x2BA;--W 113&#xB0;11&#x2B9;27&#x2BA;/N 42&#xB0;2&#x2B9;3&#x2BA;--N 32&#xB0;22&#x2B9;17&#x2BA;)</coordinates>
+      <coordinates>(W 124°26ʹ39ʺ--W 113°11ʹ27ʺ/N 42°2ʹ3ʺ--N 32°22ʹ17ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts a mask of the nine county San Francisco Bay Area Region, California, onto which other thematic data can be layered. This layer is part of the Conservation Lands Network regional biodiversity GIS database.</abstract>
@@ -104,7 +104,6 @@
   <location>
     <url>http://purl.stanford.edu/pq288hb1597</url>
   </location>
-  <accessCondition type="useAndReproduction">These data are distributed under a GNU General Public License (GPL)</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:pq288hb1597</recordIdentifier>
@@ -124,17 +123,25 @@
             <gml:upperCorner>-114.130785 42.009499</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="San Francisco Bay Area (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5322745/" dc:language="eng" dc:title="Alameda County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5339268/" dc:language="eng" dc:title="Contra Costa County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5370468/" dc:language="eng" dc:title="Marin County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5376101/" dc:language="eng" dc:title="Napa County (Calif.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="San Francisco County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5392427/" dc:language="eng" dc:title="San Mateo County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5393021/" dc:language="eng" dc:title="Santa Clara County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5396987/" dc:language="eng" dc:title="Solano County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5397100/" dc:language="eng" dc:title="Sonoma County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;24&#x2B9;35&#x2BA;--W 114&#xB0;7&#x2B9;51&#x2BA;/N 42&#xB0;34&#x2BA;--N 32&#xB0;32&#x2B9;3&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 124°24ʹ35ʺ--W 114°7ʹ51ʺ/N 42°34ʺ--N 32°32ʹ3ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>The Conservation Lands Network regional biodiversity GIS database</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/xc921dx0980</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

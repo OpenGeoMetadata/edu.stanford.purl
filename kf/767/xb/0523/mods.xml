@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Natural Gas Market Hubs, United States, 1996-2009</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::3857</projection>
-      <coordinates>(W 122&#xB0;13&#x2B9;12&#x2BA;--W 74&#xB0;10&#x2B9;43&#x2BA;/N 49&#xB0;2&#x2BA;--N 27&#xB0;32&#x2B9;56&#x2BA;)</coordinates>
+      <coordinates>(W 122°13ʹ12ʺ--W 74°10ʹ43ʺ/N 49°2ʺ--N 27°32ʹ56ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile represents natural gas market hubs in the United States for 1996-2009. A hub is a physical transfer point for natural gas where several pipelines are connected. A market center is a hub where the operator offers services that facilitate the buying, selling, and transportation of natural gas. This is a point dataset representing natural gas transmission hubs in the continguous U.S. This layer is part of a collection of GIS data produced by the U.S. National Energy Information Administration.</abstract>
@@ -77,8 +77,25 @@
             <gml:upperCorner>-74.178498 49.000494</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;13&#x2B9;12&#x2BA;--W 74&#xB0;10&#x2B9;43&#x2BA;/N 49&#xB0;2&#x2BA;--N 27&#xB0;32&#x2B9;56&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°13ʹ12ʺ--W 74°10ʹ43ʺ/N 49°2ʺ--N 27°32ʹ56ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. National Energy Information Center Interactive State Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/gx140ys0508</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

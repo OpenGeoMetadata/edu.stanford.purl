@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Petroleum Refineries, United States, 2014</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 158&#xB0;6&#x2B9;39&#x2BA;--W 74&#xB0;13&#x2B9;20&#x2BA;/N 70&#xB0;19&#x2B9;29&#x2BA;--N 21&#xB0;18&#x2B9;13&#x2BA;)</coordinates>
+      <coordinates>(W 158°6ʹ39ʺ--W 74°13ʹ20ʺ/N 70°19ʹ29ʺ--N 21°18ʹ13ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile represents all operating petroleum refineries located in the United States, Puerto Rico, Guam, the U.S. Virgin Islands, and other U.S. Territories as of January 1, 2014. These data originate from the U.S. Energy Information Administration, Refinery Capacity Report, (EIA-820) Table 3, Capacity of Operable Petroleum Refineries by State. In addition to the sources listed, accuracy for the locations of facilities shown on the map was improved through the use of publicly available sites such as company websites and satellite images from public websites. This layer is part of a collection of GIS data produced by the U.S. National Energy Information Administration.</abstract>
@@ -86,11 +86,17 @@
             <gml:upperCorner>-74.22235 70.324832</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4796775/" dc:language="eng" dc:title="United States Virgin Islands"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4566966/" dc:language="eng" dc:title="Puerto Rico"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4043988/" dc:language="eng" dc:title="Guam"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. National Energy Information Center Interactive State Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/gx140ys0508</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

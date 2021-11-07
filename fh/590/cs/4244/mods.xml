@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>U.S. Marine Protected Areas Boundaries: MPA Inventory, 2014</title>
@@ -38,7 +38,7 @@
     <edition>2014 Annual Update</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -49,7 +49,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 180&#xB0;--E 180&#xB0;/N 74&#xB0;42&#x2B9;27&#x2BA;--S 15&#xB0;23&#x2B9;10&#x2BA;)</coordinates>
+      <coordinates>(W 180°--E 180°/N 74°42ʹ27ʺ--S 15°23ʹ10ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents the Marine Protected Areas inventory as of October 2014. The MPA Inventory is a comprehensive catalog that provides detailed information for existing marine protected areas in the United States. The inventory provides geospatial boundary information (in polygon format) and classification attributes that seek to define the conservation objectives, protection level, governance and related management criteria for all sites in the database. The comprehensive inventory of federal, state and territorial MPA sites provides governments and stakeholders with access to information to make better decisions about the current and future use of place-based conservation. The information also will be used to inform the development of the national system of marine protected areas as required by Executive Order 13158.</abstract>
@@ -99,7 +99,6 @@ Version Notes:
   <location>
     <url>http://purl.stanford.edu/fh590cs4244</url>
   </location>
-  <accessCondition type="useAndReproduction">These data are publicly accessible and downloadable via http://marineprotectedareas.noaa.gov/dataanalysis/mpainventory/</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:fh590cs4244</recordIdentifier>
@@ -119,9 +118,17 @@ Version Notes:
             <gml:upperCorner>180.0 74.707418</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/about.rdf" dc:language="eng" dc:title="United States"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6255149/about.rdf" dc:language="eng" dc:title="North America"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. Marine Protected Area Boundaries : MPA Inventory</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/kp668dr9650</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

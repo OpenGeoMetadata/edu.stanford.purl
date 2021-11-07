@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Marine Mammal Seasonal Management Areas, 2013</title>
@@ -15,13 +15,10 @@
   <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
   <originInfo>
     <publisher>Northeast Ocean Data</publisher>
-    <place>
-      <placeTerm type="text"/>
-    </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +29,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 74&#xB0;57&#x2BA;--W 67&#xB0;8&#x2B9;24&#x2BA;/N 42&#xB0;30&#x2B9;--N 40&#xB0;9&#x2B9;40&#x2BA;)</coordinates>
+      <coordinates>(W 74°57ʺ--W 67°8ʹ24ʺ/N 42°30ʹ--N 40°9ʹ40ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents marine mammal management areas in the Northeastern United States. The Code of Federal Regulations designates areas that have required speed restriction to protect North Atlantic Right Whales. Vessels shall travel at a speed of 10 knots or less over ground in the following areas during the allotted season: New York/New Jersey Port Seasonal Management Area, Block Island Sound, Great South Channel, Off Race Point, and the Cape Cod Seasonal Management Area. The following restrictions apply to: All vessels greater than or equal to 65 ft (19.8 m) in overall length and subject to the jurisdiction of the United States, and all other vessels greater than or equal to 65 ft (19.8 m) in overall length entering or departing a port or place subject to the jurisdiction of the United States. These restrictions shall not apply to U.S. vessels owned or operated by, or under contract to, the Federal Government. This exemption extends to foreign sovereign vessels when they are engaging in joint exercises with the U.S. Department of the Navy. In addition these restrictions do not apply to law enforcement vessels of a State, or political subdivision thereof, when engaged in law enforcement or search and rescue duties. Where necessary and applicable, boundaries that were coincident with the shoreline or with the International Regulations for Preventing Collisions at Sea (COLREGS) were integrated into the dataset.</abstract>
@@ -66,7 +63,6 @@
   <location>
     <url>http://purl.stanford.edu/bs705zz3179</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:bs705zz3179</recordIdentifier>
@@ -86,9 +82,25 @@
             <gml:upperCorner>-67.14 42.5</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Northeastern States"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3373405/" dc:language="eng" dc:title="Atlantic Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 74&#xB0;57&#x2BA;--W 67&#xB0;8&#x2B9;24&#x2BA;/N 42&#xB0;30&#x2B9;--N 40&#xB0;9&#x2B9;40&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 74°57ʺ--W 67°8ʹ24ʺ/N 42°30ʹ--N 40°9ʹ40ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Northeast Ocean Data : Maps and data for ocean planning in the northeastern United States</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sg639pq7229</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

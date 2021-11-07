@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Earthquake Fault Zones: Humboldt County, California, 2015</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2015</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::26741</projection>
-      <coordinates>(W 124&#xB0;13&#x2B9;50&#x2BA;--W 123&#xB0;57&#x2B9;1&#x2BA;/N 41&#xB0;4&#x2B9;53&#x2BA;--N 40&#xB0;1&#x2B9;4&#x2BA;)</coordinates>
+      <coordinates>(W 124°13ʹ50ʺ--W 123°57ʹ1ʺ/N 41°4ʹ53ʺ--N 40°1ʹ4ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts the Alquist-Priolo Earthquake Fault Zones and Fault Traces as shown on the official Alquist-Priolo Earthquake Fault Zones Map of the Arcata North United States Geological Survey quadrangle map. The dataset is comprised of polygons and lines that form regulatory zone boundaries (Alquist-Priolo Earthquake Fault Zones) and Fault Traces of areas where surface fault rupture has previously occurred, or where local topographic, geological and geotechnical conditions indicate a potential for permanent ground displacements, such that mitigation by avoidance would be required (as stated in Public Resources Code Section 2621.5). The Alquist-Priolo Earthquake Fault Zoning Act's main purpose is to prevent the construction of buildings used for human occupancy on the surface Trace of active Faults. Before a new project is permitted, Cities and Counties require a geologic investigation to demonstrate that proposed buildings will not be constructed on active Faults.</abstract>
@@ -71,8 +71,25 @@
             <gml:upperCorner>-123.974056 41.078151</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Humboldt County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;13&#x2B9;6&#x2BA;--W 123&#xB0;58&#x2B9;27&#x2BA;/N 41&#xB0;4&#x2B9;41&#x2BA;--N 40&#xB0;1&#x2B9;13&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 124°13ʹ6ʺ--W 123°58ʹ27ʺ/N 41°4ʹ41ʺ--N 40°1ʹ13ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Humboldt County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zc242vz4054</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

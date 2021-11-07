@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>A map of the foreign settlements at Shanghai (Raster Image)</title>
@@ -19,7 +19,7 @@
     <edition>1.00</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Raster Dataset</form>
@@ -29,7 +29,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 121&#xB0;24&#x2B9;47&#x2BA;--E 121&#xB0;32&#x2B9;12&#x2BA;/N 31&#xB0;16&#x2B9;21&#x2BA;--N 31&#xB0;11&#x2B9;7&#x2BA;)</coordinates>
+      <coordinates>(E 121°24ʹ47ʺ--E 121°32ʹ12ʺ/N 31°16ʹ21ʺ--N 31°11ʹ7ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced image of a map of Shanghai that was published in 1904. It shows historical city data such as neighborhood districts, roads, and other structures.</abstract>
@@ -62,7 +62,6 @@
   <location>
     <url>http://purl.stanford.edu/vs584qj1472</url>
   </location>
-  <accessCondition type="useAndReproduction">This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:vs584qj1472</recordIdentifier>
@@ -82,8 +81,26 @@
             <gml:upperCorner>121.5367613 31.2724464</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1796231/" dc:language="eng" dc:title="Shanghai (China)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 121&#xB0;24&#x2B9;47&#x2BA;--E 121&#xB0;32&#x2B9;12&#x2BA;/N 31&#xB0;16&#x2B9;21&#x2BA;--N 31&#xB0;11&#x2B9;7&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 121°24ʹ47ʺ--E 121°32ʹ12ʺ/N 31°16ʹ21ʺ--N 31°11ʹ7ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Virtual Shanghai</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qs150bm4171</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This work is in the public domain. There are no restrictions on use.</accessCondition>
+  <accessCondition type="license" xlink:href="https://creativecommons.org/publicdomain/mark/1.0/">This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights (Public Domain Mark 1.0).</accessCondition>
+</mods>

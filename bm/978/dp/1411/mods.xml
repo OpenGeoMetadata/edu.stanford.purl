@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Airport Land Use Compatibility Zones: Humboldt County, California, 2007</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2007</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,10 +33,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 124&#xB0;10&#x2B9;13&#x2BA;--W 123&#xB0;34&#x2B9;18&#x2BA;/N 41&#xB0;31&#x2BA;--N 40&#xB0;3&#x2B9;53&#x2BA;)</coordinates>
+      <coordinates>(W 124°10ʹ13ʺ--W 123°34ʹ18ʺ/N 41°31ʺ--N 40°3ʹ53ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts boundaries of Airport Land Use Compatibility Zones in the County of Humboldt, California for the following airports: Arcata-Eureka Airport, Dinsmore Airport, Garberville Airport, Kneeland, Murray Field Airport and Rohnerville Airport. The objectives of compatible land use planning are to encourage land uses that are generally considered to be incompatible with airports (such as residential, schools, and churches) to locate away from airports and to encourage land uses that are more compatible (such as industrial and commercial uses) to locate around airports. In addition to aircraft noise, there are other issues, such as safety and other environmental impacts to land uses around airports which need to be considered when addressing the overal issue of land use compatibility. The Federal Aviation Administration (FAA) has been actively supporting programs to minimize noise impacts. </abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts boundaries of Airport Land Use Compatibility Zones in the County of Humboldt, California for the following airports: Arcata-Eureka Airport, Dinsmore Airport, Garberville Airport, Kneeland, Murray Field Airport and Rohnerville Airport. The objectives of compatible land use planning are to encourage land uses that are generally considered to be incompatible with airports (such as residential, schools, and churches) to locate away from airports and to encourage land uses that are more compatible (such as industrial and commercial uses) to locate around airports. In addition to aircraft noise, there are other issues, such as safety and other environmental impacts to land uses around airports which need to be considered when addressing the overal issue of land use compatibility. The Federal Aviation Administration (FAA) has been actively supporting programs to minimize noise impacts.</abstract>
   <abstract displayLabel="Purpose" lang="eng">The Humboldt County Planning and Building Department is responsible for protecting the public health, safety and welfare via building permit review and inspections consistent with California model codes as well as planning and development review and approval consistent with the county's General Plan. This Department oversees the Advance Planning Division, which is responsible for the Humboldt County's Geographic Information System (GIS) that is utilized by other County Departments; many federal, state and local agencies; and the general public. This coverage can be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analyses of geospatial data.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Humboldt County Planning and Building Department. (2007). Airport Land Use Compatibility Zones: Humboldt County, California, 2007. Humboldt County Planning and Building Department. Available at: http://purl.stanford.edu/bm978dp1411.</note>
   <note displayLabel="Use limitation">The County of Humboldt makes no guarantee of the quality or completeness of this data. It has not been fully reviewed for accuracy and is intended to be used for planning purposes only. The department assumes no liability or responsibility in the use of this data. While every effort has been made to assure the accuracy of this information, it should be understood that it does not have the force and effect of law, rule, or regulation. In the event of any difference or error, the law will take precedence. The accuracy of map data varies from location to location in the county. While the GIS is useful for planning purposes, it should not be relied upon to determine property, zoning or general plan designation boundaries or be used in any way for project design. All GIS data should be verified before it is materially relied upon for property or project planning. In urban areas the GIS map data maybe inaccurate by as much as 50 feet in any direction. In rural areas the map data may be inaccurate by as much as 400 feet in any direction.</note>
@@ -89,8 +89,25 @@
             <gml:upperCorner>-123.575309 41.004747</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Humboldt County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;9&#x2B9;46&#x2BA;--W 123&#xB0;34&#x2B9;31&#x2BA;/N 41&#xB0;17&#x2BA;--N 40&#xB0;4&#x2B9;3&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 124°9ʹ46ʺ--W 123°34ʹ31ʺ/N 41°17ʺ--N 40°4ʹ3ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Humboldt County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zc242vz4054</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

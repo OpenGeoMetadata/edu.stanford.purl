@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Underserved Areas, United States, 2016</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 179&#xB0;13&#x2B9;52&#x2BA;--E 179&#xB0;51&#x2B9;35&#x2BA;/N 71&#xB0;26&#x2B9;28&#x2BA;--N 17&#xB0;49&#x2B9;53&#x2BA;)</coordinates>
+      <coordinates>(W 179°13ʹ52ʺ--E 179°51ʹ35ʺ/N 71°26ʹ28ʺ--N 17°49ʹ53ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains underserved area designations for census tracts in Metropolitan Statistical Areas (MSAs), nonmetropolitan parts of states and Federal and State American Indian Reservations and tribal and individual trust lands. The following are the definitions of underserved geographical areas based on HUDs housing goals regulations at 24 CFR Section 81.2. a. Central Cities and Other Parts of Metropolitan Areas (i) A census tract with median income at or below 120 percent of the median income of the metropolitan area (MSA) and a minority population of 30 percent or greater; or (ii) A census tract with median income at or below 90 percent of median income of the MSA. b. Nonmetropolitan Areas (i) A census tract with median income at or below 120 percent of the greater of the State nonmetropolitan median income or the nationwide nonmetropolitan median income and a minority population of 30 percent or greater; or (ii) A census tract with median income at or below 95 percent of the greater of the State nonmetropolitan median income or the nationwide nonmetropolitan median income. c. Tribal Lands in Metropolitan Areas (i) A Federal or State American Indian reservation or tribal or individual trust land with a median income at or below 120 percent of the median income of the MSA and a minority population of 30 percent or greater; or (ii) A Federal or State American Indian reservation or tribal or individual trust land with a median income at or below 90 percent of median income of the MSA. d. Tribal Lands in Nonmetropolitan Areas (i) A Federal or State American Indian reservation or tribal or individual trust land with a median income at or below 120 percent of the greater of the state nonmetropolitan median income or the nationwide nonmetropolitan median income and a minority population of 30 percent or greater; or (ii) A Federal or State American Indian reservation or tribal or individual trust land with a median income at or below 95 percent of the greater of the state nonmetropolitan median income or the nationwide nonmetropolitan median income. e. Tribal Lands that Cross Metropolitan / Nonmetropolitan Area and/or State Boundaries For certain Federal or State American Indian reservations or tribal or individual trust lands, the tribal area crosses an MSA or state boundary. In these cases, the median incomes of the MSA or MSAs, the nonmetropolitan area of the state or states, or the nationwide nonmetropolitan area that applies to the tract containing the tribal area determines whether the part of the Federal or State American Indian reservation or tribal or individual trust land is underserved. METHODOLOGY: Whether a tract has 30 percent or more minority population is determined by rounding 30 percent of the tracts population to the nearest person, and comparing this to the count of minority persons in the area. The applicable percentage of area median income and whether the tracts median income is below it is determined by rounding the applicable percentage of area median income to the nearest dollar and comparing this to tract median family income.</abstract>
@@ -62,7 +62,6 @@
   <location>
     <url>http://purl.stanford.edu/xh908xh0214</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:xh908xh0214</recordIdentifier>
@@ -82,8 +81,17 @@
             <gml:upperCorner>179.859681 71.441059</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. Department of Housing and Urban Development Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/wc590wy7435</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

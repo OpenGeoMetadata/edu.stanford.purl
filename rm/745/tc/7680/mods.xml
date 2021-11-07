@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Liquefied Natural Gas Import/Export Terminals, United States, 2012</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -31,10 +31,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 151&#xB0;20&#x2B9;24&#x2BA;--W 70&#xB0;21&#x2B9;36&#x2BA;/N 60&#xB0;22&#x2B9;36&#x2BA;--N 28&#xB0;5&#x2B9;58&#x2BA;)</coordinates>
+      <coordinates>(W 151°20ʹ24ʺ--W 70°21ʹ36ʺ/N 60°22ʹ36ʺ--N 28°5ʹ58ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This point shapefile represents liquefied natural gas import/export terminals in the United States. The data exclude the import facility in Puerto Rico. These data were gahtered from the U.S. Energy Information Administration and the Federal Energy Regulatory Commission and were last updated in September 2012. Terminals capable of liquefaction of natural gas for transport (Kenai, AK), or receipt and regasification of LNG for use as natural gas (GA - Elba Island; LA - Cameron, Lake Charles, Gulf Gateway Deepwater Port, and Sabine Pass; MA - Everett, Neptune, and Northeast Gateway Energy Bridge; MD - Cove Point; PR - Pe&#xF1;uelas; TX - Freeport and Golden Pass). This layer is part of a collection of GIS data produced by the U.S. National Energy Information Administration.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This point shapefile represents liquefied natural gas import/export terminals in the United States. The data exclude the import facility in Puerto Rico. These data were gahtered from the U.S. Energy Information Administration and the Federal Energy Regulatory Commission and were last updated in September 2012. Terminals capable of liquefaction of natural gas for transport (Kenai, AK), or receipt and regasification of LNG for use as natural gas (GA - Elba Island; LA - Cameron, Lake Charles, Gulf Gateway Deepwater Port, and Sabine Pass; MA - Everett, Neptune, and Northeast Gateway Energy Bridge; MD - Cove Point; PR - Peñuelas; TX - Freeport and Golden Pass). This layer is part of a collection of GIS data produced by the U.S. National Energy Information Administration.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
   <note displayLabel="Preferred citation" lang="eng">National Energy Information Center (U.S.). (2015). Liquefied Natural Gas Import/Export Terminals, United States, 2012. National Energy Information Center. Available at: http://purl.stanford.edu/rm745tc7680.</note>
   <note displayLabel="Use limitation">The U.S. Energy Information Administration shall not be held liable for improper or incorrect use of the data described and/or contained herein. These data and related graphics, if available, are not legal documents and are not intended to be used as such. The information contained in these data is dynamic and may change over time. The U.S. Energy Information Administration gives no warranty, expressed or implied, as to the accuracy, reliability, or completeness of these data.</note>
@@ -75,8 +75,17 @@
             <gml:upperCorner>-70.3599 60.3767</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. National Energy Information Center Interactive State Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/gx140ys0508</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

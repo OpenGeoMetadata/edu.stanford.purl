@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Administrative Boundaries, Kuala Lumpur, Malaysia, 1990</title>
@@ -40,7 +40,7 @@
     <dateValid encoding="w3cdtf">1990</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -50,7 +50,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::32647</projection>
-      <coordinates>(E 101&#xB0;16&#x2B9;17&#x2BA;--E 101&#xB0;59&#x2B9;11&#x2BA;/N 3&#xB0;23&#x2B9;51&#x2BA;--N 2&#xB0;48&#x2B9;59&#x2BA;)</coordinates>
+      <coordinates>(E 101°16ʹ17ʺ--E 101°59ʹ11ʺ/N 3°23ʹ51ʺ--N 2°48ʹ59ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon layer establishes the administrative boundaries of Kuala Lumpur, Malaysia, otherwise known as the study area. These data are part of the Atlas of Urban Expansion.</abstract>
@@ -103,8 +103,25 @@
             <gml:upperCorner>101.985267 3.39709</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1735161/" dc:language="eng" dc:title="Kuala Lumpur (Malaysia)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 101&#xB0;16&#x2B9;17&#x2BA;--E 101&#xB0;59&#x2B9;7&#x2BA;/N 3&#xB0;23&#x2B9;50&#x2BA;--N 2&#xB0;49&#x2B9;2&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 101°16ʹ17ʺ--E 101°59ʹ7ʺ/N 3°23ʹ50ʺ--N 2°49ʹ2ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Atlas of urban expansion : GIS data for cities</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/rr276tj2464</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

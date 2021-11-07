@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Eureka Transit Rainbow Weekday Route Bus Stops: Humboldt County, California, 2001</title>
   </titleInfo>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2001</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::26741</projection>
-      <coordinates>(W 124&#xB0;11&#x2B9;15&#x2BA;--W 124&#xB0;7&#x2B9;27&#x2BA;/N 40&#xB0;48&#x2B9;17&#x2BA;--N 40&#xB0;46&#x2B9;21&#x2BA;)</coordinates>
+      <coordinates>(W 124°11ʹ15ʺ--W 124°7ʹ27ʺ/N 40°48ʹ17ʺ--N 40°46ʹ21ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile depicts centroid locations for bus stops on the Eureka Transit System Rainbow Route in the County of Humboldt, California. The Rainbow Route services downtown Eureka, Broadway, Bayshore Mall, Henderson Center, Sequoia Park, St. Joseph Hospital, General hospital and Myrtletown Monday through Friday only. The Eureka Transit System is a public bus system that serves Eureka, California and is administered by Humboldt Transit Authority.</abstract>
@@ -87,9 +87,25 @@
             <gml:upperCorner>-124.124388 40.804064</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Humboldt County (Calif.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Eureka (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;11&#x2B9;12&#x2BA;--W 124&#xB0;7&#x2B9;28&#x2BA;/N 40&#xB0;48&#x2B9;15&#x2BA;--N 40&#xB0;46&#x2B9;24&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 124°11ʹ12ʺ--W 124°7ʹ28ʺ/N 40°48ʹ15ʺ--N 40°46ʹ24ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Humboldt County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zc242vz4054</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

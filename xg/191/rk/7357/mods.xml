@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Important Farmland, Los Angeles County, California, 1990</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">1990</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 118&#xB0;56&#x2B9;54&#x2BA;--W 117&#xB0;37&#x2B9;46&#x2BA;/N 34&#xB0;50&#x2B9;28&#x2BA;--N 33&#xB0;41&#x2B9;36&#x2BA;)</coordinates>
+      <coordinates>(W 118°56ʹ54ʺ--W 117°37ʹ46ʺ/N 34°50ʹ28ʺ--N 33°41ʹ36ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents areas of important farmland in Los Angeles County, California for 1990. Established in 1982, Government Code Section 65570 mandates FMMP to biennially report on the conversion of farmland and grazing land, and to provide maps and data to local government and the public.</abstract>
@@ -64,7 +64,6 @@ Prior to the availability of SSURGO, soil information was hand-transferred from 
   <location>
     <url>http://purl.stanford.edu/xg191rk7357</url>
   </location>
-  <accessCondition type="useAndReproduction">No restrictions on access or use. A citation for the Farmland Mapping and Monitoring Program on any map products, graphic media, or data analyses based on the data is appreciated.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:xg191rk7357</recordIdentifier>
@@ -84,8 +83,25 @@ Prior to the availability of SSURGO, soil information was hand-transferred from 
             <gml:upperCorner>-117.645382 34.823287</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Los Angeles County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 118&#xB0;56&#x2B9;38&#x2BA;--W 117&#xB0;38&#x2B9;43&#x2BA;/N 34&#xB0;49&#x2B9;24&#x2BA;--N 33&#xB0;42&#x2B9;16&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 118°56ʹ38ʺ--W 117°38ʹ43ʺ/N 34°49ʹ24ʺ--N 33°42ʹ16ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Farmland Mapping and Monitoring Program, 1990</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/dg085dp2779</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

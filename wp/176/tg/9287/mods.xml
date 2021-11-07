@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>RIF Grantee Areas, 2014</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 162&#xB0;18&#x2B9;53&#x2BA;--W 66&#xB0;21&#x2B9;10&#x2BA;/N 60&#xB0;52&#x2B9;46&#x2BA;--N 18&#xB0;4&#x2B9;12&#x2BA;)</coordinates>
+      <coordinates>(W 162°18ʹ53ʺ--W 66°21ʹ10ʺ/N 60°52ʹ46ʺ--N 18°4ʹ12ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile is derived from Rural Innovation Fund (RIF) Grantee submissions that were either described in detail in their applications by providing census tract or block level data or block level extractions from Grantees that utilized the HUDUser.org mapping tool. Each Grantee was allowed up to three target area locations according to the RIF NOFA. Some Grantee locations serve the same target areas so the map layer does include some overlapping boundaries. Data Current As Of: 12/03/2014</abstract>
@@ -59,7 +59,6 @@
   <location>
     <url>http://purl.stanford.edu/wp176tg9287</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:wp176tg9287</recordIdentifier>
@@ -79,8 +78,17 @@
             <gml:upperCorner>-66.352806 60.879442</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. Department of Housing and Urban Development Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/wc590wy7435</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

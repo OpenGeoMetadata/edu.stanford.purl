@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>School Proficiency Index, 2015</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 178&#xB0;13&#x2B9;40&#x2BA;--W 65&#xB0;14&#x2B9;39&#x2BA;/N 71&#xB0;23&#x2B9;26&#x2BA;--N 17&#xB0;52&#x2B9;53&#x2BA;)</coordinates>
+      <coordinates>(W 178°13ʹ40ʺ--W 65°14ʹ39ʺ/N 71°23ʹ26ʺ--N 17°52ʹ53ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">The school proficiency index uses school-level data on the performance of 4th grade students on state exams to describe which neighborhoods have high-performing elementary schools nearby and which are near lower performing elementary schools. The school proficiency index is a function of the percent of 4th grade students proficient in reading (r) and math (m) on state test scores for up to three schools (i=1,2,3) within 1.5 miles of the block-group centroid. S denotes 4th grade school enrollment:Elementary schools are linked with block-groups based on a geographic mapping of attendance area zones from School Attendance Boundary Information System (SABINS), where available, or within-district proximity matches of up to the three-closest schools within 1.5 miles. In cases with multiple school matches, an enrollment-weighted score is calculated following the equation above.InterpretationValues are percentile ranked and range from 0 to 100. The higher the score, the higher the school system quality is in a neighborhood. Data Source: Great Schools (proficiency data, 2011-12 or more recent); Common Core of Data (school addresses and enrollment, 2011-12); SABINS (attendance boundaries, 2011-12). Data Current As Of: 6/15/15</abstract>
@@ -62,7 +62,6 @@
   <location>
     <url>http://purl.stanford.edu/nx096kt3657</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:nx096kt3657</recordIdentifier>
@@ -82,8 +81,17 @@
             <gml:upperCorner>-65.244239 71.390482</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. Department of Housing and Urban Development Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/wc590wy7435</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

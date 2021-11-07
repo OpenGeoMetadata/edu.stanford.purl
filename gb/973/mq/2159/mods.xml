@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Recreational Fishing Effort, 2000-2009</title>
@@ -21,13 +21,10 @@
   <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
   <originInfo>
     <publisher>Northeast Ocean Data</publisher>
-    <place>
-      <placeTerm type="text"/>
-    </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -38,7 +35,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 77&#xB0;9&#x2B9;2&#x2BA;--W 66&#xB0;39&#x2B9;24&#x2BA;/N 45&#xB0;28&#x2B9;25&#x2BA;--N 33&#xB0;55&#x2B9;3&#x2BA;)</coordinates>
+      <coordinates>(W 77°9ʹ2ʺ--W 66°39ʹ24ʺ/N 45°28ʹ25ʺ--N 33°55ʹ3ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This product was created by the Nature Conservancy based on data provided by the National Marine Fisheries Service. The number of trips information is based on vessel trip report records that have been aggregated by ten minute square and have been screened for confidentiality. The records to produce this dataset are for federally permitted party boats and charter boats only. Vessel trip reports are submitted to the National Marine Fisheries Service by federally permitted fishing vessels for all fishing trips. The screening process protects the identity of each individual permitted commercial fishing vessel. Approximately 70% to 80% of all recorded of trips between 2000 and 2009 are represented in this dataset at the ten-minute square resolution.</abstract>
@@ -85,9 +82,25 @@
             <gml:upperCorner>-67.166664 44.334446</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3373405/" dc:language="eng" dc:title="Atlantic Ocean"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Northeastern States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 76&#xB0;30&#x2B9;--W 67&#xB0;10&#x2B9;/N 44&#xB0;20&#x2B9;4&#x2BA;--N 35&#xB0;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 76°30ʹ--W 67°10ʹ/N 44°20ʹ4ʺ--N 35°</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Northeast Ocean Data : Maps and data for ocean planning in the northeastern United States</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sg639pq7229</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

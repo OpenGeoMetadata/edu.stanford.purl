@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Habitat: Offshore of Bodega Head, California, 2014</title>
@@ -46,7 +46,7 @@
     <dateValid encoding="w3cdtf">2014</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -57,8 +57,8 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 123&#xB0;10&#x2B9;12&#x2BA;--W 122&#xB0;58&#x2B9;12&#x2BA;/N 38&#xB0;24&#x2B9;36&#x2BA;--N 38&#xB0;15&#x2B9;)</coordinates>
-      <coordinates>(W 123&#xB0;10&#x2B9;21&#x2BA;--W 122&#xB0;58&#x2B9;19&#x2BA;/N 38&#xB0;24&#x2B9;42&#x2BA;--N 38&#xB0;15&#x2B9;8&#x2BA;)</coordinates>
+      <coordinates>(W 123°10ʹ12ʺ--W 122°58ʹ12ʺ/N 38°24ʹ36ʺ--N 38°15ʹ)</coordinates>
+      <coordinates>(W 123°10ʹ21ʺ--W 122°58ʹ19ʺ/N 38°24ʹ42ʺ--N 38°15ʹ8ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents potential benthic habitats for the offshore area of Bodega Head in California. Using multibeam echosounder (MBES) bathymetry and backscatter data, potential marine benthic habitat maps were constructed. The habitats were based on substrate types and documented or "ground truthed" using underwater video images and seafloor samples obtained by the USGS. These maps display various habitat types that range from flat, soft, unconsolidated sediment-covered seafloor to hard, deformed (folded), or highly rugose and differentially eroded bedrock exposures. Rugged, high-relief, rocky outcrops that have been eroded to form ledges and small caves are ideal habitat for rockfish (Sebastes spp.) and other bottom fish such as lingcod (Ophiodon elongatus). This layer is part of USGS Data Series 781.</abstract>
@@ -107,8 +107,6 @@
   <location>
     <url>http://purl.stanford.edu/vh721pq0822</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:vh721pq0822</recordIdentifier>
@@ -128,12 +126,25 @@
             <gml:upperCorner>-122.97206 38.411523</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5370468/" dc:language="eng" dc:title="Marin County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5397100/" dc:language="eng" dc:title="Sonoma County (Calif.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Bodega Bay (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 123&#xB0;10&#x2B9;21&#x2BA;--W 122&#xB0;58&#x2B9;19&#x2BA;/N 38&#xB0;24&#x2B9;41&#x2BA;--N 38&#xB0;15&#x2B9;8&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 123°10ʹ21ʺ--W 122°58ʹ19ʺ/N 38°24ʹ41ʺ--N 38°15ʹ8ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California State Waters Map Series Data Catalog</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ng324gh5570</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

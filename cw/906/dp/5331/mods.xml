@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Crude Oil Pipelines, United States, 2014</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>1:1000000</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 150&#xB0;59&#x2B9;30&#x2BA;--W 70&#xB0;17&#x2B9;57&#x2BA;/N 70&#xB0;30&#x2B9;38&#x2BA;--N 26&#xB0;39&#x2B9;17&#x2BA;)</coordinates>
+      <coordinates>(W 150°59ʹ30ʺ--W 70°17ʹ57ʺ/N 70°30ʹ38ʺ--N 26°39ʹ17ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile represents crude oil pipelines in the United States as of Novemeber 2014. These data include interstate trunk lines and selected intrastate lines but exclude gathering lines. This layer was created from publicly available data from a variety of sources with varying scales and levels of accuracy. These data are not visible if zoomed in beyond 1:1,000,000 scale. This layer is part of a collection of GIS data produced by the U.S. National Energy Information Administration.</abstract>
@@ -76,8 +76,17 @@
             <gml:upperCorner>-70.299248 70.510489</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. National Energy Information Center Interactive State Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/gx140ys0508</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

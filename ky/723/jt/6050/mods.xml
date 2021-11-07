@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Highways Features: United States, 2011</title>
@@ -29,7 +29,7 @@
     <edition>hpms v. 4</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -40,12 +40,12 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 176&#xB0;39&#x2B9;--W 66&#xB0;58&#x2B9;48&#x2BA;/N 71&#xB0;20&#x2B9;37&#x2BA;--N 19&#xB0;3&#x2B9;29&#x2BA;)</coordinates>
-      <coordinates>(W 176&#xB0;39&#x2B9;1&#x2BA;--W 66&#xB0;58&#x2B9;48&#x2BA;/N 71&#xB0;20&#x2B9;21&#x2BA;--N 19&#xB0;3&#x2B9;29&#x2BA;)</coordinates>
+      <coordinates>(W 176°39ʹ--W 66°58ʹ48ʺ/N 71°20ʹ37ʺ--N 19°3ʹ29ʺ)</coordinates>
+      <coordinates>(W 176°39ʹ1ʺ--W 66°58ʹ48ʺ/N 71°20ʹ21ʺ--N 19°3ʹ29ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">The Federal Highway Administration (FHWA) has the responsibility to assure that adequate highway transportation information is available to support its functions and responsibilities, including those of the Administration and the Congress. The primary purpose of the HPMS is to serve these data and information needs. This polyline shapefile provides data that reflects the extent, condition, performance, use and operating characteristics of United States highways. The HPMS by itself is not geospatial data. It is linked to another FHWA dataset, the National Highway Planning Network (NHPN), through linear referencing. The NHPN provides the geospatial component of this dataset. This layer is part of the 2014 National Transportation Atlas Database.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">The National Transportation Atlas Databases 2014 (NTAD2014) is a set of nationwide geographic datasets of transportation facilities, transportation networks, associated infrastructure and other political and administrative entities. These datasets include spatial information for transportation modal networks and intermodal terminals, as well as the re&#xAC;lated attribute information for these features. This data supports research, analysis, and decision-making across all transportation modes. It is most useful at the national level, but has major applications at regional, state and local scales throughout the transportation community. The data used to compile NTAD2014 was provided by our partners within the United States Department of Transportation (USDOT) and by other agencies throughout the United States Federal Government. These contributors are the actual data stewards and are ultimately responsible for the maintenance and accuracy of their data. The Highway Performance Monitoring System (HPMS) is a national level highway information system that includes data on the extent, condition, performance, use and operating characteristics of the nation's highways. The HPMS contains administrative and extent of system information on all public roads, while information on other characteristics is represented in HPMS as a mix of universe and sample data for arterial and collector functional systems. Limited information on travel and paved miles is included in summary form for the lowest functional systems.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">The National Transportation Atlas Databases 2014 (NTAD2014) is a set of nationwide geographic datasets of transportation facilities, transportation networks, associated infrastructure and other political and administrative entities. These datasets include spatial information for transportation modal networks and intermodal terminals, as well as the re¬lated attribute information for these features. This data supports research, analysis, and decision-making across all transportation modes. It is most useful at the national level, but has major applications at regional, state and local scales throughout the transportation community. The data used to compile NTAD2014 was provided by our partners within the United States Department of Transportation (USDOT) and by other agencies throughout the United States Federal Government. These contributors are the actual data stewards and are ultimately responsible for the maintenance and accuracy of their data. The Highway Performance Monitoring System (HPMS) is a national level highway information system that includes data on the extent, condition, performance, use and operating characteristics of the nation's highways. The HPMS contains administrative and extent of system information on all public roads, while information on other characteristics is represented in HPMS as a mix of universe and sample data for arterial and collector functional systems. Limited information on travel and paved miles is included in summary form for the lowest functional systems.</abstract>
   <note displayLabel="Preferred citation" lang="eng">United States. Department of Transportation. Research and Innovative Technology Administration. (2014). Highways Features: United States, 2011. National Transportation Atlas Database 2014. Available at: http://purl.stanford.edu/ky723jt6050.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Highways</topic>
@@ -74,7 +74,6 @@
   <location>
     <url>http://purl.stanford.edu/ky723jt6050</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:ky723jt6050</recordIdentifier>
@@ -94,9 +93,17 @@
             <gml:upperCorner>-66.980046 71.339224</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4138106/" dc:language="eng" dc:title="Washington (D.C.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>National transportation atlas databases : NTAD</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/xw066kj5196</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Contours: Offshore of Ventura, California, 2010</title>
@@ -30,7 +30,7 @@
     <edition>Version 1.0, 2013</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -41,7 +41,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 119&#xB0;26&#x2B9;51&#x2BA;--W 119&#xB0;16&#x2B9;17&#x2BA;/N 34&#xB0;21&#x2B9;29&#x2BA;--N 34&#xB0;12&#x2B9;54&#x2BA;)</coordinates>
+      <coordinates>(W 119°26ʹ51ʺ--W 119°16ʹ17ʺ/N 34°21ʹ29ʺ--N 34°12ʹ54ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile contains bathymetric contours at 10 and 50 meter intervals for the offshore area of Ventura, California. This layer was generated from bathymetry data collected by Fugro Pelagos and California State University, Monterey Bay, Seafloor Mapping Lab (CSUMB) and by the U.S. Geological Survey. Most of the offshore area was mapped by CSUMB in the summers of 2006 and 2007, using a 244-kHz Reson 8101 multibeam echosounder. The seafloor west of Ventura Harbor was mapped by the USGS in 2006 and 2010, using 117-kHz (2006) and 234.5-kHz (2010) SEA (AP) Ltd. SWATHplus-M phase-differencing sidescan sonars. These mapping missions combined to collect bathymetry from about the 10-m isobath to beyond the 3-nautical-mile limit of California's State Waters. A smooth arithmetic mean convolution function applying a weight of one-ninth to each cell in a 3-pixel by 3-pixel matrix was then applied iteratively to the grid ten times. Following smoothing, contour lines were generated at 10-m intervals, from -10 m to -100 m, and at 50-m intervals, from -100 m to -400 m, then the contours were clipped to the boundary of the map area. The map that shows these data is published in Scientific Investigations Map 3254, "California State Waters Map Series--Offshore of Ventura, California." This layer os part of USGS Data Series 781.</abstract>
@@ -69,7 +69,7 @@
     <temporal encoding="w3cdtf">2006-2010</temporal>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="">Geoscientific Information</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
   </subject>
   <subject>
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="oceans">Oceans</topic>
@@ -80,7 +80,6 @@
   <location>
     <url>http://purl.stanford.edu/wb145hv0388</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:wb145hv0388</recordIdentifier>
@@ -100,10 +99,25 @@
             <gml:upperCorner>-119.272139 34.354822</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Ventura County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 119&#xB0;26&#x2B9;51&#x2BA;--W 119&#xB0;16&#x2B9;20&#x2BA;/N 34&#xB0;21&#x2B9;17&#x2BA;--N 34&#xB0;13&#x2B9;6&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 119°26ʹ51ʺ--W 119°16ʹ20ʺ/N 34°21ʹ17ʺ--N 34°13ʹ6ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California State Waters Map Series Data Catalog</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ng324gh5570</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

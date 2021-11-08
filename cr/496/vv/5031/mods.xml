@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Important Farmland, Siskiyou County, California, 1992</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">1992</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 123&#xB0;44&#x2B9;20&#x2BA;--W 121&#xB0;25&#x2B9;37&#x2BA;/N 42&#xB0;2&#x2B9;29&#x2BA;--N 40&#xB0;58&#x2B9;21&#x2BA;)</coordinates>
+      <coordinates>(W 123°44ʹ20ʺ--W 121°25ʹ37ʺ/N 42°2ʹ29ʺ--N 40°58ʹ21ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents areas of important farmland in Siskiyou County, California for 1992. Established in 1982, Government Code Section 65570 mandates FMMP to biennially report on the conversion of farmland and grazing land, and to provide maps and data to local government and the public.</abstract>
@@ -64,7 +64,6 @@ Prior to the availability of SSURGO, soil information was hand-transferred from 
   <location>
     <url>http://purl.stanford.edu/cr496vv5031</url>
   </location>
-  <accessCondition type="useAndReproduction">No restrictions on access or use. A citation for the Farmland Mapping and Monitoring Program on any map products, graphic media, or data analyses based on the data is appreciated.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:cr496vv5031</recordIdentifier>
@@ -84,8 +83,25 @@ Prior to the availability of SSURGO, soil information was hand-transferred from 
             <gml:upperCorner>-121.444878 42.009636</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Siskiyou County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 123&#xB0;43&#x2B9;5&#x2BA;--W 121&#xB0;26&#x2B9;42&#x2BA;/N 42&#xB0;35&#x2BA;--N 40&#xB0;59&#x2B9;32&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 123°43ʹ5ʺ--W 121°26ʹ42ʺ/N 42°35ʺ--N 40°59ʹ32ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Farmland Mapping and Monitoring Program, 1992</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qp916nv0643</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

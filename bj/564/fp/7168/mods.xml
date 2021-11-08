@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Important Farmland, Imperial County, California, 1996</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">1996</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 116&#xB0;7&#x2B9;28&#x2BA;--W 114&#xB0;25&#x2B9;33&#x2BA;/N 33&#xB0;29&#x2B9;37&#x2BA;--N 32&#xB0;33&#x2B9;)</coordinates>
+      <coordinates>(W 116°7ʹ28ʺ--W 114°25ʹ33ʺ/N 33°29ʹ37ʺ--N 32°33ʹ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents areas of important farmland in Imperial County, California for 1996. Established in 1982, Government Code Section 65570 mandates FMMP to biennially report on the conversion of farmland and grazing land, and to provide maps and data to local government and the public.</abstract>
@@ -64,7 +64,6 @@ Prior to the availability of SSURGO, soil information was hand-transferred from 
   <location>
     <url>http://purl.stanford.edu/bj564fp7168</url>
   </location>
-  <accessCondition type="useAndReproduction">No restrictions on access or use. A citation for the Farmland Mapping and Monitoring Program on any map products, graphic media, or data analyses based on the data is appreciated.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:bj564fp7168</recordIdentifier>
@@ -84,8 +83,25 @@ Prior to the availability of SSURGO, soil information was hand-transferred from 
             <gml:upperCorner>-114.462009 33.433809</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Imperial County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 116&#xB0;6&#x2B9;20&#x2BA;--W 114&#xB0;27&#x2B9;43&#x2BA;/N 33&#xB0;26&#x2B9;2&#x2BA;--N 32&#xB0;37&#x2B9;6&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 116°6ʹ20ʺ--W 114°27ʹ43ʺ/N 33°26ʹ2ʺ--N 32°37ʹ6ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Farmland Mapping and Monitoring Program, 1996</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/rz415nf2825</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

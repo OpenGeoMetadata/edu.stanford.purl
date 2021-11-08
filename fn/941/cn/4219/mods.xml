@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Backscatter B: Hueneme Canyon and Vicinity, California, 2006</title>
@@ -58,7 +58,7 @@
     <dateValid encoding="w3cdtf">2008</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Raster Dataset</form>
@@ -68,7 +68,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::32611</projection>
-      <coordinates>(W 119&#xB0;20&#x2B9;17&#x2BA;--W 119&#xB0;8&#x2B9;22&#x2BA;/N 34&#xB0;13&#x2B9;23&#x2BA;--N 34&#xB0;3&#x2B9;29&#x2BA;)</coordinates>
+      <coordinates>(W 119°20ʹ17ʺ--W 119°8ʹ22ʺ/N 34°13ʹ23ʺ--N 34°3ʹ29ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced raster image containing acoustic-backscatter data for Hueneme Canyon and the surrounding vicinity in California. The far northern part of the Hueneme Canyon and vicinity was mapped by the USGS in 2006, using a 117-kHz SEA (AP) Ltd. SWATHplus-M phase-differencing sidescan sonar. This mapping mission collected acoustic-backscatter data from about the 10-m isobath to almost the 3-nautical-mile limit of Californias State Waters. Within the acoustic-backscater imagery, brighter tones indicate higher backscatter intensity, and darker tones indicate lower backscatter intensity. The intensity represents a complex interaction between the acoustic pulse and the seafloor, as well as characteristics within the shallow subsurface, providing a general indication of seafloor texture and sediment type. Backscatter intensity depends on the acoustic source level; the frequency used to image the seafloor; the grazing angle; the composition and character of the seafloor, including grain size, water content, bulk density, and seafloor roughness; and some biological cover. Harder and rougher bottom types such as rocky outcrops or coarse sediment typically return stronger intensities (high backscatter, lighter tones), whereas softer bottom types such as fine sediment return weaker intensities (low backscatter, darker tones). This map was published in Scientific Investigations Map 3225. This layer is part of the USGS Data Series 781.</abstract>
@@ -131,7 +131,6 @@
   <location>
     <url>http://purl.stanford.edu/fn941cn4219</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:fn941cn4219</recordIdentifier>
@@ -151,10 +150,25 @@
             <gml:upperCorner>-119.1395657 34.2230967</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Ventura County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 119&#xB0;20&#x2B9;17&#x2BA;--W 119&#xB0;8&#x2B9;22&#x2BA;/N 34&#xB0;13&#x2B9;23&#x2BA;--N 34&#xB0;3&#x2B9;29&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 119°20ʹ17ʺ--W 119°8ʹ22ʺ/N 34°13ʹ23ʺ--N 34°3ʹ29ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California State Waters Map Series Data Catalog</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ng324gh5570</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

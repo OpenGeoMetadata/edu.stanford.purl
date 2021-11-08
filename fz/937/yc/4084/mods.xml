@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Block Island Transmission Cables, Northeast United States, 2014</title>
@@ -15,13 +15,10 @@
   <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
   <originInfo>
     <publisher>Northeast Region Ocean Council</publisher>
-    <place>
-      <placeTerm type="text"/>
-    </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +29,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 71&#xB0;34&#x2B9;2&#x2BA;--W 71&#xB0;24&#x2B9;47&#x2BA;/N 41&#xB0;23&#x2B9;32&#x2BA;--N 41&#xB0;6&#x2B9;23&#x2BA;)</coordinates>
+      <coordinates>(W 71°34ʹ2ʺ--W 71°24ʹ47ʺ/N 41°23ʹ32ʺ--N 41°6ʹ23ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile represents the location of the submarine cables for the Block Island Wind Farm (BIWF) and Block Island Transmission System (BITS). The BIWF will be a 30-megawatt offshore wind farm consisting of 5, 6-MW wind turbine generators (WTGs) located approximately three miles southeast of Block Island, an Inter Array submarine cable interconnecting the WTGs, and an Export cable connecting the northernmost WTG with Block Island. The BITS will be a submarine cable that connects Block Island with the Rhode Island mainland and which will deliver power to and from the mainland. This dataset represents an update to the proposed cable locations and includes the Inter Array, Export, and Transmission System cables. In 2013, the developer Deepwater Wind received approval for the transmission line to make landfall at Scarborough Beach and plans to begin construction of the transmission line as early as 2014. This product was created from two GIS datasets, one which contained the proposed cable locations and one which contained an update for the approved final location. The proposed dataset contained two alternate routes from Block Island to the mainland as well as the Export and Inter Array cable lines from Block Island to the wind farm. The finalized cable dataset contained only the updated transmission line from Block Island to the mainland. These two datasets were combined to create a single product.</abstract>
@@ -69,7 +66,6 @@
   <location>
     <url>http://purl.stanford.edu/fz937yc4084</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:fz937yc4084</recordIdentifier>
@@ -89,10 +85,25 @@
             <gml:upperCorner>-71.413028 41.392121</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Block Island (R.I. : Island)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5224323/" dc:language="eng" dc:title="Rhode Island"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3373405/" dc:language="eng" dc:title="Atlantic Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 71&#xB0;34&#x2B9;2&#x2BA;--W 71&#xB0;24&#x2B9;47&#x2BA;/N 41&#xB0;23&#x2B9;32&#x2BA;--N 41&#xB0;6&#x2B9;23&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 71°34ʹ2ʺ--W 71°24ʹ47ʺ/N 41°23ʹ32ʺ--N 41°6ʹ23ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Northeast Ocean Data : Maps and data for ocean planning in the northeastern United States</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sg639pq7229</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Medically Underserved Populations, California, 2012</title>
@@ -22,7 +22,7 @@
     <edition>v7</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 124&#xB0;5&#x2B9;9&#x2BA;--W 113&#xB0;55&#x2B9;51&#x2BA;/N 41&#xB0;11&#x2B9;27&#x2BA;--N 32&#xB0;40&#x2B9;42&#x2BA;)</coordinates>
+      <coordinates>(W 124°5ʹ9ʺ--W 113°55ʹ51ʺ/N 41°11ʹ27ʺ--N 32°40ʹ42ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents medically underserved populations (MUP) in California. The federal MUP designation is used when an area does not meet the established medically underserved area (MUA) criteria. The process involves assembling the same data elements and carrying out the same computational steps as stated for MUAs (for V1, V2 and V3). The difference is the population to physician ratio (V4) as follows: 1) For V4, the population is now the population of the requested group within the area rather than the total resident civilian population of the area. 2) The number of FTE primary care physicians would include only those serving the requested population group (V4). If the total of weighted values V1 - V4 is 62.0 or less, the population group qualifies for designation as a MUP and you complete the process as for the MUA. Benefits of MUP designation: 1) Eligibility to develop community health centers, migrant health centers, federally qualified health centers (FQHCs) and FQHC look-alikes. The cost-based reimbursement of these programs is designed to enhance access to primary health care in medically underserved areas. 2) Enhanced federal grant eligibility. Legislation: Original legislation enacted by Congress in 1970s, Section 330 of the U.S. Public Health Service Act (as amended); 2002 Health Care Safety Net Amendments authorized automatic facility HPSA process for Federally Qualified Health Centers (FQHC), and Rural Health Centers (RHC). Authorizes the Secretary of U.S. Department of Health and Human Services to designate shortage areas delegated to Health Resources and Services Administration/Bureau of Health Professions/ National Center for Health Workforce Analysis/Shortage Designation Branch. This is version 7 of this data (updated: August 2012). This layer is part of the Healthcare Atlas of California.</abstract>
@@ -80,8 +80,25 @@
             <gml:upperCorner>-114.494197 41.184469</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;1&#x2B9;22&#x2BA;--W 114&#xB0;29&#x2B9;39&#x2BA;/N 41&#xB0;11&#x2B9;4&#x2BA;--N 32&#xB0;47&#x2B9;58&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 124°1ʹ22ʺ--W 114°29ʹ39ʺ/N 41°11ʹ4ʺ--N 32°47ʹ58ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Healthcare Atlas of California</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qw778bk1665</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

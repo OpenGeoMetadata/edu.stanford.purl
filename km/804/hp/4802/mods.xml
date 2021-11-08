@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Lateral County Boundaries, Northeast United States, 2007</title>
@@ -30,7 +30,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -41,7 +41,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 74&#xB0;--W 67&#xB0;48&#x2B9;22&#x2BA;/N 45&#xB0;40&#x2B9;51&#x2BA;--N 40&#xB0;5&#x2B9;52&#x2BA;)</coordinates>
+      <coordinates>(W 74°--W 67°48ʹ22ʺ/N 45°40ʹ51ʺ--N 40°5ʹ52ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile represents lateral county boundaries in the Northeastern United States.</abstract>
@@ -81,7 +81,6 @@
   <location>
     <url>http://purl.stanford.edu/km804hp4802</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:km804hp4802</recordIdentifier>
@@ -101,14 +100,25 @@
             <gml:upperCorner>-67.80602 45.680824</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4831725/" dc:language="eng" dc:title="Connecticut"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4971068/" dc:language="eng" dc:title="Maine"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6254926/" dc:language="eng" dc:title="Massachusetts"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5090174/" dc:language="eng" dc:title="New Hampshire"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5101760/" dc:language="eng" dc:title="New Jersey"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5128638/" dc:language="eng" dc:title="New York (State)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5224323/" dc:language="eng" dc:title="Rhode Island"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 74&#xB0;--W 67&#xB0;48&#x2B9;22&#x2BA;/N 45&#xB0;40&#x2B9;51&#x2BA;--N 40&#xB0;5&#x2B9;52&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 74°--W 67°48ʹ22ʺ/N 45°40ʹ51ʺ--N 40°5ʹ52ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Northeast Ocean Data : Maps and data for ocean planning in the northeastern United States</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sg639pq7229</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

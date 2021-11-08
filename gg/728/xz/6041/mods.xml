@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Mill Creek Wetlands: Humboldt County, California, 2015</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2015</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::26741</projection>
-      <coordinates>(W 124&#xB0;5&#x2B9;59&#x2BA;--W 124&#xB0;4&#x2B9;18&#x2BA;/N 40&#xB0;56&#x2B9;17&#x2BA;--N 40&#xB0;55&#x2B9;26&#x2BA;)</coordinates>
+      <coordinates>(W 124°5ʹ59ʺ--W 124°4ʹ18ʺ/N 40°56ʹ17ʺ--N 40°55ʹ26ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts boundaries of the Mill Creek Wetlands in the County of Humboldt, California. The McKinleyville Community Plan adopted in December 2002 designated the Mill Creek Wetlands as a floodplain and part of the McKinleyville Planning Area for land use planning, riparian habitat management and flood control purposes. These data were derived from the California Department of Fish and Wildlife mapping of wetland areas as it appeared in the Report for Wetlands in McKinleyville as Revealed by Infrared Aerial Photograph Interpretation (Winzler &amp;amp; Kelly, Feb., 1993), and was described in Hydrology and Ecology in the Mill Creek Corridor, McKinleyville, CA (Oscar Larson &amp;amp; Assoc., Mar., 1995).</abstract>
@@ -90,9 +90,25 @@
             <gml:upperCorner>-124.071727 40.937737</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Humboldt County (Calif.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="McKinleyville (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;5&#x2B9;58&#x2BA;--W 124&#xB0;4&#x2B9;18&#x2BA;/N 40&#xB0;56&#x2B9;16&#x2BA;--N 40&#xB0;55&#x2B9;27&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 124°5ʹ58ʺ--W 124°4ʹ18ʺ/N 40°56ʹ16ʺ--N 40°55ʹ27ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Humboldt County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zc242vz4054</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

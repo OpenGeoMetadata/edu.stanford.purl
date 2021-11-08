@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Seafloor Character: Hueneme Canyon and Vicinity, California, 2007</title>
@@ -40,7 +40,7 @@
     <dateValid encoding="w3cdtf">2012</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Raster Dataset</form>
@@ -50,7 +50,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::32611</projection>
-      <coordinates>(W 119&#xB0;20&#x2B9;16&#x2BA;--W 119&#xB0;8&#x2B9;23&#x2BA;/N 34&#xB0;13&#x2B9;23&#x2BA;--N 34&#xB0;3&#x2B9;30&#x2BA;)</coordinates>
+      <coordinates>(W 119°20ʹ16ʺ--W 119°8ʹ23ʺ/N 34°13ʹ23ʺ--N 34°3ʹ30ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced raster image of the seafloor character map of Hueneme Canyon and the surrounding vicinity in California. This raster-format seafloor-character map shows four substrate classes of the Hueneme Canyon and Vicinity map area. The substrate classes mapped in this area have been further divided into the following California Marine Life Protection Act depth zones and slope classes: Depth Zone 2 (intertidal to 30 m), Depth Zone 3 (30 to 100 m), Depth Zone 4 (100 to 200 m), Depth Zone 5 (greater than 200 m), Slope Class 1 (0 degrees-5 degrees), Slope Class 2 (5 degrees-30 degrees), Slope Class 3 (30 degrees-60 degrees), and Slope Class 4 (60 degrees-90 degrees). Depth Zone 1 (intertidal) is not present in this map area. The map is created using a supervised classification method described by Cochrane (2008). The map was published in Scientific Investigations Map 3225. This layer is part of the USGS Data Series 781.</abstract>
@@ -102,7 +102,6 @@
   <location>
     <url>http://purl.stanford.edu/vn808wk9920</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:vn808wk9920</recordIdentifier>
@@ -122,10 +121,25 @@
             <gml:upperCorner>-119.1397296 34.2229656</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Ventura County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 119&#xB0;20&#x2B9;16&#x2BA;--W 119&#xB0;8&#x2B9;23&#x2BA;/N 34&#xB0;13&#x2B9;23&#x2BA;--N 34&#xB0;3&#x2B9;30&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 119°20ʹ16ʺ--W 119°8ʹ23ʺ/N 34°13ʹ23ʺ--N 34°3ʹ30ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California State Waters Map Series Data Catalog</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ng324gh5570</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Important Farmland, Napa County, California, 1992</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">1992</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 122&#xB0;39&#x2B9;18&#x2BA;--W 122&#xB0;3&#x2B9;20&#x2BA;/N 38&#xB0;52&#x2B9;13&#x2BA;--N 38&#xB0;8&#x2B9;46&#x2BA;)</coordinates>
+      <coordinates>(W 122°39ʹ18ʺ--W 122°3ʹ20ʺ/N 38°52ʹ13ʺ--N 38°8ʹ46ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents areas of important farmland in Napa County, California for 1992. Established in 1982, Government Code Section 65570 mandates FMMP to biennially report on the conversion of farmland and grazing land, and to provide maps and data to local government and the public.</abstract>
@@ -64,7 +64,6 @@ Prior to the availability of SSURGO, soil information was hand-transferred from 
   <location>
     <url>http://purl.stanford.edu/qj014gh6813</url>
   </location>
-  <accessCondition type="useAndReproduction">No restrictions on access or use. A citation for the Farmland Mapping and Monitoring Program on any map products, graphic media, or data analyses based on the data is appreciated.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:qj014gh6813</recordIdentifier>
@@ -84,8 +83,25 @@ Prior to the availability of SSURGO, soil information was hand-transferred from 
             <gml:upperCorner>-122.060313 38.864419</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5376101/" dc:language="eng" dc:title="Napa County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;38&#x2B9;45&#x2BA;--W 122&#xB0;3&#x2B9;37&#x2BA;/N 38&#xB0;51&#x2B9;52&#x2BA;--N 38&#xB0;9&#x2B9;18&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°38ʹ45ʺ--W 122°3ʹ37ʺ/N 38°51ʹ52ʺ--N 38°9ʹ18ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Farmland Mapping and Monitoring Program, 1992</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qp916nv0643</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

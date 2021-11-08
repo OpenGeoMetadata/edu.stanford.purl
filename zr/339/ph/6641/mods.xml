@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Levees and Floodwalls, San Mateo County Sea Level Rise Vulnerability Assessment Project, 2016</title>
@@ -24,7 +24,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -35,11 +35,11 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 122&#xB0;24&#x2B9;23&#x2BA;--W 122&#xB0;7&#x2B9;41&#x2BA;/N 37&#xB0;38&#x2B9;56&#x2BA;--N 37&#xB0;27&#x2B9;6&#x2BA;)</coordinates>
+      <coordinates>(W 122°24ʹ23ʺ--W 122°7ʹ41ʺ/N 37°38ʹ56ʺ--N 37°27ʹ6ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile represents levess and floodwalls in the San Mateo County Sea Level Rise Vulnerability Assessment Project area. These dara are derived from the San Francisco Bay Shoreline Inventory Mapping Project conducted by the San Francisco Estuary Institute. The SF Bay Shoreline Inventory mapping consists of two main elements:Mapping of Bay shore features (levees, berms, roads, railroads, embankments, etc.) which could affect flooding and flood routing.Attributing Bay shore features with additional information including elevations, armoring, ownership (when known), among others.This layer is part of the San Mateo County Sea Level Rise Vulnerability Assessment Project.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">With rising sea levels and the increased likelihood of extreme weather events, it is important for regional agencies and local municipalities in the San Francisco Bay Area to have a clear understanding of the status, composition, condition, and elevation of our current Bay shore, including both natural features and built infrastructure. The purpose of this Bay shore inventory is to create a comprehensive and consistent picture of today&#x2019;s Bay shore features to inform regional planning. This dataset includes both structures engineered expressly for flood risk management (such as accredited levees) and features that affect flooding at the shore but are not designed or maintained for this purpose (such as berms, road embankments, and marshes). This mapping covers as much of the &#x2018;real world&#x2019; influence on flooding and flood routing as possible, including the large number of non-accredited structures.
+  <abstract displayLabel="Purpose" lang="eng">With rising sea levels and the increased likelihood of extreme weather events, it is important for regional agencies and local municipalities in the San Francisco Bay Area to have a clear understanding of the status, composition, condition, and elevation of our current Bay shore, including both natural features and built infrastructure. The purpose of this Bay shore inventory is to create a comprehensive and consistent picture of today’s Bay shore features to inform regional planning. This dataset includes both structures engineered expressly for flood risk management (such as accredited levees) and features that affect flooding at the shore but are not designed or maintained for this purpose (such as berms, road embankments, and marshes). This mapping covers as much of the ‘real world’ influence on flooding and flood routing as possible, including the large number of non-accredited structures.
 
 This information is needed to: 
 
@@ -47,8 +47,7 @@ This information is needed to:
 2. identify adaptation constraints due to present Bay shore alignments; and
 3. suggest opportunities where beaches, wetlands, and floodplains can be maintained or restored and integrated into flood risk management strategies.
 
-The primary focus of the project is therefore to inform regional planners and managers of Bay shore characteristics and vulnerabilities. The mapping presented here is neither to inform FEMA flood designation nor is it a replacement for site-specific analysis and design.
-</abstract>
+The primary focus of the project is therefore to inform regional planners and managers of Bay shore characteristics and vulnerabilities. The mapping presented here is neither to inform FEMA flood designation nor is it a replacement for site-specific analysis and design.</abstract>
   <note displayLabel="Preferred citation" lang="eng">County of San Mateo Information Services Department and San Francisco Estuary Institute, (2019). Levees and Floodwalls, San Mateo County Sea Level Rise Vulnerability Assessment Project, 2016. County of San Mateo Information Services Department. Available at: http://purl.stanford.edu/zr339ph6641.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Flood damage prevention</topic>
@@ -71,7 +70,6 @@ The primary focus of the project is therefore to inform regional planners and ma
   <location>
     <url>http://purl.stanford.edu/zr339ph6641</url>
   </location>
-  <accessCondition type="useAndReproduction">These data are made available by San Mateo County as a public service. The data are for reference purposes only, and the County makes no representatives, warranties, or guarantees as to the accuracy of the data.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:zr339ph6641</recordIdentifier>
@@ -91,8 +89,25 @@ The primary focus of the project is therefore to inform regional planners and ma
             <gml:upperCorner>-122.128142 37.648791</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5392427/" dc:language="eng" dc:title="San Mateo County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;24&#x2B9;23&#x2BA;--W 122&#xB0;7&#x2B9;41&#x2BA;/N 37&#xB0;38&#x2B9;56&#x2BA;--N 37&#xB0;27&#x2B9;6&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°24ʹ23ʺ--W 122°7ʹ41ʺ/N 37°38ʹ56ʺ--N 37°27ʹ6ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>San Mateo County Sea Level Rise Vulnerability Assessment Project</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/vd126cg5748</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

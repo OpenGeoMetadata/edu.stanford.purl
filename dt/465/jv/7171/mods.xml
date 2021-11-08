@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Detailed World Polygons (LSIB), Oceania, Malaysia, Antarctica, 2013</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,10 +32,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 180&#xB0;--E 180&#xB0;/N 21&#xB0;7&#x2B9;31&#x2BA;--S 90&#xB0;)</coordinates>
+      <coordinates>(W 180°--E 180°/N 21°7ʹ31ʺ--S 90°)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the boundaries of Malaysia, Antarctica, and countries in Oceania. This layer, created by the Office of the Geographer, combines two data sets: Large Scale International Boundary Lines (LSIB) and World Vector Shorelines (LSIB-WVS). The lines reflect U.S. government (USG) policy and thus not necessarily de facto control. The 1:250,000 scale WVS coastline data from the National Geospatial-Intelligence Agency (NGA) is generally shifted by several hundred meters to over a km. The LSIB is in WGS84 datum and is generally accurate to within a couple hundred meters or better. The boundary research and &#x201C;recovery&#x201D; of the delineation of the line has been done over past decades by geographers at State and colleagues from other USG agencies and the UK. It is based on modern imagery, elevation data, relevant maps, treaties, international arbitration and court rulings, data from national mapping agencies and boundary commissions if available, and other sources.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the boundaries of Malaysia, Antarctica, and countries in Oceania. This layer, created by the Office of the Geographer, combines two data sets: Large Scale International Boundary Lines (LSIB) and World Vector Shorelines (LSIB-WVS). The lines reflect U.S. government (USG) policy and thus not necessarily de facto control. The 1:250,000 scale WVS coastline data from the National Geospatial-Intelligence Agency (NGA) is generally shifted by several hundred meters to over a km. The LSIB is in WGS84 datum and is generally accurate to within a couple hundred meters or better. The boundary research and “recovery” of the delineation of the line has been done over past decades by geographers at State and colleagues from other USG agencies and the UK. It is based on modern imagery, elevation data, relevant maps, treaties, international arbitration and court rulings, data from national mapping agencies and boundary commissions if available, and other sources.</abstract>
   <abstract displayLabel="Purpose" lang="eng">The mission of the Humanitarian Information Unit (HIU) is to serve as a U.S. Government interagency center to identify, collect, analyze, and disseminate all-source information critical to U.S. Government decision-makers and partners in preparation for and response to humanitarian emergencies worldwide, and to promote innovative technologies and best practices for humanitarian information management.</abstract>
   <note displayLabel="Preferred citation" lang="eng">U.S. Department of State, Office of the Geographer. (2013). Detailed World Polygons (LSIB) Oceania, Malaysia, Antarctica, 2013. U.S. Department of State. Humanitarian Information Unit.  Available at: http://purl.stanford.edu/dt465jv7171.</note>
   <subject>
@@ -71,7 +71,6 @@
   <location>
     <url>http://purl.stanford.edu/dt465jv7171</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:dt465jv7171</recordIdentifier>
@@ -91,14 +90,17 @@
             <gml:upperCorner>180.0 21.125416</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Oceania"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Malaysia"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6255152/" dc:language="eng" dc:title="Antarctica"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="American Samoa"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4030656/" dc:language="eng" dc:title="French Polynesia"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Cook Islands"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Fiji"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. State Department, Humanitarian Information Unit GIS Maps and Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zy496qj4689</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

@@ -1,13 +1,10 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Digital Raster Graphic for Monterey County, California, 1974</title>
   </titleInfo>
-  <titleInfo>
-    <title type="alternative">base250.tif</title>
-  </titleInfo>
-  <titleInfo>
-    <title displayLabel="Alternative title">base250.tif</title>
+  <titleInfo type="alternative" displayLabel="Alternative title">
+    <title>base250.tif</title>
   </titleInfo>
   <name type="corporate">
     <namePart>Rosenberg, Lewis I.</namePart>
@@ -21,14 +18,11 @@
   <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
   <originInfo>
     <publisher>Lew Rosenberg, Consulting Geologist</publisher>
-    <place>
-      <placeTerm type="text"/>
-    </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2001</dateIssued>
     <edition>version 1.0</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>GeoTIFF</form>
@@ -38,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::2228</projection>
-      <coordinates>(E 6&#xB0;5&#x2B9;15&#x2BA;--E 23&#xB0;10&#x2B9;24&#x2BA;/S 22&#xB0;36&#x2B9;17&#x2BA;--S 35&#xB0;47&#x2B9;27&#x2BA;)</coordinates>
+      <coordinates>(E 6°5ʹ15ʺ--E 23°10ʹ24ʺ/S 22°36ʹ17ʺ--S 35°47ʹ27ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This digital raster graphic (DRG) is a composite raster image of two scanned 1974 USGS topographic maps including the collar information, georeferenced to the Calfornia State Plane grid. The DRG shows the area of Monterey County, California. This layer is part of a collection describing Geology resources and constraints Monterey County, California.</abstract>
@@ -57,7 +51,7 @@
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="imageryBaseMapsEarthCover">Imagery and Base Maps</topic>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="">Geoscientific Information</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
   </subject>
   <location>
     <url>http://purl.stanford.edu/dt882pq5392</url>
@@ -81,8 +75,25 @@
             <gml:upperCorner>-65.6515973 43.64105</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Monterey County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 77&#xB0;31&#x2B9;44&#x2BA;--W 65&#xB0;39&#x2B9;6&#x2BA;/N 43&#xB0;38&#x2B9;28&#x2BA;--N 33&#xB0;50&#x2B9;39&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 77°31ʹ44ʺ--W 65°39ʹ6ʺ/N 43°38ʹ28ʺ--N 33°50ʹ39ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Geology resources and constraints Monterey County, California</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/xs739ph8023</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

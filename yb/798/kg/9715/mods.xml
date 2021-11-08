@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Parliamentary Constituencies of Scotland, 1832-1868</title>
@@ -39,7 +39,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2009</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -50,10 +50,10 @@
     <cartographics>
       <scale>1:126720</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 8&#xB0;21&#x2B9;48&#x2BA;--W 0&#xB0;42&#x2B9;47&#x2BA;/N 60&#xB0;51&#x2B9;38&#x2BA;--N 54&#xB0;32&#x2B9;57&#x2BA;)</coordinates>
+      <coordinates>(W 8°21ʹ48ʺ--W 0°42ʹ47ʺ/N 60°51ʹ38ʺ--N 54°32ʹ57ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">These are digital boundaries for the system of Constituencies which were and are the units from which Members of Parliament are elected, and which they then represent. The system of county and borough constituencies has early origins but was not systematically mapped until the reforms introduced by the Representation of the People Act in 1832. This file represents the system as it was established following the Boundary Commission Report of 1832. Statistical data and other information used in &#x201C;A Vision of Britain through Time&#x201D; can be accessed here: http://www.visionofbritain.org.uk/data.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">These are digital boundaries for the system of Constituencies which were and are the units from which Members of Parliament are elected, and which they then represent. The system of county and borough constituencies has early origins but was not systematically mapped until the reforms introduced by the Representation of the People Act in 1832. This file represents the system as it was established following the Boundary Commission Report of 1832. Statistical data and other information used in “A Vision of Britain through Time” can be accessed here: http://www.visionofbritain.org.uk/data.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Great Britain Historical GIS Project. (2012). Parliamentary Constituencies of Scotland, 1832-1868. University of Portsmouth. Available at: http://purl.stanford.edu/yb798kg9715</note>
   <note displayLabel="Supplemental information">Gregory, I, Bennett, C, Gilham, V., and Southall, H. 2002. The Great Britain Historical GIS Project: from maps to changing human geography.' The Cartographic Journal, Vol. 39, No. 1, p. 37-49. Southall, H 2012, 'Rebuilding the Great Britain Historical GIS, part 2: a geo-spatial ontology of administrative units' Historical Methods: A Journal of Quantitative and Interdisciplinary History, vol 45, no. 3, pp. 119-134. DOI: 10.1080/01615440.2012.664101</note>
@@ -127,7 +127,6 @@
   <location>
     <url>http://purl.stanford.edu/yb798kg9715</url>
   </location>
-  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates for non-commercial activities of research, teaching, educational or scholarly work purposes only. Affiliates are limited to current faculty, staff and students. An End User License outlining the full terms of use is included with this download. Copyright &#xA9; Great Britain Historical GIS Project and the University of Portsmouth. By downloading any data from this site, you agree to the terms contained in the End User License.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:yb798kg9715</recordIdentifier>
@@ -147,8 +146,25 @@
             <gml:upperCorner>-0.731897 60.85539</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Scotland"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 7&#xB0;48&#x2B9;27&#x2BA;--W 0&#xB0;43&#x2B9;55&#x2BA;/N 60&#xB0;51&#x2B9;19&#x2BA;--N 54&#xB0;38&#x2B9;3&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 7°48ʹ27ʺ--W 0°43ʹ55ʺ/N 60°51ʹ19ʺ--N 54°38ʹ3ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>A vision of Britain through time</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/jw176xm4375</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates for non-commercial activities of research, teaching, educational or scholarly work purposes only. Affiliates are limited to current faculty, staff and students. An End User Licence outlining the full terms of use is included with this download.</accessCondition>
+</mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Census Feature Lines: Solano County, California, 2012</title>
@@ -22,7 +22,7 @@
     <edition>tl_2012_06095_edges</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 122&#xB0;24&#x2B9;25&#x2BA;--W 121&#xB0;35&#x2B9;36&#x2BA;/N 38&#xB0;32&#x2B9;21&#x2BA;--N 38&#xB0;1&#x2B9;54&#x2BA;)</coordinates>
+      <coordinates>(W 122°24ʹ25ʺ--W 121°35ʹ36ʺ/N 38°32ʹ21ʺ--N 38°1ʹ54ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polyline shapefile depicts centerlines for an extract of selected geographic and cartographic information, including water, railroad and road features, for the County of Solano, California from the United States Census Bureau Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB) for 2012. The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line File is designed to stand alone as an independent data set, or they can be combined to cover the entire nation. Edge refers to the linear topological primitives that make up MTDB. This "All Lines" shapefile contains linear features such as roads, railroads, and hydrography. Additional attribute data associated with the linear features found in the "All Lines" shapefile are available in relational (.dbf) files that users must download separately. The "All Lines" shapefile contains the geometry and attributes of each topological primitive edge. Each edge has a unique TIGER/Line identifier (TLID) value. This layer is part of a collection of GIS data produced by Solano County, California.</abstract>
@@ -99,8 +99,25 @@
             <gml:upperCorner>-121.593273 38.53905</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5396987/" dc:language="eng" dc:title="Solano County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;24&#x2B9;25&#x2BA;--W 121&#xB0;35&#x2B9;36&#x2BA;/N 38&#xB0;32&#x2B9;21&#x2BA;--N 38&#xB0;1&#x2B9;54&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°24ʹ25ʺ--W 121°35ʹ36ʺ/N 38°32ʹ21ʺ--N 38°1ʹ54ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Solano County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zx684vf0715</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

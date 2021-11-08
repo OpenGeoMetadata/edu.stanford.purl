@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Bathymetry Hillshade (2m): Offshore of Coal Oil Point, California, 2009</title>
@@ -60,7 +60,7 @@
     <edition>1.0</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Raster Dataset</form>
@@ -70,8 +70,8 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::32611</projection>
-      <coordinates>(W 120&#xB0;--W 119&#xB0;48&#x2B9;36&#x2BA;/N 34&#xB0;30&#x2B9;36&#x2BA;--N 34&#xB0;21&#x2B9;)</coordinates>
-      <coordinates>(W 120&#xB0;26&#x2BA;--W 119&#xB0;48&#x2B9;24&#x2BA;/N 34&#xB0;30&#x2B9;8&#x2BA;--N 34&#xB0;20&#x2B9;10&#x2BA;)</coordinates>
+      <coordinates>(W 120°--W 119°48ʹ36ʺ/N 34°30ʹ36ʺ--N 34°21ʹ)</coordinates>
+      <coordinates>(W 120°26ʺ--W 119°48ʹ24ʺ/N 34°30ʹ8ʺ--N 34°20ʹ10ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced raster image containing shaded relief (hillshade) data for the offshore area of Coal Oil Point, California. The shaded relief map of the area was generated from data collected by California State University, Monterey Bay, Seafloor Mapping Lab (CSUMB), by the U.S. Geological Survey (USGS) and by Fugro Pelagos. . Most of the nearshore and shelf areas were mapped by the USGS in the summers of 2006, 2007, and 2008, using a combination of 117-kHz and 234.5-kHz SEA (AP) Ltd. SWATHplus-M phase-differencing sidescan sonars. A small area in the far-eastern nearshore and shelf was mapped by CSUMB in the summer of 2007, using a 244-kHz Reson 8101 multibeam echosounder. The outer shelf and slope were mapped by Fugro Pelagos in 2008, using a combination of 400-kHz Reson 7125, 240-kHz Reson 8101, and 100-kHz Reson 8111 multibeam echosounders. The nearshore bathymetry and coastal topography were also mapped by Fugro Pelagos in 2009 for the U.S. Army Corps of Engineers (USACE) Joint Lidar Bathymetry Technical Center of Expertise, using the SHOALS-1000T bathymetric-lidar and the Leica ALS60 topographic-lidar systems. All of these mapping missions combined to collect bathymetry from the 0-m isobath to beyond the 3-nautical-mile limit of California's State Waters. NOTE: the horizontal datum of the bathymtry data (NAD83) differs from the horizontal datum of other layers in this SIM (WGS84). Some bathymetry grids within this map were projected horizontally from WGS84 to NAD83 using ESRI tools to be more consistent with the vertical reference of the North American Vertical Datum of 1988 (NAVD88).</abstract>
@@ -129,7 +129,6 @@
   <location>
     <url>http://purl.stanford.edu/fh187gs5357</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:fh187gs5357</recordIdentifier>
@@ -149,10 +148,25 @@
             <gml:upperCorner>-119.806793 34.5020908</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Santa Barbara County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 120&#xB0;26&#x2BA;--W 119&#xB0;48&#x2B9;24&#x2BA;/N 34&#xB0;30&#x2B9;8&#x2BA;--N 34&#xB0;20&#x2B9;10&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 120°26ʺ--W 119°48ʹ24ʺ/N 34°30ʹ8ʺ--N 34°20ʹ10ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California State Waters Map Series Data Catalog</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ng324gh5570</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

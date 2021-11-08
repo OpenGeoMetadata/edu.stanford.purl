@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Winter Steelhead Distribution: San Francisco Bay Area, California, 2007</title>
@@ -45,7 +45,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -56,7 +56,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 123&#xB0;32&#x2B9;5&#x2BA;--W 121&#xB0;12&#x2B9;46&#x2BA;/N 38&#xB0;51&#x2B9;50&#x2BA;--N 36&#xB0;50&#x2B9;37&#x2BA;)</coordinates>
+      <coordinates>(W 123°32ʹ5ʺ--W 121°12ʹ46ʺ/N 38°51ʹ50ʺ--N 36°50ʹ37ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">The data was clipped to the Bay Area. Winter Steelhead Distribution (CalFish) June 2007 Version This polyline shapefile depicts observation-based, stream-level geographic distribution of anadromous steelhead trout (Oncorhynchus mykiss irideus) during winter months in the nine county San Francisco Bay Area Region, California. It was developed for the express purpose of assisting with steelhead recovery planning efforts. The distributions reported in this dataset were derived from a subset of the data contained in the Aquatic Species Observation Database (ASOD), a Microsoft Access multi-species observation data capture application. ASOD is an ongoing project designed to capture as complete a set of statewide inland aquatic vertebrate species observation information as possible. ASOD observation data were used to develop a network of stream segments. These lines are developed by "tracing down" from each observation to the sea using the flow properties of United States Geological Survey National Hydrography Dataset (NHD) High Resolution hydrography. Lastly these lines, representing stream segments, were assigned a value of either Anad Present (Anadromous present) or Unsp Present (Unspecified O. mykiss present). The resulting layer consists of a set of lines representing the winter distribution of steelhead. This dataset represents stream reaches that are known or believed to be used by steelhead based on steelhead observations, thus, it contains only positive steelhead occurrences. The absence of distribution on a stream does not necessarily indicate that steelhead do not utilize that stream. Additionally, steelhead may not be found in all streams or reaches each year. This is due to natural variations in run size, water conditions and other environmental factors. The information in this dataset should be used as an indicator of steelhead presence/suspected presence at the time of the observation as indicated by the 'Late_Yr' (Latest Year) field attribute. The line features in the dataset may not represent the maximum extent of steelhead on a stream; rather it is important to note that this distribution most likely underestimates the actual distribution of steelhead. The individual observations may not have occurred at the upper extent of anadromous occupation. In addition, no attempt was made to capture every observation, so it should not be assumed that this dataset is complete for each stream. No additional data (habitat mapping, barriers data, gradient modeling, etc.) were utilized to either add to or validate the data. It is very possible that an anadromous observation in this dataset has been recorded above (upstream of) a barrier as identified in the Passage Assessment Database (PAD). In the future, we hope to perform a comparative analysis between this dataset and the PAD to identify and resolve all such discrepancies. Such an analysis will add rigor to and help validate both datasets. This dataset has recently undergone a review. Data source contributors as well as California Department of Fish and Wildlife (CDFW) fisheries biologists were provided the opportunity to review and suggest edits or additions during the review. Initially, data contributors were notified and invited to review and comment on the handling of the information that they provided. The distribution was then posted to an intranet mapping application and CDFW biologists were provided an opportunity to review and comment on the dataset. During this review, biologists were also encouraged to add new observation data. This resulting final distribution contains their suggestions and additions. Please refer to "Use Constraints" section below.</abstract>
@@ -143,8 +143,6 @@
   <location>
     <url>http://purl.stanford.edu/jw390yx2678</url>
   </location>
-  <accessCondition type="useAndReproduction">These data are distributed under a GNU General Public License (GPL)</accessCondition>
-  <accessCondition type="useAndReproduction">These data are distributed under a GNU General Public License (GPL)</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:jw390yx2678</recordIdentifier>
@@ -164,18 +162,25 @@
             <gml:upperCorner>-121.241664 38.863937</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="San Francisco Bay (Calif.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="San Francisco Bay Area (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5322745/" dc:language="eng" dc:title="Alameda County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5339268/" dc:language="eng" dc:title="Contra Costa County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5370468/" dc:language="eng" dc:title="Marin County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5376101/" dc:language="eng" dc:title="Napa County (Calif.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="San Francisco County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5392427/" dc:language="eng" dc:title="San Mateo County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5393021/" dc:language="eng" dc:title="Santa Clara County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5396987/" dc:language="eng" dc:title="Solano County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5397100/" dc:language="eng" dc:title="Sonoma County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 123&#xB0;32&#x2B9;3&#x2BA;--W 121&#xB0;14&#x2B9;30&#x2BA;/N 38&#xB0;51&#x2B9;50&#x2BA;--N 36&#xB0;51&#x2B9;2&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 123°32ʹ3ʺ--W 121°14ʹ30ʺ/N 38°51ʹ50ʺ--N 36°51ʹ2ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>The Conservation Lands Network regional biodiversity GIS database</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/xc921dx0980</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

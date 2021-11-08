@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>ACS 5 Year Housing Data by Place, 2008-2012</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 176&#xB0;42&#x2B9;47&#x2BA;--W 65&#xB0;17&#x2B9;27&#x2BA;/N 71&#xB0;20&#x2B9;24&#x2BA;--N 17&#xB0;52&#x2B9;53&#x2BA;)</coordinates>
+      <coordinates>(W 176°42ʹ47ʺ--W 65°17ʹ27ʺ/N 71°20ʹ24ʺ--N 17°52ʹ53ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains 5-year American Community Survey estimates of housing variables (see below) at the place level released in 2012. The TIGER/Line Files are shapefiles and related database files (.dbf) that are an extract of selected geographic and cartographic information from the U.S. Census Bureaus Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB). The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line File is designed to stand alone as an independent data set, or they can be combined to cover the entire nation. The TIGER/Line Files include both incorporated places (legal entities) and census designated places or CDPs (statistical entities). An incorporated place is established to provide governmental functions for a concentration of people as opposed to a minor civil division (MCD), which generally is created to provide services or administer an area without regard, necessarily, to population. Places always nest within a State, but may extend across county and county subdivision boundaries. An incorporated place usually is a city, town, village, or borough, but can have other legal descriptions. CDPs are delineated for the decennial census as the statistical counterparts of incorporated places. CDPs are delineated to provide data for settled concentrations of population that are identifiable by name, but are not legally incorporated under the laws of the State in which they are located. The boundaries for CDPs often are defined in partnership with State, local, and/or tribal officials and usually coincide with visible features or the boundary of an adjacent incorporated place or another legal entity. CDP boundaries often change from one decennial census to the next with changes in the settlement pattern and development; a CDP with the same name as in an earlier census does not necessarily have the same boundary. The only population/housing size requirement for CDPs for the 2010 Census is that they must contain some housing and population. The boundaries of all 2010 Census incorporated places are as of January 1, 2010 as reported through the Census Bureaus Boundary and Annexation Survey (BAS). The boundaries of all 2010 Census CDPs were delineated as part of the Census Bureaus Participant Statistical Areas Program (PSAP).The American Community Survey (ACS) 5 Year 2008-2012 housing information is a subset of information available for download. Downloaded tables include: B25002 - Occupancy Status, B25009 - Tenure By Household Size, B25021 - Median Number Of Rooms By Tenure, B25024 - Units In Structure, B25032 - Tenure by Units In Structure, B25036 - Tenure By Year Structure Built, B25037 - Median Year Structure Built By Tenure, B25041 - Bedrooms, B25042 - Tenure By Bedrooms, B25056 - Contract Rent, B25058 - Median Contract Rent, B25068 - Bedrooms By Gross Rent, B25077 - Median Value, B25097 - Mortgage Status By Median Value (Dollars) and B25123 - Tenure By Selected Physical And Financial Conditions. Data is current as of 5/6/2015.</abstract>
@@ -57,7 +57,6 @@
   <location>
     <url>http://purl.stanford.edu/tr273wp9563</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:tr273wp9563</recordIdentifier>
@@ -77,8 +76,17 @@
             <gml:upperCorner>-65.290942 71.339946</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. Department of Housing and Urban Development Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/wc590wy7435</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

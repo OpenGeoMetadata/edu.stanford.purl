@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>States, Northeast United States, 2007</title>
@@ -22,12 +22,12 @@
   <originInfo>
     <publisher>United States. National Ocean Service</publisher>
     <place>
-      <placeTerm type="text">Charleston, SC, </placeTerm>
+      <placeTerm type="text">Charleston, SC,</placeTerm>
     </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2007</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -38,7 +38,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 79&#xB0;45&#x2B9;45&#x2BA;--W 66&#xB0;53&#x2B9;8&#x2BA;/N 47&#xB0;27&#x2B9;35&#x2BA;--N 40&#xB0;28&#x2B9;39&#x2BA;)</coordinates>
+      <coordinates>(W 79°45ʹ45ʺ--W 66°53ʹ8ʺ/N 47°27ʹ35ʺ--N 40°28ʹ39ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains state boundaries for the Northeastern United States The TIGER/Line Files are shapefiles and related database files (.dbf) that are an extract of selected geographic and cartographic information from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB). The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line File is designed to stand alone as an independent data set, or they can be combined to cover the entire nation. States and equivalent entities are the primary governmental divisions of the United States. In addition to the fifty States, the Census Bureau treats the District of Columbia, Puerto Rico, and each of the Island Areas (American Samoa, the Commonwealth of the Northern Mariana Islands, Guam, and the U.S. Virgin Islands) as the statistical equivalents of States for the purpose of data presentation.</abstract>
@@ -97,14 +97,25 @@
             <gml:upperCorner>-66.885444 47.459854</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4831725/" dc:language="eng" dc:title="Connecticut"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4971068/" dc:language="eng" dc:title="Maine"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6254926/" dc:language="eng" dc:title="Massachusetts"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5090174/" dc:language="eng" dc:title="New Hampshire"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5128638/" dc:language="eng" dc:title="New York (State)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5224323/" dc:language="eng" dc:title="Rhode Island"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5242283/" dc:language="eng" dc:title="Vermont"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 79&#xB0;45&#x2B9;45&#x2BA;--W 66&#xB0;53&#x2B9;8&#x2BA;/N 47&#xB0;27&#x2B9;35&#x2BA;--N 40&#xB0;28&#x2B9;39&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 79°45ʹ45ʺ--W 66°53ʹ8ʺ/N 47°27ʹ35ʺ--N 40°28ʹ39ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Northeast Ocean Data : Maps and data for ocean planning in the northeastern United States</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sg639pq7229</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

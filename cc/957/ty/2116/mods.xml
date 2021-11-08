@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Power Plants, United States, 2014</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 171&#xB0;44&#x2B9;15&#x2BA;--W 67&#xB0;12&#x2BA;/N 71&#xB0;17&#x2B9;31&#x2BA;--N 18&#xB0;58&#x2B9;27&#x2BA;)</coordinates>
+      <coordinates>(W 171°44ʹ15ʺ--W 67°12ʺ/N 71°17ʹ31ʺ--N 18°58ʹ27ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile represents electric power generating plants in the United States by energy source. This includes plants that are operating, on standby, or short- or long-term out of service. The surveys collect data on all plants with a combined nameplate capacity of 1 MW or more. These data were gathered from EIA-860, Annual Electric Generator Report, EIA-860M, Monthly Update to the Annual Electric Generator Report, and EIA-923, Power Plant Operations Report. These data are current as of August 2014. This layer is part of a collection of GIS data produced by the U.S. National Energy Information Administration.</abstract>
@@ -76,8 +76,17 @@
             <gml:upperCorner>-67.0033 71.292</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. National Energy Information Center Interactive State Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/gx140ys0508</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

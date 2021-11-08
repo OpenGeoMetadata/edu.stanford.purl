@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Congressional Districts: United States and Territories, 2013-2015</title>
@@ -30,7 +30,7 @@
     <edition>cd v. 113</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -41,11 +41,11 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 179&#xB0;8&#x2B9;50&#x2BA;--E 179&#xB0;46&#x2B9;42&#x2BA;/N 71&#xB0;21&#x2B9;9&#x2BA;--N 17&#xB0;53&#x2B9;5&#x2BA;)</coordinates>
+      <coordinates>(W 179°8ʹ50ʺ--E 179°46ʹ42ʺ/N 71°21ʹ9ʺ--N 17°53ʹ5ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains United States congressional district boundaries for 2013-2015. Congressional Districts are the 435 areas from which people are elected to the United States House of Representatives. After the apportionment of congressional seats among the states based on census population counts, each state is responsible for establishing congressional districts for the purpose of electing representatives. Each congressional district is to be as equal in population to all other congressional districts in a state as practicable. The congressional districts for the 113th Congress (January 2013 to 2015) are the first Congressional Districts based on 2010 Census data. The TIGER/Line shapefiles for the District of Columbia, Puerto Rico, and the Island Areas (American Samoa, Guam, the Commonwealth of the Northern Mariana Islands, and the United States Virgin Islands) each contain a single record for the non-voting delegate district in these areas. The boundaries of all other congressional districts are provided to the Census Bureau through the Redistricting Data Program (RDP). This layer is part of the 2014 National Transportation Atlas Database.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">The National Transportation Atlas Databases 2014 (NTAD2014) is a set of nationwide geographic datasets of transportation facilities, transportation networks, associated infrastructure and other political and administrative entities. These datasets include spatial information for transportation modal networks and intermodal terminals, as well as the re&#xAC;lated attribute information for these features. This data supports research, analysis, and decision-making across all transportation modes. It is most useful at the national level, but has major applications at regional, state and local scales throughout the transportation community. The data used to compile NTAD2014 was provided by our partners within the United States Department of Transportation (USDOT) and by other agencies throughout the United States Federal Government. These contributors are the actual data stewards and are ultimately responsible for the maintenance and accuracy of their data. This data was sourced from the information contained in the Census Master Address File/Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) database. The content of the MAF/TIGER database is undergoing continuous census data updates and is made available to the public through a variety of TIGER/Line&#xAE; shapefiles.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">The National Transportation Atlas Databases 2014 (NTAD2014) is a set of nationwide geographic datasets of transportation facilities, transportation networks, associated infrastructure and other political and administrative entities. These datasets include spatial information for transportation modal networks and intermodal terminals, as well as the re¬lated attribute information for these features. This data supports research, analysis, and decision-making across all transportation modes. It is most useful at the national level, but has major applications at regional, state and local scales throughout the transportation community. The data used to compile NTAD2014 was provided by our partners within the United States Department of Transportation (USDOT) and by other agencies throughout the United States Federal Government. These contributors are the actual data stewards and are ultimately responsible for the maintenance and accuracy of their data. This data was sourced from the information contained in the Census Master Address File/Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) database. The content of the MAF/TIGER database is undergoing continuous census data updates and is made available to the public through a variety of TIGER/Line® shapefiles.</abstract>
   <note displayLabel="Preferred citation" lang="eng">United States. Department of Transportation. Research and Innovative Technology Administration. (2014). Congressional Districts: United States and Territories, 2013-2015. National Transportation Atlas Database 2014. Available at: http://purl.stanford.edu/tv429pv8839.</note>
   <subject>
     <topic authority="lcsh" lang="eng">Administrative and political divisions</topic>
@@ -86,7 +86,6 @@
   <location>
     <url>http://purl.stanford.edu/tv429pv8839</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:tv429pv8839</recordIdentifier>
@@ -106,14 +105,17 @@
             <gml:upperCorner>179.77847 71.352561</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4138106/" dc:language="eng" dc:title="Washington (D.C.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4796775/" dc:language="eng" dc:title="United States Virgin Islands"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4566966/" dc:language="eng" dc:title="Puerto Rico"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="American Samoa"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Northern Mariana Islands"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4043988/" dc:language="eng" dc:title="Guam"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>National transportation atlas databases : NTAD</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/xw066kj5196</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

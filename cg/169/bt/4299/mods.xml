@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>New Map of Shanghai (Raster Image)</title>
@@ -18,7 +18,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>GeoTIFF</form>
@@ -28,7 +28,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 121&#xB0;23&#x2B9;41&#x2BA;--E 121&#xB0;33&#x2B9;41&#x2BA;/N 31&#xB0;17&#x2B9;--N 31&#xB0;11&#x2B9;4&#x2BA;)</coordinates>
+      <coordinates>(E 121°23ʹ41ʺ--E 121°33ʹ41ʺ/N 31°17ʹ--N 31°11ʹ4ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced image of a map of Shanghai that was published in July 1945. It shows the city with its administrative divisions before the complete integration and redrawing of districts after August 1945. The two foreign settlements no longer appear officially. They are called "special district". In fact, despite the formal take over by the Chinese municipality under Mayor Chen Gongbo, the two areas remained virtually autonomous until the end of the war.</abstract>
@@ -68,8 +68,26 @@
             <gml:upperCorner>121.5613997 31.2832361</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1796231/" dc:language="eng" dc:title="Shanghai (China)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 121&#xB0;23&#x2B9;41&#x2BA;--E 121&#xB0;33&#x2B9;41&#x2BA;/N 31&#xB0;17&#x2B9;--N 31&#xB0;11&#x2B9;4&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 121°23ʹ41ʺ--E 121°33ʹ41ʺ/N 31°17ʹ--N 31°11ʹ4ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Virtual Shanghai</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qs150bm4171</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This work is in the public domain. There are no restrictions on use.</accessCondition>
+  <accessCondition type="license" xlink:href="https://creativecommons.org/publicdomain/mark/1.0/">This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights (Public Domain Mark 1.0).</accessCondition>
+</mods>

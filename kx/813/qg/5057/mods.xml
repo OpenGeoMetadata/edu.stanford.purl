@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Urban Land Cover, Springfield, United States, 2000</title>
@@ -40,7 +40,7 @@
     <dateValid encoding="w3cdtf">2000</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>GeoTIFF</form>
@@ -50,7 +50,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::32618</projection>
-      <coordinates>(W 73&#xB0;5&#x2B9;24&#x2BA;--W 72&#xB0;3&#x2B9;45&#x2BA;/N 42&#xB0;44&#x2B9;29&#x2BA;--N 41&#xB0;32&#x2B9;)</coordinates>
+      <coordinates>(W 73°5ʹ24ʺ--W 72°3ʹ45ʺ/N 42°44ʹ29ʺ--N 41°32ʹ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This raster layer contains urban land use and land cover data for Springfield, Illinois, United States in 2000. Categories of urban land use represented in these data include: urban, nonurban, water and other. Urban land cover, or urban extent, is typically measured by the total built-up area (or impervious surface) of cities, sometimes including the open spaces captured by their built-up areas and the open spaces on the urban fringe affected by urban development. Urban land is occupied by urban uses that include all land in residential, commercial, industrial, and office use; land used for transport, parks, and public facilities; protected land, and vacant land. Land in urban use does not include cultivated lands, pasture lands, forests, farms and villages, intercity roads, and nature areas. These data are part of the Atlas of Urban Expansion.</abstract>
@@ -106,8 +106,25 @@
             <gml:upperCorner>-72.0625582 42.7412815</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4250542/" dc:language="eng" dc:title="Springfield (Ill.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 73&#xB0;5&#x2B9;24&#x2BA;--W 72&#xB0;3&#x2B9;45&#x2BA;/N 42&#xB0;44&#x2B9;29&#x2BA;--N 41&#xB0;32&#x2B9;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 73°5ʹ24ʺ--W 72°3ʹ45ʺ/N 42°44ʹ29ʺ--N 41°32ʹ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Atlas of urban expansion : GIS data for cities</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/rr276tj2464</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

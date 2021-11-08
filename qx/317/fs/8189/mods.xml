@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Petroleum Administration for Defense Districts, United States, 2014</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 179&#xB0;8&#x2B9;50&#x2BA;--E 179&#xB0;46&#x2B9;26&#x2BA;/N 71&#xB0;22&#x2B9;50&#x2BA;--N 18&#xB0;54&#x2B9;50&#x2BA;)</coordinates>
+      <coordinates>(W 179°8ʹ50ʺ--E 179°46ʹ26ʺ/N 71°22ʹ50ʺ--N 18°54ʹ50ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains petroleum administration areas for defense districts (PADDs) within the United States as of 2014. PADDs are geographic aggregations of the 50 States and the District of Columbia into five districts: PADD 1 is the East Coast, PADD 2 the Midwest, PADD 3 the Gulf Coast, PADD 4 the Rocky Mountain Region, and PADD 5 the West Coast. Due to its large population, PADD 1 is further divided into sub-PADDs, with PADD 1A as New England, PADD 1B the Central Atlantic States, and PADD 1C comprising the Lower Atlantic States. There are two additional PADDs (PADDs VI and VII) that encompass U.S. Territories (these are not pictured on the map). The PADDs help users of the Energy Information Administration's petroleum data assess regional petroleum product supplies. This layer is part of a collection of GIS data produced by the U.S. National Energy Information Administration.</abstract>
@@ -73,8 +73,17 @@
             <gml:upperCorner>179.773922 71.380477</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. National Energy Information Center Interactive State Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/gx140ys0508</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Hewatt Transect, Hopkins Marine Life Refuge, Pacific Grove, California, 2004</title>
@@ -27,7 +27,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -37,7 +37,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 121&#xB0;54&#x2B9;14&#x2BA;--W 121&#xB0;54&#x2B9;12&#x2BA;/N 36&#xB0;37&#x2B9;18&#x2BA;--N 36&#xB0;37&#x2B9;17&#x2BA;)</coordinates>
+      <coordinates>(W 121°54ʹ14ʺ--W 121°54ʹ12ʺ/N 36°37ʹ18ʺ--N 36°37ʹ17ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile represents Hewatt's Transect, located in the Hopkins Marine Life Refuge, Pacific Grove, California. In 1931, a graduate student at Hopkins Marine Station (HMS), Willis Hewatt, took an inventory of invertebrates living along a strip of intertidal rocks 108 yards long and a yard wide. This transect represents the original survey area. These data were provided by Carolyn Sotka, HMS. A transect is line across a habitat or part of a habitat. It can be as simple as a string or rope placed in a line on the ground. The number of organisms of each species can be observed and recorded at regular intervals along the transect.</abstract>
@@ -73,7 +73,6 @@
   <location>
     <url>http://purl.stanford.edu/qx938nv4212</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:qx938nv4212</recordIdentifier>
@@ -93,10 +92,25 @@
             <gml:upperCorner>-121.903476 36.62175</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Hopkins Marine Station"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5380437/" dc:language="eng" dc:title="Pacific Grove (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5374363/" dc:language="eng" dc:title="Monterey Bay (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 121&#xB0;54&#x2B9;14&#x2BA;--W 121&#xB0;54&#x2B9;13&#x2BA;/N 36&#xB0;37&#x2B9;18&#x2BA;--N 36&#xB0;37&#x2B9;17&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 121°54ʹ14ʺ--W 121°54ʹ13ʺ/N 36°37ʹ18ʺ--N 36°37ʹ17ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Hopkins Marine Station GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zv579ky1111</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">1998</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Raster Dataset</form>
@@ -35,7 +35,7 @@
       <coordinates>(W 122°30ʹ12ʺ--W 121°47ʹ25ʺ/N 37°3ʹ13ʺ--N 36°26ʹ44ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This GeoTIFF shows multibeam backscatter imagery extraced from gridded bathymetry of Monterey Canyon in California. Original bathymetric data were collected in 1998 using a 30kHz hull-mounted Simrad EM300 multibeam echo sounder system. Grids for this coverage area have cell size of 25 meters. This layer is part of the MBARI Monterey Bay Multibeam Survey collection, a compilation of data and imagery of the Monterey Bay and the adjacent seafloor, including coastline, imagery, and bathymetry. </abstract>
+  <abstract displayLabel="Abstract" lang="eng">This GeoTIFF shows multibeam backscatter imagery extraced from gridded bathymetry of Monterey Canyon in California. Original bathymetric data were collected in 1998 using a 30kHz hull-mounted Simrad EM300 multibeam echo sounder system. Grids for this coverage area have cell size of 25 meters. This layer is part of the MBARI Monterey Bay Multibeam Survey collection, a compilation of data and imagery of the Monterey Bay and the adjacent seafloor, including coastline, imagery, and bathymetry.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This collection of data provides documented layers of of the Monterey Bay to persons/institutions of interest throughout the research and educational communities. These maps help define the geological variability of the seafloor and provide a detailed framework for future oceanographic research, monitoring, and management activities.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Monterey Bay Aquarium Research Institute. (2000) Acoustic Reflexivity (Backscatter) Image: Monterey Canyon, California, 1998. Monterey Bay Aquarium Research Institute. Available at: http://purl.stanford.edu/ts758ts7899</note>
   <note displayLabel="Supplemental information">The Monterey Canyon system is composed of Soquel, Monterey, and Carmel Canyons. There are several distinct meanders, including Gooseneck, Monterey, and San Gregorio. The axis of the canyon contains a relatively flat floor that is approximately 250 meters wide with a down canyon gradient of 1.8° and local wall gradients as steep as 33° to 35°, but with typical wall slopes of between 10° and 25°.
@@ -107,11 +107,17 @@ The morphology of the east and west flanks of Carmel Canyon differ. Relatively s
             <gml:upperCorner>-121.7901937 37.053726</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5374363/about.rdf" dc:language="eng" dc:title="Monterey Bay (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4020248/about.rdf" dc:language="eng" dc:title="Monterey Canyon (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4020152/about.rdf" dc:language="eng" dc:title="Soquel Canyon (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5334270/about.rdf" dc:language="eng" dc:title="Carmel Canyon (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>MBARI Monterey Bay multibeam survey</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zv845sk1001</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
 </mods>

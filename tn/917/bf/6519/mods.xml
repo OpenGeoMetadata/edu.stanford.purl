@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>CDBG Activity, 1998-2015</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 159&#xB0;40&#x2B9;7&#x2BA;--W 64&#xB0;47&#x2B9;17&#x2BA;/N 64&#xB0;50&#x2B9;24&#x2BA;--N 13&#xB0;26&#x2B9;35&#x2BA;)</coordinates>
+      <coordinates>(W 159°40ʹ7ʺ--W 64°47ʹ17ʺ/N 64°50ʹ24ʺ--N 13°26ʹ35ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">The Community Development Block Grant (CDBG) is a federal block grant distributed via formula to states and local governments. States and local governments use these grant funds to carry out housing, economic development, public services, and public improvement activities that serve low- and moderate-income people. The locations of CDBG activities are derived from addresses provided by HUD grantees from 1996 to present in HUDs Integrated Disbursement and Information System (IDIS). Until recently, these addresses were not validated on point of entry. The prevalence of missing or incorrect address data means that HUD cannot guarantee the accuracy of these locations. However, due to recent improvements to IDIS, HUD expects the quality of activity locations to improve over time. Data Current As Of: 9/25/2016</abstract>
@@ -71,7 +71,6 @@
   <location>
     <url>http://purl.stanford.edu/tn917bf6519</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:tn917bf6519</recordIdentifier>
@@ -91,8 +90,17 @@
             <gml:upperCorner>-64.788143 64.840035</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. Department of Housing and Urban Development Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/wc590wy7435</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

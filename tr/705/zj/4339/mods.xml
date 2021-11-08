@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Hydrocarbon Gas Liquid Pipelines, United States, 2014</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 114&#xB0;29&#x2B9;19&#x2BA;--W 73&#xB0;56&#x2B9;59&#x2BA;/N 53&#xB0;46&#x2B9;10&#x2BA;--N 28&#xB0;21&#x2B9;30&#x2BA;)</coordinates>
+      <coordinates>(W 114°29ʹ19ʺ--W 73°56ʹ59ʺ/N 53°46ʹ10ʺ--N 28°21ʹ30ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile represents major hydrocarbon gas liquid (HGL) pipelines in the United States as of November 2014. HGL refers to both the natural gas liquids (paraffins or alkanes) and olefins (alkenes) produced by natural gas processing plants, fractionators, crude oil refineries, and condensate splitters but excludes liquefied natural gas (LNG) and aromatics. HGL is both fuel and feedstock in various markets (petrochemicals, residential heating/cooking, agriculture, and motor fuel blending). Seasonal and regional fluctuations in these end-use sectors, including export markets, affect investment and production decisions throughout the upstream, midstream, and downstream sectors of the oil and gas industry. Billions of dollars have been invested recently in the field gathering systems, lease separators, crude/condensate stabilizers, natural gas processing plants, fractionation facilities, refineries, condensate splitters, pipelines, storage caverns, rail terminals, port facilities, ethylene crackers, and other petrochemical plants that constitute HGL infrastructure. This layer includes interstate trunk lines and selected intrastate lines and are based on publicly available data from a variety of sources with varying scales and levels of accuracy. This layer is part of a collection of GIS data produced by the U.S. National Energy Information Administration.</abstract>
@@ -76,8 +76,17 @@
             <gml:upperCorner>-73.94979 53.769418</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. National Energy Information Center Interactive State Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/gx140ys0508</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

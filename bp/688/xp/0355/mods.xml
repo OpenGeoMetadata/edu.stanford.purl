@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Provinces, Algeria, 2007</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2007</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,11 +32,11 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 8&#xB0;40&#x2B9;21&#x2BA;--E 11&#xB0;58&#x2B9;46&#x2BA;/N 37&#xB0;5&#x2B9;37&#x2BA;--N 18&#xB0;57&#x2B9;36&#x2BA;)</coordinates>
+      <coordinates>(W 8°40ʹ21ʺ--E 11°58ʹ46ʺ/N 37°5ʹ37ʺ--N 18°57ʹ36ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains province boundaries for Algeria as of January 2007. Provinces, or 'wilayas,' are the level 1 administrative units (ADM1) for Algeria. This layer is part of the Map Library dataset containing line and polygon boundaries for individual countries on the African continent.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">The Map Library is a project of the UK charity &#x201C;The Map Maker Trust." It aims to make public domain mapping data more readily available for development in all kinds of fields, from health care to urban management, from de-mining to environmental protection.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">The Map Library is a project of the UK charity “The Map Maker Trust." It aims to make public domain mapping data more readily available for development in all kinds of fields, from health care to urban management, from de-mining to environmental protection.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Map Maker Ltd. (2007). Provinces, Algeria, 2007 Map Maker, Ltd. Available at: http://purl.stanford.edu/bp688xp0355.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Administrative and political divisions</topic>
@@ -56,7 +56,6 @@
   <location>
     <url>http://purl.stanford.edu/bp688xp0355</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:bp688xp0355</recordIdentifier>
@@ -76,8 +75,17 @@
             <gml:upperCorner>11.97955 37.09373</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Algeria"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>The Map Library</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/cf420zs7030</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

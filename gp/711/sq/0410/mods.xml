@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Sea Turtle Sightings Per Unit Effort (Summer), Northwest Atlantic United States, 1979-2007</title>
@@ -15,13 +15,10 @@
   <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
   <originInfo>
     <publisher>Northeast Ocean Data</publisher>
-    <place>
-      <placeTerm type="text"/>
-    </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +29,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 76&#xB0;48&#x2B9;20&#x2BA;--W 64&#xB0;10&#x2B9;/N 45&#xB0;24&#x2B9;23&#x2BA;--N 34&#xB0;50&#x2B9;)</coordinates>
+      <coordinates>(W 76°48ʹ20ʺ--W 64°10ʹ/N 45°24ʹ23ʺ--N 34°50ʹ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This data product was created as part of the Northwest Atlantic Marine Ecoregional Assessment. The Nature Conservancy developed this science-based ecoregional assessment for the Northwest Atlantic Marine region (Bay of Fundy to Cape Hatteras, North Carolina). This assessment synthesizes information on oceanography, chemistry, geology, biology, and social science to inform decisions about coastal and marine ecosystems. By integrating this information at a regional level, the Conservancy is able to provide both a greater understanding of the interrelated biological diversity of the marine ecoregion, and a clearer picture of the current condition of its natural areas and the challenges to their continued persistence. The ten categories of targets identified as the primary structure for the marine ecoregional assessment are: coastal and estuarine habitats, benthic habitats, diadromous fish, demersal fish, pelagic fish, forage fish, nearshore shellfish, shorebirds and seabirds, marine mammals, and sea turtles. For more information and a detailed report, please visit www.nature.ly/namera.Geospatial data obtained from the United States Navy included point shapefiles of valid sightings for all turtle targets and pre-calculated effort grids for each season. Sightings data were taken from NMFS-NEFSC Aerial Surveys, NMFS-NEFSC Shipboard Surveys, and the North Atlantic Right Whale Consortium Database. The validity of sightings was carefully screened and verified by United States Navy contractors before inclusion in the model. Invalid records were not included in the analysis. Sightings for each ten minute square were divided by the effort for each ten minute square to calculate Sightings Per Unit Effort (SPUE). SPUE was calculated for each target species, for each season, and for each ten minute square.</abstract>
@@ -108,7 +105,6 @@
   <location>
     <url>http://purl.stanford.edu/gp711sq0410</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:gp711sq0410</recordIdentifier>
@@ -128,23 +124,25 @@
             <gml:upperCorner>-64.166667 45.406517</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Albemarle Sound (N.C.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Baltimore Canyon"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Fundy, Bay of"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Chesapeake Bay (Md. and Va.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Delaware Bay (Del. and N.J.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Georges Bank"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Great South Channel (North Atlantic Ocean)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Maine, Gulf of"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Ontario, Lake (N.Y. and Ont.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Long Island Sound (N.Y. and Conn.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Mid-Atlantic Bight"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Nantucket Shoals (Mass.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Norfolk Canyon"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Stellwagen Bank"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Northeastern States"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Middle Atlantic States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 76&#xB0;48&#x2B9;20&#x2BA;--W 64&#xB0;10&#x2B9;/N 45&#xB0;24&#x2B9;23&#x2BA;--N 34&#xB0;50&#x2B9;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 76°48ʹ20ʺ--W 64°10ʹ/N 45°24ʹ23ʺ--N 34°50ʹ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Northeast Ocean Data : Maps and data for ocean planning in the northeastern United States</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sg639pq7229</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

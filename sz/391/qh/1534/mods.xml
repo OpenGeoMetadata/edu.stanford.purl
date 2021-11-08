@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Tide Tables, Atlantic Coast, New England, 2010</title>
@@ -28,12 +28,12 @@
   <originInfo>
     <publisher>United States. National Ocean Service</publisher>
     <place>
-      <placeTerm type="text">Charleston, SC, </placeTerm>
+      <placeTerm type="text">Charleston, SC,</placeTerm>
     </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -44,7 +44,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 73&#xB0;59&#x2B9;54&#x2BA;--W 66&#xB0;59&#x2B9;6&#x2BA;/N 44&#xB0;55&#x2B9;24&#x2BA;--N 40&#xB0;34&#x2B9;)</coordinates>
+      <coordinates>(W 73°59ʹ54ʺ--W 66°59ʹ6ʺ/N 44°55ʹ24ʺ--N 40°34ʹ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains official tide predicitons for New England's Atlantic Coast for 2010. The official Tide prediction tables are published annually on October 1, for the following calendar year. Tide predictions generated prior to the publishing date of the official tables are subject to change. The predictions from the web based NOAA Tide Predictions are based upon the latest information available as of the date of your request. Tide predictions generated may differ from the official published predictions if information for the station requested has been updated since the publishing date of the official published tables.</abstract>
@@ -94,9 +94,25 @@
             <gml:upperCorner>-66.985 44.923333</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Atlantic Coast (U.S.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3373405/" dc:language="eng" dc:title="Atlantic Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 73&#xB0;59&#x2B9;54&#x2BA;--W 66&#xB0;59&#x2B9;6&#x2BA;/N 44&#xB0;55&#x2B9;24&#x2BA;--N 40&#xB0;34&#x2B9;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 73°59ʹ54ʺ--W 66°59ʹ6ʺ/N 44°55ʹ24ʺ--N 40°34ʹ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Northeast Ocean Data : Maps and data for ocean planning in the northeastern United States</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sg639pq7229</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Units of General Local Government, 2016</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 178&#xB0;13&#x2B9;40&#x2BA;--W 65&#xB0;14&#x2B9;39&#x2BA;/N 71&#xB0;23&#x2B9;26&#x2BA;--N 17&#xB0;55&#x2B9;38&#x2BA;)</coordinates>
+      <coordinates>(W 178°13ʹ40ʺ--W 65°14ʹ39ʺ/N 71°23ʹ26ʺ--N 17°55ʹ38ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">The term "Unit of General Local Government" (UGLG) means a city, county, town, parish, village, or other general-purpose political subdivision of a State. UGLGs are comprised of several Census geographies, summary level 050 (State-County), summary level 060 (County Subdivision), summary level 070 (State-County-County Subdivision-Place/Remainder), summary level 160 (Place), summary level 170 (State-Consolidate City) and the remainder of county boundaries. This version has the CPD entitlement grantees removed. Data Current As Of: FY 2016</abstract>
@@ -53,7 +53,6 @@
   <location>
     <url>http://purl.stanford.edu/hb190bj4432</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:hb190bj4432</recordIdentifier>
@@ -73,8 +72,17 @@
             <gml:upperCorner>-65.24426 71.390483</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. Department of Housing and Urban Development Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/wc590wy7435</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Coastal Wetlands, Northeast United States, 1977-2014</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 128&#xB0;3&#x2BA;--W 65&#xB0;15&#x2B9;16&#x2BA;/N 51&#xB0;39&#x2B9;--N 22&#xB0;43&#x2B9;33&#x2BA;)</coordinates>
+      <coordinates>(W 128°3ʺ--W 65°15ʹ16ʺ/N 51°39ʹ--N 22°43ʹ33ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents the extent, approximate location and type of wetlands and deepwater habitats in the Northeastern United States between 1977 ansd 2014. These data delineate the areal extent of wetlands and surface waters as defined by Cowardin et al. (1979). Certain wetland habitats are excluded from the National mapping program because of the limitations of aerial imagery as the primary data source used to detect wetlands. These habitats include seagrasses or submerged aquatic vegetation that are found in the intertidal and subtidal zones of estuaries and near shore coastal waters. Some deepwater reef communities (coral or tuberficid worm reefs) have also been excluded from the inventory. These habitats, because of their depth, go undetected by aerial imagery. By policy, the Service also excludes certain types of "farmed wetlands" as may be defined by the Food Security Act or that do not coincide with the Cowardin et al. definition. Contact the Service's Regional Wetland Coordinator for additional information on what types of farmed wetlands are included on wetland maps. This dataset should be used in conjunction with the Wetlands Project Metadata layer, which contains project specific wetlands mapping procedures and information on dates, scales and emulsion of imagery used to map the wetlands within specific project boundaries.</abstract>
@@ -80,7 +80,7 @@
     <temporal encoding="w3cdtf">1977-2014</temporal>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="">Geoscientific Information</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
   </subject>
   <subject>
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="environment">Environment</topic>
@@ -113,15 +113,25 @@
             <gml:upperCorner>-66.984703 45.096053</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4831725/" dc:language="eng" dc:title="Connecticut"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4971068/" dc:language="eng" dc:title="Maine"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6254926/" dc:language="eng" dc:title="Massachusetts"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5090174/" dc:language="eng" dc:title="New Hampshire"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5101760/" dc:language="eng" dc:title="New Jersey"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5128638/" dc:language="eng" dc:title="New York (State)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5224323/" dc:language="eng" dc:title="Rhode Island"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Northeastern States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 74&#xB0;20&#x2B9;21&#x2BA;--W 66&#xB0;59&#x2B9;5&#x2BA;/N 45&#xB0;5&#x2B9;46&#x2BA;--N 40&#xB0;30&#x2B9;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 74°20ʹ21ʺ--W 66°59ʹ5ʺ/N 45°5ʹ46ʺ--N 40°30ʹ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Northeast Ocean Data : Maps and data for ocean planning in the northeastern United States</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sg639pq7229</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

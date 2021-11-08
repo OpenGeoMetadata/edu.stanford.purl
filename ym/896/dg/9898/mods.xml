@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Rhode Island Renewable Energy Zone, 2010</title>
   </titleInfo>
@@ -15,13 +15,10 @@
   <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
   <originInfo>
     <publisher>Northeast Ocean Data</publisher>
-    <place>
-      <placeTerm type="text"/>
-    </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +29,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 71&#xB0;39&#x2B9;12&#x2BA;--W 71&#xB0;28&#x2B9;37&#x2BA;/N 41&#xB0;10&#x2B9;7&#x2BA;--N 41&#xB0;5&#x2B9;45&#x2BA;)</coordinates>
+      <coordinates>(W 71°39ʹ12ʺ--W 71°28ʹ37ʺ/N 41°10ʹ7ʺ--N 41°5ʹ45ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">A Renewable Energy Zone, approximately 2 km wide (landward from state water boundary), extending from a location east to southwest of Block Island has been selected as the most suitable area for offshore renewable energy development in the Ocean SAMP area.Global warming is perhaps the most critical issue of the 21st century. It is already accelerating sea level rise, leading to beach erosion, property losses, and increasing Rhode Island's vulnerability to hurricanes and floods. Climate change may adversely affect food supply, public health, and the economy. Rhode Island is committed to reducing its carbon footprint by using renewable energy resources, primarily offshore wind farms, to meet 15 percent of its energy needs. From 2008 to 2010, through a public policy process that includes scientific research and stakeholder involvement, the Ocean SAMP will make Rhode Island the first state in the nation to zone its offshore waters for diverse activities including renewable energy development. This process will also protect current uses and habitats through zones for commercial fishing; critical habitats for fish, marine animals, and birds; marine transport; and more</abstract>
@@ -80,9 +77,25 @@
             <gml:upperCorner>-71.477059 41.168668</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Block Island (R.I. : Island)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5224323/" dc:language="eng" dc:title="Rhode Island"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 71&#xB0;39&#x2B9;12&#x2BA;--W 71&#xB0;28&#x2B9;37&#x2BA;/N 41&#xB0;10&#x2B9;7&#x2BA;--N 41&#xB0;5&#x2B9;45&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 71°39ʹ12ʺ--W 71°28ʹ37ʺ/N 41°10ʹ7ʺ--N 41°5ʹ45ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Northeast Ocean Data : Maps and data for ocean planning in the northeastern United States</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sg639pq7229</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

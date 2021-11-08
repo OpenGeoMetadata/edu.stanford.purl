@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>General Plan: Sacramento County, California, 2011-2030</title>
@@ -24,7 +24,7 @@
     <edition>GENERAL_PLAN_2030</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -35,10 +35,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::2226</projection>
-      <coordinates>(W 121&#xB0;51&#x2B9;48&#x2BA;--W 121&#xB0;1&#x2B9;/N 38&#xB0;44&#x2B9;13&#x2BA;--N 38&#xB0;51&#x2BA;)</coordinates>
+      <coordinates>(W 121°51ʹ48ʺ--W 121°1ʹ/N 38°44ʹ13ʺ--N 38°51ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts land use boundaries of the General Plan for unincorporated areas in the County of Sacramento, California effective through 2030, including Agricultural, Residential, Public, Commercial, Industrial, Open Space and Recreational. The General Plan is a set of policies, programs and maps that form a blueprint for physical development in the unincorporated County. The plan addresses important community issues such as new growth, housing needs and environmental protection. It's policies are instrumental in planning infrastructure to accommodate future growth. State law requires that all California Counties and Cities adopt General Plans. On November 9, 2011, the Sacramento County Board of Supervisors adopted an updated General Plan. The planning horizon of the County&#x2019;s previous General Plan was 1990 to 2010; the updated General Plan&#x2019;s planning horizon looks out to 2030. Key changes include a new growth management strategy, a stronger focus on addressing existing communities and revitalizing aging commercial corridors, a new Economic Development Element, and strategies to reduce greenhouse gas emissions consistent with state law. This layer is part of a collection of data originally produced for Sacramento County, California.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts land use boundaries of the General Plan for unincorporated areas in the County of Sacramento, California effective through 2030, including Agricultural, Residential, Public, Commercial, Industrial, Open Space and Recreational. The General Plan is a set of policies, programs and maps that form a blueprint for physical development in the unincorporated County. The plan addresses important community issues such as new growth, housing needs and environmental protection. It's policies are instrumental in planning infrastructure to accommodate future growth. State law requires that all California Counties and Cities adopt General Plans. On November 9, 2011, the Sacramento County Board of Supervisors adopted an updated General Plan. The planning horizon of the County’s previous General Plan was 1990 to 2010; the updated General Plan’s planning horizon looks out to 2030. Key changes include a new growth management strategy, a stronger focus on addressing existing communities and revitalizing aging commercial corridors, a new Economic Development Element, and strategies to reduce greenhouse gas emissions consistent with state law. This layer is part of a collection of data originally produced for Sacramento County, California.</abstract>
   <abstract displayLabel="Purpose" lang="eng">The Sacramento County Geographic Information Systems (GIS) unit falls under the purview of the Sacramento County Department of Technology and is tasked with initiating, integrating and promoting the use of GIS Technology in the support of County business goals and objectives. This coverage can be used for basic applications, such as viewing, querying and map output production, or to provide a base map to support graphical overlays and analyses of geospatial data.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Sacramento County GIS. (2011). General Plan: Sacramento County, California, 2011-2030. Sacramento County, California. Available at http://purl.stanford.edu/nt578hj6234.</note>
   <note displayLabel="Supplemental information">Sacramento County General Plan: http://www.per.saccounty.net/PlansandProjectsIn-Progress/Pages/GeneralPlan.aspx</note>
@@ -86,9 +86,25 @@
             <gml:upperCorner>-121.022588 38.735947</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Sacramento County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 121&#xB0;51&#x2B9;47&#x2BA;--W 121&#xB0;1&#x2B9;21&#x2BA;/N 38&#xB0;44&#x2B9;9&#x2BA;--N 38&#xB0;1&#x2B9;5&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 121°51ʹ47ʺ--W 121°1ʹ21ʺ/N 38°44ʹ9ʺ--N 38°1ʹ5ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Sacramento County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/km129px7635</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

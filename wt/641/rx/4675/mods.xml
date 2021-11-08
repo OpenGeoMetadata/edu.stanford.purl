@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Cutural Sites, Syria, May, 2013</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(E 35&#xB0;37&#x2B9;29&#x2BA;--E 41&#xB0;57&#x2B9;21&#x2BA;/N 37&#xB0;3&#x2B9;28&#x2BA;--N 32&#xB0;20&#x2B9;53&#x2BA;)</coordinates>
+      <coordinates>(E 35°37ʹ29ʺ--E 41°57ʹ21ʺ/N 37°3ʹ28ʺ--N 32°20ʹ53ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This shapefile contains geographic location (point geometry), name, type, and area name, of over 1000 cultural heritage sites and museums in Syria compiled by the Cultural Heritage Center, Bureau of Educational and Cultural Affairs, U.S. Department of State as of Spring 2013. The sites are categorized by type, which include but not limited to, archaelogical sites, roman ruins, mosques, schools, churches, cemetaries, and towns. The data contained herein is entirely unclassified.</abstract>
@@ -74,7 +74,6 @@
   <location>
     <url>http://purl.stanford.edu/wt641rx4675</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:wt641rx4675</recordIdentifier>
@@ -94,8 +93,17 @@
             <gml:upperCorner>41.955972 37.057708</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Syria"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. State Department, Humanitarian Information Unit GIS Maps and Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zy496qj4689</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

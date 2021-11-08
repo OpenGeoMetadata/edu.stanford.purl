@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Constituencies, Namibia, 2007</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2007</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,11 +32,11 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(E 11&#xB0;42&#x2B9;56&#x2BA;--E 25&#xB0;15&#x2B9;24&#x2BA;/S 16&#xB0;57&#x2B9;36&#x2BA;--S 28&#xB0;58&#x2B9;10&#x2BA;)</coordinates>
+      <coordinates>(E 11°42ʹ56ʺ--E 25°15ʹ24ʺ/S 16°57ʹ36ʺ--S 28°58ʹ10ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains constituency boundaries for Namibia as of January 2007. These are the level 2 administrative units (ADM2) for Namibia. This layer is part of the Map Library dataset containing line and polygon boundaries for individual countries on the African continent.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">The Map Library is a project of the UK charity &#x201C;The Map Maker Trust." It aims to make public domain mapping data more readily available for development in all kinds of fields, from health care to urban management, from de-mining to environmental protection.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">The Map Library is a project of the UK charity “The Map Maker Trust." It aims to make public domain mapping data more readily available for development in all kinds of fields, from health care to urban management, from de-mining to environmental protection.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Map Maker Ltd. (2007). Constituencies, Namibia, 2007 Map Maker, Ltd. Available at: http://purl.stanford.edu/cs051py0596.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Administrative and political divisions</topic>
@@ -53,7 +53,6 @@
   <location>
     <url>http://purl.stanford.edu/cs051py0596</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:cs051py0596</recordIdentifier>
@@ -73,8 +72,17 @@
             <gml:upperCorner>25.2567 -16.95989</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3355338/" dc:language="eng" dc:title="Namibia"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>The Map Library</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/cf420zs7030</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

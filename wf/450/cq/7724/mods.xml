@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Folds: Offshore of Santa Barbara, California, 2013</title>
@@ -58,7 +58,7 @@
     <dateValid encoding="w3cdtf">2013</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -69,7 +69,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 119&#xB0;48&#x2B9;48&#x2BA;--W 119&#xB0;37&#x2B9;1&#x2BA;/N 34&#xB0;24&#x2B9;45&#x2BA;--N 34&#xB0;20&#x2B9;32&#x2BA;)</coordinates>
+      <coordinates>(W 119°48ʹ48ʺ--W 119°37ʹ1ʺ/N 34°24ʹ45ʺ--N 34°20ʹ32ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile depicts geological folds within the offshore area of Santa Barbara, California. This map area lies within the Western Transverse Ranges geologic province, which is north of the California Continental Borderland (Fisher and others, 2009). This province has undergone significant north-south compression since the Miocene, and recent GPS data suggest north-south shortening of about 6 mm/yr (Larson and Webb, 1992). The active, east-west-striking Pitas Point Fault (a broad zone that includes south-dipping reverse faults), Red Mountain Fault, and Rincon Creek Fault are some of the structures on which this shortening occurs (see, for example, Jackson and Yeats, 1982; Sorlien and others, 2000; Fisher and others, 2009). This fault system, in aggregate, extends for about 100 km through the Ventura and Santa Barbara Basins and represents an important earthquake hazard (see, for example, Fisher and others, 2009). A map that shows these data is published in Scientific Investigations Map 3281, "California State Waters Map Series--Offshore of Santa Barbara, California." This layer is part of USGS Data Series 781.</abstract>
@@ -98,7 +98,7 @@
     <temporal encoding="w3cdtf">2013</temporal>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="">Geoscientific Information</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
   </subject>
   <subject>
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="oceans">Oceans</topic>
@@ -106,8 +106,6 @@
   <location>
     <url>http://purl.stanford.edu/wf450cq7724</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:wf450cq7724</recordIdentifier>
@@ -127,10 +125,25 @@
             <gml:upperCorner>-119.618148 34.411562</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Santa Barbara County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 119&#xB0;48&#x2B9;48&#x2BA;--W 119&#xB0;37&#x2B9;5&#x2BA;/N 34&#xB0;24&#x2B9;42&#x2BA;--N 34&#xB0;20&#x2B9;41&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 119°48ʹ48ʺ--W 119°37ʹ5ʺ/N 34°24ʹ42ʺ--N 34°20ʹ41ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California State Waters Map Series Data Catalog</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ng324gh5570</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>HOME Activity, 1995-2015</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 159&#xB0;29&#x2B9;1&#x2BA;--W 65&#xB0;55&#x2B9;15&#x2BA;/N 64&#xB0;50&#x2B9;29&#x2BA;--N 18&#xB0;37&#x2BA;)</coordinates>
+      <coordinates>(W 159°29ʹ1ʺ--W 65°55ʹ15ʺ/N 64°50ʹ29ʺ--N 18°37ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile contains data related to HOME Investment Partnership Program (HOME) activity from 1995-2015. HOME is authorized under Title II of the Cranston-Gonzalez National Affordable Housing Act. HOME provides formula grants to States and localities that communities use often in partnership with local nonprofit groups to fund a wide range of activities that build, buy, and/or rehabilitate affordable housing for rent or homeownership or provide direct rental assistance to low-income people. Data current as of: 9/25/2016</abstract>
@@ -59,7 +59,6 @@
   <location>
     <url>http://purl.stanford.edu/zs161hr7155</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:zs161hr7155</recordIdentifier>
@@ -79,8 +78,17 @@
             <gml:upperCorner>-65.920943 64.841419</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. Department of Housing and Urban Development Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/wc590wy7435</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

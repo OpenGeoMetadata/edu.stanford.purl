@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Contours (10m): Offshore of Bodega Head, California, 2010</title>
@@ -52,7 +52,7 @@
     <edition>Version 1.0</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -63,7 +63,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 123&#xB0;10&#x2B9;21&#x2BA;--W 122&#xB0;58&#x2B9;39&#x2BA;/N 38&#xB0;24&#x2B9;42&#x2BA;--N 38&#xB0;15&#x2B9;8&#x2BA;)</coordinates>
+      <coordinates>(W 123°10ʹ21ʺ--W 122°58ʹ39ʺ/N 38°24ʹ42ʺ--N 38°15ʹ8ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile represents contour lines at 10 meter intervals for the area offshore of Bodega Head, California. These data were generated from bathymetry data collected by California State University, Monterey Bay (CSUMB) and by Fugro Pelagos. Mapping was completed between 2007 and 2010, using a combination of 200-kHz and 400-kHz Reson 7125, and 244-kHz Reson 8101 multibeam echosounders, as well as 468-kHz SEA SWATHPlus interferometric system. These mapping missions combined to collect bathymetry from about the 10-m isobath to beyond the 3-nautical-mile limit of California State Waters. Bathymetric contours at 10-m intervals were generated from a bathymetric surface model. The most continuous contour segments were preserved while smaller segments and isolated island polygons were excluded from the final output. Contours were smoothed via a polynomial approximation with exponential kernel (PAEK) algorithm using a tolerance value of 60 m. The contours were then clipped to the boundary of the map area. These data are not intended for navigational purposes. This layer is part of USGS DS 781.</abstract>
@@ -97,7 +97,7 @@
     <temporal encoding="w3cdtf">2007-2010</temporal>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="">Geoscientific Information</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
   </subject>
   <subject>
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="oceans">Oceans</topic>
@@ -105,8 +105,6 @@
   <location>
     <url>http://purl.stanford.edu/wk028sg4805</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:wk028sg4805</recordIdentifier>
@@ -126,12 +124,25 @@
             <gml:upperCorner>-122.977506 38.411523</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5370468/" dc:language="eng" dc:title="Marin County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5397100/" dc:language="eng" dc:title="Sonoma County (Calif.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Bodega Bay (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 123&#xB0;10&#x2B9;21&#x2BA;--W 122&#xB0;58&#x2B9;39&#x2BA;/N 38&#xB0;24&#x2B9;41&#x2BA;--N 38&#xB0;15&#x2B9;9&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 123°10ʹ21ʺ--W 122°58ʹ39ʺ/N 38°24ʹ41ʺ--N 38°15ʹ9ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California State Waters Map Series Data Catalog</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ng324gh5570</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

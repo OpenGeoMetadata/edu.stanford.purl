@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Biologic Resource Areas: Humboldt County, California, 2015</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2015</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::26741</projection>
-      <coordinates>(W 124&#xB0;25&#x2B9;47&#x2BA;--W 123&#xB0;23&#x2B9;6&#x2BA;/N 41&#xB0;28&#x2B9;30&#x2BA;--N 39&#xB0;59&#x2B9;41&#x2BA;)</coordinates>
+      <coordinates>(W 124°25ʹ47ʺ--W 123°23ʹ6ʺ/N 41°28ʹ30ʺ--N 39°59ʹ41ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts boundaries for Biologic Resource Areas in the County of Humboldt, California. Biologic Resources are designated due to their rare or especially valuable nature or role in an ecosystem and can be easily disturbed or degraded by human activity. Biologic Resources are protected and preserved for their genetic, scientific and educational values. This coverage was derived from the "Sensitive Habitats Policy Background Study" map (March 1982) by the Humboldt County Planning Department. This layer was digitized using General Plan 15 foot Basemap. Original map scale: 1 inch = 1 Mile. Data may not be accurate for large scale overlays. Data was registered to CA Stateplane Zone 1 NAD27 Units Feet.</abstract>
@@ -89,8 +89,25 @@
             <gml:upperCorner>-123.40593 41.465227</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Humboldt County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;23&#x2B9;35&#x2BA;--W 123&#xB0;24&#x2B9;21&#x2BA;/N 41&#xB0;27&#x2B9;55&#x2BA;--N 40&#xB0;8&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 124°23ʹ35ʺ--W 123°24ʹ21ʺ/N 41°27ʹ55ʺ--N 40°8ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Humboldt County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zc242vz4054</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

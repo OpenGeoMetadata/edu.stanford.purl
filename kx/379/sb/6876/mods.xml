@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Petroleum Product Terminals, United States, 2014</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 176&#xB0;39&#x2B9;27&#x2BA;--E 144&#xB0;41&#x2B9;55&#x2BA;/N 66&#xB0;54&#x2B9;8&#x2BA;--N 13&#xB0;22&#x2B9;23&#x2BA;)</coordinates>
+      <coordinates>(W 176°39ʹ27ʺ--E 144°41ʹ55ʺ/N 66°54ʹ8ʺ--N 13°22ʹ23ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile represents all operable bulk petroleum product terminals located in the 50 States and the District of Columbia with a total bulk shell storage capacity of 50,000 barrels or more, and/or ability to receive volumes from tanker, barge, or pipeline. Survey locations were adjusted using public data. These data were gathered from "EIA-815, Monthly Bulk Terminal and Blender Report." These data are current as of November 2014. This layer is part of a collection of GIS data produced by the U.S. National Energy Information Administration.</abstract>
@@ -79,8 +79,17 @@
             <gml:upperCorner>144.698613 66.90227</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. National Energy Information Center Interactive State Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/gx140ys0508</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

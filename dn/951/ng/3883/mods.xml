@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Transgressive Contours: Bolinas to Pescadero, California, 2010</title>
@@ -44,7 +44,7 @@
     <dateValid encoding="w3cdtf" point="end">2010</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -55,7 +55,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 122&#xB0;47&#x2B9;10&#x2BA;--W 122&#xB0;24&#x2B9;14&#x2BA;/N 37&#xB0;56&#x2B9;42&#x2BA;--N 37&#xB0;13&#x2B9;48&#x2BA;)</coordinates>
+      <coordinates>(W 122°47ʹ10ʺ--W 122°24ʹ14ʺ/N 37°56ʹ42ʺ--N 37°13ʹ48ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile contains transgressive contours at 5 and 10 meter intervals for the areas within the 3-nautical mile limit between Bolinas and Pescadero in California. As part of the USGS's California State Waters Mapping Project, a 50-m grid of depth to the transgressive surface of the last glacial maximum was generated for the 3-mile offshore region. The resulting grid covers an area of approximately 550 sq km. The depth to the transgressive surface of the Last Glacial Maximum ranges between 4 and 78 meters. This layer is part of USGS Data Series 781. These contours are published in Scientific Investigations Map 3306, "California State Waters Map Series--Offshore San Gregorio, California (sheet 9).</abstract>
@@ -83,7 +83,7 @@
     <temporal encoding="w3cdtf">2007-2010</temporal>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="">Geoscientific Information</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
   </subject>
   <subject>
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="oceans">Oceans</topic>
@@ -94,7 +94,6 @@
   <location>
     <url>http://purl.stanford.edu/dn951ng3883</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:dn951ng3883</recordIdentifier>
@@ -114,11 +113,25 @@
             <gml:upperCorner>-122.408579 37.944871</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5392427/" dc:language="eng" dc:title="San Mateo County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5370468/" dc:language="eng" dc:title="Marin County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;47&#x2B9;3&#x2BA;--W 122&#xB0;24&#x2B9;31&#x2BA;/N 37&#xB0;56&#x2B9;42&#x2BA;--N 37&#xB0;13&#x2B9;48&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°47ʹ3ʺ--W 122°24ʹ31ʺ/N 37°56ʹ42ʺ--N 37°13ʹ48ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California State Waters Map Series Data Catalog</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ng324gh5570</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

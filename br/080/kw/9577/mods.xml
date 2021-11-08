@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Medical Service Study Areas, California, 2007</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2007</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 124&#xB0;34&#x2B9;48&#x2BA;--W 113&#xB0;29&#x2B9;53&#x2BA;/N 42&#xB0;4&#x2B9;20&#x2BA;--N 32&#xB0;24&#x2B9;59&#x2BA;)</coordinates>
+      <coordinates>(W 124°34ʹ48ʺ--W 113°29ʹ53ʺ/N 42°4ʹ20ʺ--N 32°24ʹ59ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents medical service study areas (MSSA) in California for 2007. MSSAs are the defined geographic analysis unit for the Office of Statewide Health Planning and Development (OSHPD). MSSAs are a principal component for display of large data bases through OSHPD's and State of California's Geographic Information Systems. MSSAs have the potential for assisting in needs assessment, health planning, and health policy development. MSSA's are reproduced on the decadal census and the boundaries are formally approved by the Health Manpower Policy Commission. Moreover, the US Department of Health and Human Services, Health Resources Serviced Administration (HRSA) formally recognizes California MSSA's as the Rational Service Area (RSA) for medical service for California.The 2007 MSSA layer (developed during July 2009 - July 2010) is an update to the 2005 version and represents the boundaries constructed following the census. The MSSA layer is the unique MSSA boundaries composed of aggregated census tracts. This layer is created by dissolving all census tracts on a common MSSA Name/ID. MSSA's are maintained by OSHPD and used by multiple agencies to administer a variety of state and federal health-related programs. This layer is part of the Healthcare Atlas of California.</abstract>
@@ -83,8 +83,25 @@
             <gml:upperCorner>-114.131212 42.009519</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;28&#x2B9;55&#x2BA;--W 114&#xB0;7&#x2B9;52&#x2BA;/N 42&#xB0;34&#x2BA;--N 32&#xB0;31&#x2B9;44&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 124°28ʹ55ʺ--W 114°7ʹ52ʺ/N 42°34ʺ--N 32°31ʹ44ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Healthcare Atlas of California</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qw778bk1665</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

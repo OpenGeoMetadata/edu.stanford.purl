@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Important Farmland, Tulare County, California, 1996</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">1996</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 119&#xB0;34&#x2B9;35&#x2BA;--W 117&#xB0;57&#x2B9;23&#x2BA;/N 36&#xB0;45&#x2B9;49&#x2BA;--N 35&#xB0;46&#x2B9;23&#x2BA;)</coordinates>
+      <coordinates>(W 119°34ʹ35ʺ--W 117°57ʹ23ʺ/N 36°45ʹ49ʺ--N 35°46ʹ23ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents areas of important farmland in Tulare County, California for 1996. Established in 1982, Government Code Section 65570 mandates FMMP to biennially report on the conversion of farmland and grazing land, and to provide maps and data to local government and the public.</abstract>
@@ -64,7 +64,6 @@ Prior to the availability of SSURGO, soil information was hand-transferred from 
   <location>
     <url>http://purl.stanford.edu/qt326qw0012</url>
   </location>
-  <accessCondition type="useAndReproduction">No restrictions on access or use. A citation for the Farmland Mapping and Monitoring Program on any map products, graphic media, or data analyses based on the data is appreciated.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:qt326qw0012</recordIdentifier>
@@ -84,8 +83,25 @@ Prior to the availability of SSURGO, soil information was hand-transferred from 
             <gml:upperCorner>-117.979878 36.753212</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Tulare County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 119&#xB0;34&#x2B9;21&#x2BA;--W 117&#xB0;58&#x2B9;48&#x2BA;/N 36&#xB0;45&#x2B9;12&#x2BA;--N 35&#xB0;47&#x2B9;12&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 119°34ʹ21ʺ--W 117°58ʹ48ʺ/N 36°45ʹ12ʺ--N 35°47ʹ12ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Farmland Mapping and Monitoring Program, 1996</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/rz415nf2825</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Sustainable Communities Regional Planning Grantees, 2014</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 124&#xB0;43&#x2B9;59&#x2BA;--W 66&#xB0;56&#x2B9;59&#x2BA;/N 49&#xB0;4&#x2BA;--N 24&#xB0;32&#x2B9;38&#x2BA;)</coordinates>
+      <coordinates>(W 124°43ʹ59ʺ--W 66°56ʹ59ʺ/N 49°4ʺ--N 24°32ʹ38ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile displays the planning areas of the winners of the Sustainable Communities Regional Planning Grant competition for FY2010 and FY2011. Program applicants were required to designate their planning area according to a set of criteria given in the Notice of Funding Availability, which in most circumstances ensured that applicant geographies would be composed of counties, MSAs, or the planning areas of Metropolitan Planning Organizations. The majority of geographies in this file were assembled from county, MSA, and MPO shapefiles available on servers or publicly elsewhere. The remaining geographies used publicly available geospatial data such as municipal line files and tribal boundaries. Data Current As Of: 12/03/2014</abstract>
@@ -65,7 +65,6 @@
   <location>
     <url>http://purl.stanford.edu/jh934fw1938</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:jh934fw1938</recordIdentifier>
@@ -85,8 +84,17 @@
             <gml:upperCorner>-66.949831 49.001132</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. Department of Housing and Urban Development Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/wc590wy7435</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

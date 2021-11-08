@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Carmel Bay Watersheds, Monterey County, California, 2015</title>
   </titleInfo>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 121&#xB0;57&#x2B9;55&#x2BA;--W 121&#xB0;54&#x2B9;45&#x2BA;/N 36&#xB0;36&#x2B9;34&#x2BA;--N 36&#xB0;33&#x2B9;27&#x2BA;)</coordinates>
+      <coordinates>(W 121°57ʹ55ʺ--W 121°54ʹ45ʺ/N 36°36ʹ34ʺ--N 36°33ʹ27ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the boundaries of the Carmel Bay (ASBS), Sawmill Gulch, and Seal Rock, watersheds in Monterey County, California. The Carmel Bay ASBS drains the Pescadero Canyon. Sawmill Gulch drains the Huckleberry Hill Natural Area, the northern portion of the Poppy Hills golf course, residential areas, and part of the Monterey Peninsula Club Dunes Course. Seal Rock drains the southern part of the Poppy Hills golf course, surrounding residential areas, the Spyglass Hill golf course, and oteher open space areas. This layer is part of a collection of GIS data for Monterey County in California.</abstract>
@@ -59,7 +59,6 @@
   <location>
     <url>http://purl.stanford.edu/yt110ph8841</url>
   </location>
-  <accessCondition type="useAndReproduction">No restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:yt110ph8841</recordIdentifier>
@@ -79,8 +78,17 @@
             <gml:upperCorner>-121.912405 36.609573</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Monterey County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Monterey County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/yz208xk1891</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

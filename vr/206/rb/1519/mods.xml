@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Shellfish Habitats for Maine, Massachusetts, and New Hampshire, 1975-2013</title>
@@ -15,13 +15,10 @@
   <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
   <originInfo>
     <publisher>Northeast Ocean Data</publisher>
-    <place>
-      <placeTerm type="text"/>
-    </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,10 +29,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 71&#xB0;17&#x2B9;10&#x2BA;--W 66&#xB0;56&#x2B9;17&#x2BA;/N 45&#xB0;9&#x2B9;34&#x2BA;--N 41&#xB0;11&#x2B9;57&#x2BA;)</coordinates>
+      <coordinates>(W 71°17ʹ10ʺ--W 66°56ʹ17ʺ/N 45°9ʹ34ʺ--N 41°11ʹ57ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This shellfish habitat layer was derived from datasets from Maine, Massachusetts and New Hampshire state GIS resources. Shapefiles downloaded/provided from these states include delineated shellfish habitats for oysters (American oyster, Eastern oyster, European oyster), clams (Atlantic surf clam, ocean quahog, quahog, razor clam, and soft-shell clam), blue mussel, and scallops (bay scallop and sea scallop). Maine&#x2019;s molluscan shellfish layer is based on habitat distribution data from February 2008 to September 2010 provided by town officials, harvesters, harbormasters, Maine Department of Marine Resources (MEDMR) biologists, MEDMR specialists, MEDMR Marine Patrol officers and MEDMR scientists. The Massachusetts shellfish suitability data maps areas along the coast of Massachusetts where shellfish have been observed since the mid-1970&#x2019;s depicting areas that are suitable for shellfish habitats. This data is a compilation of information provided by Massachusetts Division of Marine Fisheries, local shellfish constables, commercial fisherman, maps and studies. The New Hampshire dataset contains delineations of tidal shellfish beds from 2005 to 2013 provided by data from New Hampshire Department of Environmental Services (NHDES) Shellfish Program, Morrissey, E and C. Nash (2013), University of New Hampshire [Grizzle, R. and K. Ward (2009 and 2013), Capone et al. (2008)], and Normandeau Associates, Inc. (2008). This regional dataset does not include shellfish habitats for Connecticut, New York or Rhode Island; however, this dataset will be updated to include these states once data is available.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This shellfish habitat layer was derived from datasets from Maine, Massachusetts and New Hampshire state GIS resources. Shapefiles downloaded/provided from these states include delineated shellfish habitats for oysters (American oyster, Eastern oyster, European oyster), clams (Atlantic surf clam, ocean quahog, quahog, razor clam, and soft-shell clam), blue mussel, and scallops (bay scallop and sea scallop). Maine’s molluscan shellfish layer is based on habitat distribution data from February 2008 to September 2010 provided by town officials, harvesters, harbormasters, Maine Department of Marine Resources (MEDMR) biologists, MEDMR specialists, MEDMR Marine Patrol officers and MEDMR scientists. The Massachusetts shellfish suitability data maps areas along the coast of Massachusetts where shellfish have been observed since the mid-1970’s depicting areas that are suitable for shellfish habitats. This data is a compilation of information provided by Massachusetts Division of Marine Fisheries, local shellfish constables, commercial fisherman, maps and studies. The New Hampshire dataset contains delineations of tidal shellfish beds from 2005 to 2013 provided by data from New Hampshire Department of Environmental Services (NHDES) Shellfish Program, Morrissey, E and C. Nash (2013), University of New Hampshire [Grizzle, R. and K. Ward (2009 and 2013), Capone et al. (2008)], and Normandeau Associates, Inc. (2008). This regional dataset does not include shellfish habitats for Connecticut, New York or Rhode Island; however, this dataset will be updated to include these states once data is available.</abstract>
   <abstract displayLabel="Purpose" lang="eng">This dataset shows shellfish suitability areas (habitats) for eleven shellfish species (Atlantic surf clam, ocean quahog, quahog, razor clam, soft-shell clam, blue mussel, American oyster, Eastern Oyster, European oyster, bay scallop, and the sea scallop) for New Hampshire, Maine, and Massachusetts.</abstract>
   <note displayLabel="Preferred citation" lang="eng">The Nature Conservancy. (2014). Shellfish Habitats for Maine, Massachusetts, and New Hampshire, 1975-2013. Northeast Ocean Data. Available at: http://purl.stanford.edu/vr206rb1519.</note>
   <note displayLabel="Use limitation">Not to be used for navigation</note>
@@ -111,7 +108,6 @@
   <location>
     <url>http://purl.stanford.edu/vr206rb1519</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:vr206rb1519</recordIdentifier>
@@ -131,23 +127,25 @@
             <gml:upperCorner>-66.938162 45.15951</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Fundy, Bay of"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Chesapeake Bay (Md. and Va.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Maine, Gulf of"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Northeastern States"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3373405/" dc:language="eng" dc:title="Atlantic Ocean"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Buzzards Bay (Mass. : Bay)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Cape Cod Bay (Mass.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Casco Bay (Me.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4831725/" dc:language="eng" dc:title="Connecticut"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4971068/" dc:language="eng" dc:title="Maine"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6254926/" dc:language="eng" dc:title="Massachusetts"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Massachusetts Bay (Mass.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Nantucket Sound (Mass.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5090174/" dc:language="eng" dc:title="New Hampshire"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Penobscot Bay (Me.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Vineyard Sound (Mass.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 71&#xB0;17&#x2B9;10&#x2BA;--W 66&#xB0;56&#x2B9;17&#x2BA;/N 45&#xB0;9&#x2B9;34&#x2BA;--N 41&#xB0;11&#x2B9;57&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 71°17ʹ10ʺ--W 66°56ʹ17ʺ/N 45°9ʹ34ʺ--N 41°11ʹ57ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Northeast Ocean Data : Maps and data for ocean planning in the northeastern United States</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sg639pq7229</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

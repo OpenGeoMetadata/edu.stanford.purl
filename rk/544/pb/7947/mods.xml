@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Ponds, Jasper Ridge Biological Preserve, 2017</title>
@@ -16,12 +16,12 @@
   <originInfo>
     <publisher>Jasper Ridge Biological Preserve (Agency)</publisher>
     <place>
-      <placeTerm type="text">Woodside, CA, </placeTerm>
+      <placeTerm type="text">Woodside, CA,</placeTerm>
     </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 122&#xB0;14&#x2B9;43&#x2BA;--W 122&#xB0;14&#x2B9;20&#x2BA;/N 37&#xB0;23&#x2B9;51&#x2BA;--N 37&#xB0;23&#x2B9;44&#x2BA;)</coordinates>
+      <coordinates>(W 122°14ʹ43ʺ--W 122°14ʹ20ʺ/N 37°23ʹ51ʺ--N 37°23ʹ44ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents perennial ponds located southwest of the Jasper Ridge Biological Preserve (JRBP). The JRBP is located in Woodside, California near Stanford University's campus in the eastern foothills of the Santa Cruz Mountains. The preserve encompasses remarkable geologic, topographic, and biotic diversity within its 485 hectares (1,198 acres) and provides a natural laboratory for researchers from all over the world, educational experiences to students and docent-led visitors, and refuge to native plants and animals.</abstract>
@@ -56,7 +56,6 @@
   <location>
     <url>http://purl.stanford.edu/rk544pb7947</url>
   </location>
-  <accessCondition type="useAndReproduction">Downloading the data indicates acceptance of the conditions: You agree not to sell any products resulting from this data - it is for educational, non-commercial use only. You also agree to notify JRBP about any derivative products or publications that result from the use of Jasper Ridge data, and to provide digital copies. Jasper Ridge Biological Preserve and Stanford University are not responsible for any errors in the data or for errors in products derived from these data.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:rk544pb7947</recordIdentifier>
@@ -76,9 +75,25 @@
             <gml:upperCorner>-122.238861 37.397453</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5410535/" dc:language="eng" dc:title="Woodside (Calif.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Jasper Ridge Biological Preserve (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;14&#x2B9;43&#x2BA;--W 122&#xB0;14&#x2B9;20&#x2BA;/N 37&#xB0;23&#x2B9;51&#x2BA;--N 37&#xB0;23&#x2B9;44&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°14ʹ43ʺ--W 122°14ʹ20ʺ/N 37°23ʹ51ʺ--N 37°23ʹ44ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Jasper Ridge Biological Preserve GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/vs868cq8571</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">Downloading the data indicates acceptance of the conditions: You agree not to sell any products resulting from this data - it is for educational, non-commercial use only. You also agree to notify JRBP about any derivative products or publications that result from the use of Jasper Ridge data, and to provide digital copies. Jasper Ridge Biological Preserve and Stanford University are not responsible for any errors in the data or for errors in products derived from these data.</accessCondition>
+</mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Detailed World Polygons (LSIB), South America, 2013</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,14 +32,14 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 109&#xB0;27&#x2B9;38&#x2BA;--W 26&#xB0;14&#x2B9;3&#x2BA;/N 12&#xB0;37&#x2B9;45&#x2BA;--S 59&#xB0;29&#x2B9;14&#x2BA;)</coordinates>
+      <coordinates>(W 109°27ʹ38ʺ--W 26°14ʹ3ʺ/N 12°37ʹ45ʺ--S 59°29ʹ14ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the boundaries of countries in South America. This layer, created by the Office of the Geographer, combines two data sets: Large Scale International Boundary Lines (LSIB) and World Vector Shorelines (LSIB-WVS). The lines reflect U.S. government (USG) policy and thus not necessarily de facto control. The 1:250,000 scale WVS coastline data from the National Geospatial-Intelligence Agency (NGA) is generally shifted by several hundred meters to over a km. The LSIB is in WGS84 datum and is generally accurate to within a couple hundred meters or better. The boundary research and &#x201C;recovery&#x201D; of the delineation of the line has been done over past decades by geographers at State and colleagues from other USG agencies and the UK. It is based on modern imagery, elevation data, relevant maps, treaties, international arbitration and court rulings, data from national mapping agencies and boundary commissions if available, and other sources.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the boundaries of countries in South America. This layer, created by the Office of the Geographer, combines two data sets: Large Scale International Boundary Lines (LSIB) and World Vector Shorelines (LSIB-WVS). The lines reflect U.S. government (USG) policy and thus not necessarily de facto control. The 1:250,000 scale WVS coastline data from the National Geospatial-Intelligence Agency (NGA) is generally shifted by several hundred meters to over a km. The LSIB is in WGS84 datum and is generally accurate to within a couple hundred meters or better. The boundary research and “recovery” of the delineation of the line has been done over past decades by geographers at State and colleagues from other USG agencies and the UK. It is based on modern imagery, elevation data, relevant maps, treaties, international arbitration and court rulings, data from national mapping agencies and boundary commissions if available, and other sources.</abstract>
   <abstract displayLabel="Purpose" lang="eng">The mission of the Humanitarian Information Unit (HIU) is to serve as a U.S. Government interagency center to identify, collect, analyze, and disseminate all-source information critical to U.S. Government decision-makers and partners in preparation for and response to humanitarian emergencies worldwide, and to promote innovative technologies and best practices for humanitarian information management</abstract>
   <note displayLabel="Preferred citation" lang="eng">U.S. Department of State, Office of the Geographer. (2013). Detailed World Polygons (LSIB), South America, 2013. U.S. Department of State. Humanitarian Information Unit. Available at:  http://purl.stanford.edu/vc965bq8111.</note>
   <note displayLabel="Supplemental information">The LSIB and WVS files were combined using ESRI's ArcGIS 10.0 lines to polygon tool. In the cases where the LSIB did not extend enough to touch the shoreline, the WVS shoreline was moved inland until it met the LSIB. In the cases where the LSIB border extended past the shoreline, the shoreline was moved outward until it met the boundary. No boundary line was moved for the production of these polygons. 
-The polygons were then topologically corrected to the best of our ability and had corresponding country attributes attached. </note>
+The polygons were then topologically corrected to the best of our ability and had corresponding country attributes attached.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Countries</topic>
   </subject>
@@ -55,7 +55,6 @@ The polygons were then topologically corrected to the best of our ability and ha
   <location>
     <url>http://purl.stanford.edu/vc965bq8111</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:vc965bq8111</recordIdentifier>
@@ -75,8 +74,17 @@ The polygons were then topologically corrected to the best of our ability and ha
             <gml:upperCorner>-26.234194 12.629084</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6255150/" dc:language="eng" dc:title="South America"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. State Department, Humanitarian Information Unit GIS Maps and Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zy496qj4689</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

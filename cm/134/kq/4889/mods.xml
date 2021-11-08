@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>General Plan Industrial Land Use Designations: Santa Cruz County, California, 2015</title>
@@ -28,7 +28,7 @@
     <dateValid encoding="w3cdtf">2015</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -39,7 +39,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::2227</projection>
-      <coordinates>(W 122&#xB0;16&#x2B9;36&#x2BA;--W 121&#xB0;50&#x2B9;6&#x2BA;/N 37&#xB0;8&#x2B9;16&#x2BA;--N 36&#xB0;57&#x2B9;34&#x2BA;)</coordinates>
+      <coordinates>(W 122°16ʹ36ʺ--W 121°50ʹ6ʺ/N 37°8ʹ16ʺ--N 36°57ʹ34ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains quarry and industrial land use designations for the County of Santa Cruz, California as defined in General Plan adopted May 24, 1994. Designations include Residential, Commercial, Agriculture, Parks/Recreation/Open Space, Resource Conservation, Lake/Reservoir/Lagoon, Public Facility, Quarry and Industrial. This layer is part of a collection of GIS data created for Santa Cruz County, California.</abstract>
@@ -47,7 +47,7 @@
   <note displayLabel="Preferred citation" lang="eng">County of Santa Cruz Information Services Department. (2015). General Plan Industrial Land Use Designations: Santa Cruz County, California, 2015. Santa Cruz County, California. Available at http://purl.stanford.edu/cm134kq4889.</note>
   <note displayLabel="Supplemental information">GIS Layer Number = 19 /Boundaries were first converted from 1"=800' and 1"=2000' General Plan maps to AutoCAD drawing files. These were plotted and reviewed by the County's Advanced Planning staff. The boundaries have been updated to reflect changes from the 1994 General Plan update, and Board of Supervisor resolutions passed since the General Plan update. 
 
-County of Santa Cruz Planning Department General Plan (adopted May 24, 1994): http://www.sccoplanning.com/PlanningHome/SustainabilityPlanning/GeneralPlan.aspx </note>
+County of Santa Cruz Planning Department General Plan (adopted May 24, 1994): http://www.sccoplanning.com/PlanningHome/SustainabilityPlanning/GeneralPlan.aspx</note>
   <note displayLabel="Use limitation">These data were compiled from many different sources; therefore, the accuracy of the individual layers varies significantly, and some layers do not align exactly with others. In the urban areas, data are generally accurate within five to ten feet of their true geographic coordinates, but in the rural areas, data may be accurate to only within three hundred feet. With these limitations, the County of Santa Cruz disclaims any responsibility for the accuracy or correctness of this data. This disclaimer is exclusive and in lieu of any warranties, fitness for particular purpose, and/or any other type of warranty, whether expressed or implied.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects" lang="eng">Administrative and political divisions</topic>
@@ -110,8 +110,25 @@ County of Santa Cruz Planning Department General Plan (adopted May 24, 1994): ht
             <gml:upperCorner>-121.835304 37.133154</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Santa Cruz County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;16&#x2B9;33&#x2BA;--W 121&#xB0;50&#x2B9;7&#x2BA;/N 37&#xB0;7&#x2B9;59&#x2BA;--N 36&#xB0;57&#x2B9;44&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°16ʹ33ʺ--W 121°50ʹ7ʺ/N 37°7ʹ59ʺ--N 36°57ʹ44ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Santa Cruz County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/kn733hp1726</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

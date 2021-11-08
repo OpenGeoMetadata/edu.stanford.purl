@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Fire Protection Districts: Santa Cruz County, California, 2015</title>
@@ -28,7 +28,7 @@
     <dateValid encoding="w3cdtf">2015</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -39,7 +39,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::2227</projection>
-      <coordinates>(W 122&#xB0;11&#x2B9;23&#x2BA;--W 121&#xB0;34&#x2B9;55&#x2BA;/N 37&#xB0;12&#x2B9;26&#x2BA;--N 36&#xB0;53&#x2B9;13&#x2BA;)</coordinates>
+      <coordinates>(W 122°11ʹ23ʺ--W 121°34ʹ55ʺ/N 37°12ʹ26ʺ--N 36°53ʹ13ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts the 13 fire protection districts with elected Boards in the County of Santa Cruz, California. The specific services Fire Districts provide are: (from pg 75 A Guide to Local Agency Formation Commission (LAFCO) Procedures San Diego LAFCO 1995) 1) Fire protection services; 2) Rescue services; and 3) Emergency medical services. Fire Protection Districts qualify as special districts in the state of California, usually independent of any city or county government and funded by a portion of property taxes and special tax assessment on properties within its Fire Protection District. LAFCO was created in 1963 to encourage orderly formation of local government agencies, preserve agricultural land resources and discourage urban sprawl. LAFCos are responsible for coordinating logical and timely changes in local governmental boundaries, conducting special studies that review ways to reorganize, simplify, and streamline governmental structure and preparing a sphere of influence for each city and special district within each county. This layer is part of a collection of GIS data created for Santa Cruz County, California.</abstract>
@@ -84,8 +84,25 @@
             <gml:upperCorner>-121.582294 37.200667</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Santa Cruz County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;11&#x2B9;22&#x2BA;--W 121&#xB0;34&#x2B9;56&#x2BA;/N 37&#xB0;12&#x2B9;2&#x2BA;--N 36&#xB0;53&#x2B9;37&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°11ʹ22ʺ--W 121°34ʹ56ʺ/N 37°12ʹ2ʺ--N 36°53ʹ37ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Santa Cruz County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/kn733hp1726</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

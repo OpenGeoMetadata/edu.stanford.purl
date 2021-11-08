@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Faults: Offshore of Bolinas, California, 2009</title>
@@ -65,7 +65,7 @@
     <dateValid encoding="w3cdtf" point="end">2009</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -76,7 +76,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 122&#xB0;41&#x2B9;46&#x2BA;--W 122&#xB0;35&#x2B9;/N 37&#xB0;54&#x2B9;15&#x2BA;--N 37&#xB0;48&#x2B9;39&#x2BA;)</coordinates>
+      <coordinates>(W 122°41ʹ46ʺ--W 122°35ʹ/N 37°54ʹ15ʺ--N 37°48ʹ39ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile contains fault lines for the offshore area of Bolinas, California. The map area straddles the right-lateral transform boundary between the North American and Pacific plates and is cut by several active faults that cumulatively form a distributed shear zone, including the San Andreas Fault, the eastern strand of the San Gregorio Fault, the Golden Gate Fault, and the Potato Patch Fault (Bruns and others, 2002; Ryan and others, 2008). These faults are covered by sediment (mostly unit Qms) with no seafloor expression, and are mapped using seismic-reflection data (see field activities S-8-09-NC and L-1-06-SF). The San Andreas Fault is the primary plate-boundary structure and extends northwest through the southern part of the map area before passing onshore at Bolinas Lagoon. This section of the San Andreas Fault has an estimated slip rate of 17 to 24 mm/yr (U.S. Geological Survey, 2010), and the devastating Great 1906 California earthquake (M 7.8) is thought to have nucleated on the San Andreas a few kilometers south of this map area offshore of San Francisco (e.g., Bolt, 1968; Lomax, 2005). The San Andreas Fault forms the boundary between two distinct basement terranes, Upper Jurassic and Lower Cretaceous melange and graywacke sandstone of the Franciscan Complex to the east, and Late Cretaceous granitic and older metamorphic rocks of the Salinian block to the west. Franciscan Complex rocks (unit KJf, undivided) form seafloor outcrops adjacent to the shoreline southeast of Stinson Beach that are commonly continuous with onshore coastal outcrops. Faults were primarily mapped by interpretation of seismic reflection profile data (see field activities S-8-09-NC and L-1-06-SF). The seismic reflection profiles were collected between 2006 and 2009.</abstract>
@@ -105,7 +105,7 @@
     <temporal encoding="w3cdtf">2006-2009</temporal>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="">Geoscientific Information</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
   </subject>
   <subject>
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="oceans">Oceans</topic>
@@ -113,8 +113,6 @@
   <location>
     <url>http://purl.stanford.edu/hv220sb1684</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:hv220sb1684</recordIdentifier>
@@ -134,10 +132,25 @@
             <gml:upperCorner>-122.583796 37.904194</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5370468/" dc:language="eng" dc:title="Marin County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/8411083/" dc:language="eng" dc:title="Pacific Ocean"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;41&#x2B9;45&#x2BA;--W 122&#xB0;35&#x2B9;2&#x2BA;/N 37&#xB0;54&#x2B9;15&#x2BA;--N 37&#xB0;48&#x2B9;39&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°41ʹ45ʺ--W 122°35ʹ2ʺ/N 37°54ʹ15ʺ--N 37°48ʹ39ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California State Waters Map Series Data Catalog</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/ng324gh5570</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

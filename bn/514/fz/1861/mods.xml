@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>No Discharge Zones, Northeast United States, 2011-2014</title>
@@ -15,13 +15,10 @@
   <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
   <originInfo>
     <publisher>Northeast Ocean Data</publisher>
-    <place>
-      <placeTerm type="text"/>
-    </place>
     <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +29,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 74&#xB0;15&#x2B9;35&#x2BA;--W 68&#xB0;11&#x2B9;17&#x2BA;/N 44&#xB0;22&#x2B9;38&#x2BA;--N 40&#xB0;28&#x2B9;38&#x2BA;)</coordinates>
+      <coordinates>(W 74°15ʹ35ʺ--W 68°11ʹ17ʺ/N 44°22ʹ38ʺ--N 40°28ʹ38ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents No Discharge Zones in the Northeastern United States. A No Discharge Zone (NDZ) is a designated boundary within which the discharge of treated and untreated sewage from vessels is prohibited. There are a number of harmful pollutants found in sewage discharges that negatively impact both aquatic and human health. Pump-out facilities are located within the boundaries of NDZs to facilitate the elimination of sewage from vessels, or sewage must be retained onboard for disposal beyond three miles from shore. The No Discharge Zone boundaries are based on information within the Federal Register and were produced by Environmental Protection Agency (EPA) for Regions 1 and 2. Zone boundaries in Region 1 were also coordinated with the Massachusetts Coastal Zone Management. This dataset displays NDZs in EPA Region 1 and Region 2, which are current as of 2014 and 2011, respectively. Data from both regions were merged into one dataset and boundaries between different zone features were harmonized to eliminate boundary discrepancies. NDZs within the Hudson River, New York State Canal System, Lake Champlain, Lake George, and south of New York Harbor were not included. This dataset was updated in 2014 to include all waters under Massachusetts state jurisdiction. Three NDZs were added in Massachusetts including ferry corridors in the Vineyard Sound and Nantucket Sound and a zone extending from Manchester-By-The-Sea to Marshfield. Additionally, the Long Island Sound NDZ in New York State was updated from a proposed status to a final status. 2. PURPOSE This dataset</abstract>
@@ -129,7 +126,6 @@
   <location>
     <url>http://purl.stanford.edu/bn514fz1861</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:bn514fz1861</recordIdentifier>
@@ -149,30 +145,25 @@
             <gml:upperCorner>-68.187941 44.37729</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3373405/" dc:language="eng" dc:title="Atlantic Ocean"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Jamaica Bay (N.Y.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Champlain, Lake"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Long Island Sound (N.Y. and Conn.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="New York Harbor (N.Y. and N.J.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="New York State Canal System (N.Y.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Block Island (R.I. : Island)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Rhode Island Sound (Mass. and R.I.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Boothbay Harbor (Me.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Kennebunk (Me.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Wells (Me.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Boston Harbor (Mass.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Cape Cod Bay (Mass.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Buzzards Bay (Mass. : Bay)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Harwich (Mass.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Nantucket (Mass.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Plymoth (Mass.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4971068/" dc:language="eng" dc:title="Maine"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4831725/" dc:language="eng" dc:title="Connecticut"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6254926/" dc:language="eng" dc:title="Massachusetts"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5090174/" dc:language="eng" dc:title="New Hampshire"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5128638/" dc:language="eng" dc:title="New York (State)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5224323/" dc:language="eng" dc:title="Rhode Island"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 74&#xB0;15&#x2B9;35&#x2BA;--W 68&#xB0;11&#x2B9;17&#x2BA;/N 44&#xB0;22&#x2B9;38&#x2BA;--N 40&#xB0;28&#x2B9;38&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 74°15ʹ35ʺ--W 68°11ʹ17ʺ/N 44°22ʹ38ʺ--N 40°28ʹ38ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Northeast Ocean Data : Maps and data for ocean planning in the northeastern United States</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sg639pq7229</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

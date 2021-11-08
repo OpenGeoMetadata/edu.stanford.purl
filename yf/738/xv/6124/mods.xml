@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Administrative Boundaries, Ilheus, Brazil, 1990</title>
   </titleInfo>
@@ -40,7 +40,7 @@
     <dateValid encoding="w3cdtf">1990</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -51,10 +51,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::32724</projection>
-      <coordinates>(W 39&#xB0;33&#x2B9;2&#x2BA;--W 38&#xB0;59&#x2B9;31&#x2BA;/S 14&#xB0;25&#x2B9;7&#x2BA;--S 15&#xB0;7&#x2B9;15&#x2BA;)</coordinates>
+      <coordinates>(W 39°33ʹ2ʺ--W 38°59ʹ31ʺ/S 14°25ʹ7ʺ--S 15°7ʹ15ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon layer establishes the administrative boundaries of Ilh&#xE9;us, Brazil, otherwise known as the study area. These data are part of the Atlas of Urban Expansion.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon layer establishes the administrative boundaries of Ilhéus, Brazil, otherwise known as the study area. These data are part of the Atlas of Urban Expansion.</abstract>
   <abstract displayLabel="Purpose" lang="eng">The Atlas of Urban Expansion provides the geographic and quantitative dimensions of urban expansion and its key attributes in cities the world over. The data and images are available for free downloading, for scholars, public officials, planners, those engaged in international development, and concerned citizens. The global empirical evidence presented here is critical for an intelligent discussion of plans and policies to manage urban expansion everywhere. This resource provides both the conceptual framework and, for the first time, the basic empirical data and quantitative dimensions of past, present, and future urban expansion in cities around the world that are necessary for making minimal preparations for the massive urban growth expected in the coming decades.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Angel, S., J. Parent, D. L. Civco and A. M. Blei, 2010. Atlas of Urban Expansion, Cambridge MA: Lincoln Institute of Land Policy, online at http://www.lincolninst.edu/subcenters/atlas-urban-expansion/.</note>
   <note displayLabel="Supplemental information">The Atlas of Urban Expansion is also available as a printed book. The Atlas of Urban Expansion accompanies the Policy Focus Report Making Room for a Planet of Cities, a comprehensive and original analysis of the quantitative dimensions of past, present, and future global urban land cover, culminating in a proposed new paradigm for preparing for explosive growth in cities the world over. Further detail of that analysis is available in three working papers available for downloading: The Persistent Decline in Urban Densities, The Fragmentation of Urban Footprints, and A Planet of Cities: Country Estimates and Projections of Urban Land Cover, 2000-2050. A forthcoming book, titled The Expansion of Cities, bringing together the analysis of the maps in the Atlas of Urban Expansion within a broader discussion of urban expansion in a global and historical perspective, will be published by the Lincoln Institute in 2012.</note>
@@ -71,7 +71,7 @@
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Land use</topic>
   </subject>
   <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/3461408/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Ilh&#xE9;us (Brazil)</geographic>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/3461408/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Ilhéus (Brazil)</geographic>
   </subject>
   <subject>
     <temporal encoding="w3cdtf">1990-2000</temporal>
@@ -104,8 +104,25 @@
             <gml:upperCorner>-38.992 -14.418797</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3461408/" dc:language="eng" dc:title="Ilh&#xE9;us (Brazil)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 39&#xB0;32&#x2B9;57&#x2BA;--W 38&#xB0;59&#x2B9;31&#x2BA;/S 14&#xB0;25&#x2B9;8&#x2BA;--S 15&#xB0;7&#x2B9;15&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 39°32ʹ57ʺ--W 38°59ʹ31ʺ/S 14°25ʹ8ʺ--S 15°7ʹ15ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Atlas of urban expansion : GIS data for cities</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/rr276tj2464</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

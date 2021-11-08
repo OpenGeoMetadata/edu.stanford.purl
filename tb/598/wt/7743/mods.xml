@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Natural Gas Underground Storage Facilities, United States, 2014</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>1:1000000</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 152&#xB0;21&#x2B9;37&#x2BA;--W 76&#xB0;17&#x2B9;35&#x2BA;/N 61&#xB0;4&#x2B9;9&#x2BA;--N 28&#xB0;44&#x2B9;46&#x2BA;)</coordinates>
+      <coordinates>(W 152°21ʹ37ʺ--W 76°17ʹ35ʺ/N 61°4ʹ9ʺ--N 28°44ʹ46ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile represents underground natural gas storage fields in the United States as of July 2014. County centroids are used for map location. These data were gathered from EIA-191, Monthly Underground Gas Storage Report. This layer is part of a collection of GIS data produced by the U.S. National Energy Information Administration.</abstract>
@@ -77,8 +77,17 @@
             <gml:upperCorner>-76.293115 61.069287</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. National Energy Information Center Interactive State Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/gx140ys0508</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

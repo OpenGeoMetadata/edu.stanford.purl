@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Empowerment Zones Renewal and Enterprise Communities, 2014</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 119&#xB0;50&#x2B9;48&#x2BA;--W 67&#xB0;47&#x2B9;18&#x2BA;/N 47&#xB0;40&#x2B9;20&#x2BA;--N 25&#xB0;26&#x2B9;39&#x2BA;)</coordinates>
+      <coordinates>(W 119°50ʹ48ʺ--W 67°47ʹ18ʺ/N 47°40ʹ20ʺ--N 25°26ʹ39ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">Introduced in 1993, the Empowerment Zone (EZ), Enterprise Community (EC), and Renewal Community (RC) Initiatives sought to reduce unemployment and generate economic growth through the designation of Federal tax incentives and award of grants to distressed communities. Local, Tribal, and State governments interested in participating in this program were required to present comprehensive plans that included the following principles: Strategic Visions for Change, Community-Based Partnerships, Economic Opportunities, and Sustainable Community Development. Communities selected to participate in this program embraced these principles and led projects that promoted economic development in their distressed communities. The EZ/EC initiative was implemented in the form of three competitions authorized by Congress in 1994 (round I), 1998 (round II), and 2001 (round III). The EC designation expired in 2004 and EZ and RC designations generally expired at the end of 2009. However, the Tax Relief, Unemployment Insurance Reauthorization, and Job Creation Act of 2010, Pub. L. No. 111-312 extended the Empowerment Zone and DC Enterprise Zone designations to December 31, 2011. Following the end of the first EZ designation extension on December 31, 2011, the American Taxpayer Relief Act (ATRA) of 2012, signed into law by President Obama on January 2, 2013, provided for an extension of the Empowerment Zone designations for Empowerment Zone Tax Credit purposes only until December 31, 2013. The ATRA of 2012 did not extend the designation of the DC Enterprise Zone. The third retroactive extension of the Empowerment Zone designation, for the purpose claiming EZ tax credits only, was the Tax Increase Prevention Act of 2014 (TIPA 2014). TIPA 2014 was signed into law by President Obama on December 19, 2014 and extended the EZ designation for the purpose of businesses and entities claiming EZ tax incentives until December 31, 2014. TIPA 2014 did not extend the designation of the DC Enterprise Zone. Data is current as of 12/31/2014</abstract>
@@ -59,7 +59,6 @@
   <location>
     <url>http://purl.stanford.edu/hb676pq4526</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:hb676pq4526</recordIdentifier>
@@ -79,8 +78,25 @@
             <gml:upperCorner>-67.788348 47.672293</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 119&#xB0;50&#x2B9;48&#x2BA;--W 67&#xB0;47&#x2B9;18&#x2BA;/N 47&#xB0;40&#x2B9;20&#x2BA;--N 25&#xB0;26&#x2B9;39&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 119°50ʹ48ʺ--W 67°47ʹ18ʺ/N 47°40ʹ20ʺ--N 25°26ʹ39ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. Department of Housing and Urban Development Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/wc590wy7435</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>ACS 5 Year Housing Data by State, 2008-2012</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 178&#xB0;13&#x2B9;40&#x2BA;--W 65&#xB0;14&#x2B9;39&#x2BA;/N 71&#xB0;23&#x2B9;26&#x2BA;--N 17&#xB0;52&#x2B9;53&#x2BA;)</coordinates>
+      <coordinates>(W 178°13ʹ40ʺ--W 65°14ʹ39ʺ/N 71°23ʹ26ʺ--N 17°52ʹ53ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">5-year American Community Survey estimates of housing variables (see below) at the state level released in 2012. The TIGER/Line Files are shapefiles and related database files (.dbf) that are an extract of selected geographic and cartographic information from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB). The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line File is designed to stand alone as an independent data set, or they can be combined to cover the entire nation. States and equivalent entities are the primary governmental divisions of the United States. In addition to the fifty States, the Census Bureau treats the District of Columbia, Puerto Rico, and each of the Island Areas (American Samoa, the Commonwealth of the Northern Mariana Islands, Guam, and the U.S. Virgin Islands) as the statistical equivalents of States for the purpose of data presentation.The American Community Survey (ACS) 5 Year 2008-2012 housing information is a subset of information available for download. Downloaded tables include: B25002 - Occupancy Status, B25009 - Tenure By Household Size, B25021 - Median Number Of Rooms By Tenure, B25024 - Units In Structure, B25032 - Tenure by Units In Structure, B25036 - Tenure By Year Structure Built, B25037 - Median Year Structure Built By Tenure, B25041 - Bedrooms, B25042 - Tenure By Bedrooms, B25056 - Contract Rent, B25058 - Median Contract Rent, B25068 - Bedrooms By Gross Rent, B25077 - Median Value, B25097 - Mortgage Status By Median Value (Dollars) and B25123 - Tenure By Selected Physical And Financial Conditions. Data is current as of: 2/10/2016</abstract>
@@ -57,7 +57,6 @@
   <location>
     <url>http://purl.stanford.edu/jv400qp1099</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:jv400qp1099</recordIdentifier>
@@ -77,8 +76,17 @@
             <gml:upperCorner>-65.24426 71.390482</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. Department of Housing and Urban Development Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/wc590wy7435</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

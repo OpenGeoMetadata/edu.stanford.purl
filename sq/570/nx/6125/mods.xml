@@ -1,13 +1,10 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Saishin Shanhai chizu (Raster Image)</title>
   </titleInfo>
-  <titleInfo>
-    <title type="alternative">The New Map of Shanghai City</title>
-  </titleInfo>
-  <titleInfo>
-    <title displayLabel="Alternative title">The New Map of Shanghai City</title>
+  <titleInfo type="alternative" displayLabel="Alternative title">
+    <title>The New Map of Shanghai City</title>
   </titleInfo>
   <name type="corporate">
     <namePart>Virtual Shanghai Project</namePart>
@@ -25,7 +22,7 @@
     <edition>1.00</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Raster Dataset</form>
@@ -35,10 +32,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(E 121&#xB0;27&#x2B9;5&#x2BA;--E 121&#xB0;31&#x2B9;16&#x2BA;/N 31&#xB0;15&#x2B9;33&#x2BA;--N 31&#xB0;13&#x2B9;12&#x2BA;)</coordinates>
+      <coordinates>(E 121°27ʹ5ʺ--E 121°31ʹ16ʺ/N 31°15ʹ33ʺ--N 31°13ʹ12ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced image of a map of Shanghai (originally titled '&#x6700;&#x65B0;&#x4E0A;&#x6D77;&#x5730;&#x56F3; /Saishin Shanhai chizu') that was published in 1908. It shows historical city data such as roads and parks, and includes a selection of black-and-white photos of key sights.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced image of a map of Shanghai (originally titled '最新上海地図 /Saishin Shanhai chizu') that was published in 1908. It shows historical city data such as roads and parks, and includes a selection of black-and-white photos of key sights.</abstract>
   <abstract displayLabel="Purpose" lang="eng">Virtual Shanghai is a research and resource platform on the history of Shanghai from the mid-nineteenth century to nowadays. It incorporates various sets of documents: essays, original documents, photographs, maps, quantitative data, etc. The objective of the project is to write a history of the city through the combined mobilization of these various types of documents. The implementation of this approach relies on the use of digital and GIS technologies. On the research side, the platform offers various ways to step into the history of the city and follow its course at different levels over time. On the resource side, apart from providing original textual and visual documents, it develops a powerful cartographic tool for spatial analysis and real-time mapping. The authors of the present project subscribe to the idea of sharing scholarship and research tools for the benefit of scholars, students, and citizens at large.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Virtual Shanghai Project. (2018). Saishin Shanhai chizu (Raster Image). Virtual Shanghai Project. Available at: http://purl.stanford.edu/sq570nx6125</note>
   <subject>
@@ -68,7 +65,6 @@
   <location>
     <url>http://purl.stanford.edu/sq570nx6125</url>
   </location>
-  <accessCondition type="useAndReproduction">This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:sq570nx6125</recordIdentifier>
@@ -88,8 +84,26 @@
             <gml:upperCorner>121.5211053 31.259267</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1796231/" dc:language="eng" dc:title="Shanghai (China)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>E 121&#xB0;27&#x2B9;5&#x2BA;--E 121&#xB0;31&#x2B9;16&#x2BA;/N 31&#xB0;15&#x2B9;33&#x2BA;--N 31&#xB0;13&#x2B9;12&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>E 121°27ʹ5ʺ--E 121°31ʹ16ʺ/N 31°15ʹ33ʺ--N 31°13ʹ12ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Virtual Shanghai</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qs150bm4171</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This work is in the public domain. There are no restrictions on use.</accessCondition>
+  <accessCondition type="license" xlink:href="https://creativecommons.org/publicdomain/mark/1.0/">This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights (Public Domain Mark 1.0).</accessCondition>
+</mods>

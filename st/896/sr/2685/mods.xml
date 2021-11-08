@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Rail Transit Stations: United States and Territories, 2013</title>
@@ -29,7 +29,7 @@
     <edition>transit_sta v. 1</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -40,11 +40,11 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 122&#xB0;59&#x2B9;29&#x2BA;--W 70&#xB0;37&#x2B9;35&#x2BA;/N 47&#xB0;58&#x2B9;29&#x2BA;--N 25&#xB0;40&#x2B9;49&#x2BA;)</coordinates>
+      <coordinates>(W 122°59ʹ29ʺ--W 70°37ʹ35ʺ/N 47°58ʹ29ʺ--N 25°40ʹ49ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile depicts railway stations within the Fixed-Guideway Transit Network, a network database of the nation's fixed-guideway transit systems. Fixed-Guideway refers to public transportation using and occupying either a separate right-of-way or rail for the exclusive use of public transportation or a fixed catenary system useable by other forms of transportation. This point shapefile depicts rail transit stations in cities defined as the Federal Transit Administration's (FTA) universe of cities and includes heavy rail, light rail, monorail, cable car, inclined plane and automated guideway. This layer is part of the 2014 National Transportation Atlas Database.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">The National Transportation Atlas Databases 2014 (NTAD2014) is a set of nationwide geographic datasets of transportation facilities, transportation networks, associated infrastructure and other political and administrative entities. These datasets include spatial information for transportation modal networks and intermodal terminals, as well as the re&#xAC;lated attribute information for these features. This data supports research, analysis, and decision-making across all transportation modes. It is most useful at the national level, but has major applications at regional, state and local scales throughout the transportation community. The data used to compile NTAD2014 was provided by our partners within the United States Department of Transportation (USDOT) and by other agencies throughout the United States Federal Government. These contributors are the actual data stewards and are ultimately responsible for the maintenance and accuracy of their data. This data is used for national and network analysis applications. The data provide users with information about the location and type of fixed-guideway transit and terminal facilities primarily for regional cartographic, spatial and network analysis purposes.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">The National Transportation Atlas Databases 2014 (NTAD2014) is a set of nationwide geographic datasets of transportation facilities, transportation networks, associated infrastructure and other political and administrative entities. These datasets include spatial information for transportation modal networks and intermodal terminals, as well as the re¬lated attribute information for these features. This data supports research, analysis, and decision-making across all transportation modes. It is most useful at the national level, but has major applications at regional, state and local scales throughout the transportation community. The data used to compile NTAD2014 was provided by our partners within the United States Department of Transportation (USDOT) and by other agencies throughout the United States Federal Government. These contributors are the actual data stewards and are ultimately responsible for the maintenance and accuracy of their data. This data is used for national and network analysis applications. The data provide users with information about the location and type of fixed-guideway transit and terminal facilities primarily for regional cartographic, spatial and network analysis purposes.</abstract>
   <note displayLabel="Preferred citation" lang="eng">United States. Department of Transportation. Research and Innovative Technology Administration. (2014). Rail Transit Stations: United States and Territories, 2013. National Transportation Atlas Database 2014. Available at: http://purl.stanford.edu/st896sr2685.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Passenger trains</topic>
@@ -97,7 +97,6 @@
   <location>
     <url>http://purl.stanford.edu/st896sr2685</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:st896sr2685</recordIdentifier>
@@ -117,14 +116,17 @@
             <gml:upperCorner>-70.62638 47.9748</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4138106/" dc:language="eng" dc:title="Washington (D.C.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4796775/" dc:language="eng" dc:title="United States Virgin Islands"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4566966/" dc:language="eng" dc:title="Puerto Rico"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="American Samoa"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Northern Mariana Islands"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4043988/" dc:language="eng" dc:title="Guam"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>National transportation atlas databases : NTAD</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/xw066kj5196</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Human Services Agency Partner Facilities, San Mateo County Sea Level Rise Vulnerability Assessment Project, 2015</title>
@@ -24,7 +24,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -35,11 +35,11 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 122&#xB0;29&#x2B9;31&#x2BA;--W 122&#xB0;8&#x2B9;/N 37&#xB0;42&#x2B9;24&#x2BA;--N 37&#xB0;27&#x2B9;22&#x2BA;)</coordinates>
+      <coordinates>(W 122°29ʹ31ʺ--W 122°8ʹ/N 37°42ʹ24ʺ--N 37°27ʹ22ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile represents Human Services Agency (HSA) offices and partner locations in San Mateo County, California. This layer is part of the San Mateo County Sea Level Rise Vulnerability Assessment Project. Source: Human Services Agency, SMC. Source Date: 2015.</abstract>
-  <abstract displayLabel="Purpose" lang="eng"> These data are intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">These data are intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production.</abstract>
   <note displayLabel="Preferred citation" lang="eng">County of San Mateo Information Services Department and California Health and Human Services Agency. (2019). Human Services Agency Partner Facilities, San Mateo County Sea Level Rise Vulnerability Assessment Project, 2015. County of San Mateo Information Services Department. Available at: http://purl.stanford.edu/xm368yr5019.</note>
   <subject>
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Health facilities</topic>
@@ -56,7 +56,6 @@
   <location>
     <url>http://purl.stanford.edu/xm368yr5019</url>
   </location>
-  <accessCondition type="useAndReproduction">These data are made available by San Mateo County as a public service. The data are for reference purposes only, and the County makes no representatives, warranties, or guarantees as to the accuracy of the data.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:xm368yr5019</recordIdentifier>
@@ -76,8 +75,25 @@
             <gml:upperCorner>-122.133294 37.706602</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5392427/" dc:language="eng" dc:title="San Mateo County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;29&#x2B9;31&#x2BA;--W 122&#xB0;8&#x2B9;/N 37&#xB0;42&#x2B9;24&#x2BA;--N 37&#xB0;27&#x2B9;22&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°29ʹ31ʺ--W 122°8ʹ/N 37°42ʹ24ʺ--N 37°27ʹ22ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>San Mateo County Sea Level Rise Vulnerability Assessment Project</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/vd126cg5748</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

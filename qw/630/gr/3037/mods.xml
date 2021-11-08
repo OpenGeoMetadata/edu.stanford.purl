@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>County Boundary (Polygon): Solano County, California, 2015</title>
@@ -22,7 +22,7 @@
     <edition>CountyBoundary</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,11 +33,11 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 122&#xB0;24&#x2B9;26&#x2BA;--W 121&#xB0;35&#x2B9;36&#x2BA;/N 38&#xB0;32&#x2B9;21&#x2BA;--N 38&#xB0;1&#x2B9;55&#x2BA;)</coordinates>
+      <coordinates>(W 122°24ʹ26ʺ--W 121°35ʹ36ʺ/N 38°32ʹ21ʺ--N 38°1ʹ55ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts the county coundary for Solano County, California. This layer is part of a collection of GIS data produced by Solano County, California.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">Solano Regional Geographic Information Systems Consortium (Solano ReGIS) is a cooperative of local government agencies within Solano County, California, working together to share spatial data, pool resources, and provide GIS expertise to Solano ReGIS members, which include the Cities of Benicia, Dixon, Fairfield, Rio Vista, Suisun City, Vacaville and Vallejo; the County of Solano; the Fairfield-Suisun Sewer District; the Local Agency Formation Commission (LAFCO); the Solano County Water Agency; the Solano Irrigation District; the Solano Transportation Authority; and the Vallejo Sanitation and Flood Control District. These Solano ReGIS members provide public access to applications, maps and spatial data. Solano County encompasses 7 cities and approximately 425,000 people. This coverage can be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analyses of geospatial data. </abstract>
+  <abstract displayLabel="Purpose" lang="eng">Solano Regional Geographic Information Systems Consortium (Solano ReGIS) is a cooperative of local government agencies within Solano County, California, working together to share spatial data, pool resources, and provide GIS expertise to Solano ReGIS members, which include the Cities of Benicia, Dixon, Fairfield, Rio Vista, Suisun City, Vacaville and Vallejo; the County of Solano; the Fairfield-Suisun Sewer District; the Local Agency Formation Commission (LAFCO); the Solano County Water Agency; the Solano Irrigation District; the Solano Transportation Authority; and the Vallejo Sanitation and Flood Control District. These Solano ReGIS members provide public access to applications, maps and spatial data. Solano County encompasses 7 cities and approximately 425,000 people. This coverage can be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analyses of geospatial data.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Solano Regional GIS Consortium. (2015). County Boundary (Polygon): Solano County, California, 2015. Solano Regional GIS Consortium. (2015). County Boundary (Line): Solano County, California, 2015. Solano County, California. Available at: http://purl.stanford.edu/qw630gr3037.</note>
   <note displayLabel="Use limitation">Solano Regional GIS Consortium provides GIS layers for general mapping use only and does not provide legally authoritative data. The user assumes responsibility for any decisions made using Solano ReGIS sourced data. This dataset is not suitable for high-precision measurement applications such as engineering problems, property transfers, or other uses that might require highly accurate measurements of the earth's surface.</note>
   <subject>
@@ -77,8 +77,17 @@
             <gml:upperCorner>-121.59336 38.539064</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5396987/" dc:language="eng" dc:title="Solano County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Solano County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zx684vf0715</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

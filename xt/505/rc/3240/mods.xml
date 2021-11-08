@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>General Plan: Sacramento County, California, 1993</title>
@@ -24,7 +24,7 @@
     <edition>GENERAL_PLAN_1993</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -35,7 +35,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::2226</projection>
-      <coordinates>(W 121&#xB0;51&#x2B9;46&#x2BA;--W 121&#xB0;1&#x2B9;17&#x2BA;/N 38&#xB0;44&#x2B9;14&#x2BA;--N 38&#xB0;52&#x2BA;)</coordinates>
+      <coordinates>(W 121°51ʹ46ʺ--W 121°1ʹ17ʺ/N 38°44ʹ14ʺ--N 38°52ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts land use boundaries of the General Plan for unincorporated areas of the County of Sacramento, California as of 1993, including Agricultural, Residential, Public, Commercial, Industrial, Open Space and Recreational. The General Plan is a set of policies, programs and maps that form a blueprint for physical development in the unincorporated County. The plan addresses important community issues such as new growth, housing needs and environmental protection. It's policies are instrumental in planning infrastructure to accommodate future growth. State law requires that all California Counties and Cities adopt General Plans. The planning timeframe of this County General Plan was 1990 to 2010. An updated County General Plan was adopted on November 9, 2011 with a planning timeframe of 2011 to 2030.</abstract>
@@ -86,9 +86,25 @@
             <gml:upperCorner>-121.027124 38.736336</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Sacramento County (Calif.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3687919/" dc:language="eng" dc:title="California"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 121&#xB0;51&#x2B9;45&#x2BA;--W 121&#xB0;1&#x2B9;38&#x2BA;/N 38&#xB0;44&#x2B9;11&#x2BA;--N 38&#xB0;1&#x2B9;6&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 121°51ʹ45ʺ--W 121°1ʹ38ʺ/N 38°44ʹ11ʺ--N 38°1ʹ6ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Sacramento County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/km129px7635</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

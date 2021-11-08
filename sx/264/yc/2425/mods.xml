@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Regulated Facilities, Northeast United States, 2010</title>
@@ -36,7 +36,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -47,7 +47,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4269</projection>
-      <coordinates>(W 73&#xB0;59&#x2B9;59&#x2BA;--W 66&#xB0;59&#x2B9;6&#x2BA;/N 45&#xB0;11&#x2B9;20&#x2BA;--N 40&#xB0;13&#x2B9;41&#x2BA;)</coordinates>
+      <coordinates>(W 73°59ʹ59ʺ--W 66°59ʹ6ʺ/N 45°11ʹ20ʺ--N 40°13ʹ41ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">To improve public health and the environment, the United States Environmental Protection Agency (USEPA) collects information about facilities, sites, or places subject to environmental regulation or of environmental interest. Through the Geospatial Data Download Service, the public is now able to download the EPA Geodata relational feature class containing facility and site information from EPA's national program systems. The file is Internet accessible from the Envirofacts Web site (&amp;lt;http://www.epa.gov/enviro&amp;gt;). The data may be used with geospatial mapping applications. (Note: The relational feature class omits facilities without latitude/longitude coordinates.) The EPA Geospatial Data contains the name, location (latitude/longitude), and EPA program information about specific facilities and sites. In addition, the file contains a Uniform Resource Locator (URL), which allows mapping applications to present an option to users to access additional EPA data resources on a specific facility or site.</abstract>
@@ -84,7 +84,6 @@
   <location>
     <url>http://purl.stanford.edu/sx264yc2425</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:sx264yc2425</recordIdentifier>
@@ -104,8 +103,25 @@
             <gml:upperCorner>-66.98488 45.18897</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Northeastern States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 73&#xB0;59&#x2B9;59&#x2BA;--W 66&#xB0;59&#x2B9;6&#x2BA;/N 45&#xB0;11&#x2B9;20&#x2BA;--N 40&#xB0;13&#x2B9;41&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 73°59ʹ59ʺ--W 66°59ʹ6ʺ/N 45°11ʹ20ʺ--N 40°13ʹ41ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Northeast Ocean Data : Maps and data for ocean planning in the northeastern United States</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sg639pq7229</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Populated Cities and Towns: Puerto Rico, United States and U.S. Virgin Islands, 2010</title>
@@ -29,7 +29,7 @@
     <edition>place v. 2</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -40,12 +40,12 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(E 172&#xB0;--W 64&#xB0;/N 72&#xB0;--N 17&#xB0;)</coordinates>
-      <coordinates>(W 176&#xB0;39&#x2B9;29&#x2BA;--E 178&#xB0;52&#x2B9;39&#x2BA;/N 71&#xB0;17&#x2B9;26&#x2BA;--N 17&#xB0;42&#x2B9;45&#x2BA;)</coordinates>
+      <coordinates>(E 172°--W 64°/N 72°--N 17°)</coordinates>
+      <coordinates>(W 176°39ʹ29ʺ--E 178°52ʹ39ʺ/N 71°17ʹ26ʺ--N 17°42ʹ45ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile depicts cities and towns in the United States, Puerto Rico, and the United States Virgin Islands. A city or town is a place with a recorded population, usually with at least one central area that provides commercial activities. Cities are generally larger than towns; no distinction is made between cities and towns in this map layer. This layer is part of the 2014 National Transportation Atlas Database.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">The National Transportation Atlas Databases 2014 (NTAD2014) is a set of nationwide geographic datasets of transportation facilities, transportation networks, associated infrastructure and other political and administrative entities. These datasets include spatial information for transportation modal networks and intermodal terminals, as well as the re&#xAC;lated attribute information for these features. This data supports research, analysis, and decision-making across all transportation modes. It is most useful at the national level, but has major applications at regional, state and local scales throughout the transportation community. The data used to compile NTAD2014 was provided by our partners within the United States Department of Transportation (USDOT) and by other agencies throughout the United States Federal Government. These contributors are the actual data stewards and are ultimately responsible for the maintenance and accuracy of their data. These data are intended for geographic display and analysis at the national level and for large regional areas. The data should be displayed and analyzed at scales appropriate for 1:1,000,000 scale data. No responsibility is assumed by the National Atlas of the United States in the use of these data.</abstract>
+  <abstract displayLabel="Purpose" lang="eng">The National Transportation Atlas Databases 2014 (NTAD2014) is a set of nationwide geographic datasets of transportation facilities, transportation networks, associated infrastructure and other political and administrative entities. These datasets include spatial information for transportation modal networks and intermodal terminals, as well as the re¬lated attribute information for these features. This data supports research, analysis, and decision-making across all transportation modes. It is most useful at the national level, but has major applications at regional, state and local scales throughout the transportation community. The data used to compile NTAD2014 was provided by our partners within the United States Department of Transportation (USDOT) and by other agencies throughout the United States Federal Government. These contributors are the actual data stewards and are ultimately responsible for the maintenance and accuracy of their data. These data are intended for geographic display and analysis at the national level and for large regional areas. The data should be displayed and analyzed at scales appropriate for 1:1,000,000 scale data. No responsibility is assumed by the National Atlas of the United States in the use of these data.</abstract>
   <note displayLabel="Preferred citation" lang="eng">United States. Department of Transportation. Research and Innovative Technology Administration. (2014). Populated Cities and Towns: Puerto Rico, United States and U.S. Virgin Islands, 2010. National Transportation Atlas Database 2014. Available at: http://purl.stanford.edu/jr910wh2926.</note>
   <note displayLabel="Supplemental information">Version 1 of this data set was produced from GNIS and Census data in 2012 but was not released. This data set replaces the earlier version. Information about National Atlas Web services can be found on the Web Map and Web Feature Services page; see http://nationalatlas.gov/infodocs/webservices.html.</note>
   <subject>
@@ -78,7 +78,6 @@
   <location>
     <url>http://purl.stanford.edu/jr910wh2926</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:jr910wh2926</recordIdentifier>
@@ -98,11 +97,17 @@
             <gml:upperCorner>178.877485 71.290555</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4138106/" dc:language="eng" dc:title="Washington (D.C.)"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4796775/" dc:language="eng" dc:title="United States Virgin Islands"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/4566966/" dc:language="eng" dc:title="Puerto Rico"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>National transportation atlas databases : NTAD</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/xw066kj5196</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Topography, Freshwater Creek Watershed, California, 1999</title>
@@ -30,7 +30,7 @@
     <edition>1</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -41,7 +41,7 @@
     <cartographics>
       <scale>1:24000</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 124&#xB0;8&#x2B9;21&#x2BA;--W 123&#xB0;51&#x2B9;42&#x2BA;/N 40&#xB0;52&#x2B9;58&#x2BA;--N 40&#xB0;37&#x2B9;1&#x2BA;)</coordinates>
+      <coordinates>(W 124°8ʹ21ʺ--W 123°51ʹ42ʺ/N 40°52ʹ58ʺ--N 40°37ʹ1ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This line shapefile depicts the topography of the Freshwater Creek watershed study area, located in Humboldt County CaliforniaThese data were derived from digital maps of landslide potential and geologic features in Humboldt County originally published in 1999 by the California Division of Mines and Geology (OFR 99-10 and OFR 99-10a). The data for the original mapping were compiled from multiple sources including published maps and reports, aerial photograph mapping, and reconnaissance geologic mapping.</abstract>
@@ -174,26 +174,11 @@ converted to ArcInfo vector coverages.</note>
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="inlandWaters">Inland Waters</topic>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="">Geoscientific Information</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
   </subject>
   <location>
     <url>http://purl.stanford.edu/nn475pg7959</url>
   </location>
-  <accessCondition type="useAndReproduction">California Department of Conservation, California Geological Survey, &#xA9; 2005.
-All rights reserved. No part of this dataset may be reproduced, transmitted,
-or distributed in any form or by any means, electronic or mechanical, for any
-purpose, without the express written permission of the California Geological
-Survey except as follows. Permission is granted to reproduce prints of all or
-part of the data under the following conditions:
-(1) For personal use
-(2) For publication in a report in unmodified form, cite on figure or in
-text as "Reproduced with permission, California Geological Survey CD-ROM 2005-01
-(2005), Watershed Mapping Series, Map set 4, Elk River Watershed, Humboldt County,
-California."
-(3) For publication in a report in modified form, cite on figure or in text
-as "Modified from California Geological Survey from CD-ROM 2005-01 (2005),
-Watershed Mapping Series, Map set 4, Elk River Watershed, Humboldt County,
-California."</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:nn475pg7959</recordIdentifier>
@@ -213,10 +198,25 @@ California."</accessCondition>
             <gml:upperCorner>-123.875003 40.875</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="California, Northern"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Humboldt County (Calif.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Freshwater Creek (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;7&#x2B9;30&#x2BA;--W 123&#xB0;52&#x2B9;30&#x2BA;/N 40&#xB0;52&#x2B9;30&#x2BA;--N 40&#xB0;37&#x2B9;30&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 124°7ʹ30ʺ--W 123°52ʹ30ʺ/N 40°52ʹ30ʺ--N 40°37ʹ30ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Maps and GIS data for the Watersheds mapping series. Map set 3, Digital representation of OFR 99-10 &amp; OFR 99-10a, Freshwater Creek, Humboldt County, California</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/mg057bs7584</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Flooding and Dam Inundation Zones: Humboldt County, California, 2015</title>
   </titleInfo>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2015</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,7 +33,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 124&#xB0;6&#x2B9;31&#x2BA;--W 122&#xB0;18&#x2B9;21&#x2BA;/N 41&#xB0;58&#x2B9;57&#x2BA;--N 41&#xB0;8&#x2B9;24&#x2BA;)</coordinates>
+      <coordinates>(W 124°6ʹ31ʺ--W 122°18ʹ21ʺ/N 41°58ʹ57ʺ--N 41°8ʹ24ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polyline shapefile depicts the Potential Flooding and Dam Inundation Zones on the Klamath River in the County of Humboldt, California in relation to the Copco Number 1 Dam. Flooding can cause the inundation of a normally dry area caused by high flow or overflow of water in an established watercourse. This coverage displays the portion of the Klamath River that flows from Siskiyou County, California to Humboldt County, California where it drains into the Pacific Ocean. Fully contructed by 1922, the Copco Number 1 Dam is hydroelectric stands 132 feet tall with a 77,000 acre feet reservoir capacity (Copco Lake). This Dam is one of four in the Klamath Basin which have been proposed for removal. The lower and middle sections of the Klamath River in California are most vulnerable to flooding.</abstract>
@@ -90,8 +90,25 @@
             <gml:upperCorner>-122.331651 41.982182</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Humboldt County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 124&#xB0;5&#x2B9;11&#x2BA;--W 122&#xB0;19&#x2B9;54&#x2BA;/N 41&#xB0;58&#x2B9;56&#x2BA;--N 41&#xB0;9&#x2B9;7&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 124°5ʹ11ʺ--W 122°19ʹ54ʺ/N 41°58ʹ56ʺ--N 41°9ʹ7ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Humboldt County, California GIS Maps &amp; Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/zc242vz4054</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

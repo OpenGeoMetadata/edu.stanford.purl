@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Mapping Symbology: Noyo River Watershed, California, 2000</title>
@@ -23,7 +23,7 @@
     <edition>1</edition>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -34,10 +34,10 @@
     <cartographics>
       <scale>1:24000</scale>
       <projection>EPSG::3309</projection>
-      <coordinates>(W 123&#xB0;49&#x2B9;17&#x2BA;--W 123&#xB0;24&#x2B9;24&#x2BA;/N 39&#xB0;31&#x2B9;3&#x2BA;--N 39&#xB0;20&#x2B9;57&#x2BA;)</coordinates>
+      <coordinates>(W 123°49ʹ17ʺ--W 123°24ʹ24ʺ/N 39°31ʹ3ʺ--N 39°20ʹ57ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This file contains the geologic mapping symbology, such as landslide scarps and direction of movement arrows, as well as prior landslide activity, for the Noyo River Watershed, which lies within the Coast Ranges physiographic province of California. The area is mountainous, with elevations ranging from sea level in the coastal area of the watershed to approximately 2,850 feet in the eastern headwaters portion of the watershed. The majority of the watershed is heavily forested; portions of the extreme western and southeastern portions of the watershed are grass covered. This map set was compiled from multiple sources including published maps and reports, unpublished mapping by the U.S. Geological Survey, aerial photograph mapping, and reconnaissance geologic mapping. </abstract>
+  <abstract displayLabel="Abstract" lang="eng">This file contains the geologic mapping symbology, such as landslide scarps and direction of movement arrows, as well as prior landslide activity, for the Noyo River Watershed, which lies within the Coast Ranges physiographic province of California. The area is mountainous, with elevations ranging from sea level in the coastal area of the watershed to approximately 2,850 feet in the eastern headwaters portion of the watershed. The majority of the watershed is heavily forested; portions of the extreme western and southeastern portions of the watershed are grass covered. This map set was compiled from multiple sources including published maps and reports, unpublished mapping by the U.S. Geological Survey, aerial photograph mapping, and reconnaissance geologic mapping.</abstract>
   <abstract displayLabel="Purpose" lang="eng">Results of Noyo River Watershed Landslide Mapping Project, including geologic and geomorphic features (landslide) maps and landslide potential maps. The maps/data are useful in preparation of Timber Harvesting Plans, and for use by land managers for identifying areas of potentially unstable ground. The maps/data serve as a guide to potential problem areas where more site-specific review is required.</abstract>
   <note displayLabel="Preferred citation" lang="eng">California Division of Mines and Geology. (2001). Mapping Symbology: Noyo River Watershed, California, 2000. California Division of Mines and Geology. Available at: http://purl.stanford.edu/pt361ms4705</note>
   <subject>
@@ -65,7 +65,7 @@
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="environment">Environment</topic>
   </subject>
   <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="">Geoscientific Information</topic>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
   </subject>
   <subject>
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="inlandWaters">Inland Waters</topic>
@@ -92,10 +92,25 @@
             <gml:upperCorner>-123.40963 39.514481</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="California, Northern"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5378072/about.rdf" dc:language="eng" dc:title="Noyo River (Calif.)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Noyo River Watershed (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 123&#xB0;49&#x2B9;1&#x2BA;--W 123&#xB0;24&#x2B9;35&#x2BA;/N 39&#xB0;30&#x2B9;52&#x2BA;--N 39&#xB0;21&#x2B9;18&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 123°49ʹ1ʺ--W 123°24ʹ35ʺ/N 39°30ʹ52ʺ--N 39°21ʹ18ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>GIS data for the Watersheds mapping series, map set 1, Noyo River Watershed</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/sv998rv5723</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>2005 Rural Poverty GIS Database: Uganda</title>
@@ -22,7 +22,7 @@
     <dateValid encoding="w3cdtf">2005</dateValid>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -33,10 +33,10 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(E 29&#xB0;34&#x2B9;22&#x2BA;--E 35&#xB0;1&#x2BA;/N 4&#xB0;14&#x2B9;3&#x2BA;--S 1&#xB0;28&#x2B9;44&#x2BA;)</coordinates>
+      <coordinates>(E 29°34ʹ22ʺ--E 35°1ʺ/N 4°14ʹ3ʺ--S 1°28ʹ44ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains 2005 poverty data for 855 rural subcounties in Uganda. </abstract>
+  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains 2005 poverty data for 855 rural subcounties in Uganda.</abstract>
   <abstract displayLabel="Purpose" lang="eng">These data are intended for researchers, students, policy makers and the general public for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Uganda Bureau of Statistics and International Livestock Research Institute (ILRI). (2008). 2005 Poverty GIS Database. Kampala, Uganda: Government of Uganda, UBOS and ILRI. Available at: http://purl.stanford.edu/cz128vq0535</note>
   <subject>
@@ -50,9 +50,6 @@
   </subject>
   <subject>
     <temporal encoding="w3cdtf">2005</temporal>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI=""/>
   </subject>
   <location>
     <url>http://purl.stanford.edu/cz128vq0535</url>
@@ -76,8 +73,17 @@
             <gml:upperCorner>35.000308 4.234077</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/226074/about.rdf" dc:language="eng" dc:title="Uganda"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Uganda GIS Maps and Data, 2000-2010</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/rb371kw9607</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

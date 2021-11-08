@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Damage Assessment in the town of Coatetelco, Municipality of Miacatlan, State of Morelos, Mexico</title>
@@ -18,7 +18,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -29,7 +29,7 @@
     <cartographics>
       <scale>1:24000</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 99&#xB0;20&#x2B9;26&#x2BA;--W 99&#xB0;18&#x2B9;40&#x2BA;/N 18&#xB0;44&#x2B9;20&#x2BA;--N 18&#xB0;43&#x2B9;14&#x2BA;)</coordinates>
+      <coordinates>(W 99°20ʹ26ʺ--W 99°18ʹ40ʺ/N 18°44ʹ20ʺ--N 18°43ʹ14ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This map illustrates satellite-detected, potentially damaged structures in the town of Coatetelco, Miacatlan Municipality, Morelos State, Mexico. The analyzed area is located approximately 90 km northwest of the main shock epicenter of the 19 September 2017 M7.1 earthquake. UNITAR-UNOSAT identified 500 potentially damaged structures. The analysis was performed using a post-event WorldView-3 satellite image acquired on 22 September 2017 and a pre-event WorldView-2 satellite image acquired on 17 January 2017.</abstract>
@@ -50,7 +50,6 @@
   <location>
     <url>http://purl.stanford.edu/nq864yz5962</url>
   </location>
-  <accessCondition type="useAndReproduction">Under the CC BY-SA license, you are free to share (copy and redistribute the material in any medium or format) and or adapt (remix, transform, and build upon the material) for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms. The license terms are that you must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. Additionally, you may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:nq864yz5962</recordIdentifier>
@@ -70,8 +69,26 @@
             <gml:upperCorner>-99.311039 18.738943</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Coatetelco (Morelos, Mexico)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 99&#xB0;20&#x2B9;26&#x2BA;--W 99&#xB0;18&#x2B9;40&#x2BA;/N 18&#xB0;44&#x2B9;20&#x2BA;--N 18&#xB0;43&#x2B9;14&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 99°20ʹ26ʺ--W 99°18ʹ40ʺ/N 18°44ʹ20ʺ--N 18°43ʹ14ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>United Nations Operational Satellite Applications Programme - GIS Maps and Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/qv655cn7837</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">Under the CC BY-SA license, you are free to share (copy and redistribute the material in any medium or format) and or adapt (remix, transform, and build upon the material) for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms. The license terms are that you must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. Additionally, you may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</accessCondition>
+  <accessCondition type="license" xlink:href="https://creativecommons.org/licenses/by-sa/3.0/legalcode">This work is licensed under a Creative Commons Attribution Share Alike 3.0 Unported license (CC BY-SA).</accessCondition>
+</mods>

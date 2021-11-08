@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>HUD Insured Hospitals, 2016</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>(W 124&#xB0;10&#x2B9;45&#x2BA;--W 66&#xB0;9&#x2B9;52&#x2BA;/N 48&#xB0;23&#x2B9;31&#x2BA;--N 18&#xB0;6&#x2B9;27&#x2BA;)</coordinates>
+      <coordinates>(W 124°10ʹ45ʺ--W 66°9ʹ52ʺ/N 48°23ʹ31ʺ--N 18°6ʹ27ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This point shapefile contains the locations of Department of Housing and Urban Development (HUD) insured hospitals. HUD's multifamily property portfolio consists primarily of rental housing properties with five or more dwelling units such as apartments or town houses, but can also be nursing homes, hospitals, elderly housing, mobile home parks, retirement service centers, and occasionally vacant land. The portfolio can be broken down into two basic categories: insured and assisted. HUD provides subsidies and grants to property owners and developers designed to promote the development and preservation of affordable rental units for low-income populations and those with special needs, such as the elderly and disabled. The three largest assistance programs for Multifamily housing are Section 8 Project Based Assistance, Section 202 Supportive Housing for the Elderly, and Section 811 Supportive Housing for Persons with Disabilities. Data Current As Of: 09/30/2016</abstract>
@@ -56,7 +56,6 @@
   <location>
     <url>http://purl.stanford.edu/dh400dz3578</url>
   </location>
-  <accessCondition type="useAndReproduction">This item is in the public domain. There are no restrictions on access or use.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:dh400dz3578</recordIdentifier>
@@ -76,8 +75,17 @@
             <gml:upperCorner>-66.1645 48.39195</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>U.S. Department of Housing and Urban Development Maps and GIS Data</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/wc590wy7435</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
 </mods>

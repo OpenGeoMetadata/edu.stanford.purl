@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
   <titleInfo>
     <title>Important Farmland, San Mateo County, California, 2010</title>
@@ -21,7 +21,7 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
   <physicalDescription>
     <form>Shapefile</form>
@@ -32,7 +32,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 122&#xB0;31&#x2B9;29&#x2BA;--W 122&#xB0;4&#x2B9;14&#x2BA;/N 37&#xB0;42&#x2B9;59&#x2BA;--N 37&#xB0;6&#x2B9;11&#x2BA;)</coordinates>
+      <coordinates>(W 122°31ʹ29ʺ--W 122°4ʹ14ʺ/N 37°42ʹ59ʺ--N 37°6ʹ11ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains areas of important farmland in San Mateo County, California for 2010. Important Farmland Maps show the relationship between the quality of soils for agricultural production and the land's use for agricultural, urban, or other purposes. A biennial map update cycle and notation system employed by FMMP captures conversion to urban land while accommodating rotational cycles in agricultural use. The minimum land use mapping unit is 10 acres unless specified. Smaller units of land are incorporated into the surrounding map classifications. In order to most accurately represent the NRCS digital soil survey, soil units of one acre or larger are depicted in Important Farmland Maps. For environmental review purposes, the categories of Prime Farmland, Farmland of Statewide Importance, Unique Farmland, Farmland of Local Importance, and Grazing Land constitute 'agricultural land' (Public Resources Code Section 21060.1).  The remaining categories are used for reporting changes in land use as required for FMMP's biennial farmland conversion report. This layer is part of the 2010 California Farmland Mapping and Montoring Project.</abstract>
@@ -64,7 +64,6 @@ Prior to the availability of SSURGO, soil information was hand-transferred from 
   <location>
     <url>http://purl.stanford.edu/pf455gy5521</url>
   </location>
-  <accessCondition type="useAndReproduction">No restrictions on access or use. A citation for the Farmland Mapping and Monitoring Program on any map products, graphic media, or data analyses based on the data is appreciated.</accessCondition>
   <recordInfo>
     <recordContentSource>Stanford</recordContentSource>
     <recordIdentifier>edu.stanford.purl:pf455gy5521</recordIdentifier>
@@ -84,8 +83,25 @@ Prior to the availability of SSURGO, soil information was hand-transferred from 
             <gml:upperCorner>-122.080625 37.708368</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5392427/" dc:language="eng" dc:title="San Mateo County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-<subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84"><cartographics><scale>Scale not given.</scale><projection>EPSG::4326</projection><coordinates>W 122&#xB0;31&#x2B9;11&#x2BA;--W 122&#xB0;4&#x2B9;50&#x2BA;/N 37&#xB0;42&#x2B9;30&#x2BA;--N 37&#xB0;6&#x2B9;25&#x2BA;</coordinates></cartographics></subject><note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note></mods>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°31ʹ11ʺ--W 122°4ʹ50ʺ/N 37°42ʹ30ʺ--N 37°6ʹ25ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>California Farmland Mapping and Monitoring Program, 2010</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/pc880pb0612</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+</mods>

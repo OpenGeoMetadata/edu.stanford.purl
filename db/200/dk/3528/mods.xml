@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+  <titleInfo>
+    <title>Home Owners' Loan Corporation Graded Neighborhoods, United States, 1935</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>University of Richmond. Digital Scholarship Lab</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
+  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
+  <originInfo>
+    <publisher>University of Richmond. Digital Scholarship Lab</publisher>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+  </originInfo>
+  <language>
+    <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <form>Shapefile</form>
+    <extent>4.636</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>Custom projection</projection>
+      <coordinates>(W 122°46ʹ3ʺ--W 70°56ʹ57ʺ/N 47°43ʹ21ʺ--N 25°42ʹ19ʺ)</coordinates>
+    </cartographics>
+  </subject>
+  <abstract displayLabel="Abstract" lang="eng">This shapefile contains digitized polygons showing graded neighborhoods as designated by the Home Owners' Loan Corporation (HOLC) in 1935. Polygons were digitized from georeferenced HOLC Maps. The HOLC was established in 1933 by the U.S Congress to refinance mortgages in default and prevent foreclosures. In 1935 they created residential security maps for 239 cities to indicate the level of security for real-estate investments. The maps were graded such as the newest areas, which were considered desirable for lending received a "Type A" grade. These areas were primarily wealthy suburbs on the outskirts of town. Still Desirable neighborhoods were given a "Type B" grade and older neighborhoods were given a "Type C" grade and considered Declining. Lastly "Type D" neighborhoods were regarded as most risky for mortgage lending.</abstract>
+  <abstract displayLabel="Purpose" lang="eng"> This dataset is part of the Mapping Inequality project. Mapping Inequality brings one of the country's most important archives to the public. HOLC's documents contain a wealth of information about how government officials, lenders, and real estate interests surveyed and ensured the economic health of American cities. And with the help of ongoing research, we continue to learn at what cost such measures were realized</abstract>
+  <note displayLabel="Preferred citation" lang="eng">University of Richmond. Digital Scholarship Lab. (2021). Home Owners' Loan Corporation Graded Neighborhoods, United States, 1935. University of Richmond. Digital Scholarship Lab. Available at: https://purl.stanford.edu/db200dk3528</note>
+  <subject>
+    <topic authority="lcsh" lang="eng">Discrimination in mortgage loans</topic>
+  </subject>
+  <subject>
+    <topic authority="lcsh" lang="eng">Home Owners' Loan Corporation</topic>
+  </subject>
+  <subject>
+    <geographic lang="eng" valueURI="http://sws.geonames.org/6252001/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">United States</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">1935</temporal>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
+  </subject>
+  <subject>
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="planningCadastre">Planning and Cadastral</topic>
+  </subject>
+  <location>
+    <url>https://purl.stanford.edu/db200dk3528</url>
+  </location>
+  <recordInfo>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordIdentifier>edu.stanford.purl:db200dk3528</recordIdentifier>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="https://purl.stanford.edu/db200dk3528">
+        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type>Dataset#Polygon</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>-122.767507 25.705373</gml:lowerCorner>
+            <gml:upperCorner>-70.949201 47.722514</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4326</projection>
+      <coordinates>W 122°46ʹ3ʺ--W 70°56ʹ57ʺ/N 47°43ʹ21ʺ--N 25°42ʹ19ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Mapping Inequality</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/vq093gx9796</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">You are free to share (copy and redistribute the material in any medium or format), adapt (remix, transform, and build upon the material) for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms. You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits. http://creativecommons.org/licenses/by/4.0/</accessCondition>
+</mods>

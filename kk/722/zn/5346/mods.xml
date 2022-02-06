@@ -24,10 +24,10 @@
     <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
   </originInfo>
   <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
   </language>
   <physicalDescription>
-    <form>Raster Dataset</form>
+    <form>GeoTIFF</form>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
   <subject>
@@ -37,7 +37,7 @@
       <coordinates>(W 122°24ʹ47ʺ--W 122°24ʹ16ʺ/N 37°47ʹ12ʺ--N 37°46ʹ48ʺ)</coordinates>
     </cartographics>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced image of a map showing Powell Plaza (San Francisco). The original map was created in 1963 by the San Francisco Department of City Planning, and Mario J. Ciampi. A scanned version of this map was georeferenced as part of the Imagined San Francisco project.</abstract>
+  <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced image of a map showing Powell Plaza (San Francisco). The original map was created in 1963 by the San Francisco Department of City Planning, and Mario J. Ciampi. A scanned version of this map was georeferenced as part of the Imagined San Francisco project. </abstract>
   <abstract displayLabel="Purpose" lang="eng">This project traces the history of urban planning in San Francisco, placing special emphasis on unrealized schemes. Rather than using visual material simply to illustrate outcomes, Imagined San Francisco uses historical plans, maps, architectural renderings, and photographs to show what might have been. By enabling users to layer a series of urban plans, the project presents the city not only as a sequence of material changes, but also as a contingent process and a battleground for political power. Savvy institutional actors--like banks, developers, and many public officials--understood that in some cases to clearly articulate their interests would be to invite challenges. That means that textual sources like newspapers and municipal reports are limited in what they can tell researchers about the shape of political power. Urban plans, however, often speak volumes about interests and dynamics upon which textual sources remain silent. Mortgage lenders, for example, apparently thought it unwise to state that they wished to see a poor neighborhood cleared, to be replaced with a freeway onramp. Yet visual analysis of planning proposals makes that interest plain. So in the process of showing how the city might have looked, Imagined San Francisco also shows how political power actually was negotiated and exercised.</abstract>
   <note displayLabel="Preferred citation" lang="eng">Ciampi, M. and San Francisco Department of City Planning. (2018). Powell Plaza (Raster Image). Stanford University. Center for Spatial and Textual Analysis. Available at: http://purl.stanford.edu/kk722zn5346</note>
   <subject>
@@ -67,13 +67,14 @@
     <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
       <rdf:Description rdf:about="http://purl.stanford.edu/kk722zn5346">
         <dc:format>image/tiff; format=GeoTIFF</dc:format>
-        <dc:type>Dataset#Raster</dc:type>
+        <dc:type>Dataset#</dc:type>
         <gml:boundedBy>
           <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-122.4131667 37.7799707</gml:lowerCorner>
-            <gml:upperCorner>-122.4045615 37.7867108</gml:upperCorner>
+            <gml:lowerCorner>-122.4130203 37.7799814</gml:lowerCorner>
+            <gml:upperCorner>-122.4045631 37.7866408</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
+        <dc:coverage rdf:resource="http://sws.geonames.org/5391959/" dc:language="eng" dc:title="San Francisco (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>

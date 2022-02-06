@@ -67,11 +67,11 @@
     <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
       <rdf:Description rdf:about="http://purl.stanford.edu/wp123sm9381">
         <dc:format>image/tiff; format=GeoTIFF</dc:format>
-        <dc:type>Dataset#Raster</dc:type>
+        <dc:type>Dataset#</dc:type>
         <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:3494">
-            <gml:lowerCorner>-122.531758 37.687372</gml:lowerCorner>
-            <gml:upperCorner>-122.341633 37.819226</gml:upperCorner>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>-122.5341641 37.6854371</gml:lowerCorner>
+            <gml:upperCorner>-122.3420805 37.8184329</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
         <dc:coverage rdf:resource="http://sws.geonames.org/5391959/" dc:language="eng" dc:title="San Francisco (Calif.)"/>
@@ -82,7 +82,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>W 122°31ʹ48ʺ--W 122°20ʹ55ʺ/N 37°49ʹ28ʺ--N 37°41ʹ8ʺ</coordinates>
+      <coordinates>W 122°32ʹ3ʺ--W 122°20ʹ31ʺ/N 37°49ʹ6ʺ--N 37°41ʹ8ʺ</coordinates>
     </cartographics>
   </subject>
   <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>

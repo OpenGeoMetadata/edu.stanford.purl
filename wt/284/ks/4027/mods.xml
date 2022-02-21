@@ -21,14 +21,14 @@
     <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
   </language>
   <physicalDescription>
-    <form>Raster Dataset</form>
+    <form>GeoTIFF</form>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
   <subject>
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
-      <coordinates>(W 122°26ʹ38ʺ--W 122°22ʹ28ʺ/N 37°49ʹ21ʺ--N 37°44ʹ39ʺ)</coordinates>
+      <coordinates>(W 141°13ʹ8ʺ--W 141°13ʹ7ʺ/N 30°36ʺ--N 30°36ʺ)</coordinates>
     </cartographics>
   </subject>
   <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced image of an 1853 map of San Francisco by the United States Coast Survey. A scanned version of this map was georeferenced as part of the Imagined San Francisco project. </abstract>
@@ -61,11 +61,11 @@
     <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
       <rdf:Description rdf:about="https://purl.stanford.edu/wt284ks4027">
         <dc:format>image/tiff; format=GeoTIFF</dc:format>
-        <dc:type>Dataset#Raster</dc:type>
+        <dc:type>Dataset#</dc:type>
         <gml:boundedBy>
           <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>0.0 -0.0</gml:lowerCorner>
-            <gml:upperCorner>18.0 25.6666667</gml:upperCorner>
+            <gml:lowerCorner>-122.4438889 37.7440444</gml:lowerCorner>
+            <gml:upperCorner>-122.3745534 37.8224879</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
         <dc:coverage rdf:resource="http://sws.geonames.org/5391959/" dc:language="eng" dc:title="San Francisco (Calif.)"/>
@@ -76,7 +76,7 @@
     <cartographics>
       <scale>Scale not given.</scale>
       <projection>EPSG::4326</projection>
-      <coordinates>E 0°--E 18°/N 25°40ʹ--N 0°</coordinates>
+      <coordinates>W 122°26ʹ38ʺ--W 122°22ʹ28ʺ/N 37°49ʹ21ʺ--N 37°44ʹ39ʺ</coordinates>
     </cartographics>
   </subject>
   <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>

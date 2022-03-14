@@ -1,83 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
   <titleInfo>
     <title>West Indies, Dominican Republic--south coast, Puerto de Haina (Raster Image)</title>
   </titleInfo>
   <name type="corporate">
     <namePart>Land Info (Firm)</namePart>
     <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
     </role>
   </name>
   <name type="corporate">
     <namePart>United States. Defense Mapping Agency</namePart>
     <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
     </role>
   </name>
+  <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+  <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
   <typeOfResource>cartographic</typeOfResource>
   <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>Land Info (Firm)</publisher>
-    <dateIssued encoding="w3cdtf" keyDate="yes">1995</dateIssued>
-    <edition>25th ed., May 13, 1995 (Correct through NM 19/95).</edition>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b">eng</languageTerm>
-  </language>
   <physicalDescription>
     <form>Raster Dataset</form>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <subject>
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>Custom projection</projection>
-      <coordinates>(W 70°2ʹ10ʺ--W 69°58ʹ44ʺ/N 18°26ʹ--N 18°21ʹ57ʺ)</coordinates>
-    </cartographics>
+  <language>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+  </language>
+  <abstract lang="eng" displayLabel="Abstract">This layer is a georeferenced raster image of a portion of a scanned nautical chart titled "West Indies, Dominican Republic--south coast, Puerto de Haina and Santo Domingo" originally published by the Defense Mapping Agency in 1995. This layer is 1 of 2 parts representing the original source sheet map. Map no. 25848.</abstract>
+  <abstract lang="eng" displayLabel="Purpose">Historic paper maps can provide an excellent view of the changes that have occurred in the cultural and physical landscape. The wide range of information provided on these maps make them useful in the study of historic geography, and urban and rural land use change. As this map has been georeferenced, it can be used in a GIS as a source or background layer in conjunction with other GIS data.</abstract>
+  <note lang="eng" displayLabel="Preferred citation">United States. Defense Mapping Agency. (1995). West Indies, Dominican Republic--south coast, Puerto de Haina (Raster Image). LandInfo. Available at: http://purl.stanford.edu/hh576cv5350</note>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <subject authority="lcsh" lang="eng">
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Harbors</topic>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced raster image of a portion of a scanned nautical chart titled "West Indies, Dominican Republic--south coast, Puerto de Haina and Santo Domingo" originally published by the Defense Mapping Agency in 1995. This layer is 1 of 2 parts representing the original source sheet map. Map no. 25848.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">Historic paper maps can provide an excellent view of the changes that have occurred in the cultural and physical landscape. The wide range of information provided on these maps make them useful in the study of historic geography, and urban and rural land use change. As this map has been georeferenced, it can be used in a GIS as a source or background layer in conjunction with other GIS data.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">United States. Defense Mapping Agency. (1995). West Indies, Dominican Republic--south coast, Puerto de Haina (Raster Image). LandInfo. Available at: http://purl.stanford.edu/hh576cv5350</note>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Harbors</topic>
+  <subject authority="lcsh" lang="eng">
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Navigation</topic>
   </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Navigation</topic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/3508796/">Dominican Republic</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/3508796/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Dominican Republic</geographic>
+  <subject lang="eng">
+    <geographic>Haina</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng">Haina</geographic>
+  <subject lang="eng">
+    <geographic>Santo Domingo</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng">Santo Domingo</geographic>
+  <subject lang="eng">
+    <geographic>Atlantic Coast (Dominican Republic)</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng">Atlantic Coast (Dominican Republic)</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Caribbean Sea</geographic>
+  <subject lang="eng">
+    <geographic>Caribbean Sea</geographic>
   </subject>
   <subject>
     <temporal encoding="w3cdtf">1995</temporal>
   </subject>
-  <subject>
+  <subject authority="ISO19115TopicCategory">
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="imageryBaseMapsEarthCover">Imagery and Base Maps</topic>
   </subject>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>Custom projection</projection>
+      <coordinates>W 70°2ʹ10ʺ--W 69°58ʹ44ʺ/N 18°26ʹ--N 18°21ʹ57ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+    <cartographics>
+      <projection>EPSG::4326</projection>
+    </cartographics>
+  </subject>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">1995</dateIssued>
+    <publisher>Land Info (Firm)</publisher>
+    <edition>25th ed., May 13, 1995 (Correct through NM 19/95).</edition>
+  </originInfo>
   <location>
-    <url>http://purl.stanford.edu/hh576cv5350</url>
+    <url usage="primary display">https://purl.stanford.edu/hh576cv5350</url>
   </location>
   <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:hh576cv5350</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
     <languageOfCataloging>
       <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
     </languageOfCataloging>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <recordIdentifier>edu.stanford.purl:hh576cv5350</recordIdentifier>
   </recordInfo>
   <extension displayLabel="geo">
     <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
@@ -90,22 +96,9 @@
             <gml:upperCorner>-69.9790135 18.433359</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3508796/" dc:language="eng" dc:title="Dominican Republic"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Haina"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Santo Domingo"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Atlantic Coast (Dominican Republic)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Caribbean Sea"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>W 70°2ʹ10ʺ--W 69°58ʹ44ʺ/N 18°26ʹ--N 18°21ʹ57ʺ</coordinates>
-    </cartographics>
-  </subject>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
   <relatedItem type="host">
     <titleInfo>
       <title>National Geospatial-Intelligence Agency Nautical Charts</title>
@@ -116,4 +109,5 @@
     <typeOfResource collection="yes"/>
   </relatedItem>
   <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission</accessCondition>
+  <accessCondition type="copyright">Copyright ownership resides with the originator.</accessCondition>
 </mods>

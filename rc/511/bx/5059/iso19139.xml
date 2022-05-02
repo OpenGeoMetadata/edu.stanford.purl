@@ -71,7 +71,7 @@
     </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-    <gco:Date>2015-04-24</gco:Date>
+    <gco:Date>2022-04-27</gco:Date>
   </dateStamp>
   <metadataStandardName>
     <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -211,9 +211,6 @@
       <purpose>
         <gco:CharacterString>Geographic Names Information System, of which U.S. Geographic Names Information System Hospitals is a part, is the official repository of domestic geographic names data; the official vehicle for geographic names use by all departments of the Federal Government; and the source for applying geographic names to Federal electronic and printed products of all types in the United States. The feature locative information has been used in emergency preparedness, marketing, site-selection and analysis, genealogical and historical research, and transportation routing applications.</gco:CharacterString>
       </purpose>
-      <credit>
-        <gco:CharacterString>U.S. Geological Survey and ESRI. (2014). United States Geographic Names Information System Hospitals, 1974-2014. ESRI.</gco:CharacterString>
-      </credit>
       <status>
         <MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="ISOTC211/19115">completed</MD_ProgressCode>
       </status>
@@ -297,22 +294,6 @@ Outside the United States– Please direct all inquiries regarding software/data
               <date gco:nilReason="missing"/>
             </CI_Citation>
           </thesaurusName>
-        </MD_Keywords>
-      </descriptiveKeywords>
-      <descriptiveKeywords>
-        <MD_Keywords>
-          <keyword>
-            <gco:CharacterString>1981</gco:CharacterString>
-          </keyword>
-          <keyword>
-            <gco:CharacterString>2014</gco:CharacterString>
-          </keyword>
-          <keyword>
-            <gco:CharacterString>1974-Present</gco:CharacterString>
-          </keyword>
-          <type>
-            <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="temporal" codeSpace="ISOTC211/19115">temporal</MD_KeywordTypeCode>
-          </type>
         </MD_Keywords>
       </descriptiveKeywords>
       <descriptiveKeywords>
@@ -483,23 +464,15 @@ In the event that the data vendor(s) has (have) granted the end user permission 
       <extent>
         <EX_Extent>
           <description>
-            <gco:CharacterString>publication date: 1981-05-01, 2014-08-02; ground condition: 1974-Present</gco:CharacterString>
+            <gco:CharacterString>ground condition</gco:CharacterString>
           </description>
           <temporalElement>
             <EX_TemporalExtent>
               <extent>
-                <gml:TimeInstant gml:id="idp90384">
-                  <gml:timePosition>1981-05-01T00:00:00</gml:timePosition>
-                </gml:TimeInstant>
-              </extent>
-            </EX_TemporalExtent>
-          </temporalElement>
-          <temporalElement>
-            <EX_TemporalExtent>
-              <extent>
-                <gml:TimeInstant gml:id="idp91152">
-                  <gml:timePosition>2014-08-02T00:00:00</gml:timePosition>
-                </gml:TimeInstant>
+                <gml:TimePeriod gml:id="idm140480971399648">
+                  <gml:beginPosition>1974-01-01T00:00:00</gml:beginPosition>
+                  <gml:endPosition>2014-01-01T00:00:00</gml:endPosition>
+                </gml:TimePeriod>
               </extent>
             </EX_TemporalExtent>
           </temporalElement>
@@ -853,7 +826,7 @@ In the event that the data vendor(s) has (have) granted the end user permission 
                   <temporalElement>
                     <EX_TemporalExtent>
                       <extent>
-                        <gml:TimeInstant gml:id="idp133808">
+                        <gml:TimeInstant gml:id="idm140480971356736">
                           <gml:timePosition>1981-05-01T00:00:00</gml:timePosition>
                         </gml:TimeInstant>
                       </extent>
@@ -862,7 +835,7 @@ In the event that the data vendor(s) has (have) granted the end user permission 
                   <temporalElement>
                     <EX_TemporalExtent>
                       <extent>
-                        <gml:TimeInstant gml:id="idp134672">
+                        <gml:TimeInstant gml:id="idm140480971355872">
                           <gml:timePosition>2014-08-02T00:00:00</gml:timePosition>
                         </gml:TimeInstant>
                       </extent>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <fileIdentifier>
     <gco:CharacterString>edu.stanford.purl:zh337rt4425</gco:CharacterString>
@@ -64,7 +65,7 @@
     </CI_ResponsibleParty>
   </contact>
   <dateStamp>
-    <gco:Date>2015-06-09</gco:Date>
+    <gco:Date>2022-04-27</gco:Date>
   </dateStamp>
   <metadataStandardName>
     <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
@@ -256,16 +257,6 @@
       <descriptiveKeywords>
         <MD_Keywords>
           <keyword>
-            <gco:CharacterString>2012</gco:CharacterString>
-          </keyword>
-          <type>
-            <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="temporal" codeSpace="ISOTC211/19115">temporal</MD_KeywordTypeCode>
-          </type>
-        </MD_Keywords>
-      </descriptiveKeywords>
-      <descriptiveKeywords>
-        <MD_Keywords>
-          <keyword>
             <gco:CharacterString>Ice shelves</gco:CharacterString>
           </keyword>
           <type>
@@ -418,8 +409,17 @@
       <extent>
         <EX_Extent>
           <description>
-            <gco:CharacterString>ground condition</gco:CharacterString>
+            <gco:CharacterString>publication date</gco:CharacterString>
           </description>
+          <temporalElement>
+            <EX_TemporalExtent>
+              <extent>
+                <gml:TimeInstant gml:id="idm140627290739264">
+                  <gml:timePosition>2012-11-08T00:00:00</gml:timePosition>
+                </gml:TimeInstant>
+              </extent>
+            </EX_TemporalExtent>
+          </temporalElement>
         </EX_Extent>
       </extent>
     </MD_DataIdentification>
@@ -438,8 +438,7 @@
       <featureCatalogueCitation>
         <CI_Citation>
           <title>
-            <gco:CharacterString>
-					Feature Catalog for Antarctic Ice Shelf Edges, 1:10 million (2012)</gco:CharacterString>
+            <gco:CharacterString>Feature Catalog for Antarctic Ice Shelf Edges, 1:10 million (2012)</gco:CharacterString>
           </title>
           <date>
             <CI_Date>

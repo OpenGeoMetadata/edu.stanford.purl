@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
   <titleInfo>
-    <title>Bahamas National Hazard Analysis, 2019: InVEST Coastal Vulnerability Model Outputs</title>
+    <title>Bahamas Shoreline Type for InVEST Coastal Vulnerability Model, 2019</title>
+  </titleInfo>
+  <titleInfo>
+    <title>Bahamas Shoreline Type</title>
+  </titleInfo>
+  <titleInfo>
+    <title>Bahamas Shoreline Type</title>
   </titleInfo>
   <name type="personal">
     <namePart>Silver, Jessica</namePart>
@@ -11,66 +17,6 @@
   </name>
   <name type="personal">
     <namePart>Arkema, Katie</namePart>
-    <role>
-      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-    </role>
-  </name>
-  <name type="personal">
-    <namePart>Griffin, Robert M.</namePart>
-    <role>
-      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-    </role>
-  </name>
-  <name type="personal">
-    <namePart>Lashleym Brett</namePart>
-    <role>
-      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-    </role>
-  </name>
-  <name type="personal">
-    <namePart>Lemay, Michele</namePart>
-    <role>
-      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-    </role>
-  </name>
-  <name type="personal">
-    <namePart>Maldonado, Sergio</namePart>
-    <role>
-      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-    </role>
-  </name>
-  <name type="personal">
-    <namePart>Moultrie, Stacey H.</namePart>
-    <role>
-      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-    </role>
-  </name>
-  <name type="personal">
-    <namePart>Ruckelshaus, Mary</namePart>
-    <role>
-      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-    </role>
-  </name>
-  <name type="personal">
-    <namePart>Schill, Steven</namePart>
-    <role>
-      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-    </role>
-  </name>
-  <name type="personal">
-    <namePart>Thomas, Adelle</namePart>
-    <role>
-      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-    </role>
-  </name>
-  <name type="personal">
-    <namePart>Wyatt, Katherine</namePart>
-    <role>
-      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-    </role>
-  </name>
-  <name type="personal">
-    <namePart>Verutes, Gregory</namePart>
     <role>
       <roleTerm authority="marcrelator" type="text">creator</roleTerm>
     </role>
@@ -87,8 +33,8 @@
   <language>
     <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
   </language>
-  <abstract lang="eng" displayLabel="Abstract">This dataset shares the results of a 2019 coastal hazard and social vulnerability assessment for the entire coastline of The Bahamas.  The analysis was conducted at a 250 m resolution and each shore point shows the modeled results relating to exposure to coastal hazards, population at risk and the potential for ecosystems to provide coastal protection for each 250 m segment.</abstract>
-  <abstract lang="eng" displayLabel="Purpose"> These model results were used to conduct the analysis for a peer-reviewed paper and are presented in a web map viewer used by the Bahamian government, NGOs, and the general public to look at shoreline exposure and vulnerability for the different SLR and habitat scenarios.</abstract>
+  <abstract lang="eng" displayLabel="Abstract">The Bahamas Shoreline Type for InVEST Coastal Vulnerability Model was used for the analysis in Silver JM, Arkema KK, Griffin RM, Lashley B, Lemay M, Maldonado S, Moultrie SH, Ruckelshaus M, Schill S, Thomas A, Wyatt K and Verutes G (2019) Advancing Coastal Risk Reduction Science and Implementation by Accounting for Climate, Ecosystems, and People. Frontiers in Marine Science 6:556. doi: 10.3389/fmars.2019.00556. The shoreline is divided into homogeneous segments based on the geomorphology of the beach.  The attribute ShoreType is assigned to one of four classes: sand, mud, rock, or seawall.  Each shoreline type is assigned a relative exposure rank from 1 (low exposure) to 5 (high exposure) to indicate how susceptible the shore type is to erosion and inundation.  For this analysis, the following ranks were used: mud=4, rock=3, sand=5, seawall=2.</abstract>
+  <abstract lang="eng" displayLabel="Purpose"> The Shoreline Type layer with relative exposure ranks was an input layer to the InVest Coastal Vulnerability model used for the 2019 Bahamas Coastal Hazard Analysis.</abstract>
   <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
   <subject authority="lcsh" lang="eng">
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Coastal ecosystem health</topic>
@@ -120,6 +66,9 @@
   <subject authority="lcsh" lang="eng">
     <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Natural Capital Project</topic>
   </subject>
+  <subject authority="lcsh" lang="eng">
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Shorelines</topic>
+  </subject>
   <subject authority="geonames" lang="eng">
     <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/3572887/">Bahamas</geographic>
   </subject>
@@ -140,7 +89,7 @@
       <scale>Scale not given.</scale>
       <projection>Custom projection</projection>
       <coordinates>W 79°21ʹ57ʺ--W 72°37ʹ6ʺ/N 27°18ʹ--N 20°51ʹ58ʺ</coordinates>
-      <coordinates>W 79°18ʹ29ʺ--W 72°42ʹ41ʺ/N 27°15ʹ31ʺ--N 20°54ʹ40ʺ</coordinates>
+      <coordinates>W 79°18ʹ22ʺ--W 72°42ʹ43ʺ/N 27°16ʹ3ʺ--N 20°54ʹ43ʺ</coordinates>
     </cartographics>
   </subject>
   <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
@@ -153,7 +102,7 @@
     <publisher>Natural Capital Project</publisher>
   </originInfo>
   <location>
-    <url usage="primary display">https://purl.stanford.edu/bs024ty5255</url>
+    <url usage="primary display">https://purl.stanford.edu/bd983nn3002</url>
   </location>
   <recordInfo>
     <languageOfCataloging>
@@ -161,25 +110,23 @@
     </languageOfCataloging>
     <recordContentSource>Stanford</recordContentSource>
     <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
-    <recordIdentifier>edu.stanford.purl:bs024ty5255</recordIdentifier>
+    <recordIdentifier>edu.stanford.purl:bd983nn3002</recordIdentifier>
   </recordInfo>
-  <relatedItem type="isReferencedBy">
+  <relatedItem type="references">
     <titleInfo>
       <title>Advancing Coastal Risk Reduction Science and Implementation by Accounting for Climate, Ecosystems, and People</title>
     </titleInfo>
-    <location>
-      <url>https://doi.org/10.5281/zenodo.3387712</url>
-    </location>
+    <identifier>https://doi.org/10.5281/zenodo.3387712</identifier>
   </relatedItem>
   <extension displayLabel="geo">
     <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="http://purl.stanford.edu/bs024ty5255">
+      <rdf:Description rdf:about="http://purl.stanford.edu/bd983nn3002">
         <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
         <dc:type>Dataset#</dc:type>
         <gml:boundedBy>
           <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-79.30812 20.911163</gml:lowerCorner>
-            <gml:upperCorner>-72.71127 27.258541</gml:upperCorner>
+            <gml:lowerCorner>-79.306084 20.912056</gml:lowerCorner>
+            <gml:upperCorner>-72.712001 27.267411</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
         <dc:coverage rdf:resource="http://sws.geonames.org/3572887/" dc:language="eng" dc:title="Bahamas"/>

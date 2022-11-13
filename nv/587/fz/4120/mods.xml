@@ -1,65 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
   <titleInfo>
     <title>County Boundary, Inyo County, California, 2019</title>
   </titleInfo>
   <name type="corporate">
     <namePart>Inyo County (Calif.). Information Services Department</namePart>
     <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
     </role>
   </name>
+  <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+  <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
   <typeOfResource>cartographic</typeOfResource>
   <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>Inyo County (Calif.). Information Services Department</publisher>
-    <place>
-      <placeTerm type="text">US</placeTerm>
-    </place>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
   <physicalDescription>
     <form>Shapefile</form>
     <extent>0.185</extent>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <subject>
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>Custom projection</projection>
-      <coordinates>(W 118°47ʹ40ʺ--W 115°34ʹ39ʺ/N 37°28ʹ13ʺ--N 35°44ʹ36ʺ)</coordinates>
-    </cartographics>
-  </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents the boundary of Inyo County, California in Inyo County, Califorina. This layer is a part of a collection of data obtained from Inyo County Information Services Department.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">Inyo County (Calif.). Information Services Department. (2019). County Boundary, Inyo County, California, 2019. Inyo County (Calif.). Information Services Department. Available at: http://purl.stanford.edu/CountyBoundary.shp</note>
+  <language>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+  </language>
+  <abstract lang="eng" displayLabel="Abstract">This polygon shapefile represents the boundary of Inyo County, California in Inyo County, Califorina. This layer is a part of a collection of data obtained from Inyo County Information Services Department.</abstract>
+  <note lang="eng" displayLabel="Preferred citation">Inyo County (Calif.). Information Services Department. (2019). County Boundary, Inyo County, California, 2019. Inyo County (Calif.). Information Services Department. Available at: http://purl.stanford.edu/CountyBoundary.shp</note>
   <note displayLabel="Use limitation">The County of Inyo provides GIS data for your use "as is." The Information provided is from various sources and agencies. The maps/data provided herein are for illustration purposes only and are not suitable for site-specific decision making. Information found here should not be used for making financial or any other commitments. The County of Inyo provides this information with the understanding that it is not guaranteed to be accurate, correct or complete and conclusions drawn from such information are the responsibility of the user. While every effort has been made to ensure the accuracy, correctness and timeliness of materials presented anywhere within these pages, the County of Inyo assumes no responsibility for errors or omissions, even if the County of Inyo is advised of the possibility of such damage.The data may have a number of errors which may include but are not limited to the following types of errors:Spatial errors - The areas depicted by these maps/data are approximate, and are not necessarily accurate to surveying or engineering standards. X/Y coordinates may be in error by several hundred feet or more.Registration errors - GIS data layers may not overlay each other correctly. Attribute errors - Database information may be incorrect.Currency errors - GIS data layers, databases and documents may not be the most current available or may not depict the specified time. All data are subject to constant change. Data input lags real-world changes by varying periods of time.Completeness errors - Data may be missing or data may be included that does not belong.Projection distortion - All map projections introduce distortion by representing the irregular shape of the earth's surface on flat maps. This affects feature shapes and map distances. The County of Inyo GIS Department attempts to choose projections which minimize these distortions when viewing most County of Inyo maps.ALL DATA ARE PROVIDED AS IS, WITH ALL FAULTS. THE FOREGOING WARRANTY IS EXCLUSIVE AND IN LIEU OF ALL OTHER WARRANTIES OF MERCHANTABILITY, FITNESS FOR PARTICULAR PURPOSE AND/OR ANY OTHER TYPE WHETHER EXPRESSED OR IMPLIED. In no event shall the County of Inyo become liable to users of these data, or any other party, for any loss or direct, indirect, special, incidental or consequential damages, including but not limited to time, money or goodwill, arising from the use or modification of the data.</note>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Administrative and political divisions</topic>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <subject authority="lcsh" lang="eng">
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Administrative and political divisions</topic>
   </subject>
-  <subject>
-    <geographic lang="eng">Inyo County (Calif.)</geographic>
+  <subject lang="eng">
+    <geographic>Inyo County (Calif.)</geographic>
   </subject>
   <subject>
     <temporal encoding="w3cdtf">2019</temporal>
   </subject>
-  <subject>
+  <subject authority="ISO19115TopicCategory">
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
   </subject>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>Custom projection</projection>
+      <coordinates>W 118°47ʹ40ʺ--W 115°34ʹ39ʺ/N 37°28ʹ13ʺ--N 35°44ʹ36ʺ</coordinates>
+      <coordinates>W 118°47ʹ24ʺ--W 115°38ʹ53ʺ/N 37°27ʹ54ʺ--N 35°47ʹ12ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+    <cartographics>
+      <projection>EPSG::4326</projection>
+    </cartographics>
+  </subject>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+    <place>
+      <placeTerm type="text">US</placeTerm>
+    </place>
+    <publisher>Inyo County (Calif.). Information Services Department</publisher>
+  </originInfo>
   <location>
-    <url>http://purl.stanford.edu/nv587fz4120</url>
+    <url usage="primary display">https://purl.stanford.edu/nv587fz4120</url>
   </location>
   <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:nv587fz4120</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
     <languageOfCataloging>
       <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
     </languageOfCataloging>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <recordIdentifier>edu.stanford.purl:nv587fz4120</recordIdentifier>
   </recordInfo>
   <extension displayLabel="geo">
     <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
@@ -75,14 +82,6 @@
       </rdf:Description>
     </rdf:RDF>
   </extension>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>W 118°47ʹ24ʺ--W 115°38ʹ53ʺ/N 37°27ʹ54ʺ--N 35°47ʹ12ʺ</coordinates>
-    </cartographics>
-  </subject>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
   <relatedItem type="host">
     <titleInfo>
       <title>Inyo County, California, GIS Maps and Data</title>
@@ -93,4 +92,5 @@
     <typeOfResource collection="yes"/>
   </relatedItem>
   <accessCondition type="useAndReproduction">These data are made available as a public service. The data is for reference purposes only, and the originator(s) make no representatives, warranties, or guarantees as to the accuracy of the data. Information found here should not be used for making financial or any other commitments. In no way shall the originator(s) become liable to users of these data, or any other party, for any loss or direct, indirect, special, incidental or consequential damages, including but not limited to time, money or goodwill, arising from the use or modification of the data. This data is in the public domain.</accessCondition>
+  <accessCondition type="copyright">This work is in the Public Domain, meaning that it is not subject to copyright.</accessCondition>
 </mods>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+  <titleInfo>
+    <title>Angola 2G Mobile Coverage Explorer, 2015</title>
+  </titleInfo>
+  <name type="corporate">
+    <namePart>Collins Bartholomew Ltd.</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+    </role>
+  </name>
+  <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+  <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
+  <typeOfResource>cartographic</typeOfResource>
+  <typeOfResource>software, multimedia</typeOfResource>
+  <physicalDescription>
+    <form>GeoTIFF</form>
+    <extent>10.046</extent>
+    <digitalOrigin>born digital</digitalOrigin>
+  </physicalDescription>
+  <language>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+  </language>
+  <abstract lang="eng" displayLabel="Abstract">This raster dataset is a representation of the coverage area for 2G mobile communications networks in Angola. Mobile Coverage is released annually in January each year. This data release is named 2015. Any operator data received up to the end of the year 2014 is included in this release. The data is made available in GeoTIFF 2-BIT raster format with pre-built pyramids using nearest-neighbour resampling - with a nominal resolution of approximately 260 metres on the ground at the equator. Operators are asked to submit strong (indoor) and variable (outdoor) signal strengths: 2G (GSM) Greater than / -92 dBm -92 to -100 dBm, 3G (UMTS) Greater than -92 dBm / -92 to -100 dBm, 4G (LTE) Greater than -105 dBm / -105 to -120 dBm. However, the data received from operators often does not include signal strength information or does not follow the above guidelines. Therefore, whilst the rasters retain the strong and variable distinctions, this inconsistency must be understood by the user.The cell values in the MCE rasters are as follows: 1 - strong signal strength 2 - variable signal strength.</abstract>
+  <note displayLabel="Supplemental information">Operators are asked to submit strong (&gt;= -92dBm) and variable (&gt;= -100dBm and &lt; 92dBm) signal strengths as part of their submissions. The data here includes both types but does not make a distinction between the two.</note>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <subject authority="lcsh" lang="eng">
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Wireless communication systems</topic>
+  </subject>
+  <subject lang="eng">
+    <geographic>Angola</geographic>
+  </subject>
+  <subject>
+    <temporal encoding="w3cdtf">2015</temporal>
+  </subject>
+  <subject authority="ISO19115TopicCategory">
+    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="utilitiesCommunication">Utilities and Communication</topic>
+  </subject>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>Custom projection</projection>
+      <coordinates>E 11°15ʹ--E 25°51ʹ17ʺ/S 3°38ʹ55ʺ--S 18°14ʹ12ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+    <cartographics>
+      <projection>EPSG::4326</projection>
+    </cartographics>
+  </subject>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+    <place>
+      <placeTerm type="text">Glasgow, GB</placeTerm>
+    </place>
+    <publisher>Collins Bartholomew Ltd.</publisher>
+  </originInfo>
+  <location>
+    <url usage="primary display">https://purl.stanford.edu/cp085fn7639</url>
+  </location>
+  <recordInfo>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <recordIdentifier>edu.stanford.purl:cp085fn7639</recordIdentifier>
+  </recordInfo>
+  <extension displayLabel="geo">
+    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description rdf:about="http://purl.stanford.edu/cp085fn7639">
+        <dc:format>image/tiff; format=GeoTIFF</dc:format>
+        <dc:type>Dataset#</dc:type>
+        <gml:boundedBy>
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>11.2499993 -18.2366749</gml:lowerCorner>
+            <gml:upperCorner>25.8546439 -3.6484929</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage dc:language="eng" dc:title="Angola"/>
+      </rdf:Description>
+    </rdf:RDF>
+  </extension>
+  <relatedItem type="host">
+    <titleInfo>
+      <title>Collins Mobile Coverage Explorer</title>
+    </titleInfo>
+    <location>
+      <url>https://purl.stanford.edu/vh286rq6087</url>
+    </location>
+    <typeOfResource collection="yes"/>
+  </relatedItem>
+  <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+  <accessCondition type="copyright">Copyright ownership resides with the originator.</accessCondition>
+</mods>

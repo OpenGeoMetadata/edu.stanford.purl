@@ -1,65 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
   <titleInfo>
     <title>Tuolumne Watershed Watershed, Sierra Nevada, 2017</title>
   </titleInfo>
   <name type="corporate">
     <namePart>Sierra Nevada Conservancy</namePart>
     <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
     </role>
   </name>
+  <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+  <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
   <typeOfResource>cartographic</typeOfResource>
   <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>Sierra Nevada Conservancy</publisher>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
   <physicalDescription>
     <form>Shapefile</form>
     <extent>0.009</extent>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>(W 120°36ʹ5ʺ--W 119°12ʹ7ʺ/N 38°13ʹ31ʺ--N 37°39ʹ17ʺ)</coordinates>
-    </cartographics>
+  <language>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+  </language>
+  <abstract lang="eng" displayLabel="Abstract">This polygon shapefile contains the boundary of the Watershed Improvement Program's This polygon shapefile contains the boundary of the Watershed Improvement Program's Tuolumne watershed..</abstract>
+  <note lang="eng" displayLabel="Preferred citation">Sierra Nevada Conservancy. (2017). Tuolumne Watershed Watershed, Sierra Nevada, 2017. Available at: https://purl.stanford.edu/yt364hw9952</note>
+  <subject authority="lcsh" lang="eng">
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Watersheds</topic>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the boundary of the Watershed Improvement Program's This polygon shapefile contains the boundary of the Watershed Improvement Program's Tuolumne watershed..</abstract>
-  <note displayLabel="Preferred citation" lang="eng">Sierra Nevada Conservancy. (2017). Tuolumne Watershed Watershed, Sierra Nevada, 2017. Available at: https://purl.stanford.edu/yt364hw9952</note>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Watersheds</topic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Sierra Nevada (Calif. and Nev.)</geographic>
+  <subject lang="eng">
+    <geographic>Sierra Nevada (Calif. and Nev.)</geographic>
   </subject>
   <subject>
     <temporal encoding="w3cdtf">2017</temporal>
   </subject>
-  <subject>
+  <subject authority="ISO19115TopicCategory">
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="inlandWaters">Inland Waters</topic>
   </subject>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <coordinates>W 120°36ʹ5ʺ--W 119°12ʹ7ʺ/N 38°13ʹ31ʺ--N 37°39ʹ17ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+    <cartographics>
+      <projection>EPSG::4326</projection>
+    </cartographics>
+  </subject>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+    <publisher>Sierra Nevada Conservancy</publisher>
+  </originInfo>
   <location>
-    <url>https://purl.stanford.edu/yt364hw9952</url>
+    <url usage="primary display">https://purl.stanford.edu/yt364hw9952</url>
   </location>
   <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:yt364hw9952</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
     <languageOfCataloging>
       <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
     </languageOfCataloging>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <recordIdentifier>edu.stanford.purl:yt364hw9952</recordIdentifier>
   </recordInfo>
   <extension displayLabel="geo">
     <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="https://purl.stanford.edu/yt364hw9952">
+      <rdf:Description rdf:about="http://purl.stanford.edu/yt364hw9952">
         <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
         <dc:type>Dataset#Polygon</dc:type>
         <gml:boundedBy>
@@ -81,4 +85,5 @@
     <typeOfResource collection="yes"/>
   </relatedItem>
   <accessCondition type="useAndReproduction">These data are made available as a public service. The data is for reference purposes only, and the originator(s) make no representatives, warranties, or guarantees as to the accuracy of the data. Information found here should not be used for making financial or any other commitments. In no way shall the originator(s) become liable to users of these data, or any other party, for any loss or direct, indirect, special, incidental or consequential damages, including but not limited to time, money or goodwill, arising from the use or modification of the data. This data is in the public domain.</accessCondition>
+  <accessCondition type="copyright">This work is in the Public Domain, meaning that it is not subject to copyright.</accessCondition>
 </mods>

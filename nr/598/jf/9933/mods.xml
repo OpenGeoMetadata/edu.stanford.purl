@@ -1,72 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
   <titleInfo>
     <title>100-Meter Resolution Natural Earth of Alaska</title>
   </titleInfo>
   <name type="corporate">
     <namePart>Geological Survey (U.S.)</namePart>
     <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
     </role>
   </name>
+  <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+  <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
   <typeOfResource>cartographic</typeOfResource>
   <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>National Atlas of the United States</publisher>
-    <place>
-      <placeTerm type="text">Rolla, Missouri, US</placeTerm>
-    </place>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
-    <dateValid encoding="w3cdtf">2013</dateValid>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
   <physicalDescription>
     <form>GeoTIFF</form>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <subject>
-    <cartographics>
-      <scale>1:1000000</scale>
-      <projection>EPSG::3338</projection>
-      <coordinates>(W 180°--E 180°/N 71°57ʹ17ʺ--N 43°3ʹ12ʺ)</coordinates>
-    </cartographics>
-  </subject>
-  <abstract displayLabel="Abstract" lang="eng">This layer is a georeferenced raster image representing a natural-earth image of Alaska. The image is land cover in natural colors combined with shaded relief, which produces a naturalistic rendition of the Earth's surface. The data set is in an Albers Equal-Area Conic projection. The Natural Earth data were produced from existing National Atlas land cover, elevation, and satellite view data, as well as MODIS Vegetation Continuous Fields data. This layer is part of the 1997-2014 edition National Atlas of the United States.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">The 100-meter resolution Natural Earth data were developed to portray the terrain and land cover of the United States at 1:1,000,000 scale. They are intended primarily for visual purposes. The original NLCD data or Landsat Thematic Mapper imagery data should be used for conducting scientific analysis, and the original NED data should be used for determining the most accurate elevation values. No responsibility is assumed by the National Atlas of the United States in the use of these data.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">National Atlas of the United States. (2013). 100-Meter Resolution Natural Earth of Alaska. National Atlas of the United States. Available at: http://purl.stanford.edu/nr598jf9933.</note>
+  <language>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+  </language>
+  <abstract lang="eng" displayLabel="Abstract">This layer is a georeferenced raster image representing a natural-earth image of Alaska. The image is land cover in natural colors combined with shaded relief, which produces a naturalistic rendition of the Earth's surface. The data set is in an Albers Equal-Area Conic projection. The Natural Earth data were produced from existing National Atlas land cover, elevation, and satellite view data, as well as MODIS Vegetation Continuous Fields data. This layer is part of the 1997-2014 edition National Atlas of the United States.</abstract>
+  <abstract lang="eng" displayLabel="Purpose">The 100-meter resolution Natural Earth data were developed to portray the terrain and land cover of the United States at 1:1,000,000 scale. They are intended primarily for visual purposes. The original NLCD data or Landsat Thematic Mapper imagery data should be used for conducting scientific analysis, and the original NED data should be used for determining the most accurate elevation values. No responsibility is assumed by the National Atlas of the United States in the use of these data.</abstract>
+  <note lang="eng" displayLabel="Preferred citation">National Atlas of the United States. (2013). 100-Meter Resolution Natural Earth of Alaska. National Atlas of the United States. Available at: http://purl.stanford.edu/nr598jf9933.</note>
   <note displayLabel="Supplemental information">Included with the GeoTIFF are an information file (.xml), an auxiliary information file (.aux.xml), an image overview file (.ovr), a .tfw file (more information included below), and a .prj file (more information included below.) The contents of the associated world file (.tfw) are: &gt;100.0 &gt;0.0 &gt;0.0 &gt;-100.0 &gt;-3326950.0 &gt;2437950.0 The projection (.prj) file contains the following information: &gt; PROJCS["Albers_NAD83_Alaska", &gt;GEOGCS["GCS_North_American_1983", &gt;DATUM["D_North_American_1983", &gt;SPHEROID["GRS_1980",6378137.0,298.257222101]], &gt;PRIMEM["Greenwich",0.0], &gt;UNIT["Degree",0.0174532925199433]], &gt;PROJECTION["Albers"], &gt;PARAMETER["False_Easting",0.0], &gt;PARAMETER["False_Northing",0.0], &gt;PARAMETER["Central_Meridian",-154.0], &gt;PARAMETER["Standard_Parallel_1",55.0], &gt;PARAMETER["Standard_Parallel_2",65.0], &gt;PARAMETER["Latitude_Of_Origin",50.0], &gt;UNIT["Meter",1.0]] Data set extent in meters (Albers Equal-Area Conic projection) &gt;North 2438000 &gt;West -3327000 &gt;East 1654000 &gt;South 346000 There are no NULL or NODATA values in the GeoTIFF. Instead, all oceans are assigned a RGB color of (193, 224, 250) (blue) and all non-U.S. land is assigned a RGB color of (240, 235, 211) (tan). Information about National Atlas Web services can be found on the Web Map and Web Feature Services page; see &lt;http://nationalatlas.gov/infodocs/webservices.html&gt;.</note>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Land cover</topic>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <subject authority="lcsh" lang="eng">
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Land cover</topic>
   </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Digital elevation models</topic>
+  <subject authority="lcsh" lang="eng">
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Digital elevation models</topic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5879092/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Alaska</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5879092/">Alaska</geographic>
   </subject>
   <subject>
     <temporal encoding="w3cdtf">2013</temporal>
   </subject>
-  <subject>
+  <subject authority="ISO19115TopicCategory">
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="imageryBaseMapsEarthCover">Imagery and Base Maps</topic>
   </subject>
-  <subject>
+  <subject authority="ISO19115TopicCategory">
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="elevation">Elevation</topic>
   </subject>
+  <subject>
+    <cartographics>
+      <scale>1:1000000</scale>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::3338</projection>
+      <coordinates>W 180°--E 180°/N 71°57ʹ17ʺ--N 43°3ʹ12ʺ</coordinates>
+      <coordinates>W 180°--E 179°59ʹ58ʺ/N 71°57ʹ17ʺ--N 43°3ʹ12ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+    <cartographics>
+      <projection>EPSG::4326</projection>
+    </cartographics>
+  </subject>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+    <dateValid encoding="w3cdtf">2013</dateValid>
+    <place>
+      <placeTerm type="text">Rolla, Missouri, US</placeTerm>
+    </place>
+    <publisher>National Atlas of the United States</publisher>
+  </originInfo>
   <location>
-    <url>http://purl.stanford.edu/nr598jf9933</url>
+    <url usage="primary display">https://purl.stanford.edu/nr598jf9933</url>
   </location>
   <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:nr598jf9933</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
     <languageOfCataloging>
       <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
     </languageOfCataloging>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <recordIdentifier>edu.stanford.purl:nr598jf9933</recordIdentifier>
   </recordInfo>
   <extension displayLabel="geo">
     <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
@@ -82,14 +90,6 @@
       </rdf:Description>
     </rdf:RDF>
   </extension>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>W 180°--E 179°59ʹ58ʺ/N 71°57ʹ17ʺ--N 43°3ʹ12ʺ</coordinates>
-    </cartographics>
-  </subject>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
   <relatedItem type="host">
     <titleInfo>
       <title>National atlas of the United States of America, 1997-2014</title>
@@ -100,4 +100,5 @@
     <typeOfResource collection="yes"/>
   </relatedItem>
   <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+  <accessCondition type="copyright">This work is in the Public Domain, meaning that it is not subject to copyright.</accessCondition>
 </mods>

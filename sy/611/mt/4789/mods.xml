@@ -1,247 +1,254 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
   <titleInfo>
     <title>Color North America Shaded Relief: 1-Kilometer Resolution</title>
   </titleInfo>
   <name type="corporate">
     <namePart>USGS National Center for EROS</namePart>
     <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
     </role>
   </name>
+  <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+  <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
   <typeOfResource>cartographic</typeOfResource>
   <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>National Atlas of the United States</publisher>
-    <place>
-      <placeTerm type="text">Reston, Virginia, US</placeTerm>
-    </place>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2003</dateIssued>
-    <dateValid encoding="w3cdtf">2010</dateValid>
-    <edition>3</edition>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
   <physicalDescription>
     <form>GeoTIFF</form>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <subject>
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::2163</projection>
-      <coordinates>(W 180°--E 180°/N 86°15ʹ14ʺ--N 3°5ʹ31ʺ)</coordinates>
-    </cartographics>
-  </subject>
-  <abstract displayLabel="Abstract" lang="eng">The North America Shaded Relief data were derived from the GTOPO30 elevation data. GTOPO30 is a global digital elevation model (DEM) with a horizontal grid spacing of 30 arc seconds (approximately 1 kilometer). GTOPO30 was derived from several raster and vector sources of topographic information. It was developed between 1993 and 1996 through a collaborative effort led by staff at the U.S. Geological Survey's EROS Data Center (EDC). The following organizations participated by contributing funding or source data: the National Aeronautics and Space Administration (NASA), the United Nations Environment Programme/Global Resource Information Database (UNEP/GRID), the U.S. Agency for International Development (USAID), the Instituto Nacional de Estadistica Geografica e Informatica (INEGI) of Mexico, the Geographical Survey Institute (GSI) of Japan, Manaaki Whenua Landcare Research of New Zealand, and the Scientific Committee on Antarctic Research (SCAR). This file is a replacement for the January 2003 map layer. This map layer was previously distributed as North America Shaded Relief. This layer is part of the 1997-2014 edition National Atlas of the United States.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">The Shaded Relief image was developed to portray the terrain of North America.  It is intended for visual purposes only.  The original GTOPO30 data must be used for conducting analysis and determining elevation values.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">National Atlas of the United States. (2003). Color North America Shaded Relief: 1-Kilometer Resolution. National Atlas of the United States. Available at: http://purl.stanford.edu/sy611mt4789.</note>
+  <language>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+  </language>
+  <abstract lang="eng" displayLabel="Abstract">The North America Shaded Relief data were derived from the GTOPO30 elevation data. GTOPO30 is a global digital elevation model (DEM) with a horizontal grid spacing of 30 arc seconds (approximately 1 kilometer). GTOPO30 was derived from several raster and vector sources of topographic information. It was developed between 1993 and 1996 through a collaborative effort led by staff at the U.S. Geological Survey's EROS Data Center (EDC). The following organizations participated by contributing funding or source data: the National Aeronautics and Space Administration (NASA), the United Nations Environment Programme/Global Resource Information Database (UNEP/GRID), the U.S. Agency for International Development (USAID), the Instituto Nacional de Estadistica Geografica e Informatica (INEGI) of Mexico, the Geographical Survey Institute (GSI) of Japan, Manaaki Whenua Landcare Research of New Zealand, and the Scientific Committee on Antarctic Research (SCAR). This file is a replacement for the January 2003 map layer. This map layer was previously distributed as North America Shaded Relief. This layer is part of the 1997-2014 edition National Atlas of the United States.</abstract>
+  <abstract lang="eng" displayLabel="Purpose">The Shaded Relief image was developed to portray the terrain of North America.  It is intended for visual purposes only.  The original GTOPO30 data must be used for conducting analysis and determining elevation values.</abstract>
+  <note lang="eng" displayLabel="Preferred citation">National Atlas of the United States. (2003). Color North America Shaded Relief: 1-Kilometer Resolution. National Atlas of the United States. Available at: http://purl.stanford.edu/sy611mt4789.</note>
   <note displayLabel="Supplemental information">The associated world file is included as part of the GeoTIFF. The contents of the world file are: &gt;1000.0000 &gt;0.000000 &gt;0.000000 &gt;-1000.0000 &gt;-6086129.0000 &gt;4488261.0000 The following projection file can be used when using ESRI's ArcGIS to view the GeoTIFF (any line breaks should be removed): PROJCS["NAD_1983_Lambert_Azimuthal_Equal_Area",GEOGCS ["GCS_Sphere_ARC_INFO",DATUM["D_Sphere_ARC_INFO",SPHEROID ["Sphere_ARC_INFO",6370997.0,0.0]],PRIMEM["Greenwich",0.0], UNIT["Degree",0.0174532925199433]],PROJECTION ["Lambert_Azimuthal_Equal_Area"],PARAMETER["False_Easting",0.0], PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian", -100.0],PARAMETER["Latitude_Of_Origin",45.0],UNIT["Meter",1.0]]</note>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Digital elevation models</topic>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <subject authority="lcsh" lang="eng">
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Digital elevation models</topic>
   </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Topographic maps</topic>
+  <subject authority="lcsh" lang="eng">
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Topographic maps</topic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/6255149/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">North America</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/6255149/">North America</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/6251999/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Canada</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/6251999/">Canada</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/3425505/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Greenland</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/3425505/">Greenland</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng">Iceland</geographic>
+  <subject lang="eng">
+    <geographic>Iceland</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/3996063/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Mexico</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/3996063/">Mexico</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4566966/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Puerto Rico</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4566966/">Puerto Rico</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4796775/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">United States Virgin Islands</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4796775/">United States Virgin Islands</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/6252001/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">United States</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/6252001/">United States</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5879092/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Alaska</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5879092/">Alaska</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4829764/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Alabama</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4829764/">Alabama</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5551752/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Arizona</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5551752/">Arizona</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4099753/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Arkansas</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4099753/">Arkansas</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5417618/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Colorado</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5417618/">Colorado</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4831725/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Connecticut</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4831725/">Connecticut</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4142224/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Delaware</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4142224/">Delaware</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4155751/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Florida</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4155751/">Florida</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4197000/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Georgia</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4197000/">Georgia</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5855797/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Hawaii</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5855797/">Hawaii</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5596512/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Idaho</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5596512/">Idaho</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4896861/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Illinois</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4896861/">Illinois</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4921868/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Indiana</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4921868/">Indiana</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4862182/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Iowa</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4862182/">Iowa</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4273857/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Kansas</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4273857/">Kansas</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/6254925/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Kentucky</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/6254925/">Kentucky</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4331987/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Louisiana</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4331987/">Louisiana</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4971068/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Maine</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4971068/">Maine</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4361885/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Maryland</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4361885/">Maryland</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/6254926/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Massachusetts</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/6254926/">Massachusetts</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5001836/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Michigan</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5001836/">Michigan</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5037779/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Minnesota</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5037779/">Minnesota</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4436296/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Mississippi</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4436296/">Mississippi</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4398678/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Missouri</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4398678/">Missouri</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5667009/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Montana</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5667009/">Montana</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5073708/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Nebraska</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5073708/">Nebraska</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5509151/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Nevada</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5509151/">Nevada</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5090174/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">New Hampshire</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5090174/">New Hampshire</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5101760/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">New Jersey</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5101760/">New Jersey</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5481136/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">New Mexico</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5481136/">New Mexico</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5128638/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">New York (State)</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5128638/">New York (State)</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4482348/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">North Carolina</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4482348/">North Carolina</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5690763/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">North Dakota</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5690763/">North Dakota</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5165418/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Ohio</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5165418/">Ohio</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4544379/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Oklahoma</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4544379/">Oklahoma</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5744337/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Oregon</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5744337/">Oregon</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/6254927/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Pennsylvania</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/6254927/">Pennsylvania</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5224323/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Rhode Island</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5224323/">Rhode Island</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4597040/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">South Carolina</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4597040/">South Carolina</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5769223/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">South Dakota</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5769223/">South Dakota</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4662168/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Tennessee</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4662168/">Tennessee</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4736286/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Texas</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4736286/">Texas</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5549030/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Utah</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5549030/">Utah</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5242283/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Vermont</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5242283/">Vermont</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/6254928/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Virginia</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/6254928/">Virginia</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4138106/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Washington (D.C.)</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4138106/">Washington (D.C.)</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5815135/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Washington (State)</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5815135/">Washington (State)</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4826850/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">West Virginia</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4826850/">West Virginia</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5279468/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Wisconsin</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5279468/">Wisconsin</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5843591/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Wyoming</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5843591/">Wyoming</geographic>
   </subject>
   <subject>
     <temporal encoding="w3cdtf">1993-2002</temporal>
   </subject>
-  <subject>
+  <subject authority="ISO19115TopicCategory">
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="imageryBaseMapsEarthCover">Imagery and Base Maps</topic>
   </subject>
-  <subject>
+  <subject authority="ISO19115TopicCategory">
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="elevation">Elevation</topic>
   </subject>
-  <subject>
+  <subject authority="ISO19115TopicCategory">
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
   </subject>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::2163</projection>
+      <coordinates>W 180°--E 180°/N 86°15ʹ14ʺ--N 3°5ʹ31ʺ</coordinates>
+      <coordinates>W 180°--E 179°59ʹ56ʺ/N 86°15ʹ10ʺ--N 3°5ʹ14ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+    <cartographics>
+      <projection>EPSG::4326</projection>
+    </cartographics>
+  </subject>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2003</dateIssued>
+    <dateValid encoding="w3cdtf">2010</dateValid>
+    <place>
+      <placeTerm type="text">Reston, Virginia, US</placeTerm>
+    </place>
+    <publisher>National Atlas of the United States</publisher>
+    <edition>3</edition>
+  </originInfo>
   <location>
-    <url>http://purl.stanford.edu/sy611mt4789</url>
+    <url usage="primary display">https://purl.stanford.edu/sy611mt4789</url>
   </location>
   <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:sy611mt4789</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
     <languageOfCataloging>
       <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
     </languageOfCataloging>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <recordIdentifier>edu.stanford.purl:sy611mt4789</recordIdentifier>
   </recordInfo>
   <extension displayLabel="geo">
     <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
@@ -257,14 +264,6 @@
       </rdf:Description>
     </rdf:RDF>
   </extension>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>W 180°--E 179°59ʹ56ʺ/N 86°15ʹ10ʺ--N 3°5ʹ14ʺ</coordinates>
-    </cartographics>
-  </subject>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
   <relatedItem type="host">
     <titleInfo>
       <title>National atlas of the United States of America, 1997-2014</title>
@@ -275,4 +274,5 @@
     <typeOfResource collection="yes"/>
   </relatedItem>
   <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+  <accessCondition type="copyright">This work is in the Public Domain, meaning that it is not subject to copyright.</accessCondition>
 </mods>

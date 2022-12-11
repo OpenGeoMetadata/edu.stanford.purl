@@ -1,65 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
   <titleInfo>
     <title>Condominiums Assessor, Riverside County California, 2019</title>
   </titleInfo>
   <name type="corporate">
     <namePart>Riverside County (Calif.). Geographic Information Services</namePart>
     <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
     </role>
   </name>
+  <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+  <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
   <typeOfResource>cartographic</typeOfResource>
   <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>Riverside County (Calif.). Geographic Information Services</publisher>
-    <place>
-      <placeTerm type="text">US</placeTerm>
-    </place>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
-  </originInfo>
-  <language>
-    <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
-  </language>
   <physicalDescription>
     <form>Shapefile</form>
     <extent>13.293</extent>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <subject>
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>Custom projection</projection>
-      <coordinates>(W 117°37ʹ51ʺ--W 114°35ʹ51ʺ/N 34°2ʹ15ʺ--N 33°25ʹ17ʺ)</coordinates>
-    </cartographics>
-  </subject>
-  <abstract displayLabel="Abstract" lang="eng">To graphically represent taxable condominiums within Riverside County. This layer is also joined with Assessor tables to provide additional information about each condominium. APN: Assessor Parcel NumberFLAG: Attribute used to group the polygon into a desired category.EX = Tax Exempt, PU = Public Utility, CM = Condominium/common area, MH = Mobile Home, TH: Townhouse, LL = Leased Land, PI = Possessory Interest, MR = Mineral RightsMAIL_TO_NAME: Name of person or organization for mailing purposesMAIL_TO_STREET: Mailing street addressMAIL_TO_CITY: Mailing cityMAIL_TO_ZIP: Mailing zipcodeHOUSE_NO: Site address numberDIR: Site address street directionSTREET: Site address street nameSUFFIX: Site address street typeCITY: Site address cityZIP: Site address zipcodeHOUSE_SUFF: Internal attributeUNIT: Site address unit numberREALUSE: Identifies the primary activity for which the parcel is being used, for appraisal purposesPRIMARY_CODE: The first position of the Use Code. Determines appraisal responsibility. - Primary Code "C" = Commercial- Primary Code "A" or "P" = Agricultural- All other Primary Codes = ResidentialSECONDARY_CODE: Second position of the Use Code. Identifies specific use.MULTI_CODE: Internal attributeTRACT: Tract numberACRE: AcreageRECORDERS_TYPE: CM, Communal lot. Classification of "recorded book"RECORD_BOOK: Book number of recorded bookRECORD_PAGE: Page number of recorded bookCNTY_CODE: Internal attributeLOT_TYPE: Internal attributeLOT: Lot numberBLOCK_NO: Internal attributeSUB_NAME: Subdivision nameCAME_FROM: The parcel number (history) that was deleted by the current parcel numberTAXABILITY: Internal attributeTRA: Tax Rate Area, Used to apportion tax revenue both the the State and the CountyLAND: Assessed land valueSTRUCTURE: Assessed structure valueOWNER1_LAST_NAME: Last name of owner 1OWNER1_FIRST_NAME: First name of owner 1OWNER1_MID_NAME: Middle name of owner 1OWNER2_LAST_NAME: Last name of owner 2OWNER2_FIRST_NAME: First name of owner 2OWNER2_MID_NAME: Middle name of owner 2OWNER3_LAST_NAME: Last name of owner 3OWNER3_FIRST_NAME: First name of owner 3OWNER3_MID_NAME: Middle name of owner 3FLOOR: Signifies which floor the condo is located</abstract>
-  <note displayLabel="Preferred citation" lang="eng">Riverside County (Calif.). Geographic Information Services. (2019). Condominiums Assessor, Riverside County California, 2019. Riverside County (Calif.). Geographic Information Services. Available at: http://purl.stanford.edu/COMDOMINIUMS_ASSESSOR.shp</note>
+  <language>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+  </language>
+  <abstract lang="eng" displayLabel="Abstract">To graphically represent taxable condominiums within Riverside County. This layer is also joined with Assessor tables to provide additional information about each condominium. APN: Assessor Parcel NumberFLAG: Attribute used to group the polygon into a desired category.EX = Tax Exempt, PU = Public Utility, CM = Condominium/common area, MH = Mobile Home, TH: Townhouse, LL = Leased Land, PI = Possessory Interest, MR = Mineral RightsMAIL_TO_NAME: Name of person or organization for mailing purposesMAIL_TO_STREET: Mailing street addressMAIL_TO_CITY: Mailing cityMAIL_TO_ZIP: Mailing zipcodeHOUSE_NO: Site address numberDIR: Site address street directionSTREET: Site address street nameSUFFIX: Site address street typeCITY: Site address cityZIP: Site address zipcodeHOUSE_SUFF: Internal attributeUNIT: Site address unit numberREALUSE: Identifies the primary activity for which the parcel is being used, for appraisal purposesPRIMARY_CODE: The first position of the Use Code. Determines appraisal responsibility. - Primary Code "C" = Commercial- Primary Code "A" or "P" = Agricultural- All other Primary Codes = ResidentialSECONDARY_CODE: Second position of the Use Code. Identifies specific use.MULTI_CODE: Internal attributeTRACT: Tract numberACRE: AcreageRECORDERS_TYPE: CM, Communal lot. Classification of "recorded book"RECORD_BOOK: Book number of recorded bookRECORD_PAGE: Page number of recorded bookCNTY_CODE: Internal attributeLOT_TYPE: Internal attributeLOT: Lot numberBLOCK_NO: Internal attributeSUB_NAME: Subdivision nameCAME_FROM: The parcel number (history) that was deleted by the current parcel numberTAXABILITY: Internal attributeTRA: Tax Rate Area, Used to apportion tax revenue both the the State and the CountyLAND: Assessed land valueSTRUCTURE: Assessed structure valueOWNER1_LAST_NAME: Last name of owner 1OWNER1_FIRST_NAME: First name of owner 1OWNER1_MID_NAME: Middle name of owner 1OWNER2_LAST_NAME: Last name of owner 2OWNER2_FIRST_NAME: First name of owner 2OWNER2_MID_NAME: Middle name of owner 2OWNER3_LAST_NAME: Last name of owner 3OWNER3_FIRST_NAME: First name of owner 3OWNER3_MID_NAME: Middle name of owner 3FLOOR: Signifies which floor the condo is located</abstract>
+  <note lang="eng" displayLabel="Preferred citation">Riverside County (Calif.). Geographic Information Services. (2019). Condominiums Assessor, Riverside County California, 2019. Riverside County (Calif.). Geographic Information Services. Available at: http://purl.stanford.edu/COMDOMINIUMS_ASSESSOR.shp</note>
   <note displayLabel="Use limitation">These data are made available as a public service. The data is for reference purposes only, and the originator(s) make no representatives, warranties, or guarantees as to the accuracy of the data. Information found here should not be used for making financial or any other commitments. In no way shall the originator(s) become liable to users of these data, or any other party, for any loss or direct, indirect, special, incidental or consequential damages, including but not limited to time, money or goodwill, arising from the use or modification of the data. This data is in the public domain.</note>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Condominiums</topic>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <subject authority="lcsh" lang="eng">
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Condominiums</topic>
   </subject>
-  <subject>
-    <geographic lang="eng">Riverside County (Calif.)</geographic>
+  <subject lang="eng">
+    <geographic>Riverside County (Calif.)</geographic>
   </subject>
   <subject>
     <temporal encoding="w3cdtf">2019</temporal>
   </subject>
-  <subject>
+  <subject authority="ISO19115TopicCategory">
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="planningCadastre">Planning and Cadastral</topic>
   </subject>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>Custom projection</projection>
+      <coordinates>W 117°37ʹ51ʺ--W 114°35ʹ51ʺ/N 34°2ʹ15ʺ--N 33°25ʹ17ʺ</coordinates>
+      <coordinates>W 117°37ʹ42ʺ--W 114°36ʹ19ʺ/N 34°1ʹ52ʺ--N 33°25ʹ50ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+    <cartographics>
+      <projection>EPSG::4326</projection>
+    </cartographics>
+  </subject>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+    <place>
+      <placeTerm type="text">US</placeTerm>
+    </place>
+    <publisher>Riverside County (Calif.). Geographic Information Services</publisher>
+  </originInfo>
   <location>
-    <url>http://purl.stanford.edu/kr400tr7320</url>
+    <url usage="primary display">https://purl.stanford.edu/kr400tr7320</url>
   </location>
   <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:kr400tr7320</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
     <languageOfCataloging>
       <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
     </languageOfCataloging>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <recordIdentifier>edu.stanford.purl:kr400tr7320</recordIdentifier>
   </recordInfo>
   <extension displayLabel="geo">
     <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
@@ -72,18 +79,10 @@
             <gml:upperCorner>-114.605217 34.03121</gml:upperCorner>
           </gml:Envelope>
         </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Riverside County (Calif.)"/>
+        <dc:coverage dc:language="eng" dc:title="Riverside County (Calif.)"/>
       </rdf:Description>
     </rdf:RDF>
   </extension>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>W 117°37ʹ42ʺ--W 114°36ʹ19ʺ/N 34°1ʹ52ʺ--N 33°25ʹ50ʺ</coordinates>
-    </cartographics>
-  </subject>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
   <relatedItem type="host">
     <titleInfo>
       <title>Riverside County, California, GIS Maps and Data</title>

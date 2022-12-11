@@ -1,65 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
   <titleInfo>
     <title>State Responsibility Areas, California, 2019</title>
   </titleInfo>
   <name type="corporate">
     <namePart>Fire and Resource Assessment Program (Calif.)</namePart>
     <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
     </role>
   </name>
+  <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+  <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
   <typeOfResource>cartographic</typeOfResource>
   <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>Fire and Resource Assessment Program (Calif.)</publisher>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
   <physicalDescription>
     <form>Shapefile</form>
     <extent>53.275</extent>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <subject>
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>Custom projection</projection>
-      <coordinates>(W 124°24ʹ35ʺ--W 114°7ʹ51ʺ/N 42°34ʺ--N 32°32ʹ3ʺ)</coordinates>
-    </cartographics>
+  <language>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+  </language>
+  <abstract lang="eng" displayLabel="Abstract">The State Responsibility Areas (SRA) dataset shows areas of legal responsibility for fire protection, including State Responsibility Areas (SRA), Federal Responsibility Areas (FRA), and Local Responsibility Areas (LRA). SRA designations undergo a thorough 5 year review cycle, as well as annual updates for incorporations/annexations, error fixes, and ownership changes (automatic changes that do not require Board of Forestry approval). CAL FIRE has a legal responsibility to provide fire protection on all State Responsibility Area (SRA) lands, which are defined based on land ownership, population density and land use. For example, CAL FIRE does not have responsibility for densely populated areas, incorporated cities, agricultural lands, or lands administered by the federal government. This service represents the latest official version, and is updated when new versions are released, twice a year. As of June 2019, it represents SRA19_1.</abstract>
+  <note lang="eng" displayLabel="Preferred citation">Fire and Resource Assessment Program (Calif.). (2019). State Responsibility Areas, California, 2019. Fire and Resource Assessment Program (Calif.). Available at: https://purl.stanford.edu/wz919fh2996</note>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <subject authority="lcsh" lang="eng">
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Fire protection districts</topic>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">The State Responsibility Areas (SRA) dataset shows areas of legal responsibility for fire protection, including State Responsibility Areas (SRA), Federal Responsibility Areas (FRA), and Local Responsibility Areas (LRA). SRA designations undergo a thorough 5 year review cycle, as well as annual updates for incorporations/annexations, error fixes, and ownership changes (automatic changes that do not require Board of Forestry approval). CAL FIRE has a legal responsibility to provide fire protection on all State Responsibility Area (SRA) lands, which are defined based on land ownership, population density and land use. For example, CAL FIRE does not have responsibility for densely populated areas, incorporated cities, agricultural lands, or lands administered by the federal government. This service represents the latest official version, and is updated when new versions are released, twice a year. As of June 2019, it represents SRA19_1.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">Fire and Resource Assessment Program (Calif.). (2019). State Responsibility Areas, California, 2019. Fire and Resource Assessment Program (Calif.). Available at: https://purl.stanford.edu/wz919fh2996</note>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Fire protection districts</topic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/3687919/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">California</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/3687919/">California</geographic>
   </subject>
   <subject>
     <temporal encoding="w3cdtf">2019</temporal>
   </subject>
-  <subject>
+  <subject authority="ISO19115TopicCategory">
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="environment">Environment</topic>
   </subject>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>Custom projection</projection>
+      <coordinates>W 124°24ʹ35ʺ--W 114°7ʹ51ʺ/N 42°34ʺ--N 32°32ʹ3ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+    <cartographics>
+      <projection>EPSG::4326</projection>
+    </cartographics>
+  </subject>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+    <publisher>Fire and Resource Assessment Program (Calif.)</publisher>
+  </originInfo>
   <location>
-    <url>https://purl.stanford.edu/wz919fh2996</url>
+    <url usage="primary display">https://purl.stanford.edu/wz919fh2996</url>
   </location>
   <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:wz919fh2996</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
     <languageOfCataloging>
       <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
     </languageOfCataloging>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <recordIdentifier>edu.stanford.purl:wz919fh2996</recordIdentifier>
   </recordInfo>
   <extension displayLabel="geo">
     <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="https://purl.stanford.edu/wz919fh2996">
+      <rdf:Description rdf:about="http://purl.stanford.edu/wz919fh2996">
         <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
         <dc:type>Dataset#Polygon</dc:type>
         <gml:boundedBy>
@@ -71,14 +77,6 @@
       </rdf:Description>
     </rdf:RDF>
   </extension>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>W 124°24ʹ35ʺ--W 114°7ʹ51ʺ/N 42°34ʺ--N 32°32ʹ3ʺ</coordinates>
-    </cartographics>
-  </subject>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
   <relatedItem type="host">
     <titleInfo>
       <title>California Department of Forestry and Fire Protection, GIS Maps &amp; Data</title>

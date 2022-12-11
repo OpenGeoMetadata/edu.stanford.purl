@@ -1,118 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
   <titleInfo>
     <title>Oil and Gas Wells in the United States (Zone 3), Summer 2014</title>
   </titleInfo>
   <name type="corporate">
     <namePart>Hart Energy Publishing</namePart>
     <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
     </role>
   </name>
+  <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+  <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
   <typeOfResource>cartographic</typeOfResource>
   <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>Hart Energy Publishing</publisher>
-    <place>
-      <placeTerm type="text">San Diego, California, US</placeTerm>
-    </place>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
-    <edition>1016 Update</edition>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
   <physicalDescription>
     <form>Shapefile</form>
     <extent>29.584 MB</extent>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <subject>
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4269</projection>
-      <coordinates>(W 178°17ʹ33ʺ--W 94°36ʹ17ʺ/N 71°51ʹ14ʺ--N 31°22ʹ12ʺ)</coordinates>
-    </cartographics>
-  </subject>
-  <abstract displayLabel="Abstract" lang="eng">This point dataset shows the locations of oil and gas wells in the U.S. that are located in Rextag GIS Zone 3. Zone 3 includes the western and midwestern states, including Arizona, California, Colorado, Idaho, Kansas, Montana, Nebraska, Nevada, New Mexico, North Dakota, Oregon, South Dakota, Washington, Wyoming, and Utah. Information in this layer is based on data provided by numerous sources in a variety of digital formats, collected at the state or county level. This layer is from the summer quarter update of 2014.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">The purpose of this file is to combine multiple oil and gas well data sources into one national file. This dataset is intended to assist users in locating and analyzing United States oil and gas field data and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">Hart Energy Publishing. (2014). Oil and Gas Wells in the United States (Zone 3), Summer 2014. Hart Energy Publishing. Available at: http://purl.stanford.edu/dk102jq4471.</note>
+  <language>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+  </language>
+  <abstract lang="eng" displayLabel="Abstract">This point dataset shows the locations of oil and gas wells in the U.S. that are located in Rextag GIS Zone 3. Zone 3 includes the western and midwestern states, including Arizona, California, Colorado, Idaho, Kansas, Montana, Nebraska, Nevada, New Mexico, North Dakota, Oregon, South Dakota, Washington, Wyoming, and Utah. Information in this layer is based on data provided by numerous sources in a variety of digital formats, collected at the state or county level. This layer is from the summer quarter update of 2014.</abstract>
+  <abstract lang="eng" displayLabel="Purpose">The purpose of this file is to combine multiple oil and gas well data sources into one national file. This dataset is intended to assist users in locating and analyzing United States oil and gas field data and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
+  <note lang="eng" displayLabel="Preferred citation">Hart Energy Publishing. (2014). Oil and Gas Wells in the United States (Zone 3), Summer 2014. Hart Energy Publishing. Available at: http://purl.stanford.edu/dk102jq4471.</note>
   <note displayLabel="Supplemental information">This release is intended to replace all previous datasets.</note>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Oil wells</topic>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <subject authority="lcsh" lang="eng">
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Oil wells</topic>
   </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Gas wells</topic>
+  <subject authority="lcsh" lang="eng">
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Gas wells</topic>
   </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Petroleum</topic>
+  <subject authority="lcsh" lang="eng">
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Petroleum</topic>
   </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Natural Gas</topic>
+  <subject authority="lcsh" lang="eng">
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Natural Gas</topic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5551752/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Arizona</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5551752/">Arizona</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/3687919/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">California</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/3687919/">California</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5417618/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Colorado</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5417618/">Colorado</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5596512/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Idaho</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5596512/">Idaho</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4273857/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Kansas</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4273857/">Kansas</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5667009/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Montana</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5667009/">Montana</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5073708/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Nebraska</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5073708/">Nebraska</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5509151/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Nevada</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5509151/">Nevada</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5481136/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">New Mexico</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5481136/">New Mexico</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5690763/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">North Dakota</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5690763/">North Dakota</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5744337/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Oregon</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5744337/">Oregon</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5769223/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">South Dakota</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5769223/">South Dakota</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5815135/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Washington (State)</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5815135/">Washington (State)</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5843591/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Wyoming</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5843591/">Wyoming</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5549030/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Utah</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5549030/">Utah</geographic>
   </subject>
   <subject>
     <temporal encoding="w3cdtf">2014</temporal>
   </subject>
-  <subject>
+  <subject authority="ISO19115TopicCategory">
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="utilitiesCommunication">Utilities and Communication</topic>
   </subject>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4269</projection>
+      <coordinates>W 178°17ʹ33ʺ--W 94°36ʹ17ʺ/N 71°51ʹ14ʺ--N 31°22ʹ12ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+    <cartographics>
+      <projection>EPSG::4326</projection>
+    </cartographics>
+  </subject>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+    <place>
+      <placeTerm type="text">San Diego, California, US</placeTerm>
+    </place>
+    <publisher>Hart Energy Publishing</publisher>
+    <edition>1016 Update</edition>
+  </originInfo>
   <location>
-    <url>http://purl.stanford.edu/dk102jq4471</url>
+    <url usage="primary display">https://purl.stanford.edu/dk102jq4471</url>
   </location>
   <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:dk102jq4471</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
     <languageOfCataloging>
       <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
     </languageOfCataloging>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <recordIdentifier>edu.stanford.purl:dk102jq4471</recordIdentifier>
   </recordInfo>
   <extension displayLabel="geo">
     <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
@@ -128,14 +134,6 @@
       </rdf:Description>
     </rdf:RDF>
   </extension>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>W 178°17ʹ33ʺ--W 94°36ʹ17ʺ/N 71°51ʹ14ʺ--N 31°22ʹ12ʺ</coordinates>
-    </cartographics>
-  </subject>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
   <relatedItem type="host">
     <titleInfo>
       <title>Oil and gas wells GIS data : United States</title>
@@ -146,4 +144,5 @@
     <typeOfResource collection="yes"/>
   </relatedItem>
   <accessCondition type="useAndReproduction">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</accessCondition>
+  <accessCondition type="copyright">Copyright ownership resides with the originator.</accessCondition>
 </mods>

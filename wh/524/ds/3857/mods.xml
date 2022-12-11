@@ -1,83 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
   <titleInfo>
     <title>Fault Lines with Line Decorations: Generalized Geologic Map of Alaska, Hawaii, Puerto Rico, and the U.S. Virgin Islands, 2005</title>
   </titleInfo>
   <name type="personal">
     <namePart>Reed, John Calvin, Jr. 1930-</namePart>
     <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
     </role>
   </name>
   <name type="personal">
     <namePart>Bush, Charles A.</namePart>
     <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
     </role>
   </name>
+  <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+  <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
   <typeOfResource>cartographic</typeOfResource>
   <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>Geological Survey (U.S.)</publisher>
-    <place>
-      <placeTerm type="text">Denver, Colorado, US</placeTerm>
-    </place>
-    <publisher>National Atlas of the United States</publisher>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2005</dateIssued>
-    <edition>1.0</edition>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
   <physicalDescription>
     <form>Shapefile</form>
     <extent>2.747</extent>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <subject>
-    <cartographics>
-      <scale>1:7500000</scale>
-      <projection>EPSG::4269</projection>
-      <coordinates>(W 167°37ʹ43ʺ--W 65°41ʹ42ʺ/N 69°39ʹ2ʺ--N 17°59ʹ35ʺ)</coordinates>
-    </cartographics>
-  </subject>
-  <abstract displayLabel="Abstract" lang="eng">This line shapefile represents major fault lines with line decorations (added for display purposes) in Alaska. This map complements the Generalized Geologic Map of the Conterminous United States by Reed and Bush. The data are generalized from a compilation prepared for use in the Geologic Map of North America, published as a paper map by the Geological Society of America and to be released as a digital file by the U.S. Geological Survey. This layer is part of the 1997-2014 edition National Atlas of the United States.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">These data have been prepared with a degree of detail appropriate for viewing at a scale of 1:7,500,000. Because of the degree of generalization required (generalization based on compilation scale), the data are intended primarily for display and for regional and national analysis, rather than for more detailed analysis in specific areas. No responsibility is assumed by the U.S. Geological Survey in the use of these data.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">National Atlas of the United States. (2005). Fault Lines with Line Decorations, Alaska: Generalized Geologic Map of Alaska, Hawaii, Puerto Rico, and the U.S. Virgin Islands, 2005. National Atlas of the United States. Available at: http://purl.stanford.edu/wh524ds3857.</note>
+  <language>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+  </language>
+  <abstract lang="eng" displayLabel="Abstract">This line shapefile represents major fault lines with line decorations (added for display purposes) in Alaska. This map complements the Generalized Geologic Map of the Conterminous United States by Reed and Bush. The data are generalized from a compilation prepared for use in the Geologic Map of North America, published as a paper map by the Geological Society of America and to be released as a digital file by the U.S. Geological Survey. This layer is part of the 1997-2014 edition National Atlas of the United States.</abstract>
+  <abstract lang="eng" displayLabel="Purpose">These data have been prepared with a degree of detail appropriate for viewing at a scale of 1:7,500,000. Because of the degree of generalization required (generalization based on compilation scale), the data are intended primarily for display and for regional and national analysis, rather than for more detailed analysis in specific areas. No responsibility is assumed by the U.S. Geological Survey in the use of these data.</abstract>
+  <note lang="eng" displayLabel="Preferred citation">National Atlas of the United States. (2005). Fault Lines with Line Decorations, Alaska: Generalized Geologic Map of Alaska, Hawaii, Puerto Rico, and the U.S. Virgin Islands, 2005. National Atlas of the United States. Available at: http://purl.stanford.edu/wh524ds3857.</note>
   <note displayLabel="Supplemental information">The data set for the Generalized Geologic Map of Alaska, Hawaii, Puerto Rico, and the U.S. Virgin Islands consists of four data layers. All the data layers were created as ArcInfo coverages and converted to other formats for distribution purposes. The data layers are distributed and should be used together. The data are available as shapefiles or ArcInfo Export files. The data layers for faults are included in two different versions. The following files are included: &gt; fltg01l075 - Fault lines, with line decorations* &gt; falt01l075 - Fault lines, without line decorations** &gt; geol01m075 - Geologic units, as polygons &gt; gtxt01l075 - Graphic representation of geologic unit text* &gt; &gt;* These files are not 'true' ArcInfo coverages; they are graphic &gt; representations of symbols and text used on the geologic map. These &gt; files should be used to produce appropriately symbolized graphics. &gt; The decorations and text appear correctly only in Lambert Azimuthal &gt; Equal Area projection. The parameters for the projection are: &gt; Projection Lambert Azimuthal Equal Area &gt; Datum NAD83 &gt; Spheroid GRS1980 &gt; Units Meters &gt; Radius of the sphere of reference 6370997 &gt; Longitude of center projection -100 &gt; Latitude of center of projection 45 &gt; &gt;**This file is the same as the fault file marked with * but does not &gt; include the line decorations. This is the 'true' ArcInfo line &gt; coverage for faults. This file should be used for data analysis. Also distributed with the data is the shadeset, geoshade.shd. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government. Although this Federal Geographic Data Committee-compliant metadata file is intended to document the data set in nonproprietary form, some ArcInfo- specific terminology is included for clarity and expediency.</note>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Faults (Geology)</topic>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <subject authority="lcsh" lang="eng">
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Faults (Geology)</topic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5879092/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Alaska</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5879092/">Alaska</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5855797/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Hawaii</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5855797/">Hawaii</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4566966/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Puerto Rico</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4566966/">Puerto Rico</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4796775/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">United States Virgin Islands</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4796775/">United States Virgin Islands</geographic>
   </subject>
   <subject>
     <temporal encoding="w3cdtf">2005</temporal>
   </subject>
-  <subject>
+  <subject authority="ISO19115TopicCategory">
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
   </subject>
+  <subject>
+    <cartographics>
+      <scale>1:7500000</scale>
+      <scale>Scale not given.</scale>
+      <projection>EPSG::4269</projection>
+      <coordinates>W 167°37ʹ43ʺ--W 65°41ʹ42ʺ/N 69°39ʹ2ʺ--N 17°59ʹ35ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+    <cartographics>
+      <projection>EPSG::4326</projection>
+    </cartographics>
+  </subject>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2005</dateIssued>
+    <place>
+      <placeTerm type="text">Denver, Colorado, US</placeTerm>
+    </place>
+    <publisher>Geological Survey (U.S.)</publisher>
+    <publisher>National Atlas of the United States</publisher>
+    <edition>1.0</edition>
+  </originInfo>
   <location>
-    <url>http://purl.stanford.edu/wh524ds3857</url>
+    <url usage="primary display">https://purl.stanford.edu/wh524ds3857</url>
   </location>
   <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:wh524ds3857</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
     <languageOfCataloging>
       <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
     </languageOfCataloging>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <recordIdentifier>edu.stanford.purl:wh524ds3857</recordIdentifier>
   </recordInfo>
   <extension displayLabel="geo">
     <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
@@ -93,14 +100,6 @@
       </rdf:Description>
     </rdf:RDF>
   </extension>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>W 167°37ʹ43ʺ--W 65°41ʹ42ʺ/N 69°39ʹ2ʺ--N 17°59ʹ35ʺ</coordinates>
-    </cartographics>
-  </subject>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
   <relatedItem type="host">
     <titleInfo>
       <title>National atlas of the United States of America, 1997-2014</title>
@@ -111,4 +110,5 @@
     <typeOfResource collection="yes"/>
   </relatedItem>
   <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+  <accessCondition type="copyright">This work is in the Public Domain, meaning that it is not subject to copyright.</accessCondition>
 </mods>

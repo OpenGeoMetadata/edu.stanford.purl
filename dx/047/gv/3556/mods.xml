@@ -1,64 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
   <titleInfo>
     <title>Sierra Nevada Old Growth Forests, 2017</title>
   </titleInfo>
   <name type="corporate">
     <namePart>Sierra Nevada Conservancy</namePart>
     <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
     </role>
   </name>
+  <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+  <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
   <typeOfResource>cartographic</typeOfResource>
   <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
   <physicalDescription>
     <form>Shapefile</form>
     <extent>13.102</extent>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <subject>
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>Custom projection</projection>
-      <coordinates>(W 121°55ʹ1ʺ--W 117°56ʹ45ʺ/N 41°59ʹ51ʺ--N 35°22ʹ37ʺ)</coordinates>
-    </cartographics>
+  <language>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+  </language>
+  <abstract lang="eng" displayLabel="Abstract">This layer contains spatial information on Sierra Nevada old growth forests ranked by structural complexity and contribution to late successional forest function. Old growth forests were ranked by a six-point scale. The six-point scale for ranking structural complexity and contribution to late successional forest function in the Sierra Nevada ranged from 0 (low complexity, no contribution) to 5 (very high complexity and contribution). Examples of areas that received low ratings were structurally simple forests, such as young plantations, areas recently burned and salvaged, and landscapes that were largely nonforested, such as rock outcrops. Ranking of 2 included maturing even-aged forests lacking large-diameter trees, snags, and logs. Ranking of 3 included areas that had been selectively logged or burned but retained significant numbers of large trees and snags or where second-growth forests were approaching maturity. Old growth mixed conifer forests with open, parklike structures often produced by frequent low-intensity fire were typically given a ranking of 4. Forests with the highest levels of structural complexity, including many large trees, were typical of areas given a ranking of 5. For example, many national park areas outside zones where aggressive fire suppression has occurred were ranked 5. Code Description 0 No significant late-successional forest attributes1 Very low2 Low3 Moderate4 High5 Very high (Sierra Nevada Ecosystem Project (SNEP), Final Report to Congress; Late Successional Old-Growth Forest Conditions, University of California; SNEP Science Team and Special Consultants, 1996).</abstract>
+  <note lang="eng" displayLabel="Preferred citation">. (2017). Sierra Nevada Old Growth Forests, 2017. Available at: https://purl.stanford.edu/dx047gv3556</note>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <subject authority="lcsh" lang="eng">
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Old growth forests</topic>
   </subject>
-  <abstract displayLabel="Abstract" lang="eng">This layer contains spatial information on Sierra Nevada old growth forests ranked by structural complexity and contribution to late successional forest function. Old growth forests were ranked by a six-point scale. The six-point scale for ranking structural complexity and contribution to late successional forest function in the Sierra Nevada ranged from 0 (low complexity, no contribution) to 5 (very high complexity and contribution). Examples of areas that received low ratings were structurally simple forests, such as young plantations, areas recently burned and salvaged, and landscapes that were largely nonforested, such as rock outcrops. Ranking of 2 included maturing even-aged forests lacking large-diameter trees, snags, and logs. Ranking of 3 included areas that had been selectively logged or burned but retained significant numbers of large trees and snags or where second-growth forests were approaching maturity. Old growth mixed conifer forests with open, parklike structures often produced by frequent low-intensity fire were typically given a ranking of 4. Forests with the highest levels of structural complexity, including many large trees, were typical of areas given a ranking of 5. For example, many national park areas outside zones where aggressive fire suppression has occurred were ranked 5. Code Description 0 No significant late-successional forest attributes1 Very low2 Low3 Moderate4 High5 Very high (Sierra Nevada Ecosystem Project (SNEP), Final Report to Congress; Late Successional Old-Growth Forest Conditions, University of California; SNEP Science Team and Special Consultants, 1996).</abstract>
-  <note displayLabel="Preferred citation" lang="eng">. (2017). Sierra Nevada Old Growth Forests, 2017. Available at: https://purl.stanford.edu/dx047gv3556</note>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Old growth forests</topic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Sierra Nevada (Calif. and Nev.)</geographic>
+  <subject lang="eng">
+    <geographic>Sierra Nevada (Calif. and Nev.)</geographic>
   </subject>
   <subject>
     <temporal encoding="w3cdtf">2017</temporal>
   </subject>
-  <subject>
+  <subject authority="ISO19115TopicCategory">
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="environment">Environment</topic>
   </subject>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>Custom projection</projection>
+      <coordinates>W 121°55ʹ1ʺ--W 117°56ʹ45ʺ/N 41°59ʹ51ʺ--N 35°22ʹ37ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+    <cartographics>
+      <projection>EPSG::4326</projection>
+    </cartographics>
+  </subject>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+  </originInfo>
   <location>
-    <url>https://purl.stanford.edu/dx047gv3556</url>
+    <url usage="primary display">https://purl.stanford.edu/dx047gv3556</url>
   </location>
   <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:dx047gv3556</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
     <languageOfCataloging>
       <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
     </languageOfCataloging>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <recordIdentifier>edu.stanford.purl:dx047gv3556</recordIdentifier>
   </recordInfo>
   <extension displayLabel="geo">
     <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="https://purl.stanford.edu/dx047gv3556">
+      <rdf:Description rdf:about="http://purl.stanford.edu/dx047gv3556">
         <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
         <dc:type>Dataset#Polygon</dc:type>
         <gml:boundedBy>
@@ -70,14 +76,6 @@
       </rdf:Description>
     </rdf:RDF>
   </extension>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>W 121°55ʹ1ʺ--W 117°56ʹ45ʺ/N 41°59ʹ51ʺ--N 35°22ʹ37ʺ</coordinates>
-    </cartographics>
-  </subject>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
   <relatedItem type="host">
     <titleInfo>
       <title>Sierra Nevada Conservancy GIS Data</title>

@@ -1,65 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
   <titleInfo>
     <title>Plumas Brophy Fire Protection District, Yuba County, California, 2019</title>
   </titleInfo>
   <name type="corporate">
     <namePart>Yuba County (Calif.). Information Technology Services</namePart>
     <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
     </role>
   </name>
+  <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+  <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
   <typeOfResource>cartographic</typeOfResource>
   <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>Yuba County (Calif.). Information Technology Services</publisher>
-    <place>
-      <placeTerm type="text">Marysville, CA, US</placeTerm>
-    </place>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
   <physicalDescription>
     <form>Shapefile</form>
     <extent>0.009</extent>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <subject>
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>Custom projection</projection>
-      <coordinates>(W 121°33ʹ14ʺ--W 121°16ʹ46ʺ/N 39°6ʹ9ʺ--N 38°58ʹ19ʺ)</coordinates>
-    </cartographics>
-  </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents the boundaries of the Plumas Brophy Fire Protection District in Yuba County, California. This layer is a part of a collection of data obtained from the Yuba County GIS data catalog. Last Updated 5/13/2019.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">Yuba County (Calif.) Information Technology Services. (2019). Plumas Brophy Fire Protection District, Yuba County, California, 2019 Yuba County (Calif.) Information Technology Services. Available at: http://purl.stanford.edu/cy321xs0246</note>
+  <language>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+  </language>
+  <abstract lang="eng" displayLabel="Abstract">This polygon shapefile represents the boundaries of the Plumas Brophy Fire Protection District in Yuba County, California. This layer is a part of a collection of data obtained from the Yuba County GIS data catalog. Last Updated 5/13/2019.</abstract>
+  <note lang="eng" displayLabel="Preferred citation">Yuba County (Calif.) Information Technology Services. (2019). Plumas Brophy Fire Protection District, Yuba County, California, 2019 Yuba County (Calif.) Information Technology Services. Available at: http://purl.stanford.edu/cy321xs0246</note>
   <note displayLabel="Use limitation">Information on this site or contained in any application/data on this site is not intended to constitute advice nor is it to be used as a substitute for specific advice from a licensed professional. You should not act (or refrain from acting) based upon information in this site without independently verifying the information, and as necessary, obtaining professional advice regarding your particular facts and circumstances.</note>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Fire protection districts</topic>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <subject authority="lcsh" lang="eng">
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Fire protection districts</topic>
   </subject>
-  <subject>
-    <geographic lang="eng">Yuba County (Calif.)</geographic>
+  <subject lang="eng">
+    <geographic>Yuba County (Calif.)</geographic>
   </subject>
   <subject>
     <temporal encoding="w3cdtf">2019</temporal>
   </subject>
-  <subject>
+  <subject authority="ISO19115TopicCategory">
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
   </subject>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>Custom projection</projection>
+      <coordinates>W 121°33ʹ14ʺ--W 121°16ʹ46ʺ/N 39°6ʹ9ʺ--N 38°58ʹ19ʺ</coordinates>
+      <coordinates>W 121°33ʹ11ʺ--W 121°16ʹ47ʺ/N 39°6ʹ5ʺ--N 38°58ʹ23ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+    <cartographics>
+      <projection>EPSG::4326</projection>
+    </cartographics>
+  </subject>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+    <place>
+      <placeTerm type="text">Marysville, CA, US</placeTerm>
+    </place>
+    <publisher>Yuba County (Calif.). Information Technology Services</publisher>
+  </originInfo>
   <location>
-    <url>http://purl.stanford.edu/cy321xs0246</url>
+    <url usage="primary display">https://purl.stanford.edu/cy321xs0246</url>
   </location>
   <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:cy321xs0246</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
     <languageOfCataloging>
       <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
     </languageOfCataloging>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <recordIdentifier>edu.stanford.purl:cy321xs0246</recordIdentifier>
   </recordInfo>
   <extension displayLabel="geo">
     <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
@@ -75,14 +82,6 @@
       </rdf:Description>
     </rdf:RDF>
   </extension>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>W 121°33ʹ11ʺ--W 121°16ʹ47ʺ/N 39°6ʹ5ʺ--N 38°58ʹ23ʺ</coordinates>
-    </cartographics>
-  </subject>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
   <relatedItem type="host">
     <titleInfo>
       <title>Yuba County, California, GIS Maps and Data</title>
@@ -93,4 +92,5 @@
     <typeOfResource collection="yes"/>
   </relatedItem>
   <accessCondition type="useAndReproduction">These data are made available as a public service. The data is for reference purposes only, and the originator(s) make no representatives, warranties, or guarantees as to the accuracy of the data. Information found here should not be used for making financial or any other commitments. In no way shall the originator(s) become liable to users of these data, or any other party, for any loss or direct, indirect, special, incidental or consequential damages, including but not limited to time, money or goodwill, arising from the use or modification of the data. This data is in the public domain.</accessCondition>
+  <accessCondition type="copyright">This work is in the Public Domain, meaning that it is not subject to copyright.</accessCondition>
 </mods>

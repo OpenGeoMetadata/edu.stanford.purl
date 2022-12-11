@@ -1,231 +1,238 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
   <titleInfo>
     <title>Causes of Forest Fragmentation in the United States (540 Meter Resolution), 1992</title>
   </titleInfo>
   <name type="personal">
     <namePart>Wade, Tim</namePart>
     <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
+      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
     </role>
   </name>
+  <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+  <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
   <typeOfResource>cartographic</typeOfResource>
   <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>National Atlas of the United States</publisher>
-    <place>
-      <placeTerm type="text">Reston, VA, US</placeTerm>
-    </place>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
   <physicalDescription>
     <form>Raster Dataset</form>
     <digitalOrigin>born digital</digitalOrigin>
   </physicalDescription>
-  <subject>
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>Custom projection</projection>
-      <coordinates>(W 180°--E 180°/N 86°10ʹ--N 3°2ʹ12ʺ)</coordinates>
-    </cartographics>
-  </subject>
-  <abstract displayLabel="Abstract" lang="eng">This raster layer is a 540 meter resolution grid map of the conterminous United States in GeoTIFF format, created from National Land Cover Data (NLCD). The NLCD data was reclassified into four categories: forest, other natural (e.g. grassland, wetland, etc.), human land use (e.g. agriculture, urban, etc.), and nodata (water, ice and snow, and bare rock/sand). A 9 x 9-pixel moving window was then used to generate forest edge measurements for every pixel, regardless of its class. Within each window, the edges of all forest pixels were examined to determine what type of land cover shared each edge. Three new grids were created, one for each edge type (forest-forest, forest-natural, and forest-human). The values in these grids were calculated as the number of edges with the appropriate type in the window divided by the total number of forest edges, regardless of neighbor. These grids represented forest connectivity (forest-forest edges), naturally caused forest fragmentation (forest-natural edges), and human caused forest fragmentation (forest- human edges). In the map, forest connectivity is displayed in green, natural fragmentation in blue, and human fragmentation in red. Yellow indicates areas that are an approximately equal mix of connected forest and human fragmentation, while cyan indicates areas that are an approximately equal mix of connected forest and natural fragmentation. Black represents areas with no forest in the 9 x 9-pixel window; white represents ignored or nodata areas, such as water, ice and snow, and bare rock/sand. This layer is part of the 1997-2014 edition of the National Atlas of the United States.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">Forest fragmentation has been studied extensively and can be quantified in several ways. This map layer is the first to identify sources of forest fragmentation, separating fragmentation into human and natural components. The data may be a useful tool for decision makers in identifying areas for protection or restoration. Areas displayed in yellow represent transition zones between connected forest and human-fragmented forest. Because human land uses tend to expand over time, these areas will be the most likely to experience further degradation. In time, the transition zones may become highly fragmented and new transitional areas will appear deeper in the intact forest. Consequently, the yellow areas in the map may represent excellent opportunities for protection or restoration. Protecting transitional and adjacent areas may limit further expansion or degradation of the transitional areas. Restoration efforts to eliminate or reduce fragmentation may produce larger patches of connected forest.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">Wade, Tim. (2004). Causes of Forest Fragmentation in the United States (540 Meter Resolution), 1992. National Atlas of the United States. Available at: http://purl.stanford.edu/hf653vx2307.</note>
+  <language>
+    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+  </language>
+  <abstract lang="eng" displayLabel="Abstract">This raster layer is a 540 meter resolution grid map of the conterminous United States in GeoTIFF format, created from National Land Cover Data (NLCD). The NLCD data was reclassified into four categories: forest, other natural (e.g. grassland, wetland, etc.), human land use (e.g. agriculture, urban, etc.), and nodata (water, ice and snow, and bare rock/sand). A 9 x 9-pixel moving window was then used to generate forest edge measurements for every pixel, regardless of its class. Within each window, the edges of all forest pixels were examined to determine what type of land cover shared each edge. Three new grids were created, one for each edge type (forest-forest, forest-natural, and forest-human). The values in these grids were calculated as the number of edges with the appropriate type in the window divided by the total number of forest edges, regardless of neighbor. These grids represented forest connectivity (forest-forest edges), naturally caused forest fragmentation (forest-natural edges), and human caused forest fragmentation (forest- human edges). In the map, forest connectivity is displayed in green, natural fragmentation in blue, and human fragmentation in red. Yellow indicates areas that are an approximately equal mix of connected forest and human fragmentation, while cyan indicates areas that are an approximately equal mix of connected forest and natural fragmentation. Black represents areas with no forest in the 9 x 9-pixel window; white represents ignored or nodata areas, such as water, ice and snow, and bare rock/sand. This layer is part of the 1997-2014 edition of the National Atlas of the United States.</abstract>
+  <abstract lang="eng" displayLabel="Purpose">Forest fragmentation has been studied extensively and can be quantified in several ways. This map layer is the first to identify sources of forest fragmentation, separating fragmentation into human and natural components. The data may be a useful tool for decision makers in identifying areas for protection or restoration. Areas displayed in yellow represent transition zones between connected forest and human-fragmented forest. Because human land uses tend to expand over time, these areas will be the most likely to experience further degradation. In time, the transition zones may become highly fragmented and new transitional areas will appear deeper in the intact forest. Consequently, the yellow areas in the map may represent excellent opportunities for protection or restoration. Protecting transitional and adjacent areas may limit further expansion or degradation of the transitional areas. Restoration efforts to eliminate or reduce fragmentation may produce larger patches of connected forest.</abstract>
+  <note lang="eng" displayLabel="Preferred citation">Wade, Tim. (2004). Causes of Forest Fragmentation in the United States (540 Meter Resolution), 1992. National Atlas of the United States. Available at: http://purl.stanford.edu/hf653vx2307.</note>
   <note displayLabel="Supplemental information">Downloadable data is scaled from 0 to 100 and is meant to be used in analyses. For display purposes, it is recommended that the data be rescaled from 0 to 255 to capture the full spectrum of possible fragmentation combinations. Colors are subdued and yellows and cyans may be missing in the display, using data scaled from 0 to 100. These data are based on National Land Cover Data (NLCD). Information about NLCD is available online at: &lt;http://landcover.usgs.gov/natllandcover.asp&gt;. For additional information see Vogelmann, J.E., S.M. Howard, L. Yang, C.R. Larson, B.K. Wylie, and N. van Driel. 2001. Completion of the 1990s National land cover data set for the conterminous United States from Landsat Thematic Mapper data and ancillary data sources. Photogrammetric Engineering and Remote Sensing 67: 650-662. The data are stored in three bands, one each for forest connectivity (Pff), human fragmentation (Pfa) and natural fragmentation (Pfn). Values have been scaled from 0 to 100, with -9999 (nodata) where the NLCD identified water, ice and snow, or bare rock/sand (classes 11, 12 and 31). Values of 0 occur where the 9 x 9-pixel window contained no forest pixels or where all forest pixels were surrounded by nodata pixels. A value of 100 indicates a window where all forest pixel edges adjoin only one class. For example, a 100 in the forest connectivity band means all forest pixels in the window are adjacent to other forest pixels or a nodata pixel. It does not necessarily mean that all pixels in the window are forest. To display these data, it is highly recommended that their values be stretched to range from 0 to 255. This will brighten and enhance the contrast in the image. Detailed information on the algorithms used to process the NLCD data to create a global fragmentation map can be found in: Wade, T.G, K.H. Riitters, J.D. Wickham, and K.B. Jones, 2003. Distribution and causes of global forest fragmentation. Conservation Ecology 7(2): 7. [online] URL: &lt;http://www.consecol.org/vol7/iss2/art7&gt;. Similar procedures were used to create this map layer. The United States Environmental Protection Agency (EPA), through its Office of Research and Development (ORD), partially funded and collaborated in this work under Interagency Agreement DW12939283-01-0 with the United States Department of Agriculture. It has been subjected to Agency review and approved for publication. The associated world file is included as part of the GeoTIFF. The contents of the world file are: &gt;540.0000 &gt;0.000000 &gt;0.000000 &gt;-540.0000 &gt;-2262730.0000 &gt;1038730.0000 The following projection file can be used when using ESRI's ArcGIS to view the GeoTIFF (any line breaks should be removed): PROJCS["NAD_1983_Lambert_Azimuthal_Equal_Area",GEOGCS ["GCS_Sphere_ARC_INFO",DATUM["D_Sphere_ARC_INFO",SPHEROID ["Sphere_ARC_INFO",6370997.0,0.0]],PRIMEM["Greenwich",0.0], UNIT["Degree",0.0174532925199433]],PROJECTION ["Lambert_Azimuthal_Equal_Area"],PARAMETER["False_Easting",0.0], PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian", -100.0],PARAMETER["Latitude_Of_Origin",45.0],UNIT["Meter",1.0]]</note>
   <note displayLabel="Use limitation">None. Acknowledgment of the National Atlas of the United States of America, the U.S. Environmental Protection Agency, the U.S. Forest Service, and (or) the U.S. Geological Survey would be appreciated in products derived from these data.</note>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Fragmented landscapes</topic>
+  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+  <subject authority="lcsh" lang="eng">
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Fragmented landscapes</topic>
   </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Landscape ecology</topic>
+  <subject authority="lcsh" lang="eng">
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Landscape ecology</topic>
   </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Biodiversity</topic>
+  <subject authority="lcsh" lang="eng">
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Biodiversity</topic>
   </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Forests and forestry</topic>
+  <subject authority="lcsh" lang="eng">
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Forests and forestry</topic>
   </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Land cover</topic>
+  <subject authority="lcsh" lang="eng">
+    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Land cover</topic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/6252001/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">United States</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/6252001/">United States</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5879092/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Alaska</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5879092/">Alaska</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4829764/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Alabama</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4829764/">Alabama</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5551752/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Arizona</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5551752/">Arizona</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4099753/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Arkansas</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4099753/">Arkansas</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5417618/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Colorado</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5417618/">Colorado</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4831725/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Connecticut</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4831725/">Connecticut</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4142224/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Delaware</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4142224/">Delaware</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4155751/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Florida</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4155751/">Florida</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4197000/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Georgia</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4197000/">Georgia</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5855797/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Hawaii</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5855797/">Hawaii</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5596512/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Idaho</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5596512/">Idaho</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4896861/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Illinois</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4896861/">Illinois</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4921868/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Indiana</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4921868/">Indiana</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4862182/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Iowa</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4862182/">Iowa</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4273857/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Kansas</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4273857/">Kansas</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/6254925/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Kentucky</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/6254925/">Kentucky</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4331987/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Louisiana</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4331987/">Louisiana</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4971068/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Maine</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4971068/">Maine</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4361885/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Maryland</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4361885/">Maryland</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/6254926/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Massachusetts</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/6254926/">Massachusetts</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5001836/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Michigan</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5001836/">Michigan</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5037779/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Minnesota</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5037779/">Minnesota</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4436296/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Mississippi</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4436296/">Mississippi</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4398678/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Missouri</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4398678/">Missouri</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5667009/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Montana</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5667009/">Montana</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5073708/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Nebraska</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5073708/">Nebraska</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5509151/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Nevada</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5509151/">Nevada</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5090174/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">New Hampshire</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5090174/">New Hampshire</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5101760/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">New Jersey</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5101760/">New Jersey</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5481136/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">New Mexico</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5481136/">New Mexico</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5128638/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">New York (State)</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5128638/">New York (State)</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4482348/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">North Carolina</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4482348/">North Carolina</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5690763/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">North Dakota</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5690763/">North Dakota</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5165418/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Ohio</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5165418/">Ohio</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4544379/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Oklahoma</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4544379/">Oklahoma</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5744337/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Oregon</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5744337/">Oregon</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/6254927/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Pennsylvania</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/6254927/">Pennsylvania</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5224323/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Rhode Island</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5224323/">Rhode Island</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4597040/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">South Carolina</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4597040/">South Carolina</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5769223/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">South Dakota</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5769223/">South Dakota</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4662168/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Tennessee</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4662168/">Tennessee</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4736286/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Texas</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4736286/">Texas</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5549030/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Utah</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5549030/">Utah</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5242283/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Vermont</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5242283/">Vermont</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/6254928/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Virginia</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/6254928/">Virginia</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4138106/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Washington (D.C.)</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4138106/">Washington (D.C.)</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5815135/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Washington (State)</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5815135/">Washington (State)</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4826850/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">West Virginia</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4826850/">West Virginia</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5279468/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Wisconsin</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5279468/">Wisconsin</geographic>
   </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5843591/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Wyoming</geographic>
+  <subject authority="geonames" lang="eng">
+    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5843591/">Wyoming</geographic>
   </subject>
   <subject>
     <temporal encoding="w3cdtf">1992</temporal>
   </subject>
-  <subject>
+  <subject authority="ISO19115TopicCategory">
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="environment">Environment</topic>
   </subject>
-  <subject>
+  <subject authority="ISO19115TopicCategory">
     <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="biota">Biology and Ecology</topic>
   </subject>
+  <subject>
+    <cartographics>
+      <scale>Scale not given.</scale>
+      <projection>Custom projection</projection>
+      <coordinates>W 180°--E 180°/N 86°10ʹ--N 3°2ʹ12ʺ</coordinates>
+      <coordinates>W 180°--E 179°59ʹ22ʺ/N 86°9ʹ44ʺ--N 3°2ʹ33ʺ</coordinates>
+    </cartographics>
+  </subject>
+  <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+    <cartographics>
+      <projection>EPSG::4326</projection>
+    </cartographics>
+  </subject>
+  <originInfo>
+    <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
+    <place>
+      <placeTerm type="text">Reston, VA, US</placeTerm>
+    </place>
+    <publisher>National Atlas of the United States</publisher>
+  </originInfo>
   <location>
-    <url>http://purl.stanford.edu/hf653vx2307</url>
+    <url usage="primary display">https://purl.stanford.edu/hf653vx2307</url>
   </location>
   <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:hf653vx2307</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
     <languageOfCataloging>
       <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
     </languageOfCataloging>
+    <recordContentSource>Stanford</recordContentSource>
+    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+    <recordIdentifier>edu.stanford.purl:hf653vx2307</recordIdentifier>
   </recordInfo>
   <extension displayLabel="geo">
     <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
@@ -241,14 +248,6 @@
       </rdf:Description>
     </rdf:RDF>
   </extension>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>W 180°--E 179°59ʹ22ʺ/N 86°9ʹ44ʺ--N 3°2ʹ33ʺ</coordinates>
-    </cartographics>
-  </subject>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
   <relatedItem type="host">
     <titleInfo>
       <title>National atlas of the United States of America, 1997-2014</title>
@@ -259,4 +258,5 @@
     <typeOfResource collection="yes"/>
   </relatedItem>
   <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+  <accessCondition type="copyright">This work is in the Public Domain, meaning that it is not subject to copyright.</accessCondition>
 </mods>

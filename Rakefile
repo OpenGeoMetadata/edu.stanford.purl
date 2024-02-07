@@ -14,6 +14,7 @@ IGNORED_FIELDS = %w[timestamp layer_availability_score_f _version_ hashed_id_ssi
 
 # Wrap a function with a timestamp file to avoid re-processing documents
 # If the block returns a timestamp, update the timestamp file
+# rubocop:disable Metrics/AbcSize
 def with_timestamp(timestamp_file = './last_run')
   return unless block_given?
 
@@ -35,6 +36,7 @@ def with_timestamp(timestamp_file = './last_run')
   puts "Updating last run: #{last_timestamp}"
   File.open(timestamp_file, 'w') { |f| f.puts last_timestamp }
 end
+# rubocop:enable Metrics/AbcSize
 
 # Solr parameters used to crawl the catalog for records
 def catalog_search_params(timestamp)
@@ -57,6 +59,7 @@ end
 
 # Yield all documents from the catalog updated since the given timestamp
 # Returns the result of calling the block on the last document
+# rubocop:disable Metrics/AbcSize
 def updated_docs_since(timestamp)
   i = 1
   response = get_json(CATALOG_URL, params: catalog_search_params(timestamp), index: i)
@@ -74,6 +77,7 @@ def updated_docs_since(timestamp)
   # For each document URL, yield the parsed JSON
   urls.map { |url| yield get_json("#{url}/raw", params: { format: :json }) }.last
 end
+# rubocop:enable Metrics/AbcSize
 
 # Write the document's metadata to a file in the appropriate directory
 # Returns the document's timestamp

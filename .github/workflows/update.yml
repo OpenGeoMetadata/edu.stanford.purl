@@ -1,0 +1,29 @@
+name: update
+
+on:
+  schedule:
+    - cron: '12 6 * * MON'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: git checkout -b data-updates
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.1
+          bundler-cache: true
+      - run: bundle exec rake
+        env:
+          STACKS_TOKEN: ${{ secrets.STACKS_TOKEN }}
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'Update Stanford data dump'
+          branch: data-updates
+          push_options: '--force'
+      - uses: repo-sync/pull-request@v2
+        with:
+          source_branch: data-updates
+          pr_title: 'Update Stanford data dump'
+          github_token: ${{ secrets.GITHUB_TOKEN }}

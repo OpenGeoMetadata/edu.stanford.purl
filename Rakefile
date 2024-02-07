@@ -9,6 +9,7 @@ require 'debug'
 
 CATALOG_URL = 'https://earthworks.stanford.edu/catalog'
 INSTITUTION = 'Stanford'
+BASE_DIR = 'metadata-1.0'
 IGNORED_FIELDS = %w[timestamp layer_availability_score_f _version_ hashed_id_ssi].freeze
 
 # Wrap a function with a timestamp file to avoid re-processing documents
@@ -82,7 +83,7 @@ def write_doc_metadata(doc)
   return if tree_dirs.empty?
 
   # Create the directory structure if it doesn't exist
-  tree = File.expand_path(tree_dirs)
+  tree = File.expand_path("#{BASE_DIR}/#{tree_dirs}")
   FileUtils.mkdir_p(tree)
 
   # Strip out ignored fields and write the document to the directory
@@ -111,7 +112,7 @@ task :write_layers_json do
 
   # Crawl the directory structure and get each druid with its directory
   Dir.glob('**/geoblacklight.json').sort.each do |file|
-    druid = File.dirname(file).split(%r{/}).join
+    druid = File.dirname(file).split(%r{/}).drop(1).join
     data["druid:#{druid}"] = File.dirname(file)
   end
 

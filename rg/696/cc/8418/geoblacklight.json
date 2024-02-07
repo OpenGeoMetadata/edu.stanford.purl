@@ -1,22 +1,14 @@
 {
-  "geoblacklight_version": "1.0",
-  "dc_identifier_s": "http://purl.stanford.edurg696cc8418",
+  "dc_identifier_s": "https://purl.stanford.edu/rg696cc8418",
   "dc_title_s": "LandScan Global Population Database 2017",
-  "dc_description_s": "This raster dataset contains population counts at 30 arc second resolution (1 km. or finer) for 2017. This release represents the 2017 edition of LandScan and succeeds all previous versions. Using an innovative approach with Geographic Information System and Remote Sensing, ORNL's LandScan is the community standard for global population distribution. At approximately 1 km resolution (30\" X 30\"), LandScan is the finest resolution global population distribution data available and represents an ambient population (average over 24 hours). The LandScan algorithm, an R&amp;D 100 Award Winner, uses spatial data and imagery analysis technologies and a multi-variable dasymetric modeling approach to disaggregate census counts within an administrative boundary. Since no single population distribution model can account for the differences in spatial data availability, quality, scale, and accuracy as well as the differences in cultural settlement practices. This dataset is part of the LandScan 2017 global population database.Developed for the U. S. Department of Defense. Allows for quick and easy assessment, estimation, and visualization of populations-at-risk.",
+  "dc_description_s": "This raster dataset contains population counts at 30 arc second resolution (1 km. or finer) for 2017. This release represents the 2017 edition of LandScan and succeeds all previous versions. Using an innovative approach with Geographic Information System and Remote Sensing, ORNL's LandScan is the community standard for global population distribution. At approximately 1 km resolution (30\" X 30\"), LandScan is the finest resolution global population distribution data available and represents an ambient population (average over 24 hours). The LandScan algorithm, an R&amp;amp;D 100 Award Winner, uses spatial data and imagery analysis technologies and a multi-variable dasymetric modeling approach to disaggregate census counts within an administrative boundary. Since no single population distribution model can account for the differences in spatial data availability, quality, scale, and accuracy as well as the differences in cultural settlement practices. This dataset is part of the LandScan 2017 global population database. Developed for the U. S. Department of Defense. Allows for quick and easy assessment, estimation, and visualization of populations-at-risk. Oak Ridge National Laboratory. (2017) LandScan Global Population Database 2017. Oak Ridge National Laboratory, UT-Battelle, LLC. Available at:  http://purl.stanford.edurg696cc8418 IMPORTANT: For correct population analysis using ESRI products assure that the following parameters are set:- Use ONLY Geographic, WGS84 projection parameters.- Spatial Analysis cell size is 0.008333333333333 (double precision)- Spatial Analysis extent should be set to an exact multiple of the cell size (for example 35.25, 35.50, 35.0)Converting (including on-the-fly projections) a grid to other projections or coordinate systems causes population cells to be re-sampled, and hence population counts will be incorrect.In ESRI ArcMap, load the LandScan grid first in order to maintain the original geographic (lat-lon) projection.\"The dataset has a spatial resolution of 30 arc-seconds and is output in a geographical coordinate system - World Geodetic System (WGS) 84 datum. The 30 arc-second cell, or 0.008333333 decimal degrees, represents approximately 1 km2 near the equator. Since the data is in a spherical coordinate system, cell width decreases in a relationship that varies with the cosine of the latitude of the cell. Thus a cell at 60 degrees latitude would have a width that is half that of a cell at the equator (cos60 = 0.5). The height of the cells does not vary. The values of the cells are integer population counts, not population density, since the cells vary in size. Population counts are normalized to sum to each sub-national administrative unit estimate. For this reason, projecting the data in a raster format to a different coordinate system (including on-the-fly projections) will result in a re-sampling of the data and the integrity of normalized population counts will be compromised. Also prior to all spatial analysis, users should ensure that extents are set to an exact multiple of the cell size (for example 35.25, 35.50, 35.0) to avoid 'shifting' of the dataset.\" --from the Oak Ridge National Laboratory LandScan Web site, Sept. 12, 2017. This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.",
   "dc_rights_s": "Restricted",
-  "dct_provenance_s": "Stanford",
-  "dct_references_s": "{\"http://schema.org/url\":\"http://purl.stanford.edurg696cc8418\",\"http://schema.org/downloadUrl\":\"https://stacks.stanford.edu/file/druid:rg696cc8418/data.zip\",\"http://www.loc.gov/mods/v3\":\"http://purl.stanford.edurg696cc8418.mods\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"https://raw.githubusercontent.com/OpenGeoMetadata/edu.stanford.purl/master/rg/696/cc/8418/iso19139.xml\",\"http://www.opengis.net/def/serviceType/ogc/wcs\":\"https://geowebservices-restricted.stanford.edu/geoserver/wcs\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices-restricted.stanford.edu/geoserver/wms\"}",
-  "layer_id_s": "druid:rg696cc8418",
-  "layer_slug_s": "stanford-rg696cc8418",
   "layer_geom_type_s": "Raster",
-  "layer_modified_dt": "2019-11-07T20:14:32Z",
+  "layer_modified_dt": "2023-10-27T01:53:26Z",
+  "dct_issued_s": "2017",
+  "dc_type_s": "Dataset",
   "dc_format_s": "ArcGRID",
   "dc_language_s": "English",
-  "dc_type_s": "Dataset",
-  "dc_publisher_s": "Oak Ridge National Laboratory",
-  "dc_creator_sm": [
-    "Oak Ridge National Laboratory"
-  ],
   "dc_subject_sm": [
     "Administrative and political divisions",
     "Human geography",
@@ -24,14 +16,30 @@
     "Imagery and Base Maps",
     "Society"
   ],
-  "dct_issued_s": "2017",
-  "dct_temporal_sm": [
-    "2017"
-  ],
   "dct_spatial_sm": [
     "Earth (Planet)"
   ],
-  "solr_geom": "ENVELOPE(-180, 180, 90, -90)",
+  "dct_temporal_sm": [
+    "2017"
+  ],
+  "dc_publisher_s": "Oak Ridge National Laboratory",
+  "dc_creator_sm": [
+    "Oak Ridge National Laboratory"
+  ],
+  "geoblacklight_version": "1.0",
+  "dct_references_s": "{\"http://schema.org/url\":\"https://purl.stanford.edu/rg696cc8418\",\"http://www.loc.gov/mods/v3\":\"https://purl.stanford.edu/rg696cc8418.mods\",\"http://schema.org/downloadUrl\":\"https://stacks.stanford.edu/file/druid:rg696cc8418/data.zip\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices-restricted.stanford.edu/geoserver/wms\",\"http://www.isotc211.org/schemas/2005/gmd/\":\"https://raw.githubusercontent.com/OpenGeoMetadata/edu.stanford.purl/master/rg/696/cc/8418/iso19139.xml\",\"http://www.opengis.net/def/serviceType/ogc/wcs\":\"https://geowebservices-restricted.stanford.edu/geoserver/wcs\"}",
+  "solr_geom": "ENVELOPE(-180.0, 180.0, 90.0, -90.0)",
+  "layer_slug_s": "stanford-rg696cc8418",
+  "layer_id_s": "druid:rg696cc8418",
+  "dct_provenance_s": "Stanford",
+  "stanford_rights_metadata_s": "<rightsMetadata>\n    <access type=\"discover\">\n      <machine>\n        <world/>\n      </machine>\n    </access>\n    <access type=\"read\">\n      <machine>\n        <group>stanford</group>\n      </machine>\n    </access>\n    <use>\n      <human type=\"useAndReproduction\">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</human>\n      <license/>\n    </use>\n    <copyright>\n      <human>Copyright ownership resides with the originator.</human>\n    </copyright>\n  </rightsMetadata>",
+  "stanford_use_and_reproduction_s": "These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.",
+  "stanford_copyright_s": "Copyright ownership resides with the originator.",
   "solr_year_i": 2017,
-  "stanford_rights_metadata_s": "<?xml version=\"1.0\"?>\n<rightsMetadata>\n  <access type=\"discover\">\n    <machine>\n      <world/>\n    </machine>\n  </access>\n  <access type=\"read\">\n    <machine>\n      <group>Stanford</group>\n    </machine>\n  </access>\n  <use>\n    <human type=\"useAndReproduction\">These data are licensed by Stanford Libraries and are available to Stanford University affiliates only. Affiliates are limited to current faculty, staff and students. Non affiliates seeking access should contact the publisher directly. These data may not be reproduced or used for any purpose without permission.</human>\n    <human type=\"creativeCommons\"/>\n    <machine type=\"creativeCommons\"/>\n  </use>\n  <copyright>\n    <human>Copyright ownership resides with the originator.</human>\n  </copyright>\n</rightsMetadata>\n"
+  "dc_source_sm": [
+    "stanford-sw902qd0802"
+  ],
+  "dct_isPartOf_sm": [
+    "LandScan 2017 global population database"
+  ]
 }

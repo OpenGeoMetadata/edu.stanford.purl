@@ -1,97 +1,95 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-  <titleInfo>
-    <title>Sheriff Beats, San Joaquin County, California, 2020</title>
-  </titleInfo>
-  <name type="corporate">
-    <namePart>San Joaquin County (Calif.).Community Development Department</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <typeOfResource>cartographic</typeOfResource>
-  <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>San Joaquin County (Calif.).Community Development Department</publisher>
-    <place>
-      <placeTerm type="text">US</placeTerm>
-    </place>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
-  </originInfo>
-  <language>
-    <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
-  </language>
-  <physicalDescription>
-    <form>Shapefile</form>
-    <extent>0.297</extent>
-    <digitalOrigin>born digital</digitalOrigin>
-  </physicalDescription>
-  <subject>
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>Custom projection</projection>
-      <coordinates>(W 121°35ʹ16ʺ--W 120°55ʹ9ʺ/N 38°18ʹ2ʺ--N 37°28ʹ51ʺ)</coordinates>
-    </cartographics>
-  </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains the boundaries of sheriff's beats in San Joaquin County, California. Beats are the geographic area that a Sheriff's deputy is assigned to during his/her shift. Year: 2020.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">San Joaquin County (Calif.). Community Development Department. (2020). Sheriff Beats, San Joaquin County, California, 2020. San Joaquin County (Calif.). Community Development Department. Available at: https://purl.stanford.edu/pr212vg1136</note>
-  <note displayLabel="Use limitation">These data are made available as a public service. The data is for reference purposes only, and the originator(s) make no representatives, warranties, or guarantees as to the accuracy of the data. Information found here should not be used for making financial or any other commitments. In no way shall the originator(s) become liable to users of these data, or any other party, for any loss or direct, indirect, special, incidental or consequential damages, including but not limited to time, money or goodwill, arising from the use or modification of the data. This data is in the public domain.</note>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Law enforcement|Police patrol</topic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5392126/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">San Joaquin County (Calif.)</geographic>
-  </subject>
-  <subject>
-    <temporal encoding="w3cdtf">2020</temporal>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="society">Society</topic>
-  </subject>
-  <location>
-    <url>https://purl.stanford.edu/pr212vg1136</url>
-  </location>
-  <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:pr212vg1136</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
-    <languageOfCataloging>
-      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-    </languageOfCataloging>
-  </recordInfo>
-  <extension displayLabel="geo">
-    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="https://purl.stanford.edu/pr212vg1136">
-        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
-        <dc:type>Dataset#Polygon</dc:type>
-        <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-121.584923 37.481842</gml:lowerCorner>
-            <gml:upperCorner>-120.920601 38.300114</gml:upperCorner>
-          </gml:Envelope>
-        </gml:boundedBy>
-        <dc:coverage rdf:resource="http://sws.geonames.org/5392126/" dc:language="eng" dc:title="San Joaquin County (Calif.)"/>
-      </rdf:Description>
-    </rdf:RDF>
-  </extension>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>W 121°35ʹ6ʺ--W 120°55ʹ14ʺ/N 38°18ʹ--N 37°28ʹ55ʺ</coordinates>
-    </cartographics>
-  </subject>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
-  <relatedItem type="host">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
     <titleInfo>
-      <title>San Joaquin County, California GIS Maps &amp; Data</title>
+      <title>Sheriff Beats, San Joaquin County, California, 2020</title>
     </titleInfo>
+    <name type="corporate">
+      <namePart>San Joaquin County (Calif.).Community Development Department</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+    <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
+    <typeOfResource>cartographic</typeOfResource>
+    <typeOfResource>software, multimedia</typeOfResource>
+    <physicalDescription>
+      <form>Shapefile</form>
+      <extent>0.297</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+    </physicalDescription>
+    <language>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </language>
+    <abstract lang="eng" displayLabel="Abstract">This polygon shapefile contains the boundaries of sheriff's beats in San Joaquin County, California. Beats are the geographic area that a Sheriff's deputy is assigned to during his/her shift. Year: 2020.</abstract>
+    <note lang="eng" displayLabel="Preferred citation">San Joaquin County (Calif.). Community Development Department. (2020). Sheriff Beats, San Joaquin County, California, 2020. San Joaquin County (Calif.). Community Development Department. Available at: https://purl.stanford.edu/pr212vg1136</note>
+    <note displayLabel="Use limitation">These data are made available as a public service. The data is for reference purposes only, and the originator(s) make no representatives, warranties, or guarantees as to the accuracy of the data. Information found here should not be used for making financial or any other commitments. In no way shall the originator(s) become liable to users of these data, or any other party, for any loss or direct, indirect, special, incidental or consequential damages, including but not limited to time, money or goodwill, arising from the use or modification of the data. This data is in the public domain.</note>
+    <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Law enforcement|Police patrol</topic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5392126/">San Joaquin County (Calif.)</geographic>
+    </subject>
+    <subject>
+      <temporal encoding="w3cdtf">2020</temporal>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="society">Society</topic>
+    </subject>
+    <subject>
+      <cartographics>
+        <scale>Scale not given.</scale>
+        <projection>Custom projection</projection>
+        <coordinates>W 121°35ʹ16ʺ--W 120°55ʹ9ʺ/N 38°18ʹ2ʺ--N 37°28ʹ51ʺ</coordinates>
+        <coordinates>W 121°35ʹ6ʺ--W 120°55ʹ14ʺ/N 38°18ʹ--N 37°28ʹ55ʺ</coordinates>
+      </cartographics>
+    </subject>
+    <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+      <cartographics>
+        <projection>EPSG::4326</projection>
+      </cartographics>
+    </subject>
+    <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+      <place>
+        <placeTerm type="text">US</placeTerm>
+      </place>
+      <publisher>San Joaquin County (Calif.).Community Development Department</publisher>
+    </originInfo>
     <location>
-      <url>https://purl.stanford.edu/dp027np2489</url>
+      <url usage="primary display">https://purl.stanford.edu/pr212vg1136</url>
     </location>
-    <typeOfResource collection="yes"/>
-  </relatedItem>
-  <accessCondition type="useAndReproduction">Please acknowledge the data producer as the source when data are used in the preparation of reports, papers, publications, maps, or other products. These data are made available as a public resource of general information for use "as is" with the understanding that it is not guaranteed to be accurate, correct or complete and any conclusions drawn from such information are the sole responsibility of the user. The data provider assumes no responsibility for errors or omissions, and explicitly disclaims any representations and warranties, including, without limitation, the implied warranties of merchantability and fitness for a particular purpose.</accessCondition>
-</mods>
+    <recordInfo>
+      <languageOfCataloging>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </languageOfCataloging>
+      <recordContentSource>Stanford</recordContentSource>
+      <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+      <recordIdentifier>edu.stanford.purl:pr212vg1136</recordIdentifier>
+    </recordInfo>
+    <extension displayLabel="geo">
+      <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description rdf:about="http://purl.stanford.edu/pr212vg1136">
+          <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+          <dc:type>Dataset#Polygon</dc:type>
+          <gml:boundedBy>
+            <gml:Envelope gml:srsName="EPSG:4326">
+              <gml:lowerCorner>-121.584923 37.481842</gml:lowerCorner>
+              <gml:upperCorner>-120.920601 38.300114</gml:upperCorner>
+            </gml:Envelope>
+          </gml:boundedBy>
+          <dc:coverage rdf:resource="http://sws.geonames.org/5392126/" dc:language="eng" dc:title="San Joaquin County (Calif.)"/>
+        </rdf:Description>
+      </rdf:RDF>
+    </extension>
+    <relatedItem type="host">
+      <titleInfo>
+        <title>San Joaquin County, California GIS Maps &amp; Data</title>
+      </titleInfo>
+      <location>
+        <url>https://purl.stanford.edu/dp027np2489</url>
+      </location>
+      <typeOfResource collection="yes"/>
+    </relatedItem>
+    <accessCondition type="useAndReproduction">Please acknowledge the data producer as the source when data are used in the preparation of reports, papers, publications, maps, or other products. These data are made available as a public resource of general information for use "as is" with the understanding that it is not guaranteed to be accurate, correct or complete and any conclusions drawn from such information are the sole responsibility of the user. The data provider assumes no responsibility for errors or omissions, and explicitly disclaims any representations and warranties, including, without limitation, the implied warranties of merchantability and fitness for a particular purpose.</accessCondition>
+  </mods>

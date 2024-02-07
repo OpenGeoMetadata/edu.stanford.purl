@@ -1,257 +1,256 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
-  <titleInfo>
-    <title>Seismic Hazard Map for the United States</title>
-  </titleInfo>
-  <name type="corporate">
-    <namePart>Rukstales, Kenneth S. (compiler)</namePart>
-    <role>
-      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-    </role>
-  </name>
-  <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
-  <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
-  <typeOfResource>cartographic</typeOfResource>
-  <typeOfResource>software, multimedia</typeOfResource>
-  <physicalDescription>
-    <form>Shapefile</form>
-    <extent>7.526</extent>
-    <digitalOrigin>born digital</digitalOrigin>
-  </physicalDescription>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
-  <abstract lang="eng" displayLabel="Abstract">This polygon shapefile represents seismic hazards in the United States. The data represent a model showing the probability that ground motion will reach a certain level. This map layer shows peak horizontal ground acceleration (the fastest measured change in speed, for a particle at ground level that is moving horizontally due to an earthquake) with a 10% probability of exceedance in 50 years. Values are given in %g, where g is acceleration due to gravity, or 9.8 meters/second^2. The lines of equal hazard, which are the lines between the polygons, were determined by interpolating from a grid of equally spaced points in latitude and longitude. Each point was weighted based on the seismic hazard at that location. The grid spacing is 0.1 degrees for Alaska, 0.05 degrees for the conterminous United States, and 0.02 degrees for Hawaii. This layer is part of the 1997-2014 edition National Atlas of the United States.</abstract>
-  <abstract lang="eng" displayLabel="Purpose">This map summarizes the quantitative information, available from geologic and geophysical sources, about seismic ground motion hazard in the United States. The data are intended for geographic display and analysis at the national level, and for large regional areas. The data should be displayed and analyzed at scales appropriate for 1:2,000,000-scale data. No responsibility is assumed by the U.S. Geological Survey or the National Atlas of the United States in the use of these data.</abstract>
-  <note lang="eng" displayLabel="Preferred citation">National Atlas of the United States. (2012). Seismic Hazard Map for the United States. National Atlas of the United States. Available at: http://purl.stanford.edu/rm034qp5477.</note>
-  <note displayLabel="Supplemental information">This map layer was prepared by combining spatially-smoothed historic seismicity information with information from fault-specific sources. The acceleration values contoured are the random horizontal component. The reference site condition is firm rock, defined as having an average shear- wave velocity of 760 meters/second in the top 30 meters corresponding to the boundary between National Earthquake Hazards Reduction Program (NEHRP) site classes B and C. For more information about the USGS National Seismic Hazard Maps, please visit http://earthquake.usgs.gov/hazards/index.php. A description of how the underlying geologic and geophysical data were prepared as well as the methodology used in calculating seismic hazard for a geographic location can be found in the following reports: Petersen, M.D., Frankel, A.D., Harmsen, S.C., Mueller, C.S., Haller, K.M., Wheeler, R.L., Wesson, R.L., Zeng, Yuehua, Boyd, O.S., Perkins, D.M., Luco, Nicolas, Field, E.H., Wills, C.J., and Rukstales, K.S., 2008, Documentation for the 2008 Update of the United States National Seismic Hazard Maps: U.S. Geological Survey Open-File Report 2008-1128, 61 p. Klein, F.W., A.D. Frankel, C.S. Mueller, R.L. Wesson and P.G. Okubo, 2001, Seismic Hazard in Hawaii: high rate of large earthquakes and probabilistic ground motion maps, Bulletin of the Seismological Society of America, v. 91, pp. 479-498. Wesson, Robert L., Boyd, Oliver S., Mueller, Charles S., Bufe, Charles G., Frankel, Arthur D., Petersen, Mark D., 2007, Revision of time-Independent probabilistic seismic hazard maps for Alaska: U.S. Geological Survey Open-File Report 2007-1043, 33p.</note>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
-  <subject authority="lcsh" lang="eng">
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Earthquake zones</topic>
-  </subject>
-  <subject authority="lcsh" lang="eng">
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Earthquake hazard analysis</topic>
-  </subject>
-  <subject authority="lcsh" lang="eng">
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Earthquakes</topic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/6252001/">United States</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5879092/">Alaska</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4829764/">Alabama</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5551752/">Arizona</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4099753/">Arkansas</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5417618/">Colorado</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4831725/">Connecticut</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4142224/">Delaware</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4155751/">Florida</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4197000/">Georgia</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5855797/">Hawaii</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5596512/">Idaho</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4896861/">Illinois</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4921868/">Indiana</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4862182/">Iowa</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4273857/">Kansas</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/6254925/">Kentucky</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4331987/">Louisiana</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4971068/">Maine</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4361885/">Maryland</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/6254926/">Massachusetts</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5001836/">Michigan</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5037779/">Minnesota</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4436296/">Mississippi</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4398678/">Missouri</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5667009/">Montana</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5073708/">Nebraska</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5509151/">Nevada</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5090174/">New Hampshire</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5101760/">New Jersey</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5481136/">New Mexico</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5128638/">New York (State)</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4482348/">North Carolina</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5690763/">North Dakota</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5165418/">Ohio</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4544379/">Oklahoma</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5744337/">Oregon</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/6254927/">Pennsylvania</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5224323/">Rhode Island</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4597040/">South Carolina</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5769223/">South Dakota</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4662168/">Tennessee</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4736286/">Texas</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5549030/">Utah</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5242283/">Vermont</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/6254928/">Virginia</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4138106/">Washington (D.C.)</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5815135/">Washington (State)</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4826850/">West Virginia</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5279468/">Wisconsin</geographic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5843591/">Wyoming</geographic>
-  </subject>
-  <subject>
-    <temporal encoding="w3cdtf">2012</temporal>
-  </subject>
-  <subject authority="ISO19115TopicCategory">
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
-  </subject>
-  <subject authority="ISO19115TopicCategory">
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="economy">Economy</topic>
-  </subject>
-  <subject>
-    <cartographics>
-      <scale>1:2000000</scale>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4269</projection>
-      <coordinates>W 179°8ʹ50ʺ--E 179°46ʹ43ʺ/N 71°23ʹ21ʺ--N 18°54ʹ40ʺ</coordinates>
-    </cartographics>
-  </subject>
-  <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
-    <cartographics>
-      <projection>EPSG::4326</projection>
-    </cartographics>
-  </subject>
-  <originInfo>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
-    <dateValid encoding="w3cdtf">2011</dateValid>
-    <place>
-      <placeTerm type="text">Reston, Virginia, US</placeTerm>
-    </place>
-    <publisher>National Atlas of the United States</publisher>
-  </originInfo>
-  <location>
-    <url usage="primary display">https://purl.stanford.edu/rm034qp5477</url>
-  </location>
-  <recordInfo>
-    <languageOfCataloging>
-      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-    </languageOfCataloging>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
-    <recordIdentifier>edu.stanford.purl:rm034qp5477</recordIdentifier>
-  </recordInfo>
-  <extension displayLabel="geo">
-    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="http://purl.stanford.edu/rm034qp5477">
-        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
-        <dc:type>Dataset#Polygon</dc:type>
-        <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-179.14734 18.911117</gml:lowerCorner>
-            <gml:upperCorner>179.77848 71.38921</gml:upperCorner>
-          </gml:Envelope>
-        </gml:boundedBy>
-      </rdf:Description>
-    </rdf:RDF>
-  </extension>
-  <relatedItem type="host">
     <titleInfo>
-      <title>National atlas of the United States of America, 1997-2014</title>
+      <title>Seismic Hazard Map for the United States</title>
     </titleInfo>
+    <name type="corporate">
+      <namePart>Rukstales, Kenneth S. (compiler)</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+    <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
+    <typeOfResource>cartographic</typeOfResource>
+    <typeOfResource>software, multimedia</typeOfResource>
+    <physicalDescription>
+      <form>Shapefile</form>
+      <extent>7.526</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+    </physicalDescription>
+    <language>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </language>
+    <abstract lang="eng" displayLabel="Abstract">This polygon shapefile represents seismic hazards in the United States. The data represent a model showing the probability that ground motion will reach a certain level. This map layer shows peak horizontal ground acceleration (the fastest measured change in speed, for a particle at ground level that is moving horizontally due to an earthquake) with a 10% probability of exceedance in 50 years. Values are given in %g, where g is acceleration due to gravity, or 9.8 meters/second^2. The lines of equal hazard, which are the lines between the polygons, were determined by interpolating from a grid of equally spaced points in latitude and longitude. Each point was weighted based on the seismic hazard at that location. The grid spacing is 0.1 degrees for Alaska, 0.05 degrees for the conterminous United States, and 0.02 degrees for Hawaii. This layer is part of the 1997-2014 edition National Atlas of the United States.</abstract>
+    <abstract lang="eng" displayLabel="Purpose">This map summarizes the quantitative information, available from geologic and geophysical sources, about seismic ground motion hazard in the United States. The data are intended for geographic display and analysis at the national level, and for large regional areas. The data should be displayed and analyzed at scales appropriate for 1:2,000,000-scale data. No responsibility is assumed by the U.S. Geological Survey or the National Atlas of the United States in the use of these data.</abstract>
+    <note lang="eng" displayLabel="Preferred citation">National Atlas of the United States. (2012). Seismic Hazard Map for the United States. National Atlas of the United States. Available at: http://purl.stanford.edu/rm034qp5477.</note>
+    <note displayLabel="Supplemental information">This map layer was prepared by combining spatially-smoothed historic seismicity information with information from fault-specific sources. The acceleration values contoured are the random horizontal component. The reference site condition is firm rock, defined as having an average shear- wave velocity of 760 meters/second in the top 30 meters corresponding to the boundary between National Earthquake Hazards Reduction Program (NEHRP) site classes B and C. For more information about the USGS National Seismic Hazard Maps, please visit http://earthquake.usgs.gov/hazards/index.php. A description of how the underlying geologic and geophysical data were prepared as well as the methodology used in calculating seismic hazard for a geographic location can be found in the following reports: Petersen, M.D., Frankel, A.D., Harmsen, S.C., Mueller, C.S., Haller, K.M., Wheeler, R.L., Wesson, R.L., Zeng, Yuehua, Boyd, O.S., Perkins, D.M., Luco, Nicolas, Field, E.H., Wills, C.J., and Rukstales, K.S., 2008, Documentation for the 2008 Update of the United States National Seismic Hazard Maps: U.S. Geological Survey Open-File Report 2008-1128, 61 p. Klein, F.W., A.D. Frankel, C.S. Mueller, R.L. Wesson and P.G. Okubo, 2001, Seismic Hazard in Hawaii: high rate of large earthquakes and probabilistic ground motion maps, Bulletin of the Seismological Society of America, v. 91, pp. 479-498. Wesson, Robert L., Boyd, Oliver S., Mueller, Charles S., Bufe, Charles G., Frankel, Arthur D., Petersen, Mark D., 2007, Revision of time-Independent probabilistic seismic hazard maps for Alaska: U.S. Geological Survey Open-File Report 2007-1043, 33p.</note>
+    <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Earthquake zones</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Earthquake hazard analysis</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Earthquakes</topic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/6252001/">United States</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5879092/">Alaska</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4829764/">Alabama</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5551752/">Arizona</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4099753/">Arkansas</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5417618/">Colorado</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4831725/">Connecticut</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4142224/">Delaware</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4155751/">Florida</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4197000/">Georgia</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5855797/">Hawaii</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5596512/">Idaho</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4896861/">Illinois</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4921868/">Indiana</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4862182/">Iowa</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4273857/">Kansas</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/6254925/">Kentucky</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4331987/">Louisiana</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4971068/">Maine</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4361885/">Maryland</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/6254926/">Massachusetts</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5001836/">Michigan</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5037779/">Minnesota</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4436296/">Mississippi</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4398678/">Missouri</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5667009/">Montana</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5073708/">Nebraska</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5509151/">Nevada</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5090174/">New Hampshire</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5101760/">New Jersey</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5481136/">New Mexico</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5128638/">New York (State)</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4482348/">North Carolina</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5690763/">North Dakota</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5165418/">Ohio</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4544379/">Oklahoma</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5744337/">Oregon</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/6254927/">Pennsylvania</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5224323/">Rhode Island</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4597040/">South Carolina</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5769223/">South Dakota</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4662168/">Tennessee</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4736286/">Texas</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5549030/">Utah</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5242283/">Vermont</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/6254928/">Virginia</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4138106/">Washington (D.C.)</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5815135/">Washington (State)</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4826850/">West Virginia</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5279468/">Wisconsin</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5843591/">Wyoming</geographic>
+    </subject>
+    <subject>
+      <temporal encoding="w3cdtf">2012</temporal>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode">Geoscientific Information</topic>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="economy">Economy</topic>
+    </subject>
+    <subject>
+      <cartographics>
+        <scale>1:2000000</scale>
+        <scale>Scale not given.</scale>
+        <projection>EPSG::4269</projection>
+        <coordinates>W 179°8ʹ50ʺ--E 179°46ʹ43ʺ/N 71°23ʹ21ʺ--N 18°54ʹ40ʺ</coordinates>
+      </cartographics>
+    </subject>
+    <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+      <cartographics>
+        <projection>EPSG::4326</projection>
+      </cartographics>
+    </subject>
+    <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
+      <dateValid encoding="w3cdtf">2011</dateValid>
+      <place>
+        <placeTerm type="text">Reston, Virginia, US</placeTerm>
+      </place>
+      <publisher>National Atlas of the United States</publisher>
+    </originInfo>
     <location>
-      <url>https://purl.stanford.edu/cv275yx9215</url>
+      <url usage="primary display">https://purl.stanford.edu/rm034qp5477</url>
     </location>
-    <typeOfResource collection="yes"/>
-  </relatedItem>
-  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
-  <accessCondition type="copyright">This work is in the Public Domain, meaning that it is not subject to copyright.</accessCondition>
-</mods>
+    <recordInfo>
+      <languageOfCataloging>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </languageOfCataloging>
+      <recordContentSource>Stanford</recordContentSource>
+      <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+      <recordIdentifier>edu.stanford.purl:rm034qp5477</recordIdentifier>
+    </recordInfo>
+    <extension displayLabel="geo">
+      <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description rdf:about="http://purl.stanford.edu/rm034qp5477">
+          <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+          <dc:type>Dataset#Polygon</dc:type>
+          <gml:boundedBy>
+            <gml:Envelope gml:srsName="EPSG:4326">
+              <gml:lowerCorner>-179.14734 18.911117</gml:lowerCorner>
+              <gml:upperCorner>179.77848 71.38921</gml:upperCorner>
+            </gml:Envelope>
+          </gml:boundedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </extension>
+    <relatedItem type="host">
+      <titleInfo>
+        <title>National atlas of the United States of America, 1997-2014</title>
+      </titleInfo>
+      <location>
+        <url>https://purl.stanford.edu/cv275yx9215</url>
+      </location>
+      <typeOfResource collection="yes"/>
+    </relatedItem>
+    <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+    <accessCondition type="copyright">This work is in the Public Domain, meaning that it is not subject to copyright.</accessCondition>
+  </mods>

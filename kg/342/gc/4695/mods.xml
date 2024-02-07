@@ -1,128 +1,127 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-  <titleInfo>
-    <title>Wildebeest Distribution: Kenya, 1994-1996</title>
-  </titleInfo>
-  <name type="corporate">
-    <namePart>International Livestock Research Institute</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <typeOfResource>cartographic</typeOfResource>
-  <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>International Livestock Research Institute</publisher>
-    <place>
-      <placeTerm type="text">Nairobi, KE</placeTerm>
-    </place>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2007</dateIssued>
-    <dateValid encoding="w3cdtf" point="start">1994</dateValid>
-    <dateValid encoding="w3cdtf" point="end">1996</dateValid>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
-  <physicalDescription>
-    <form>Shapefile</form>
-    <extent>0.029</extent>
-    <digitalOrigin>born digital</digitalOrigin>
-  </physicalDescription>
-  <subject>
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::32637</projection>
-      <coordinates>(E 34°50ʹ20ʺ--E 37°44ʹ30ʺ/S 1°5ʹ--S 2°45ʹ31ʺ)</coordinates>
-    </cartographics>
-  </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile portrays the spatial distribution of wildebeest numbers observed in Kenya from 1994 to 1996. Wildlife counts came from a rangeland census using low altitude flights. Animals are aggregated to squares of 5 kilometers by 5 kilometers.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">This data was used in Map 6.2 in Nature's Benefits in Kenya: An Atlas of Ecosystems and Human Well-Being.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">International Livestock Research Institute. (2007). Wildebeest Distribution: Kenya, 1994-1996. ILRI. Available at: http://purl.stanford.edu/kg342gc4695</note>
-  <note displayLabel="Supplemental information">Wildlife counts come from a rangeland census using low-altitude flights in Kenya. Numbers of animals observed were aggregated to 5km grid cells. Note: A number of wildebeest nul should be interpreted as "No observation of wildebeest". Please refer to DRSRS for updates.</note>
-  <note displayLabel="Use limitation">Data set is not for use in litigation. While efforts have been made to ensure that these data are accurate and reliable within the state of the art, WRI, cannot assume liability for any damages, or misrepresentations, caused by any inaccuracies in the data, or as a result of the data to be used on a particular system. WRI makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty.</note>
-  <relatedItem type="isReferencedBy">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
     <titleInfo>
-      <title>Nature's Benefits in Kenya: An Atlas of Ecosystems and Human Well-Being</title>
+      <title>Wildebeest Distribution: Kenya, 1994-1996</title>
     </titleInfo>
-    <location>
-      <url>http://www.wri.org/publication/natures-benefits-kenya</url>
-    </location>
     <name type="corporate">
       <namePart>International Livestock Research Institute</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
     </name>
-    <name type="corporate">
-      <namePart>Kenya. Central Bureau of Statistics</namePart>
-    </name>
-    <name type="corporate">
-      <namePart>World Resources Institute</namePart>
-    </name>
-    <originInfo>
-      <publisher>World Resources Institute</publisher>
-      <dateIssued encoding="w3cdtf">2007</dateIssued>
-    </originInfo>
-  </relatedItem>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Gnus</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Biogeography</topic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/192950/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Kenya</geographic>
-  </subject>
-  <subject>
-    <temporal encoding="w3cdtf" point="start">1994</temporal>
-    <temporal encoding="w3cdtf" point="end">1996</temporal>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="environment">Environment</topic>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="biota">Biology and Ecology</topic>
-  </subject>
-  <location>
-    <url>http://purl.stanford.edu/kg342gc4695</url>
-  </location>
-  <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:kg342gc4695</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
-    <languageOfCataloging>
+    <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+    <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
+    <typeOfResource>cartographic</typeOfResource>
+    <typeOfResource>software, multimedia</typeOfResource>
+    <physicalDescription>
+      <form>Shapefile</form>
+      <extent>0.029</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+    </physicalDescription>
+    <language>
       <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-    </languageOfCataloging>
-  </recordInfo>
-  <extension displayLabel="geo">
-    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="http://purl.stanford.edu/kg342gc4695">
-        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
-        <dc:type>Dataset#Polygon</dc:type>
-        <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>34.842404 -2.758591</gml:lowerCorner>
-            <gml:upperCorner>37.740943 -1.084428</gml:upperCorner>
-          </gml:Envelope>
-        </gml:boundedBy>
-      </rdf:Description>
-    </rdf:RDF>
-  </extension>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>E 34°50ʹ33ʺ--E 37°44ʹ27ʺ/S 1°5ʹ4ʺ--S 2°45ʹ31ʺ</coordinates>
-    </cartographics>
-  </subject>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
-  <relatedItem type="host">
-    <titleInfo>
-      <title>Kenya GIS Data</title>
-    </titleInfo>
+    </language>
+    <abstract lang="eng" displayLabel="Abstract">This polygon shapefile portrays the spatial distribution of wildebeest numbers observed in Kenya from 1994 to 1996. Wildlife counts came from a rangeland census using low altitude flights. Animals are aggregated to squares of 5 kilometers by 5 kilometers.</abstract>
+    <abstract lang="eng" displayLabel="Purpose">This data was used in Map 6.2 in Nature's Benefits in Kenya: An Atlas of Ecosystems and Human Well-Being.</abstract>
+    <note lang="eng" displayLabel="Preferred citation">International Livestock Research Institute. (2007). Wildebeest Distribution: Kenya, 1994-1996. ILRI. Available at: http://purl.stanford.edu/kg342gc4695</note>
+    <note displayLabel="Supplemental information">Wildlife counts come from a rangeland census using low-altitude flights in Kenya. Numbers of animals observed were aggregated to 5km grid cells. Note: A number of wildebeest nul should be interpreted as "No observation of wildebeest". Please refer to DRSRS for updates.</note>
+    <note displayLabel="Use limitation">Data set is not for use in litigation. While efforts have been made to ensure that these data are accurate and reliable within the state of the art, WRI, cannot assume liability for any damages, or misrepresentations, caused by any inaccuracies in the data, or as a result of the data to be used on a particular system. WRI makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty.</note>
+    <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Gnus</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Biogeography</topic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/192950/">Kenya</geographic>
+    </subject>
+    <subject>
+      <temporal point="start" encoding="w3cdtf">1994</temporal>
+      <temporal point="end" encoding="w3cdtf">1996</temporal>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="environment">Environment</topic>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="biota">Biology and Ecology</topic>
+    </subject>
+    <subject>
+      <cartographics>
+        <scale>Scale not given.</scale>
+        <projection>EPSG::32637</projection>
+        <coordinates>E 34°50ʹ20ʺ--E 37°44ʹ30ʺ/S 1°5ʹ--S 2°45ʹ31ʺ</coordinates>
+        <coordinates>E 34°50ʹ33ʺ--E 37°44ʹ27ʺ/S 1°5ʹ4ʺ--S 2°45ʹ31ʺ</coordinates>
+      </cartographics>
+    </subject>
+    <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+      <cartographics>
+        <projection>EPSG::4326</projection>
+      </cartographics>
+    </subject>
+    <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2007</dateIssued>
+      <dateValid encoding="w3cdtf" point="start">1994</dateValid>
+      <dateValid encoding="w3cdtf" point="end">1996</dateValid>
+      <place>
+        <placeTerm type="text">Nairobi, KE</placeTerm>
+      </place>
+      <publisher>International Livestock Research Institute</publisher>
+    </originInfo>
     <location>
-      <url>https://purl.stanford.edu/ft018fj7823</url>
+      <url usage="primary display">https://purl.stanford.edu/kg342gc4695</url>
     </location>
-    <typeOfResource collection="yes"/>
-  </relatedItem>
-  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
-</mods>
+    <recordInfo>
+      <languageOfCataloging>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </languageOfCataloging>
+      <recordContentSource>Stanford</recordContentSource>
+      <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+      <recordIdentifier>edu.stanford.purl:kg342gc4695</recordIdentifier>
+    </recordInfo>
+    <relatedItem type="isReferencedBy">
+      <titleInfo>
+        <title>Nature's Benefits in Kenya: An Atlas of Ecosystems and Human Well-Being</title>
+      </titleInfo>
+      <name type="corporate">
+        <namePart>International Livestock Research Institute</namePart>
+      </name>
+      <name type="corporate">
+        <namePart>Kenya. Central Bureau of Statistics</namePart>
+      </name>
+      <name type="corporate">
+        <namePart>World Resources Institute</namePart>
+      </name>
+      <originInfo>
+        <dateIssued encoding="w3cdtf">2007</dateIssued>
+        <publisher>World Resources Institute</publisher>
+      </originInfo>
+      <location>
+        <url>http://www.wri.org/publication/natures-benefits-kenya</url>
+      </location>
+    </relatedItem>
+    <extension displayLabel="geo">
+      <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description rdf:about="http://purl.stanford.edu/kg342gc4695">
+          <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+          <dc:type>Dataset#Polygon</dc:type>
+          <gml:boundedBy>
+            <gml:Envelope gml:srsName="EPSG:4326">
+              <gml:lowerCorner>34.842404 -2.758591</gml:lowerCorner>
+              <gml:upperCorner>37.740943 -1.084428</gml:upperCorner>
+            </gml:Envelope>
+          </gml:boundedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </extension>
+    <relatedItem type="host">
+      <titleInfo>
+        <title>Kenya GIS Data</title>
+      </titleInfo>
+      <location>
+        <url>https://purl.stanford.edu/ft018fj7823</url>
+      </location>
+      <typeOfResource collection="yes"/>
+    </relatedItem>
+    <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+    <accessCondition type="copyright">This work is in the Public Domain, meaning that it is not subject to copyright.</accessCondition>
+  </mods>

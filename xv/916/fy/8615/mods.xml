@@ -1,82 +1,81 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-  <titleInfo>
-    <title>Airports, Napa County, California, 1997</title>
-  </titleInfo>
-  <typeOfResource>cartographic</typeOfResource>
-  <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <dateIssued encoding="w3cdtf" keyDate="yes">1997</dateIssued>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
-  <physicalDescription>
-    <form>Shapefile</form>
-    <digitalOrigin>born digital</digitalOrigin>
-  </physicalDescription>
-  <subject>
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::2226</projection>
-      <coordinates>(W 122°34ʹ28ʺ--W 122°12ʹ15ʺ/N 38°44ʹ58ʺ--N 38°12ʹ43ʺ)</coordinates>
-    </cartographics>
-  </subject>
-  <abstract displayLabel="Abstract" lang="eng">This point shapefile contains locations of Airports in Napa County, California. These data were creted from extracting features labeled as "Airports" from the U.S. Geological Survey's Geographic Names Information System (GNIS) datafiles (1997). The GNIS data is an automated inventory of the names and locations of physical and cultural geographic features located throughout the United States. Additional websites were searched for other airports and airfields. This layer is part of a collection of GIS data created by the California Department of Transportation (Caltrans).</abstract>
-  <abstract displayLabel="Purpose" lang="eng">This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">California Department of Transportation. (1997). Airports, Napa County, California, 1997. California Department of Transportation. Available at http://purl.stanford.edu/xv916fy8615.</note>
-  <note displayLabel="Use limitation">Disclaimer: This GIS data is intended to provide a visual display of data for the user's convenience. Users of this data are hereby notified that the appropriate public primary information sources should be consulted for verification of the information. Although every reasonable effort has been made to assure the accuracy of this data, the County of Napa makes no warranty, representation or guaranty as to the content, sequence, accuracy, timeliness or completeness of any of the data provided herein and explicitly disclaims any representations and warranties, including, without limitation, the implied warranties of merchantability and fitness for a particular purpose. The County of Napa assumes no liability for any errors, omissions, or inaccuracies in the information provided regardless of how caused and assumes no liability for any decisions made or actions taken or not taken by the user of the data in reliance upon any information or data furnished hereunder. Because the GIS data provided is not warranted to be up-to-date, the user should check with the County staff for updated information.</note>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="structure">Structure</topic>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="transportation">Transportation</topic>
-  </subject>
-  <location>
-    <url>http://purl.stanford.edu/xv916fy8615</url>
-  </location>
-  <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:xv916fy8615</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
-    <languageOfCataloging>
-      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-    </languageOfCataloging>
-  </recordInfo>
-  <extension displayLabel="geo">
-    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="http://purl.stanford.edu/xv916fy8615">
-        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
-        <dc:type>Dataset#Point</dc:type>
-        <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-122.573059 38.213055</gml:lowerCorner>
-            <gml:upperCorner>-122.205002 38.749168</gml:upperCorner>
-          </gml:Envelope>
-        </gml:boundedBy>
-      </rdf:Description>
-    </rdf:RDF>
-  </extension>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>W 122°34ʹ23ʺ--W 122°12ʹ18ʺ/N 38°44ʹ57ʺ--N 38°12ʹ47ʺ</coordinates>
-    </cartographics>
-  </subject>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
-  <relatedItem type="host">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
     <titleInfo>
-      <title>California Department of Transportation GIS Maps &amp; Data</title>
+      <title>Airports, Napa County, California, 1997</title>
     </titleInfo>
+    <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+    <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
+    <typeOfResource>cartographic</typeOfResource>
+    <typeOfResource>software, multimedia</typeOfResource>
+    <physicalDescription>
+      <form>Shapefile</form>
+      <digitalOrigin>born digital</digitalOrigin>
+    </physicalDescription>
+    <language>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </language>
+    <abstract lang="eng" displayLabel="Abstract">This point shapefile contains locations of Airports in Napa County, California. These data were creted from extracting features labeled as "Airports" from the U.S. Geological Survey's Geographic Names Information System (GNIS) datafiles (1997). The GNIS data is an automated inventory of the names and locations of physical and cultural geographic features located throughout the United States. Additional websites were searched for other airports and airfields. This layer is part of a collection of GIS data created by the California Department of Transportation (Caltrans).</abstract>
+    <abstract lang="eng" displayLabel="Purpose">This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
+    <note lang="eng" displayLabel="Preferred citation">California Department of Transportation. (1997). Airports, Napa County, California, 1997. California Department of Transportation. Available at http://purl.stanford.edu/xv916fy8615.</note>
+    <note displayLabel="Use limitation">Disclaimer: This GIS data is intended to provide a visual display of data for the user's convenience. Users of this data are hereby notified that the appropriate public primary information sources should be consulted for verification of the information. Although every reasonable effort has been made to assure the accuracy of this data, the County of Napa makes no warranty, representation or guaranty as to the content, sequence, accuracy, timeliness or completeness of any of the data provided herein and explicitly disclaims any representations and warranties, including, without limitation, the implied warranties of merchantability and fitness for a particular purpose. The County of Napa assumes no liability for any errors, omissions, or inaccuracies in the information provided regardless of how caused and assumes no liability for any decisions made or actions taken or not taken by the user of the data in reliance upon any information or data furnished hereunder. Because the GIS data provided is not warranted to be up-to-date, the user should check with the County staff for updated information.</note>
+    <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="structure">Structure</topic>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="transportation">Transportation</topic>
+    </subject>
+    <subject>
+      <cartographics>
+        <scale>Scale not given.</scale>
+        <projection>EPSG::2226</projection>
+        <coordinates>W 122°34ʹ28ʺ--W 122°12ʹ15ʺ/N 38°44ʹ58ʺ--N 38°12ʹ43ʺ</coordinates>
+        <coordinates>W 122°34ʹ23ʺ--W 122°12ʹ18ʺ/N 38°44ʹ57ʺ--N 38°12ʹ47ʺ</coordinates>
+      </cartographics>
+    </subject>
+    <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+      <cartographics>
+        <projection>EPSG::4326</projection>
+      </cartographics>
+    </subject>
+    <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">1997</dateIssued>
+    </originInfo>
     <location>
-      <url>https://purl.stanford.edu/sb381ch4421</url>
+      <url usage="primary display">https://purl.stanford.edu/xv916fy8615</url>
     </location>
-    <typeOfResource collection="yes"/>
-  </relatedItem>
-  <accessCondition type="useAndReproduction">This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+    <recordInfo>
+      <languageOfCataloging>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </languageOfCataloging>
+      <recordContentSource>Stanford</recordContentSource>
+      <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+      <recordIdentifier>edu.stanford.purl:xv916fy8615</recordIdentifier>
+    </recordInfo>
+    <extension displayLabel="geo">
+      <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description rdf:about="http://purl.stanford.edu/xv916fy8615">
+          <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+          <dc:type>Dataset#Point</dc:type>
+          <gml:boundedBy>
+            <gml:Envelope gml:srsName="EPSG:4326">
+              <gml:lowerCorner>-122.573059 38.213055</gml:lowerCorner>
+              <gml:upperCorner>-122.205002 38.749168</gml:upperCorner>
+            </gml:Envelope>
+          </gml:boundedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </extension>
+    <relatedItem type="host">
+      <titleInfo>
+        <title>California Department of Transportation GIS Maps &amp; Data</title>
+      </titleInfo>
+      <location>
+        <url>https://purl.stanford.edu/sb381ch4421</url>
+      </location>
+      <typeOfResource collection="yes"/>
+    </relatedItem>
+    <accessCondition type="useAndReproduction">This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. http://www.gnu.org/licenses.</accessCondition>
-</mods>
+    <accessCondition type="copyright">Copyright resides with the originator.</accessCondition>
+  </mods>

@@ -1,10 +1,10 @@
 {
-  "dc_identifier_s": "http://purl.stanford.edu/yt699ry4370",
+  "dc_identifier_s": "https://purl.stanford.edu/yt699ry4370",
   "dc_title_s": "Power Plant Entrainment (Polygons): Southern California, 2008",
   "dc_description_s": "This polygon shapefile depicts the estimated extent of power plant entrainment in the Southern California Bight. Included in the attributes is scale range of larvae entrained per year. The attributes also include the offshore distance and the alongshore distance that is affected by entrainment. The entrainment area calculations are based on several assumptions, including (1) that alongshore extent is 5-times cross-shore extent, (2) bottom depth slopes linearly to about 10m at the outer edge of this entrained volume, and (3) the entrainment area appears on both sides of the intake as currents may run in one direction or the other. Where the intake is in an enclosed bay, this area extends beyond the bay when the bay holds less volume than that pumped in a 10-day period (e.g., Alamitos Bay), or is confined to the bay where the bay is large enough (e.g., San Diego Bay). This is a simplified approach and a more detailed assessment should be developed for any specific site that may interact with nearby marine protected areas. The reference used to create this shapefile: Foster, M., Steinbeck, J. 2008. Compilation of California coastal power plant entrainment and impingement estimates for California State Water Resources Control Board staff draft issue paper on once-through cooling. California State Water Resources Control Board. This coverage displays the estimated extent of area affected by power plant entrainment in the Southern California Bight, the curved coastline of Southern California between Point Conception and San Diego. Entrainment is a process by which small aquatic organisms are carried by the cooling water into a power plant and assumed killed by heat, turbulence and/or chemicals. California Department of Fish and Wildlife Marine Resources Region. (2009). Power Plant Entrainment (Polygons): Southern California, 2008. California Department of Fish and Wildlife. Marine Resources Region. Available at: http://purl.stanford.edu/yt699ry4370. --BEGIN ORIGINAL METADATA - THIS INFORMATION MAY NOT BE CURRENT-- Processing Steps: 1. Plotted point locations using XY locations provided by Brian Owens (DFG). 2. Buffered a detailed coastline line file by the offshore distance specific to the point. 3. Cut the buffered feature perpendicular to the coastline at a specified alongshore distance from the entrainment point. The specified alongshore distance is the Along_Lengh attribute of this feature class --END ORIGINAL METADATA-- This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.",
   "dc_rights_s": "Public",
   "layer_geom_type_s": "Polygon",
-  "layer_modified_dt": "2020-11-20T16:08:17Z",
+  "layer_modified_dt": "2023-10-25T20:30:48Z",
   "dct_issued_s": "2009",
   "dc_type_s": "Dataset",
   "dc_format_s": "Shapefile",
@@ -35,7 +35,9 @@
   "layer_slug_s": "stanford-yt699ry4370",
   "layer_id_s": "druid:yt699ry4370",
   "dct_provenance_s": "Stanford",
-  "stanford_rights_metadata_s": "<rightsMetadata>\n    <access type=\"discover\">\n      <machine>\n        <world/>\n      </machine>\n    </access>\n    <access type=\"read\">\n      <machine>\n        <world/>\n      </machine>\n    </access>\n    <use>\n      <human type=\"useAndReproduction\">This item is in the public domain.  There are no restrictions on use.</human>\n      <human type=\"creativeCommons\"/>\n      <machine type=\"creativeCommons\"/>\n    </use>\n    <copyright>\n      <human>This work is in the Public Domain, meaning that it is not subject to copyright.</human>\n    </copyright>\n  </rightsMetadata>",
+  "stanford_rights_metadata_s": "<rightsMetadata>\n    <access type=\"discover\">\n      <machine>\n        <world/>\n      </machine>\n    </access>\n    <access type=\"read\">\n      <machine>\n        <world/>\n      </machine>\n    </access>\n    <use>\n      <human type=\"useAndReproduction\">This item is in the public domain.  There are no restrictions on use.</human>\n      <license/>\n    </use>\n    <copyright>\n      <human>This work is in the Public Domain, meaning that it is not subject to copyright.</human>\n    </copyright>\n  </rightsMetadata>",
+  "stanford_use_and_reproduction_s": "This item is in the public domain.  There are no restrictions on use.",
+  "stanford_copyright_s": "This work is in the Public Domain, meaning that it is not subject to copyright.",
   "solr_year_i": 2008,
   "dc_source_sm": [
     "stanford-fb282pw3043"

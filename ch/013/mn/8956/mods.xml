@@ -1,103 +1,102 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
-  <titleInfo>
-    <title>100-Meter Resolution Land Cover of Puerto Rico and the U.S. Virgin Islands, 2001</title>
-  </titleInfo>
-  <name type="corporate">
-    <namePart>Geological Survey (U.S.)</namePart>
-    <role>
-      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-    </role>
-  </name>
-  <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
-  <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
-  <typeOfResource>cartographic</typeOfResource>
-  <typeOfResource>software, multimedia</typeOfResource>
-  <physicalDescription>
-    <form>GeoTIFF</form>
-    <digitalOrigin>born digital</digitalOrigin>
-  </physicalDescription>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
-  <abstract lang="eng" displayLabel="Abstract">This raster layer is a georeferenced image containing land cover data for Puerto Rico and the U.S. Virgin Islands, in an Albers Equal-Area Conic projection and at a resolution of 100 meters. The land cover data were derived from the 2001 National Land Cover Database (NLCD) Land Cover data set, a product of the Multi-Resolution Land Characteristics Consortium (MRLC). This layer is part of the 1997-2014 edition of the National Atlas of the United States.</abstract>
-  <abstract lang="eng" displayLabel="Purpose">The 100-meter resolution land cover data were developed to portray the land cover of the United States at 1:1,000,000 scale. They are intended primarily for visual purposes. The original NLCD data should be used for conducting scientific analysis.</abstract>
-  <note lang="eng" displayLabel="Preferred citation">U.S. Geological Survey. (2013). 100-Meter Resolution Land Cover of Puerto Rico and the U.S. Virgin Islands, 2001. USGS. Available at: http://purl.stanford.edu/ch013mn8956.</note>
-  <note displayLabel="Supplemental information">NLCD data sets at 30-meter resolution may be downloaded from the MRLC Web site, http://www.mrlc.gov/nlcd01_data.php. Further information on NLCD, related data sets, and land cover research may be found at the online USGS Land Cover Institute http://landcover.usgs.gov/. Pixel values for land cover data and their corresponding RGB colors are listed in the color ramp (.clr) file that accompanies the data set. This table shows all land cover classes and the RGB color values used to represent them. &gt;Pixel value NLCD 2001 land cover classes R G B &gt;================================================================================== &gt;11 Open water 72 109 162 &gt;12 Perennial ice / snow 229 231 232 &gt;21 Developed, open space 225 205 206 &gt;22 Developed, low intensity 220 152 129 &gt;23 Developed, medium intensity 241 0 0 &gt;24 Developed. high intensity 171 0 0 &gt;31 Barren land 179 175 164 &gt;41 Deciduous forest 107 169 102 &gt;42 Evergreen forest 29 101 51 &gt;43 Mixed forest 189 204 147 &gt;51 Dwarf scrub (Alaska only) 176 151 61 &gt;52 Shrub / scrub 209 187 130 &gt;71 Grassland / herbaceous 215 214 158 &gt;72 Sedge / herbaceous (Alaska only) 209 209 130 &gt;74 Moss (Alaska only) 130 186 158 &gt;81 Pasture hay 221 216 62 &gt;82 Cultivated crops 174 114 41 &gt;90 Woody wetlands 167 196 216 &gt;95 Emergent herbaceous wetlands 113 164 193 &gt;101, 102, 103 Non-U.S. land 240 235 211 &gt;0 Ocean water 193 224 250 Pixel value 101 represents land in Canada or the British Virgin Islands. Pixel value 102 represents land in Mexico or Russia. Pixel value 103 represents land in The Bahamas and Cuba in the southeastern part of the dataset. There are no null values in the image. Included with the GeoTIFF are an auxiliary information file (.aux.xml), an image overview file (.ovr), a value attribute database file (.vat.dbf), a .tfw file (more information included below), a .prj file (more information included below), and an Adobe Color Table (.act) file. The contents of the associated world file (.tfw) are: &gt;100.0 &gt;0.0 &gt;0.0 &gt;-100.0 &gt;-195950.0 &gt;437950.0 The projection (.prj) file contains the following information: &gt; PROJCS["Albers_NAD83_ PRVI ", &gt;GEOGCS["GCS_North_American_1983", &gt;DATUM["D_North_American_1983", &gt;SPHEROID["GRS_1980",6378137.0,298.257222101]], &gt;PRIMEM["Greenwich",0.0], &gt;UNIT["Degree",0.0174532925199433]], &gt;PROJECTION["Albers"], &gt;PARAMETER["False_Easting",0.0], &gt;PARAMETER["False_Northing",0.0], &gt;PARAMETER["Central_Meridian",-66.5], &gt;PARAMETER["Standard_Parallel_1",8.0], &gt;PARAMETER["Standard_Parallel_2",18.0], &gt;PARAMETER["Latitude_Of_Origin",15.0], &gt;UNIT["Meter",1.0]] Data set extent in meters (Albers Equal-Area Conic projection) &gt;North 438000 &gt;West -196000 &gt;East 286000 &gt;South 230000 There are no NULL or NODATA values in the GeoTIFF. Instead, all land cover values in oceans have been set to zero as part of the masking process. A copy of the land/water mask used in processing is available on request. Information about National Atlas Web services can be found on the Web Map and Web Feature Services page; see http://nationalatlas.gov/infodocs/webservices.html. ; {"gdaId" : 6152779}</note>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
-  <subject authority="lcsh" lang="eng">
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Land cover</topic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4566966/">Puerto Rico</geographic>
-  </subject>
-  <subject lang="eng">
-    <geographic>United States. Virgin Islands</geographic>
-  </subject>
-  <subject>
-    <temporal encoding="w3cdtf">2001</temporal>
-  </subject>
-  <subject authority="ISO19115TopicCategory">
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="imageryBaseMapsEarthCover">Imagery and Base Maps</topic>
-  </subject>
-  <subject authority="ISO19115TopicCategory">
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="biota">Biology and Ecology</topic>
-  </subject>
-  <subject>
-    <cartographics>
-      <scale>1:1000000</scale>
-      <scale>Scale not given.</scale>
-      <projection>Custom projection</projection>
-      <coordinates>W 68°21ʹ28ʺ--W 63°47ʹ20ʺ/N 18°57ʹ11ʺ--N 17°3ʹ36ʺ</coordinates>
-      <coordinates>W 68°21ʹ28ʺ--W 63°47ʹ21ʺ/N 18°57ʹ11ʺ--N 17°3ʹ37ʺ</coordinates>
-    </cartographics>
-  </subject>
-  <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
-    <cartographics>
-      <projection>EPSG::4326</projection>
-    </cartographics>
-  </subject>
-  <originInfo>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
-    <place>
-      <placeTerm type="text">Rolla, MO, US</placeTerm>
-    </place>
-    <publisher>Geological Survey (U.S.)</publisher>
-  </originInfo>
-  <location>
-    <url usage="primary display">https://purl.stanford.edu/ch013mn8956</url>
-  </location>
-  <recordInfo>
-    <languageOfCataloging>
-      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-    </languageOfCataloging>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
-    <recordIdentifier>edu.stanford.purl:ch013mn8956</recordIdentifier>
-  </recordInfo>
-  <extension displayLabel="geo">
-    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="http://purl.stanford.edu/ch013mn8956">
-        <dc:format>image/tiff; format=GeoTIFF</dc:format>
-        <dc:type>Dataset#Raster</dc:type>
-        <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-68.3579152 17.060173</gml:lowerCorner>
-            <gml:upperCorner>-63.7891704 18.9529521</gml:upperCorner>
-          </gml:Envelope>
-        </gml:boundedBy>
-      </rdf:Description>
-    </rdf:RDF>
-  </extension>
-  <relatedItem type="host">
     <titleInfo>
-      <title>National atlas of the United States of America, 1997-2014</title>
+      <title>100-Meter Resolution Land Cover of Puerto Rico and the U.S. Virgin Islands, 2001</title>
     </titleInfo>
+    <name type="corporate">
+      <namePart>Geological Survey (U.S.)</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+    <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
+    <typeOfResource>cartographic</typeOfResource>
+    <typeOfResource>software, multimedia</typeOfResource>
+    <physicalDescription>
+      <form>GeoTIFF</form>
+      <digitalOrigin>born digital</digitalOrigin>
+    </physicalDescription>
+    <language>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </language>
+    <abstract lang="eng" displayLabel="Abstract">This raster layer is a georeferenced image containing land cover data for Puerto Rico and the U.S. Virgin Islands, in an Albers Equal-Area Conic projection and at a resolution of 100 meters. The land cover data were derived from the 2001 National Land Cover Database (NLCD) Land Cover data set, a product of the Multi-Resolution Land Characteristics Consortium (MRLC). This layer is part of the 1997-2014 edition of the National Atlas of the United States.</abstract>
+    <abstract lang="eng" displayLabel="Purpose">The 100-meter resolution land cover data were developed to portray the land cover of the United States at 1:1,000,000 scale. They are intended primarily for visual purposes. The original NLCD data should be used for conducting scientific analysis.</abstract>
+    <note lang="eng" displayLabel="Preferred citation">U.S. Geological Survey. (2013). 100-Meter Resolution Land Cover of Puerto Rico and the U.S. Virgin Islands, 2001. USGS. Available at: http://purl.stanford.edu/ch013mn8956.</note>
+    <note displayLabel="Supplemental information">NLCD data sets at 30-meter resolution may be downloaded from the MRLC Web site, http://www.mrlc.gov/nlcd01_data.php. Further information on NLCD, related data sets, and land cover research may be found at the online USGS Land Cover Institute http://landcover.usgs.gov/. Pixel values for land cover data and their corresponding RGB colors are listed in the color ramp (.clr) file that accompanies the data set. This table shows all land cover classes and the RGB color values used to represent them. &gt;Pixel value NLCD 2001 land cover classes R G B &gt;================================================================================== &gt;11 Open water 72 109 162 &gt;12 Perennial ice / snow 229 231 232 &gt;21 Developed, open space 225 205 206 &gt;22 Developed, low intensity 220 152 129 &gt;23 Developed, medium intensity 241 0 0 &gt;24 Developed. high intensity 171 0 0 &gt;31 Barren land 179 175 164 &gt;41 Deciduous forest 107 169 102 &gt;42 Evergreen forest 29 101 51 &gt;43 Mixed forest 189 204 147 &gt;51 Dwarf scrub (Alaska only) 176 151 61 &gt;52 Shrub / scrub 209 187 130 &gt;71 Grassland / herbaceous 215 214 158 &gt;72 Sedge / herbaceous (Alaska only) 209 209 130 &gt;74 Moss (Alaska only) 130 186 158 &gt;81 Pasture hay 221 216 62 &gt;82 Cultivated crops 174 114 41 &gt;90 Woody wetlands 167 196 216 &gt;95 Emergent herbaceous wetlands 113 164 193 &gt;101, 102, 103 Non-U.S. land 240 235 211 &gt;0 Ocean water 193 224 250 Pixel value 101 represents land in Canada or the British Virgin Islands. Pixel value 102 represents land in Mexico or Russia. Pixel value 103 represents land in The Bahamas and Cuba in the southeastern part of the dataset. There are no null values in the image. Included with the GeoTIFF are an auxiliary information file (.aux.xml), an image overview file (.ovr), a value attribute database file (.vat.dbf), a .tfw file (more information included below), a .prj file (more information included below), and an Adobe Color Table (.act) file. The contents of the associated world file (.tfw) are: &gt;100.0 &gt;0.0 &gt;0.0 &gt;-100.0 &gt;-195950.0 &gt;437950.0 The projection (.prj) file contains the following information: &gt; PROJCS["Albers_NAD83_ PRVI ", &gt;GEOGCS["GCS_North_American_1983", &gt;DATUM["D_North_American_1983", &gt;SPHEROID["GRS_1980",6378137.0,298.257222101]], &gt;PRIMEM["Greenwich",0.0], &gt;UNIT["Degree",0.0174532925199433]], &gt;PROJECTION["Albers"], &gt;PARAMETER["False_Easting",0.0], &gt;PARAMETER["False_Northing",0.0], &gt;PARAMETER["Central_Meridian",-66.5], &gt;PARAMETER["Standard_Parallel_1",8.0], &gt;PARAMETER["Standard_Parallel_2",18.0], &gt;PARAMETER["Latitude_Of_Origin",15.0], &gt;UNIT["Meter",1.0]] Data set extent in meters (Albers Equal-Area Conic projection) &gt;North 438000 &gt;West -196000 &gt;East 286000 &gt;South 230000 There are no NULL or NODATA values in the GeoTIFF. Instead, all land cover values in oceans have been set to zero as part of the masking process. A copy of the land/water mask used in processing is available on request. Information about National Atlas Web services can be found on the Web Map and Web Feature Services page; see http://nationalatlas.gov/infodocs/webservices.html. ; {"gdaId" : 6152779}</note>
+    <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Land cover</topic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4566966/">Puerto Rico</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>United States. Virgin Islands</geographic>
+    </subject>
+    <subject>
+      <temporal encoding="w3cdtf">2001</temporal>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="imageryBaseMapsEarthCover">Imagery and Base Maps</topic>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="biota">Biology and Ecology</topic>
+    </subject>
+    <subject>
+      <cartographics>
+        <scale>1:1000000</scale>
+        <scale>Scale not given.</scale>
+        <projection>Custom projection</projection>
+        <coordinates>W 68°21ʹ28ʺ--W 63°47ʹ20ʺ/N 18°57ʹ11ʺ--N 17°3ʹ36ʺ</coordinates>
+        <coordinates>W 68°21ʹ28ʺ--W 63°47ʹ21ʺ/N 18°57ʹ11ʺ--N 17°3ʹ37ʺ</coordinates>
+      </cartographics>
+    </subject>
+    <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+      <cartographics>
+        <projection>EPSG::4326</projection>
+      </cartographics>
+    </subject>
+    <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+      <place>
+        <placeTerm type="text">Rolla, MO, US</placeTerm>
+      </place>
+      <publisher>Geological Survey (U.S.)</publisher>
+    </originInfo>
     <location>
-      <url>https://purl.stanford.edu/cv275yx9215</url>
+      <url usage="primary display">https://purl.stanford.edu/ch013mn8956</url>
     </location>
-    <typeOfResource collection="yes"/>
-  </relatedItem>
-  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
-  <accessCondition type="copyright">This work is in the Public Domain, meaning that it is not subject to copyright.</accessCondition>
-</mods>
+    <recordInfo>
+      <languageOfCataloging>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </languageOfCataloging>
+      <recordContentSource>Stanford</recordContentSource>
+      <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+      <recordIdentifier>edu.stanford.purl:ch013mn8956</recordIdentifier>
+    </recordInfo>
+    <extension displayLabel="geo">
+      <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description rdf:about="http://purl.stanford.edu/ch013mn8956">
+          <dc:format>image/tiff; format=GeoTIFF</dc:format>
+          <dc:type>Dataset#Raster</dc:type>
+          <gml:boundedBy>
+            <gml:Envelope gml:srsName="EPSG:4326">
+              <gml:lowerCorner>-68.3579152 17.060173</gml:lowerCorner>
+              <gml:upperCorner>-63.7891704 18.9529521</gml:upperCorner>
+            </gml:Envelope>
+          </gml:boundedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </extension>
+    <relatedItem type="host">
+      <titleInfo>
+        <title>National atlas of the United States of America, 1997-2014</title>
+      </titleInfo>
+      <location>
+        <url>https://purl.stanford.edu/cv275yx9215</url>
+      </location>
+      <typeOfResource collection="yes"/>
+    </relatedItem>
+    <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+    <accessCondition type="copyright">This work is in the Public Domain, meaning that it is not subject to copyright.</accessCondition>
+  </mods>

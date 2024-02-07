@@ -1,101 +1,98 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-  <titleInfo>
-    <title>Municipality Boundary Lines, Macedonia, 2006</title>
-  </titleInfo>
-  <name type="corporate">
-    <namePart>International Steering Committee for Global Mapping</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <name type="corporate">
-    <namePart>Macedonia (Republic). Agency for Real Estate Cadastre</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <typeOfResource>cartographic</typeOfResource>
-  <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>International Steering Committee for Global Mapping</publisher>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2006</dateIssued>
-    <edition>2</edition>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
-  <physicalDescription>
-    <form>Shapefile</form>
-    <extent>0.579</extent>
-    <digitalOrigin>born digital</digitalOrigin>
-  </physicalDescription>
-  <subject>
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>Custom projection</projection>
-      <coordinates>(E 20°27ʹ12ʺ--E 23°2ʹ3ʺ/N 42°22ʹ26ʺ--N 40°51ʹ17ʺ)</coordinates>
-    </cartographics>
-  </subject>
-  <abstract displayLabel="Abstract" lang="eng">This point shapefile represents municipality boundary lines in Macedonia. The Global Map Macedonia was developed by SAGW as e CAD data in dgn format, and then adapted in to Global Map standards. gmmk20 2011-11-01 2.0 Source data for creation the Global Mapping data are data from cadastral plans in scale 1:1000, 1:2500, 1:5000 and 1:10000 in raster form. All data are topologically correct. The boundaries are generalized according to the Global Mapping Specifications v.2 for scale 1:1000000. The geospatial data are transformed from the local Macedonian state coordinate system to WGS84, UTM 34 projection. The Global Map Macedonia - Drainage, Population Center and Transportation layer were developed by digitizing of the excisting maps in scale 1:200.000.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">Global Map data were developed under the cooperation of National Geospatial Information Authorities (NGIAs) of respective countries and regions.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">Global Map of Macedonia. Copyright ISCGM/ Republic of Macedonia, Agency for Real Estate Cadastre</note>
-  <note displayLabel="Supplemental information">Global Map data of National/Regional version were developed with consistent specifications by NGIAs of respective countries and regions for fundamental geospatial information of their respective coverage by using geospatial information owned by them, and they were provided. The data have been authorized by NGIAs of respective countries and regions. Therefore, the contents of respective data are based on the views of respective data developers. For some countries and regions, there may be parts where data have not been developed. National/Regional version of Global Map data was to be updated in about five-year cycle on the basis of resolutions of an ISCGM meeting. To know about the year data were updated and about data developers, please refer to metadata attached to each data. Depending on the period the data were prepared, they were developed in line with two different specifications, namely, version 1 in VPF and BIL formats, and version 2 in GML and BIL formats.</note>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Administrative and political divisions</topic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Macedonia</geographic>
-  </subject>
-  <subject>
-    <temporal encoding="w3cdtf">2006</temporal>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="transportation">Transportation</topic>
-  </subject>
-  <location>
-    <url>http://purl.stanford.edu/hr975vs1237</url>
-  </location>
-  <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:hr975vs1237</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
-    <languageOfCataloging>
-      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-    </languageOfCataloging>
-  </recordInfo>
-  <extension displayLabel="geo">
-    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="http://purl.stanford.edu/hr975vs1237">
-        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
-        <dc:type>Dataset#LineString</dc:type>
-        <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>20.453318 40.854585</gml:lowerCorner>
-            <gml:upperCorner>23.034141 42.373901</gml:upperCorner>
-          </gml:Envelope>
-        </gml:boundedBy>
-      </rdf:Description>
-    </rdf:RDF>
-  </extension>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>E 20°27ʹ12ʺ--E 23°2ʹ3ʺ/N 42°22ʹ26ʺ--N 40°51ʹ17ʺ</coordinates>
-    </cartographics>
-  </subject>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
-  <relatedItem type="host">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
     <titleInfo>
-      <title>Global Map</title>
+      <title>Municipality Boundary Lines, Macedonia, 2006</title>
     </titleInfo>
+    <name type="corporate">
+      <namePart>International Steering Committee for Global Mapping</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <name type="corporate">
+      <namePart>Macedonia (Republic). Agency for Real Estate Cadastre</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+    <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
+    <typeOfResource>cartographic</typeOfResource>
+    <typeOfResource>software, multimedia</typeOfResource>
+    <physicalDescription>
+      <form>Shapefile</form>
+      <extent>0.579</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+    </physicalDescription>
+    <language>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </language>
+    <abstract lang="eng" displayLabel="Abstract">This point shapefile represents municipality boundary lines in Macedonia. The Global Map Macedonia was developed by SAGW as e CAD data in dgn format, and then adapted in to Global Map standards. gmmk20 2011-11-01 2.0 Source data for creation the Global Mapping data are data from cadastral plans in scale 1:1000, 1:2500, 1:5000 and 1:10000 in raster form. All data are topologically correct. The boundaries are generalized according to the Global Mapping Specifications v.2 for scale 1:1000000. The geospatial data are transformed from the local Macedonian state coordinate system to WGS84, UTM 34 projection. The Global Map Macedonia - Drainage, Population Center and Transportation layer were developed by digitizing of the excisting maps in scale 1:200.000.</abstract>
+    <abstract lang="eng" displayLabel="Purpose">Global Map data were developed under the cooperation of National Geospatial Information Authorities (NGIAs) of respective countries and regions.</abstract>
+    <note lang="eng" displayLabel="Preferred citation">Global Map of Macedonia. Copyright ISCGM/ Republic of Macedonia, Agency for Real Estate Cadastre</note>
+    <note displayLabel="Supplemental information">Global Map data of National/Regional version were developed with consistent specifications by NGIAs of respective countries and regions for fundamental geospatial information of their respective coverage by using geospatial information owned by them, and they were provided. The data have been authorized by NGIAs of respective countries and regions. Therefore, the contents of respective data are based on the views of respective data developers. For some countries and regions, there may be parts where data have not been developed. National/Regional version of Global Map data was to be updated in about five-year cycle on the basis of resolutions of an ISCGM meeting. To know about the year data were updated and about data developers, please refer to metadata attached to each data. Depending on the period the data were prepared, they were developed in line with two different specifications, namely, version 1 in VPF and BIL formats, and version 2 in GML and BIL formats.</note>
+    <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Administrative and political divisions</topic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Macedonia</geographic>
+    </subject>
+    <subject>
+      <temporal encoding="w3cdtf">2006</temporal>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="transportation">Transportation</topic>
+    </subject>
+    <subject>
+      <cartographics>
+        <scale>Scale not given.</scale>
+        <projection>Custom projection</projection>
+        <coordinates>E 20°27ʹ12ʺ--E 23°2ʹ3ʺ/N 42°22ʹ26ʺ--N 40°51ʹ17ʺ</coordinates>
+      </cartographics>
+    </subject>
+    <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+      <cartographics>
+        <projection>EPSG::4326</projection>
+      </cartographics>
+    </subject>
+    <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2006</dateIssued>
+      <publisher>International Steering Committee for Global Mapping</publisher>
+      <edition>2</edition>
+    </originInfo>
     <location>
-      <url>https://purl.stanford.edu/kb168tn2424</url>
+      <url usage="primary display">https://purl.stanford.edu/hr975vs1237</url>
     </location>
-    <typeOfResource collection="yes"/>
-  </relatedItem>
-  <accessCondition type="useAndReproduction">This dataset is freely available for academic use and other non-commercial use. Redistribution, or commercial use is not allowed without prior permission. You are free to create maps and use the data in other ways for publication in academic journals, books, reports, etc.</accessCondition>
-</mods>
+    <recordInfo>
+      <languageOfCataloging>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </languageOfCataloging>
+      <recordContentSource>Stanford</recordContentSource>
+      <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+      <recordIdentifier>edu.stanford.purl:hr975vs1237</recordIdentifier>
+    </recordInfo>
+    <extension displayLabel="geo">
+      <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description rdf:about="http://purl.stanford.edu/hr975vs1237">
+          <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+          <dc:type>Dataset#LineString</dc:type>
+          <gml:boundedBy>
+            <gml:Envelope gml:srsName="EPSG:4326">
+              <gml:lowerCorner>20.453318 40.854585</gml:lowerCorner>
+              <gml:upperCorner>23.034141 42.373901</gml:upperCorner>
+            </gml:Envelope>
+          </gml:boundedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </extension>
+    <relatedItem type="host">
+      <titleInfo>
+        <title>Global Map</title>
+      </titleInfo>
+      <location>
+        <url>https://purl.stanford.edu/kb168tn2424</url>
+      </location>
+      <typeOfResource collection="yes"/>
+    </relatedItem>
+    <accessCondition type="useAndReproduction">This dataset is freely available for academic use and other non-commercial use. Redistribution, or commercial use is not allowed without prior permission. You are free to create maps and use the data in other ways for publication in academic journals, books, reports, etc.</accessCondition>
+  </mods>

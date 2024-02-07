@@ -1,107 +1,106 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-  <titleInfo>
-    <title>LiDAR Contours (5 ft): Santa Clara County, California, 2014</title>
-  </titleInfo>
-  <name type="corporate">
-    <namePart>Santa Clara Valley Water District (Calif.)</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <typeOfResource>cartographic</typeOfResource>
-  <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>Santa Clara Valley Water District (Calif.)</publisher>
-    <place>
-      <placeTerm type="text">San Jose, California, US</placeTerm>
-    </place>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
-    <dateValid encoding="w3cdtf">2014</dateValid>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
-  <physicalDescription>
-    <form>Shapefile</form>
-    <extent>0.073</extent>
-    <digitalOrigin>born digital</digitalOrigin>
-  </physicalDescription>
-  <subject>
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::2227</projection>
-      <coordinates>(W 122°13ʹ40ʺ--W 121°11ʹ16ʺ/N 37°30ʹ47ʺ--N 36°53ʹ4ʺ)</coordinates>
-    </cartographics>
-  </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile depicts 5 foot elevation LiDAR grid for the County of Santa Clara, California. LiDAR, which stands for Light Detection and Ranging, is a remote sensing method that uses light in the form of a pulsed laser to measure ranges (variable distances) to the Earth. These light pulses—combined with other data recorded by the airborne system— generate precise, three-dimensional information about the shape of the Earth and its surface characteristics. The Santa Clara Valley Water District manages an integrated water resources system that includes the supply of clean, safe water, flood protection and stewardship of streams on behalf of Santa Clara County's 1.8 million residents. This layer is part of a collection of GIS data for Santa Clara County, California.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">The 2006 LiDAR contour shapefiles were clipped into smaller cells in order to reduce file sizes and improve ease of distribution. This coverage can be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analyses of geospatial data.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">Santa Clara County, California. Planning Office. (2014). LiDAR Contours (5 ft): Santa Clara County, California, 2014. Santa Clara County, Calif. Planning Office. Available at: http://purl.stanford.edu/zs560rd1840.</note>
-  <note displayLabel="Use limitation">None.These datasets were developed for use by the Santa Clara Valley Water District (SCVWD) for its internal purposes only, and were not designed or intended for general use by members of the public. SCVWD MAKES NO REPRESENTATION OR WARRANTY AS TO ITS ACCURACY, TIMELINESS, OR COMPLETENESS. SCVWD MAKES NO WARRANTY OF MERCHANTABILITY OR WARRANTY FOR FITNESS OF USE FOR A PARTICULAR PURPOSE, EXPRESSED OR IMPLIED, WITH RESPECT TO THESE PRODUCTS OR THE UNDERLYING DATA. Any user of this data, accepts same AS IS, WITH ALL FAULTS, and assumes all responsibility for the use thereof, and further covenants and agrees to defend, indemnify, and hold SCVWD harmless from and against all damage, loss, or liability arising from any use of this product, in consideration of SCVWD having made this information available.Independent verification of all data contained herein should be obtained by any user of these products, or the underlying data. SCVWD disclaims, and shall not be held liable for, any and all damage, loss, or liability, whether direct, indirect, or consequential, which arises or may arise from these products or the use thereof by any person or entity.</note>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects" lang="eng">Remote sensing</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects" lang="eng">Contours (Cartography)</topic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5393021/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Santa Clara County (Calif.)</geographic>
-  </subject>
-  <subject>
-    <temporal encoding="w3cdtf">2014</temporal>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="elevation">Elevation</topic>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="imageryBaseMapsEarthCover">Imagery and Base Maps</topic>
-  </subject>
-  <location>
-    <url>http://purl.stanford.edu/zs560rd1840</url>
-  </location>
-  <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:zs560rd1840</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
-    <languageOfCataloging>
-      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-    </languageOfCataloging>
-  </recordInfo>
-  <extension displayLabel="geo">
-    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="http://purl.stanford.edu/zs560rd1840">
-        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
-        <dc:type>Dataset#Polygon</dc:type>
-        <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-122.22491 36.891904</gml:lowerCorner>
-            <gml:upperCorner>-121.188262 37.50906</gml:upperCorner>
-          </gml:Envelope>
-        </gml:boundedBy>
-      </rdf:Description>
-    </rdf:RDF>
-  </extension>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>W 122°13ʹ30ʺ--W 121°11ʹ18ʺ/N 37°30ʹ33ʺ--N 36°53ʹ31ʺ</coordinates>
-    </cartographics>
-  </subject>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
-  <relatedItem type="host">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
     <titleInfo>
-      <title>Santa Clara County, California GIS Maps &amp; Data</title>
+      <title>LiDAR Contours (5 ft): Santa Clara County, California, 2014</title>
     </titleInfo>
+    <name type="corporate">
+      <namePart>Santa Clara Valley Water District (Calif.)</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+    <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
+    <typeOfResource>cartographic</typeOfResource>
+    <typeOfResource>software, multimedia</typeOfResource>
+    <physicalDescription>
+      <form>Shapefile</form>
+      <extent>0.073</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+    </physicalDescription>
+    <language>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </language>
+    <abstract lang="eng" displayLabel="Abstract">This polygon shapefile depicts 5 foot elevation LiDAR grid for the County of Santa Clara, California. LiDAR, which stands for Light Detection and Ranging, is a remote sensing method that uses light in the form of a pulsed laser to measure ranges (variable distances) to the Earth. These light pulses—combined with other data recorded by the airborne system— generate precise, three-dimensional information about the shape of the Earth and its surface characteristics. The Santa Clara Valley Water District manages an integrated water resources system that includes the supply of clean, safe water, flood protection and stewardship of streams on behalf of Santa Clara County's 1.8 million residents. This layer is part of a collection of GIS data for Santa Clara County, California.</abstract>
+    <abstract lang="eng" displayLabel="Purpose">The 2006 LiDAR contour shapefiles were clipped into smaller cells in order to reduce file sizes and improve ease of distribution. This coverage can be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analyses of geospatial data.</abstract>
+    <note lang="eng" displayLabel="Preferred citation">Santa Clara County, California. Planning Office. (2014). LiDAR Contours (5 ft): Santa Clara County, California, 2014. Santa Clara County, Calif. Planning Office. Available at: http://purl.stanford.edu/zs560rd1840.</note>
+    <note displayLabel="Use limitation">None.These datasets were developed for use by the Santa Clara Valley Water District (SCVWD) for its internal purposes only, and were not designed or intended for general use by members of the public. SCVWD MAKES NO REPRESENTATION OR WARRANTY AS TO ITS ACCURACY, TIMELINESS, OR COMPLETENESS. SCVWD MAKES NO WARRANTY OF MERCHANTABILITY OR WARRANTY FOR FITNESS OF USE FOR A PARTICULAR PURPOSE, EXPRESSED OR IMPLIED, WITH RESPECT TO THESE PRODUCTS OR THE UNDERLYING DATA. Any user of this data, accepts same AS IS, WITH ALL FAULTS, and assumes all responsibility for the use thereof, and further covenants and agrees to defend, indemnify, and hold SCVWD harmless from and against all damage, loss, or liability arising from any use of this product, in consideration of SCVWD having made this information available.Independent verification of all data contained herein should be obtained by any user of these products, or the underlying data. SCVWD disclaims, and shall not be held liable for, any and all damage, loss, or liability, whether direct, indirect, or consequential, which arises or may arise from these products or the use thereof by any person or entity.</note>
+    <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/">Remote sensing</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/">Contours (Cartography)</topic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5393021/">Santa Clara County (Calif.)</geographic>
+    </subject>
+    <subject>
+      <temporal encoding="w3cdtf">2014</temporal>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="elevation">Elevation</topic>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="imageryBaseMapsEarthCover">Imagery and Base Maps</topic>
+    </subject>
+    <subject>
+      <cartographics>
+        <scale>Scale not given.</scale>
+        <projection>EPSG::2227</projection>
+        <coordinates>W 122°13ʹ40ʺ--W 121°11ʹ16ʺ/N 37°30ʹ47ʺ--N 36°53ʹ4ʺ</coordinates>
+        <coordinates>W 122°13ʹ30ʺ--W 121°11ʹ18ʺ/N 37°30ʹ33ʺ--N 36°53ʹ31ʺ</coordinates>
+      </cartographics>
+    </subject>
+    <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+      <cartographics>
+        <projection>EPSG::4326</projection>
+      </cartographics>
+    </subject>
+    <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+      <dateValid encoding="w3cdtf">2014</dateValid>
+      <place>
+        <placeTerm type="text">San Jose, California, US</placeTerm>
+      </place>
+      <publisher>Santa Clara Valley Water District (Calif.)</publisher>
+    </originInfo>
     <location>
-      <url>https://purl.stanford.edu/zr514ds1803</url>
+      <url usage="primary display">https://purl.stanford.edu/zs560rd1840</url>
     </location>
-    <typeOfResource collection="yes"/>
-  </relatedItem>
-  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
-</mods>
+    <recordInfo>
+      <languageOfCataloging>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </languageOfCataloging>
+      <recordContentSource>Stanford</recordContentSource>
+      <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+      <recordIdentifier>edu.stanford.purl:zs560rd1840</recordIdentifier>
+    </recordInfo>
+    <extension displayLabel="geo">
+      <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description rdf:about="http://purl.stanford.edu/zs560rd1840">
+          <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+          <dc:type>Dataset#Polygon</dc:type>
+          <gml:boundedBy>
+            <gml:Envelope gml:srsName="EPSG:4326">
+              <gml:lowerCorner>-122.22491 36.891904</gml:lowerCorner>
+              <gml:upperCorner>-121.188262 37.50906</gml:upperCorner>
+            </gml:Envelope>
+          </gml:boundedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </extension>
+    <relatedItem type="host">
+      <titleInfo>
+        <title>Santa Clara County, California GIS Maps &amp; Data</title>
+      </titleInfo>
+      <location>
+        <url>https://purl.stanford.edu/zr514ds1803</url>
+      </location>
+      <typeOfResource collection="yes"/>
+    </relatedItem>
+    <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+    <accessCondition type="copyright">This work is in the Public Domain, meaning that it is not subject to copyright.</accessCondition>
+  </mods>

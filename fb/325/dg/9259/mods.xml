@@ -1,105 +1,104 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-  <titleInfo>
-    <title>Mental Health Profesional Shortage Areas, California, 2010</title>
-  </titleInfo>
-  <name type="corporate">
-    <namePart>California. Office of Statewide Health Planning and Development</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <typeOfResource>cartographic</typeOfResource>
-  <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>California. Office of Statewide Health Planning and Development</publisher>
-    <place>
-      <placeTerm type="text">Sacramento, US</placeTerm>
-    </place>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
-    <edition>2010.v6</edition>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
-  <physicalDescription>
-    <form>Shapefile</form>
-    <extent>5.73</extent>
-    <digitalOrigin>born digital</digitalOrigin>
-  </physicalDescription>
-  <subject>
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>Custom projection</projection>
-      <coordinates>(W 124°34ʹ48ʺ--W 113°29ʹ53ʺ/N 42°4ʹ20ʺ--N 32°25ʹ25ʺ)</coordinates>
-    </cartographics>
-  </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains mental health professional shortage areas (HPSAs) in California. The federal HPSA designation (formerly Health Manpower Shortage Areas) identifies areas as having a shortage of mental health providers on the basis of availability of psychiatrist and mental health professionals. To qualify for designation as a Mental HPSA, an area must be: 1. A rational service area for the delivery of mental health services, 2. A lack of access to care provided by Core Mental Health Professionals (CMHP) in the area, and 3. One of the following conditions prevails in the area: a. The population to CMHP ratio is &amp;gt; 6,000:1, and the population to psychiatrist ratio is &amp;gt; 20,000:1, OR b. The population to CMHP ratio is &amp;gt; 9,000:1 OR c. The population to psychiatrist ratio is &amp;gt; 30,000:1. Benefits of designation as a HPSA include: student loan repayment and personnel placement through the National Health Service Corps (NHSC) improved Medicare reimbursement enhanced federal grant eligibility. This is version 6 of this data (updated 2010). This layer is part of the Healthcare Atlas of California</abstract>
-  <abstract displayLabel="Purpose" lang="eng">This data was developed by the Office of Statewide Health Planning and Development's (OSHPD) Healthcare Workforce and Community Development Division (HWCDD). The data is used to support the following programatic areas: 1) encourage demographically underrepresented groups to pursue healthcare careers 2) identifies geographic areas of unmet need, and 3) encourages primary care physicians and non-physician practitioners to provide healthcare in medically underserved areas in California.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">California Office of Statewide Health Planning and Development. (2010). Mental Health Professional Shortage Areas, California, 2010. California Office of Statewide Health Planning and Development. Available at: http://purl.stanford.edu/fb325dg9259.</note>
-  <note displayLabel="Supplemental information">Manually edited several records according to HRSA website by direction from staff in Shortage Designation Program.</note>
-  <note displayLabel="Use limitation">The State of California, the California Health and Human Services Agency and the Office of Statewide Health Planning and Development make no representations or warranties regarding the accuracy of data or maps. The user will not seek to hold the State, the Agency or the Office liable under any circumstances for any damages with respect to any claim by the user or any third party on account of or arising from the use of data or maps. The user will cite the California Health and Human Services Agency and/or the Office as the original source of the data, but will clearly denote cases where the original data have been updated, modified, or in any way altered from the original condition. There are no restrictions on distribution of the data by users</note>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Mental health services</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Medically underserved areas</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Health services accessibility</topic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/3687919/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">California</geographic>
-  </subject>
-  <subject>
-    <temporal encoding="w3cdtf">2010</temporal>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="health">Health</topic>
-  </subject>
-  <location>
-    <url>http://purl.stanford.edu/fb325dg9259</url>
-  </location>
-  <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:fb325dg9259</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
-    <languageOfCataloging>
-      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-    </languageOfCataloging>
-  </recordInfo>
-  <extension displayLabel="geo">
-    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="http://purl.stanford.edu/fb325dg9259">
-        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
-        <dc:type>Dataset#Polygon</dc:type>
-        <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-124.482003 32.534157</gml:lowerCorner>
-            <gml:upperCorner>-114.131212 42.009519</gml:upperCorner>
-          </gml:Envelope>
-        </gml:boundedBy>
-      </rdf:Description>
-    </rdf:RDF>
-  </extension>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>W 124°28ʹ55ʺ--W 114°7ʹ52ʺ/N 42°34ʺ--N 32°32ʹ3ʺ</coordinates>
-    </cartographics>
-  </subject>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
-  <relatedItem type="host">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
     <titleInfo>
-      <title>Healthcare Atlas of California</title>
+      <title>Mental Health Profesional Shortage Areas, California, 2010</title>
     </titleInfo>
+    <name type="corporate">
+      <namePart>California. Office of Statewide Health Planning and Development</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+    <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
+    <typeOfResource>cartographic</typeOfResource>
+    <typeOfResource>software, multimedia</typeOfResource>
+    <physicalDescription>
+      <form>Shapefile</form>
+      <extent>5.73</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+    </physicalDescription>
+    <language>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </language>
+    <abstract lang="eng" displayLabel="Abstract">This polygon shapefile contains mental health professional shortage areas (HPSAs) in California. The federal HPSA designation (formerly Health Manpower Shortage Areas) identifies areas as having a shortage of mental health providers on the basis of availability of psychiatrist and mental health professionals. To qualify for designation as a Mental HPSA, an area must be: 1. A rational service area for the delivery of mental health services, 2. A lack of access to care provided by Core Mental Health Professionals (CMHP) in the area, and 3. One of the following conditions prevails in the area: a. The population to CMHP ratio is &amp;gt; 6,000:1, and the population to psychiatrist ratio is &amp;gt; 20,000:1, OR b. The population to CMHP ratio is &amp;gt; 9,000:1 OR c. The population to psychiatrist ratio is &amp;gt; 30,000:1. Benefits of designation as a HPSA include: student loan repayment and personnel placement through the National Health Service Corps (NHSC) improved Medicare reimbursement enhanced federal grant eligibility. This is version 6 of this data (updated 2010). This layer is part of the Healthcare Atlas of California</abstract>
+    <abstract lang="eng" displayLabel="Purpose">This data was developed by the Office of Statewide Health Planning and Development's (OSHPD) Healthcare Workforce and Community Development Division (HWCDD). The data is used to support the following programatic areas: 1) encourage demographically underrepresented groups to pursue healthcare careers 2) identifies geographic areas of unmet need, and 3) encourages primary care physicians and non-physician practitioners to provide healthcare in medically underserved areas in California.</abstract>
+    <note lang="eng" displayLabel="Preferred citation">California Office of Statewide Health Planning and Development. (2010). Mental Health Professional Shortage Areas, California, 2010. California Office of Statewide Health Planning and Development. Available at: http://purl.stanford.edu/fb325dg9259.</note>
+    <note displayLabel="Supplemental information">Manually edited several records according to HRSA website by direction from staff in Shortage Designation Program.</note>
+    <note displayLabel="Use limitation">The State of California, the California Health and Human Services Agency and the Office of Statewide Health Planning and Development make no representations or warranties regarding the accuracy of data or maps. The user will not seek to hold the State, the Agency or the Office liable under any circumstances for any damages with respect to any claim by the user or any third party on account of or arising from the use of data or maps. The user will cite the California Health and Human Services Agency and/or the Office as the original source of the data, but will clearly denote cases where the original data have been updated, modified, or in any way altered from the original condition. There are no restrictions on distribution of the data by users</note>
+    <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Mental health services</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Medically underserved areas</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Health services accessibility</topic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/3687919/">California</geographic>
+    </subject>
+    <subject>
+      <temporal encoding="w3cdtf">2010</temporal>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="health">Health</topic>
+    </subject>
+    <subject>
+      <cartographics>
+        <scale>Scale not given.</scale>
+        <projection>Custom projection</projection>
+        <coordinates>W 124°34ʹ48ʺ--W 113°29ʹ53ʺ/N 42°4ʹ20ʺ--N 32°25ʹ25ʺ</coordinates>
+        <coordinates>W 124°28ʹ55ʺ--W 114°7ʹ52ʺ/N 42°34ʺ--N 32°32ʹ3ʺ</coordinates>
+      </cartographics>
+    </subject>
+    <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+      <cartographics>
+        <projection>EPSG::4326</projection>
+      </cartographics>
+    </subject>
+    <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+      <place>
+        <placeTerm type="text">Sacramento, US</placeTerm>
+      </place>
+      <publisher>California. Office of Statewide Health Planning and Development</publisher>
+      <edition>2010.v6</edition>
+    </originInfo>
     <location>
-      <url>https://purl.stanford.edu/qw778bk1665</url>
+      <url usage="primary display">https://purl.stanford.edu/fb325dg9259</url>
     </location>
-    <typeOfResource collection="yes"/>
-  </relatedItem>
-  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
-</mods>
+    <recordInfo>
+      <languageOfCataloging>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </languageOfCataloging>
+      <recordContentSource>Stanford</recordContentSource>
+      <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+      <recordIdentifier>edu.stanford.purl:fb325dg9259</recordIdentifier>
+    </recordInfo>
+    <extension displayLabel="geo">
+      <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description rdf:about="http://purl.stanford.edu/fb325dg9259">
+          <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+          <dc:type>Dataset#Polygon</dc:type>
+          <gml:boundedBy>
+            <gml:Envelope gml:srsName="EPSG:4326">
+              <gml:lowerCorner>-124.482003 32.534157</gml:lowerCorner>
+              <gml:upperCorner>-114.131212 42.009519</gml:upperCorner>
+            </gml:Envelope>
+          </gml:boundedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </extension>
+    <relatedItem type="host">
+      <titleInfo>
+        <title>Healthcare Atlas of California</title>
+      </titleInfo>
+      <location>
+        <url>https://purl.stanford.edu/qw778bk1665</url>
+      </location>
+      <typeOfResource collection="yes"/>
+    </relatedItem>
+    <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+    <accessCondition type="copyright">This work is in the Public Domain, meaning that it is not subject to copyright.</accessCondition>
+  </mods>

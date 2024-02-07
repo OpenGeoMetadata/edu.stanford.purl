@@ -1,107 +1,106 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-  <titleInfo>
-    <title>Medical Service Study Areas, California, 2007</title>
-  </titleInfo>
-  <name type="corporate">
-    <namePart>California. Office of Statewide Health Planning and Development</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <typeOfResource>cartographic</typeOfResource>
-  <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>California. Office of Statewide Health Planning and Development</publisher>
-    <place>
-      <placeTerm type="text">Sacramento, US</placeTerm>
-    </place>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2007</dateIssued>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
-  <physicalDescription>
-    <form>Shapefile</form>
-    <extent>15.766</extent>
-    <digitalOrigin>born digital</digitalOrigin>
-  </physicalDescription>
-  <subject>
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>Custom projection</projection>
-      <coordinates>(W 124°34ʹ48ʺ--W 113°29ʹ53ʺ/N 42°4ʹ20ʺ--N 32°24ʹ59ʺ)</coordinates>
-    </cartographics>
-  </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents medical service study areas (MSSA) in California for 2007. MSSAs are the defined geographic analysis unit for the Office of Statewide Health Planning and Development (OSHPD). MSSAs are a principal component for display of large data bases through OSHPD's and State of California's Geographic Information Systems. MSSAs have the potential for assisting in needs assessment, health planning, and health policy development. MSSA's are reproduced on the decadal census and the boundaries are formally approved by the Health Manpower Policy Commission. Moreover, the US Department of Health and Human Services, Health Resources Serviced Administration (HRSA) formally recognizes California MSSA's as the Rational Service Area (RSA) for medical service for California.The 2007 MSSA layer (developed during July 2009 - July 2010) is an update to the 2005 version and represents the boundaries constructed following the census. The MSSA layer is the unique MSSA boundaries composed of aggregated census tracts. This layer is created by dissolving all census tracts on a common MSSA Name/ID. MSSA's are maintained by OSHPD and used by multiple agencies to administer a variety of state and federal health-related programs. This layer is part of the Healthcare Atlas of California.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">The 2007 MSSA layer (developed during July 2009 - July 2010) was developed to update fields affected by population change, to update the practioner count and ratio fields, and to correct the poverty fields. The Claritas 2007 population data pertaining to total, group quarter, race, ethnicity, and age was used in the update. InfoUSA 2009 data was used for physician, dentist, and psych counts. Some geometry updates were also included in this version. In July of 2010 updates were made to the poverty data to correct a miscalculation of poverty percentages. Also "2007" was removed from field names.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">California Office of Statewide Health Planning and Development. (2007). Medical Service Study Areas, California, 2007. California Office of Statewide Health Planning and Development. Available at: http://purl.stanford.edu/br080kw9577.</note>
-  <note displayLabel="Supplemental information">The 2007 (developed during July 2009 - July 2010) version contains the following geographic corrections: 1) MSSA 1.1 and 1.2 IDs (and associated MSSA Names) were swapped. 2) MSSA 175.1 and 175.2 IDs (and associated MSSA Names) were swapped. 3) MSSA 247 and 248 names were swapped. The 2007 (developed during July 2009 - July 2010) version contains the following field calculation updates: 1) an update of fields affected by demographic changes reported in the Claritas 2007 data, except Poverty (at the 100 and 200% levels) were updated with Claritas 2007 data. Poverty values were updated by holding the percent levels constant from 2000 and calculating the population numbers based on the total populations 2) Hispanic population and percentages were directly calculated from the Claritas 2007 data (the sum total of columns EX through FD ('Current Year Hispanic or Latino:...race) from table SELCAT01.xls). 3) Race fields were calculated from 'Current Year...' race figures that include Hispanics or Latinos. It was confirmed that the sum total from columns EJ through EP in SELCAT01.xls ('Current Year...' race figures that include Hispanics or Latinos) equals the total population count (column M, POP_C, 'Current Year Population'). This might not be a change from the 2005 methodology, but it is important to note. 4) Practioner count fields were updated with InfoUSA data from 2009 and for psych counts InfoUSA data from 2007. 5) Practioner ratios were re-calculated with updated practitioner and population counts. 6) In January of 2010, Race fields for population count, percent population, and percent civilian population were added to the template feature class and calculated from "Current Year Not Hispanic or Latino." race figures from the Claritas 2007 data. 7) In March of 2010, Civilian percentage fields related to race, ethnicity, and age were removed from the template feature class which carried through to the MSAA2007 feature class. The thought process was that the Claritas data concerning race, ethnicity and age is not disaggregated into those that live in group quarters. It was determined that this information could be revealed at the application level (Dashboard) and not at the feature class/table level. 8) Also during the March of 2010 revisions, psych data was used from 2009 InfoUSA data, similar to physician and dentist data. 9) In July of 2010, povery percentages were corrected with re-calculated numbers developed by OSHPD. Poverty values were updated from the re-calculated US Census 2000 data summarized census tract data. The population in poverty numbers were calculated on the civilian (non-group quarter) populations. Also "2007" was removed from field names. LEGISLATIVE AUTHORITY FOR MSSAs Song Brown Family Physician Training Act (1973) creates California Health Manpower Policy Commission (CHMPC), which divides state into sub-city and sub-county areas to determine areas of unmet need for physicians. Garamendi Rural Health Services Act (1976) requires Commission to determine which areas of the state are rural and which urban, and which rural areas are deficient in medical services. MSSA Reconfiguration Adoption Process Changes to the boundaries of MSSAs can only be made through motions adopted by the CHMPC. Any such motions will be agenda items of CHMPC and should be accompanied by letters of support from community officials and stakeholders. MSSA ADPOTION GUIDELINES 1. Each MSSA is composed of one or more complete census tracts. 2. As a general rule, MSSAs are deemed to be "rational service areas [RSAs]" for purposes of designating health professional shortage areas [HPSAs], medically underserved areas [MUAs] or medically underserved populations [MUPs]. Notwithstanding the general rule, an applicant for a HPSA, MUA or MUP designation, for purposes of determining an RSA, may substitute Minor Civil Divisions [MCDs] for MSSAs in any of the following circumstances: (a) Where an MSSA is comprised of a whole county with a single census tract and where the county contains more than one MCD. (b) Where an MSSA is based on a single 2000 census tract which comprises all or part of two or more previous MSSAs whose boundaries were based on 1990 census tracts, block groups, or any other geographical unit established by the United States Census Bureau. (c) Where the California Health Manpower Policy Commission has established any other rule for substituting MCDs for MSSAs. 3. MSSAs will not cross county lines. 4. To the extent practicable, all census-defined places within the MSSA are within 30 minutes travel time to the largest population center within the MSSA, except in those circumstances where meeting this criterion would require splitting a census tract. 5. To the extent practicable, areas that, standing alone, would meet both the definition of an MSSA and a Rural MSSA, should not be a part of an Urban MSSA. 6. Any Urban MSSA whose population exceeds 200,000 shall be divided into two or more Urban MSSA Subdivisions. 7. Urban MSSA Subdivisions should be within a population range of 75,000 to 125,000, but may not be smaller than five square miles in area. If removing any census tract on the perimeter of the Urban MSSA Subdivision would cause the area to fall below five square miles in area, then the population of the Urban MSSA may exceed 125,000. 8. To the extent practicable, Urban MSSA Subdivisions should reflect recognized community and neighborhood boundaries and take into account such demographic information as income level and ethnicity. 9. Rural Definitions: A rural MSSA is an MSSA adopted by the Commission, which has a population density of less than 250 persons per square mile, and which has no census defined place within the area with a population in excess of 50,000. Only the population that is located within the MSSA is counted in determining the population of the census defined place. A frontier MSSA is a rural MSSA adopted by the Commission which has a population density of less than 11 persons per square mile. Any MSSA which is not a rural or frontier MSSA is an urban MSSA. Purpose This data was developed by the Office of Statewide Health Planning and Development's (OSHPD) Healthcare Workforce and Community Development Division (HWCDD). The data is used to support the following programatic areas: 1) encourage demographically underrepresented groups to pursue healthcare careers 2) identifies geographic areas of unmet need, and 3) encourages primary care physicians and non-physician practitioners to provide healthcare in medically underserved areas in California. California, like several other Western states, has a large total area, but relatively few counties. As a result, county-based statistical systems mask significant disparities in population density between the urban and rural portions of many counties, and mask disparities in the socioeconomic status of the population within metropolitan areas. In 1976, California enacted legislation requiring the development of a geographic framework for determining which parts of the state were rural and which were urban, and for determining which parts of counties and cities had adequate health care resources and which were "medically underserved". Thus, sub-city and sub-county geographic units called "medical service study areas [MSSAs]" were developed, using combinations of census-defined geographic units, established following General Rules promulgated by a statutory commission. After each subsequent census the MSSAs were revised. In the scheduled revisions that followed the 1990 census, community meetings of stakeholders (including county officials, and representatives of hospitals and community health centers) were held in larger metropolitan areas. The meetings were designed to develop consensus as how to draw the sub-city units so as to best display health care disparities. The importance of involving stakeholders was heightened in 1992 when the United States Department of Health and Human Services' Health and Resources Administration entered a formal agreement to recognize the state-determined MSSAs as "rational service areas" for federal recognition of "health professional shortage areas" and "medically underserved areas". After the 2000 census, two innovations transformed the process, and set the stage for GIS to emerge as a major factor in health care resource planning in California. First, the Office of Statewide Health Planning and Development [OSHPD], which organizes the community stakeholder meetings and provides the staff to administer the MSSAs, entered into an Enterprise GIS contract. Second, OSHPD authorized at least one community meeting to be held in each of the 58 counties, a significant number of which were wholly rural or frontier counties. For populous Los Angeles County, 11 community meetings were held. As a result, health resource data in California are collected and organized by MSSA geographic units. The boundaries of these units were established by community healthcare experts, with the objective of maximizing their usefulness for needs assessment purposes. The most dramatic consequence was introducing a process by which all local stakeholders could see relevant socioeconomic and healthcare resource data simultaneously displayed in a GIS format. A two-person team, incorporating healthcare policy and GIS expertise, conducted the series of meetings, and supervised the development of the 2000-census configuration of the MSSAs. William H. Burnett, Senior Advisor Healthcare Workforce and Community Development Division California Office of Statewide Health Planning and Development</note>
-  <note displayLabel="Use limitation">The State of California, the California Health and Human Services Agency and the Office of Statewide Health Planning and Development make no representations or warranties regarding the accuracy of data or maps. The user will not seek to hold the State, the Agency or the Office liable under any circumstances for any damages with respect to any claim by the user or any third party on account of or arising from the use of data or maps. The user will cite the California Health and Human Services Agency and/or the Office as the original source of the data, but will clearly denote cases where the original data have been updated, modified, or in any way altered from the original condition.</note>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Medical care</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Health services accessibility</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Health service areas</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Medically underserved areas</topic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/3687919/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">California</geographic>
-  </subject>
-  <subject>
-    <temporal encoding="w3cdtf">2007</temporal>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="health">Health</topic>
-  </subject>
-  <location>
-    <url>http://purl.stanford.edu/br080kw9577</url>
-  </location>
-  <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:br080kw9577</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
-    <languageOfCataloging>
-      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-    </languageOfCataloging>
-  </recordInfo>
-  <extension displayLabel="geo">
-    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="http://purl.stanford.edu/br080kw9577">
-        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
-        <dc:type>Dataset#Polygon</dc:type>
-        <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-124.482003 32.528832</gml:lowerCorner>
-            <gml:upperCorner>-114.131212 42.009519</gml:upperCorner>
-          </gml:Envelope>
-        </gml:boundedBy>
-      </rdf:Description>
-    </rdf:RDF>
-  </extension>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>W 124°28ʹ55ʺ--W 114°7ʹ52ʺ/N 42°34ʺ--N 32°31ʹ44ʺ</coordinates>
-    </cartographics>
-  </subject>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
-  <relatedItem type="host">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
     <titleInfo>
-      <title>Healthcare Atlas of California</title>
+      <title>Medical Service Study Areas, California, 2007</title>
     </titleInfo>
+    <name type="corporate">
+      <namePart>California. Office of Statewide Health Planning and Development</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+    <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
+    <typeOfResource>cartographic</typeOfResource>
+    <typeOfResource>software, multimedia</typeOfResource>
+    <physicalDescription>
+      <form>Shapefile</form>
+      <extent>15.766</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+    </physicalDescription>
+    <language>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </language>
+    <abstract lang="eng" displayLabel="Abstract">This polygon shapefile represents medical service study areas (MSSA) in California for 2007. MSSAs are the defined geographic analysis unit for the Office of Statewide Health Planning and Development (OSHPD). MSSAs are a principal component for display of large data bases through OSHPD's and State of California's Geographic Information Systems. MSSAs have the potential for assisting in needs assessment, health planning, and health policy development. MSSA's are reproduced on the decadal census and the boundaries are formally approved by the Health Manpower Policy Commission. Moreover, the US Department of Health and Human Services, Health Resources Serviced Administration (HRSA) formally recognizes California MSSA's as the Rational Service Area (RSA) for medical service for California.The 2007 MSSA layer (developed during July 2009 - July 2010) is an update to the 2005 version and represents the boundaries constructed following the census. The MSSA layer is the unique MSSA boundaries composed of aggregated census tracts. This layer is created by dissolving all census tracts on a common MSSA Name/ID. MSSA's are maintained by OSHPD and used by multiple agencies to administer a variety of state and federal health-related programs. This layer is part of the Healthcare Atlas of California.</abstract>
+    <abstract lang="eng" displayLabel="Purpose">The 2007 MSSA layer (developed during July 2009 - July 2010) was developed to update fields affected by population change, to update the practioner count and ratio fields, and to correct the poverty fields. The Claritas 2007 population data pertaining to total, group quarter, race, ethnicity, and age was used in the update. InfoUSA 2009 data was used for physician, dentist, and psych counts. Some geometry updates were also included in this version. In July of 2010 updates were made to the poverty data to correct a miscalculation of poverty percentages. Also "2007" was removed from field names.</abstract>
+    <note lang="eng" displayLabel="Preferred citation">California Office of Statewide Health Planning and Development. (2007). Medical Service Study Areas, California, 2007. California Office of Statewide Health Planning and Development. Available at: http://purl.stanford.edu/br080kw9577.</note>
+    <note displayLabel="Supplemental information">The 2007 (developed during July 2009 - July 2010) version contains the following geographic corrections: 1) MSSA 1.1 and 1.2 IDs (and associated MSSA Names) were swapped. 2) MSSA 175.1 and 175.2 IDs (and associated MSSA Names) were swapped. 3) MSSA 247 and 248 names were swapped. The 2007 (developed during July 2009 - July 2010) version contains the following field calculation updates: 1) an update of fields affected by demographic changes reported in the Claritas 2007 data, except Poverty (at the 100 and 200% levels) were updated with Claritas 2007 data. Poverty values were updated by holding the percent levels constant from 2000 and calculating the population numbers based on the total populations 2) Hispanic population and percentages were directly calculated from the Claritas 2007 data (the sum total of columns EX through FD ('Current Year Hispanic or Latino:...race) from table SELCAT01.xls). 3) Race fields were calculated from 'Current Year...' race figures that include Hispanics or Latinos. It was confirmed that the sum total from columns EJ through EP in SELCAT01.xls ('Current Year...' race figures that include Hispanics or Latinos) equals the total population count (column M, POP_C, 'Current Year Population'). This might not be a change from the 2005 methodology, but it is important to note. 4) Practioner count fields were updated with InfoUSA data from 2009 and for psych counts InfoUSA data from 2007. 5) Practioner ratios were re-calculated with updated practitioner and population counts. 6) In January of 2010, Race fields for population count, percent population, and percent civilian population were added to the template feature class and calculated from "Current Year Not Hispanic or Latino." race figures from the Claritas 2007 data. 7) In March of 2010, Civilian percentage fields related to race, ethnicity, and age were removed from the template feature class which carried through to the MSAA2007 feature class. The thought process was that the Claritas data concerning race, ethnicity and age is not disaggregated into those that live in group quarters. It was determined that this information could be revealed at the application level (Dashboard) and not at the feature class/table level. 8) Also during the March of 2010 revisions, psych data was used from 2009 InfoUSA data, similar to physician and dentist data. 9) In July of 2010, povery percentages were corrected with re-calculated numbers developed by OSHPD. Poverty values were updated from the re-calculated US Census 2000 data summarized census tract data. The population in poverty numbers were calculated on the civilian (non-group quarter) populations. Also "2007" was removed from field names. LEGISLATIVE AUTHORITY FOR MSSAs Song Brown Family Physician Training Act (1973) creates California Health Manpower Policy Commission (CHMPC), which divides state into sub-city and sub-county areas to determine areas of unmet need for physicians. Garamendi Rural Health Services Act (1976) requires Commission to determine which areas of the state are rural and which urban, and which rural areas are deficient in medical services. MSSA Reconfiguration Adoption Process Changes to the boundaries of MSSAs can only be made through motions adopted by the CHMPC. Any such motions will be agenda items of CHMPC and should be accompanied by letters of support from community officials and stakeholders. MSSA ADPOTION GUIDELINES 1. Each MSSA is composed of one or more complete census tracts. 2. As a general rule, MSSAs are deemed to be "rational service areas [RSAs]" for purposes of designating health professional shortage areas [HPSAs], medically underserved areas [MUAs] or medically underserved populations [MUPs]. Notwithstanding the general rule, an applicant for a HPSA, MUA or MUP designation, for purposes of determining an RSA, may substitute Minor Civil Divisions [MCDs] for MSSAs in any of the following circumstances: (a) Where an MSSA is comprised of a whole county with a single census tract and where the county contains more than one MCD. (b) Where an MSSA is based on a single 2000 census tract which comprises all or part of two or more previous MSSAs whose boundaries were based on 1990 census tracts, block groups, or any other geographical unit established by the United States Census Bureau. (c) Where the California Health Manpower Policy Commission has established any other rule for substituting MCDs for MSSAs. 3. MSSAs will not cross county lines. 4. To the extent practicable, all census-defined places within the MSSA are within 30 minutes travel time to the largest population center within the MSSA, except in those circumstances where meeting this criterion would require splitting a census tract. 5. To the extent practicable, areas that, standing alone, would meet both the definition of an MSSA and a Rural MSSA, should not be a part of an Urban MSSA. 6. Any Urban MSSA whose population exceeds 200,000 shall be divided into two or more Urban MSSA Subdivisions. 7. Urban MSSA Subdivisions should be within a population range of 75,000 to 125,000, but may not be smaller than five square miles in area. If removing any census tract on the perimeter of the Urban MSSA Subdivision would cause the area to fall below five square miles in area, then the population of the Urban MSSA may exceed 125,000. 8. To the extent practicable, Urban MSSA Subdivisions should reflect recognized community and neighborhood boundaries and take into account such demographic information as income level and ethnicity. 9. Rural Definitions: A rural MSSA is an MSSA adopted by the Commission, which has a population density of less than 250 persons per square mile, and which has no census defined place within the area with a population in excess of 50,000. Only the population that is located within the MSSA is counted in determining the population of the census defined place. A frontier MSSA is a rural MSSA adopted by the Commission which has a population density of less than 11 persons per square mile. Any MSSA which is not a rural or frontier MSSA is an urban MSSA. Purpose This data was developed by the Office of Statewide Health Planning and Development's (OSHPD) Healthcare Workforce and Community Development Division (HWCDD). The data is used to support the following programatic areas: 1) encourage demographically underrepresented groups to pursue healthcare careers 2) identifies geographic areas of unmet need, and 3) encourages primary care physicians and non-physician practitioners to provide healthcare in medically underserved areas in California. California, like several other Western states, has a large total area, but relatively few counties. As a result, county-based statistical systems mask significant disparities in population density between the urban and rural portions of many counties, and mask disparities in the socioeconomic status of the population within metropolitan areas. In 1976, California enacted legislation requiring the development of a geographic framework for determining which parts of the state were rural and which were urban, and for determining which parts of counties and cities had adequate health care resources and which were "medically underserved". Thus, sub-city and sub-county geographic units called "medical service study areas [MSSAs]" were developed, using combinations of census-defined geographic units, established following General Rules promulgated by a statutory commission. After each subsequent census the MSSAs were revised. In the scheduled revisions that followed the 1990 census, community meetings of stakeholders (including county officials, and representatives of hospitals and community health centers) were held in larger metropolitan areas. The meetings were designed to develop consensus as how to draw the sub-city units so as to best display health care disparities. The importance of involving stakeholders was heightened in 1992 when the United States Department of Health and Human Services' Health and Resources Administration entered a formal agreement to recognize the state-determined MSSAs as "rational service areas" for federal recognition of "health professional shortage areas" and "medically underserved areas". After the 2000 census, two innovations transformed the process, and set the stage for GIS to emerge as a major factor in health care resource planning in California. First, the Office of Statewide Health Planning and Development [OSHPD], which organizes the community stakeholder meetings and provides the staff to administer the MSSAs, entered into an Enterprise GIS contract. Second, OSHPD authorized at least one community meeting to be held in each of the 58 counties, a significant number of which were wholly rural or frontier counties. For populous Los Angeles County, 11 community meetings were held. As a result, health resource data in California are collected and organized by MSSA geographic units. The boundaries of these units were established by community healthcare experts, with the objective of maximizing their usefulness for needs assessment purposes. The most dramatic consequence was introducing a process by which all local stakeholders could see relevant socioeconomic and healthcare resource data simultaneously displayed in a GIS format. A two-person team, incorporating healthcare policy and GIS expertise, conducted the series of meetings, and supervised the development of the 2000-census configuration of the MSSAs. William H. Burnett, Senior Advisor Healthcare Workforce and Community Development Division California Office of Statewide Health Planning and Development</note>
+    <note displayLabel="Use limitation">The State of California, the California Health and Human Services Agency and the Office of Statewide Health Planning and Development make no representations or warranties regarding the accuracy of data or maps. The user will not seek to hold the State, the Agency or the Office liable under any circumstances for any damages with respect to any claim by the user or any third party on account of or arising from the use of data or maps. The user will cite the California Health and Human Services Agency and/or the Office as the original source of the data, but will clearly denote cases where the original data have been updated, modified, or in any way altered from the original condition.</note>
+    <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Medical care</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Health services accessibility</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Health service areas</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Medically underserved areas</topic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/3687919/">California</geographic>
+    </subject>
+    <subject>
+      <temporal encoding="w3cdtf">2007</temporal>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="health">Health</topic>
+    </subject>
+    <subject>
+      <cartographics>
+        <scale>Scale not given.</scale>
+        <projection>Custom projection</projection>
+        <coordinates>W 124°34ʹ48ʺ--W 113°29ʹ53ʺ/N 42°4ʹ20ʺ--N 32°24ʹ59ʺ</coordinates>
+        <coordinates>W 124°28ʹ55ʺ--W 114°7ʹ52ʺ/N 42°34ʺ--N 32°31ʹ44ʺ</coordinates>
+      </cartographics>
+    </subject>
+    <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+      <cartographics>
+        <projection>EPSG::4326</projection>
+      </cartographics>
+    </subject>
+    <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2007</dateIssued>
+      <place>
+        <placeTerm type="text">Sacramento, US</placeTerm>
+      </place>
+      <publisher>California. Office of Statewide Health Planning and Development</publisher>
+    </originInfo>
     <location>
-      <url>https://purl.stanford.edu/qw778bk1665</url>
+      <url usage="primary display">https://purl.stanford.edu/br080kw9577</url>
     </location>
-    <typeOfResource collection="yes"/>
-  </relatedItem>
-  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
-</mods>
+    <recordInfo>
+      <languageOfCataloging>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </languageOfCataloging>
+      <recordContentSource>Stanford</recordContentSource>
+      <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+      <recordIdentifier>edu.stanford.purl:br080kw9577</recordIdentifier>
+    </recordInfo>
+    <extension displayLabel="geo">
+      <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description rdf:about="http://purl.stanford.edu/br080kw9577">
+          <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+          <dc:type>Dataset#Polygon</dc:type>
+          <gml:boundedBy>
+            <gml:Envelope gml:srsName="EPSG:4326">
+              <gml:lowerCorner>-124.482003 32.528832</gml:lowerCorner>
+              <gml:upperCorner>-114.131212 42.009519</gml:upperCorner>
+            </gml:Envelope>
+          </gml:boundedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </extension>
+    <relatedItem type="host">
+      <titleInfo>
+        <title>Healthcare Atlas of California</title>
+      </titleInfo>
+      <location>
+        <url>https://purl.stanford.edu/qw778bk1665</url>
+      </location>
+      <typeOfResource collection="yes"/>
+    </relatedItem>
+    <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+    <accessCondition type="copyright">This work is in the Public Domain, meaning that it is not subject to copyright.</accessCondition>
+  </mods>

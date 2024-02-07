@@ -1,99 +1,103 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-  <titleInfo>
-    <title>Solar: Average Monthly and Annual Direct Normal Irradiance Data, One-Degree Resolution of the World from NASA/SSE, 1983-2005</title>
-  </titleInfo>
-  <name type="corporate">
-    <namePart>NASA Langley Atmospheric Sciences Data Center</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <typeOfResource>cartographic</typeOfResource>
-  <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2008</dateIssued>
-    <dateValid encoding="w3cdtf" point="start">1983</dateValid>
-    <dateValid encoding="w3cdtf" point="end">2005</dateValid>
-    <edition>Release 6.0</edition>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
-  <physicalDescription>
-    <form>Shapefile</form>
-    <extent>8.404999999999999</extent>
-    <digitalOrigin>born digital</digitalOrigin>
-  </physicalDescription>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>(W 180°--E 180°/N 90°--S 90°)</coordinates>
-    </cartographics>
-  </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents the average monthly and annual measurements (kWh/m^2/day) of solar direct normal radiation (DNI) for the entire globe. Lat/Lon values indicate the lower left corner of a 1x1 degree region. Negative values are south and west; positive values are north and east. Boundaries of the -90/-180 region are -90 to -89 (south) and -180 to -179 (west). The last region, 89/180, is bounded by 89 to 90 (north) and 179 to 180 (east). This polygon shapefile represents the average monthly and annual measurements (kWh/m^2/day) of solar direct normal radiation (DNI) for the entire globe. These data are regional averages; not point data. The source data was downloaded from the Surface Meteorology and Solar Energy (SSE) website as text files. The tabular data was then converted to the shapefile format.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">These data are meant to provide investors and other stakeholders with reliable, verifiable and accessible information on the solar resource potential for the data domain.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">NASA Langley Atmospheric Sciences Data Center. (2008) Solar: Average Monthly and Annual Direct Normal Irradiance Data, One-Degree Resolution of the World from NASA/SSE, 1983-2005. NASA Available at: http://purl.stanford.edu/fd535zg0917</note>
-  <note displayLabel="Supplemental information">Spatial Extent: Global Bounding Coordinates (decimal degrees)
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+    <titleInfo>
+      <title>Solar: Average Monthly and Annual Direct Normal Irradiance Data, One-Degree Resolution of the World from NASA/SSE, 1983-2005</title>
+    </titleInfo>
+    <name type="corporate">
+      <namePart>NASA Langley Atmospheric Sciences Data Center</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+    <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
+    <typeOfResource>cartographic</typeOfResource>
+    <typeOfResource>software, multimedia</typeOfResource>
+    <physicalDescription>
+      <form>Shapefile</form>
+      <extent>8.404999999999999</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+    </physicalDescription>
+    <language>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </language>
+    <abstract lang="eng" displayLabel="Abstract">This polygon shapefile represents the average monthly and annual measurements (kWh/m^2/day) of solar direct normal radiation (DNI) for the entire globe. Lat/Lon values indicate the lower left corner of a 1x1 degree region. Negative values are south and west; positive values are north and east. Boundaries of the -90/-180 region are -90 to -89 (south) and -180 to -179 (west). The last region, 89/180, is bounded by 89 to 90 (north) and 179 to 180 (east). This polygon shapefile represents the average monthly and annual measurements (kWh/m^2/day) of solar direct normal radiation (DNI) for the entire globe. These data are regional averages; not point data. The source data was downloaded from the Surface Meteorology and Solar Energy (SSE) website as text files. The tabular data was then converted to the shapefile format.</abstract>
+    <abstract lang="eng" displayLabel="Purpose">These data are meant to provide investors and other stakeholders with reliable, verifiable and accessible information on the solar resource potential for the data domain.</abstract>
+    <note lang="eng" displayLabel="Preferred citation">NASA Langley Atmospheric Sciences Data Center. (2008) Solar: Average Monthly and Annual Direct Normal Irradiance Data, One-Degree Resolution of the World from NASA/SSE, 1983-2005. NASA Available at: http://purl.stanford.edu/fd535zg0917</note>
+    <note displayLabel="Supplemental information">Spatial Extent: Global Bounding Coordinates (decimal degrees)
 South: -90.00, North: 90.00, West: -180.00, East: 180.00
 Co-ordinate System: Geographic, Datum: WGS84, Ellipsoid: WGS84.
 Polygon shapefile with fields as defined belowID (mandatory) - I4, unique identifier for each polygon
 annual (mandatory) - R4, mean annual value in (kWh/m2/day)jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec (optional) - R4, mean monthly value in (kWh/m2/day)janmin, febmin, marmin, aprmin, maymin, junmin, julmin, augmin sepmin, octmin, novmin, decmin (optional) - R4, minimum monthly mean value in (kWh/m2/day)janmax, febmax, marmax, aprmax, maymax, junmax, julmax, augmax, sepmax, octmax, novmax, decmax (optional) - R4, maximum monthly mean value in (kWh/m2/day)numyears (optional) - I4, number of years used in estimate</note>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Solar radiation</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Solar energy</topic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/6295630/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Earth</geographic>
-  </subject>
-  <subject>
-    <temporal encoding="w3cdtf" point="start">1983</temporal>
-    <temporal encoding="w3cdtf" point="end">2005</temporal>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="utilitiesCommunication">Utilities and Communication</topic>
-  </subject>
-  <location>
-    <url>http://purl.stanford.edu/fd535zg0917</url>
-  </location>
-  <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:fd535zg0917</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
-    <languageOfCataloging>
-      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-    </languageOfCataloging>
-  </recordInfo>
-  <extension displayLabel="geo">
-    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="http://purl.stanford.edu/fd535zg0917">
-        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
-        <dc:type>Dataset#Polygon</dc:type>
-        <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-180.0 -90.0</gml:lowerCorner>
-            <gml:upperCorner>180.0 90.0</gml:upperCorner>
-          </gml:Envelope>
-        </gml:boundedBy>
-      </rdf:Description>
-    </rdf:RDF>
-  </extension>
-  <subject>
-    <geographic authority="lcsh">Earth (Planet)</geographic>
-  </subject>
-  <relatedItem type="host">
-    <titleInfo>
-      <title>NASA Surface Meteorology and Solar Energy : Global Data Sets</title>
-    </titleInfo>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Solar radiation</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Solar energy</topic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/6295630/">Earth</geographic>
+    </subject>
+    <subject>
+      <temporal point="start" encoding="w3cdtf">1983</temporal>
+      <temporal point="end" encoding="w3cdtf">2005</temporal>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="utilitiesCommunication">Utilities and Communication</topic>
+    </subject>
+    <subject authority="lcsh">
+      <geographic>Earth (Planet)</geographic>
+    </subject>
+    <subject>
+      <cartographics>
+        <scale>Scale not given.</scale>
+        <coordinates>W 180°--E 180°/N 90°--S 90°</coordinates>
+      </cartographics>
+    </subject>
+    <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+      <cartographics>
+        <projection>EPSG::4326</projection>
+      </cartographics>
+    </subject>
+    <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2008</dateIssued>
+      <dateValid encoding="w3cdtf" point="start">1983</dateValid>
+      <dateValid encoding="w3cdtf" point="end">2005</dateValid>
+      <edition>Release 6.0</edition>
+    </originInfo>
     <location>
-      <url>https://purl.stanford.edu/bn217rw0181</url>
+      <url usage="primary display">https://purl.stanford.edu/fd535zg0917</url>
     </location>
-    <typeOfResource collection="yes"/>
-  </relatedItem>
-  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
-</mods>
+    <recordInfo>
+      <languageOfCataloging>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </languageOfCataloging>
+      <recordContentSource>Stanford</recordContentSource>
+      <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+      <recordIdentifier>edu.stanford.purl:fd535zg0917</recordIdentifier>
+    </recordInfo>
+    <extension displayLabel="geo">
+      <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description rdf:about="http://purl.stanford.edu/fd535zg0917">
+          <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+          <dc:type>Dataset#Polygon</dc:type>
+          <gml:boundedBy>
+            <gml:Envelope gml:srsName="EPSG:4326">
+              <gml:lowerCorner>-180.0 -90.0</gml:lowerCorner>
+              <gml:upperCorner>180.0 90.0</gml:upperCorner>
+            </gml:Envelope>
+          </gml:boundedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </extension>
+    <relatedItem type="host">
+      <titleInfo>
+        <title>NASA Surface Meteorology and Solar Energy : Global Data Sets</title>
+      </titleInfo>
+      <location>
+        <url>https://purl.stanford.edu/bn217rw0181</url>
+      </location>
+      <typeOfResource collection="yes"/>
+    </relatedItem>
+    <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+    <accessCondition type="copyright">This work is in the Public Domain, meaning that it is not subject to copyright.</accessCondition>
+  </mods>

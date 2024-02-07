@@ -1,118 +1,122 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-  <titleInfo>
-    <title>United States National Atlas Airports, 2010-2012</title>
-  </titleInfo>
-  <name type="corporate">
-    <namePart>National Atlas of the United States</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <name type="corporate">
-    <namePart>Environmental Systems Research Institute (Redlands, Calif.)</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <name type="corporate">
-    <namePart>Geological Survey (U.S.)</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <typeOfResource>cartographic</typeOfResource>
-  <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>Environmental Systems Research Institute (Redlands, Calif.)</publisher>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
-    <dateValid encoding="w3cdtf" point="start">2010</dateValid>
-    <dateValid encoding="w3cdtf" point="end">2012</dateValid>
-    <edition>2014</edition>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
-  <physicalDescription>
-    <form>Shapefile</form>
-    <extent>0.025</extent>
-    <digitalOrigin>born digital</digitalOrigin>
-  </physicalDescription>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>(W 176°38ʹ46ʺ--W 64°48ʹ6ʺ/N 71°17ʹ8ʺ--N 17°42ʹ6ʺ)</coordinates>
-    </cartographics>
-  </subject>
-  <abstract displayLabel="Abstract" lang="eng">This point shapefile represents airports in the United States, Puerto Rico, and U.S. Virgin Islands with airport passenger enplanements of 25 passengers or more per year. This layer is part of the 2014 ESRI Data and Maps collection for ArcGIS 10.2.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">U.S. National Atlas Airports provides information about the locations, names, location identifiers, and enplanements of airports for conducting geographic analysis on national and large regional scales.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">National Atlas of the United States, ESRI and U.S. Geological Survey. (2014). United States National Atlas Airports, 2010-2012. ESRI.</note>
-  <subject>
-    <topic authority="lcsh" lang="eng">Airports</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" lang="eng">Airport control towers</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" lang="eng">Runways (Aeronautics)</topic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/6252001/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">United States</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4796775/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">United States Virgin Islands</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4566966/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Puerto Rico</geographic>
-  </subject>
-  <subject>
-    <temporal encoding="w3cdtf">2010-2012</temporal>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="transportation">Transportation</topic>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="location">Location</topic>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="elevation">Elevation</topic>
-  </subject>
-  <location>
-    <url>http://purl.stanford.edu/db614zf6817</url>
-  </location>
-  <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:db614zf6817</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
-    <languageOfCataloging>
-      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-    </languageOfCataloging>
-  </recordInfo>
-  <extension displayLabel="geo">
-    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="http://purl.stanford.edu/db614zf6817">
-        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
-        <dc:type>Dataset#Point</dc:type>
-        <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-176.646047 17.701559</gml:lowerCorner>
-            <gml:upperCorner>-64.80172 71.285448</gml:upperCorner>
-          </gml:Envelope>
-        </gml:boundedBy>
-      </rdf:Description>
-    </rdf:RDF>
-  </extension>
-  <relatedItem type="host">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
     <titleInfo>
-      <title>ESRI data &amp; maps : [electronic resource]</title>
+      <title>United States National Atlas Airports, 2010-2012</title>
     </titleInfo>
+    <name type="corporate">
+      <namePart>National Atlas of the United States</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <name type="corporate">
+      <namePart>Environmental Systems Research Institute (Redlands, Calif.)</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <name type="corporate">
+      <namePart>Geological Survey (U.S.)</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+    <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
+    <typeOfResource>cartographic</typeOfResource>
+    <typeOfResource>software, multimedia</typeOfResource>
+    <physicalDescription>
+      <form>Shapefile</form>
+      <extent>0.025</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+    </physicalDescription>
+    <language>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </language>
+    <abstract lang="eng" displayLabel="Abstract">This point shapefile represents airports in the United States, Puerto Rico, and U.S. Virgin Islands with airport passenger enplanements of 25 passengers or more per year. This layer is part of the 2014 ESRI Data and Maps collection for ArcGIS 10.2.</abstract>
+    <abstract lang="eng" displayLabel="Purpose">U.S. National Atlas Airports provides information about the locations, names, location identifiers, and enplanements of airports for conducting geographic analysis on national and large regional scales.</abstract>
+    <note lang="eng" displayLabel="Preferred citation">National Atlas of the United States, ESRI and U.S. Geological Survey. (2014). United States National Atlas Airports, 2010-2012. ESRI.</note>
+    <subject authority="lcsh" lang="eng">
+      <topic>Airports</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic>Airport control towers</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic>Runways (Aeronautics)</topic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/6252001/">United States</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4796775/">United States Virgin Islands</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4566966/">Puerto Rico</geographic>
+    </subject>
+    <subject>
+      <temporal encoding="w3cdtf">2010-2012</temporal>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="transportation">Transportation</topic>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="location">Location</topic>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="elevation">Elevation</topic>
+    </subject>
+    <subject>
+      <cartographics>
+        <scale>Scale not given.</scale>
+        <coordinates>W 176°38ʹ46ʺ--W 64°48ʹ6ʺ/N 71°17ʹ8ʺ--N 17°42ʹ6ʺ</coordinates>
+      </cartographics>
+    </subject>
+    <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+      <cartographics>
+        <projection>EPSG::4326</projection>
+      </cartographics>
+    </subject>
+    <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+      <dateValid encoding="w3cdtf" point="start">2010</dateValid>
+      <dateValid encoding="w3cdtf" point="end">2012</dateValid>
+      <publisher>Environmental Systems Research Institute (Redlands, Calif.)</publisher>
+      <edition>2014</edition>
+    </originInfo>
     <location>
-      <url>https://purl.stanford.edu/sv965pd3272</url>
+      <url usage="primary display">https://purl.stanford.edu/db614zf6817</url>
     </location>
-    <typeOfResource collection="yes"/>
-  </relatedItem>
-  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
-</mods>
+    <recordInfo>
+      <languageOfCataloging>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </languageOfCataloging>
+      <recordContentSource>Stanford</recordContentSource>
+      <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+      <recordIdentifier>edu.stanford.purl:db614zf6817</recordIdentifier>
+    </recordInfo>
+    <extension displayLabel="geo">
+      <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description rdf:about="http://purl.stanford.edu/db614zf6817">
+          <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+          <dc:type>Dataset#Point</dc:type>
+          <gml:boundedBy>
+            <gml:Envelope gml:srsName="EPSG:4326">
+              <gml:lowerCorner>-176.646047 17.701559</gml:lowerCorner>
+              <gml:upperCorner>-64.80172 71.285448</gml:upperCorner>
+            </gml:Envelope>
+          </gml:boundedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </extension>
+    <relatedItem type="host">
+      <titleInfo>
+        <title>ESRI data &amp; maps : [electronic resource]</title>
+      </titleInfo>
+      <location>
+        <url>https://purl.stanford.edu/sv965pd3272</url>
+      </location>
+      <typeOfResource collection="yes"/>
+    </relatedItem>
+    <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+    <accessCondition type="copyright">This work is in the Public Domain, meaning that it is not subject to copyright.</accessCondition>
+  </mods>

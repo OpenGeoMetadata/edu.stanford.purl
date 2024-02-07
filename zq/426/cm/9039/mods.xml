@@ -1,107 +1,106 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-  <titleInfo>
-    <title>Important Farmland, Merced County, California, 2012</title>
-  </titleInfo>
-  <name type="corporate">
-    <namePart>California. Farmland Mapping and Monitoring Program</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <typeOfResource>cartographic</typeOfResource>
-  <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>California. Farmland Mapping and Monitoring Program</publisher>
-    <place>
-      <placeTerm type="text">Sacramento, California, US</placeTerm>
-    </place>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
-  <physicalDescription>
-    <form>Shapefile</form>
-    <extent>8.949999999999999</extent>
-    <digitalOrigin>born digital</digitalOrigin>
-  </physicalDescription>
-  <subject>
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>Custom projection</projection>
-      <coordinates>(W 121°15ʹ23ʺ--W 120°3ʹ4ʺ/N 37°38ʹ3ʺ--N 36°44ʹ15ʺ)</coordinates>
-    </cartographics>
-  </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents areas of important farmland in Merced County, California for 2012. Established in 1982, Government Code Section 65570 mandates FMMP to biennially report on the conversion of farmland and grazing land, and to provide maps and data to local government and the public.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">The Farmland Mapping and Monitoring Program (FMMP) provides data to decision makers for use in planning for the present and future use of California's agricultural land resources. The data is a current inventory of agricultural resources. This data is for general planning purposes and has a minimum mapping unit of ten acres.</abstract>
-  <note displayLabel="Conceptual consistency report" lang="eng">The Important Farmland survey area is based on Natural Resources Conservation Service (NRCS) modern soil surveys covering most non-governmental lands in California; 49 counties are fully or partially surveyed at this time. Soil surveys specific to National Forests or other government land units are not surveyed. Beginning in 2000, SSURGO digital soil information was incorporated into the Alameda County Important Farmland data. Data subsequent to 2000 may have acreage and soil line differences due to incorporation of newer NRCS-SSURGO editions. 
-Prior to the availability of SSURGO, soil information was hand-transferred from the paper soil surveys. Older versions of the data have not been modified. The land use minimum mapping unit of ten acres has not changed, but digital soil units of down to one acre occur in the SSURGO-enhanced Important Farmland data. Due to the interaction of land use and soil components of the data, incorporation of SSURGO may also result in units of less than ten acres for categories such as Other Land (or Nonagricultural and Natural Vegetation). For more information on SSURGO, contact the USDA-Natural Resources Conservation Service: &lt;http://www.nrcs.nrcs.usda.gov/wps/portal/nrcs/main/soils/survey/geo/&gt;</note>
-  <note displayLabel="Preferred citation" lang="eng">California Farmland Mapping and Monitoring Program. (2012). Important Farmland, Merced County, California, 2012. California Farmland Mapping and Monitoring Program. Available at: http://purl.stanford.edu/zq426cm9039.</note>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Farming</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Land use</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Urbanization</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Agriculture</topic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Merced County (Calif.)</geographic>
-  </subject>
-  <subject>
-    <temporal encoding="w3cdtf">2012</temporal>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="farming">Farming</topic>
-  </subject>
-  <location>
-    <url>http://purl.stanford.edu/zq426cm9039</url>
-  </location>
-  <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:zq426cm9039</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
-    <languageOfCataloging>
-      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-    </languageOfCataloging>
-  </recordInfo>
-  <extension displayLabel="geo">
-    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="http://purl.stanford.edu/zq426cm9039">
-        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
-        <dc:type>Dataset#Polygon</dc:type>
-        <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-121.24658 36.740468</gml:lowerCorner>
-            <gml:upperCorner>-120.051476 37.633575</gml:upperCorner>
-          </gml:Envelope>
-        </gml:boundedBy>
-      </rdf:Description>
-    </rdf:RDF>
-  </extension>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>W 121°14ʹ48ʺ--W 120°3ʹ5ʺ/N 37°38ʹ1ʺ--N 36°44ʹ26ʺ</coordinates>
-    </cartographics>
-  </subject>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
-  <relatedItem type="host">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
     <titleInfo>
-      <title>California Farmland Mapping and Monitoring Program, 2012</title>
+      <title>Important Farmland, Merced County, California, 2012</title>
     </titleInfo>
+    <name type="corporate">
+      <namePart>California. Farmland Mapping and Monitoring Program</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+    <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
+    <typeOfResource>cartographic</typeOfResource>
+    <typeOfResource>software, multimedia</typeOfResource>
+    <physicalDescription>
+      <form>Shapefile</form>
+      <extent>8.949999999999999</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+    </physicalDescription>
+    <language>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </language>
+    <abstract lang="eng" displayLabel="Abstract">This polygon shapefile represents areas of important farmland in Merced County, California for 2012. Established in 1982, Government Code Section 65570 mandates FMMP to biennially report on the conversion of farmland and grazing land, and to provide maps and data to local government and the public.</abstract>
+    <abstract lang="eng" displayLabel="Purpose">The Farmland Mapping and Monitoring Program (FMMP) provides data to decision makers for use in planning for the present and future use of California's agricultural land resources. The data is a current inventory of agricultural resources. This data is for general planning purposes and has a minimum mapping unit of ten acres.</abstract>
+    <note lang="eng" displayLabel="Conceptual consistency report">The Important Farmland survey area is based on Natural Resources Conservation Service (NRCS) modern soil surveys covering most non-governmental lands in California; 49 counties are fully or partially surveyed at this time. Soil surveys specific to National Forests or other government land units are not surveyed. Beginning in 2000, SSURGO digital soil information was incorporated into the Alameda County Important Farmland data. Data subsequent to 2000 may have acreage and soil line differences due to incorporation of newer NRCS-SSURGO editions. 
+Prior to the availability of SSURGO, soil information was hand-transferred from the paper soil surveys. Older versions of the data have not been modified. The land use minimum mapping unit of ten acres has not changed, but digital soil units of down to one acre occur in the SSURGO-enhanced Important Farmland data. Due to the interaction of land use and soil components of the data, incorporation of SSURGO may also result in units of less than ten acres for categories such as Other Land (or Nonagricultural and Natural Vegetation). For more information on SSURGO, contact the USDA-Natural Resources Conservation Service: &lt;http://www.nrcs.nrcs.usda.gov/wps/portal/nrcs/main/soils/survey/geo/&gt;</note>
+    <note lang="eng" displayLabel="Preferred citation">California Farmland Mapping and Monitoring Program. (2012). Important Farmland, Merced County, California, 2012. California Farmland Mapping and Monitoring Program. Available at: http://purl.stanford.edu/zq426cm9039.</note>
+    <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Farming</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Land use</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Urbanization</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Agriculture</topic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Merced County (Calif.)</geographic>
+    </subject>
+    <subject>
+      <temporal encoding="w3cdtf">2012</temporal>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="farming">Farming</topic>
+    </subject>
+    <subject>
+      <cartographics>
+        <scale>Scale not given.</scale>
+        <projection>Custom projection</projection>
+        <coordinates>W 121°15ʹ23ʺ--W 120°3ʹ4ʺ/N 37°38ʹ3ʺ--N 36°44ʹ15ʺ</coordinates>
+        <coordinates>W 121°14ʹ48ʺ--W 120°3ʹ5ʺ/N 37°38ʹ1ʺ--N 36°44ʹ26ʺ</coordinates>
+      </cartographics>
+    </subject>
+    <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+      <cartographics>
+        <projection>EPSG::4326</projection>
+      </cartographics>
+    </subject>
+    <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
+      <place>
+        <placeTerm type="text">Sacramento, California, US</placeTerm>
+      </place>
+      <publisher>California. Farmland Mapping and Monitoring Program</publisher>
+    </originInfo>
     <location>
-      <url>https://purl.stanford.edu/qf529ms0562</url>
+      <url usage="primary display">https://purl.stanford.edu/zq426cm9039</url>
     </location>
-    <typeOfResource collection="yes"/>
-  </relatedItem>
-  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
-</mods>
+    <recordInfo>
+      <languageOfCataloging>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </languageOfCataloging>
+      <recordContentSource>Stanford</recordContentSource>
+      <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+      <recordIdentifier>edu.stanford.purl:zq426cm9039</recordIdentifier>
+    </recordInfo>
+    <extension displayLabel="geo">
+      <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description rdf:about="http://purl.stanford.edu/zq426cm9039">
+          <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+          <dc:type>Dataset#Polygon</dc:type>
+          <gml:boundedBy>
+            <gml:Envelope gml:srsName="EPSG:4326">
+              <gml:lowerCorner>-121.24658 36.740468</gml:lowerCorner>
+              <gml:upperCorner>-120.051476 37.633575</gml:upperCorner>
+            </gml:Envelope>
+          </gml:boundedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </extension>
+    <relatedItem type="host">
+      <titleInfo>
+        <title>California Farmland Mapping and Monitoring Program, 2012</title>
+      </titleInfo>
+      <location>
+        <url>https://purl.stanford.edu/qf529ms0562</url>
+      </location>
+      <typeOfResource collection="yes"/>
+    </relatedItem>
+    <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+    <accessCondition type="copyright">This work is in the Public Domain, meaning that it is not subject to copyright.</accessCondition>
+  </mods>

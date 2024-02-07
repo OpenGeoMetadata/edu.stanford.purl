@@ -1,131 +1,130 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-  <titleInfo>
-    <title>Fees and Easements, North Dakota, Protected Areas Database of the United States, 2005-2016</title>
-  </titleInfo>
-  <name type="corporate">
-    <namePart>Gap Analysis Program (U.S.)</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <typeOfResource>cartographic</typeOfResource>
-  <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>Gap Analysis Program (U.S.)</publisher>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
-    <edition>1.4</edition>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
-  <physicalDescription>
-    <form>Shapefile</form>
-    <extent>7.025</extent>
-    <digitalOrigin>born digital</digitalOrigin>
-  </physicalDescription>
-  <subject>
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>Custom projection</projection>
-      <coordinates>(W 180°--E 180°/N 71°18ʹ43ʺ--S 15°23ʹ10ʺ)</coordinates>
-      <coordinates>(W 104°25ʹ5ʺ--W 96°47ʹ10ʺ/N 49°13ʹ28ʺ--N 45°42ʹ6ʺ)</coordinates>
-    </cartographics>
-  </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains combined PAD-US Fee and Easements features for North Dakota. The USGS Protected Areas Database of the United States (PAD-US) is the nation's inventory of protected areas, including public open space and voluntarily provided, private protected areas, identified as an A-16 National Geospatial Data Asset in the Cadastral Theme. PAD-US is an ongoing project with several published versions of a spatial database of areas dedicated to the preservation of biological diversity, and other natural, recreational or cultural uses, managed for these purposes through legal or other effective means. The geodatabase maps and describes public open space and other protected areas. Most areas are public lands owned in fee; however, long-term easements, leases, and agreements or administrative designations documented in agency management plans may be included. The PAD-US database strives to be a complete “best available” inventory of protected areas (lands and waters) including data provided by managing agencies and organizations. The dataset is built in collaboration with several partners and data providers. As PAD-US is a compilation of many data sets; data completeness, accuracy, and scale may vary. Federal and state data are generally complete, while local government and private protected area coverage is about 50% complete, and depends on data management capacity in the state. As the federal and state data are reasonably complete; focus is shifting to completing the inventory of local gov and voluntarily provided, private protected areas. The Easements feature class contains data provided directly from the National Conservation Easement Database (NCED). The MPA and Easement feature classes contain some attributes unique to the sole source databases tracking them (e.g. Easement Holder Name from NCED, Protection Level from NOAA MPA Inventory). In addition to geographic boundaries, PAD-US describes the protection mechanism category (e.g. fee, easement, designation, other), owner and managing agency, designation type, unit name, area, public access and state name in a suite of standardized fields. An informative set of references (i.e. Aggregator Source, GIS Source, GIS Source Date) and "local" or source data fields provide a transparent link between standardized PAD-US fields and information from authoritative data sources. The areas in PAD-US are also assigned conservation measures that assess management intent to permanently protect biological diversity: the nationally relevant "GAP Status Code" and global "IUCN Category" standard. A wealth of attributes facilitates a wide variety of data analyses and creates a context for data to be used at local, regional, state, national and international scales. Several layer ('.lyr') files along with lookup tables ('.dbf') for each of the eight coded domains used within the feature classes of the original geodatabase are provided with this download. These .dbf tables describe both the domain codes and descriptions. More information about specific updates and changes to this PAD-US version can be found in the Data Quality Information section of this metadata record. Due to the completeness and complexity of these data, it is highly recommended to review the Supplemental Information Section of the metadata record as well as the Data Use Constraints, to better understand data partnerships as well as see tips and ideas of appropriate uses of the data and how to parse out the data that you are looking for.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">The mission of the USGS Gap Analysis Program (GAP) is providing state, regional and national assessments of the conservation status of native vertebrate species and natural land cover types and facilitating the application of this information to land management activities. The PAD-US geodatabase is required to organize and assess the management status (i.e. apply GAP Status Codes) of elements of biodiversity protection. The goal of GAP is to 'keep common species common' by identifying species and plant communities not adequately represented in existing conservation lands. Common species are those not currently threatened with extinction. By identifying their habitats, gap analysis gives land managers and policy makers the information they need to make better-informed decisions when identifying priority areas for conservation. In cooperation with UNEP-World Conservation Monitoring Centre, GAP ensures PAD-US also supports global analyses to inform policy decisions by maintaining World Database for Protected Areas (WDPA) Site Codes and data for International Union for the Conservation of Nature (IUCN) categorized protected areas in the United States. GAP seeks to increase the efficiency and accuracy of PAD-US updates by leveraging resources in protected areas data aggregation and maintenance as described in "A Map of the Future", published following the PAD-US Design Project (July, 2009). While PAD-US was originally developed to support the GAP Mission stated above, the dataset is robust and has been expanded to support the conservation, recreation and public health communities as well. Additional applications become apparent over time.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">U.S. Gap Analysis Program. (2016). Fees and Easements, North Dakota, Protected Areas Database of the United States, 2005-2016 . U.S. Gap Analysis Program. Available at: http://purl.stanford.edu/hz939nd5660</note>
-  <note displayLabel="Supplemental information">As mentioned in the Abstract section of this metadata record, the PAD-US database strives to be a complete “best available” inventory of areas dedicated to the preservation of biological diversity, and other natural, recreational or cultural uses, managed for these purposes through legal or other effective means. This includes both fee ownership of lands as well as management through leases, easements or other binding agreements. The data also tracks designations identified in management plans (i.e. BLM Area of Environmental Concern) or other internal management designations (e.g. Inventoried Roadless Areas). All of these factors provide for a robust yet complex dataset. It is important to have in mind a specific analysis question, when approaching how to work with the data. As a full inventory of protected areas by name and management designation, aggregated from authoritative source data, PAD-US includes legitimately overlapping designation types and sliver errors. Overlapping designations largely occur in the federal theme of the "fee" or "combined" feature classes (e.g. Wilderness Area over a Wild and Scenic River and National Forest), these are important to note especially when trying to calculate overall area statistics, as these overlaps can count the same area of ground multiple times. Many overlaps may be removed from the federal theme by selecting where "Category" = 'Designation'. Otherwise a specific data query should be performed or rasterization on a priority field before tallying area from the raw database. Area stats are available from the PAD-US website: http://gapanalysis.usgs.gov/padus/data/statistics/. As the PAD-US database is a direct aggregation of source data, the PAD-US development team does not alter the spatial linework in anyway, except to “clip” the data along State boundary lines using the official PAD-US state boundary file provided by Census. For both of these reasons some data silvers occur in the dataset. There are many overlapping edge slivers between source datasets and some slivers that are created by the state boundary file. Major sliver and data overlap errors have been identified and shared with agency data stewards for correction in source files that will then be incorporated in subsequent PAD-US versions over time. Boundaries containing overlapping federal management designations can be selected using a query of the data where "Category" = Designation. This will select the areas that are management designations, that can either be analyzed by designation type, or removed from the data to reduce overlap. GAP intends to identify additional overlapping designations managed by state and other agencies in the next PAD-US update. GAP conducts separate analyses to summarize area statistics for PAD-US attributes such as: Owner Name, Manager Name, GAP Status Code, IUCN Category, and State Name. GAP also provides select data from PAD-US for the USGS National Map (http://nationalmap.gov/). Contact the PAD-US Coordinator for more information before conducting area related analyses. IUCN Categorized protected areas are sent following PAD-US updates to global partners managing the North American PAD (http://CEC.org ) and World Database for Protected Areas (WDPA, http://protectedplanet.net ).
-For completeness estimates by state: http://www.protectedlands.net/partners. For more information regarding the PAD-US dataset please visit, http://gapanalysis.usgs.gov/padus/. To find more data resources as well as view example analysis performed using PAD-US data visit, http://gapanalysis.usgs.gov/padus/resources/. The PAD-US dataset and data standard are compiled and maintained by the USGS Gap Analysis Program, http://gapanalysis.usgs.gov/ . For more information about data standards and how the data are aggregated please review the “Standards and Methods Manual for PAD-US,” http://gapanalysis.usgs.gov/padus/data/standards/ .</note>
-  <relatedItem type="isReferencedBy">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
     <titleInfo>
-      <title>National Gap Analysis Program (GAP) - Protected Areas Data Portal</title>
+      <title>Fees and Easements, North Dakota, Protected Areas Database of the United States, 2005-2016</title>
     </titleInfo>
     <name type="corporate">
-      <namePart>USGS National Gap Analysis Program</namePart>
+      <namePart>Gap Analysis Program (U.S.)</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
     </name>
-    <originInfo>
-      <dateIssued encoding="w3cdtf">2016</dateIssued>
-    </originInfo>
-  </relatedItem>
-  <relatedItem type="isReferencedBy">
-    <titleInfo>
-      <title>Protected Areas Database of the United States (PAD-US)</title>
-    </titleInfo>
-    <location>
-      <url>http://dx.doi.org/10.5066/F7G73BSZ</url>
-    </location>
-    <originInfo>
-      <dateIssued encoding="w3cdtf">2016</dateIssued>
-    </originInfo>
-  </relatedItem>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Conservation easements</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Open spaces</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Public lands--Fees</topic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5690763/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">North Dakota</geographic>
-  </subject>
-  <subject>
-    <temporal encoding="w3cdtf">2005-2016</temporal>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="planningCadastre">Planning and Cadastral</topic>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="environment">Environment</topic>
-  </subject>
-  <location>
-    <url>http://purl.stanford.edu/hz939nd5660</url>
-  </location>
-  <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:hz939nd5660</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
-    <languageOfCataloging>
+    <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+    <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
+    <typeOfResource>cartographic</typeOfResource>
+    <typeOfResource>software, multimedia</typeOfResource>
+    <physicalDescription>
+      <form>Shapefile</form>
+      <extent>7.025</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+    </physicalDescription>
+    <language>
       <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-    </languageOfCataloging>
-  </recordInfo>
-  <extension displayLabel="geo">
-    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="http://purl.stanford.edu/hz939nd5660">
-        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
-        <dc:type>Dataset#Polygon</dc:type>
-        <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-104.048932 45.935134</gml:lowerCorner>
-            <gml:upperCorner>-96.798023 49.00048</gml:upperCorner>
-          </gml:Envelope>
-        </gml:boundedBy>
-      </rdf:Description>
-    </rdf:RDF>
-  </extension>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>W 104°2ʹ56ʺ--W 96°47ʹ53ʺ/N 49°2ʺ--N 45°56ʹ6ʺ</coordinates>
-    </cartographics>
-  </subject>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
-  <relatedItem type="host">
-    <titleInfo>
-      <title>Protected Areas Database of the United States (PAD-US)</title>
-    </titleInfo>
+    </language>
+    <abstract lang="eng" displayLabel="Abstract">This polygon shapefile contains combined PAD-US Fee and Easements features for North Dakota. The USGS Protected Areas Database of the United States (PAD-US) is the nation's inventory of protected areas, including public open space and voluntarily provided, private protected areas, identified as an A-16 National Geospatial Data Asset in the Cadastral Theme. PAD-US is an ongoing project with several published versions of a spatial database of areas dedicated to the preservation of biological diversity, and other natural, recreational or cultural uses, managed for these purposes through legal or other effective means. The geodatabase maps and describes public open space and other protected areas. Most areas are public lands owned in fee; however, long-term easements, leases, and agreements or administrative designations documented in agency management plans may be included. The PAD-US database strives to be a complete “best available” inventory of protected areas (lands and waters) including data provided by managing agencies and organizations. The dataset is built in collaboration with several partners and data providers. As PAD-US is a compilation of many data sets; data completeness, accuracy, and scale may vary. Federal and state data are generally complete, while local government and private protected area coverage is about 50% complete, and depends on data management capacity in the state. As the federal and state data are reasonably complete; focus is shifting to completing the inventory of local gov and voluntarily provided, private protected areas. The Easements feature class contains data provided directly from the National Conservation Easement Database (NCED). The MPA and Easement feature classes contain some attributes unique to the sole source databases tracking them (e.g. Easement Holder Name from NCED, Protection Level from NOAA MPA Inventory). In addition to geographic boundaries, PAD-US describes the protection mechanism category (e.g. fee, easement, designation, other), owner and managing agency, designation type, unit name, area, public access and state name in a suite of standardized fields. An informative set of references (i.e. Aggregator Source, GIS Source, GIS Source Date) and "local" or source data fields provide a transparent link between standardized PAD-US fields and information from authoritative data sources. The areas in PAD-US are also assigned conservation measures that assess management intent to permanently protect biological diversity: the nationally relevant "GAP Status Code" and global "IUCN Category" standard. A wealth of attributes facilitates a wide variety of data analyses and creates a context for data to be used at local, regional, state, national and international scales. Several layer ('.lyr') files along with lookup tables ('.dbf') for each of the eight coded domains used within the feature classes of the original geodatabase are provided with this download. These .dbf tables describe both the domain codes and descriptions. More information about specific updates and changes to this PAD-US version can be found in the Data Quality Information section of this metadata record. Due to the completeness and complexity of these data, it is highly recommended to review the Supplemental Information Section of the metadata record as well as the Data Use Constraints, to better understand data partnerships as well as see tips and ideas of appropriate uses of the data and how to parse out the data that you are looking for.</abstract>
+    <abstract lang="eng" displayLabel="Purpose">The mission of the USGS Gap Analysis Program (GAP) is providing state, regional and national assessments of the conservation status of native vertebrate species and natural land cover types and facilitating the application of this information to land management activities. The PAD-US geodatabase is required to organize and assess the management status (i.e. apply GAP Status Codes) of elements of biodiversity protection. The goal of GAP is to 'keep common species common' by identifying species and plant communities not adequately represented in existing conservation lands. Common species are those not currently threatened with extinction. By identifying their habitats, gap analysis gives land managers and policy makers the information they need to make better-informed decisions when identifying priority areas for conservation. In cooperation with UNEP-World Conservation Monitoring Centre, GAP ensures PAD-US also supports global analyses to inform policy decisions by maintaining World Database for Protected Areas (WDPA) Site Codes and data for International Union for the Conservation of Nature (IUCN) categorized protected areas in the United States. GAP seeks to increase the efficiency and accuracy of PAD-US updates by leveraging resources in protected areas data aggregation and maintenance as described in "A Map of the Future", published following the PAD-US Design Project (July, 2009). While PAD-US was originally developed to support the GAP Mission stated above, the dataset is robust and has been expanded to support the conservation, recreation and public health communities as well. Additional applications become apparent over time.</abstract>
+    <note lang="eng" displayLabel="Preferred citation">U.S. Gap Analysis Program. (2016). Fees and Easements, North Dakota, Protected Areas Database of the United States, 2005-2016 . U.S. Gap Analysis Program. Available at: http://purl.stanford.edu/hz939nd5660</note>
+    <note displayLabel="Supplemental information">As mentioned in the Abstract section of this metadata record, the PAD-US database strives to be a complete “best available” inventory of areas dedicated to the preservation of biological diversity, and other natural, recreational or cultural uses, managed for these purposes through legal or other effective means. This includes both fee ownership of lands as well as management through leases, easements or other binding agreements. The data also tracks designations identified in management plans (i.e. BLM Area of Environmental Concern) or other internal management designations (e.g. Inventoried Roadless Areas). All of these factors provide for a robust yet complex dataset. It is important to have in mind a specific analysis question, when approaching how to work with the data. As a full inventory of protected areas by name and management designation, aggregated from authoritative source data, PAD-US includes legitimately overlapping designation types and sliver errors. Overlapping designations largely occur in the federal theme of the "fee" or "combined" feature classes (e.g. Wilderness Area over a Wild and Scenic River and National Forest), these are important to note especially when trying to calculate overall area statistics, as these overlaps can count the same area of ground multiple times. Many overlaps may be removed from the federal theme by selecting where "Category" = 'Designation'. Otherwise a specific data query should be performed or rasterization on a priority field before tallying area from the raw database. Area stats are available from the PAD-US website: http://gapanalysis.usgs.gov/padus/data/statistics/. As the PAD-US database is a direct aggregation of source data, the PAD-US development team does not alter the spatial linework in anyway, except to “clip” the data along State boundary lines using the official PAD-US state boundary file provided by Census. For both of these reasons some data silvers occur in the dataset. There are many overlapping edge slivers between source datasets and some slivers that are created by the state boundary file. Major sliver and data overlap errors have been identified and shared with agency data stewards for correction in source files that will then be incorporated in subsequent PAD-US versions over time. Boundaries containing overlapping federal management designations can be selected using a query of the data where "Category" = Designation. This will select the areas that are management designations, that can either be analyzed by designation type, or removed from the data to reduce overlap. GAP intends to identify additional overlapping designations managed by state and other agencies in the next PAD-US update. GAP conducts separate analyses to summarize area statistics for PAD-US attributes such as: Owner Name, Manager Name, GAP Status Code, IUCN Category, and State Name. GAP also provides select data from PAD-US for the USGS National Map (http://nationalmap.gov/). Contact the PAD-US Coordinator for more information before conducting area related analyses. IUCN Categorized protected areas are sent following PAD-US updates to global partners managing the North American PAD (http://CEC.org ) and World Database for Protected Areas (WDPA, http://protectedplanet.net ).
+For completeness estimates by state: http://www.protectedlands.net/partners. For more information regarding the PAD-US dataset please visit, http://gapanalysis.usgs.gov/padus/. To find more data resources as well as view example analysis performed using PAD-US data visit, http://gapanalysis.usgs.gov/padus/resources/. The PAD-US dataset and data standard are compiled and maintained by the USGS Gap Analysis Program, http://gapanalysis.usgs.gov/ . For more information about data standards and how the data are aggregated please review the “Standards and Methods Manual for PAD-US,” http://gapanalysis.usgs.gov/padus/data/standards/ .</note>
+    <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Conservation easements</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Open spaces</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Public lands--Fees</topic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5690763/">North Dakota</geographic>
+    </subject>
+    <subject>
+      <temporal encoding="w3cdtf">2005-2016</temporal>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="planningCadastre">Planning and Cadastral</topic>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="environment">Environment</topic>
+    </subject>
+    <subject>
+      <cartographics>
+        <scale>Scale not given.</scale>
+        <projection>Custom projection</projection>
+        <coordinates>W 180°--E 180°/N 71°18ʹ43ʺ--S 15°23ʹ10ʺ</coordinates>
+        <coordinates>W 104°25ʹ5ʺ--W 96°47ʹ10ʺ/N 49°13ʹ28ʺ--N 45°42ʹ6ʺ</coordinates>
+        <coordinates>W 104°2ʹ56ʺ--W 96°47ʹ53ʺ/N 49°2ʺ--N 45°56ʹ6ʺ</coordinates>
+      </cartographics>
+    </subject>
+    <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+      <cartographics>
+        <projection>EPSG::4326</projection>
+      </cartographics>
+    </subject>
+    <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+      <publisher>Gap Analysis Program (U.S.)</publisher>
+      <edition>1.4</edition>
+    </originInfo>
     <location>
-      <url>https://purl.stanford.edu/jq618sp8021</url>
+      <url usage="primary display">https://purl.stanford.edu/hz939nd5660</url>
     </location>
-    <typeOfResource collection="yes"/>
-  </relatedItem>
-  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
-</mods>
+    <recordInfo>
+      <languageOfCataloging>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </languageOfCataloging>
+      <recordContentSource>Stanford</recordContentSource>
+      <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+      <recordIdentifier>edu.stanford.purl:hz939nd5660</recordIdentifier>
+    </recordInfo>
+    <relatedItem type="isReferencedBy">
+      <titleInfo>
+        <title>National Gap Analysis Program (GAP) - Protected Areas Data Portal</title>
+      </titleInfo>
+      <name type="corporate">
+        <namePart>USGS National Gap Analysis Program</namePart>
+      </name>
+      <originInfo>
+        <dateIssued encoding="w3cdtf">2016</dateIssued>
+      </originInfo>
+    </relatedItem>
+    <relatedItem type="isReferencedBy">
+      <titleInfo>
+        <title>Protected Areas Database of the United States (PAD-US)</title>
+      </titleInfo>
+      <originInfo>
+        <dateIssued encoding="w3cdtf">2016</dateIssued>
+      </originInfo>
+      <location>
+        <url>http://dx.doi.org/10.5066/F7G73BSZ</url>
+      </location>
+    </relatedItem>
+    <extension displayLabel="geo">
+      <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description rdf:about="http://purl.stanford.edu/hz939nd5660">
+          <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+          <dc:type>Dataset#Polygon</dc:type>
+          <gml:boundedBy>
+            <gml:Envelope gml:srsName="EPSG:4326">
+              <gml:lowerCorner>-104.048932 45.935134</gml:lowerCorner>
+              <gml:upperCorner>-96.798023 49.00048</gml:upperCorner>
+            </gml:Envelope>
+          </gml:boundedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </extension>
+    <relatedItem type="host">
+      <titleInfo>
+        <title>Protected Areas Database of the United States (PAD-US)</title>
+      </titleInfo>
+      <location>
+        <url>https://purl.stanford.edu/jq618sp8021</url>
+      </location>
+      <typeOfResource collection="yes"/>
+    </relatedItem>
+    <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+    <accessCondition type="copyright">This work is in the Public Domain, meaning that it is not subject to copyright.</accessCondition>
+  </mods>

@@ -1,94 +1,92 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-  <titleInfo>
-    <title>Damage Assessment in the south west of Cuauhtemoc Municipality, Federal District, Mexico</title>
-  </titleInfo>
-  <name type="corporate">
-    <namePart>United Nations Operational Satellite Applications Programme</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <typeOfResource>cartographic</typeOfResource>
-  <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>United Nations Institute for Training and Research</publisher>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
-  <physicalDescription>
-    <form>Shapefile</form>
-    <extent>0.004</extent>
-    <digitalOrigin>born digital</digitalOrigin>
-  </physicalDescription>
-  <subject>
-    <cartographics>
-      <scale>1:24000</scale>
-      <projection>Custom projection</projection>
-      <coordinates>(W 99°10ʹ58ʺ--W 99°9ʹ10ʺ/N 19°25ʹ33ʺ--N 19°23ʹ53ʺ)</coordinates>
-    </cartographics>
-  </subject>
-  <abstract displayLabel="Abstract" lang="eng">This map illustrates satellite-detected, potentially damaged structures in the southwestern part of Cuauhtemoc Municipality, Federal District, Mexico. The analyzed area is located approximately 120 km northwest of the main shock epicenter of the 19 September 2017 M7.1 earthquake. The analysis was performed using a post-event WorldView-2 satellite image acquired on 26 September 2017 and a pre-event Bing basemap. UNITAR-UNOSAT identified 145 potentially damaged structures from which 25 are located in Roma Norte suburb, 24 in Roma Sur, 21 in Hipodromo and 20 in La Condesa.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">This is a preliminary analysis and has not yet been validated in the field. It is important to consider the characteristics of the source imagery used in the analyses when interpreting results. For damage assessments it should be noted that only significant damage to the structural integrity of the buildings analyzed can be seen in imagery, while minor damage such as cracks or holes may not be visible at all. For flood extractions using radar data it is important to note that urban areas and highly vegetated areas may mask the flood signature and result in underestimation of flood waters. Users with specific questions or concerns should contact unosat@unitar.org to seek clarification.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">United Nations Operational Satellite Applications Programme. (2017). Damage Assessment in the south west of Cuauhtemoc Municipality, Federal District, Mexico. United Nations Institute for Training and Research. Available at: http:purl.stanford.edu/xx762bx9710</note>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Earthquake damage</topic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Cuauhtemoc (Mexico City, Mexico)</geographic>
-  </subject>
-  <subject>
-    <temporal encoding="w3cdtf">2017</temporal>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="structure">Structure</topic>
-  </subject>
-  <location>
-    <url>http://purl.stanford.edu/xx762bx9710</url>
-  </location>
-  <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:xx762bx9710</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
-    <languageOfCataloging>
-      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-    </languageOfCataloging>
-  </recordInfo>
-  <extension displayLabel="geo">
-    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="http://purl.stanford.edu/xx762bx9710">
-        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
-        <dc:type>Dataset#Point</dc:type>
-        <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-99.182857 19.397977</gml:lowerCorner>
-            <gml:upperCorner>-99.152649 19.425703</gml:upperCorner>
-          </gml:Envelope>
-        </gml:boundedBy>
-      </rdf:Description>
-    </rdf:RDF>
-  </extension>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>W 99°10ʹ58ʺ--W 99°9ʹ10ʺ/N 19°25ʹ33ʺ--N 19°23ʹ53ʺ</coordinates>
-    </cartographics>
-  </subject>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
-  <relatedItem type="host">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
     <titleInfo>
-      <title>United Nations Operational Satellite Applications Programme - GIS Maps and Data</title>
+      <title>Damage Assessment in the south west of Cuauhtemoc Municipality, Federal District, Mexico</title>
     </titleInfo>
+    <name type="corporate">
+      <namePart>United Nations Operational Satellite Applications Programme</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+    <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
+    <typeOfResource>cartographic</typeOfResource>
+    <typeOfResource>software, multimedia</typeOfResource>
+    <physicalDescription>
+      <form>Shapefile</form>
+      <extent>0.004</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+    </physicalDescription>
+    <language>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </language>
+    <abstract lang="eng" displayLabel="Abstract">This map illustrates satellite-detected, potentially damaged structures in the southwestern part of Cuauhtemoc Municipality, Federal District, Mexico. The analyzed area is located approximately 120 km northwest of the main shock epicenter of the 19 September 2017 M7.1 earthquake. The analysis was performed using a post-event WorldView-2 satellite image acquired on 26 September 2017 and a pre-event Bing basemap. UNITAR-UNOSAT identified 145 potentially damaged structures from which 25 are located in Roma Norte suburb, 24 in Roma Sur, 21 in Hipodromo and 20 in La Condesa.</abstract>
+    <abstract lang="eng" displayLabel="Purpose">This is a preliminary analysis and has not yet been validated in the field. It is important to consider the characteristics of the source imagery used in the analyses when interpreting results. For damage assessments it should be noted that only significant damage to the structural integrity of the buildings analyzed can be seen in imagery, while minor damage such as cracks or holes may not be visible at all. For flood extractions using radar data it is important to note that urban areas and highly vegetated areas may mask the flood signature and result in underestimation of flood waters. Users with specific questions or concerns should contact unosat@unitar.org to seek clarification.</abstract>
+    <note lang="eng" displayLabel="Preferred citation">United Nations Operational Satellite Applications Programme. (2017). Damage Assessment in the south west of Cuauhtemoc Municipality, Federal District, Mexico. United Nations Institute for Training and Research. Available at: http:purl.stanford.edu/xx762bx9710</note>
+    <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Earthquake damage</topic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Cuauhtemoc (Mexico City, Mexico)</geographic>
+    </subject>
+    <subject>
+      <temporal encoding="w3cdtf">2017</temporal>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="structure">Structure</topic>
+    </subject>
+    <subject>
+      <cartographics>
+        <scale>1:24000</scale>
+        <scale>Scale not given.</scale>
+        <projection>Custom projection</projection>
+        <coordinates>W 99°10ʹ58ʺ--W 99°9ʹ10ʺ/N 19°25ʹ33ʺ--N 19°23ʹ53ʺ</coordinates>
+      </cartographics>
+    </subject>
+    <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+      <cartographics>
+        <projection>EPSG::4326</projection>
+      </cartographics>
+    </subject>
+    <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+      <publisher>United Nations Institute for Training and Research</publisher>
+    </originInfo>
     <location>
-      <url>https://purl.stanford.edu/qv655cn7837</url>
+      <url usage="primary display">https://purl.stanford.edu/xx762bx9710</url>
     </location>
-    <typeOfResource collection="yes"/>
-  </relatedItem>
-  <accessCondition type="useAndReproduction">Under the CC BY-SA license, you are free to share (copy and redistribute the material in any medium or format) and or adapt (remix, transform, and build upon the material) for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms. The license terms are that you must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. Additionally, you may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</accessCondition>
-  <accessCondition type="license" xlink:href="https://creativecommons.org/licenses/by-sa/3.0/legalcode">This work is licensed under a Creative Commons Attribution Share Alike 3.0 Unported license (CC BY-SA).</accessCondition>
-</mods>
+    <recordInfo>
+      <languageOfCataloging>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </languageOfCataloging>
+      <recordContentSource>Stanford</recordContentSource>
+      <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+      <recordIdentifier>edu.stanford.purl:xx762bx9710</recordIdentifier>
+    </recordInfo>
+    <extension displayLabel="geo">
+      <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description rdf:about="http://purl.stanford.edu/xx762bx9710">
+          <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+          <dc:type>Dataset#Point</dc:type>
+          <gml:boundedBy>
+            <gml:Envelope gml:srsName="EPSG:4326">
+              <gml:lowerCorner>-99.182857 19.397977</gml:lowerCorner>
+              <gml:upperCorner>-99.152649 19.425703</gml:upperCorner>
+            </gml:Envelope>
+          </gml:boundedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </extension>
+    <relatedItem type="host">
+      <titleInfo>
+        <title>United Nations Operational Satellite Applications Programme - GIS Maps and Data</title>
+      </titleInfo>
+      <location>
+        <url>https://purl.stanford.edu/qv655cn7837</url>
+      </location>
+      <typeOfResource collection="yes"/>
+    </relatedItem>
+    <accessCondition type="useAndReproduction">Under the CC BY-SA license, you are free to share (copy and redistribute the material in any medium or format) and or adapt (remix, transform, and build upon the material) for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms. The license terms are that you must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. Additionally, you may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</accessCondition>
+    <accessCondition type="license" xlink:href="https://creativecommons.org/licenses/by-sa/3.0/legalcode">This work is licensed under a Creative Commons Attribution Share Alike 3.0 Unported license (CC BY-SA).</accessCondition>
+  </mods>

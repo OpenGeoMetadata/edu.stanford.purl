@@ -1,470 +1,468 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-  <titleInfo>
-    <title>Mapping Interstate Territorial Conflict, 1947-2000 (v2)</title>
-  </titleInfo>
-  <name type="personal">
-    <namePart>Schultz, Kenneth A.</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <typeOfResource>cartographic</typeOfResource>
-  <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>Stanford Digital Repository</publisher>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
-    <edition>v.2</edition>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
-  <physicalDescription>
-    <form>Shapefile</form>
-    <extent>9.282999999999999</extent>
-    <digitalOrigin>born digital</digitalOrigin>
-  </physicalDescription>
-  <subject>
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>Custom projection</projection>
-      <coordinates>(W 106°29ʹ25ʺ--E 172°3ʹ29ʺ/N 59°34ʹ6ʺ--S 55°20ʹ26ʺ)</coordinates>
-    </cartographics>
-  </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents areas that were the subject of interstate territorial disputes between 1947 and 2000. The disputed areas referenced in this map were identified in 'The Democratic Peace and Territorial Conflict in the Twentieth Century' (Huth and Allee, 2002.) Each disputed region is rendered as a polygon encompassing the area of overlapping claims. Each region has a variable 'homeland,' indicating whether the area was ever part of a dispute involving homeland territory for both states. Each dispute is also assigned a precision code, from 1 to 5, where 1 represents the highest level of certainty and 5 represents the lowest level. The vast majority of claims represented in this dataset were bounded with relatively high precision. Research related to these data is described in 'Mapping Interstate Territorial Conflict: A New Data Set and Application.' An earlier version of this shapefile and other related information including annual data for dyads and direct dyads involved in disputes, as well as a file of the territorial disputes identified by Huth and Allee, can be found at: http://purl.stanford.edu/zc000fq4044.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">Schultz, Kenneth A. (2016). Mapping Interstate Territorial Conflict, 1947-2000  (v2). Stanford Digital Repository. Available at: http://purl.stanford.edu/jn766dx6840.</note>
-  <note type="citation/reference" displayLabel="Related Publication">Schultz, Kenneth A. "Mapping Interstate Territorial Conflict: A New Data Set and Applications." The Journal of Conflict Resolution (2015). Available at: http://dx.doi.org/10.1177/0022002715620470</note>
-  <relatedItem displayLabel="Supplemental Information">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
     <titleInfo>
-      <title>Mapping Interstate Territorial Conflict</title>
+      <title>Mapping Interstate Territorial Conflict, 1947-2000 (v2)</title>
     </titleInfo>
-    <location>
-      <url>https://purl.stanford.edu/zc000fq4044</url>
-    </location>
-  </relatedItem>
-  <subject>
-    <topic lang="eng">Boundary disputes</topic>
-  </subject>
-  <subject>
-    <topic lang="eng">Geopolitics</topic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Argentina</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/1210997/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Bangladesh</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Benin</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Bolivia</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/933860/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Botswana</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Great Britain</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Brunei</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Cambodia</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Chad</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/1814991/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">China</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Comoros</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Croatia</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Cyprus</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Czech Republic</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Ecuador</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/357994/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Egypt</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">El Salvador</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Eritrea</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Estonia</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Ethiopia</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/3017382/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">France</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Gabon</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Germany</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Ghana</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Greece</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Guatemala</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/3723988/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Haiti</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Honduras</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/1269750/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">India</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Indonesia</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Iran</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Iraq</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Ireland</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Italy</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Japan</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Jordan</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Korea (North)</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Korea (South)</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Kuwait</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Latvia</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/272103/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Lebanon</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/932692/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Lesotho</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Liberia</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Libya</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Madagascar</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/927384/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Malawi</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Malaysia</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Mali</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Mauritania</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Mauritius</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/3996063/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Mexico</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/2542007/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Morocco</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/3355338/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Namibia</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Nepal</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Netherlands</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Nicaragua</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Niger</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Nigeria</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Oman</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/1168579/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Pakistan</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Panama</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Papua New Guinea</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Philippines</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Portugal</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Qatar</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/102358/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Saudi Arabia</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Serbia</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Seychelles</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Singapore</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Slovakia</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Slovenia</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Somalia</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Southern Yemen</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Soviet Union</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/2510769/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Spain</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Suriname</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Syria</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Thailand</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Togo</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Tunisia</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Turkey</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/226074/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Uganda</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">United Arab Emirates</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/6252001/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">United States</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Uruguay</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Vanuatu</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Venezuela</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Vietnam</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Yemen (Republic)</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Yugoslavia</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Zaire</geographic>
-  </subject>
-  <subject>
-    <temporal encoding="w3cdtf">1947-2000</temporal>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
-  </subject>
-  <location>
-    <url>http://purl.stanford.edu/jn766dx6840</url>
-  </location>
-  <identifier type="doi" displayLabel="DOI">https://doi.org/10.25740/jn766dx6840</identifier>
-  <relatedItem type="host">
-    <identifier type="doi">https://doi.org/10.1177/0022002715620470</identifier>
-  </relatedItem>
-  <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:jn766dx6840</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
-    <languageOfCataloging>
+    <name type="personal">
+      <namePart>Schultz, Kenneth A.</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+    <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
+    <typeOfResource>cartographic</typeOfResource>
+    <typeOfResource>software, multimedia</typeOfResource>
+    <physicalDescription>
+      <form>Shapefile</form>
+      <extent>9.282999999999999</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+    </physicalDescription>
+    <language>
       <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-    </languageOfCataloging>
-  </recordInfo>
-  <extension displayLabel="geo">
-    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="http://purl.stanford.edu/jn766dx6840">
-        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
-        <dc:type>Dataset#Polygon</dc:type>
-        <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-106.490257 -55.340443</gml:lowerCorner>
-            <gml:upperCorner>172.057938 59.568306</gml:upperCorner>
-          </gml:Envelope>
-        </gml:boundedBy>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Argentina"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1210997/" dc:language="eng" dc:title="Bangladesh"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Benin"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Bolivia"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/933860/" dc:language="eng" dc:title="Botswana"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Great Britain"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Brunei"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Cambodia"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Chad"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1814991/" dc:language="eng" dc:title="China"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Comoros"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Croatia"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Cyprus"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Czech Republic"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Ecuador"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/357994/" dc:language="eng" dc:title="Egypt"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="El Salvador"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Eritrea"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Estonia"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Ethiopia"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3017382/" dc:language="eng" dc:title="France"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Gabon"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Germany"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Ghana"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Greece"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Guatemala"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3723988/" dc:language="eng" dc:title="Haiti"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Honduras"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1269750/" dc:language="eng" dc:title="India"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Indonesia"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Iran"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Iraq"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Ireland"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Italy"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Japan"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Jordan"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Korea (North)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Korea (South)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Kuwait"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Latvia"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/272103/" dc:language="eng" dc:title="Lebanon"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/932692/" dc:language="eng" dc:title="Lesotho"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Liberia"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Libya"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Madagascar"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/927384/" dc:language="eng" dc:title="Malawi"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Malaysia"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Mali"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Mauritania"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Mauritius"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3996063/" dc:language="eng" dc:title="Mexico"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/2542007/" dc:language="eng" dc:title="Morocco"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/3355338/" dc:language="eng" dc:title="Namibia"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Nepal"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Netherlands"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Nicaragua"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Niger"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Nigeria"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Oman"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/1168579/" dc:language="eng" dc:title="Pakistan"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Panama"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Papua New Guinea"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Philippines"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Portugal"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Qatar"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/102358/" dc:language="eng" dc:title="Saudi Arabia"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Serbia"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Seychelles"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Singapore"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Slovakia"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Slovenia"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Somalia"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Southern Yemen"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Soviet Union"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/2510769/" dc:language="eng" dc:title="Spain"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Suriname"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Syria"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Thailand"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Togo"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Tunisia"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Turkey"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/226074/" dc:language="eng" dc:title="Uganda"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="United Arab Emirates"/>
-        <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Uruguay"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Vanuatu"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Venezuela"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Vietnam"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Yemen (Republic)"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Yugoslavia"/>
-        <dc:coverage rdf:resource="" dc:language="eng" dc:title="Zaire"/>
-      </rdf:Description>
-    </rdf:RDF>
-  </extension>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>W 106°29ʹ25ʺ--E 172°3ʹ29ʺ/N 59°34ʹ6ʺ--S 55°20ʹ26ʺ</coordinates>
-    </cartographics>
-  </subject>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
-  <relatedItem type="host">
-    <titleInfo>
-      <title>Mapping Interstate Territorial Conflict</title>
-    </titleInfo>
+    </language>
+    <abstract lang="eng" displayLabel="Abstract">This polygon shapefile represents areas that were the subject of interstate territorial disputes between 1947 and 2000. The disputed areas referenced in this map were identified in 'The Democratic Peace and Territorial Conflict in the Twentieth Century' (Huth and Allee, 2002.) Each disputed region is rendered as a polygon encompassing the area of overlapping claims. Each region has a variable 'homeland,' indicating whether the area was ever part of a dispute involving homeland territory for both states. Each dispute is also assigned a precision code, from 1 to 5, where 1 represents the highest level of certainty and 5 represents the lowest level. The vast majority of claims represented in this dataset were bounded with relatively high precision. Research related to these data is described in 'Mapping Interstate Territorial Conflict: A New Data Set and Application.' An earlier version of this shapefile and other related information including annual data for dyads and direct dyads involved in disputes, as well as a file of the territorial disputes identified by Huth and Allee, can be found at: http://purl.stanford.edu/zc000fq4044.</abstract>
+    <note lang="eng" displayLabel="Preferred citation">Schultz, Kenneth A. (2016). Mapping Interstate Territorial Conflict, 1947-2000  (v2). Stanford Digital Repository. Available at: http://purl.stanford.edu/jn766dx6840.</note>
+    <note displayLabel="Related Publication" type="citation/reference">Schultz, Kenneth A. "Mapping Interstate Territorial Conflict: A New Data Set and Applications." The Journal of Conflict Resolution (2015). Available at: http://dx.doi.org/10.1177/0022002715620470</note>
+    <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+    <subject lang="eng">
+      <topic>Boundary disputes</topic>
+    </subject>
+    <subject lang="eng">
+      <topic>Geopolitics</topic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Argentina</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/1210997/">Bangladesh</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Benin</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Bolivia</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/933860/">Botswana</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Great Britain</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Brunei</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Cambodia</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Chad</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/1814991/">China</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Comoros</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Croatia</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Cyprus</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Czech Republic</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Ecuador</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/357994/">Egypt</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>El Salvador</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Eritrea</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Estonia</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Ethiopia</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/3017382/">France</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Gabon</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Germany</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Ghana</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Greece</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Guatemala</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/3723988/">Haiti</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Honduras</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/1269750/">India</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Indonesia</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Iran</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Iraq</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Ireland</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Italy</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Japan</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Jordan</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Korea (North)</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Korea (South)</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Kuwait</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Latvia</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/272103/">Lebanon</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/932692/">Lesotho</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Liberia</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Libya</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Madagascar</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/927384/">Malawi</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Malaysia</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Mali</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Mauritania</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Mauritius</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/3996063/">Mexico</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/2542007/">Morocco</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/3355338/">Namibia</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Nepal</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Netherlands</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Nicaragua</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Niger</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Nigeria</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Oman</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/1168579/">Pakistan</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Panama</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Papua New Guinea</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Philippines</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Portugal</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Qatar</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/102358/">Saudi Arabia</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Serbia</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Seychelles</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Singapore</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Slovakia</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Slovenia</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Somalia</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Southern Yemen</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Soviet Union</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/2510769/">Spain</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Suriname</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Syria</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Thailand</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Togo</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Tunisia</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Turkey</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/226074/">Uganda</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>United Arab Emirates</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/6252001/">United States</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Uruguay</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Vanuatu</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Venezuela</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Vietnam</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Yemen (Republic)</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Yugoslavia</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Zaire</geographic>
+    </subject>
+    <subject>
+      <temporal encoding="w3cdtf">1947-2000</temporal>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
+    </subject>
+    <subject>
+      <cartographics>
+        <scale>Scale not given.</scale>
+        <projection>Custom projection</projection>
+        <coordinates>W 106°29ʹ25ʺ--E 172°3ʹ29ʺ/N 59°34ʹ6ʺ--S 55°20ʹ26ʺ</coordinates>
+      </cartographics>
+    </subject>
+    <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+      <cartographics>
+        <projection>EPSG::4326</projection>
+      </cartographics>
+    </subject>
+    <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+      <publisher>Stanford Digital Repository</publisher>
+      <edition>v.2</edition>
+    </originInfo>
+    <identifier displayLabel="DOI" type="doi">https://doi.org/10.25740/jn766dx6840</identifier>
     <location>
-      <url>https://purl.stanford.edu/vm629ps2719</url>
+      <url usage="primary display">https://purl.stanford.edu/jn766dx6840</url>
     </location>
-    <typeOfResource collection="yes"/>
-  </relatedItem>
-  <accessCondition type="useAndReproduction">User agrees that, where applicable, content will not be used to identify or to otherwise infringe the privacy or confidentiality rights of individuals. Content distributed via the Stanford Digital Repository may be subject to additional license and use restrictions applied by the depositor.</accessCondition>
-</mods>
+    <recordInfo>
+      <languageOfCataloging>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </languageOfCataloging>
+      <recordContentSource>Stanford</recordContentSource>
+      <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+      <recordIdentifier>edu.stanford.purl:jn766dx6840</recordIdentifier>
+    </recordInfo>
+    <relatedItem displayLabel="Supplemental Information">
+      <titleInfo>
+        <title>Mapping Interstate Territorial Conflict</title>
+      </titleInfo>
+      <location>
+        <url usage="primary display">https://purl.stanford.edu/zc000fq4044</url>
+      </location>
+    </relatedItem>
+    <relatedItem type="host">
+      <identifier type="doi">https://doi.org/10.1177/0022002715620470</identifier>
+    </relatedItem>
+    <extension displayLabel="geo">
+      <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description rdf:about="http://purl.stanford.edu/jn766dx6840">
+          <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+          <dc:type>Dataset#Polygon</dc:type>
+          <gml:boundedBy>
+            <gml:Envelope gml:srsName="EPSG:4326">
+              <gml:lowerCorner>-106.490257 -55.340443</gml:lowerCorner>
+              <gml:upperCorner>172.057938 59.568306</gml:upperCorner>
+            </gml:Envelope>
+          </gml:boundedBy>
+          <dc:coverage dc:language="eng" dc:title="Argentina"/>
+          <dc:coverage rdf:resource="http://sws.geonames.org/1210997/" dc:language="eng" dc:title="Bangladesh"/>
+          <dc:coverage dc:language="eng" dc:title="Benin"/>
+          <dc:coverage dc:language="eng" dc:title="Bolivia"/>
+          <dc:coverage rdf:resource="http://sws.geonames.org/933860/" dc:language="eng" dc:title="Botswana"/>
+          <dc:coverage dc:language="eng" dc:title="Great Britain"/>
+          <dc:coverage dc:language="eng" dc:title="Brunei"/>
+          <dc:coverage dc:language="eng" dc:title="Cambodia"/>
+          <dc:coverage dc:language="eng" dc:title="Chad"/>
+          <dc:coverage rdf:resource="http://sws.geonames.org/1814991/" dc:language="eng" dc:title="China"/>
+          <dc:coverage dc:language="eng" dc:title="Comoros"/>
+          <dc:coverage dc:language="eng" dc:title="Croatia"/>
+          <dc:coverage dc:language="eng" dc:title="Cyprus"/>
+          <dc:coverage dc:language="eng" dc:title="Czech Republic"/>
+          <dc:coverage dc:language="eng" dc:title="Ecuador"/>
+          <dc:coverage rdf:resource="http://sws.geonames.org/357994/" dc:language="eng" dc:title="Egypt"/>
+          <dc:coverage dc:language="eng" dc:title="El Salvador"/>
+          <dc:coverage dc:language="eng" dc:title="Eritrea"/>
+          <dc:coverage dc:language="eng" dc:title="Estonia"/>
+          <dc:coverage dc:language="eng" dc:title="Ethiopia"/>
+          <dc:coverage rdf:resource="http://sws.geonames.org/3017382/" dc:language="eng" dc:title="France"/>
+          <dc:coverage dc:language="eng" dc:title="Gabon"/>
+          <dc:coverage dc:language="eng" dc:title="Germany"/>
+          <dc:coverage dc:language="eng" dc:title="Ghana"/>
+          <dc:coverage dc:language="eng" dc:title="Greece"/>
+          <dc:coverage dc:language="eng" dc:title="Guatemala"/>
+          <dc:coverage rdf:resource="http://sws.geonames.org/3723988/" dc:language="eng" dc:title="Haiti"/>
+          <dc:coverage dc:language="eng" dc:title="Honduras"/>
+          <dc:coverage rdf:resource="http://sws.geonames.org/1269750/" dc:language="eng" dc:title="India"/>
+          <dc:coverage dc:language="eng" dc:title="Indonesia"/>
+          <dc:coverage dc:language="eng" dc:title="Iran"/>
+          <dc:coverage dc:language="eng" dc:title="Iraq"/>
+          <dc:coverage dc:language="eng" dc:title="Ireland"/>
+          <dc:coverage dc:language="eng" dc:title="Italy"/>
+          <dc:coverage dc:language="eng" dc:title="Japan"/>
+          <dc:coverage dc:language="eng" dc:title="Jordan"/>
+          <dc:coverage dc:language="eng" dc:title="Korea (North)"/>
+          <dc:coverage dc:language="eng" dc:title="Korea (South)"/>
+          <dc:coverage dc:language="eng" dc:title="Kuwait"/>
+          <dc:coverage dc:language="eng" dc:title="Latvia"/>
+          <dc:coverage rdf:resource="http://sws.geonames.org/272103/" dc:language="eng" dc:title="Lebanon"/>
+          <dc:coverage rdf:resource="http://sws.geonames.org/932692/" dc:language="eng" dc:title="Lesotho"/>
+          <dc:coverage dc:language="eng" dc:title="Liberia"/>
+          <dc:coverage dc:language="eng" dc:title="Libya"/>
+          <dc:coverage dc:language="eng" dc:title="Madagascar"/>
+          <dc:coverage rdf:resource="http://sws.geonames.org/927384/" dc:language="eng" dc:title="Malawi"/>
+          <dc:coverage dc:language="eng" dc:title="Malaysia"/>
+          <dc:coverage dc:language="eng" dc:title="Mali"/>
+          <dc:coverage dc:language="eng" dc:title="Mauritania"/>
+          <dc:coverage dc:language="eng" dc:title="Mauritius"/>
+          <dc:coverage rdf:resource="http://sws.geonames.org/3996063/" dc:language="eng" dc:title="Mexico"/>
+          <dc:coverage rdf:resource="http://sws.geonames.org/2542007/" dc:language="eng" dc:title="Morocco"/>
+          <dc:coverage rdf:resource="http://sws.geonames.org/3355338/" dc:language="eng" dc:title="Namibia"/>
+          <dc:coverage dc:language="eng" dc:title="Nepal"/>
+          <dc:coverage dc:language="eng" dc:title="Netherlands"/>
+          <dc:coverage dc:language="eng" dc:title="Nicaragua"/>
+          <dc:coverage dc:language="eng" dc:title="Niger"/>
+          <dc:coverage dc:language="eng" dc:title="Nigeria"/>
+          <dc:coverage dc:language="eng" dc:title="Oman"/>
+          <dc:coverage rdf:resource="http://sws.geonames.org/1168579/" dc:language="eng" dc:title="Pakistan"/>
+          <dc:coverage dc:language="eng" dc:title="Panama"/>
+          <dc:coverage dc:language="eng" dc:title="Papua New Guinea"/>
+          <dc:coverage dc:language="eng" dc:title="Philippines"/>
+          <dc:coverage dc:language="eng" dc:title="Portugal"/>
+          <dc:coverage dc:language="eng" dc:title="Qatar"/>
+          <dc:coverage rdf:resource="http://sws.geonames.org/102358/" dc:language="eng" dc:title="Saudi Arabia"/>
+          <dc:coverage dc:language="eng" dc:title="Serbia"/>
+          <dc:coverage dc:language="eng" dc:title="Seychelles"/>
+          <dc:coverage dc:language="eng" dc:title="Singapore"/>
+          <dc:coverage dc:language="eng" dc:title="Slovakia"/>
+          <dc:coverage dc:language="eng" dc:title="Slovenia"/>
+          <dc:coverage dc:language="eng" dc:title="Somalia"/>
+          <dc:coverage dc:language="eng" dc:title="Southern Yemen"/>
+          <dc:coverage dc:language="eng" dc:title="Soviet Union"/>
+          <dc:coverage rdf:resource="http://sws.geonames.org/2510769/" dc:language="eng" dc:title="Spain"/>
+          <dc:coverage dc:language="eng" dc:title="Suriname"/>
+          <dc:coverage dc:language="eng" dc:title="Syria"/>
+          <dc:coverage dc:language="eng" dc:title="Thailand"/>
+          <dc:coverage dc:language="eng" dc:title="Togo"/>
+          <dc:coverage dc:language="eng" dc:title="Tunisia"/>
+          <dc:coverage dc:language="eng" dc:title="Turkey"/>
+          <dc:coverage rdf:resource="http://sws.geonames.org/226074/" dc:language="eng" dc:title="Uganda"/>
+          <dc:coverage dc:language="eng" dc:title="United Arab Emirates"/>
+          <dc:coverage rdf:resource="http://sws.geonames.org/6252001/" dc:language="eng" dc:title="United States"/>
+          <dc:coverage dc:language="eng" dc:title="Uruguay"/>
+          <dc:coverage dc:language="eng" dc:title="Vanuatu"/>
+          <dc:coverage dc:language="eng" dc:title="Venezuela"/>
+          <dc:coverage dc:language="eng" dc:title="Vietnam"/>
+          <dc:coverage dc:language="eng" dc:title="Yemen (Republic)"/>
+          <dc:coverage dc:language="eng" dc:title="Yugoslavia"/>
+          <dc:coverage dc:language="eng" dc:title="Zaire"/>
+        </rdf:Description>
+      </rdf:RDF>
+    </extension>
+    <relatedItem type="host">
+      <titleInfo>
+        <title>Mapping Interstate Territorial Conflict</title>
+      </titleInfo>
+      <location>
+        <url>https://purl.stanford.edu/vm629ps2719</url>
+      </location>
+      <typeOfResource collection="yes"/>
+    </relatedItem>
+    <accessCondition type="useAndReproduction">User agrees that, where applicable, content will not be used to identify or to otherwise infringe the privacy or confidentiality rights of individuals. Content distributed via the Stanford Digital Repository may be subject to additional license and use restrictions applied by the depositor.</accessCondition>
+    <accessCondition type="copyright">Copyright resides with the originator.</accessCondition>
+  </mods>

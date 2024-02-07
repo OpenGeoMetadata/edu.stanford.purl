@@ -1,101 +1,105 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-  <titleInfo>
-    <title>United States National Transportation Atlas Interstate Highways, 2008</title>
-  </titleInfo>
-  <name type="corporate">
-    <namePart>Environmental Systems Research Institute (Redlands, Calif.)</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <name type="corporate">
-    <namePart>United States. Bureau of Transportation Statistics</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <typeOfResource>cartographic</typeOfResource>
-  <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>Environmental Systems Research Institute (Redlands, Calif.)</publisher>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
-    <dateValid encoding="w3cdtf" point="start">1997</dateValid>
-    <dateValid encoding="w3cdtf" point="end">2008</dateValid>
-    <edition>2014</edition>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
-  <physicalDescription>
-    <form>Shapefile</form>
-    <extent>4.014</extent>
-    <digitalOrigin>born digital</digitalOrigin>
-  </physicalDescription>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>1:250000</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>(W 158°5ʹ24ʺ--W 67°46ʹ52ʺ/N 64°53ʹ18ʺ--N 21°16ʹ23ʺ)</coordinates>
-    </cartographics>
-  </subject>
-  <abstract displayLabel="Abstract" lang="eng">This line shapefile represents rural and urban interstate highways. U.S. National Transportation Atlas Interstate Highways is part of the National Highway Planning Network, published by the Federal Highway Administration as part of the National Transportation Atlas Databases for the United States. This layer is part of the 2014 ESRI Data and Maps collection for ArcGIS 10.2.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">U.S. National Transportation Atlas Interstate Highways provides a comprehensive database of interstate highways from the nation's principal arterial highway system and the National Highway System. The data is generalized to improve draw performance and be used effectively at a national level.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">ESRI and U.S. Bureau of Transportation Statistics. (2014). United States National Transportation Atlas Interstate Highways, 2008. ESRI. Available at: http://purl.stanford.edu/qn309jc5979</note>
-  <subject>
-    <topic authority="lcsh" lang="eng">Express highways</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" lang="eng">Interstate highway system</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" lang="eng">Roads</topic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/6252001/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">United States</geographic>
-  </subject>
-  <subject>
-    <temporal encoding="w3cdtf" point="start">1997</temporal>
-    <temporal encoding="w3cdtf" point="end">2008</temporal>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="transportation">Transportation</topic>
-  </subject>
-  <location>
-    <url>http://purl.stanford.edu/qn309jc5979</url>
-  </location>
-  <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:qn309jc5979</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
-    <languageOfCataloging>
-      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-    </languageOfCataloging>
-  </recordInfo>
-  <extension displayLabel="geo">
-    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="http://purl.stanford.edu/qn309jc5979">
-        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
-        <dc:type>Dataset#LineString</dc:type>
-        <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-158.090073 21.273109</gml:lowerCorner>
-            <gml:upperCorner>-67.781193 64.888216</gml:upperCorner>
-          </gml:Envelope>
-        </gml:boundedBy>
-      </rdf:Description>
-    </rdf:RDF>
-  </extension>
-  <relatedItem type="host">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
     <titleInfo>
-      <title>ESRI data &amp; maps : [electronic resource]</title>
+      <title>United States National Transportation Atlas Interstate Highways, 2008</title>
     </titleInfo>
+    <name type="corporate">
+      <namePart>Environmental Systems Research Institute (Redlands, Calif.)</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <name type="corporate">
+      <namePart>United States. Bureau of Transportation Statistics</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+    <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
+    <typeOfResource>cartographic</typeOfResource>
+    <typeOfResource>software, multimedia</typeOfResource>
+    <physicalDescription>
+      <form>Shapefile</form>
+      <extent>4.014</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+    </physicalDescription>
+    <language>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </language>
+    <abstract lang="eng" displayLabel="Abstract">This line shapefile represents rural and urban interstate highways. U.S. National Transportation Atlas Interstate Highways is part of the National Highway Planning Network, published by the Federal Highway Administration as part of the National Transportation Atlas Databases for the United States. This layer is part of the 2014 ESRI Data and Maps collection for ArcGIS 10.2.</abstract>
+    <abstract lang="eng" displayLabel="Purpose">U.S. National Transportation Atlas Interstate Highways provides a comprehensive database of interstate highways from the nation's principal arterial highway system and the National Highway System. The data is generalized to improve draw performance and be used effectively at a national level.</abstract>
+    <note lang="eng" displayLabel="Preferred citation">ESRI and U.S. Bureau of Transportation Statistics. (2014). United States National Transportation Atlas Interstate Highways, 2008. ESRI. Available at: http://purl.stanford.edu/qn309jc5979</note>
+    <subject authority="lcsh" lang="eng">
+      <topic>Express highways</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic>Interstate highway system</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic>Roads</topic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/6252001/">United States</geographic>
+    </subject>
+    <subject>
+      <temporal point="start" encoding="w3cdtf">1997</temporal>
+      <temporal point="end" encoding="w3cdtf">2008</temporal>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="transportation">Transportation</topic>
+    </subject>
+    <subject>
+      <cartographics>
+        <scale>1:250000</scale>
+        <coordinates>W 158°5ʹ24ʺ--W 67°46ʹ52ʺ/N 64°53ʹ18ʺ--N 21°16ʹ23ʺ</coordinates>
+      </cartographics>
+    </subject>
+    <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+      <cartographics>
+        <projection>EPSG::4326</projection>
+      </cartographics>
+    </subject>
+    <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+      <dateValid encoding="w3cdtf" point="start">1997</dateValid>
+      <dateValid encoding="w3cdtf" point="end">2008</dateValid>
+      <publisher>Environmental Systems Research Institute (Redlands, Calif.)</publisher>
+      <edition>2014</edition>
+    </originInfo>
     <location>
-      <url>https://purl.stanford.edu/sv965pd3272</url>
+      <url usage="primary display">https://purl.stanford.edu/qn309jc5979</url>
     </location>
-    <typeOfResource collection="yes"/>
-  </relatedItem>
-  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
-</mods>
+    <recordInfo>
+      <languageOfCataloging>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </languageOfCataloging>
+      <recordContentSource>Stanford</recordContentSource>
+      <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+      <recordIdentifier>edu.stanford.purl:qn309jc5979</recordIdentifier>
+    </recordInfo>
+    <extension displayLabel="geo">
+      <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description rdf:about="http://purl.stanford.edu/qn309jc5979">
+          <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+          <dc:type>Dataset#LineString</dc:type>
+          <gml:boundedBy>
+            <gml:Envelope gml:srsName="EPSG:4326">
+              <gml:lowerCorner>-158.090073 21.273109</gml:lowerCorner>
+              <gml:upperCorner>-67.781193 64.888216</gml:upperCorner>
+            </gml:Envelope>
+          </gml:boundedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </extension>
+    <relatedItem type="host">
+      <titleInfo>
+        <title>ESRI data &amp; maps : [electronic resource]</title>
+      </titleInfo>
+      <location>
+        <url>https://purl.stanford.edu/sv965pd3272</url>
+      </location>
+      <typeOfResource collection="yes"/>
+    </relatedItem>
+    <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+    <accessCondition type="copyright">This work is in the Public Domain, meaning that it is not subject to copyright.</accessCondition>
+  </mods>

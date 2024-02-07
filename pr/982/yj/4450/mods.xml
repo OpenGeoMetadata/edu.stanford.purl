@@ -1,106 +1,104 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-  <titleInfo>
-    <title>North Atlantic Maintained Channels, 2013</title>
-  </titleInfo>
-  <name type="corporate">
-    <namePart>I.M. Systems Group</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <typeOfResource>cartographic</typeOfResource>
-  <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>United States. National Oceanic and Atmospheric Administration</publisher>
-    <place>
-      <placeTerm type="text">Charleston, SC,</placeTerm>
-    </place>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
-  <physicalDescription>
-    <form>Shapefile</form>
-    <extent>1.603</extent>
-    <digitalOrigin>born digital</digitalOrigin>
-  </physicalDescription>
-  <subject>
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4269</projection>
-      <coordinates>(W 77°25ʹ43ʺ--W 67°34ʹ35ʺ/N 44°32ʹ40ʺ--N 36°30ʹ)</coordinates>
-    </cartographics>
-  </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents maintained navigation channels in the North Atlantic United States. The condition of navigation channels is reported to NOAA by USACE on a regular basis. As the USACE performs hydrographic surveys of the maintained channels they provide NOAA with the results of these surveys. The survey results are provided on survey sheets and/or channel condition reports. Hydrographic survey sheets depict the hydrography within the maintained channel as well as the channel limits. The surveys are either a condition or after dredge survey. A condition survey, among other things, depicts hydrography prior to dredging operations and the after dredge survey shows the results of dredging operations. Channel condition reports are a tabulated format of the results of a hydrographic survey. The channel condition reports contain the names of all the reaches in a particular channel. Along with each reach name the project dimensions are listed and they include the reach’s width, project depth and length. Additionally for each reach controlling depths are listed for the separate quarters of that reach and the date of the survey from which those controlling depths were taken. The controlling depths are determined by USACE and are the shoalest depths for that quarter of the reach. A channel condition report will also contain more detailed information concerning the location of extreme shoaling or obstructions that may be located in the channel. (Coastal Channel Data: Cooperative Production of a NOAA/USACE Data Framework, Libeau and Morrison 2005)</abstract>
-  <abstract displayLabel="Purpose" lang="eng">To support coastal and ocean planning and other activities pursuant to the Coastal Zone Management Act, Energy Policy Act, Magnuson-Stevens Fishery Conservation and Management Act, National Environmental Policy Act, Rivers and Harbors Act and the Submerged Lands Act.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">I.M. Systems Group. (2016). North Atlantic Maintained Channels, 2013. U.S. National Oceanic and Atmospheric Administration. Available at: http://purl.stanford.edu/pr982yj4450.</note>
-  <note displayLabel="Use limitation">Not to be used for navigation</note>
-  <subject>
-    <topic authority="lcsh" lang="eng">Intracoastal waterways</topic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Northeastern States</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/3373405/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Atlantic Ocean</geographic>
-  </subject>
-  <subject>
-    <temporal encoding="w3cdtf">2013</temporal>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="oceans">Oceans</topic>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="transportation">Transportation</topic>
-  </subject>
-  <location>
-    <url>http://purl.stanford.edu/pr982yj4450</url>
-  </location>
-  <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:pr982yj4450</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
-    <languageOfCataloging>
-      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-    </languageOfCataloging>
-  </recordInfo>
-  <extension displayLabel="geo">
-    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="http://purl.stanford.edu/pr982yj4450">
-        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
-        <dc:type>Dataset#Polygon</dc:type>
-        <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-77.428482 36.499993</gml:lowerCorner>
-            <gml:upperCorner>-67.576454 44.544345</gml:upperCorner>
-          </gml:Envelope>
-        </gml:boundedBy>
-      </rdf:Description>
-    </rdf:RDF>
-  </extension>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>W 77°25ʹ43ʺ--W 67°34ʹ35ʺ/N 44°32ʹ40ʺ--N 36°30ʹ</coordinates>
-    </cartographics>
-  </subject>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
-  <relatedItem type="host">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
     <titleInfo>
-      <title>Northeast Ocean Data : Maps and data for ocean planning in the northeastern United States</title>
+      <title>North Atlantic Maintained Channels, 2013</title>
     </titleInfo>
+    <name type="corporate">
+      <namePart>I.M. Systems Group</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+    <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
+    <typeOfResource>cartographic</typeOfResource>
+    <typeOfResource>software, multimedia</typeOfResource>
+    <physicalDescription>
+      <form>Shapefile</form>
+      <extent>1.603</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+    </physicalDescription>
+    <language>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </language>
+    <abstract lang="eng" displayLabel="Abstract">This polygon shapefile represents maintained navigation channels in the North Atlantic United States. The condition of navigation channels is reported to NOAA by USACE on a regular basis. As the USACE performs hydrographic surveys of the maintained channels they provide NOAA with the results of these surveys. The survey results are provided on survey sheets and/or channel condition reports. Hydrographic survey sheets depict the hydrography within the maintained channel as well as the channel limits. The surveys are either a condition or after dredge survey. A condition survey, among other things, depicts hydrography prior to dredging operations and the after dredge survey shows the results of dredging operations. Channel condition reports are a tabulated format of the results of a hydrographic survey. The channel condition reports contain the names of all the reaches in a particular channel. Along with each reach name the project dimensions are listed and they include the reach’s width, project depth and length. Additionally for each reach controlling depths are listed for the separate quarters of that reach and the date of the survey from which those controlling depths were taken. The controlling depths are determined by USACE and are the shoalest depths for that quarter of the reach. A channel condition report will also contain more detailed information concerning the location of extreme shoaling or obstructions that may be located in the channel. (Coastal Channel Data: Cooperative Production of a NOAA/USACE Data Framework, Libeau and Morrison 2005)</abstract>
+    <abstract lang="eng" displayLabel="Purpose">To support coastal and ocean planning and other activities pursuant to the Coastal Zone Management Act, Energy Policy Act, Magnuson-Stevens Fishery Conservation and Management Act, National Environmental Policy Act, Rivers and Harbors Act and the Submerged Lands Act.</abstract>
+    <note lang="eng" displayLabel="Preferred citation">I.M. Systems Group. (2016). North Atlantic Maintained Channels, 2013. U.S. National Oceanic and Atmospheric Administration. Available at: http://purl.stanford.edu/pr982yj4450.</note>
+    <note displayLabel="Use limitation">Not to be used for navigation</note>
+    <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+    <subject authority="lcsh" lang="eng">
+      <topic>Intracoastal waterways</topic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Northeastern States</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/3373405/">Atlantic Ocean</geographic>
+    </subject>
+    <subject>
+      <temporal encoding="w3cdtf">2013</temporal>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="oceans">Oceans</topic>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="transportation">Transportation</topic>
+    </subject>
+    <subject>
+      <cartographics>
+        <scale>Scale not given.</scale>
+        <projection>EPSG::4269</projection>
+        <coordinates>W 77°25ʹ43ʺ--W 67°34ʹ35ʺ/N 44°32ʹ40ʺ--N 36°30ʹ</coordinates>
+      </cartographics>
+    </subject>
+    <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+      <cartographics>
+        <projection>EPSG::4326</projection>
+      </cartographics>
+    </subject>
+    <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+      <place>
+        <placeTerm type="text">Charleston, SC,</placeTerm>
+      </place>
+      <publisher>United States. National Oceanic and Atmospheric Administration</publisher>
+    </originInfo>
     <location>
-      <url>https://purl.stanford.edu/sg639pq7229</url>
+      <url usage="primary display">https://purl.stanford.edu/pr982yj4450</url>
     </location>
-    <typeOfResource collection="yes"/>
-  </relatedItem>
-  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
-</mods>
+    <recordInfo>
+      <languageOfCataloging>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </languageOfCataloging>
+      <recordContentSource>Stanford</recordContentSource>
+      <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+      <recordIdentifier>edu.stanford.purl:pr982yj4450</recordIdentifier>
+    </recordInfo>
+    <extension displayLabel="geo">
+      <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description rdf:about="http://purl.stanford.edu/pr982yj4450">
+          <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+          <dc:type>Dataset#Polygon</dc:type>
+          <gml:boundedBy>
+            <gml:Envelope gml:srsName="EPSG:4326">
+              <gml:lowerCorner>-77.428482 36.499993</gml:lowerCorner>
+              <gml:upperCorner>-67.576454 44.544345</gml:upperCorner>
+            </gml:Envelope>
+          </gml:boundedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </extension>
+    <relatedItem type="host">
+      <titleInfo>
+        <title>Northeast Ocean Data : Maps and data for ocean planning in the northeastern United States</title>
+      </titleInfo>
+      <location>
+        <url>https://purl.stanford.edu/sg639pq7229</url>
+      </location>
+      <typeOfResource collection="yes"/>
+    </relatedItem>
+    <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+    <accessCondition type="copyright">This work is in the Public Domain, meaning that it is not subject to copyright.</accessCondition>
+  </mods>

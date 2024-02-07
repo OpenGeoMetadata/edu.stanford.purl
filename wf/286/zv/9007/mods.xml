@@ -1,169 +1,167 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-  <titleInfo>
-    <title>Outer Continental Shelf Lease Blocks, Northeast United States, 2007</title>
-  </titleInfo>
-  <name type="corporate">
-    <namePart>United States. Department of Commerce</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <name type="corporate">
-    <namePart>United States. National Oceanic and Atmospheric Administration</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <name type="corporate">
-    <namePart>United States. National Ocean Service</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <typeOfResource>cartographic</typeOfResource>
-  <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>United States. National Ocean Service</publisher>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
-  <physicalDescription>
-    <form>Shapefile</form>
-    <extent>4.002</extent>
-    <digitalOrigin>born digital</digitalOrigin>
-  </physicalDescription>
-  <subject>
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4269</projection>
-      <coordinates>(W 74°--W 65°/N 44°46ʹ8ʺ--N 37°)</coordinates>
-    </cartographics>
-  </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile contains outer continental shelf (OCS) lease blocks in the northeast region. OCS blocks are used to define small geographic areas within an Official Protraction Diagram (OPD) for leasing and administrative purposes. These blocks have been clipped along the Submerged Lands Act (SLA) boundary and along the Continental Shelf Boundaries. Because GIS projection and topology functions can change or generalize coordinates, and because shapefiles can not represent true arcs, these GIS files are considered to be approximate and are NOT an OFFICIAL record for the exact block coordinates or areas. The Official Protraction Diagrams (OPDs) and Supplemental Official Block Diagrams (SOBDs) serve as the legal definition for BOEMRE offshore boundary coordinates and area descriptions.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">To support coastal planning and other activities pursuant to the Coastal Zone Management Act, Energy Policy Act, Magnuson-Stevens Fishery Conservation and Management Act, National Environmental Policy Act, Rivers and Harbors Act and the Submerged Lands Act.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">U.S. Department of Commerce, U.S. National Ocean Service, and U.S. National Oceanic and Atmospheric Administration. (2011). Outer Continental Shelf Lease Blocks, Northeast United States, 2007. U.S. National Ocean Service. Available at: http://purl.stanford.edu/wf286zv9007.</note>
-  <note displayLabel="Use limitation">None</note>
-  <subject>
-    <topic authority="lcsh" lang="eng">Offshore gas</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" lang="eng">Oil and gas leases</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" lang="eng">Oil wells</topic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Buzzards Bay (Mass. : Bay)</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Cape Cod Bay (Mass.)</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Casco Bay (Me.)</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4831725/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Connecticut</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4971068/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Maine</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Maine, Gulf of</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Massachusetts Bay (Mass.)</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/6254926/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Massachusetts</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Nantucket Sound (Mass.)</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5090174/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">New Hampshire</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5128638/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">New York (State)</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Penobscot Bay (Me.)</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Rhode Island Sound (Mass. and R.I.)</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/5224323/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Rhode Island</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Long Island Sound (N.Y. and Conn.)</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Vineyard Sound (Mass.)</geographic>
-  </subject>
-  <subject>
-    <temporal encoding="w3cdtf">2005-2008</temporal>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="environment">Environment</topic>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="oceans">Oceans</topic>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="planningCadastre">Planning and Cadastral</topic>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="utilitiesCommunication">Utilities and Communication</topic>
-  </subject>
-  <location>
-    <url>http://purl.stanford.edu/wf286zv9007</url>
-  </location>
-  <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:wf286zv9007</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
-    <languageOfCataloging>
-      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-    </languageOfCataloging>
-  </recordInfo>
-  <extension displayLabel="geo">
-    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="http://purl.stanford.edu/wf286zv9007">
-        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
-        <dc:type>Dataset#Polygon</dc:type>
-        <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-74.0 37.0</gml:lowerCorner>
-            <gml:upperCorner>-65.0 44.769023</gml:upperCorner>
-          </gml:Envelope>
-        </gml:boundedBy>
-      </rdf:Description>
-    </rdf:RDF>
-  </extension>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>W 74°--W 65°/N 44°46ʹ8ʺ--N 37°</coordinates>
-    </cartographics>
-  </subject>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
-  <relatedItem type="host">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
     <titleInfo>
-      <title>Northeast Ocean Data : Maps and data for ocean planning in the northeastern United States</title>
+      <title>Outer Continental Shelf Lease Blocks, Northeast United States, 2007</title>
     </titleInfo>
+    <name type="corporate">
+      <namePart>United States. Department of Commerce</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <name type="corporate">
+      <namePart>United States. National Oceanic and Atmospheric Administration</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <name type="corporate">
+      <namePart>United States. National Ocean Service</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+    <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
+    <typeOfResource>cartographic</typeOfResource>
+    <typeOfResource>software, multimedia</typeOfResource>
+    <physicalDescription>
+      <form>Shapefile</form>
+      <extent>4.002</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+    </physicalDescription>
+    <language>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </language>
+    <abstract lang="eng" displayLabel="Abstract">This polygon shapefile contains outer continental shelf (OCS) lease blocks in the northeast region. OCS blocks are used to define small geographic areas within an Official Protraction Diagram (OPD) for leasing and administrative purposes. These blocks have been clipped along the Submerged Lands Act (SLA) boundary and along the Continental Shelf Boundaries. Because GIS projection and topology functions can change or generalize coordinates, and because shapefiles can not represent true arcs, these GIS files are considered to be approximate and are NOT an OFFICIAL record for the exact block coordinates or areas. The Official Protraction Diagrams (OPDs) and Supplemental Official Block Diagrams (SOBDs) serve as the legal definition for BOEMRE offshore boundary coordinates and area descriptions.</abstract>
+    <abstract lang="eng" displayLabel="Purpose">To support coastal planning and other activities pursuant to the Coastal Zone Management Act, Energy Policy Act, Magnuson-Stevens Fishery Conservation and Management Act, National Environmental Policy Act, Rivers and Harbors Act and the Submerged Lands Act.</abstract>
+    <note lang="eng" displayLabel="Preferred citation">U.S. Department of Commerce, U.S. National Ocean Service, and U.S. National Oceanic and Atmospheric Administration. (2011). Outer Continental Shelf Lease Blocks, Northeast United States, 2007. U.S. National Ocean Service. Available at: http://purl.stanford.edu/wf286zv9007.</note>
+    <note displayLabel="Use limitation">None</note>
+    <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+    <subject authority="lcsh" lang="eng">
+      <topic>Offshore gas</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic>Oil and gas leases</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic>Oil wells</topic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Buzzards Bay (Mass. : Bay)</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Cape Cod Bay (Mass.)</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Casco Bay (Me.)</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4831725/">Connecticut</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4971068/">Maine</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Maine, Gulf of</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Massachusetts Bay (Mass.)</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/6254926/">Massachusetts</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Nantucket Sound (Mass.)</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5090174/">New Hampshire</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5128638/">New York (State)</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Penobscot Bay (Me.)</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Rhode Island Sound (Mass. and R.I.)</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/5224323/">Rhode Island</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Long Island Sound (N.Y. and Conn.)</geographic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Vineyard Sound (Mass.)</geographic>
+    </subject>
+    <subject>
+      <temporal encoding="w3cdtf">2005-2008</temporal>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="environment">Environment</topic>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="oceans">Oceans</topic>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="planningCadastre">Planning and Cadastral</topic>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="utilitiesCommunication">Utilities and Communication</topic>
+    </subject>
+    <subject>
+      <cartographics>
+        <scale>Scale not given.</scale>
+        <projection>EPSG::4269</projection>
+        <coordinates>W 74°--W 65°/N 44°46ʹ8ʺ--N 37°</coordinates>
+      </cartographics>
+    </subject>
+    <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+      <cartographics>
+        <projection>EPSG::4326</projection>
+      </cartographics>
+    </subject>
+    <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+      <publisher>United States. National Ocean Service</publisher>
+    </originInfo>
     <location>
-      <url>https://purl.stanford.edu/sg639pq7229</url>
+      <url usage="primary display">https://purl.stanford.edu/wf286zv9007</url>
     </location>
-    <typeOfResource collection="yes"/>
-  </relatedItem>
-  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
-</mods>
+    <recordInfo>
+      <languageOfCataloging>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </languageOfCataloging>
+      <recordContentSource>Stanford</recordContentSource>
+      <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+      <recordIdentifier>edu.stanford.purl:wf286zv9007</recordIdentifier>
+    </recordInfo>
+    <extension displayLabel="geo">
+      <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description rdf:about="http://purl.stanford.edu/wf286zv9007">
+          <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+          <dc:type>Dataset#Polygon</dc:type>
+          <gml:boundedBy>
+            <gml:Envelope gml:srsName="EPSG:4326">
+              <gml:lowerCorner>-74.0 37.0</gml:lowerCorner>
+              <gml:upperCorner>-65.0 44.769023</gml:upperCorner>
+            </gml:Envelope>
+          </gml:boundedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </extension>
+    <relatedItem type="host">
+      <titleInfo>
+        <title>Northeast Ocean Data : Maps and data for ocean planning in the northeastern United States</title>
+      </titleInfo>
+      <location>
+        <url>https://purl.stanford.edu/sg639pq7229</url>
+      </location>
+      <typeOfResource collection="yes"/>
+    </relatedItem>
+    <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+    <accessCondition type="copyright">This work is in the Public Domain, meaning that it is not subject to copyright.</accessCondition>
+  </mods>

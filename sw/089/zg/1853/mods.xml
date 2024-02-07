@@ -1,93 +1,92 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
-  <titleInfo>
-    <title>Fire Districts, Placer County, California, 2020</title>
-  </titleInfo>
-  <name type="corporate">
-    <namePart>Placer County Geographic Information Systems</namePart>
-    <role>
-      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-    </role>
-  </name>
-  <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
-  <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
-  <typeOfResource>cartographic</typeOfResource>
-  <typeOfResource>software, multimedia</typeOfResource>
-  <physicalDescription>
-    <form>Shapefile</form>
-    <extent>0.986</extent>
-    <digitalOrigin>born digital</digitalOrigin>
-  </physicalDescription>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
-  <abstract lang="eng" displayLabel="Abstract">Local fire districts and fire responsibility areas in Placer County California. This data set defines boundaries of local, state and federal fire responsibility areas and fire districts. This data is updated on an as-needed basis. This layer is part of a collection of public geospatial datasets produced by the Placer County GIS Division.</abstract>
-  <note lang="eng" displayLabel="Preferred citation">Placer County Geographic Information Systems. (2020). Fire Districts, Placer County, California, 2020. Placer County Geographic Information Systems. Available at: https://purl.stanford.edu/sw089zg1853</note>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
-  <subject authority="lcsh" lang="eng">
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Fire protection districts</topic>
-  </subject>
-  <subject lang="eng">
-    <geographic>Placer County (Calif.)</geographic>
-  </subject>
-  <subject>
-    <temporal encoding="w3cdtf">2020</temporal>
-  </subject>
-  <subject authority="ISO19115TopicCategory">
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
-  </subject>
-  <subject>
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>Custom projection</projection>
-      <coordinates>W 121°29ʹ4ʺ--W 120°19ʺ/N 39°19ʹ--N 38°42ʹ47ʺ</coordinates>
-    </cartographics>
-  </subject>
-  <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
-    <cartographics>
-      <projection>EPSG::4326</projection>
-    </cartographics>
-  </subject>
-  <originInfo>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
-    <place>
-      <placeTerm type="text">Auburn, Calif., US</placeTerm>
-    </place>
-    <publisher>Placer County Geographic Information Systems</publisher>
-  </originInfo>
-  <location>
-    <url usage="primary display">https://purl.stanford.edu/sw089zg1853</url>
-  </location>
-  <recordInfo>
-    <languageOfCataloging>
-      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-    </languageOfCataloging>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
-    <recordIdentifier>edu.stanford.purl:sw089zg1853</recordIdentifier>
-  </recordInfo>
-  <extension displayLabel="geo">
-    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="http://purl.stanford.edu/sw089zg1853">
-        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
-        <dc:type>Dataset#Polygon</dc:type>
-        <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-121.484371 38.712963</gml:lowerCorner>
-            <gml:upperCorner>-120.00514 39.316619</gml:upperCorner>
-          </gml:Envelope>
-        </gml:boundedBy>
-      </rdf:Description>
-    </rdf:RDF>
-  </extension>
-  <relatedItem type="host">
     <titleInfo>
-      <title>Placer County, California, GIS Maps and Data</title>
+      <title>Fire Districts, Placer County, California, 2020</title>
     </titleInfo>
+    <name type="corporate">
+      <namePart>Placer County Geographic Information Systems</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+    <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
+    <typeOfResource>cartographic</typeOfResource>
+    <typeOfResource>software, multimedia</typeOfResource>
+    <physicalDescription>
+      <form>Shapefile</form>
+      <extent>0.986</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+    </physicalDescription>
+    <language>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </language>
+    <abstract lang="eng" displayLabel="Abstract">Local fire districts and fire responsibility areas in Placer County California. This data set defines boundaries of local, state and federal fire responsibility areas and fire districts. This data is updated on an as-needed basis. This layer is part of a collection of public geospatial datasets produced by the Placer County GIS Division.</abstract>
+    <note lang="eng" displayLabel="Preferred citation">Placer County Geographic Information Systems. (2020). Fire Districts, Placer County, California, 2020. Placer County Geographic Information Systems. Available at: https://purl.stanford.edu/sw089zg1853</note>
+    <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Fire protection districts</topic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Placer County (Calif.)</geographic>
+    </subject>
+    <subject>
+      <temporal encoding="w3cdtf">2020</temporal>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
+    </subject>
+    <subject>
+      <cartographics>
+        <scale>Scale not given.</scale>
+        <projection>Custom projection</projection>
+        <coordinates>W 121°29ʹ4ʺ--W 120°19ʺ/N 39°19ʹ--N 38°42ʹ47ʺ</coordinates>
+      </cartographics>
+    </subject>
+    <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+      <cartographics>
+        <projection>EPSG::4326</projection>
+      </cartographics>
+    </subject>
+    <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+      <place>
+        <placeTerm type="text">Auburn, Calif., US</placeTerm>
+      </place>
+      <publisher>Placer County Geographic Information Systems</publisher>
+    </originInfo>
     <location>
-      <url>https://purl.stanford.edu/dm792cm7155</url>
+      <url usage="primary display">https://purl.stanford.edu/sw089zg1853</url>
     </location>
-    <typeOfResource collection="yes"/>
-  </relatedItem>
-  <accessCondition type="useAndReproduction">Please acknowledge the data producer as the source when data are used in the preparation of reports, papers, publications, maps, or other products. These data are made available as a public resource of general information for use "as is" with the understanding that it is not guaranteed to be accurate, correct or complete and any conclusions drawn from such information are the sole responsibility of the user. The data provider assumes no responsibility for errors or omissions, and explicitly disclaims any representations and warranties, including, without limitation, the implied warranties of merchantability and fitness for a particular purpose.</accessCondition>
-</mods>
+    <recordInfo>
+      <languageOfCataloging>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </languageOfCataloging>
+      <recordContentSource>Stanford</recordContentSource>
+      <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+      <recordIdentifier>edu.stanford.purl:sw089zg1853</recordIdentifier>
+    </recordInfo>
+    <extension displayLabel="geo">
+      <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description rdf:about="http://purl.stanford.edu/sw089zg1853">
+          <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+          <dc:type>Dataset#Polygon</dc:type>
+          <gml:boundedBy>
+            <gml:Envelope gml:srsName="EPSG:4326">
+              <gml:lowerCorner>-121.484371 38.712963</gml:lowerCorner>
+              <gml:upperCorner>-120.00514 39.316619</gml:upperCorner>
+            </gml:Envelope>
+          </gml:boundedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </extension>
+    <relatedItem type="host">
+      <titleInfo>
+        <title>Placer County, California, GIS Maps and Data</title>
+      </titleInfo>
+      <location>
+        <url>https://purl.stanford.edu/dm792cm7155</url>
+      </location>
+      <typeOfResource collection="yes"/>
+    </relatedItem>
+    <accessCondition type="useAndReproduction">Please acknowledge the data producer as the source when data are used in the preparation of reports, papers, publications, maps, or other products. These data are made available as a public resource of general information for use "as is" with the understanding that it is not guaranteed to be accurate, correct or complete and any conclusions drawn from such information are the sole responsibility of the user. The data provider assumes no responsibility for errors or omissions, and explicitly disclaims any representations and warranties, including, without limitation, the implied warranties of merchantability and fitness for a particular purpose.</accessCondition>
+  </mods>

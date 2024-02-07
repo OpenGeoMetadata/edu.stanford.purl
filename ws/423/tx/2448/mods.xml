@@ -1,94 +1,93 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
-  <titleInfo>
-    <title>California High Hazard Zones (Tier 2), 2019</title>
-  </titleInfo>
-  <name type="corporate">
-    <namePart>Fire and Resource Assessment Program (Calif.)</namePart>
-    <role>
-      <roleTerm authority="marcrelator" type="text">creator</roleTerm>
-    </role>
-  </name>
-  <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
-  <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
-  <typeOfResource>cartographic</typeOfResource>
-  <typeOfResource>software, multimedia</typeOfResource>
-  <physicalDescription>
-    <form>Shapefile</form>
-    <extent>58.013</extent>
-    <digitalOrigin>born digital</digitalOrigin>
-  </physicalDescription>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
-  <abstract lang="eng" displayLabel="Abstract">On October 30, 2015 Governor Brown issued an emergency declaration requiring public agencies to identify areas of tree mortality that hold the greatest potential to result in wildfire and/or falling trees and threaten people and property in these areas. Once identified, these areas will be prioritized for removal of dead and dying trees that present a threat to public safety. Tier Two high hazard zones are defined by watersheds (HUC 12, average 24,000 acres) that have significant tree mortality as well as significant community and natural resource assets. Work at the Tier Two level addresses the immediate threat of falling trees and fire risk, and also supports broader forest health and landscape level fire planning issues. This service represents the latest official release of HHZ. It will be updated annually when a new version is released. As of June 2019, it represents HighHazardZones19_1.</abstract>
-  <note lang="eng" displayLabel="Preferred citation">Fire and Resource Assessment Program (Calif.). (2019). California High Hazard Zones (Tier 2), 2019. Fire and Resource Assessment Program (Calif.). Available at: https://purl.stanford.edu/ws423tx2448</note>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
-  <subject authority="lcsh" lang="eng">
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Fire risk assessment</topic>
-  </subject>
-  <subject authority="lcsh" lang="eng">
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Trees</topic>
-  </subject>
-  <subject authority="geonames" lang="eng">
-    <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/3687919/">California</geographic>
-  </subject>
-  <subject>
-    <temporal encoding="w3cdtf">2019</temporal>
-  </subject>
-  <subject authority="ISO19115TopicCategory">
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="environment">Environment</topic>
-  </subject>
-  <subject>
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>Custom projection</projection>
-      <coordinates>W 124°18ʹ44ʺ--W 115°15ʹ39ʺ/N 42°10ʹ39ʺ--N 32°33ʹ16ʺ</coordinates>
-    </cartographics>
-  </subject>
-  <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
-    <cartographics>
-      <projection>EPSG::4326</projection>
-    </cartographics>
-  </subject>
-  <originInfo>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
-    <publisher>Fire and Resource Assessment Program (Calif.)</publisher>
-    <edition>19_1</edition>
-  </originInfo>
-  <location>
-    <url usage="primary display">https://purl.stanford.edu/ws423tx2448</url>
-  </location>
-  <recordInfo>
-    <languageOfCataloging>
-      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-    </languageOfCataloging>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
-    <recordIdentifier>edu.stanford.purl:ws423tx2448</recordIdentifier>
-  </recordInfo>
-  <extension displayLabel="geo">
-    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="http://purl.stanford.edu/ws423tx2448">
-        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
-        <dc:type>Dataset#Polygon</dc:type>
-        <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-124.312316 32.554462</gml:lowerCorner>
-            <gml:upperCorner>-115.260959 42.17742</gml:upperCorner>
-          </gml:Envelope>
-        </gml:boundedBy>
-      </rdf:Description>
-    </rdf:RDF>
-  </extension>
-  <relatedItem type="host">
     <titleInfo>
-      <title>California Department of Forestry and Fire Protection, GIS Maps &amp; Data</title>
+      <title>California High Hazard Zones (Tier 2), 2019</title>
     </titleInfo>
+    <name type="corporate">
+      <namePart>Fire and Resource Assessment Program (Calif.)</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+    <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
+    <typeOfResource>cartographic</typeOfResource>
+    <typeOfResource>software, multimedia</typeOfResource>
+    <physicalDescription>
+      <form>Shapefile</form>
+      <extent>58.013</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+    </physicalDescription>
+    <language>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </language>
+    <abstract lang="eng" displayLabel="Abstract">On October 30, 2015 Governor Brown issued an emergency declaration requiring public agencies to identify areas of tree mortality that hold the greatest potential to result in wildfire and/or falling trees and threaten people and property in these areas. Once identified, these areas will be prioritized for removal of dead and dying trees that present a threat to public safety. Tier Two high hazard zones are defined by watersheds (HUC 12, average 24,000 acres) that have significant tree mortality as well as significant community and natural resource assets. Work at the Tier Two level addresses the immediate threat of falling trees and fire risk, and also supports broader forest health and landscape level fire planning issues. This service represents the latest official release of HHZ. It will be updated annually when a new version is released. As of June 2019, it represents HighHazardZones19_1.</abstract>
+    <note lang="eng" displayLabel="Preferred citation">Fire and Resource Assessment Program (Calif.). (2019). California High Hazard Zones (Tier 2), 2019. Fire and Resource Assessment Program (Calif.). Available at: https://purl.stanford.edu/ws423tx2448</note>
+    <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Fire risk assessment</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Trees</topic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/3687919/">California</geographic>
+    </subject>
+    <subject>
+      <temporal encoding="w3cdtf">2019</temporal>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="environment">Environment</topic>
+    </subject>
+    <subject>
+      <cartographics>
+        <scale>Scale not given.</scale>
+        <projection>Custom projection</projection>
+        <coordinates>W 124°18ʹ44ʺ--W 115°15ʹ39ʺ/N 42°10ʹ39ʺ--N 32°33ʹ16ʺ</coordinates>
+      </cartographics>
+    </subject>
+    <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+      <cartographics>
+        <projection>EPSG::4326</projection>
+      </cartographics>
+    </subject>
+    <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+      <publisher>Fire and Resource Assessment Program (Calif.)</publisher>
+      <edition>19_1</edition>
+    </originInfo>
     <location>
-      <url>https://purl.stanford.edu/ng146rv3289</url>
+      <url usage="primary display">https://purl.stanford.edu/ws423tx2448</url>
     </location>
-    <typeOfResource collection="yes"/>
-  </relatedItem>
-  <accessCondition type="useAndReproduction">The State of California and the Department of Forestry and Fire Protection make no representations or warranties regarding the accuracy of data or maps. Neither the State nor the Department shall be liable under any circumstances for any direct, special, incidental, or consequential damages with respect to any claim by any user or third party on account of or arising from the use of data or maps.</accessCondition>
-</mods>
+    <recordInfo>
+      <languageOfCataloging>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </languageOfCataloging>
+      <recordContentSource>Stanford</recordContentSource>
+      <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+      <recordIdentifier>edu.stanford.purl:ws423tx2448</recordIdentifier>
+    </recordInfo>
+    <extension displayLabel="geo">
+      <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description rdf:about="http://purl.stanford.edu/ws423tx2448">
+          <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+          <dc:type>Dataset#Polygon</dc:type>
+          <gml:boundedBy>
+            <gml:Envelope gml:srsName="EPSG:4326">
+              <gml:lowerCorner>-124.312316 32.554462</gml:lowerCorner>
+              <gml:upperCorner>-115.260959 42.17742</gml:upperCorner>
+            </gml:Envelope>
+          </gml:boundedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </extension>
+    <relatedItem type="host">
+      <titleInfo>
+        <title>California Department of Forestry and Fire Protection, GIS Maps &amp; Data</title>
+      </titleInfo>
+      <location>
+        <url>https://purl.stanford.edu/ng146rv3289</url>
+      </location>
+      <typeOfResource collection="yes"/>
+    </relatedItem>
+    <accessCondition type="useAndReproduction">The State of California and the Department of Forestry and Fire Protection make no representations or warranties regarding the accuracy of data or maps. Neither the State nor the Department shall be liable under any circumstances for any direct, special, incidental, or consequential damages with respect to any claim by any user or third party on account of or arising from the use of data or maps.</accessCondition>
+  </mods>

@@ -1,102 +1,101 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-  <titleInfo>
-    <title>1-Nautical Mile Boundary, Channel Islands, California, 2001</title>
-  </titleInfo>
-  <name type="corporate">
-    <namePart>California. Department of Fish and Game. Marine Resources Region</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <typeOfResource>cartographic</typeOfResource>
-  <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>California. Department of Fish and Game. Marine Resources Region</publisher>
-    <place>
-      <placeTerm type="text">Monterey, CA, US</placeTerm>
-    </place>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
-    <edition>First</edition>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
-  <physicalDescription>
-    <form>Shapefile</form>
-    <extent>0.218</extent>
-    <digitalOrigin>born digital</digitalOrigin>
-  </physicalDescription>
-  <subject>
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>Custom projection</projection>
-      <coordinates>(W 120°28ʹ22ʺ--W 118°16ʹ/N 34°5ʹ40ʺ--N 32°46ʹ56ʺ)</coordinates>
-    </cartographics>
-  </subject>
-  <abstract displayLabel="Abstract" lang="eng">This line shapefile represents a 1 nautical mile buffer around the Channel Islands in California. This layer does not include some existing nearshore rocks that are not represented in the source data. This layer is part of a collection of data created by the California Department of Fish and Game.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">This layer can be used to represent a 1 nautical mile boundary around the California Channel Islands</abstract>
-  <note displayLabel="Preferred citation" lang="eng">California Department of Fish and Game. Marine Resources Region. (2004). 1-Nautical Mile Boundary, Channel Islands, California, 2001. California Department of Fish and Game. Available at: http://purl.stanford.edu/mg465bt4832.</note>
-  <note displayLabel="Supplemental information">accuracy is only as good as the source data 'channel_islands.shp'</note>
-  <note displayLabel="Use limitation">None.</note>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Islands</topic>
-  </subject>
-  <subject>
-    <geographic lang="eng">Channel Islands (Calif.)</geographic>
-  </subject>
-  <subject>
-    <temporal encoding="w3cdtf">2001</temporal>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="oceans">Oceans</topic>
-  </subject>
-  <location>
-    <url>http://purl.stanford.edu/mg465bt4832</url>
-  </location>
-  <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:mg465bt4832</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
-    <languageOfCataloging>
-      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-    </languageOfCataloging>
-  </recordInfo>
-  <extension displayLabel="geo">
-    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="http://purl.stanford.edu/mg465bt4832">
-        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
-        <dc:type>Dataset#LineString</dc:type>
-        <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-120.472524 32.784041</gml:lowerCorner>
-            <gml:upperCorner>-118.283271 34.094378</gml:upperCorner>
-          </gml:Envelope>
-        </gml:boundedBy>
-      </rdf:Description>
-    </rdf:RDF>
-  </extension>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>W 120°28ʹ21ʺ--W 118°17ʹ/N 34°5ʹ40ʺ--N 32°47ʹ3ʺ</coordinates>
-    </cartographics>
-  </subject>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
-  <relatedItem type="host">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
     <titleInfo>
-      <title>California Department of Fish and Wildlife GIS Maps &amp; Data</title>
+      <title>1-Nautical Mile Boundary, Channel Islands, California, 2001</title>
     </titleInfo>
+    <name type="corporate">
+      <namePart>California. Department of Fish and Game. Marine Resources Region</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+    <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
+    <typeOfResource>cartographic</typeOfResource>
+    <typeOfResource>software, multimedia</typeOfResource>
+    <physicalDescription>
+      <form>Shapefile</form>
+      <extent>0.218</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+    </physicalDescription>
+    <language>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </language>
+    <abstract lang="eng" displayLabel="Abstract">This line shapefile represents a 1 nautical mile buffer around the Channel Islands in California. This layer does not include some existing nearshore rocks that are not represented in the source data. This layer is part of a collection of data created by the California Department of Fish and Game.</abstract>
+    <abstract lang="eng" displayLabel="Purpose">This layer can be used to represent a 1 nautical mile boundary around the California Channel Islands</abstract>
+    <note lang="eng" displayLabel="Preferred citation">California Department of Fish and Game. Marine Resources Region. (2004). 1-Nautical Mile Boundary, Channel Islands, California, 2001. California Department of Fish and Game. Available at: http://purl.stanford.edu/mg465bt4832.</note>
+    <note displayLabel="Supplemental information">accuracy is only as good as the source data 'channel_islands.shp'</note>
+    <note displayLabel="Use limitation">None.</note>
+    <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Islands</topic>
+    </subject>
+    <subject lang="eng">
+      <geographic>Channel Islands (Calif.)</geographic>
+    </subject>
+    <subject>
+      <temporal encoding="w3cdtf">2001</temporal>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="oceans">Oceans</topic>
+    </subject>
+    <subject>
+      <cartographics>
+        <scale>Scale not given.</scale>
+        <projection>Custom projection</projection>
+        <coordinates>W 120°28ʹ22ʺ--W 118°16ʹ/N 34°5ʹ40ʺ--N 32°46ʹ56ʺ</coordinates>
+        <coordinates>W 120°28ʹ21ʺ--W 118°17ʹ/N 34°5ʹ40ʺ--N 32°47ʹ3ʺ</coordinates>
+      </cartographics>
+    </subject>
+    <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+      <cartographics>
+        <projection>EPSG::4326</projection>
+      </cartographics>
+    </subject>
+    <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
+      <place>
+        <placeTerm type="text">Monterey, CA, US</placeTerm>
+      </place>
+      <publisher>California. Department of Fish and Game. Marine Resources Region</publisher>
+      <edition>First</edition>
+    </originInfo>
     <location>
-      <url>https://purl.stanford.edu/fb282pw3043</url>
+      <url usage="primary display">https://purl.stanford.edu/mg465bt4832</url>
     </location>
-    <typeOfResource collection="yes"/>
-  </relatedItem>
-  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
-</mods>
+    <recordInfo>
+      <languageOfCataloging>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </languageOfCataloging>
+      <recordContentSource>Stanford</recordContentSource>
+      <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+      <recordIdentifier>edu.stanford.purl:mg465bt4832</recordIdentifier>
+    </recordInfo>
+    <extension displayLabel="geo">
+      <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description rdf:about="http://purl.stanford.edu/mg465bt4832">
+          <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+          <dc:type>Dataset#LineString</dc:type>
+          <gml:boundedBy>
+            <gml:Envelope gml:srsName="EPSG:4326">
+              <gml:lowerCorner>-120.472524 32.784041</gml:lowerCorner>
+              <gml:upperCorner>-118.283271 34.094378</gml:upperCorner>
+            </gml:Envelope>
+          </gml:boundedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </extension>
+    <relatedItem type="host">
+      <titleInfo>
+        <title>California Department of Fish and Wildlife GIS Maps &amp; Data</title>
+      </titleInfo>
+      <location>
+        <url>https://purl.stanford.edu/fb282pw3043</url>
+      </location>
+      <typeOfResource collection="yes"/>
+    </relatedItem>
+    <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+    <accessCondition type="copyright">This work is in the Public Domain, meaning that it is not subject to copyright.</accessCondition>
+  </mods>

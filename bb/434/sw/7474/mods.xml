@@ -1,50 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-  <titleInfo>
-    <title>GAR15 Global Exposure Dataset for Saudi Arabia</title>
-  </titleInfo>
-  <name type="corporate">
-    <namePart>Global Resource Information Database</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <name type="corporate">
-    <namePart>United Nations. Office for Disaster Risk Reduction</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="local">Dataset</genre>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>United Nations. Office for Disaster Risk Reduction</publisher>
-    <place>
-      <placeTerm type="text">Geneva, CH</placeTerm>
-    </place>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
-  <physicalDescription>
-    <form>Shapefile</form>
-    <extent>0.556</extent>
-    <digitalOrigin>born digital</digitalOrigin>
-  </physicalDescription>
-  <subject>
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>Custom projection</projection>
-      <coordinates>(E 34°33ʹ45ʺ--E 55°23ʹ45ʺ/N 32°8ʹ15ʺ--N 16°25ʹ45ʺ)</coordinates>
-    </cartographics>
-  </subject>
-  <abstract displayLabel="Abstract" lang="eng">This point shapefile includes estimation on the economic value of the exposed assets in Saudi Arabia as well as their physical characteristics in urban and rural agglomerations including estimation of population too. This information is key to assess the potential damages from different hazards to each of the exposed elements. The global exposure database is developed at 1km spatial resolution at coastal areas and at 5km spatial resolution everywhere else on the globe. It includes economic value, number of residents, and construction type of residential, commercial and industrial buildings, as well as hospitals and schools. Accessing national census has proved to be quite challenging. For estimating the non- residential distributions, especially for the countries for which no relevant published census data were available, several other sources such as World Housing Encyclopedia as well as expert judgment are used to make assumptions necessary to estimate the properties of the building stock. Combining all the components mentioned above, the economic value of each building class in one cell is assessed based on the disaggregation of the (national) Produced Capital at grid level. This downscaling was done by using the sub-national values of economic activity as a proxy. The result is the global distribution of the economic value of the urban and rural produced capital by construction class. Further details on the GAR Global Exposure Dataset can be found in technical background papers (De Bono, et.al, 2015), (Tolis et al., 2013) and (Pesaresi, et.al, 2015)..</abstract>
-  <abstract displayLabel="Purpose" lang="eng">This dataset was generated using other global datasets; it should not be used for local applications (such as land use planning). The main purpose of GAR 2015 datasets is to broadly identify high risk areas at global level and for identification of areas where more detailed data should be collected. Some areas may be underestimated or overestimated. Given this analysis was conducted using global datasets, the resolution of which is not sufficient for in-situ planning, it should not be used for critical (like life saving) decisions. UNISDR and collaborators should in no case be liable for misuse or misinterpretation of the presented results. The designations employed and the presentation of material on the maps do not imply the expression of any opinion whatsoever on the part of UNISDR or the Secretariat of the United Nations concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">United Nations Office for Disaster Risk Reduction and Global Resource Information Database. (2015). GAR15 Global Exposure Dataset for Saudi Arabia.United Nations Office for Disaster Risk Reduction. Availabile at: http://purl.stanford.edu/bb434sw7474</note>
-  <note displayLabel="Supplemental information">Main components of the global exposure dataset:
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+    <titleInfo>
+      <title>GAR15 Global Exposure Dataset for Saudi Arabia</title>
+    </titleInfo>
+    <name type="corporate">
+      <namePart>Global Resource Information Database</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <name type="corporate">
+      <namePart>United Nations. Office for Disaster Risk Reduction</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <genre authority="local">Dataset</genre>
+    <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+    <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
+    <typeOfResource>software, multimedia</typeOfResource>
+    <physicalDescription>
+      <form>Shapefile</form>
+      <extent>0.556</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+    </physicalDescription>
+    <language>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </language>
+    <abstract lang="eng" displayLabel="Abstract">This point shapefile includes estimation on the economic value of the exposed assets in Saudi Arabia as well as their physical characteristics in urban and rural agglomerations including estimation of population too. This information is key to assess the potential damages from different hazards to each of the exposed elements. The global exposure database is developed at 1km spatial resolution at coastal areas and at 5km spatial resolution everywhere else on the globe. It includes economic value, number of residents, and construction type of residential, commercial and industrial buildings, as well as hospitals and schools. Accessing national census has proved to be quite challenging. For estimating the non- residential distributions, especially for the countries for which no relevant published census data were available, several other sources such as World Housing Encyclopedia as well as expert judgment are used to make assumptions necessary to estimate the properties of the building stock. Combining all the components mentioned above, the economic value of each building class in one cell is assessed based on the disaggregation of the (national) Produced Capital at grid level. This downscaling was done by using the sub-national values of economic activity as a proxy. The result is the global distribution of the economic value of the urban and rural produced capital by construction class. Further details on the GAR Global Exposure Dataset can be found in technical background papers (De Bono, et.al, 2015), (Tolis et al., 2013) and (Pesaresi, et.al, 2015)..</abstract>
+    <abstract lang="eng" displayLabel="Purpose">This dataset was generated using other global datasets; it should not be used for local applications (such as land use planning). The main purpose of GAR 2015 datasets is to broadly identify high risk areas at global level and for identification of areas where more detailed data should be collected. Some areas may be underestimated or overestimated. Given this analysis was conducted using global datasets, the resolution of which is not sufficient for in-situ planning, it should not be used for critical (like life saving) decisions. UNISDR and collaborators should in no case be liable for misuse or misinterpretation of the presented results. The designations employed and the presentation of material on the maps do not imply the expression of any opinion whatsoever on the part of UNISDR or the Secretariat of the United Nations concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries.</abstract>
+    <note lang="eng" displayLabel="Preferred citation">United Nations Office for Disaster Risk Reduction and Global Resource Information Database. (2015). GAR15 Global Exposure Dataset for Saudi Arabia.United Nations Office for Disaster Risk Reduction. Availabile at: http://purl.stanford.edu/bb434sw7474</note>
+    <note displayLabel="Supplemental information">Main components of the global exposure dataset:
 Reference Grid
 The so 5x5km reference grid for GAR global exposure dataset includes the whole earth land surface, comprising uninhabited land areas. In this way the reference Grid will be able to handle eventually future data on crops pastures and forest areas. The total number of cells of the grid is 9,008,829. Inhabited cells correspond to 4,574,010. The 5x5km grid size was the choice balancing three criteria of (a) satisfactory size to capture effects for large scale hazards such as earthquake and cyclones at global scale, (b) consistency with the openly available socio-economic datasets with national or global sources, (c) optimizing the computation time Another grid at 30” resolution (around 1x1 km at equator) was set in order to hold exposure data related to coastal areas. The grid was only built for a sector including the first 10 km of coast worldwide.
 Boundaries of built-up environment (using BUREF)
@@ -74,81 +59,93 @@ Socio economic indicators are used as proxies to estimate the use of the buildin
 Defining construction classes and distribution
 Once the density, values, and sectorial distribution of building stock in each cell are defined, the next step is to define the construction classes and the distribution of various construction classes in each grid.
 The World Agency of Planetary Monitoring &amp; Earthquake Risk Reduction (WAPMERR) gathered data on the sub-national distribution of building types for 18 countries using household data from national census as proxies. Countries selected include the largest heterogeneous ones (China, India and Indonesia) and represent 3.6 billion people, about 50% of the total population of the world. Data on characteristics of houses or households are given for residential/nonresidential groups and mainly divided in large urban small urban and rural areas classification. WAPMER developed the dataset for all countries using construction types defined by PAGER, a program of USGS.</note>
-  <note displayLabel="Use limitation">This dataset was generated using other global datasets; it should not be used for local applications (such as land use planning). The main purpose of GAR 2015 datasets is to broadly identify high risk areas at global level and for identification of areas where more detailed data should be collected. Some areas may be underestimated or overestimated. Given this analysis was conducted using global datasets, the resolution of which is not sufficient for in-situ planning, it should not be used for critical (like life saving) decisions. UNISDR and collaborators should in no case be liable for misuse or misinterpretation of the presented results. The designations employed and the presentation of material on the maps do not imply the expression of any opinion whatsoever on the part of UNISDR or the Secretariat of the United Nations concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries.</note>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Emergency management</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Education</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Population</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Housing</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Employment</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Risk assessment</topic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/102358/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Saudi Arabia</geographic>
-  </subject>
-  <subject>
-    <temporal encoding="w3cdtf">2015</temporal>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="society">Society</topic>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="economy">Economy</topic>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="health">Health</topic>
-  </subject>
-  <location>
-    <url>http://purl.stanford.edu/bb434sw7474</url>
-  </location>
-  <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:bb434sw7474</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
-    <languageOfCataloging>
-      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-    </languageOfCataloging>
-  </recordInfo>
-  <extension displayLabel="geo">
-    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="http://purl.stanford.edu/bb434sw7474">
-        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
-        <dc:type>Dataset#Point</dc:type>
-        <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>34.5625 16.429167</gml:lowerCorner>
-            <gml:upperCorner>55.395833 32.1375</gml:upperCorner>
-          </gml:Envelope>
-        </gml:boundedBy>
-      </rdf:Description>
-    </rdf:RDF>
-  </extension>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>E 34°33ʹ45ʺ--E 55°23ʹ45ʺ/N 32°8ʹ15ʺ--N 16°25ʹ45ʺ</coordinates>
-    </cartographics>
-  </subject>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
-  <relatedItem type="host">
-    <titleInfo>
-      <title>GAR15 Global Exposure Database</title>
-    </titleInfo>
+    <note displayLabel="Use limitation">This dataset was generated using other global datasets; it should not be used for local applications (such as land use planning). The main purpose of GAR 2015 datasets is to broadly identify high risk areas at global level and for identification of areas where more detailed data should be collected. Some areas may be underestimated or overestimated. Given this analysis was conducted using global datasets, the resolution of which is not sufficient for in-situ planning, it should not be used for critical (like life saving) decisions. UNISDR and collaborators should in no case be liable for misuse or misinterpretation of the presented results. The designations employed and the presentation of material on the maps do not imply the expression of any opinion whatsoever on the part of UNISDR or the Secretariat of the United Nations concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries.</note>
+    <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Emergency management</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Education</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Population</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Housing</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Employment</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Risk assessment</topic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/102358/">Saudi Arabia</geographic>
+    </subject>
+    <subject>
+      <temporal encoding="w3cdtf">2015</temporal>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="society">Society</topic>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="economy">Economy</topic>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="health">Health</topic>
+    </subject>
+    <subject>
+      <cartographics>
+        <scale>Scale not given.</scale>
+        <projection>Custom projection</projection>
+        <coordinates>E 34°33ʹ45ʺ--E 55°23ʹ45ʺ/N 32°8ʹ15ʺ--N 16°25ʹ45ʺ</coordinates>
+      </cartographics>
+    </subject>
+    <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+      <cartographics>
+        <projection>EPSG::4326</projection>
+      </cartographics>
+    </subject>
+    <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+      <place>
+        <placeTerm type="text">Geneva, CH</placeTerm>
+      </place>
+      <publisher>United Nations. Office for Disaster Risk Reduction</publisher>
+    </originInfo>
     <location>
-      <url>https://purl.stanford.edu/fs274ns2204</url>
+      <url usage="primary display">https://purl.stanford.edu/bb434sw7474</url>
     </location>
-    <typeOfResource collection="yes"/>
-  </relatedItem>
-  <accessCondition type="useAndReproduction">GAR 2015 datasets are available for free, for non-commercial purposes to governments, international organisations, universities, non-governmental organisations, the private sector and civil society according to this terms and conditions and the following disclaimers. This data can be downloaded and used for scientific and non-for-profit purposes without any specific permission. It is requested that these users cite the references accordingly in their publications. We would, however, appreciate if users of this data let us know how it was used and to receive a copy of or link to any related publication in order to better identify the needs of our users. For commercial applications please contact the nited Nations Office for Disaster Risk Reduction.</accessCondition>
-</mods>
+    <recordInfo>
+      <languageOfCataloging>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </languageOfCataloging>
+      <recordContentSource>Stanford</recordContentSource>
+      <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+      <recordIdentifier>edu.stanford.purl:bb434sw7474</recordIdentifier>
+    </recordInfo>
+    <extension displayLabel="geo">
+      <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description rdf:about="http://purl.stanford.edu/bb434sw7474">
+          <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+          <dc:type>Dataset#Point</dc:type>
+          <gml:boundedBy>
+            <gml:Envelope gml:srsName="EPSG:4326">
+              <gml:lowerCorner>34.5625 16.429167</gml:lowerCorner>
+              <gml:upperCorner>55.395833 32.1375</gml:upperCorner>
+            </gml:Envelope>
+          </gml:boundedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </extension>
+    <relatedItem type="host">
+      <titleInfo>
+        <title>GAR15 Global Exposure Database</title>
+      </titleInfo>
+      <location>
+        <url>https://purl.stanford.edu/fs274ns2204</url>
+      </location>
+      <typeOfResource collection="yes"/>
+    </relatedItem>
+    <accessCondition type="useAndReproduction">GAR 2015 datasets are available for free, for non-commercial purposes to governments, international organisations, universities, non-governmental organisations, the private sector and civil society according to this terms and conditions and the following disclaimers. This data can be downloaded and used for scientific and non-for-profit purposes without any specific permission. It is requested that these users cite the references accordingly in their publications. We would, however, appreciate if users of this data let us know how it was used and to receive a copy of or link to any related publication in order to better identify the needs of our users. For commercial applications please contact the nited Nations Office for Disaster Risk Reduction.</accessCondition>
+  </mods>

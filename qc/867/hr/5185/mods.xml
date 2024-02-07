@@ -1,127 +1,131 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-  <titleInfo>
-    <title>U.S. Marine Protected Area Boundaries: MPA Inventory, 2010</title>
-  </titleInfo>
-  <name type="corporate">
-    <namePart>United States. Office of Ocean and Coastal Resource Management</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <name type="corporate">
-    <namePart>National Marine Protected Areas Center (U.S.)</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <name type="corporate">
-    <namePart>United States. Department of Commerce</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <name type="corporate">
-    <namePart>United States. National Oceanic and Atmospheric Administration</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <typeOfResource>cartographic</typeOfResource>
-  <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>National Marine Protected Areas Center (U.S.)</publisher>
-    <place>
-      <placeTerm type="text">Monterey, CA, US</placeTerm>
-    </place>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
-    <dateValid encoding="w3cdtf">2010</dateValid>
-    <edition>v2</edition>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
-  <physicalDescription>
-    <form>Shapefile</form>
-    <extent>122.083</extent>
-    <digitalOrigin>born digital</digitalOrigin>
-  </physicalDescription>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>(W 180°--E 180°/N 70°19ʹ46ʺ--S 15°23ʹ10ʺ)</coordinates>
-    </cartographics>
-  </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile represents the Marine Protected Areas inventory as of March 2010. The MPA Inventory is a comprehensive geospatial database that provides detailed information for existing marine protected areas in the United States. The inventory provides geospatial boundary information (in polygon format) and classification attributes that seek to define the conservation objectives, protection level, governance and related management criteria for all sites in the database. The comprehensive inventory of federal, state and territorial MPA sites provides governments and stakeholders with access to information to make better decisions about the current and future use of place-based conservation. The information also will be used to inform the development of the national system of marine protected areas as required by Executive Order 13158.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">The inventory represents a collection of data compiled from various federal, state, tribal and territorial entities to provide a publicly available source of comprehensive information on place-based marine conservation efforts under U.S. federal, state, territorial, local, and tribal jurisdiction.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">NOAA Marine Protected Areas Center in joint effort with the US Department of the Interior. U.S. Marine Protected Area Boundaries: MPA Inventory, 2010. Available at: http://purl.stanford.edu/qc867hr5185.</note>
-  <note displayLabel="Supplemental information">This dataset consists of original boundaries as represented by the managing agencies, including any terrestrial components of the protected areas. Only the sub-tidal components of the areas meet the definition of an MPA. Version Notes: This version contains boundaries for all sites from authoritative sources as updated between 6/2009-12/2009. New data have been added for multiple states and territories, including Alaska, Florida, Maryland, North Carolina, New Hampshire, Ohio, Pennsylvania, US Virgin Islands and Wisconsin. Numerous shipwreck sites represented as latitude/longitude coordinate points were converted to polygons using a 300-meter radius buffer. NMFS sites have been verified against US Code of Federal Regulations.</note>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Marine habitat conservation</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Marine biodiversity conservation</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Marine resources conservation</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Marine parks and reserves</topic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/6252001/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">United States</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/6255149/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">North America</geographic>
-  </subject>
-  <subject>
-    <temporal encoding="w3cdtf">2010</temporal>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="location">Location</topic>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="oceans">Oceans</topic>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
-  </subject>
-  <location>
-    <url>http://purl.stanford.edu/qc867hr5185</url>
-  </location>
-  <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:qc867hr5185</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
-    <languageOfCataloging>
-      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-    </languageOfCataloging>
-  </recordInfo>
-  <extension displayLabel="geo">
-    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="http://purl.stanford.edu/qc867hr5185">
-        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
-        <dc:type>Dataset#Polygon</dc:type>
-        <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-180.0 -15.386142</gml:lowerCorner>
-            <gml:upperCorner>180.0 70.329403</gml:upperCorner>
-          </gml:Envelope>
-        </gml:boundedBy>
-      </rdf:Description>
-    </rdf:RDF>
-  </extension>
-  <relatedItem type="host">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
     <titleInfo>
-      <title>U.S. Marine Protected Area Boundaries : MPA Inventory</title>
+      <title>U.S. Marine Protected Area Boundaries: MPA Inventory, 2010</title>
     </titleInfo>
+    <name type="corporate">
+      <namePart>United States. Office of Ocean and Coastal Resource Management</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <name type="corporate">
+      <namePart>National Marine Protected Areas Center (U.S.)</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <name type="corporate">
+      <namePart>United States. Department of Commerce</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <name type="corporate">
+      <namePart>United States. National Oceanic and Atmospheric Administration</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+    <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
+    <typeOfResource>cartographic</typeOfResource>
+    <typeOfResource>software, multimedia</typeOfResource>
+    <physicalDescription>
+      <form>Shapefile</form>
+      <extent>122.083</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+    </physicalDescription>
+    <language>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </language>
+    <abstract lang="eng" displayLabel="Abstract">This polygon shapefile represents the Marine Protected Areas inventory as of March 2010. The MPA Inventory is a comprehensive geospatial database that provides detailed information for existing marine protected areas in the United States. The inventory provides geospatial boundary information (in polygon format) and classification attributes that seek to define the conservation objectives, protection level, governance and related management criteria for all sites in the database. The comprehensive inventory of federal, state and territorial MPA sites provides governments and stakeholders with access to information to make better decisions about the current and future use of place-based conservation. The information also will be used to inform the development of the national system of marine protected areas as required by Executive Order 13158.</abstract>
+    <abstract lang="eng" displayLabel="Purpose">The inventory represents a collection of data compiled from various federal, state, tribal and territorial entities to provide a publicly available source of comprehensive information on place-based marine conservation efforts under U.S. federal, state, territorial, local, and tribal jurisdiction.</abstract>
+    <note lang="eng" displayLabel="Preferred citation">NOAA Marine Protected Areas Center in joint effort with the US Department of the Interior. U.S. Marine Protected Area Boundaries: MPA Inventory, 2010. Available at: http://purl.stanford.edu/qc867hr5185.</note>
+    <note displayLabel="Supplemental information">This dataset consists of original boundaries as represented by the managing agencies, including any terrestrial components of the protected areas. Only the sub-tidal components of the areas meet the definition of an MPA. Version Notes: This version contains boundaries for all sites from authoritative sources as updated between 6/2009-12/2009. New data have been added for multiple states and territories, including Alaska, Florida, Maryland, North Carolina, New Hampshire, Ohio, Pennsylvania, US Virgin Islands and Wisconsin. Numerous shipwreck sites represented as latitude/longitude coordinate points were converted to polygons using a 300-meter radius buffer. NMFS sites have been verified against US Code of Federal Regulations.</note>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Marine habitat conservation</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Marine biodiversity conservation</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Marine resources conservation</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Marine parks and reserves</topic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/6252001/">United States</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/6255149/">North America</geographic>
+    </subject>
+    <subject>
+      <temporal encoding="w3cdtf">2010</temporal>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="location">Location</topic>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="oceans">Oceans</topic>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="boundaries">Boundaries</topic>
+    </subject>
+    <subject>
+      <cartographics>
+        <scale>Scale not given.</scale>
+        <coordinates>W 180°--E 180°/N 70°19ʹ46ʺ--S 15°23ʹ10ʺ</coordinates>
+      </cartographics>
+    </subject>
+    <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+      <cartographics>
+        <projection>EPSG::4326</projection>
+      </cartographics>
+    </subject>
+    <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+      <dateValid encoding="w3cdtf">2010</dateValid>
+      <place>
+        <placeTerm type="text">Monterey, CA, US</placeTerm>
+      </place>
+      <publisher>National Marine Protected Areas Center (U.S.)</publisher>
+      <edition>v2</edition>
+    </originInfo>
     <location>
-      <url>https://purl.stanford.edu/kp668dr9650</url>
+      <url usage="primary display">https://purl.stanford.edu/qc867hr5185</url>
     </location>
-    <typeOfResource collection="yes"/>
-  </relatedItem>
-  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
-</mods>
+    <recordInfo>
+      <languageOfCataloging>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </languageOfCataloging>
+      <recordContentSource>Stanford</recordContentSource>
+      <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+      <recordIdentifier>edu.stanford.purl:qc867hr5185</recordIdentifier>
+    </recordInfo>
+    <extension displayLabel="geo">
+      <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description rdf:about="http://purl.stanford.edu/qc867hr5185">
+          <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+          <dc:type>Dataset#Polygon</dc:type>
+          <gml:boundedBy>
+            <gml:Envelope gml:srsName="EPSG:4326">
+              <gml:lowerCorner>-180.0 -15.386142</gml:lowerCorner>
+              <gml:upperCorner>180.0 70.329403</gml:upperCorner>
+            </gml:Envelope>
+          </gml:boundedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </extension>
+    <relatedItem type="host">
+      <titleInfo>
+        <title>U.S. Marine Protected Area Boundaries : MPA Inventory</title>
+      </titleInfo>
+      <location>
+        <url>https://purl.stanford.edu/kp668dr9650</url>
+      </location>
+      <typeOfResource collection="yes"/>
+    </relatedItem>
+    <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+    <accessCondition type="copyright">This work is in the Public Domain, meaning that it is not subject to copyright.</accessCondition>
+  </mods>

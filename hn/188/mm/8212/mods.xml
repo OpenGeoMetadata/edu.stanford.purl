@@ -1,131 +1,130 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-  <titleInfo>
-    <title>Kelp Canopy: California, 2005</title>
-  </titleInfo>
-  <name type="corporate">
-    <namePart>California. Department of Fish and Game. Marine Resources Region</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <typeOfResource>cartographic</typeOfResource>
-  <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>California. Department of Fish and Game. Marine Resources Region</publisher>
-    <place>
-      <placeTerm type="text">Monterey, CA, US</placeTerm>
-    </place>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2006</dateIssued>
-    <dateValid encoding="w3cdtf">2005</dateValid>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
-  <physicalDescription>
-    <form>Shapefile</form>
-    <extent>52.351</extent>
-    <digitalOrigin>born digital</digitalOrigin>
-  </physicalDescription>
-  <subject>
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>Custom projection</projection>
-      <coordinates>(W 124°14ʹ36ʺ--W 116°46ʹ49ʺ/N 41°50ʹ12ʺ--N 32°32ʹ22ʺ)</coordinates>
-    </cartographics>
-  </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polygon shapefile was created mostly from Digital Multi-Spectral Video image files and some were converted to image files from JPEG files. These data represent the 2005 California Department of Fish and Wildlife (CDFW) Survey flown between August and November of 2005. The photographs were taken from 10,500 feet, utilizing the CDFW's two Partenavia aircraft. Surveys were planned to coincide with periods of minimal change between high and low tides to avoid strong tidal induced currents and flown during early morning or late afternoon to avoid glare from overhead sun. The data from Los Angeles Harbor to LaJolla was provided by the Region Nine Kelp Consortium. These data were collected on March 15 and June 22, 2005. These data are complete, although the user should note ommissions. The coverage was projected in Teale Albers North American Datum 1983. File reindexed to match CDFW administrative kelp bed boundaries modified by changes to California Code of Regulations, Title 14, Section 165, effective April 1, 2014.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">These data are used to assess the extent of kelp canopy resources along the coast of California.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">California Department of Fish and Wildlife Marine Resources Region. (2006). Kelp Canopy: California, 2005. California Department of Fish and Wildlife. Marine Resources Region. Available at: http://purl.stanford.edu/hn188mm8212.</note>
-  <note displayLabel="Supplemental information">***UPDATES*** The data were revised on 01-26-10. This revision removed misclassified kelp at Ellwood Pier north of Santa Barbara. This data were revised on 09-29-09. The revisions resulted in the removal of polygon overlap which increased overall kelp area 0.51 sq. mi. The overlap involved the following administrative beds: (a) South coast bed 30 (0.000589 sq. mi.), bed 101 (0.000006 sq. mi.), bed 103 (0.000078 sq. mi.), bed 105 (0.000066 sq. mi.), bed 112 (0.000039 sq. mi.), bed 114 (0.000001 sq. mi.), bed 115 (0.000025 sq. mi.), bed 117 (0.000985 sq. mi.) (b) Central coast bed 207 (0.353178 sq. mi.), bed 208 (0.000029 sq. mi.), bed 210 (0.000014 sq. mi.), bed 211 (0.000070 sq. mi.), bed 212 (0.067350 sq. mi.), bed 214 (0.056737 sq. mi.), bed 217 (0.000008 sq. mi.) (c) North central coast bed 304 (0.000920 sq. mi.) and bed 305 (0.027513 sq. mi.) In addition, the data were intersected with the administrative kelp beds. *** The area from Orange County through San Diego County was not photographed, except for Pt. Loma Kelp, which was photographed. The remaining sections were photographed under contract by The Regional Nine Kelp Consortium. Other areas not surveyed due to cloud cover include: Franklin Point, San Mateo County to Terrace Point, Santa Cruz County; Point Pinos, Monterey County to Cypress Point, Monterey County; City of Cambria, San Luis Opispo County to Point Estero, San Luis Opispo County; Point Arguello, Santa Barbara County to Point Conception, Santa Barbara County. This image file was created from Digital Multi-Spectral Video image files. The original .IMG files created by the DMSV were converted to .FXD files to assure spectral resolution and integrity by a batchfix MS-DOS program. The images were then imported into TNTMips software and georeferenced using DOQs from the United States Geological Survey. After the images had been georeferenced they were re sampled to a 2 meter cell size using a nearest neighbor method designed by Microimages Inc. Areas with a high glint factor (reflection from the sun on choppy water) were extracted to enhance the classification process. All of the images were then mosaiced based on an affine feathering method. The images were subsequently feature mapped and automatically classified to display areas of kelp. The resampled and classified image was then exported into a Arcview TIF file. The TIF file was converted into and Arcview shapefile format for display purposes using a weed tolerance of 1.35. The Region Nine Kelp Consortium data was converted for JPEG to IMG file format, then imported into TNT Mips software and processed in the same manner as the above DMSV data. DISCLAIMER The user is cautioned against making direct comparisons between the various kelp surveys for the following reasons: 1) Timing of the survey is important, particularly with respect to growing season conditions in the ocean, and storms and harvest levels preceding the dates of survey photography. Seasonal variability may account for differences in surveys, which may not reflect a change in the bed's extent, productivity, or harvest level. 2) Statistical significance in change of area should be evaluated. To do this, a variance parameter is needed, which is obtained by repeated measurements. Most of the coastline, however, has been surveyed only on six occasions (1967, 1989, 1999, 2002, 2003, 2004, 2005). 3) Survey methods have not been/may not be consistent. Some method of calibration between the methods needs to be performed in order to insure a change of area is not due to survey instrumentation, and not misinterpreted as a biological change. 4) An area where apparently no kelp data are present may truly represent an area devoid of kelp, or may represent an area where kelp was not detected due to poor photo quality, missing photo coverage, or other issues with data collection and processing. Photo coverage is extensive for the state, but the user is advised to consult the photo index for each year to determine whether photographs were acquired for an area of interest.</note>
-  <note displayLabel="Use limitation">These are public data. The Department of Fish and Wildlife must be credited with the collection, analysis and distribution of these data.</note>
-  <relatedItem type="isReferencedBy">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
     <titleInfo>
-      <title>California Department of Fish and Wildlife GIS Maps and Data</title>
+      <title>Kelp Canopy: California, 2005</title>
     </titleInfo>
-    <originInfo>
-      <dateIssued encoding="w3cdtf">2000</dateIssued>
-    </originInfo>
-  </relatedItem>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Coasts</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Marine habitats</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Kelps</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Algae</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Remote sensing</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Aerial surveys</topic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/3687919/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">California</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/8411083/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Pacific Ocean</geographic>
-  </subject>
-  <subject>
-    <temporal encoding="w3cdtf">2005</temporal>
-  </subject>
-  <subject>
-    <temporal encoding="w3cdtf">2005</temporal>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="biota">Biology and Ecology</topic>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="oceans">Oceans</topic>
-  </subject>
-  <location>
-    <url>http://purl.stanford.edu/hn188mm8212</url>
-  </location>
-  <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:hn188mm8212</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
-    <languageOfCataloging>
+    <name type="corporate">
+      <namePart>California. Department of Fish and Game. Marine Resources Region</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+    <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
+    <typeOfResource>cartographic</typeOfResource>
+    <typeOfResource>software, multimedia</typeOfResource>
+    <physicalDescription>
+      <form>Shapefile</form>
+      <extent>52.351</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+    </physicalDescription>
+    <language>
       <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-    </languageOfCataloging>
-  </recordInfo>
-  <extension displayLabel="geo">
-    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="http://purl.stanford.edu/hn188mm8212">
-        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
-        <dc:type>Dataset#Polygon</dc:type>
-        <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-124.240203 32.566496</gml:lowerCorner>
-            <gml:upperCorner>-117.150184 41.765546</gml:upperCorner>
-          </gml:Envelope>
-        </gml:boundedBy>
-      </rdf:Description>
-    </rdf:RDF>
-  </extension>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>W 124°14ʹ25ʺ--W 117°9ʹ1ʺ/N 41°45ʹ56ʺ--N 32°33ʹ59ʺ</coordinates>
-    </cartographics>
-  </subject>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
-  <relatedItem type="host">
-    <titleInfo>
-      <title>California Department of Fish and Wildlife GIS Maps &amp; Data</title>
-    </titleInfo>
+    </language>
+    <abstract lang="eng" displayLabel="Abstract">This polygon shapefile was created mostly from Digital Multi-Spectral Video image files and some were converted to image files from JPEG files. These data represent the 2005 California Department of Fish and Wildlife (CDFW) Survey flown between August and November of 2005. The photographs were taken from 10,500 feet, utilizing the CDFW's two Partenavia aircraft. Surveys were planned to coincide with periods of minimal change between high and low tides to avoid strong tidal induced currents and flown during early morning or late afternoon to avoid glare from overhead sun. The data from Los Angeles Harbor to LaJolla was provided by the Region Nine Kelp Consortium. These data were collected on March 15 and June 22, 2005. These data are complete, although the user should note ommissions. The coverage was projected in Teale Albers North American Datum 1983. File reindexed to match CDFW administrative kelp bed boundaries modified by changes to California Code of Regulations, Title 14, Section 165, effective April 1, 2014.</abstract>
+    <abstract lang="eng" displayLabel="Purpose">These data are used to assess the extent of kelp canopy resources along the coast of California.</abstract>
+    <note lang="eng" displayLabel="Preferred citation">California Department of Fish and Wildlife Marine Resources Region. (2006). Kelp Canopy: California, 2005. California Department of Fish and Wildlife. Marine Resources Region. Available at: http://purl.stanford.edu/hn188mm8212.</note>
+    <note displayLabel="Supplemental information">***UPDATES*** The data were revised on 01-26-10. This revision removed misclassified kelp at Ellwood Pier north of Santa Barbara. This data were revised on 09-29-09. The revisions resulted in the removal of polygon overlap which increased overall kelp area 0.51 sq. mi. The overlap involved the following administrative beds: (a) South coast bed 30 (0.000589 sq. mi.), bed 101 (0.000006 sq. mi.), bed 103 (0.000078 sq. mi.), bed 105 (0.000066 sq. mi.), bed 112 (0.000039 sq. mi.), bed 114 (0.000001 sq. mi.), bed 115 (0.000025 sq. mi.), bed 117 (0.000985 sq. mi.) (b) Central coast bed 207 (0.353178 sq. mi.), bed 208 (0.000029 sq. mi.), bed 210 (0.000014 sq. mi.), bed 211 (0.000070 sq. mi.), bed 212 (0.067350 sq. mi.), bed 214 (0.056737 sq. mi.), bed 217 (0.000008 sq. mi.) (c) North central coast bed 304 (0.000920 sq. mi.) and bed 305 (0.027513 sq. mi.) In addition, the data were intersected with the administrative kelp beds. *** The area from Orange County through San Diego County was not photographed, except for Pt. Loma Kelp, which was photographed. The remaining sections were photographed under contract by The Regional Nine Kelp Consortium. Other areas not surveyed due to cloud cover include: Franklin Point, San Mateo County to Terrace Point, Santa Cruz County; Point Pinos, Monterey County to Cypress Point, Monterey County; City of Cambria, San Luis Opispo County to Point Estero, San Luis Opispo County; Point Arguello, Santa Barbara County to Point Conception, Santa Barbara County. This image file was created from Digital Multi-Spectral Video image files. The original .IMG files created by the DMSV were converted to .FXD files to assure spectral resolution and integrity by a batchfix MS-DOS program. The images were then imported into TNTMips software and georeferenced using DOQs from the United States Geological Survey. After the images had been georeferenced they were re sampled to a 2 meter cell size using a nearest neighbor method designed by Microimages Inc. Areas with a high glint factor (reflection from the sun on choppy water) were extracted to enhance the classification process. All of the images were then mosaiced based on an affine feathering method. The images were subsequently feature mapped and automatically classified to display areas of kelp. The resampled and classified image was then exported into a Arcview TIF file. The TIF file was converted into and Arcview shapefile format for display purposes using a weed tolerance of 1.35. The Region Nine Kelp Consortium data was converted for JPEG to IMG file format, then imported into TNT Mips software and processed in the same manner as the above DMSV data. DISCLAIMER The user is cautioned against making direct comparisons between the various kelp surveys for the following reasons: 1) Timing of the survey is important, particularly with respect to growing season conditions in the ocean, and storms and harvest levels preceding the dates of survey photography. Seasonal variability may account for differences in surveys, which may not reflect a change in the bed's extent, productivity, or harvest level. 2) Statistical significance in change of area should be evaluated. To do this, a variance parameter is needed, which is obtained by repeated measurements. Most of the coastline, however, has been surveyed only on six occasions (1967, 1989, 1999, 2002, 2003, 2004, 2005). 3) Survey methods have not been/may not be consistent. Some method of calibration between the methods needs to be performed in order to insure a change of area is not due to survey instrumentation, and not misinterpreted as a biological change. 4) An area where apparently no kelp data are present may truly represent an area devoid of kelp, or may represent an area where kelp was not detected due to poor photo quality, missing photo coverage, or other issues with data collection and processing. Photo coverage is extensive for the state, but the user is advised to consult the photo index for each year to determine whether photographs were acquired for an area of interest.</note>
+    <note displayLabel="Use limitation">These are public data. The Department of Fish and Wildlife must be credited with the collection, analysis and distribution of these data.</note>
+    <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Coasts</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Marine habitats</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Kelps</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Algae</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Remote sensing</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Aerial surveys</topic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/3687919/">California</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/8411083/">Pacific Ocean</geographic>
+    </subject>
+    <subject>
+      <temporal encoding="w3cdtf">2005</temporal>
+    </subject>
+    <subject>
+      <temporal encoding="w3cdtf">2005</temporal>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="biota">Biology and Ecology</topic>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="oceans">Oceans</topic>
+    </subject>
+    <subject>
+      <cartographics>
+        <scale>Scale not given.</scale>
+        <projection>Custom projection</projection>
+        <coordinates>W 124°14ʹ36ʺ--W 116°46ʹ49ʺ/N 41°50ʹ12ʺ--N 32°32ʹ22ʺ</coordinates>
+        <coordinates>W 124°14ʹ25ʺ--W 117°9ʹ1ʺ/N 41°45ʹ56ʺ--N 32°33ʹ59ʺ</coordinates>
+      </cartographics>
+    </subject>
+    <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+      <cartographics>
+        <projection>EPSG::4326</projection>
+      </cartographics>
+    </subject>
+    <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2006</dateIssued>
+      <dateValid encoding="w3cdtf">2005</dateValid>
+      <place>
+        <placeTerm type="text">Monterey, CA, US</placeTerm>
+      </place>
+      <publisher>California. Department of Fish and Game. Marine Resources Region</publisher>
+    </originInfo>
     <location>
-      <url>https://purl.stanford.edu/fb282pw3043</url>
+      <url usage="primary display">https://purl.stanford.edu/hn188mm8212</url>
     </location>
-    <typeOfResource collection="yes"/>
-  </relatedItem>
-  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
-</mods>
+    <recordInfo>
+      <languageOfCataloging>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </languageOfCataloging>
+      <recordContentSource>Stanford</recordContentSource>
+      <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+      <recordIdentifier>edu.stanford.purl:hn188mm8212</recordIdentifier>
+    </recordInfo>
+    <relatedItem type="isReferencedBy">
+      <titleInfo>
+        <title>California Department of Fish and Wildlife GIS Maps and Data</title>
+      </titleInfo>
+      <originInfo>
+        <dateIssued encoding="w3cdtf">2000</dateIssued>
+      </originInfo>
+    </relatedItem>
+    <extension displayLabel="geo">
+      <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description rdf:about="http://purl.stanford.edu/hn188mm8212">
+          <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+          <dc:type>Dataset#Polygon</dc:type>
+          <gml:boundedBy>
+            <gml:Envelope gml:srsName="EPSG:4326">
+              <gml:lowerCorner>-124.240203 32.566496</gml:lowerCorner>
+              <gml:upperCorner>-117.150184 41.765546</gml:upperCorner>
+            </gml:Envelope>
+          </gml:boundedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </extension>
+    <relatedItem type="host">
+      <titleInfo>
+        <title>California Department of Fish and Wildlife GIS Maps &amp; Data</title>
+      </titleInfo>
+      <location>
+        <url>https://purl.stanford.edu/fb282pw3043</url>
+      </location>
+      <typeOfResource collection="yes"/>
+    </relatedItem>
+    <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+    <accessCondition type="copyright">This work is in the Public Domain, meaning that it is not subject to copyright.</accessCondition>
+  </mods>

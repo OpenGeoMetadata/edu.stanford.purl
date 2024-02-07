@@ -1,105 +1,103 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-  <titleInfo>
-    <title>Rail Network, California, 2013</title>
-  </titleInfo>
-  <titleInfo type="alternative" displayLabel="Alternative title">
-    <title>Railroad</title>
-  </titleInfo>
-  <name type="corporate">
-    <namePart>California. Department of Transportation</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <typeOfResource>cartographic</typeOfResource>
-  <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>California. Department of Transportation</publisher>
-    <place>
-      <placeTerm type="text">Sacramento, US</placeTerm>
-    </place>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
-  <physicalDescription>
-    <form>Shapefile</form>
-    <extent>1.369</extent>
-    <digitalOrigin>born digital</digitalOrigin>
-  </physicalDescription>
-  <subject>
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4269</projection>
-      <coordinates>(W -124.224883--W -114.286555/N 42.076159--N 32.54291)</coordinates>
-    </cartographics>
-  </subject>
-  <abstract displayLabel="Abstract" lang="eng">This line shapefile represents the railroad network of California. This layer contains all alignment for passenger and freight railroad lines, including commuter rail and heavy rail, segmented by milepost as listed in the California Regional Timetable 20. The Rail feature class allows for the selection of all passenger, commuter, recreational, freight, and shortline rail alignment in California with the exception of BART. This layer is part of a collection of GIS data created by the California Department of Transportation (Caltrans).</abstract>
-  <abstract displayLabel="Purpose" lang="eng">This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">California Department of Transportation. (2013). Rail Network, California, 2013. California Department of Transportation. Available at http://purl.stanford.edu/rd993xp4760.</note>
-  <note displayLabel="Use limitation">This is Category I data. Category I data are public domain and available to share with Caltrans partners. Caltrans makes no representation about the suitability, reliability, availability, timeliness, or accuracy of its GIS data for any purpose. The GIS data and information are provided "as is" without warranty of any kind. Use of the data should be limited to informational and preliminary study purposes only. Caltrans shall not be held liable by users of the data, or by any other party, for any loss or damages, consequential or otherwise, including but not limited to time, money, or goodwill, arising from the use, operation or modification of the data. For planning purposes only. The Rail Database is intended for high level planning purposes and is a point in time reporting of estimated current conditions and forecast of future conditions. While every effort has been made to ensure accuracy of reported data, the Database is not intended for detailed service or facility planning. Such planning requires in-depth site analysis and field confirmation of actual conditions.</note>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects">Railroads</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects">Street-railroads</topic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/3687919/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">California</geographic>
-  </subject>
-  <subject>
-    <temporal encoding="w3cdtf">2013</temporal>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="transportation">Transportation</topic>
-  </subject>
-  <location>
-    <url>http://purl.stanford.edu/rd993xp4760</url>
-  </location>
-  <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:rd993xp4760</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
-    <languageOfCataloging>
-      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-    </languageOfCataloging>
-  </recordInfo>
-  <extension displayLabel="geo">
-    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="http://purl.stanford.edu/rd993xp4760">
-        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
-        <dc:type>Dataset#LineString</dc:type>
-        <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-124.224883 32.54291</gml:lowerCorner>
-            <gml:upperCorner>-114.286555 42.076159</gml:upperCorner>
-          </gml:Envelope>
-        </gml:boundedBy>
-      </rdf:Description>
-    </rdf:RDF>
-  </extension>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>Scale not given.</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>(W -124.224883--W -114.286555/N 42.076159--N 32.54291)</coordinates>
-    </cartographics>
-  </subject>
-  <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
-  <relatedItem type="host">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
     <titleInfo>
-      <title>California Department of Transportation GIS Maps &amp; Data</title>
+      <title>Rail Network, California, 2013</title>
     </titleInfo>
+    <titleInfo displayLabel="Alternative title" type="alternative">
+      <title>Railroad</title>
+    </titleInfo>
+    <name type="corporate">
+      <namePart>California. Department of Transportation</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+    <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
+    <typeOfResource>cartographic</typeOfResource>
+    <typeOfResource>software, multimedia</typeOfResource>
+    <physicalDescription>
+      <form>Shapefile</form>
+      <extent>1.369</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+    </physicalDescription>
+    <language>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </language>
+    <abstract lang="eng" displayLabel="Abstract">This line shapefile represents the railroad network of California. This layer contains all alignment for passenger and freight railroad lines, including commuter rail and heavy rail, segmented by milepost as listed in the California Regional Timetable 20. The Rail feature class allows for the selection of all passenger, commuter, recreational, freight, and shortline rail alignment in California with the exception of BART. This layer is part of a collection of GIS data created by the California Department of Transportation (Caltrans).</abstract>
+    <abstract lang="eng" displayLabel="Purpose">This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</abstract>
+    <note lang="eng" displayLabel="Preferred citation">California Department of Transportation. (2013). Rail Network, California, 2013. California Department of Transportation. Available at http://purl.stanford.edu/rd993xp4760.</note>
+    <note displayLabel="Use limitation">This is Category I data. Category I data are public domain and available to share with Caltrans partners. Caltrans makes no representation about the suitability, reliability, availability, timeliness, or accuracy of its GIS data for any purpose. The GIS data and information are provided "as is" without warranty of any kind. Use of the data should be limited to informational and preliminary study purposes only. Caltrans shall not be held liable by users of the data, or by any other party, for any loss or damages, consequential or otherwise, including but not limited to time, money, or goodwill, arising from the use, operation or modification of the data. For planning purposes only. The Rail Database is intended for high level planning purposes and is a point in time reporting of estimated current conditions and forecast of future conditions. While every effort has been made to ensure accuracy of reported data, the Database is not intended for detailed service or facility planning. Such planning requires in-depth site analysis and field confirmation of actual conditions.</note>
+    <note displayLabel="WGS84 Cartographics">This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection.</note>
+    <subject authority="lcsh">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/">Railroads</topic>
+    </subject>
+    <subject authority="lcsh">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects/">Street-railroads</topic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/3687919/">California</geographic>
+    </subject>
+    <subject>
+      <temporal encoding="w3cdtf">2013</temporal>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="transportation">Transportation</topic>
+    </subject>
+    <subject>
+      <cartographics>
+        <scale>Scale not given.</scale>
+        <projection>EPSG::4269</projection>
+        <coordinates>W -124.224883--W -114.286555/N 42.076159--N 32.54291</coordinates>
+      </cartographics>
+    </subject>
+    <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+      <cartographics>
+        <projection>EPSG::4326</projection>
+      </cartographics>
+    </subject>
+    <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+      <place>
+        <placeTerm type="text">Sacramento, US</placeTerm>
+      </place>
+      <publisher>California. Department of Transportation</publisher>
+    </originInfo>
     <location>
-      <url>https://purl.stanford.edu/sb381ch4421</url>
+      <url usage="primary display">https://purl.stanford.edu/rd993xp4760</url>
     </location>
-    <typeOfResource collection="yes"/>
-  </relatedItem>
-  <accessCondition type="useAndReproduction">This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+    <recordInfo>
+      <languageOfCataloging>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </languageOfCataloging>
+      <recordContentSource>Stanford</recordContentSource>
+      <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+      <recordIdentifier>edu.stanford.purl:rd993xp4760</recordIdentifier>
+    </recordInfo>
+    <extension displayLabel="geo">
+      <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description rdf:about="http://purl.stanford.edu/rd993xp4760">
+          <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+          <dc:type>Dataset#LineString</dc:type>
+          <gml:boundedBy>
+            <gml:Envelope gml:srsName="EPSG:4326">
+              <gml:lowerCorner>-124.224883 32.54291</gml:lowerCorner>
+              <gml:upperCorner>-114.286555 42.076159</gml:upperCorner>
+            </gml:Envelope>
+          </gml:boundedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </extension>
+    <relatedItem type="host">
+      <titleInfo>
+        <title>California Department of Transportation GIS Maps &amp; Data</title>
+      </titleInfo>
+      <location>
+        <url>https://purl.stanford.edu/sb381ch4421</url>
+      </location>
+      <typeOfResource collection="yes"/>
+    </relatedItem>
+    <accessCondition type="useAndReproduction">This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. http://www.gnu.org/licenses.</accessCondition>
-</mods>
+    <accessCondition type="copyright">Copyright resides with the originator.</accessCondition>
+  </mods>

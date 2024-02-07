@@ -1,111 +1,115 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
-  <titleInfo>
-    <title>Highways Network: Puerto Rico and United States, 2011</title>
-  </titleInfo>
-  <name type="corporate">
-    <namePart>United States. Bureau of Transportation Statistics</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <name type="corporate">
-    <namePart>United States. Federal Highway Administration</namePart>
-    <role>
-      <roleTerm type="text" authority="marcrelator">creator</roleTerm>
-    </role>
-  </name>
-  <typeOfResource>cartographic</typeOfResource>
-  <typeOfResource>software, multimedia</typeOfResource>
-  <genre authority="lcgft" valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297">Geospatial data</genre>
-  <genre authority="rdacontent" valueURI="http://rdvocab.info/termList/RDAContentType/1001">cartographic dataset</genre>
-  <originInfo>
-    <publisher>United States. Bureau of Transportation Statistics</publisher>
-    <place>
-      <placeTerm type="text">Washington, D.C., US</placeTerm>
-    </place>
-    <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
-    <dateValid encoding="w3cdtf">2011</dateValid>
-    <edition>nhpn v. 11</edition>
-  </originInfo>
-  <language>
-    <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-  </language>
-  <physicalDescription>
-    <form>Shapefile</form>
-    <extent>51.067</extent>
-    <digitalOrigin>born digital</digitalOrigin>
-  </physicalDescription>
-  <subject authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326" displayLabel="WGS84">
-    <cartographics>
-      <scale>1:100000</scale>
-      <projection>EPSG::4326</projection>
-      <coordinates>(W 159°23ʹ49ʺ--W 65°37ʹ51ʺ/N 70°16ʹ33ʺ--N 17°58ʹ7ʺ)</coordinates>
-    </cartographics>
-  </subject>
-  <abstract displayLabel="Abstract" lang="eng">This polyline shapefile depicts the National Highway Planning Network, a comprehensive network database of the United States' major highway system. It consists of the highways comprised of Rural Arterials, Urban Principal Arterials and all National Highway System routes. The data set covers the 48 contiguous States plus the District of Columbia, Alaska, Hawaii, and Puerto Rico. The nominal scale of the data set is 1:100,000 with a maximal positional error of ±80 meters. This layer is part of the 2014 National Transportation Atlas Database.</abstract>
-  <abstract displayLabel="Purpose" lang="eng">The National Transportation Atlas Databases 2014 (NTAD2014) is a set of nationwide geographic datasets of transportation facilities, transportation networks, associated infrastructure and other political and administrative entities. These datasets include spatial information for transportation modal networks and intermodal terminals, as well as the re¬lated attribute information for these features. This data supports research, analysis, and decision-making across all transportation modes. It is most useful at the national level, but has major applications at regional, state and local scales throughout the transportation community. The data used to compile NTAD2014 was provided by our partners within the United States Department of Transportation (USDOT) and by other agencies throughout the United States Federal Government. These contributors are the actual data stewards and are ultimately responsible for the maintenance and accuracy of their data. The National Highway Planning Network (NHPN) is a geospatial network database that contains line features representing just over 450,000 miles of highways in the United States. The NHPN contains geospatially referenced information on the National Highway System (NHS), the Eisenhower Interstate System, the Strategic Highway Network (STRAHNET) and NHS Intermodal Connectors. In addition to the NHS, the NHPN covers all roads functionally classified as principal arterial and rural minor arterial. The primary purpose of this geospatial data set is to serve the Federal Highway Administration (FHWA) needs in highway planning, policy analysis, visualization of the Highway Performance Monitoring System (HPMS) database and network modeling. The NHPN is the digital source used for coding and publishing the FHWA approved National Highway System maps.</abstract>
-  <note displayLabel="Preferred citation" lang="eng">United States. Department of Transportation. Research and Innovative Technology Administration. (2014). Highways Network: Puerto Rico and United States, 2011. National Transportation Atlas Database 2014. Available at: http://purl.stanford.edu/cy988nc3057.</note>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Highways</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Roads</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">National Highway System</topic>
-  </subject>
-  <subject>
-    <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" lang="eng">Transportation corridors</topic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/6252001/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">United States</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4138106/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Washington (D.C.)</geographic>
-  </subject>
-  <subject>
-    <geographic lang="eng" valueURI="http://sws.geonames.org/4566966/" authority="geonames" authorityURI="http://www.geonames.org/ontology#">Puerto Rico</geographic>
-  </subject>
-  <subject>
-    <temporal encoding="w3cdtf">2011</temporal>
-  </subject>
-  <subject>
-    <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="transportation">Transportation</topic>
-  </subject>
-  <location>
-    <url>http://purl.stanford.edu/cy988nc3057</url>
-  </location>
-  <recordInfo>
-    <recordContentSource>Stanford</recordContentSource>
-    <recordIdentifier>edu.stanford.purl:cy988nc3057</recordIdentifier>
-    <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
-    <languageOfCataloging>
-      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-    </languageOfCataloging>
-  </recordInfo>
-  <extension displayLabel="geo">
-    <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <rdf:Description rdf:about="http://purl.stanford.edu/cy988nc3057">
-        <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
-        <dc:type>Dataset#LineString</dc:type>
-        <gml:boundedBy>
-          <gml:Envelope gml:srsName="EPSG:4326">
-            <gml:lowerCorner>-159.396819 17.968603</gml:lowerCorner>
-            <gml:upperCorner>-65.630751 70.275726</gml:upperCorner>
-          </gml:Envelope>
-        </gml:boundedBy>
-      </rdf:Description>
-    </rdf:RDF>
-  </extension>
-  <relatedItem type="host">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
     <titleInfo>
-      <title>National transportation atlas databases : NTAD</title>
+      <title>Highways Network: Puerto Rico and United States, 2011</title>
     </titleInfo>
+    <name type="corporate">
+      <namePart>United States. Bureau of Transportation Statistics</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <name type="corporate">
+      <namePart>United States. Federal Highway Administration</namePart>
+      <role>
+        <roleTerm authority="marcrelator" type="text">creator</roleTerm>
+      </role>
+    </name>
+    <genre valueURI="http://id.loc.gov/authorities/genreForms/gf2011026297" authority="lcgft">Geospatial data</genre>
+    <genre valueURI="http://rdvocab.info/termList/RDAContentType/1001" authority="rdacontent">cartographic dataset</genre>
+    <typeOfResource>cartographic</typeOfResource>
+    <typeOfResource>software, multimedia</typeOfResource>
+    <physicalDescription>
+      <form>Shapefile</form>
+      <extent>51.067</extent>
+      <digitalOrigin>born digital</digitalOrigin>
+    </physicalDescription>
+    <language>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </language>
+    <abstract lang="eng" displayLabel="Abstract">This polyline shapefile depicts the National Highway Planning Network, a comprehensive network database of the United States' major highway system. It consists of the highways comprised of Rural Arterials, Urban Principal Arterials and all National Highway System routes. The data set covers the 48 contiguous States plus the District of Columbia, Alaska, Hawaii, and Puerto Rico. The nominal scale of the data set is 1:100,000 with a maximal positional error of ±80 meters. This layer is part of the 2014 National Transportation Atlas Database.</abstract>
+    <abstract lang="eng" displayLabel="Purpose">The National Transportation Atlas Databases 2014 (NTAD2014) is a set of nationwide geographic datasets of transportation facilities, transportation networks, associated infrastructure and other political and administrative entities. These datasets include spatial information for transportation modal networks and intermodal terminals, as well as the re¬lated attribute information for these features. This data supports research, analysis, and decision-making across all transportation modes. It is most useful at the national level, but has major applications at regional, state and local scales throughout the transportation community. The data used to compile NTAD2014 was provided by our partners within the United States Department of Transportation (USDOT) and by other agencies throughout the United States Federal Government. These contributors are the actual data stewards and are ultimately responsible for the maintenance and accuracy of their data. The National Highway Planning Network (NHPN) is a geospatial network database that contains line features representing just over 450,000 miles of highways in the United States. The NHPN contains geospatially referenced information on the National Highway System (NHS), the Eisenhower Interstate System, the Strategic Highway Network (STRAHNET) and NHS Intermodal Connectors. In addition to the NHS, the NHPN covers all roads functionally classified as principal arterial and rural minor arterial. The primary purpose of this geospatial data set is to serve the Federal Highway Administration (FHWA) needs in highway planning, policy analysis, visualization of the Highway Performance Monitoring System (HPMS) database and network modeling. The NHPN is the digital source used for coding and publishing the FHWA approved National Highway System maps.</abstract>
+    <note lang="eng" displayLabel="Preferred citation">United States. Department of Transportation. Research and Innovative Technology Administration. (2014). Highways Network: Puerto Rico and United States, 2011. National Transportation Atlas Database 2014. Available at: http://purl.stanford.edu/cy988nc3057.</note>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Highways</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Roads</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">National Highway System</topic>
+    </subject>
+    <subject authority="lcsh" lang="eng">
+      <topic authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html">Transportation corridors</topic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/6252001/">United States</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4138106/">Washington (D.C.)</geographic>
+    </subject>
+    <subject authority="geonames" lang="eng">
+      <geographic authority="geonames" authorityURI="http://www.geonames.org/ontology#" valueURI="http://sws.geonames.org/4566966/">Puerto Rico</geographic>
+    </subject>
+    <subject>
+      <temporal encoding="w3cdtf">2011</temporal>
+    </subject>
+    <subject authority="ISO19115TopicCategory">
+      <topic authority="ISO19115TopicCategory" authorityURI="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode" valueURI="transportation">Transportation</topic>
+    </subject>
+    <subject>
+      <cartographics>
+        <scale>1:100000</scale>
+        <coordinates>W 159°23ʹ49ʺ--W 65°37ʹ51ʺ/N 70°16ʹ33ʺ--N 17°58ʹ7ʺ</coordinates>
+      </cartographics>
+    </subject>
+    <subject displayLabel="WGS84" authority="EPSG" valueURI="http://opengis.net/def/crs/EPSG/0/4326">
+      <cartographics>
+        <projection>EPSG::4326</projection>
+      </cartographics>
+    </subject>
+    <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+      <dateValid encoding="w3cdtf">2011</dateValid>
+      <place>
+        <placeTerm type="text">Washington, D.C., US</placeTerm>
+      </place>
+      <publisher>United States. Bureau of Transportation Statistics</publisher>
+      <edition>nhpn v. 11</edition>
+    </originInfo>
     <location>
-      <url>https://purl.stanford.edu/xw066kj5196</url>
+      <url usage="primary display">https://purl.stanford.edu/cy988nc3057</url>
     </location>
-    <typeOfResource collection="yes"/>
-  </relatedItem>
-  <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
-</mods>
+    <recordInfo>
+      <languageOfCataloging>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+      </languageOfCataloging>
+      <recordContentSource>Stanford</recordContentSource>
+      <recordOrigin>This record was translated from ISO 19139 to MODS v.3 using an xsl transformation.</recordOrigin>
+      <recordIdentifier>edu.stanford.purl:cy988nc3057</recordIdentifier>
+    </recordInfo>
+    <extension displayLabel="geo">
+      <rdf:RDF xmlns:gml="http://www.opengis.net/gml/3.2/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description rdf:about="http://purl.stanford.edu/cy988nc3057">
+          <dc:format>application/x-esri-shapefile; format=Shapefile</dc:format>
+          <dc:type>Dataset#LineString</dc:type>
+          <gml:boundedBy>
+            <gml:Envelope gml:srsName="EPSG:4326">
+              <gml:lowerCorner>-159.396819 17.968603</gml:lowerCorner>
+              <gml:upperCorner>-65.630751 70.275726</gml:upperCorner>
+            </gml:Envelope>
+          </gml:boundedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </extension>
+    <relatedItem type="host">
+      <titleInfo>
+        <title>National transportation atlas databases : NTAD</title>
+      </titleInfo>
+      <location>
+        <url>https://purl.stanford.edu/xw066kj5196</url>
+      </location>
+      <typeOfResource collection="yes"/>
+    </relatedItem>
+    <accessCondition type="useAndReproduction">This item is in the public domain.  There are no restrictions on use.</accessCondition>
+    <accessCondition type="copyright">This work is in the Public Domain, meaning that it is not subject to copyright.</accessCondition>
+  </mods>

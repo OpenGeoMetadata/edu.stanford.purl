@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 
-gem 'rake'
+gem 'debug', require: false
 gem 'http'
-gem 'rubyzip'
-gem 'byebug'
+gem 'rake'
+gem 'rubocop', require: false

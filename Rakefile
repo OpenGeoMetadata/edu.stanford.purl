@@ -1,16 +1,21 @@
 # frozen_string_literal: true
 
-task default: %i[pull write_layers_json]
+task default: %i[update write_layers_json]
 
 require 'json'
-require 'http'
+require 'faraday'
+require 'faraday/net_http_persistent'
+require 'faraday/retry'
 require 'uri'
 require 'debug'
+require 'progress_bar'
+require 'progress_bar/core_ext/enumerable_with_progress'
 
-CATALOG_URL = 'https://earthworks.stanford.edu/catalog'
+CATALOG_URL = ENV.fetch('CATALOG_URL', 'https://earthworks.stanford.edu/catalog')
 INSTITUTION = 'Stanford'
 BASE_DIR = 'metadata-1.0'
 IGNORED_FIELDS = %w[timestamp layer_availability_score_f _version_ hashed_id_ssi].freeze
+DOC_ID_REGEX = /\Astanford-([b-df-hjkmnp-tv-z]{2})([0-9]{3})([b-df-hjkmnp-tv-z]{2})([0-9]{4})\z/i
 
 # Wrap a function with a timestamp file to avoid re-processing documents
 # If the block returns a timestamp, update the timestamp file
@@ -39,51 +44,102 @@ end
 # rubocop:enable Metrics/AbcSize
 
 # Solr parameters used to crawl the catalog for records
-def catalog_search_params(timestamp)
+def catalog_search_params(modified_since: nil)
+  q_modified = modified_since.nil? ? '' : "layer_modified_dt:[#{modified_since} TO *] AND"
+
   {
     'f[dct_provenance_s][]': INSTITUTION,
     format: 'json',
-    q: "layer_modified_dt:[#{timestamp} TO *] AND -layer_geom_type_s:Image AND -dc_type_s:\"Interactive Resource\"",
+    q: "#{q_modified} -layer_geom_type_s:Image AND -dc_type_s:\"Interactive Resource\"",
     per_page: 100,
     sort: 'layer_modified_dt asc'
   }
 end
 
+# Make a catalog request with given params and crawl through paginated results
+# Returns an array of the results of calling the block on each data item
+def crawl_solr(params:, &block)
+  # Track total requests made for the crawl and the results
+  index = 1, results = []
+
+  # While there are more pages, add the results of calling the block on each data item
+  client = make_client
+  response = get_json(CATALOG_URL, params:, client:)
+  while response&.key?('data') && response['data'].any?
+    results.concat(response['data'].map(&block))
+    next_page = response.dig('links', 'next')
+    response = next_page.nil? ? nil : get_json(next_page, params:, index: index += 1, client:)
+  end
+
+  # Return the collected results
+  results
+end
+
+# Settings for retrying requests if the server rejects them
+# See: https://github.com/lostisland/faraday-retry
+def retry_options
+  {
+    max: 5,
+    interval: 1,
+    backoff_factor: 3,
+    exceptions: [Faraday::TimeoutError, Faraday::ConnectionFailed, Faraday::TooManyRequestsError]
+  }
+end
+
+# Persistent HTTP client with backoff used to make catalog requests
+# pool_size controls parallelism
+def make_client(pool_size: 1)
+  Faraday.new(CATALOG_URL) do |conn|
+    conn.request :retry, retry_options
+    conn.adapter(:net_http_persistent, pool_size:)
+    conn.response :raise_error
+  end
+end
+
 # Make an HTTP request and return parsed JSON
-def get_json(url, params: {}, index: nil)
-  prefix = index.nil? ? '[GET] ' : "[GET ##{index}] "
-  suffix = params.empty? ? '' : "?#{URI.encode_www_form(params)}"
-  puts [prefix, url, suffix].join('')
-  JSON.parse(HTTP.get(url, params:).body.to_s)
+def get_json(url, params: {}, client: make_client)
+  JSON.parse(client.get(url, params).body.to_s)
+end
+
+# Check if a layer can be found in the catalog
+def layer_exists?(doc_id, client: make_client)
+  client.head("#{CATALOG_URL}/#{doc_id}/raw", format: :json).success?
+rescue Faraday::ResourceNotFound
+  false
 end
 
 # Yield all documents from the catalog updated since the given timestamp
-# Returns the result of calling the block on the last document
-# rubocop:disable Metrics/AbcSize
-def updated_docs_since(timestamp)
-  i = 1
-  response = get_json(CATALOG_URL, params: catalog_search_params(timestamp), index: i)
-
+# Returns the result of calling the block on each document
+def updated_docs_since(timestamp, &block)
   # Traverse solr paginated responses, adding each document's URL to the list
-  urls = []
-  while response&.key?('data') && response['data'].any?
-    # binding.break
-    urls.concat(response['data'].map { |x| x['links']['self'] })
-    next_url = response.dig('links', 'next')
-    response = next_url ? get_json(next_url, index: i += 1) : nil
-  end
-  puts "== Received #{urls.length} updated documents =="
+  urls = crawl_solr(params: catalog_search_params(modified_since: timestamp)) { |doc| doc['links']['self'] }
+  puts urls.empty? ? '== No updated layers found ==' : "== Found #{urls.length} updated layers =="
 
   # For each document URL, yield the parsed JSON
-  urls.map { |url| yield get_json("#{url}/raw", params: { format: :json }) }.last
+  client = make_client(pool_size: 4)
+  urls.with_progress.map do |url|
+    block.call(get_json("#{url}/raw", params: { format: :json }, client:))
+  end
 end
-# rubocop:enable Metrics/AbcSize
+
+# Call block on all documents listed in layers.json that are no longer in the catalog
+# Returns the result of calling the block on each document
+def deleted_docs(&block)
+  # Get the list of document ids and their Earthworks URLs from layers.json
+  doc_ids = JSON.parse(File.read('layers.json')).keys.map { |x| x.sub('druid:', 'stanford-') }
+
+  # For each document id, check if it's still in the catalog. If not, yield its id
+  client = make_client(pool_size: 4)
+  doc_ids.with_progress.map do |doc_id|
+    block.call(doc_id) unless layer_exists?(doc_id, client:)
+  end
+end
 
 # Write the document's metadata to a file in the appropriate directory
 # Returns the document's timestamp
 def write_doc_metadata(doc)
   # Find the nested directory structure for the document
-  tree_dirs = doc['layer_slug_s'].match(/stanford-(..)(...)(..)(....)/).captures.join('/')
+  tree_dirs = doc['layer_slug_s'].match(DOC_ID_REGEX).captures.join('/')
   return if tree_dirs.empty?
 
   # Create the directory structure if it doesn't exist
@@ -98,15 +154,28 @@ def write_doc_metadata(doc)
   doc['layer_modified_dt']
 end
 
+# Delete a document and its containing directory
+# Takes a document id like 'stanford-bb058zh0946'
+def delete_doc(doc_id)
+  # Find the nested directory structure for the document
+  tree_dirs = doc_id.match(DOC_ID_REGEX).captures.join('/')
+  return if tree_dirs.empty?
+
+  # Delete the directory if it exists
+  tree = File.expand_path("#{BASE_DIR}/#{tree_dirs}")
+  FileUtils.rm_rf(tree) if File.exist?(tree)
+end
+
 # Update everything
-task :pull do
+task :update do
+  puts '== Updating metadata for layers =='
   with_timestamp do |previous_timestamp|
-    updated_docs_since(previous_timestamp) do |doc|
-      write_doc_metadata(doc)
-    end
-  rescue StandardError => e
-    puts "[ERROR] #{e}"
+    updated_docs_since(previous_timestamp) { |doc| write_doc_metadata(doc) }.last
   end
+
+  puts '== Checking for deleted layers =='
+  total_deleted = deleted_docs { |doc_id| delete_doc(doc_id) }.compact.length
+  puts total_deleted.zero? ? '== No deleted layers found ==' : "== Deleted #{total_deleted} layers =="
 end
 
 # Write a JSON file that maps each layer to its directory
@@ -122,4 +191,5 @@ task :write_layers_json do
 
   # Write the JSON to a file
   File.open('./layers.json', 'w') { |f| f.puts JSON.pretty_generate(data) }
+  puts "== Wrote #{data.length} layers to layers.json =="
 end

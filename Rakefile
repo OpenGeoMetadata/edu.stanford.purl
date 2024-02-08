@@ -43,7 +43,7 @@ def catalog_search_params(timestamp)
   {
     'f[dct_provenance_s][]': INSTITUTION,
     format: 'json',
-    q: "-layer_geom_type_s:Image AND layer_modified_dt:[#{timestamp} TO *]",
+    q: "layer_modified_dt:[#{timestamp} TO *] AND -layer_geom_type_s:Image AND -dc_type_s:\"Interactive Resource\"",
     per_page: 100,
     sort: 'layer_modified_dt asc'
   }

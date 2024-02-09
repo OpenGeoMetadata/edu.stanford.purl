@@ -12,9 +12,13 @@ Records in the Stanford digital repository are identified by a Digital Resource 
 
 ### Custom fields
 
-GeoBlacklight metadata from this repository contain one custom field:
+GeoBlacklight metadata from this repository contains these custom fields:
 
-- Use and reproduction -- contains specific language outlining use and reproduction rights for each dataset
+| Field | Description |
+| ----- | ----------- |
+| `stanford_use_and_reproduction_s` | Specific language outlining use and reproduction rights for the data |
+| `stanford_copyright_s` | Information about the copyright holder for the data |
+| `stanford_rights_metadata_s` | Structured XML representation of the rights for the data |
 
 ## Contribution and enhancement status
 

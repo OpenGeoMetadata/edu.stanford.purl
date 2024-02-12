@@ -1,0 +1,5 @@
+current directory: /home/runner/work/edu.stanford.purl/edu.stanford.purl/vendor/bundle/ruby/3.1.0/gems/http-parser-1.2.1/ext
+/opt/hostedtoolcache/Ruby/3.1.4/x64/bin/ruby -I/opt/hostedtoolcache/Ruby/3.1.4/x64/lib/ruby/3.1.0 -rrubygems /home/runner/work/edu.stanford.purl/edu.stanford.purl/vendor/bundle/ruby/3.1.0/gems/rake-13.0.1/exe/rake RUBYARCHDIR\=/home/runner/work/edu.stanford.purl/edu.stanford.purl/vendor/bundle/ruby/3.1.0/extensions/x86_64-linux/3.1.0/http-parser-1.2.1 RUBYLIBDIR\=/home/runner/work/edu.stanford.purl/edu.stanford.purl/vendor/bundle/ruby/3.1.0/extensions/x86_64-linux/3.1.0/http-parser-1.2.1
+gcc -fexceptions -O -fno-omit-frame-pointer -fno-strict-aliasing -Wall -Wextra -O3 -fPIC   -o x86_64-linux/http-parser/http_parser.o -c ./http-parser/http_parser.c
+mkdir -p x86_64-linux/http-parser
+gcc -shared -o x86_64-linux/libhttp-parser-ext.so x86_64-linux/http-parser/http_parser.o -fexceptions 

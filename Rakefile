@@ -45,12 +45,12 @@ end
 
 # Solr parameters used to crawl the catalog for records
 def catalog_search_params(modified_since: nil)
-  q_modified = modified_since.nil? ? '' : "layer_modified_dt:[#{modified_since} TO *] AND"
+  q_modified = modified_since.nil? ? '' : "layer_modified_dt:[#{modified_since} TO *]"
 
   {
     'f[dct_provenance_s][]': INSTITUTION,
     format: 'json',
-    q: "#{q_modified} -layer_geom_type_s:Image AND -dc_type_s:\"Interactive Resource\"",
+    q: "#{q_modified} AND -dc_type_s:\"Interactive Resource\"",
     per_page: 100,
     sort: 'layer_modified_dt asc'
   }

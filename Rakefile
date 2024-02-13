@@ -58,7 +58,7 @@ end
 
 # Make a catalog request with given params and crawl through paginated results
 # Returns an array of the results of calling the block on each data item
-def crawl_solr(params:, &block)
+def crawl_catalog(params:, &block)
   # Track total requests made for the crawl and the results
   index = 1, results = []
 
@@ -79,7 +79,7 @@ end
 # See: https://github.com/lostisland/faraday-retry
 def retry_options
   {
-    max: 5,
+    max: 10,
     interval: 1,
     backoff_factor: 3,
     exceptions: [Faraday::TimeoutError, Faraday::ConnectionFailed, Faraday::TooManyRequestsError]
@@ -103,7 +103,7 @@ end
 
 # Check if a layer can be found in the catalog
 def layer_exists?(doc_id, client: make_client)
-  client.head("#{CATALOG_URL}/#{doc_id}/raw", format: :json).success?
+  client.head("#{CATALOG_URL}/#{doc_id}", format: :json).success?
 rescue Faraday::ResourceNotFound
   false
 end
@@ -112,7 +112,7 @@ end
 # Returns the result of calling the block on each document
 def updated_docs_since(timestamp, &block)
   # Traverse solr paginated responses, adding each document's URL to the list
-  urls = crawl_solr(params: catalog_search_params(modified_since: timestamp)) { |doc| doc['links']['self'] }
+  urls = crawl_catalog(params: catalog_search_params(modified_since: timestamp)) { |doc| doc['links']['self'] }
   puts urls.empty? ? '== No updated layers found ==' : "== Found #{urls.length} updated layers =="
 
   # For each document URL, yield the parsed JSON

@@ -5,6 +5,9 @@ on:
   schedule:
     - cron: '12 6 * * MON'
 
+permissions:
+  pull-requests: write
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -23,8 +26,7 @@ jobs:
           commit_message: 'Update Stanford data dump'
           branch: data-updates
           push_options: '--force'
-      - uses: repo-sync/pull-request@v2
-        with:
-          source_branch: data-updates
-          pr_title: 'Update Stanford data dump'
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: pull-request
+        run: |
+          gh_pr_up() { gh pr create $* || gh pr edit $*; }
+          gh_pr_up --title "Update Stanford data dump" --head data-updates

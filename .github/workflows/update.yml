@@ -11,6 +11,9 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@v4
       - run: git checkout -b data-updates
@@ -21,9 +24,10 @@ jobs:
       - run: bundle exec rake
         env:
           STACKS_TOKEN: ${{ secrets.STACKS_TOKEN }}
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'Update Stanford data dump'
+          commit_author: 'GitHub Actions <41898282+github-actions[bot]@users.noreply.github.com>'
           branch: data-updates
           push_options: '--force'
       - name: pull-request

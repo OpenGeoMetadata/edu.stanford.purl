@@ -27,6 +27,7 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'Update Stanford data dump'
+          commit_author: 'GitHub Actions <41898282+github-actions[bot]@users.noreply.github.com>'
           branch: data-updates
           push_options: '--force'
       - name: pull-request

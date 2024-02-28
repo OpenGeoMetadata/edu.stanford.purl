@@ -10,6 +10,7 @@ require 'uri'
 require 'debug'
 require 'progress_bar'
 require 'progress_bar/core_ext/enumerable_with_progress'
+require 'time'
 
 CATALOG_URL = ENV.fetch('CATALOG_URL', 'https://earthworks.stanford.edu/catalog')
 INSTITUTION = 'Stanford'

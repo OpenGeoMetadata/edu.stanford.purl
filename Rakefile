@@ -60,16 +60,16 @@ end
 # Make a catalog request with given params and crawl through paginated results
 # Returns an array of the results of calling the block on each data item
 def crawl_catalog(params:, &block)
-  # Track total requests made for the crawl and the results
-  index = 1, results = []
+  # Start with an empty list of results and an HTTP client
+  client = make_client
+  results = []
 
   # While there are more pages, add the results of calling the block on each data item
-  client = make_client
   response = get_json(CATALOG_URL, params:, client:)
   while response&.key?('data') && response['data'].any?
     results.concat(response['data'].map(&block))
     next_page = response.dig('links', 'next')
-    response = next_page.nil? ? nil : get_json(next_page, params:, index: index += 1, client:)
+    response = next_page.nil? ? nil : get_json(next_page, params:, client:)
   end
 
   # Return the collected results

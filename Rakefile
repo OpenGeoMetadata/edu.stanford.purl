@@ -174,9 +174,10 @@ task :update do
     updated_docs_since(previous_timestamp) { |doc| write_doc_metadata(doc) }.last
   end
 
-  puts '== Checking for deleted layers =='
-  total_deleted = deleted_docs { |doc_id| delete_doc(doc_id) }.compact.length
-  puts total_deleted.zero? ? '== No deleted layers found ==' : "== Deleted #{total_deleted} layers =="
+  # TODO: See https://github.com/OpenGeoMetadata/edu.stanford.purl/issues/143
+  # puts '== Checking for deleted layers =='
+  # total_deleted = deleted_docs { |doc_id| delete_doc(doc_id) }.compact.length
+  # puts total_deleted.zero? ? '== No deleted layers found ==' : "== Deleted #{total_deleted} layers =="
 end
 
 # Write a JSON file that maps each layer to its directory

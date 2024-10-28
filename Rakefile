@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-task default: %i[update write_layers_json]
+task default: %i[update delete write_layers_json]
 
 require 'json'
 require 'faraday'
@@ -13,8 +13,9 @@ require 'progress_bar/core_ext/enumerable_with_progress'
 require 'time'
 
 CATALOG_URL = ENV.fetch('CATALOG_URL', 'https://earthworks.stanford.edu/catalog')
+PURL_FETCHER_URL = ENV.fetch('PURL_FETCHER_URL', 'https://purl-fetcher.stanford.edu')
 INSTITUTION = 'Stanford'
-BASE_DIR = 'metadata-1.0'
+BASE_DIR = 'metadata-aardvark'
 IGNORED_FIELDS = %w[timestamp layer_availability_score_f _version_ hashed_id_ssi].freeze
 DOC_ID_REGEX = /\Astanford-([b-df-hjkmnp-tv-z]{2})([0-9]{3})([b-df-hjkmnp-tv-z]{2})([0-9]{4})\z/i
 
@@ -44,38 +45,6 @@ def with_timestamp(timestamp_file = './last_run')
 end
 # rubocop:enable Metrics/AbcSize
 
-# Solr parameters used to crawl the catalog for records
-def catalog_search_params(modified_since: nil)
-  q_modified = modified_since.nil? ? '' : "layer_modified_dt:[#{modified_since} TO *]"
-
-  {
-    'f[dct_provenance_s][]': INSTITUTION,
-    format: 'json',
-    q: "#{q_modified} AND -dc_type_s:\"Interactive Resource\"",
-    per_page: 100,
-    sort: 'layer_modified_dt asc'
-  }
-end
-
-# Make a catalog request with given params and crawl through paginated results
-# Returns an array of the results of calling the block on each data item
-def crawl_catalog(params:, &block)
-  # Start with an empty list of results and an HTTP client
-  client = make_client
-  results = []
-
-  # While there are more pages, add the results of calling the block on each data item
-  response = get_json(CATALOG_URL, params:, client:)
-  while response&.key?('data') && response['data'].any?
-    results.concat(response['data'].map(&block))
-    next_page = response.dig('links', 'next')
-    response = next_page.nil? ? nil : get_json(next_page, params:, client:)
-  end
-
-  # Return the collected results
-  results
-end
-
 # Settings for retrying requests if the server rejects them
 # See: https://github.com/lostisland/faraday-retry
 def retry_options
@@ -102,37 +71,35 @@ def get_json(url, params: {}, client: make_client)
   JSON.parse(client.get(url, params).body.to_s)
 end
 
-# Check if a layer can be found in the catalog
-def layer_exists?(doc_id, client: make_client)
-  client.head("#{CATALOG_URL}/#{doc_id}", format: :json).success?
-rescue Faraday::ResourceNotFound
-  false
-end
-
 # Yield all documents from the catalog updated since the given timestamp
 # Returns the result of calling the block on each document
 def updated_docs_since(timestamp, &block)
-  # Traverse solr paginated responses, adding each document's URL to the list
-  urls = crawl_catalog(params: catalog_search_params(modified_since: timestamp)) { |doc| doc['links']['self'] }
-  puts urls.empty? ? '== No updated layers found ==' : "== Found #{urls.length} updated layers =="
+  # Query purl-fetcher for all released layers and filter to those updated since the timestamp
+  released = get_json("#{PURL_FETCHER_URL}/released/Earthworks")
+  updated = released.select { |layer| Time.parse(layer['updated_at']) > timestamp }
+  puts updated.empty? ? '== No updated layers found ==' : "== Found #{updated.length} updated layers =="
 
-  # For each document URL, yield the parsed JSON
+  # For each druid, yield the parsed geoblacklight JSON from the catalog
   client = make_client(pool_size: 4)
-  urls.with_progress.map do |url|
-    block.call(get_json("#{url}/raw", params: { format: :json }, client:))
+  updated.map { |layer| layer['druid'].gsub('druid:', 'stanford-') }.with_progress.map do |doc_id|
+    block.call(get_json("#{CATALOG_URL}/#{doc_id}/raw", params: { format: :json }, client:))
+  rescue Faraday::ResourceNotFound
+    # Released but not indexed (e.g. because of bad metadata); ignore
   end
 end
 
-# Call block on all documents listed in layers.json that are no longer in the catalog
+# Call block on all documents listed in layers.json that are no longer released
 # Returns the result of calling the block on each document
 def deleted_docs(&block)
-  # Get the list of document ids and their Earthworks URLs from layers.json
-  doc_ids = JSON.parse(File.read('layers.json')).keys.map { |x| x.sub('druid:', 'stanford-') }
+  # Query purl-fetcher for all released layers and compare to layers.json
+  released = get_json("#{PURL_FETCHER_URL}/released/Earthworks").map { |layer| layer['druid'] }
+  old = JSON.parse(File.read('layers.json')).keys
+  deleted = old.to_set - released.to_set
+  puts deleted.empty? ? '== No deleted layers found ==' : "== Found #{deleted.length} deleted layers =="
 
-  # For each document id, check if it's still in the catalog. If not, yield its id
-  client = make_client(pool_size: 4)
-  doc_ids.with_progress.map do |doc_id|
-    block.call(doc_id) unless layer_exists?(doc_id, client:)
+  # For each druid, call the block with its document ID
+  deleted.map { |druid| druid.gsub('druid:', 'stanford-') }.with_progress.map do |doc_id|
+    block.call(doc_id)
   end
 end
 
@@ -140,7 +107,7 @@ end
 # Returns the document's timestamp
 def write_doc_metadata(doc)
   # Find the nested directory structure for the document
-  tree_dirs = doc['layer_slug_s'].match(DOC_ID_REGEX).captures.join('/')
+  tree_dirs = doc['id'].match(DOC_ID_REGEX).captures.join('/')
   return if tree_dirs.empty?
 
   # Create the directory structure if it doesn't exist
@@ -152,7 +119,7 @@ def write_doc_metadata(doc)
   File.open("#{tree}/geoblacklight.json", 'w') { |f| f.puts JSON.pretty_generate(doc) }
 
   # Return the document's timestamp
-  doc['layer_modified_dt']
+  doc['gbl_mdModified_dt']
 end
 
 # Delete a document and its containing directory
@@ -164,29 +131,42 @@ def delete_doc(doc_id)
 
   # Delete the directory if it exists
   tree = File.expand_path("#{BASE_DIR}/#{tree_dirs}")
-  FileUtils.rm_rf(tree) if File.exist?(tree)
+  FileUtils.rm_rf(tree)
 end
 
-# Update everything
+# This is run first
+desc 'Update metadata for layers'
 task :update do
   puts '== Updating metadata for layers =='
-  with_timestamp do |previous_timestamp|
-    updated_docs_since(previous_timestamp) { |doc| write_doc_metadata(doc) }.last
-  end
 
-  # TODO: See https://github.com/OpenGeoMetadata/edu.stanford.purl/issues/143
-  # puts '== Checking for deleted layers =='
-  # total_deleted = deleted_docs { |doc_id| delete_doc(doc_id) }.compact.length
-  # puts total_deleted.zero? ? '== No deleted layers found ==' : "== Deleted #{total_deleted} layers =="
+  with_timestamp do |previous_timestamp|
+    updated = updated_docs_since(Time.parse(previous_timestamp)) do |doc|
+      write_doc_metadata(doc)
+    end
+
+    # Return the most recent timestamp from the updated documents
+    updated.max_by { |timestamp| Time.parse(timestamp) }
+  end
 end
 
-# Write a JSON file that maps each layer to its directory
+# This task is run after the update task
+desc 'Delete metadata for layers no longer released'
+task :delete do
+  puts '== Deleting metadata for layers no longer released =='
+
+  deleted_docs do |doc_id|
+    delete_doc(doc_id)
+  end
+end
+
 # See: https://opengeometadata.org/share-on-ogm/#naming-by-metadata-standard
+# This task is run after the update and delete tasks
+desc 'Write layers.json mapping layer IDs to file paths'
 task :write_layers_json do
   data = {}
 
   # Crawl the directory structure and get each druid with its directory
-  Dir.glob('**/geoblacklight.json').sort.each do |file|
+  Dir.glob("#{BASE_DIR}/**/geoblacklight.json").each do |file|
     druid = File.dirname(file).split(%r{/}).drop(1).join
     data["druid:#{druid}"] = File.dirname(file)
   end

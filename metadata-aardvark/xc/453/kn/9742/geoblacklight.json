@@ -1,0 +1,77 @@
+{
+  "id": "stanford-xc453kn9742",
+  "dct_title_s": "State Highways (Segments), California, 2015",
+  "dct_description_sm": [
+    "This line shapefile represents highway segments in California. Each object in this layer represents a highway segment where the county, route, postmile prefix, and postmile suffix are the same. Each segment is coded with the district, county, route, postmile prefix (if any), begin postmile, end postmile, and postmile suffix (if any). One additional field - AlignCode - indicates if the state highway segment is on a Right alignment, Left alignment, Right side of an independent alignment, or Left side of an independent alignment. Where TSN (Transportation System Network - the source database) considers most state highways to have just a centerline, the underlying LRS (Linear Referencing System) linework that these segments are based upon has a line for each direction. In some cases the right and left lines are identical (where there is no median). In other cases the right and left are separated (where there is a median, or dual carriageways), but TSN treats the segment as a single centerline. In the last case the underlying linework has dual carriageways, and TSN treats the segment as a split alignment (where there are independent right and left alignments). In some cases (especially for small-scale mapping), it may be appropriate to display linework for just one alignment (e.g. Right alignment), and only for the other side where TSN indicates independent right and left alignments. In other cases (e.g. large-scale mapping), it may be appropriate to display postmiles for both alignments, regardless of how TSN treats the segment. This is an example of a query string that displays linework only for the right alignment where TSN indicates just a centerline, and on both right and left alignments where TSN indicates independent alignments: \"AlignCode\" &lt;&gt; 'Left'. The bOdometer and eOdometer fields represent the actual distance in miles from the start of the highway to the begin and end of each highway section. This is in contrast to the begin and end postmile values, which no longer represent these values as each highway is realigned (and made longer or shorter) over time. ). This layer is part of a collection of GIS data created by the California Department of Transportation (Caltrans).",
+    "This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.",
+    "The data are made available to the public solely for informational purposes. Information provided in the Caltrans GIS Data Library is accurate to the best of our knowledge and is subject to change on a regular basis, without notice. While Caltrans makes every effort to provide useful and accurate information, we do not warrant the information to be authoritative, complete, factual, or timely. Information is provided on an \"as is\" and an \"as available\" basis. The Department of Transportation is not liable to any party for any cost or damages, including any direct, indirect, special, incidental, or consequential damages, arising out of or in connection with the access or use of, or the inability to access or use, the Site or any of the Materials or Services described herein.",
+    "This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection."
+  ],
+  "dct_language_sm": [
+    "eng"
+  ],
+  "dct_creator_sm": [
+    "California. Department of Transportation"
+  ],
+  "dct_publisher_sm": [
+    "California. Department of Transportation"
+  ],
+  "dct_issued_s": "2015",
+  "dct_subject_sm": [
+    "Roads",
+    "Milestones",
+    "Transportation"
+  ],
+  "dct_spatial_sm": [
+    "California"
+  ],
+  "dcat_theme_sm": [
+    "Transportation"
+  ],
+  "dct_temporal_sm": [
+    "2015"
+  ],
+  "gbl_dateRange_drsim": [
+    "[2015 TO 2015]"
+  ],
+  "gbl_indexYear_im": [
+    2015
+  ],
+  "date_hierarchy_sm": [
+    "2000-2099",
+    "2000-2099:2010-2019",
+    "2000-2099:2010-2019:2015"
+  ],
+  "schema_provider_s": "Stanford",
+  "dct_identifier_sm": [
+    "https://purl.stanford.edu/xc453kn9742"
+  ],
+  "gbl_georeferenced_b": false,
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
+  "gbl_resourceType_sm": [
+    "Line data"
+  ],
+  "dct_format_s": "Shapefile",
+  "locn_geometry": "ENVELOPE(-124.264859, -114.298233, 42.005472, 32.544302)",
+  "dcat_bbox": "ENVELOPE(-124.264859, -114.298233, 42.005472, 32.544302)",
+  "pcdm_memberOf_sm": [
+    "stanford-sb381ch4421"
+  ],
+  "dct_rights_sm": [
+    "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. http://www.gnu.org/licenses."
+  ],
+  "dct_rightsHolder_sm": [
+    "Copyright resides with the originator."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2024-06-13T06:12:01Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "druid:xc453kn9742",
+  "dct_references_s": "{\"http://schema.org/url\":\"https://purl.stanford.edu/xc453kn9742\",\"http://schema.org/downloadUrl\":[{\"url\":\"https://stacks.stanford.edu/object/xc453kn9742\",\"label\":\"Zipped object\"}],\"https://oembed.com\":\"https://purl.stanford.edu/embed.json?hide_title=true\\u0026url=https%3A%2F%2Fpurl.stanford.edu%2Fxc453kn9742\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices.stanford.edu/geoserver/wms\",\"http://www.opengis.net/def/serviceType/ogc/wfs\":\"https://geowebservices.stanford.edu/geoserver/wfs\",\"https://schema.org/relatedLink\":\"https://searchworks.stanford.edu/view/xc453kn9742\"}",
+  "solr_bboxtype__minX": -124.264859,
+  "solr_bboxtype__minY": 32.544302,
+  "solr_bboxtype__maxX": -114.298233,
+  "solr_bboxtype__maxY": 42.005472
+}

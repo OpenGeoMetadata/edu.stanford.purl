@@ -22,29 +22,35 @@ DOC_ID_REGEX = /\Astanford-([b-df-hjkmnp-tv-z]{2})([0-9]{3})([b-df-hjkmnp-tv-z]{
 
 # Wrap a function with a timestamp file to avoid re-processing documents
 # If the block returns a timestamp, update the timestamp file
-# rubocop:disable Metrics/AbcSize
 def with_timestamp(timestamp_file = './last_run')
   return unless block_given?
 
-  start_timestamp = Time.now.utc
-
-  # Check the timestamp file for the previous timestamp
-  puts "Unable to find timestamp file #{timestamp_file}" unless File.exist? timestamp_file
-  previous_timestamp = File.read(timestamp_file).strip
-  puts previous_timestamp.empty? ? "No timestamp found in #{timestamp_file}" : "Last run: #{previous_timestamp}"
-
   # Call the provided block with the previous timestamp, receiving the most
   # recent document's timestamp as the result of the block
+  previous_timestamp = get_file_timestamp(timestamp_file)
   last_timestamp = yield(previous_timestamp)
   return unless last_timestamp
 
   # If the most recent document is in the past (beyond any reasonable clock-skew)
   # go ahead and bump the timestamp so we don't repeat documents
+  start_timestamp = Time.now.utc
   last_timestamp = (Time.parse(last_timestamp) + 1).utc.iso8601 if (Time.parse(last_timestamp) + 3600) < start_timestamp
   puts "Updating last run: #{last_timestamp}"
   File.open(timestamp_file, 'w') { |f| f.puts last_timestamp }
 end
-# rubocop:enable Metrics/AbcSize
+
+# Check the timestamp file for the last run time
+def get_file_timestamp(file)
+  timestamp = Time.parse(File.read(file).strip)
+  puts "Last run: #{timestamp}"
+  timestamp
+rescue Errno::ENOENT
+  puts "No timestamp found in #{file}"
+  nil
+rescue ArgumentError
+  puts "Invalid timestamp format in #{file}"
+  nil
+end
 
 # Settings for retrying requests if the server rejects them
 # See: https://github.com/lostisland/faraday-retry

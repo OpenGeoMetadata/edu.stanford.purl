@@ -80,19 +80,19 @@ end
 
 # Yield all documents from the catalog updated since the given timestamp
 # Returns the result of calling the block on each document
-def updated_docs_since(timestamp, &block)
+def updated_docs_since(timestamp = Time.at(0), &block)
   # Query purl-fetcher for all released layers and filter to those updated since the timestamp
-  released = get_json("#{PURL_FETCHER_URL}/released/Earthworks")
-  updated = released.select { |layer| Time.parse(layer['updated_at']) > timestamp }
-  puts updated.empty? ? '== No updated layers found ==' : "== Found #{updated.length} updated layers =="
+  layers = get_json("#{PURL_FETCHER_URL}/released/Earthworks.json")
+  layers.filter! { |layer| Time.parse(layer['updated_at']) > timestamp } if timestamp
+  puts layers.empty? ? '== No updated layers found ==' : "== Found #{layers.length} updated layers =="
 
   # For each druid, yield the parsed geoblacklight JSON from the catalog
   client = make_client(pool_size: 4)
-  updated.map { |layer| layer['druid'].gsub('druid:', 'stanford-') }.with_progress.map do |doc_id|
+  layers.map { |layer| layer['druid'].gsub('druid:', 'stanford-') }.with_progress.map do |doc_id|
     block.call(get_json("#{CATALOG_URL}/#{doc_id}/raw", params: { format: :json }, client:))
   rescue Faraday::ResourceNotFound
     # Released but not indexed (e.g. because of bad metadata); ignore
-  end
+  end.compact
 end
 
 # Call block on all documents listed in layers.json that are no longer released
@@ -147,7 +147,7 @@ task :update do
   puts '== Updating metadata for layers =='
 
   with_timestamp do |previous_timestamp|
-    updated = updated_docs_since(Time.parse(previous_timestamp)) do |doc|
+    updated = updated_docs_since(previous_timestamp) do |doc|
       write_doc_metadata(doc)
     end
 

@@ -14,9 +14,10 @@ require 'time'
 
 CATALOG_URL = ENV.fetch('CATALOG_URL', 'https://earthworks.stanford.edu/catalog')
 PURL_FETCHER_URL = ENV.fetch('PURL_FETCHER_URL', 'https://purl-fetcher.stanford.edu')
+BASE_DIR = ENV.fetch('BASE_DIR', 'metadata-aardvark')
 INSTITUTION = 'Stanford'
-BASE_DIR = 'metadata-aardvark'
-IGNORED_FIELDS = %w[timestamp layer_availability_score_f _version_ hashed_id_ssi].freeze
+IGNORED_FIELDS = %w[timestamp layer_availability_score_f _version_ hashed_id_ssi solr_bboxtype__minX
+                    solr_bboxtype__maxX solr_bboxtype__minY solr_bboxtype__maxY].freeze
 DOC_ID_REGEX = /\Astanford-([b-df-hjkmnp-tv-z]{2})([0-9]{3})([b-df-hjkmnp-tv-z]{2})([0-9]{4})\z/i
 
 # Wrap a function with a timestamp file to avoid re-processing documents

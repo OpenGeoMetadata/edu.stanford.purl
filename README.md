@@ -2,6 +2,8 @@
 
 This repository contains geospatial metadata from [EarthWorks](https://earthworks.stanford.edu), the Stanford University Libraries geoportal.
 
+This metadata is provided under the [CC0 v1.0 License](LICENSE), which allows for free use and redistribution without restrictions.
+
 > [!WARNING]  
 > Geoblacklight v1 schema metadata in `metadata-1.0` is no longer updated and is provided for reference only. Links are likely to be broken.
 

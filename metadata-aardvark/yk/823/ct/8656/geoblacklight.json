@@ -1,0 +1,59 @@
+{
+  "id": "stanford-yk823ct8656",
+  "dct_title_s": "Urbanization Perceptions Small Area Index, 2025",
+  "dct_description_sm": [
+    "Definitions of “urban” and “rural” are abundant in government, academic literature, and data-driven journalism. Equally abundant are debates about what is urban or rural and which factors should be used to define these terms. Absent from most of this discussion is evidence about how people perceive or describe their neighborhood. Moreover, as several housing and demographic researchers have noted, the lack of an official or unofficial definition of suburban obscures the stylized fact that a majority of Americans live in a suburban setting. In 2017, the U.S. Department of Housing and Urban Development added a simple question to the 2017 American Housing Survey (AHS) asking respondents to describe their neighborhood as urban, suburban, or rural. This service provides a tract-level dataset illustrating the outcome of analysis techniques applied to neighborhood classification reported by the American Housing Survey (AHS) as either urban, suburban, or rural.         To create this data, analysts first applied machine learning techniques to the AHS neighborhood description question to build a model that predicts how out-of-sample households would describe their neighborhood (urban, suburban, or rural), given regional and neighborhood characteristics. Analysts then applied the model to the American Community Survey (ACS) aggregate tract-level regional and neighborhood measures, thereby creating a predicted likelihood the average household in a census tract would describe their neighborhood as urban, suburban, and rural. This last step is commonly referred to as small area estimation. The approach is an example of the use of existing federal data to create innovative new data products of substantial interest to researchers and policy makers alike.      If aggregating tract-level probabilities to larger areas, users are strongly  encouraged to use occupied household counts as weights.    We recommend users read Section 7 of the working paper before using the raw probabilities. Likewise, we recognize that some users may:          prefer to use an uncontrolled classification, or      prefer to create more than three categories.          To accommodate these uses, our final tract-level output dataset includes the \";raw\" probability an average household would describe their neighborhood as urban, suburban, and rural. These probability values can be used to create an uncontrolled classification or additional categories.    The final classification is controlled to AHS national estimates (26.9%  urban; 52.1% suburban, 21.0% rural).               For more information about the 2017 AHS Neighborhood Description Study click on the following visit: https://www.hud.gov/program_offices/comm_planning/communitydevelopment/programs/       Data Dictionary: DD_Urbanization Perceptions Small Area Index.",
+    "This service provides a tract-level dataset illustrating the outcome of machine learning techniques applied to neighborhood classification reported by the American Housing Survey (AHS) as either urban, suburban, or rural."
+  ],
+  "dct_language_sm": [
+    "eng"
+  ],
+  "dct_publisher_sm": [
+    "United States. Department of Housing and Urban Development"
+  ],
+  "dct_issued_s": "2023",
+  "dct_subject_sm": [
+    "Cities and towns",
+    "Boundaries",
+    "Economy",
+    "Location",
+    "Society"
+  ],
+  "dct_spatial_sm": [
+    "United States"
+  ],
+  "dcat_theme_sm": [
+    "Boundaries",
+    "Economy",
+    "Location",
+    "Society"
+  ],
+  "schema_provider_s": "Stanford",
+  "dct_identifier_sm": [
+    "https://purl.stanford.edu/yk823ct8656"
+  ],
+  "gbl_georeferenced_b": false,
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
+  "gbl_resourceType_sm": [
+    "Polygon data"
+  ],
+  "dct_format_s": "Shapefile",
+  "locn_geometry": "ENVELOPE(-178.227822, -65.244234, 71.390482, 17.881242)",
+  "dcat_bbox": "ENVELOPE(-178.227822, -65.244234, 71.390482, 17.881242)",
+  "pcdm_memberOf_sm": [
+    "stanford-wc590wy7435"
+  ],
+  "dct_rights_sm": [
+    "This item is in the public domain.  There are no restrictions on use."
+  ],
+  "dct_rightsHolder_sm": [
+    "This work is in the Public Domain, meaning that it is not subject to copyright."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2023-08-08T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "druid:yk823ct8656",
+  "dct_references_s": "{\"http://schema.org/url\":\"https://purl.stanford.edu/yk823ct8656\",\"http://schema.org/downloadUrl\":[{\"url\":\"https://stacks.stanford.edu/object/yk823ct8656\",\"label\":\"Zipped object\"}],\"https://oembed.com\":\"https://purl.stanford.edu/embed.json?hide_title=true\\u0026url=https%3A%2F%2Fpurl.stanford.edu%2Fyk823ct8656\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices.stanford.edu/geoserver/wms\",\"http://www.opengis.net/def/serviceType/ogc/wfs\":\"https://geowebservices.stanford.edu/geoserver/wfs\",\"https://schema.org/relatedLink\":\"https://searchworks.stanford.edu/view/yk823ct8656\",\"http://www.isotc211.org/schemas/2005/gmd\":\"https://stacks.stanford.edu/file/druid:yk823ct8656/Urbanization_Perceptions_Small_Area_Index-iso19139.xml\",\"http://www.isotc211.org/schemas/2005/gco\":\"https://stacks.stanford.edu/file/druid:yk823ct8656/Urbanization_Perceptions_Small_Area_Index-iso19110.xml\",\"http://www.opengis.net/cat/csw/csdgm\":\"https://stacks.stanford.edu/file/druid:yk823ct8656/Urbanization_Perceptions_Small_Area_Index-fgdc.xml\"}"
+}

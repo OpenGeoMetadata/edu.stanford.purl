@@ -4,18 +4,16 @@ This repository contains geospatial metadata from [EarthWorks](https://earthwork
 
 This metadata is provided under the [CC0 v1.0 License](LICENSE), which allows for free use and redistribution without restrictions.
 
-> [!WARNING]  
-> Geoblacklight v1 schema metadata in `metadata-1.0` is no longer updated and is provided for reference only. Links are likely to be broken.
-
 ## Metadata
 
-Metadata for geospatial data are provided in the following formats:
+Metadata is provided in the [OGM Aardvark format](https://opengeometadata.org/ogm-aardvark/).
 
-- geoblacklight.json -- [GeoBlacklight metadata](https://github.com/geoblacklight/geoblacklight/blob/master/schema/geoblacklight-schema.md)
+Records in the Stanford digital repository are identified by a Digital Resource Unique Identifier (DRUID) in the format `druid:bb058zh0946`.
 
-Records in the Stanford digital repository are identified by a Digital Resource Unique Identifier (DRUID) in the format `druid:bb058zh0946`. Each record gets a corresponding permanent URL (PURL) page in the format [https://purl.stanford.edu/bb058zh0946](https://purl.stanford.edu/bb058zh0946).
+Each record gets a corresponding permanent URL (PURL) page in the format [https://purl.stanford.edu/bb058zh0946](https://purl.stanford.edu/bb058zh0946).
 
-For objects that are available to download, this page hosts download links for the original data as well as metadata in various formats, like FGDC XML and ISO 19139 XML.
+> [!WARNING]  
+> Geoblacklight v1 schema metadata in `metadata-1.0` is no longer updated and is provided for reference only. Links are likely to be broken.
 
 ## Contribution and enhancement status
 

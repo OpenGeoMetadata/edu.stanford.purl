@@ -15,7 +15,7 @@ jobs:
       contents: write
       pull-requests: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - run: git checkout -b data-updates
       - uses: ruby/setup-ruby@v1
         with:

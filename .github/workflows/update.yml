@@ -3,7 +3,7 @@ name: update
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 6 * * MON'
+    - cron: "12 6 * * MON"
 
 permissions:
   pull-requests: write
@@ -15,7 +15,7 @@ jobs:
       contents: write
       pull-requests: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - run: git checkout -b data-updates
       - uses: ruby/setup-ruby@v1
         with:
@@ -26,10 +26,10 @@ jobs:
           STACKS_TOKEN: ${{ secrets.STACKS_TOKEN }}
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'Update Stanford data dump'
-          commit_author: 'GitHub Actions <41898282+github-actions[bot]@users.noreply.github.com>'
+          commit_message: "Update Stanford data dump"
+          commit_author: "GitHub Actions <41898282+github-actions[bot]@users.noreply.github.com>"
           branch: data-updates
-          push_options: '--force'
+          push_options: "--force"
       - name: pull-request
         run: |
           gh_pr_up() { gh pr create $* || gh pr edit $*; }

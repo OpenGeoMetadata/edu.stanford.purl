@@ -12,9 +12,6 @@ Records in the Stanford digital repository are identified by a Digital Resource 
 
 Each record gets a corresponding permanent URL (PURL) page in the format [https://purl.stanford.edu/bb058zh0946](https://purl.stanford.edu/bb058zh0946).
 
-> [!WARNING]  
-> Geoblacklight v1 schema metadata in `metadata-1.0` is no longer updated and is provided for reference only. Links are likely to be broken.
-
 ## Contribution and enhancement status
 
 ![Open for metadata contributions](https://upload.wikimedia.org/wikipedia/commons/archive/0/0e/20170421060213%21Location_dot_green.svg) *Open for metadata corrections and enhancements*

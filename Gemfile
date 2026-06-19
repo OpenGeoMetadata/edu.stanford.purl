@@ -10,3 +10,4 @@ gem 'rake'
 gem 'rubocop', require: false
 gem "rubocop-rake", "~> 0.6.0", require: false
 gem "progress_bar", "~> 1.3"
+gem "geo_combine"

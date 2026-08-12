@@ -3,9 +3,7 @@
   "dct_title_s": "Cable and Pipeline Areas, Northeast United States, 1995-2011",
   "dct_description_sm": [
     "This polygon shapefile identifies locations that contain one or more submarine cable and/or pipeline areas in the Northeastern United States. This layer combines polygon data from the NOAA ENC Direct to GIS for the northeast region. The most recent NOAA Raster Navigational Charts (RNCs) were downloaded on August 5, 2011 for regions 1 and 2. Each chart at the 1:40,000 to 1:20:000 scale range was examined, with some additional charts at 1:15,000 for certain locations. The NOAA ENC Direct data were compared against the RNCs to identify cable and pipeline areas on the charts that required digitization. Digitization occurred at scales ranging from 1:12,000 to 1:4,000. Duplicates for existing features were examined and the least appropriate feature was deleted, and in some locations the cable or pipeline area boundary was redrawn. Areas labeled as Cable and Pipeline Areas on the RNCs were noted in the attribute table. Some features were merged into one feature if they represented the same cable area and corresponded to the same source chart. The original field names for source information, source date, and accompanying information about the area were retained from the NOAA ENC data, however excess fields were deleted. Originally cable and pipeline areas were created in separate datasets, yet these were integrated into a single dataset. Any duplicated features were removed and details on whether the feature represented a cable area, pipeline area, or both were noted in the attribute table.",
-    "To support coastal and ocean planning and other activities pursuant to the Coastal Zone Management Act, Energy Policy Act, Magnuson-Stevens Fishery Conservation and Management Act, National Environmental Policy Act, Rivers and Harbors Act and the Submerged Lands Act.",
-    "Not to be used for navigation",
-    "This layer is presented in the WGS84 coordinate system for web display purposes. Downloadable data are provided in native coordinate system or projection."
+    "To support coastal and ocean planning and other activities pursuant to the Coastal Zone Management Act, Energy Policy Act, Magnuson-Stevens Fishery Conservation and Management Act, National Environmental Policy Act, Rivers and Harbors Act and the Submerged Lands Act."
   ],
   "dct_language_sm": [
     "eng"
@@ -55,40 +53,17 @@
     2010,
     2011
   ],
-  "date_hierarchy_sm": [
-    "1900-1999",
-    "2000-2099",
-    "1900-1999:1990-1999",
-    "2000-2099:2000-2009",
-    "2000-2099:2010-2019",
-    "1900-1999:1990-1999:1995",
-    "1900-1999:1990-1999:1996",
-    "1900-1999:1990-1999:1997",
-    "1900-1999:1990-1999:1998",
-    "1900-1999:1990-1999:1999",
-    "2000-2099:2000-2009:2000",
-    "2000-2099:2000-2009:2001",
-    "2000-2099:2000-2009:2002",
-    "2000-2099:2000-2009:2003",
-    "2000-2099:2000-2009:2004",
-    "2000-2099:2000-2009:2005",
-    "2000-2099:2000-2009:2006",
-    "2000-2099:2000-2009:2007",
-    "2000-2099:2000-2009:2008",
-    "2000-2099:2000-2009:2009",
-    "2000-2099:2010-2019:2010",
-    "2000-2099:2010-2019:2011"
-  ],
   "schema_provider_s": "Stanford",
   "dct_identifier_sm": [
     "https://purl.stanford.edu/wv466fp2556"
   ],
-  "gbl_georeferenced_b": false,
+  "gbl_georeferenced_b": true,
   "gbl_resourceClass_sm": [
     "Datasets"
   ],
   "gbl_resourceType_sm": [
-    "Polygon data"
+    "Polygon data",
+    "Line data"
   ],
   "dct_format_s": "Shapefile",
   "locn_geometry": "ENVELOPE(-74.041667, -67.195556, 44.657222, 40.318056)",
@@ -103,8 +78,7 @@
     "This work is in the Public Domain, meaning that it is not subject to copyright."
   ],
   "dct_accessRights_s": "Public",
-  "gbl_mdModified_dt": "2026-03-18T21:01:58Z",
+  "gbl_mdModified_dt": "2026-07-23T22:13:00Z",
   "gbl_mdVersion_s": "Aardvark",
-  "gbl_wxsIdentifier_s": "druid:wv466fp2556",
-  "dct_references_s": "{\"http://schema.org/url\":\"https://purl.stanford.edu/wv466fp2556\",\"http://schema.org/downloadUrl\":[{\"url\":\"https://stacks.stanford.edu/object/wv466fp2556\",\"label\":\"Zipped object\"}],\"https://oembed.com\":\"https://purl.stanford.edu/embed.json?hide_title=true\\u0026url=https%3A%2F%2Fpurl.stanford.edu%2Fwv466fp2556\",\"http://iiif.io/api/presentation#manifest\":\"https://purl.stanford.edu/wv466fp2556/iiif3/manifest\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geowebservices.stanford.edu/geoserver/wms\",\"http://www.opengis.net/def/serviceType/ogc/wfs\":\"https://geowebservices.stanford.edu/geoserver/wfs\",\"https://schema.org/relatedLink\":\"https://searchworks.stanford.edu/view/wv466fp2556\"}"
+  "dct_references_s": "{\"http://schema.org/url\":\"https://purl.stanford.edu/wv466fp2556\",\"https://oembed.com\":\"https://purl.stanford.edu/embed.json?hide_title=true\\u0026url=https%3A%2F%2Fpurl.stanford.edu%2Fwv466fp2556\",\"http://schema.org/thumbnailUrl\":\"https://stacks.stanford.edu/image/iiif/wv466fp2556%2FCableAndPipelineAreas/full/!400,400/0/default.jpg\",\"https://schema.org/relatedLink\":\"https://searchworks.stanford.edu/view/wv466fp2556\",\"http://www.isotc211.org/schemas/2005/gmd\":\"https://stacks.stanford.edu/file/druid:wv466fp2556/CableAndPipelineAreas-iso19139.xml\",\"http://www.isotc211.org/schemas/2005/gco\":\"https://stacks.stanford.edu/file/druid:wv466fp2556/CableAndPipelineAreas-iso19110.xml\",\"https://github.com/protomaps/PMTiles\":\"https://stacks.stanford.edu/file/druid:wv466fp2556/CableAndPipelineAreas.pmtiles\",\"https://flatgeobuf.org/\":\"https://stacks.stanford.edu/file/druid:wv466fp2556/CableAndPipelineAreas.fgb\",\"http://schema.org/downloadUrl\":[{\"url\":\"https://stacks.stanford.edu/object/wv466fp2556\",\"label\":\"Zipped object\"}]}"
 }

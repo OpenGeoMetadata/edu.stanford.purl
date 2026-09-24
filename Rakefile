@@ -13,6 +13,11 @@ require 'json'
 require 'net/http'
 require 'time'
 require 'fileutils'
+require 'progress_bar'
+
+# progress_bar draws on stderr, which is never buffered; unbuffer stdout too so
+# our own lines stay in order with the bars when output isn't a terminal (CI).
+$stdout.sync = true
 
 HOST = ENV.fetch('EARTHWORKS_HOST', 'https://earthworks.stanford.edu')
 BASE_DIR = ENV.fetch('BASE_DIR', 'metadata-aardvark')
@@ -27,7 +32,7 @@ MAX_DOCUMENTS = 8000
 
 # How many records to read at once. Any higher than this off VPN will just get
 # you more resets from the F5 firewall. On VPN, you can bump it up more.
-CONCURRENCY = Integer(ENV.fetch('CONCURRENCY', '4'))
+THREADS = Integer(ENV.fetch('THREADS', '4'))
 
 # Internal solr fields that aren't valid in Aardvark; we strip them out.
 IGNORED_FIELDS = %w[timestamp layer_availability_score_f _version_ hashed_id_ssi
@@ -70,26 +75,38 @@ end
 
 # Get every document ID, or only those changed since a timestamp
 def document_ids(since: nil)
-  ids = []
-  (1..).each do |page|
-    body = get_json(search_path(page, since:))
-    ids.concat(body['data'].map { |document| document['id'] })
-    return ids if page >= body.dig('meta', 'pages', 'total_pages')
+  first = get_json(search_path(1, since:))
+  pages = first.dig('meta', 'pages', 'total_pages')
+  bar = ProgressBar.new(pages)
+  ids = (1..pages).flat_map do |page|
+    body = page == 1 ? first : get_json(search_path(page, since:))
+    bar.increment!
+    body['data'].map { |document| document['id'] }
   end
+  warn '' if pages.positive? # progress_bar doesn't end its line
+  ids
 end
 
-# Read each record at the given ID and write it out, CONCURRENCY at a time.
+# How many records changed since a timestamp, from the first page alone.
+def modified_count(since)
+  get_json(search_path(1, since:)).dig('meta', 'pages', 'total_count')
+end
+
+# Read each record at the given ID and write it out, THREADS at a time.
 def read_documents(ids)
   queue = Queue.new(ids).close
-  Array.new(CONCURRENCY) do
+  bar = ProgressBar.new(ids.size)
+  lock = Mutex.new # progress_bar isn't thread-safe
+  Array.new(THREADS) do
     Thread.new do
       while (id = queue.pop)
         document = get_json("/catalog/#{id}/raw")
         write_document(document) if document
-        puts "  #{queue.size} left to read" if queue.size.positive? && (queue.size % 1000).zero?
+        lock.synchronize { bar.increment! }
       end
     end
   end.each(&:join)
+  warn '' unless ids.empty? # progress_bar doesn't end its line
 end
 
 # Write a document hash to a place in the tree based on its DRUID.
@@ -120,9 +137,11 @@ task :harvest do
   # full reindex but we didn't request one. Skip this on a full run.
   modified_ids = []
   if since
+    count = modified_count(since)
+    puts "== #{count} records modified since #{since.utc.iso8601} =="
+    abort "Over #{MAX_DOCUMENTS} records modified; run this with FULL=1 on VPN" if count >= MAX_DOCUMENTS
+
     modified_ids = document_ids(since:)
-    puts "== #{modified_ids.size} records modified since #{since.utc.iso8601} =="
-    abort "Over #{MAX_DOCUMENTS} records modified; run this with FULL=1 on VPN" if modified_ids.size >= MAX_DOCUMENTS
   end
 
   # Get IDs for everything currently in Earthworks, plus the IDs of everything

@@ -9,6 +9,8 @@ on:
 jobs:
   run-rake-task:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
@@ -20,9 +22,10 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "4.0"
+          bundler-cache: true
 
       - name: Run harvester
-        run: rake
+        run: bundle exec rake
 
       - name: Commit and push changes
         run: |

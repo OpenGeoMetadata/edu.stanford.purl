@@ -1,184 +1,178 @@
 # frozen_string_literal: true
 
-task default: %i[update delete write_layers_json]
+# Harvests OGM Aardvark metadata for Stanford's records by crawling EarthWorks'
+# own Blacklight index: /catalog.json lists record ids a page at a time, and
+# /catalog/:id/raw returns a record's Solr document.
+#
+# Each run reads the records Solr has written since the last run, then lists
+# every record to find any EarthWorks has dropped or we have never held. Set
+# FULL to read every record instead; that takes hours from off campus, so do it
+# on the Stanford network.
 
 require 'json'
-require 'faraday'
-require 'faraday/net_http_persistent'
-require 'faraday/retry'
-require 'uri'
-require 'debug'
-require 'progress_bar'
-require 'progress_bar/core_ext/enumerable_with_progress'
+require 'net/http'
 require 'time'
+require 'fileutils'
+require 'progress_bar'
 
-CATALOG_URL = ENV.fetch('CATALOG_URL', 'https://earthworks.stanford.edu/catalog')
-PURL_FETCHER_URL = ENV.fetch('PURL_FETCHER_URL', 'https://purl-fetcher.stanford.edu')
+# progress_bar draws on stderr, which is never buffered; unbuffer stdout too so
+# our own lines stay in order with the bars when output isn't a terminal (CI).
+$stdout.sync = true
+
+HOST = ENV.fetch('EARTHWORKS_HOST', 'https://earthworks.stanford.edu')
 BASE_DIR = ENV.fetch('BASE_DIR', 'metadata-aardvark')
-INSTITUTION = 'Stanford'
-IGNORED_FIELDS = %w[timestamp layer_availability_score_f _version_ hashed_id_ssi solr_bboxtype__minX
-                    solr_bboxtype__maxX solr_bboxtype__minY solr_bboxtype__maxY].freeze
-DOC_ID_REGEX = /\Astanford-([b-df-hjkmnp-tv-z]{2})([0-9]{3})([b-df-hjkmnp-tv-z]{2})([0-9]{4})\z/i
 
-# Wrap a function with a timestamp file to avoid re-processing documents
-# If the block returns a timestamp, update the timestamp file
-def with_timestamp(timestamp_file = './last_run')
-  return unless block_given?
+# Check up to 1hr before the last run date, to give room for clock skew and
+# anything that got updated but hasn't been committed yet.
+OVERLAP = 3600
 
-  # Call the provided block with the previous timestamp, receiving the most
-  # recent document's timestamp as the result of the block
-  previous_timestamp = get_file_timestamp(timestamp_file)
-  last_timestamp = yield(previous_timestamp)
-  return unless last_timestamp
+# If there are this many changed records or more, bail out and request a full
+# reindex on VPN, because it'll take too long otherwise.
+MAX_DOCUMENTS = 8000
 
-  # If the most recent document is in the past (beyond any reasonable clock-skew)
-  # go ahead and bump the timestamp so we don't repeat documents
-  start_timestamp = Time.now.utc
-  last_timestamp = (Time.parse(last_timestamp) + 1).utc.iso8601 if (Time.parse(last_timestamp) + 3600) < start_timestamp
-  puts "Updating last run: #{last_timestamp}"
-  File.open(timestamp_file, 'w') { |f| f.puts last_timestamp }
+# How many records to read at once. Any higher than this off VPN will just get
+# you more resets from the F5 firewall. On VPN, you can bump it up more.
+THREADS = Integer(ENV.fetch('THREADS', '4'))
+
+# Internal solr fields that aren't valid in Aardvark; we strip them out.
+IGNORED_FIELDS = %w[timestamp layer_availability_score_f _version_ hashed_id_ssi
+                    solr_bboxtype__minX solr_bboxtype__maxX solr_bboxtype__minY
+                    solr_bboxtype__maxY].freeze
+
+# Used to split a DRUID into the filesystem tree.
+DRUID_REGEX = /\Astanford-([b-df-hjkmnp-tv-z]{2})([0-9]{3})([b-df-hjkmnp-tv-z]{2})([0-9]{4})\z/i
+
+HEADERS = {
+  # Earthworks checks for this and skips Cloudflare Turnstile if present.
+  'sec-fetch-dest' => 'empty',
+  # Anything with "bot" tells Blacklight not to keep a search session for each request.
+  'User-Agent' => 'OpenGeoMetadata harvester (bot; +https://github.com/OpenGeoMetadata/edu.stanford.purl)'
+}.freeze
+
+# GET a path and parse the JSON, or return nil for a 404. Stanford's F5 resets
+# connections from off campus when requests come quickly, so each request gets
+# its own connection and a few retries.
+def get_json(path, attempt = 1)
+  response = Net::HTTP.get_response(URI("#{HOST}#{path}"), HEADERS)
+  return if response.code == '404'
+  raise "HTTP #{response.code}" unless response.code == '200'
+
+  JSON.parse(response.body)
+rescue StandardError => e
+  raise "giving up on #{path}: #{e.message}" if attempt == 5
+
+  sleep 2**attempt
+  get_json(path, attempt + 1)
 end
 
-# Check the timestamp file for the last run time
-def get_file_timestamp(file)
-  timestamp = Time.parse(File.read(file).strip)
-  puts "Last run: #{timestamp}"
-  timestamp
-rescue Errno::ENOENT
-  puts "No timestamp found in #{file}"
-  nil
-rescue ArgumentError
-  puts "Invalid timestamp format in #{file}"
-  nil
+# Request URL for the list of records. Sorted by ID, so records getting updated
+# during the reindex doesn't reset the ordering.
+def search_path(page, since: nil)
+  query = { 'per_page' => 100, 'page' => page, 'sort' => 'id asc', 'f[schema_provider_s][]' => 'Stanford' }
+  query['q'] = "timestamp:[#{since.utc.iso8601} TO *]" if since
+  "/catalog.json?#{URI.encode_www_form(query)}"
 end
 
-# Settings for retrying requests if the server rejects them
-# See: https://github.com/lostisland/faraday-retry
-def retry_options
-  {
-    max: 10,
-    interval: 1,
-    backoff_factor: 3,
-    exceptions: [Faraday::TimeoutError, Faraday::ConnectionFailed, Faraday::TooManyRequestsError]
-  }
-end
-
-# Persistent HTTP client with backoff used to make catalog requests
-# pool_size controls parallelism
-def make_client(pool_size: 1)
-  Faraday.new(CATALOG_URL) do |conn|
-    conn.request :retry, retry_options
-    conn.adapter(:net_http_persistent, pool_size:)
-    conn.response :raise_error
+# Get every document ID, or only those changed since a timestamp
+def document_ids(since: nil)
+  first = get_json(search_path(1, since:))
+  pages = first.dig('meta', 'pages', 'total_pages')
+  bar = ProgressBar.new(pages)
+  ids = (1..pages).flat_map do |page|
+    body = page == 1 ? first : get_json(search_path(page, since:))
+    bar.increment!
+    body['data'].map { |document| document['id'] }
   end
+  warn '' if pages.positive? # progress_bar doesn't end its line
+  ids
 end
 
-# Make an HTTP request and return parsed JSON
-def get_json(url, params: {}, client: make_client)
-  JSON.parse(client.get(url, params).body.to_s)
+# How many records changed since a timestamp, from the first page alone.
+def modified_count(since)
+  get_json(search_path(1, since:)).dig('meta', 'pages', 'total_count')
 end
 
-# Yield all documents from the catalog updated since the given timestamp
-# Returns the result of calling the block on each document
-def updated_docs_since(timestamp = Time.at(0), &block)
-  # Query purl-fetcher for all released layers and filter to those updated since the timestamp
-  layers = get_json("#{PURL_FETCHER_URL}/released/Earthworks.json")
-  layers.filter! { |layer| Time.parse(layer['updated_at']) > timestamp } if timestamp
-  puts layers.empty? ? '== No updated layers found ==' : "== Found #{layers.length} updated layers =="
-
-  # For each druid, yield the parsed geoblacklight JSON from the catalog
-  client = make_client(pool_size: 4)
-  layers.map { |layer| layer['druid'].gsub('druid:', 'stanford-') }.with_progress.map do |doc_id|
-    block.call(get_json("#{CATALOG_URL}/#{doc_id}/raw", params: { format: :json }, client:))
-  rescue Faraday::ResourceNotFound
-    # Released but not indexed (e.g. because of bad metadata); ignore
-  end.compact
-end
-
-# Call block on all documents listed in layers.json that are no longer released
-# Returns the result of calling the block on each document
-def deleted_docs(&block)
-  # Query purl-fetcher for all released layers and compare to layers.json
-  released = get_json("#{PURL_FETCHER_URL}/released/Earthworks").map { |layer| layer['druid'] }
-  old = JSON.parse(File.read('layers.json')).keys
-  deleted = old.to_set - released.to_set
-  puts deleted.empty? ? '== No deleted layers found ==' : "== Found #{deleted.length} deleted layers =="
-
-  # For each druid, call the block with its document ID
-  deleted.map { |druid| druid.gsub('druid:', 'stanford-') }.with_progress.map do |doc_id|
-    block.call(doc_id)
-  end
-end
-
-# Write the document's metadata to a file in the appropriate directory
-# Returns the document's timestamp
-def write_doc_metadata(doc)
-  # Find the nested directory structure for the document
-  tree_dirs = doc['id'].match(DOC_ID_REGEX).captures.join('/')
-  return if tree_dirs.empty?
-
-  # Create the directory structure if it doesn't exist
-  tree = File.expand_path("#{BASE_DIR}/#{tree_dirs}")
-  FileUtils.mkdir_p(tree)
-
-  # Strip out ignored fields and write the document to the directory
-  IGNORED_FIELDS.each { |field| doc.delete(field) }
-  File.open("#{tree}/geoblacklight.json", 'w') { |f| f.puts JSON.pretty_generate(doc) }
-
-  # Return the document's timestamp
-  doc['gbl_mdModified_dt']
-end
-
-# Delete a document and its containing directory
-# Takes a document id like 'stanford-bb058zh0946'
-def delete_doc(doc_id)
-  # Find the nested directory structure for the document
-  tree_dirs = doc_id.match(DOC_ID_REGEX).captures.join('/')
-  return if tree_dirs.empty?
-
-  # Delete the directory if it exists
-  tree = File.expand_path("#{BASE_DIR}/#{tree_dirs}")
-  FileUtils.rm_rf(tree)
-end
-
-# This is run first
-desc 'Update metadata for layers'
-task :update do
-  puts '== Updating metadata for layers =='
-
-  with_timestamp do |previous_timestamp|
-    updated = updated_docs_since(previous_timestamp) do |doc|
-      write_doc_metadata(doc)
+# Read each record at the given ID and write it out, THREADS at a time.
+def read_documents(ids)
+  queue = Queue.new(ids).close
+  bar = ProgressBar.new(ids.size)
+  lock = Mutex.new # progress_bar isn't thread-safe
+  Array.new(THREADS) do
+    Thread.new do
+      while (id = queue.pop)
+        document = get_json("/catalog/#{id}/raw")
+        write_document(document) if document
+        lock.synchronize { bar.increment! }
+      end
     end
-
-    # Return the most recent timestamp from the updated documents
-    updated.max_by { |timestamp| Time.parse(timestamp) }
-  end
+  end.each(&:join)
+  warn '' unless ids.empty? # progress_bar doesn't end its line
 end
 
-# This task is run after the update task
-desc 'Delete metadata for layers no longer released'
-task :delete do
-  puts '== Deleting metadata for layers no longer released =='
+# Write a document hash to a place in the tree based on its DRUID.
+def write_document(document)
+  tree = document['id'].match(DRUID_REGEX)&.captures&.join('/')
+  return unless tree
 
-  deleted_docs do |doc_id|
-    delete_doc(doc_id)
-  end
+  path = File.join(BASE_DIR, tree)
+  FileUtils.mkdir_p(path)
+  IGNORED_FIELDS.each { |field| document.delete(field) }
+  File.write(File.join(path, 'geoblacklight.json'), "#{JSON.pretty_generate(document)}\n")
 end
 
-# See: https://opengeometadata.org/share-on-ogm/#naming-by-metadata-standard
-# This task is run after the update and delete tasks
-desc 'Write layers.json mapping layer IDs to file paths'
+# Delete a document from the DRUID tree, given its ID.
+def delete_document(id)
+  tree = id.match(DRUID_REGEX)&.captures&.join('/')
+  FileUtils.rm_rf(File.join(BASE_DIR, tree)) if tree
+end
+
+task default: :harvest
+
+desc 'Harvest records changed since the last run, and remove any EarthWorks has dropped'
+task :harvest do
+  since = Time.parse(File.read('last_run')) - OVERLAP unless ENV['FULL']
+  started = Time.now.utc
+
+  # Check how many records modified since last timestamp; bail out if we need a
+  # full reindex but we didn't request one. Skip this on a full run.
+  modified_ids = []
+  if since
+    count = modified_count(since)
+    puts "== #{count} records modified since #{since.utc.iso8601} =="
+    abort "Over #{MAX_DOCUMENTS} records modified; run this with FULL=1 on VPN" if count >= MAX_DOCUMENTS
+
+    modified_ids = document_ids(since:)
+  end
+
+  # Get IDs for everything currently in Earthworks, plus the IDs of everything
+  # in this repo (via layers.json).
+  current_ids = document_ids
+  known_ids = JSON.parse(File.read('layers.json')).keys.map { |druid| druid.sub('druid:', 'stanford-') }
+  newly_added_ids = (current_ids - known_ids)
+  puts "== #{current_ids.size} records in EarthWorks, #{known_ids.size} here, #{newly_added_ids.size} newly added =="
+
+  # Update everything that should be updated: modified records plus newly added
+  # records. For a full reindex this is just the entire catalog.
+  updated_ids = since ? (modified_ids + newly_added_ids).uniq : current_ids
+  read_documents(updated_ids)
+  puts "== Updated #{updated_ids.size} records =="
+
+  # Delete everything that is in this repo but not in the current catalog.
+  gone_ids = known_ids - current_ids
+  gone_ids.each { |id| delete_document(id) }
+  puts "== Removed #{gone_ids.size} records =="
+
+  # Update layers.json and move the last run timestamp.
+  Rake::Task[:write_layers_json].invoke
+  File.write('last_run', "#{started.iso8601}\n")
+end
+
+desc 'Write layers.json mapping druids to their directories'
 task :write_layers_json do
-  data = {}
-
-  # Crawl the directory structure and get each druid with its directory
-  Dir.glob("#{BASE_DIR}/**/geoblacklight.json").each do |file|
-    druid = File.dirname(file).split(%r{/}).drop(1).join
-    data["druid:#{druid}"] = File.dirname(file)
+  layers = Dir.glob("#{BASE_DIR}/**/geoblacklight.json").to_h do |file|
+    directory = File.dirname(file)
+    ["druid:#{directory.split('/').drop(1).join}", directory]
   end
-
-  # Write the JSON to a file
-  File.open('./layers.json', 'w') { |f| f.puts JSON.pretty_generate(data) }
-  puts "== Wrote #{data.length} layers to layers.json =="
+  File.write('layers.json', "#{JSON.pretty_generate(layers.sort.to_h)}\n")
+  puts "== Wrote #{layers.size} layers to layers.json =="
 end

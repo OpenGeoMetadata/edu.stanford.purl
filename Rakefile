@@ -8,6 +8,9 @@
 # every record to find any EarthWorks has dropped or we have never held. Set
 # FULL to read every record instead; that takes hours from off campus, so do it
 # on the Stanford network.
+#
+# Records EarthWorks has dropped are deleted here and logged in withdrawn.json,
+# which tells harvesters like GeoCombine to delete them from their indexes too.
 
 require 'json'
 require 'net/http'
@@ -33,6 +36,15 @@ MAX_DOCUMENTS = 8000
 # How many records to read at once. Any higher than this off VPN will just get
 # you more resets from the F5 firewall. On VPN, you can bump it up more.
 THREADS = Integer(ENV.fetch('THREADS', '4'))
+
+# Every record removed here is withdrawn from every index that harvests this
+# repository, so bail out if EarthWorks seems to have dropped more than this
+# share of our records at once, unless FORCE is set.
+MAX_SHRINK = 0.02
+
+# The OpenGeoMetadata withdrawal log: https://opengeometadata.org/withdraw-records/
+WITHDRAWN_FILE = 'withdrawn.json'
+WITHDRAWALS_SCHEMA = 'https://opengeometadata.org/schema/ogm-withdrawals-1.0.json'
 
 # Internal solr fields that aren't valid in Aardvark; we strip them out.
 IGNORED_FIELDS = %w[timestamp layer_availability_score_f _version_ hashed_id_ssi
@@ -126,6 +138,30 @@ def delete_document(id)
   FileUtils.rm_rf(File.join(BASE_DIR, tree)) if tree
 end
 
+# Bail out before writing anything if EarthWorks seems to have lost a lot of
+# records at once, since we'd withdraw them all.
+def check_shrink(gone_ids, known_ids)
+  return if ENV['FORCE'] || gone_ids.size <= known_ids.size * MAX_SHRINK
+
+  abort "EarthWorks is missing #{gone_ids.size} of our #{known_ids.size} records; " \
+        'run this with FORCE=1 if they really are gone'
+end
+
+# Log removed records in withdrawn.json; deleting their files alone doesn't tell
+# harvesters to delete them. New entries go at the end, and an entry is dropped
+# only when its record is back in EarthWorks.
+def log_withdrawals(gone_ids, current_ids, date)
+  log = if File.exist?(WITHDRAWN_FILE)
+          JSON.parse(File.read(WITHDRAWN_FILE))
+        else
+          { '$schema' => WITHDRAWALS_SCHEMA, 'ogm_version' => '1.0', 'withdrawn' => [] }
+        end
+  entries = log['withdrawn'].to_h { |entry| [entry['id'], entry] }
+  current_ids.each { |id| entries.delete(id) }
+  gone_ids.each { |id| entries[id] ||= { 'id' => id, 'date' => date, 'reason' => 'upstream-removed' } }
+  File.write(WITHDRAWN_FILE, "#{JSON.pretty_generate(log.merge('withdrawn' => entries.values))}\n")
+end
+
 task default: :harvest
 
 desc 'Harvest records changed since the last run, and remove any EarthWorks has dropped'
@@ -149,7 +185,9 @@ task :harvest do
   current_ids = document_ids
   known_ids = JSON.parse(File.read('layers.json')).keys.map { |druid| druid.sub('druid:', 'stanford-') }
   newly_added_ids = (current_ids - known_ids)
+  gone_ids = known_ids - current_ids
   puts "== #{current_ids.size} records in EarthWorks, #{known_ids.size} here, #{newly_added_ids.size} newly added =="
+  check_shrink(gone_ids, known_ids)
 
   # Update everything that should be updated: modified records plus newly added
   # records. For a full reindex this is just the entire catalog.
@@ -157,10 +195,11 @@ task :harvest do
   read_documents(updated_ids)
   puts "== Updated #{updated_ids.size} records =="
 
-  # Delete everything that is in this repo but not in the current catalog.
-  gone_ids = known_ids - current_ids
+  # Delete and withdraw everything that is in this repo but not in the current
+  # catalog.
   gone_ids.each { |id| delete_document(id) }
-  puts "== Removed #{gone_ids.size} records =="
+  log_withdrawals(gone_ids, current_ids, started.strftime('%F'))
+  puts "== Removed and withdrew #{gone_ids.size} records =="
 
   # Update layers.json and move the last run timestamp.
   Rake::Task[:write_layers_json].invoke

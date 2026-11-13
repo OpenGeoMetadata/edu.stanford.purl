@@ -28,6 +28,14 @@ rake
 
 After the run, the files in `metadata-aardvark` will be updated with the latest metadata from Earthworks, and the `layers.json` index file will be updated accordingly. The `last_run` file will also be updated with the date and time of the run.
 
+When a record leaves Earthworks, the harvest deletes its file and adds an entry for it to [`withdrawn.json`](withdrawn.json), following the [OpenGeoMetadata withdrawal convention](https://opengeometadata.org/withdraw-records/). Harvesters such as [GeoCombine](https://github.com/OpenGeoMetadata/GeoCombine) (0.12 and later) read it and delete those records from their indexes; deleting the file alone doesn't tell them to. If a withdrawn record comes back to Earthworks, the next run removes its entry.
+
+Because a withdrawal reaches every index that harvests this repository, the harvest stops without changing anything if Earthworks seems to have dropped more than 2% of the records here at once (see `MAX_SHRINK` in the Rakefile). If those records really are gone, run it again with `FORCE` set:
+
+```bash
+FORCE=1 rake
+```
+
 Note that GitHub actions runs this process regularly and commits the results on its own.
 
 ### Full reindex
